@@ -1102,7 +1102,7 @@ class AdvancedGrowthStrategies:
                 "description": "Weekly deep-dives into DevOps tools with honest pros/cons analysis",
                 "post_count": 26,
                 "frequency": "Weekly (Tuesdays)",
-                "engagement_hook": "Tool review format: 'What I love, what I hate, what you should know'",
+                "engagement_hook": "Tool review format: 'The good, the bad, and what you should know'",
                 "cta_pattern": "What's your experience with this tool?",
                 "hashtags": ["#tooltalktuesday", "#devopstools", "#techreview"]
             },

@@ -960,7 +960,7 @@ def remove_first_person_pronouns(text: str) -> str:
     
     # Replace common first-person patterns with authoritative alternatives
     replacements = [
-        # "I" patterns
+        # "I" patterns - comprehensive coverage
         (r'\bI recall\b', 'Consider'),
         (r'\bI remember\b', 'Consider'),
         (r'\bI\'ve seen\b', 'Experience shows'),
@@ -969,16 +969,57 @@ def remove_first_person_pronouns(text: str) -> str:
         (r'\bI have learned\b', 'The lesson is clear:'),
         (r'\bI\'ve found\b', 'Evidence shows'),
         (r'\bI have found\b', 'Evidence shows'),
+        (r'\bI\'ve noticed\b', 'It\'s notable that'),
+        (r'\bI have noticed\b', 'It\'s notable that'),
+        (r'\bI\'ve observed\b', 'Observations show'),
+        (r'\bI\'ve worked\b', 'Working'),
+        (r'\bI have worked\b', 'Working'),
+        (r'\bI\'ve been\b', 'Having been'),
+        (r'\bI\'ve helped\b', 'Helping teams'),
+        (r'\bI\'ve built\b', 'Building'),
+        (r'\bI\'ve implemented\b', 'Implementing'),
         (r'\bI believe\b', 'The reality is'),
         (r'\bI think\b', 'The evidence suggests'),
         (r'\bI know\b', 'It\'s clear'),
+        (r'\bI love\b', 'The best part:'),
+        (r'\bI hate\b', 'The downside:'),
+        (r'\bI recommend\b', 'The recommendation:'),
+        (r'\bI suggest\b', 'The suggestion:'),
+        (r'\bI prefer\b', 'The preference:'),
+        (r'\bI use\b', 'Teams use'),
+        (r'\bI used\b', 'Teams have used'),
+        (r'\bI would\b', 'One would'),
+        (r'\bI could\b', 'One could'),
+        (r'\bI should\b', 'One should'),
+        (r'\bI can\b', 'One can'),
+        (r'\bI will\b', 'This will'),
+        (r'\bI want\b', 'The goal is'),
+        (r'\bI need\b', 'The need is'),
+        (r'\bI realized\b', 'It became clear'),
         (r'\bIn my experience\b', 'In practice'),
         (r'\bIn my view\b', 'The data shows'),
+        (r'\bIn my opinion\b', 'The evidence suggests'),
         (r'\bFrom my experience\b', 'From real-world experience'),
+        (r'\bFrom my perspective\b', 'From a practical perspective'),
         (r'\bI\'m\b', 'One is'),
         (r'\bI am\b', 'One is'),
         (r'\bI was\b', 'The situation was'),
         (r'\bI had\b', 'There was'),
+        (r'\bI did\b', 'The approach was'),
+        (r'\bwhat I\b', 'what teams'),
+        (r'\bWhat I\b', 'What teams'),
+        (r'\bthat I\b', 'that teams'),
+        (r'\bThat I\b', 'That teams'),
+        (r'\bwhen I\b', 'when teams'),
+        (r'\bWhen I\b', 'When teams'),
+        (r'\bif I\b', 'if teams'),
+        (r'\bIf I\b', 'If teams'),
+        (r'\bbefore I\b', 'before teams'),
+        (r'\bafter I\b', 'after teams'),
+        (r'\btells me\b', 'indicates'),
+        (r'\bshowed me\b', 'demonstrated'),
+        (r'\btaught me\b', 'demonstrated'),
+        (r'\bhelped me\b', 'proved helpful'),
         
         # "We/Our/Us" patterns  
         (r'\bWe implemented\b', 'The implementation'),
@@ -989,6 +1030,18 @@ def remove_first_person_pronouns(text: str) -> str:
         (r'\bWe needed\b', 'The need was'),
         (r'\bWe were\b', 'The team was'),
         (r'\bWe had\b', 'There was'),
+        (r'\bWe built\b', 'Building'),
+        (r'\bWe created\b', 'Creating'),
+        (r'\bWe use\b', 'Teams use'),
+        (r'\bWe used\b', 'Teams used'),
+        (r'\bWe can\b', 'Teams can'),
+        (r'\bWe should\b', 'Teams should'),
+        (r'\bWe need\b', 'Teams need'),
+        (r'\bWe want\b', 'The goal is'),
+        (r'\bWe recommend\b', 'The recommendation:'),
+        (r'\bWe suggest\b', 'The suggestion:'),
+        (r'\bwe\'ve\b', 'teams have'),
+        (r'\bWe\'ve\b', 'Teams have'),
         (r'\bour team\b', 'the team'),
         (r'\bOur team\b', 'The team'),
         (r'\bour process\b', 'the process'),
@@ -997,12 +1050,47 @@ def remove_first_person_pronouns(text: str) -> str:
         (r'\bOur approach\b', 'The approach'),
         (r'\bour solution\b', 'the solution'),
         (r'\bOur solution\b', 'The solution'),
+        (r'\bour experience\b', 'industry experience'),
+        (r'\bOur experience\b', 'Industry experience'),
+        (r'\bour data\b', 'the data'),
+        (r'\bOur data\b', 'The data'),
+        (r'\bour findings\b', 'the findings'),
+        (r'\bOur findings\b', 'The findings'),
+        (r'\bfor us\b', 'for teams'),
+        (r'\bFor us\b', 'For teams'),
+        (r'\bto us\b', 'to teams'),
+        (r'\bhelps us\b', 'helps teams'),
+        (r'\bshows us\b', 'shows'),
+        (r'\btells us\b', 'indicates'),
+        (r'\bgave us\b', 'provided'),
         
         # "My" patterns
         (r'\bmy experience\b', 'industry experience'),
         (r'\bMy experience\b', 'Industry experience'),
         (r'\bmy team\b', 'the team'),
         (r'\bMy team\b', 'The team'),
+        (r'\bmy approach\b', 'the approach'),
+        (r'\bMy approach\b', 'The approach'),
+        (r'\bmy recommendation\b', 'the recommendation'),
+        (r'\bMy recommendation\b', 'The recommendation'),
+        (r'\bmy advice\b', 'the advice'),
+        (r'\bMy advice\b', 'The advice'),
+        (r'\bmy take\b', 'the take'),
+        (r'\bMy take\b', 'The take'),
+        (r'\bmy view\b', 'the view'),
+        (r'\bMy view\b', 'The view'),
+        (r'\bmy opinion\b', 'the opinion'),
+        (r'\bMy opinion\b', 'The opinion'),
+        (r'\bmy perspective\b', 'a practical perspective'),
+        (r'\bMy perspective\b', 'A practical perspective'),
+        (r'\bmy observation\b', 'the observation'),
+        (r'\bMy observation\b', 'The observation'),
+        
+        # "Me" patterns
+        (r'\bto me\b', 'notably'),
+        (r'\bfor me\b', 'in practice'),
+        (r'\basks me\b', 'the question arises:'),
+        (r'\basked me\b', 'the question arose:'),
     ]
     
     for pattern, replacement in replacements:
@@ -1044,9 +1132,10 @@ FORMATTING REQUIREMENTS:
 CONTENT REQUIREMENTS:
 - Tone: {tone}, authoritative, industry-leader perspective
 - Length: 800-1200 characters total
-- CRITICAL: Do NOT use first-person pronouns (I, me, my, we, our, us)
-- Write from an objective, authoritative third-person perspective
-- Use phrases like "Teams often find...", "The data shows...", "Experience reveals..."
+- CRITICAL: NEVER use first-person pronouns. FORBIDDEN words: I, I'm, I've, I'll, me, my, mine, we, we're, we've, our, ours, us
+- Write from an objective, authoritative third-person perspective ONLY
+- Use phrases like: "Teams often find...", "The data shows...", "Experience reveals...", "Evidence suggests...", "The reality is...", "Production experience shows..."
+- NEVER start sentences with "I" or use phrases like "In my experience", "I believe", "I think", "I've seen"
 - End with the call-to-action: {cta}
 - Do NOT include hashtags (they'll be added separately)
 
