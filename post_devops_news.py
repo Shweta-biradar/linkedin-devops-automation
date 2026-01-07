@@ -767,7 +767,7 @@ CUSTOM_MESSAGE = os.environ.get("CUSTOM_MESSAGE", "")  # Override with custom me
 # Growth Plan Integration
 USE_GROWTH_PLAN = os.environ.get("USE_GROWTH_PLAN", "true").lower() == "true"
 GROWTH_PLAN_FILE = os.environ.get("GROWTH_PLAN_FILE", "weekly_growth_plan.json")
-GROWTH_PLAN_PROBABILITY = float(os.environ.get("GROWTH_PLAN_PROBABILITY", "0.7"))  # 70% growth plan, 30% RSS news
+GROWTH_PLAN_PROBABILITY = float(os.environ.get("GROWTH_PLAN_PROBABILITY", "0.4"))  # 40% growth plan (intelligent), 60% RSS news
 
 # Rate limiting
 # Rate limiting and timing controls
