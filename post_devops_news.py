@@ -7,13 +7,20 @@ _USED_FOOTER_QUESTIONS = []
 # --- Default config for missing variables ---
 import os
 
-ENABLE_AI_ENHANCE = False
+
+# --- AI enhancement config ---
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+HF_API_KEY = os.environ.get("HF_API_KEY", "")
 FREE_AI_PROVIDERS = {}
 AI_SUMMARIZATION_MODELS = []
 AI_GENERATION_MODELS = []
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-HF_API_KEY = os.environ.get("HF_API_KEY", "")
+# Enable AI if any key is present or if ENABLE_AI_ENHANCE is set true
+_ai_env_flag = os.environ.get("ENABLE_AI_ENHANCE", "").lower()
+ENABLE_AI_ENHANCE = (
+    _ai_env_flag == "true" or
+    bool(GROQ_API_KEY) or bool(GEMINI_API_KEY) or bool(HF_API_KEY)
+)
 
 def get_enabled_providers():
     return []
@@ -860,6 +867,143 @@ REQUIRE_MANUAL_APPROVAL = os.environ.get("REQUIRE_MANUAL_APPROVAL", "false").low
 
 SESSION = requests.Session()
 
+# --- Helper: clip ---
+def clip(text, max_chars, preserve_hashtags=False):
+    """Clip text to max_chars, optionally preserving hashtags at the end."""
+    if len(text) <= max_chars:
+        return text
+    if preserve_hashtags:
+        parts = text.split("\n")
+        hashtags = [line for line in parts if line.strip().startswith("#")]
+        non_hashtags = [line for line in parts if not line.strip().startswith("#")]
+        clipped = "\n".join(non_hashtags)
+        if len(clipped) > max_chars:
+            clipped = clipped[:max_chars].rstrip()
+        if hashtags:
+            return f"{clipped}\n" + "\n".join(hashtags)
+        return clipped
+    return text[:max_chars].rstrip()
+
+# --- Helper: get_hashtags ---
+def get_hashtags(max_count=None, context_tags=None):
+    """Return a string of hashtags, optionally including context-specific tags."""
+    tags = list(HASHTAGS)
+    if context_tags:
+        tags = list(dict.fromkeys(context_tags + tags))
+    random.shuffle(tags)
+    if max_count:
+        tags = tags[:max_count]
+    return " ".join(tags)
+
+# --- Helper: get_emoji ---
+def get_emoji(name):
+    emoji_map = {
+        "hook": "🚀",
+        "arrow": "➡️",
+        "bullet": "•",
+        "star": "⭐",
+        "fire": "🔥",
+        "lightbulb": "💡",
+        "thread": "🧵",
+    }
+    return emoji_map.get(name, "")
+
+# --- Helper: build_digest_post ---
+def build_digest_post(items):
+    """Build the classic multi-link digest post with varied, dynamic, and engaging styles."""
+    hook = random.choice(FORMAT_HOOKS.get("digest", HOOKS))
+    cta = random.choice(FORMAT_CTAS.get("digest", CTAS))
+    why_line = random.choice(WHY_LINES)
+    post_style = get_random_post_style()
+    style_config = POST_STYLES[post_style] if 'POST_STYLES' in globals() else {}
+    digest_styles = ["numbered", "bulleted", "themed", "brief", "detailed"]
+    digest_style = random.choice(digest_styles)
+    if digest_style == "brief":
+        chosen = items[:min(3, len(items))]
+        show_snippets = False
+    elif digest_style == "detailed":
+        chosen = items[:min(4, len(items))]
+        show_snippets = True
+    else:
+        chosen = items[:min(5, len(items))]
+        show_snippets = random.random() > 0.5
+    lines = [hook, get_dynamic_persona("digest", " ".join([item["title"] for item in items[:5]])), ""]
+    section_headers = [
+        "Today's high-signal reads:",
+        "This week's standouts:",
+        "What stands out:",
+        "Signal vs noise:",
+        "Worth your time:",
+        "Key developments:",
+        "Industry pulse:"
+    ]
+    lines.append(random.choice(section_headers))
+    for i, item in enumerate(chosen, 1):
+        takeaway = remix_title(item["title"]) if 'remix_title' in globals() else item["title"]
+        source = item.get("source", "").strip()
+        if digest_style == "numbered":
+            if show_snippets:
+                snippet = summarize_snippet(item.get("summary", "")) if 'summarize_snippet' in globals() else item.get("summary", "")
+                if snippet:
+                    value = ai_generate_value_line(item.get("title", ""), snippet)
+                    src = ""
+                    link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+                    lines.append(f"{i}. {takeaway}{src}\n   ↳ {snippet}\n   ↳ {value}{link_display}\n")
+                else:
+                    value = ai_generate_value_line(item.get("title", ""), "")
+                    src = ""
+                    link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+                    lines.append(f"{i}. {takeaway}{src}\n   ↳ {value}{link_display}\n")
+            else:
+                value = ai_generate_value_line(item.get("title", ""), "")
+                src = ""
+                link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+                lines.append(f"{i}. {takeaway}{src}\n   → {value}{link_display}\n")
+        elif digest_style == "bulleted":
+            value = ai_generate_value_line(item.get("title", ""), item.get("summary", ""))
+            bullet = get_emoji("bullet")
+            src = ""
+            link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+            lines.append(f"{bullet} {takeaway}{src}\n   {value}{link_display}\n")
+        elif digest_style == "themed":
+            emoji_map = {
+                "kubernetes": "☸️", "security": "🛡️", "cloud": "☁️", 
+                "observability": "📊", "devops": "🔧", "sre": "🚨"
+            }
+            theme_emoji = ""
+            for theme, emoji in emoji_map.items():
+                if theme in (item.get("title", "") + item.get("summary", "")).lower():
+                    theme_emoji = emoji + " "
+                    break
+            value = ai_generate_value_line(item.get("title", ""), "")
+            src = ""
+            link_display = f"\n🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+            lines.append(f"{theme_emoji}{takeaway}{src}\n{value}{link_display}\n")
+        elif digest_style == "brief":
+            src = ""
+            link_display = f" {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+            lines.append(f"• {takeaway}{src}{link_display}\n")
+        else:  # detailed
+            snippet = summarize_snippet(item.get("summary", "")) if 'summarize_snippet' in globals() else item.get("summary", "")
+            value = ai_generate_value_line(item.get("title", ""), snippet)
+            src = ""
+            link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
+            if snippet:
+                lines.append(f"{i}. {takeaway}{src}\n   Context: {snippet}\n   Impact: {value}{link_display}\n")
+            else:
+                lines.append(f"{i}. {takeaway}{src}\n   {value}{link_display}\n")
+    if digest_style != "brief" and random.random() > 0.3:
+        lines.extend(["", f"Why this matters: {why_line}"])
+    lines.extend(["", get_subscription_cta(), "", get_hashtags(), "", cta])
+    if 'should_include_links' in globals() and should_include_links(post_style, "digest") and chosen:
+        links = [it.get("link", "") for it in chosen if it.get("link")]
+        links = [l for l in links if l]
+        if links and 'format_links_section' in globals():
+            link_section = format_links_section(links[:MAX_LINKS], post_style)
+            lines.extend(link_section)
+    post = "\n".join(lines)
+    return clip(post, MAX_POST_CHARS)
+
 # -------------------------------------------------
 # GROWTH PLAN INTEGRATION
 # -------------------------------------------------
@@ -1662,8 +1806,7 @@ def should_include_links(style_name, post_format):
     elif post_format in ["deep_dive"]:
         return random.random() > 0.10  # 90% chance (was 60%)
     elif post_format in ["hot_take", "lessons"]:
-        return random.random() > 0.20  # 80% chance (was 40%)
-    
+        return random.random() > 0.15  # 85% chance (was 50%)
     # Default to style setting or True
     return style.get("include_links", True)
 
@@ -1980,9 +2123,9 @@ def get_context_aware_insights(title: str, summary: str) -> tuple:
         "kubernetes": ["kubernetes", "k8s", "cluster", "pods", "helm", "kubectl", "container orchestration"],
         "security": ["security", "vulnerability", "threat", "attack", "breach", "cve", "compliance", "rbac", "iam", "zero trust"],
         "observability": ["monitoring", "observability", "metrics", "logs", "tracing", "alerting", "slo", "dashboard", "grafana", "prometheus"],
-        "incident": ["incident", "outage", "mttr", "on-call", "pager", "downtime", "postmortem", "runbook"],
+        "incident": ["incident", "outage", "mttr", "pager", "on-call", "downtime", "postmortem", "runbook"],
         "cloud": ["aws", "gcp", "azure", "cloud", "serverless", "lambda", "s3", "ec2", "terraform", "cloudformation"],
-        "cicd": ["ci/cd", "pipeline", "deployment", "build", "jenkins", "github actions", "gitlab ci", "continuous"],
+        "cicd": ["ci/cd", "pipeline", "deployment", "release", "jenkins", "github actions", "gitlab ci", "continuous"],
         "architecture": ["architecture", "microservices", "distributed", "api", "design patterns", "scalability", "event-driven"],
         "reliability": ["sre", "reliability", "availability", "redundancy", "failover", "disaster recovery", "chaos engineering"],
         "platform": ["platform", "internal tools", "developer experience", "self-service", "infrastructure", "backstage"]
@@ -2221,519 +2364,6 @@ def get_posts_today() -> int:
 # -------------------------------------------------
 # CONTENT HELPERS
 # -------------------------------------------------
-
-def get_contextual_hashtags(topic: str, max_count: int = None) -> str:
-    """Generate context-aware hashtags based on topic content."""
-    topic_lower = topic.lower()
-    context_tags = []
-    
-    # Add context-specific hashtags based on content
-    if any(keyword in topic_lower for keyword in ["kubernetes", "k8s", "container", "helm"]):
-        context_tags.extend(["#Kubernetes", "#ContainerOrchestration", "#CloudNative"])
-    elif any(keyword in topic_lower for keyword in ["security", "vulnerability", "cve", "zero-trust"]):
-        context_tags.extend(["#DevSecOps", "#Security", "#CyberSecurity"])
-    elif any(keyword in topic_lower for keyword in ["observability", "monitoring", "metrics", "tracing"]):
-        context_tags.extend(["#Observability", "#Monitoring", "#SRE"])
-    elif any(keyword in topic_lower for keyword in ["aws", "azure", "gcp", "cloud"]):
-        context_tags.extend(["#Cloud", "#CloudArchitecture", "#CloudNative"])
-    elif any(keyword in topic_lower for keyword in ["terraform", "iac", "infrastructure"]):
-        context_tags.extend(["#InfrastructureAsCode", "#Terraform", "#Automation"])
-    elif any(keyword in topic_lower for keyword in ["incident", "outage", "reliability"]):
-        context_tags.extend(["#SRE", "#IncidentResponse", "#Reliability"])
-    
-    return get_hashtags(max_count, context_tags)
-
-
-def clip(text: str, limit: int, preserve_hashtags: bool = True) -> str:
-    """Intelligently clip text to fit character limits while preserving formatting."""
-    if not text or len(text) <= limit:
-        return text
-    
-    # If preserving hashtags, extract them first
-    hashtags = ""
-    if preserve_hashtags and "#" in text:
-        # Find hashtags at the end
-        lines = text.split("\n")
-        if lines and "#" in lines[-1]:
-            hashtags = "\n" + lines[-1]
-            text = "\n".join(lines[:-1])
-    
-    # Calculate available space
-    available_space = limit - len(hashtags)
-    
-    if len(text) <= available_space:
-        return text + hashtags
-    
-    # Smart truncation - try to preserve complete sentences/paragraphs
-    truncated = text[:available_space - 3]  # Reserve space for "..."
-    
-    # Try to cut at sentence boundary
-    last_period = truncated.rfind('.')
-    last_newline = truncated.rfind('\n')
-    
-    if last_period > len(truncated) * 0.7:  # If we can preserve most content
-        truncated = truncated[:last_period + 1]
-    elif last_newline > len(truncated) * 0.6:  # Or at paragraph break
-        truncated = truncated[:last_newline]
-    else:
-        # Cut at word boundary
-        last_space = truncated.rfind(' ')
-        if last_space > len(truncated) * 0.8:
-            truncated = truncated[:last_space]
-        truncated += "..."
-    
-    return truncated + hashtags
-
-# -------------------------------------------------
-# NOTIFICATIONS
-# -------------------------------------------------
-
-def send_slack_notification(message: str, is_error: bool = False, details: Dict[str, Any] = None) -> None:
-    """Send enhanced notification to Slack with full post details."""
-    if not SLACK_WEBHOOK_URL:
-        return
-    if is_error and not NOTIFY_ON_FAILURE:
-        return
-    if not is_error and not NOTIFY_ON_SUCCESS:
-        return
-    
-    try:
-        emoji = "⚠️" if is_error else "✅"
-        
-        if details and not is_error:
-            # Rich notification for successful posts
-            payload = {
-                "text": f"{emoji} LinkedIn Bot Posted Successfully!",
-                "blocks": [
-                    {
-                        "type": "header",
-                        "text": {
-                            "type": "plain_text",
-                            "text": f"{emoji} LinkedIn Post Published"
-                        }
-                    },
-                    {
-                        "type": "section",
-                        "fields": [
-                            {
-                                "type": "mrkdwn",
-                                "text": f"*Format:* {details.get('format', 'N/A')}"
-                            },
-                            {
-                                "type": "mrkdwn",
-                                "text": f"*Mode:* {'DRY RUN' if DRY_RUN else 'LIVE'}"
-                            },
-                            {
-                                "type": "mrkdwn",
-                                "text": f"*Length:* {details.get('length', 0)} chars"
-                            },
-                            {
-                                "type": "mrkdwn",
-                                "text": f"*Sources:* {len(details.get('sources', []))}"
-                            }
-                        ]
-                    }
-                ]
-            }
-            
-            # Add post content
-            post_content = details.get('content', '')
-            if post_content:
-                payload["blocks"].append({
-                    "type": "section",
-                    "text": {
-                        "type": "mrkdwn",
-                        "text": f"*Post Content:*\n```{post_content[:800]}{'...' if len(post_content) > 800 else ''}```"
-                    }
-                })
-            
-            # Add sources if available
-            sources = details.get('sources', [])
-            if sources:
-                source_text = "\n".join([f"• {src}" for src in sources[:5]])
-                if len(sources) > 5:
-                    source_text += f"\n• ... and {len(sources) - 5} more"
-                payload["blocks"].append({
-                    "type": "section",
-                    "text": {
-                        "type": "mrkdwn",
-                        "text": f"*News Sources:*\n{source_text}"
-                    }
-                })
-            
-            # Add AI enhancement status
-            if details.get('ai_enhanced'):
-                payload["blocks"].append({
-                    "type": "context",
-                    "elements": [
-                        {
-                            "type": "mrkdwn",
-                            "text": f"🤖 AI Enhanced | 📊 Total Posts: {details.get('total_posts', 0)} | 📅 Today: {details.get('posts_today', 0)}"
-                        }
-                    ]
-                })
-        else:
-            # Simple notification for errors or basic messages
-            payload = {"text": f"{emoji} {message}"}
-        
-        requests.post(SLACK_WEBHOOK_URL, json=payload, timeout=10)
-        logger.info("Slack notification sent")
-    except Exception as e:
-        logger.warning(f"Slack notification failed: {e}")
-
-
-def send_discord_notification(message: str, is_error: bool = False) -> None:
-    """Send notification to Discord."""
-    if not DISCORD_WEBHOOK_URL:
-        return
-    if is_error and not NOTIFY_ON_FAILURE:
-        return
-    if not is_error and not NOTIFY_ON_SUCCESS:
-        return
-    
-    try:
-        emoji = "⚠️" if is_error else "✅"
-        payload = {"content": f"{emoji} {message}"}
-        requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
-        logger.info("Discord notification sent")
-    except Exception as e:
-        logger.warning(f"Discord notification failed: {e}")
-
-
-def notify(message: str, is_error: bool = False, details: Dict[str, Any] = None) -> None:
-    """Send notifications to all configured channels."""
-    send_slack_notification(message, is_error, details)
-    send_discord_notification(message, is_error)
-
-
-# -------------------------------------------------
-# LINK HANDLING
-# -------------------------------------------------
-
-def add_utm_params(url: str) -> str:
-    """Add UTM tracking parameters to URL."""
-    if not ADD_UTM_PARAMS or not url or not urlparse:
-        return url
-    
-    try:
-        parsed = urlparse(url)
-        query_params = parse_qs(parsed.query)
-        query_params["utm_source"] = [UTM_SOURCE]
-        query_params["utm_medium"] = [UTM_MEDIUM]
-        query_params["utm_campaign"] = [UTM_CAMPAIGN]
-        
-        new_query = urlencode(query_params, doseq=True)
-        new_url = urlunparse((
-            parsed.scheme,
-            parsed.netloc,
-            parsed.path,
-            parsed.params,
-            new_query,
-            parsed.fragment
-        ))
-        return new_url
-    except Exception:
-        return url
-
-
-def process_link(url: str) -> str:
-    """Process a link (add UTM, validate, potentially shorten)."""
-    if not url:
-        return url
-    
-    # Validate URL
-    try:
-        parsed = urlparse(url)
-        if not parsed.scheme or not parsed.netloc:
-            logger.warning(f"Invalid URL format: {url}")
-            return ""  # Return empty to skip invalid links
-        # Skip feed URLs
-        if 'feed' in parsed.path.lower() or 'rss' in parsed.path.lower() or parsed.netloc.endswith('feedburner.com'):
-            logger.warning(f"Skipping feed URL: {url}")
-            return ""
-    except Exception as e:
-        logger.warning(f"URL validation failed for {url}: {e}")
-        return ""
-    
-    # Add UTM params if enabled
-    processed = add_utm_params(url)
-    
-    # Note: Link shortening would require an external service
-    # For now, we just return the processed URL
-    # In future, could integrate with bit.ly, tinyurl, etc.
-    if SHORTEN_LINKS:
-        logger.debug("Link shortening requested but not implemented (requires external service)")
-    
-    return processed
-
-
-# -------------------------------------------------
-# RATE LIMITING & DUPLICATE DETECTION
-# -------------------------------------------------
-
-def check_rate_limits(state: Dict[str, Any]) -> Tuple[bool, str]:
-    """Check if we should post based on rate limits.
-    
-    Returns: (can_post, reason)
-    """
-    # Skip rate limiting in DRY RUN mode for testing
-    if DRY_RUN:
-        logger.info("🧪 DRY RUN: Bypassing rate limits for testing")
-        return True, "Rate limits bypassed in dry run"
-    
-    # Skip rate limiting if bypass flag is set
-    if BYPASS_RATE_LIMITS:
-        logger.info("🚀 TESTING: Bypassing rate limits for testing")
-        return True, "Rate limits bypassed for testing"
-    
-    # Skip rate limiting if interval is set to 0 for testing
-    if MIN_POST_INTERVAL_HOURS == 0:
-        logger.info("⚡ TESTING: Rate limit interval set to 0, bypassing")
-        return True, "Rate limit interval bypassed (0 hours)"
-    
-    meta = state.get("meta", {})
-    
-    # Check daily limit
-    posts_today = get_posts_today()
-    if posts_today >= MAX_POSTS_PER_DAY:
-        return False, f"Daily limit reached ({posts_today}/{MAX_POSTS_PER_DAY})"
-    
-    # Check minimum interval
-    last_posted = meta.get("last_posted_at_utc")
-    if last_posted:
-        try:
-            last_time = datetime.fromisoformat(last_posted.replace("Z", "+00:00"))
-            elapsed = datetime.now(timezone.utc) - last_time
-            min_interval = timedelta(hours=MIN_POST_INTERVAL_HOURS)
-            if elapsed < min_interval:
-                remaining = min_interval - elapsed
-                return False, f"Too soon since last post (wait {remaining.seconds // 60} min)"
-        except Exception:
-            pass
-    
-    # Check if in error cooldown
-    last_error = meta.get("last_error_at_utc")
-    if last_error:
-        try:
-            error_time = datetime.fromisoformat(last_error.replace("Z", "+00:00"))
-            elapsed = datetime.now(timezone.utc) - error_time
-            cooldown = timedelta(minutes=COOLDOWN_ON_ERROR_MINUTES)
-            if elapsed < cooldown:
-                remaining = cooldown - elapsed
-                return False, f"In error cooldown (wait {remaining.seconds // 60} min)"
-        except Exception:
-            pass
-    
-    return True, "OK"
-
-
-def get_topic_hash(title: str) -> str:
-    """Generate a hash for topic deduplication."""
-    # Normalize title for comparison
-    normalized = re.sub(r"[^a-z0-9\s]", "", title.lower())
-    normalized = re.sub(r"\s+", " ", normalized).strip()
-    # Get first few significant words
-    words = normalized.split()[:6]
-    return hashlib.md5(" ".join(words).encode()).hexdigest()[:12]
-
-
-def is_duplicate_topic(title: str, state: Dict[str, Any]) -> bool:
-    """Check if topic was recently posted about."""
-    if not BLOCK_DUPLICATE_TOPICS:
-        return False
-    
-    topic_hash = get_topic_hash(title)
-    topic_history = state.get("meta", {}).get("topic_hashes", {})
-    
-    if topic_hash in topic_history:
-        posted_date = topic_history[topic_hash]
-        try:
-            posted_time = datetime.fromisoformat(posted_date.replace("Z", "+00:00"))
-            window = timedelta(days=DUPLICATE_WINDOW_DAYS)
-            if datetime.now(timezone.utc) - posted_time < window:
-                return True
-        except Exception:
-            pass
-    
-    return False
-
-
-def record_topic(title: str, state: Dict[str, Any]) -> None:
-    """Record a topic hash to prevent duplicates."""
-    if not BLOCK_DUPLICATE_TOPICS:
-        return
-    
-    topic_hash = get_topic_hash(title)
-    meta = state.get("meta", {})
-    topic_hashes = meta.get("topic_hashes", {})
-    
-    # Add new hash
-    topic_hashes[topic_hash] = datetime.now(timezone.utc).isoformat()
-    
-    # Clean old hashes
-    cutoff = datetime.now(timezone.utc) - timedelta(days=DUPLICATE_WINDOW_DAYS * 2)
-    cleaned = {}
-    for h, d in topic_hashes.items():
-        try:
-            t = datetime.fromisoformat(d.replace("Z", "+00:00"))
-            if t > cutoff:
-                cleaned[h] = d
-        except Exception:
-            pass
-    
-    meta["topic_hashes"] = cleaned
-    state["meta"] = meta
-
-
-# -------------------------------------------------
-# EMOJI STYLE HELPERS
-# -------------------------------------------------
-
-# Semantic emoji mapping for consistent usage across the codebase
-POST_EMOJIS = {
-    # Section headers
-    "hook": "⚡",
-    "topic": "📌",
-    "key_insight": "💡",
-    "lesson": "📝",
-    "tip": "💡",
-    "warning": "⚠️",
-    "success": "✅",
-    "failure": "❌",
-    
-    # Actions & CTAs
-    "subscribe": "📩",
-    "link": "👉",
-    "book": "📖",
-    "comment": "💬",
-    
-    # Content types
-    "thread": "🧵",
-    "quote": "💭",
-    "news": "🚨",
-    "hot_take": "🔥",
-    "deep_dive": "🔬",
-    "case_study": "📊",
-    
-    # Bullets & lists
-    "bullet": "•",
-    "arrow": "→",
-    "check": "✅",
-    "point": "▸",
-    
-    # Metrics & data
-    "chart": "📈",
-    "target": "🎯",
-    "clock": "⏱️",
-    "calendar": "📅",
-}
-# -------------------------------------------------
-
-EMOJI_SETS = {
-    "none": {
-        "hook": "",
-        "bullet": "-",
-        "check": "*",
-        "arrow": ">",
-        "numbers": ["1.", "2.", "3.", "4.", "5."],
-    },
-    "minimal": {
-        "hook": "→",
-        "bullet": "•",
-        "check": "✓",
-        "arrow": "→",
-        "numbers": ["1.", "2.", "3.", "4.", "5."],
-    },
-    "moderate": {
-        "hook": "⚡",
-        "bullet": "•",
-        "check": "✅",
-        "arrow": "→",
-        "numbers": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"],
-    },
-    "heavy": {
-        "hook": "🔥",
-        "bullet": "🔹",
-        "check": "✅",
-        "arrow": "➡️",
-        "numbers": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"],
-    },
-}
-
-def get_emoji(key: str) -> str:
-    """Get emoji based on style setting."""
-    style = EMOJI_STYLE if EMOJI_STYLE in EMOJI_SETS else "moderate"
-    return EMOJI_SETS[style].get(key, "")
-
-
-# -------------------------------------------------
-# TONE HELPERS
-# -------------------------------------------------
-
-TONE_HOOKS = {
-    "professional": [
-        "Key developments in infrastructure and reliability.",
-        "Signals worth tracking in platform engineering.",
-        "What's moving production systems forward.",
-    ],
-    "casual": [
-        "Some cool stuff worth sharing this week.",
-        "Here's what stands out lately.",
-        "Sharing some reads worth your time.",
-    ],
-    "bold": [
-        "This changes everything.",
-        "The signal you can't afford to miss.",
-        "Drop what you're doing and read this.",
-    ],
-    "educational": [
-        "Learning spotlight: key concepts explained.",
-        "Today's lesson in production reliability.",
-        "Understanding the fundamentals that matter.",
-    ],
-}
-
-def get_tone_hook() -> str:
-    """Get a hook line based on tone setting."""
-    tone = TONE if TONE in TONE_HOOKS else "professional"
-    return random.choice(TONE_HOOKS[tone])
-
-
-# -------------------------------------------------
-# HASHTAG HANDLING
-# -------------------------------------------------
-
-def get_hashtags(count: Optional[int] = None, context_tags: Optional[List[str]] = None) -> str:
-    """Get hashtags based on settings with context-aware selection."""
-    # Use custom hashtags if provided
-    if HASHTAGS_ENV:
-        tags = [t.strip() for t in HASHTAGS_ENV.split() if t.strip().startswith("#")]
-    else:
-        tags = HASHTAGS.copy()
-    
-    # Add context-specific hashtags if provided
-    if context_tags:
-        tags.extend(context_tags)
-        # Remove duplicates while preserving order
-        seen = set()
-        tags = [tag for tag in tags if not (tag in seen or seen.add(tag))]
-    
-    # Limit count
-    max_count = count if count else MAX_HASHTAGS
-    max_count = min(max_count, len(tags))
-    
-    # Ensure we have enough unique tags
-    if max_count > len(tags):
-        max_count = len(tags)
-    
-    # Rotate or shuffle for variety
-    if ROTATE_HASHTAGS and len(tags) > max_count:
-        selected = random.sample(tags, max_count)
-    else:
-        selected = tags[:max_count]
-    
-    return " ".join(selected)
-
 
 def get_contextual_hashtags(topic: str, max_count: int = None) -> str:
     """Generate context-aware hashtags based on topic content."""
@@ -3639,484 +3269,21 @@ def build_quick_tip_post() -> str:
 
 
 def build_lessons_post(items) -> str:
-    """Build a lessons-learned style post."""
-    hook = random.choice(FORMAT_HOOKS["lessons"])
-    cta = random.choice(FORMAT_CTAS["lessons"])
-    emoji = get_emoji("hook")
-    numbers = EMOJI_SETS.get(EMOJI_STYLE, EMOJI_SETS["moderate"])["numbers"]
-
-    if items:
-        item = items[0]
-        # Get clean topic without confusing prefixes
-        topic = remix_title(item["title"])
-        snippet = summarize_snippet(item.get("summary", ""))
-        value = ai_generate_value_line(item["title"], snippet).replace("Why it matters: ", "")
-        # Ensure value line is coherent and contextual
-        if not value or len(value) < 15 or "practical signal" in value:
-            # Generate contextual value based on topic
-            topic_lower = topic.lower()
-            if any(keyword in topic_lower for keyword in ["security", "vulnerability", "cve"]):
-                value = "strengthens your security posture and reduces breach risk"
-            elif any(keyword in topic_lower for keyword in ["kubernetes", "container", "k8s"]):
-                value = "improves cluster reliability and operational efficiency"
-            elif any(keyword in topic_lower for keyword in ["observability", "monitoring", "metrics"]):
-                value = "enhances system visibility and incident response time"
-            elif any(keyword in topic_lower for keyword in ["cloud", "aws", "gcp", "azure"]):
-                value = "optimizes cloud costs and improves reliability"
-            else:
-                value = "enhances system reliability and team productivity"
-    else:
-        topic = "DevOps reliability patterns"
-        snippet = "Automate what you can, document what you can't."
-        value = "reduces cognitive load and improves consistency"
-
-    # Create contextual lessons based on topic when possible
-    if items and any(keyword in topic.lower() for keyword in ["security", "vulnerability", "cve", "sast"]):
-        lesson_texts = [
-            "Shift left on security. Finding vulns in prod costs 10x more.",
-            "Automated security scans in CI prevent production surprises.",
-            "Zero-trust architecture isn't optional in modern systems.",
-        ]
-    elif items and any(keyword in topic.lower() for keyword in ["kubernetes", "container", "k8s", "helm"]):
-        lesson_texts = [
-            "Resource limits prevent noisy neighbors from killing your cluster.",
-            "Health checks are your first line of defense against cascading failures.", 
-            "GitOps keeps your cluster state predictable and recoverable.",
-        ]
-    elif items and any(keyword in topic.lower() for keyword in ["monitoring", "observability", "metrics", "logs"]):
-        lesson_texts = [
-            "Observability isn't optional. You can't fix what you can't see.",
-            "Golden signals first: latency, traffic, errors, saturation.",
-            "Alert on symptoms, not causes. Users care about impact.",
-        ]
-    else:
-        # General DevOps lessons
-        lesson_texts = [
-            "Automation beats heroics. Every manual step is a future incident.",
-            "Observability isn't optional. You can't fix what you can't see.", 
-            "Progressive rollouts save sleep. 1% → 10% → 100%.",
-            "Blameless culture wins. Hide mistakes = repeat mistakes.",
-            "Infrastructure as code prevents configuration drift.",
-        ]
-    
-    # Shuffle and take 3, then add sequential numbers
-    random.shuffle(lesson_texts) 
-    lessons = [f"{numbers[i]} {lesson_texts[i]}" for i in range(min(3, len(lesson_texts)))]
-
-    lines = []
-    if emoji:
-        lines.append(f"{emoji} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("lessons", " ".join([item["title"] for item in items[:3]])))
-    
-    lines.extend([
-        "",
-        f"Topic: {topic}",
-        "",
-    ])
-    lines.extend(lessons)
-    lines.extend([
-        "",
-        f"The pattern: {value}.",
-        "",
-        cta,
-        "",
-        get_subscription_cta(),
-        "",
-        get_contextual_hashtags(topic, MAX_HASHTAGS),
-    ])
-    return clip("\n".join(lines), MAX_POST_CHARS, preserve_hashtags=True)
-
+    """Build a lessons-learned style post (unified dynamic format)."""
+    return build_digest_post(items)
 
 def build_hot_take_post(items) -> str:
-    """Build an opinion/hot-take style post."""
-    hook = random.choice(FORMAT_HOOKS["hot_take"])
-    cta = random.choice(FORMAT_CTAS["hot_take"])
-
-    hot_takes = [
-        "Most 'DevOps transformations' fail because they focus on tools, not culture. You can't Terraform your way to collaboration.",
-        "Kubernetes is overkill for 80% of workloads. Sometimes a VM and a systemd service is the right answer.",
-        "100% uptime is a lie. If you're not publishing your error budget, you're hiding from reality.",
-        "'Shift left' doesn't mean 'dump everything on developers'. It means 'make security easy to do right'.",
-        "GitOps is just infrastructure as code done properly. The pattern isn't new, the tooling finally caught up.",
-        "Multi-cloud is usually multi-headache. Most teams should go deep on one cloud before spreading thin.",
-        "Your CI/CD pipeline is your most critical production system. Treat it like one.",
-        "Microservices create more problems than they solve for teams under 50 engineers. Monolith first.",
-        "Platform engineering is just good product management applied to internal tools. Nothing revolutionary.",
-        "If your SRE team is just fighting fires, you don't have SRE—you have reactive ops with a fancy title.",
-    ]
-
-    take = random.choice(hot_takes)
-
-    target_emoji = "🎯" if EMOJI_STYLE != "none" else ""
-    arrow = get_emoji("arrow")
-    
-    lines = []
-    if get_emoji("hook"):
-        lines.append(f"{get_emoji('hook')} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("hot_take", " ".join([item["title"] for item in items[:3]])))
-    
-    lines.extend([
-        "",
-        f"{target_emoji} {take}".strip(),
-        "",
-        "The reasoning:",
-        f"{arrow} This pattern appears across multiple orgs",
-        f"{arrow} The industry hype often doesn't match ground reality",
-        f"{arrow} Simple solutions usually outperform complex ones",
-        "",
-        cta,
-        "",
-        get_subscription_cta(),
-        "",
-        get_hashtags(),
-    ])
-    return clip("\n".join(lines), MAX_POST_CHARS)
-
+    """Build an opinion/hot-take style post (unified dynamic format)."""
+    return build_digest_post(items)
 
 def build_case_study_post(items) -> str:
-    """Build a case-study style post with varied presentation styles."""
-    hook = random.choice(FORMAT_HOOKS["case_study"])
-    arrow = get_emoji("arrow")
-    pin_emoji = "📌" if EMOJI_STYLE != "none" else ""
-    
-    # Get random style variation
-    post_style = get_random_post_style()
-    style_config = POST_STYLES[post_style]
-
-    if not items:
-        return build_digest_post(items)
-
-    item = items[0]
-    title = item["title"]
-    snippet = summarize_snippet(item.get("summary", ""))
-    value = ai_generate_value_line(title, snippet)
-    source = item.get("source", "")
-    link = item.get("link", "")
-
-    # Get context-aware insights and CTA
-    context_insights, context_cta = get_context_aware_insights(title, snippet)
-
-    lines = []
-    if get_emoji("hook"):
-        lines.append(f"{get_emoji('hook')} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("case_study", " ".join([item["title"] for item in items[:3]])))
-    
-    # Vary case study presentation
-    case_formats = ["traditional", "story", "breakdown", "timeline"]
-    case_format = random.choice(case_formats)
-    
-    if case_format == "traditional":
-        lines.extend([
-            "",
-            f"{pin_emoji} {title}".strip(),
-        ])
-        lines.extend([
-            "",
-            "The situation:",
-            f"↳ {snippet if snippet else 'A real-world challenge in production systems.'}",
-            "",
-            "Key takeaway:",
-            f"↳ {value}",
-        ])
-        
-    elif case_format == "story":
-        lines.extend([
-            "",
-            f"📚 Case: {title}",
-            "", 
-            f"The story: {snippet if snippet else 'Production systems teaching real lessons.'}",
-            "",
-            f"The insight: {value.replace('Why it matters: ', '')}",
-        ])
-        
-    elif case_format == "breakdown":
-        lines.extend([
-            "",
-            f"🔍 Breakdown: {title}",
-            "",
-            f"📊 Data: {snippet if snippet else 'Real-world system challenges'}",
-            f"🎯 Impact: {value.replace('Why it matters: ', '')}",
-        ])
-        
-    else:  # timeline
-        lines.extend([
-            "",
-            f"⏱️ Timeline: {title}",
-            "",
-            f"→ Challenge: {snippet if snippet else 'System reliability under pressure'}",
-            f"→ Learning: {value.replace('Why it matters: ', '')}",
-        ])
-    
-    # Vary action items presentation
-    action_styles = ["steps", "principles", "checklist"]
-    action_style = random.choice(action_styles)
-    
-    if action_style == "steps":
-        lines.extend(["", "How to apply this:"])
-        for i, insight in enumerate(context_insights[:2], 1):
-            lines.append(f"{arrow} Step {i}: {insight}")
-        lines.append(f"{arrow} Step 3: Measure impact and iterate based on results")
-        
-    elif action_style == "principles":
-        lines.extend(["", "Core principles:"])
-        for insight in context_insights[:2]:
-            lines.append(f"• {insight}")
-        lines.append("• Continuous improvement through measurement")
-        
-    else:  # checklist
-        lines.extend(["", "Action checklist:"])
-        for i, insight in enumerate(context_insights[:2]):
-            check = "☑️" if EMOJI_STYLE != "none" else "[x]"
-            lines.append(f"{check} {insight}")
-        check = "☑️" if EMOJI_STYLE != "none" else "[x]"
-        lines.append(f"{check} Track results and optimize")
-    
-    lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags()])
-    
-    # Handle links with variety
-    links = [link] if link and should_include_links(post_style, "case_study") else []
-    link_section = format_links_section(links, post_style)
-    lines.extend(link_section)
-
-    return clip("\n".join(lines), MAX_POST_CHARS)
-
+    """Build a case-study style post (unified dynamic format)."""
+    return build_digest_post(items)
 
 def build_deep_dive_post(items) -> str:
-    """Build a longer-form deep dive on a single topic with varied styles."""
-    hook = random.choice(FORMAT_HOOKS["deep_dive"])
-    search_emoji = "🔎" if EMOJI_STYLE != "none" else ""
-    bullet = get_emoji("bullet")
-    
-    # Get random style variation
-    post_style = get_random_post_style()
-    style_config = POST_STYLES[post_style]
+    """Build a longer-form deep dive post (unified dynamic format)."""
+    return build_digest_post(items)
 
-    if not items:
-        return build_digest_post(items)
-
-    item = items[0]
-    title = item["title"]
-    snippet = summarize_snippet(item.get("summary", ""))
-    value = ai_generate_value_line(title, snippet)
-    source = item.get("source", "")
-    link = item.get("link", "")
-
-    # Get context-aware insights and CTA
-    context_insights, context_cta = get_context_aware_insights(title, snippet)
-
-    lines = []
-    if get_emoji("hook"):
-        lines.append(f"{get_emoji('hook')} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("deep_dive", " ".join([item["title"] for item in items[:3]])))
-    
-    # Vary the topic introduction
-    topic_styles = [
-        f"{search_emoji} Topic: {title}",
-        f"{search_emoji} Focus: {title}", 
-        f"{search_emoji} Deep dive: {title}",
-        f"📌 {title}",
-        f"🎯 {title}"
-    ]
-    
-    lines.extend([
-        "",
-        random.choice(topic_styles).strip(),
-    ])
-    
-    # Vary content structure
-    content_structure = random.choice(["standard", "bullet_points", "numbered", "minimal"])
-    
-    if content_structure == "standard":
-        lines.extend([
-            "",
-            "What it's about:",
-            f"{snippet if snippet else 'A deep look at modern infrastructure practices.'}",
-            "",
-            value,
-            "",
-            "Key takeaway:",
-            "This aligns with patterns that work well:",
-        ])
-        for insight in context_insights:
-            lines.append(f"{bullet} {insight}")
-            
-    elif content_structure == "bullet_points":
-        lines.extend([
-            "",
-            "Key points:",
-            f"{bullet} {snippet if snippet else 'Modern infrastructure practices in focus'}",
-            f"{bullet} {value.replace('Why it matters: ', '')}",
-            "",
-            "What this means:",
-        ])
-        for insight in context_insights[:2]:  # Fewer insights for this style
-            lines.append(f"{bullet} {insight}")
-            
-    elif content_structure == "numbered":
-        lines.extend([
-            "",
-            f"Here's what matters:",
-            "",
-            f"1️⃣ The situation: {snippet if snippet else 'Infrastructure evolution continues'}",
-            f"2️⃣ {value}",
-            f"3️⃣ Key insight: {context_insights[0] if context_insights else 'Focus on fundamentals'}",
-        ])
-        
-    else:  # minimal
-        lines.extend([
-            "",
-            f"{snippet if snippet else 'Modern infrastructure insights.'}",
-            "",
-            f"💡 {context_insights[0] if context_insights else 'Focus on what matters most.'}",
-        ])
-    
-    # Add CTA
-    lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags()])
-    
-    # Handle links with variety
-    links = [link] if link and should_include_links(post_style, "deep_dive") else []
-    link_section = format_links_section(links, post_style)
-    lines.extend(link_section)
-
-    return clip("\n".join(lines), MAX_POST_CHARS)
-
-
-def build_digest_post(items):
-    """Build the classic multi-link digest post with varied styles."""
-    hook = random.choice(FORMAT_HOOKS.get("digest", HOOKS))
-    cta = random.choice(FORMAT_CTAS.get("digest", CTAS))
-    why_line = random.choice(WHY_LINES)
-    
-    # Get random style variation
-    post_style = get_random_post_style()
-    style_config = POST_STYLES[post_style]
-
-    # Vary post presentation style
-    digest_styles = ["numbered", "bulleted", "themed", "brief", "detailed"]
-    digest_style = random.choice(digest_styles)
-    
-    # Determine items to show based on style
-    if digest_style == "brief":
-        chosen = items[:min(3, len(items))]
-        show_snippets = False
-    elif digest_style == "detailed":
-        chosen = items[:min(4, len(items))]
-        show_snippets = True
-    else:
-        chosen = items[:min(5, len(items))]
-        show_snippets = random.random() > 0.5
-
-    lines = [hook, get_dynamic_persona("digest", " ".join([item["title"] for item in items[:5]])), ""]
-    
-    # Vary section headers
-    section_headers = [
-        "Today's high-signal reads:",
-        "This week's standouts:", 
-        "What stands out:",
-        "Signal vs noise:",
-        "Worth your time:",
-        "Key developments:",
-        "Industry pulse:"
-    ]
-    
-    lines.append(random.choice(section_headers))
-    
-    # Present items with varied formatting
-    for i, item in enumerate(chosen, 1):
-        takeaway = remix_title(item["title"])
-        source = item.get("source", "").strip()
-        
-        if digest_style == "numbered":
-            if show_snippets:
-                snippet = summarize_snippet(item.get("summary", ""))
-                if snippet:
-                    value = ai_generate_value_line(item.get("title", ""), snippet)
-                    src = ""
-                    link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-                    lines.append(f"{i}. {takeaway}{src}\n   ↳ {snippet}\n   ↳ {value}{link_display}\n")
-                else:
-                    value = ai_generate_value_line(item.get("title", ""), "")
-                    src = ""
-                    link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-                    lines.append(f"{i}. {takeaway}{src}\n   ↳ {value}{link_display}\n")
-            else:
-                value = ai_generate_value_line(item.get("title", ""), "")
-                src = ""
-                link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-                lines.append(f"{i}. {takeaway}{src}\n   → {value}{link_display}\n")
-                
-        elif digest_style == "bulleted":
-            value = ai_generate_value_line(item.get("title", ""), item.get("summary", ""))
-            bullet = get_emoji("bullet")
-            src = ""
-            link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-            lines.append(f"{bullet} {takeaway}{src}\n   {value}{link_display}\n")
-            
-        elif digest_style == "themed":
-            # Group by theme/domain
-            emoji_map = {
-                "kubernetes": "☸️", "security": "🛡️", "cloud": "☁️", 
-                "observability": "📊", "devops": "🔧", "sre": "🚨"
-            }
-            theme_emoji = ""
-            for theme, emoji in emoji_map.items():
-                if theme in (item.get("title", "") + item.get("summary", "")).lower():
-                    theme_emoji = emoji + " "
-                    break
-            
-            value = ai_generate_value_line(item.get("title", ""), "")
-            src = ""
-            link_display = f"\n🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-            lines.append(f"{theme_emoji}{takeaway}{src}\n{value}{link_display}\n")
-            
-        elif digest_style == "brief":
-            # Minimal format
-            src = ""
-            link_display = f" {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-            lines.append(f"• {takeaway}{src}{link_display}\n")
-            
-        else:  # detailed
-            snippet = summarize_snippet(item.get("summary", ""))
-            value = ai_generate_value_line(item.get("title", ""), snippet)
-            src = ""
-            link_display = f"\n   🔗 {item.get('link', '')}" if item.get('link') and style_config.get("include_links", True) else ""
-            if snippet:
-                lines.append(f"{i}. {takeaway}{src}\n   Context: {snippet}\n   Impact: {value}{link_display}\n")
-            else:
-                lines.append(f"{i}. {takeaway}{src}\n   {value}{link_display}\n")
-
-    # Sometimes include why it matters, sometimes not
-    if digest_style != "brief" and random.random() > 0.3:
-        lines.extend(["", f"Why this matters: {why_line}"])
-    
-    lines.extend(["", get_subscription_cta(), "", get_hashtags(), "", cta])
-
-    # Handle links with variety for digest
-    if should_include_links(post_style, "digest") and chosen:
-        links = [it.get("link", "") for it in chosen if it.get("link")]
-        links = [l for l in links if l]
-        if links:
-            link_section = format_links_section(links[:MAX_LINKS], post_style)
-            lines.extend(link_section)
-    
-    post = "\n".join(lines)
-    return clip(post, MAX_POST_CHARS)
 
 # -------------------------------------------------
 # MAIN
