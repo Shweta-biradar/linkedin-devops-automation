@@ -3,23 +3,24 @@ import itertools
 import os
 import feedparser
 import requests
+import os
 import sys
 import json
 import random
-import re
 import logging
-
-# Import fcntl for Unix systems only
-try:
-    import fcntl
-    HAS_FCNTL = True
-except ImportError:
-    HAS_FCNTL = False
-
-# -------------------------------------------------
-# LOGGING SETUP
-# -------------------------------------------------
-
+import time
+import requests
+import feedparser
+import datetime
+import re
+import traceback
+import openai
+import groq
+import google.generativeai as genai
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+from typing import Optional
 LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO").upper()
 logging.basicConfig(
     level=getattr(logging, LOG_LEVEL, logging.INFO),
@@ -2655,23 +2656,50 @@ def ai_generate_value_line(title: str, snippet: str) -> str:
 def main():
     try:
         logger.info("🚀 Starting LinkedIn DevOps post automation...")
-        # 1. Get content idea (growth plan or RSS)
+
+        # 1. Try growth plan
         idea = get_growth_plan_content()
-        if not idea:
-            logger.info("No growth plan idea found, falling back to RSS/news content.")
-            # Fallback: Use a digest post from RSS/news (implement as needed)
-            # For now, just log and exit
-            logger.error("No post idea available. Exiting.")
+        post_text = None
+        if idea:
+            logger.info("Using growth plan idea for post.")
+            post_text = build_growth_plan_post(idea)
+        else:
+            logger.info("No growth plan idea found, trying RSS/news content.")
+            items = get_rss_news_items() if 'get_rss_news_items' in globals() else []
+            if items:
+                logger.info("Using RSS/news content for post.")
+                post_text = build_digest_post(items)
+            else:
+                logger.info("No RSS/news content found, generating generic AI post as fallback.")
+                post_text = generate_generic_ai_post()
+                if post_text:
+                    logger.info("Using generic AI-generated post as fallback.")
+        if not post_text:
+            logger.error("No post idea available after all fallbacks. Exiting.")
             print("❌ No post idea available. Nothing to post.")
             return
 
-        # 2. Build post content
-        post_text = build_growth_plan_post(idea)
         is_valid, reason = validate_post_content(post_text)
         if not is_valid:
             logger.error(f"Generated post is invalid: {reason}")
             print(f"❌ Generated post is invalid: {reason}")
             return
+def generate_generic_ai_post() -> str:
+    """Generate a generic AI post as a last resort."""
+    try:
+        prompt = (
+            "As an industry leader in DevOps, share a valuable insight, tip, or best practice in a professional, third-person voice. "
+            "The post should be actionable, relevant for LinkedIn readers, and reflect current trends in cloud, SRE, or platform engineering. "
+            "Avoid first-person language. Add a call to action for readers to follow for more insights."
+        )
+        ai_post = try_multi_provider_ai(prompt, task_type="generation", max_tokens=180)
+        if ai_post:
+            return ai_post.strip()
+    except Exception as e:
+        logger.error(f"AI fallback post generation failed: {e}")
+    # Fallback: static message
+    return ("DevOps leaders drive change by sharing actionable insights and proven practices. "
+            "Stay tuned for more industry-leading strategies. #DevOps #Cloud #SRE")
 
         # 3. Print or post
         if DRY_RUN:
