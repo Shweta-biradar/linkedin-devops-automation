@@ -2710,5 +2710,64 @@ def ai_generate_value_line(title: str, snippet: str) -> str:
             return clip(txt, 120)
     return fallback()
 
-# ...existing code...
+
+# =============================
+# SCRIPT ENTRYPOINT
+# =============================
+def main():
+    try:
+        logger.info("🚀 Starting LinkedIn DevOps post automation...")
+        # 1. Get content idea (growth plan or RSS)
+        idea = get_growth_plan_content()
+        if not idea:
+            logger.info("No growth plan idea found, falling back to RSS/news content.")
+            # Fallback: Use a digest post from RSS/news (implement as needed)
+            # For now, just log and exit
+            logger.error("No post idea available. Exiting.")
+            print("❌ No post idea available. Nothing to post.")
+            return
+
+        # 2. Build post content
+        post_text = build_growth_plan_post(idea)
+        is_valid, reason = validate_post_content(post_text)
+        if not is_valid:
+            logger.error(f"Generated post is invalid: {reason}")
+            print(f"❌ Generated post is invalid: {reason}")
+            return
+
+        # 3. Print or post
+        if DRY_RUN:
+            logger.info("[DRY RUN] Would post the following content:")
+            print("\n===== [DRY RUN] LinkedIn Post Content =====\n")
+            print(post_text)
+            print("\n===== [END OF POST] =====\n")
+            # Optionally, send to Slack for preview if enabled
+            if SLACK_WEBHOOK_URL:
+                try:
+                    http_request(
+                        "POST",
+                        SLACK_WEBHOOK_URL,
+                        json_body={"text": f"[DRY RUN] LinkedIn Post Preview:\n\n{post_text}"},
+                        timeout=10
+                    )
+                    logger.info("[DRY RUN] Sent post preview to Slack.")
+                except Exception as e:
+                    logger.warning(f"[DRY RUN] Failed to send Slack preview: {e}")
+            return
+
+        # 4. Actually post to LinkedIn (implement as needed)
+        # This is a placeholder; actual posting logic should be implemented here
+        logger.info("[LIVE RUN] Would post to LinkedIn (posting logic not implemented in this patch). Printing post:")
+        print("\n===== [LIVE RUN] LinkedIn Post Content =====\n")
+        print(post_text)
+        print("\n===== [END OF POST] =====\n")
+        # TODO: Add LinkedIn posting logic here
+
+    except Exception as e:
+        logger.error(f"❌ Unhandled exception in main: {e}")
+        print(f"❌ Unhandled exception: {e}")
+
+
+if __name__ == "__main__":
+    main()
 
