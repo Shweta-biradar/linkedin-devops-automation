@@ -1,3 +1,20 @@
+
+import itertools
+import os
+import feedparser
+import requests
+import sys
+import json
+import random
+import re
+import logging
+import hashlib
+import time
+import tempfile
+from datetime import datetime, timezone, timedelta
+from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+
 # Minimal stubs for digest post templates and footer_question (must be top-level)
 cta_templates = ["Check it out!"]
 subscribe_templates = ["Subscribe for more insights."]
@@ -29,21 +46,6 @@ def summarize_snippet(snippet):
     return snippet
 def get_enabled_providers():
     return []
-import itertools
-import os
-import feedparser
-import requests
-import sys
-import json
-import random
-import re
-import logging
-import hashlib
-import time
-import tempfile
-from datetime import datetime, timezone, timedelta
-from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
 # Import fcntl for Unix systems only
 try:
