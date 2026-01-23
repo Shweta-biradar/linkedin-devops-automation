@@ -3489,7 +3489,7 @@ def build_thread_style_post(items) -> str:
     ])
     if link and random.random() > 0.6:
         lines.extend(["", f"🔗 {link}"])
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 def build_quote_style_post(items) -> str:
@@ -3564,7 +3564,7 @@ def build_quote_style_post(items) -> str:
     ])
     if link and random.random() > 0.7:
         lines.extend(["", f"Source: {link}"])
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 def build_news_flash_post(items) -> str:
@@ -3637,7 +3637,7 @@ def build_news_flash_post(items) -> str:
     if link:
         style = random.choice([f"Breaking: {link}", f"Full story: {link}", f"Details: {link}"])
         lines.extend(["", style])
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 # Update build_post to include new formats
@@ -3747,7 +3747,7 @@ def build_quick_tip_post() -> str:
         "",
         f"❓ {footer_question}"
     ])
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 def build_lessons_post(items) -> str:
@@ -3856,7 +3856,7 @@ def build_lessons_post(items) -> str:
         "",
         f"❓ {footer_question}"
     ])
-    return clip("\n".join(lines), MAX_POST_CHARS, preserve_hashtags=True)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS, preserve_hashtags=True))
 
 
 def build_hot_take_post(items) -> str:
@@ -3927,7 +3927,7 @@ def build_hot_take_post(items) -> str:
         "",
         f"❓ {footer_question}"
     ])
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 def build_case_study_post(items) -> str:
@@ -4041,7 +4041,7 @@ def build_case_study_post(items) -> str:
     links = [link] if link and should_include_links(post_style, "case_study") else []
     link_section = format_links_section(links, post_style)
     lines.extend(link_section)
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 def build_deep_dive_post(items) -> str:
@@ -4150,7 +4150,7 @@ def build_deep_dive_post(items) -> str:
     links = [link] if link and should_include_links(post_style, "deep_dive") else []
     link_section = format_links_section(links, post_style)
     lines.extend(link_section)
-    return clip("\n".join(lines), MAX_POST_CHARS)
+    return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
 def build_digest_post(items):
@@ -4270,7 +4270,7 @@ def build_digest_post(items):
         lines.append(f"{i}. {takeaway}{src}\n Context: {snippet}\n Impact: Here's why: {value}{link_display}\n")
     lines.extend(["", cta, "", hashtags, "", footer_question])
     post = "\n".join(lines)
-    return clip(post, MAX_POST_CHARS)
+    return format_post_content(clip(post, MAX_POST_CHARS))
 
 # -------------------------------------------------
 # MAIN
