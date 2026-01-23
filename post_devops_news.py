@@ -3425,26 +3425,52 @@ def build_thread_style_post(items) -> str:
     title = item["title"]
     snippet = summarize_snippet(item.get("summary", ""))
     link = item.get("link", "")
-    
-    # Get context-aware insights
     context_insights, context_cta = get_context_aware_insights(title, snippet)
-    
-    # Thread style with numbered points
     thread_emoji = "🧵" if EMOJI_STYLE != "none" else ""
     numbers = ["1/", "2/", "3/", "4/"]
-    
-    lines = []
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("deep_dive", title))
-        
+    # Unique header/persona/footer logic
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    thread_headers = [
+        "🧵 Unpacking a trending DevOps topic.",
+        "🔎 Thread: Key lessons from the field.",
+        "📌 Insights in thread format.",
+        "💡 What the industry is discussing now.",
+        "🚦 Stepwise breakdown for practitioners.",
+        "🎯 Thread: Actionable takeaways for teams."
+    ]
+    persona_lines = [
+        "Industry leaders break down complex topics for clarity.",
+        "Strategic thinkers share stepwise insights.",
+        "Platform architects highlight what matters in practice.",
+        "DevOps experts thread together key lessons.",
+        "Cloud pioneers sequence the signals for impact."
+    ]
+    footer_questions = [
+        "Which step resonates most with your team?",
+        "How would you apply these insights?",
+        "What would you add to this thread?",
+        "Where do you see the biggest impact?"
+    ]
+    intro_header = random.choice([h for h in thread_headers if h not in _USED_INTRO_LINES] or thread_headers)
+    _USED_INTRO_LINES.append(intro_header)
+    if len(_USED_INTRO_LINES) > len(thread_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(thread_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
+    lines = [intro_header, persona_line, ""]
     lines.extend([
-        "",
         f"{thread_emoji} Thread: {title}",
         "",
         f"{numbers[0]} The situation:",
         f"{snippet if snippet else 'Modern infrastructure challenges require new thinking.'}",
         "",
-        f"{numbers[1]} Key insight:", 
+        f"{numbers[1]} Key insight:",
         f"{context_insights[0] if context_insights else 'Focus on fundamentals first.'}",
         "",
         f"{numbers[2]} Action item:",
@@ -3457,13 +3483,12 @@ def build_thread_style_post(items) -> str:
         "",
         get_subscription_cta(),
         "",
-        get_hashtags()
+        get_hashtags(),
+        "",
+        f"❓ {footer_question}"
     ])
-    
-    # Minimal link approach for thread style
-    if link and random.random() > 0.6:  # 40% chance
+    if link and random.random() > 0.6:
         lines.extend(["", f"🔗 {link}"])
-    
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
@@ -3486,18 +3511,44 @@ def build_quote_style_post(items) -> str:
     
     quote_emoji = "💭" if EMOJI_STYLE != "none" else ""
     
-    lines = []
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("hot_take", title))
-        
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    quote_headers = [
+        "💬 Industry insight: a quote to consider.",
+        "🗣️ What leaders are saying.",
+        "🔖 Key quote from the field.",
+        "📢 Standout perspective this week.",
+        "💡 Quoted wisdom for practitioners."
+    ]
+    persona_lines = [
+        "Industry leaders highlight what resonates most.",
+        "Strategic thinkers share the wisdom behind the quote.",
+        "Platform architects surface key perspectives.",
+        "DevOps experts spotlight actionable insights.",
+        "Cloud pioneers amplify what matters."
+    ]
+    footer_questions = [
+        "Does this quote reflect your experience?",
+        "What would you add to this perspective?",
+        "How does this resonate with your team?",
+        "What’s your take on this insight?"
+    ]
+    intro_header = random.choice([h for h in quote_headers if h not in _USED_INTRO_LINES] or quote_headers)
+    _USED_INTRO_LINES.append(intro_header)
+    if len(_USED_INTRO_LINES) > len(quote_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(quote_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
+    lines = [intro_header, persona_line, ""]
     lines.extend([
-        "",
         f"{quote_emoji} \"{quote}\"",
         "",
         f"Context: {title}",
-    ])
-    
-    lines.extend([
         "",
         f"This resonates because:",
         f"• {context_insights[1] if len(context_insights) > 1 else 'Simple solutions often outperform complex ones'}",
@@ -3507,13 +3558,12 @@ def build_quote_style_post(items) -> str:
         "",
         get_subscription_cta(),
         "",
-        get_hashtags()
+        get_hashtags(),
+        "",
+        f"❓ {footer_question}"
     ])
-    
-    # Very minimal link approach
-    if link and random.random() > 0.7:  # 30% chance
+    if link and random.random() > 0.7:
         lines.extend(["", f"Source: {link}"])
-        
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
@@ -3533,12 +3583,41 @@ def build_news_flash_post(items) -> str:
     
     flash_emoji = "🚨" if EMOJI_STYLE != "none" else ""
     
-    lines = []
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("digest", title))
-        
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    news_headers = [
+        "🚨 Breaking: Major update in DevOps.",
+        "📰 News Flash: What just happened.",
+        "⚡ Urgent: Industry development to watch.",
+        "📢 Hot off the press: Key event.",
+        "🔔 Alert: Significant change in the field."
+    ]
+    persona_lines = [
+        "Industry leaders respond to breaking news.",
+        "Strategic thinkers analyze the impact.",
+        "Platform architects highlight urgent developments.",
+        "DevOps experts react to the latest news.",
+        "Cloud pioneers assess the implications."
+    ]
+    footer_questions = [
+        "How does this news affect your roadmap?",
+        "What’s your take on this development?",
+        "How would your team respond?",
+        "What’s the next move for practitioners?"
+    ]
+    intro_header = random.choice([h for h in news_headers if h not in _USED_INTRO_LINES] or news_headers)
+    _USED_INTRO_LINES.append(intro_header)
+    if len(_USED_INTRO_LINES) > len(news_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(news_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
+    lines = [intro_header, persona_line, ""]
     lines.extend([
-        "",
         f"{flash_emoji} News Flash: {title}",
         "",
         f"📍 What happened: {snippet if snippet else 'Significant development in the DevOps space'}",
@@ -3551,14 +3630,13 @@ def build_news_flash_post(items) -> str:
         "",
         get_subscription_cta(),
         "",
-        get_hashtags()
+        get_hashtags(),
+        "",
+        f"❓ {footer_question}"
     ])
-    
-    # News style usually includes source
     if link:
         style = random.choice([f"Breaking: {link}", f"Full story: {link}", f"Details: {link}"])
         lines.extend(["", style])
-        
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
@@ -3568,13 +3646,23 @@ def build_post(items, post_format: Optional[str] = None):
     if not post_format:
         # Expanded format options including experimental ones
         all_formats = AVAILABLE_POST_FORMATS + ["thread", "quote", "news_flash"]
-        post_format = random.choice(all_formats)
+        # Track and rotate formats for maximum variety
+        if not hasattr(build_post, "_used_formats"):
+            build_post._used_formats = []
+        unused_formats = [f for f in all_formats if f not in build_post._used_formats]
+        if not unused_formats:
+            build_post._used_formats = []
+            unused_formats = all_formats.copy()
+        post_format = random.choice(unused_formats)
+        build_post._used_formats.append(post_format)
 
     # Ensure we have valid items for content generation
     if not items or len(items) == 0:
         logger.warning("No items provided for post generation, using fallback content")
         return build_quick_tip_post()  # Safe fallback
-    
+    # Shuffle items for more variety in post content
+    items = list(items)
+    random.shuffle(items)
     try:
         if post_format == "quick_tip":
             return build_quick_tip_post()
@@ -3607,24 +3695,46 @@ def build_post(items, post_format: Optional[str] = None):
 
 def build_quick_tip_post() -> str:
     """Build a short-form quick tip post."""
-    hook = random.choice(FORMAT_HOOKS["quick_tip"])
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    quick_headers = [
+        "💡 Quick tip for practitioners.",
+        "⚡ Fast insight for your toolkit.",
+        "🎯 Tactical advice from the field.",
+        "🔧 Pro tip for modern teams.",
+        "🛠️ Small fix, big impact.",
+        "📈 Micro-optimization that compounds." 
+    ]
+    persona_lines = [
+        "Industry leaders share practical shortcuts.",
+        "Strategic thinkers offer time-saving tips.",
+        "Platform architects highlight quick wins.",
+        "DevOps experts reveal production-tested advice.",
+        "Cloud pioneers surface tactical improvements."
+    ]
+    footer_questions = [
+        "What’s your favorite quick tip?",
+        "How do you apply this in your stack?",
+        "What would you add to this list?",
+        "Which tip saves you the most time?"
+    ]
+    hook = random.choice([h for h in quick_headers if h not in _USED_INTRO_LINES] or quick_headers)
+    _USED_INTRO_LINES.append(hook)
+    if len(_USED_INTRO_LINES) > len(quick_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(quick_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     cta = random.choice(FORMAT_CTAS["quick_tip"])
     tip = random.choice(QUICK_TIPS)
-    
     emoji = get_emoji("hook")
     tip_emoji = "💡" if EMOJI_STYLE != "none" else ""
-
-    lines = []
-    if emoji:
-        lines.append(f"{emoji} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("quick_tip", tip, hook))
-    
+    lines = [hook, persona_line, ""]
     lines.extend([
-        "",
         f"{tip_emoji} {tip}".strip(),
         "",
         "---",
@@ -3634,26 +3744,57 @@ def build_quick_tip_post() -> str:
         get_subscription_cta(),
         "",
         get_hashtags(),
+        "",
+        f"❓ {footer_question}"
     ])
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
 def build_lessons_post(items) -> str:
     """Build a lessons-learned style post."""
-    hook = random.choice(FORMAT_HOOKS["lessons"])
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    lessons_headers = [
+        "📝 Lessons learned from the field.",
+        "🎓 Hard-won wisdom for teams.",
+        "📚 Patterns that keep showing up.",
+        "💡 Insights from real incidents.",
+        "🔍 What experience reveals.",
+        "⚡ Lessons that drive change."
+    ]
+    persona_lines = [
+        "Industry leaders share what teams wish they knew earlier.",
+        "Strategic thinkers highlight recurring patterns.",
+        "Platform architects surface lessons from production.",
+        "DevOps experts reveal what sticks.",
+        "Cloud pioneers spotlight operational wisdom."
+    ]
+    footer_questions = [
+        "What’s a lesson that changed your approach?",
+        "Which lesson resonates most with your team?",
+        "What would you add to this list?",
+        "How do you apply these lessons?"
+    ]
+    hook = random.choice([h for h in lessons_headers if h not in _USED_INTRO_LINES] or lessons_headers)
+    _USED_INTRO_LINES.append(hook)
+    if len(_USED_INTRO_LINES) > len(lessons_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(lessons_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     cta = random.choice(FORMAT_CTAS["lessons"])
     emoji = get_emoji("hook")
     numbers = EMOJI_SETS.get(EMOJI_STYLE, EMOJI_SETS["moderate"])["numbers"]
-
     if items:
         item = items[0]
-        # Get clean topic without confusing prefixes
         topic = remix_title(item["title"])
         snippet = summarize_snippet(item.get("summary", ""))
         value = ai_generate_value_line(item["title"], snippet).replace("Why it matters: ", "")
-        # Ensure value line is coherent and contextual
         if not value or len(value) < 15 or "practical signal" in value:
-            # Generate contextual value based on topic
             topic_lower = topic.lower()
             if any(keyword in topic_lower for keyword in ["security", "vulnerability", "cve"]):
                 value = "strengthens your security posture and reduces breach risk"
@@ -3669,8 +3810,6 @@ def build_lessons_post(items) -> str:
         topic = "DevOps reliability patterns"
         snippet = "Automate what you can, document what you can't."
         value = "reduces cognitive load and improves consistency"
-
-    # Create contextual lessons based on topic when possible
     if items and any(keyword in topic.lower() for keyword in ["security", "vulnerability", "cve", "sast"]):
         lesson_texts = [
             "Shift left on security. Finding vulns in prod costs 10x more.",
@@ -3690,7 +3829,6 @@ def build_lessons_post(items) -> str:
             "Alert on symptoms, not causes. Users care about impact.",
         ]
     else:
-        # General DevOps lessons
         lesson_texts = [
             "Automation beats heroics. Every manual step is a future incident.",
             "Observability isn't optional. You can't fix what you can't see.", 
@@ -3698,22 +3836,10 @@ def build_lessons_post(items) -> str:
             "Blameless culture wins. Hide mistakes = repeat mistakes.",
             "Infrastructure as code prevents configuration drift.",
         ]
-    
-    # Shuffle and take 3, then add sequential numbers
-    random.shuffle(lesson_texts) 
+    random.shuffle(lesson_texts)
     lessons = [f"{numbers[i]} {lesson_texts[i]}" for i in range(min(3, len(lesson_texts)))]
-
-    lines = []
-    if emoji:
-        lines.append(f"{emoji} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("lessons", " ".join([item["title"] for item in items[:3]])))
-    
+    lines = [hook, persona_line, ""]
     lines.extend([
-        "",
         f"Topic: {topic}",
         "",
     ])
@@ -3727,15 +3853,48 @@ def build_lessons_post(items) -> str:
         get_subscription_cta(),
         "",
         get_contextual_hashtags(topic, MAX_HASHTAGS),
+        "",
+        f"❓ {footer_question}"
     ])
     return clip("\n".join(lines), MAX_POST_CHARS, preserve_hashtags=True)
 
 
 def build_hot_take_post(items) -> str:
     """Build an opinion/hot-take style post."""
-    hook = random.choice(FORMAT_HOOKS["hot_take"])
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    hot_take_headers = [
+        "🔥 Hot take: challenging the status quo.",
+        "💭 Unpopular opinion from the field.",
+        "🤔 Rethinking conventional wisdom.",
+        "🎯 Bold perspective for practitioners.",
+        "📢 Industry myth-busting in action."
+    ]
+    persona_lines = [
+        "Industry leaders question the obvious.",
+        "Strategic thinkers challenge assumptions.",
+        "Platform architects surface bold opinions.",
+        "DevOps experts debate what works.",
+        "Cloud pioneers spark new conversations."
+    ]
+    footer_questions = [
+        "Agree or disagree? Why?",
+        "What’s your counter-argument?",
+        "How does this play out in your org?",
+        "What’s your experience with this?"
+    ]
+    hook = random.choice([h for h in hot_take_headers if h not in _USED_INTRO_LINES] or hot_take_headers)
+    _USED_INTRO_LINES.append(hook)
+    if len(_USED_INTRO_LINES) > len(hot_take_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(hot_take_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     cta = random.choice(FORMAT_CTAS["hot_take"])
-
     hot_takes = [
         "Most 'DevOps transformations' fail because they focus on tools, not culture. You can't Terraform your way to collaboration.",
         "Kubernetes is overkill for 80% of workloads. Sometimes a VM and a systemd service is the right answer.",
@@ -3748,23 +3907,11 @@ def build_hot_take_post(items) -> str:
         "Platform engineering is just good product management applied to internal tools. Nothing revolutionary.",
         "If your SRE team is just fighting fires, you don't have SRE—you have reactive ops with a fancy title.",
     ]
-
     take = random.choice(hot_takes)
-
     target_emoji = "🎯" if EMOJI_STYLE != "none" else ""
     arrow = get_emoji("arrow")
-    
-    lines = []
-    if get_emoji("hook"):
-        lines.append(f"{get_emoji('hook')} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("hot_take", " ".join([item["title"] for item in items[:3]])))
-    
+    lines = [hook, persona_line, ""]
     lines.extend([
-        "",
         f"{target_emoji} {take}".strip(),
         "",
         "The reasoning:",
@@ -3777,52 +3924,68 @@ def build_hot_take_post(items) -> str:
         get_subscription_cta(),
         "",
         get_hashtags(),
+        "",
+        f"❓ {footer_question}"
     ])
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
 def build_case_study_post(items) -> str:
     """Build a case-study style post with varied presentation styles."""
-    hook = random.choice(FORMAT_HOOKS["case_study"])
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    case_headers = [
+        "📊 Case study: real-world lessons.",
+        "🏗️ Production patterns in focus.",
+        "🔍 Breaking down what worked.",
+        "📚 Lessons from the trenches.",
+        "🛠️ How teams solved it.",
+        "⚡ Impactful strategies in action."
+    ]
+    persona_lines = [
+        "Industry leaders reveal what works (and what doesn't).",
+        "Strategic thinkers analyze production outcomes.",
+        "Platform architects surface key case studies.",
+        "DevOps experts highlight real-world results.",
+        "Cloud pioneers share implementation lessons."
+    ]
+    footer_questions = [
+        "Would this work in your environment?",
+        "What’s the gap between this and your reality?",
+        "Have you seen similar patterns?",
+        "How would you adapt this for your team?"
+    ]
+    hook = random.choice([h for h in case_headers if h not in _USED_INTRO_LINES] or case_headers)
+    _USED_INTRO_LINES.append(hook)
+    if len(_USED_INTRO_LINES) > len(case_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(case_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     arrow = get_emoji("arrow")
     pin_emoji = "📌" if EMOJI_STYLE != "none" else ""
-    
-    # Get random style variation
     post_style = get_random_post_style()
     style_config = POST_STYLES[post_style]
-
     if not items:
         return build_digest_post(items)
-
     item = items[0]
     title = item["title"]
     snippet = summarize_snippet(item.get("summary", ""))
     value = ai_generate_value_line(title, snippet)
     source = item.get("source", "")
     link = item.get("link", "")
-
-    # Get context-aware insights and CTA
     context_insights, context_cta = get_context_aware_insights(title, snippet)
-
-    lines = []
-    if get_emoji("hook"):
-        lines.append(f"{get_emoji('hook')} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("case_study", " ".join([item["title"] for item in items[:3]])))
-    
-    # Vary case study presentation
+    lines = [hook, persona_line, ""]
     case_formats = ["traditional", "story", "breakdown", "timeline"]
     case_format = random.choice(case_formats)
-    
     if case_format == "traditional":
         lines.extend([
             "",
             f"{pin_emoji} {title}".strip(),
-        ])
-        lines.extend([
             "",
             "The situation:",
             f"↳ {snippet if snippet else 'A real-world challenge in production systems.'}",
@@ -3830,7 +3993,6 @@ def build_case_study_post(items) -> str:
             "Key takeaway:",
             f"↳ {value}",
         ])
-        
     elif case_format == "story":
         lines.extend([
             "",
@@ -3840,7 +4002,6 @@ def build_case_study_post(items) -> str:
             "",
             f"The insight: {value.replace('Why it matters: ', '')}",
         ])
-        
     elif case_format == "breakdown":
         lines.extend([
             "",
@@ -3849,7 +4010,6 @@ def build_case_study_post(items) -> str:
             f"📊 Data: {snippet if snippet else 'Real-world system challenges'}",
             f"🎯 Impact: {value.replace('Why it matters: ', '')}",
         ])
-        
     else:  # timeline
         lines.extend([
             "",
@@ -3858,23 +4018,18 @@ def build_case_study_post(items) -> str:
             f"→ Challenge: {snippet if snippet else 'System reliability under pressure'}",
             f"→ Learning: {value.replace('Why it matters: ', '')}",
         ])
-    
-    # Vary action items presentation
     action_styles = ["steps", "principles", "checklist"]
     action_style = random.choice(action_styles)
-    
     if action_style == "steps":
         lines.extend(["", "How to apply this:"])
         for i, insight in enumerate(context_insights[:2], 1):
             lines.append(f"{arrow} Step {i}: {insight}")
         lines.append(f"{arrow} Step 3: Measure impact and iterate based on results")
-        
     elif action_style == "principles":
         lines.extend(["", "Core principles:"])
         for insight in context_insights[:2]:
             lines.append(f"• {insight}")
         lines.append("• Continuous improvement through measurement")
-        
     else:  # checklist
         lines.extend(["", "Action checklist:"])
         for i, insight in enumerate(context_insights[:2]):
@@ -3882,50 +4037,63 @@ def build_case_study_post(items) -> str:
             lines.append(f"{check} {insight}")
         check = "☑️" if EMOJI_STYLE != "none" else "[x]"
         lines.append(f"{check} Track results and optimize")
-    
-    lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags()])
-    
-    # Handle links with variety
+    lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags(), "", f"❓ {footer_question}"])
     links = [link] if link and should_include_links(post_style, "case_study") else []
     link_section = format_links_section(links, post_style)
     lines.extend(link_section)
-
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
 def build_deep_dive_post(items) -> str:
     """Build a longer-form deep dive on a single topic with varied styles."""
-    hook = random.choice(FORMAT_HOOKS["deep_dive"])
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    deep_dive_headers = [
+        "🔬 Deep dive: one concept worth your time.",
+        "📖 Unpacking a critical topic.",
+        "🎓 Going deeper on what matters.",
+        "🔎 In-depth analysis for practitioners.",
+        "🧠 Exploring the why behind the what.",
+        "⚡ Focused learning for teams."
+    ]
+    persona_lines = [
+        "Industry leaders break down complex challenges.",
+        "Strategic thinkers analyze what really matters.",
+        "Platform architects surface deep insights.",
+        "DevOps experts reveal the patterns behind success.",
+        "Cloud pioneers spotlight critical lessons."
+    ]
+    footer_questions = [
+        "How would you apply this insight?",
+        "What’s your experience with this topic?",
+        "What would you add to this deep dive?",
+        "Which takeaway resonates most for your team?"
+    ]
+    hook = random.choice([h for h in deep_dive_headers if h not in _USED_INTRO_LINES] or deep_dive_headers)
+    _USED_INTRO_LINES.append(hook)
+    if len(_USED_INTRO_LINES) > len(deep_dive_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(deep_dive_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     search_emoji = "🔎" if EMOJI_STYLE != "none" else ""
     bullet = get_emoji("bullet")
-    
-    # Get random style variation
     post_style = get_random_post_style()
     style_config = POST_STYLES[post_style]
-
     if not items:
         return build_digest_post(items)
-
     item = items[0]
     title = item["title"]
     snippet = summarize_snippet(item.get("summary", ""))
     value = ai_generate_value_line(title, snippet)
     source = item.get("source", "")
     link = item.get("link", "")
-
-    # Get context-aware insights and CTA
     context_insights, context_cta = get_context_aware_insights(title, snippet)
-
-    lines = []
-    if get_emoji("hook"):
-        lines.append(f"{get_emoji('hook')} {hook}")
-    else:
-        lines.append(hook)
-    
-    if INCLUDE_PERSONA:
-        lines.append(get_dynamic_persona("deep_dive", " ".join([item["title"] for item in items[:3]])))
-    
-    # Vary the topic introduction
+    lines = [hook, persona_line, ""]
     topic_styles = [
         f"{search_emoji} Topic: {title}",
         f"{search_emoji} Focus: {title}", 
@@ -3933,15 +4101,11 @@ def build_deep_dive_post(items) -> str:
         f"📌 {title}",
         f"🎯 {title}"
     ]
-    
     lines.extend([
         "",
         random.choice(topic_styles).strip(),
     ])
-    
-    # Vary content structure
     content_structure = random.choice(["standard", "bullet_points", "numbered", "minimal"])
-    
     if content_structure == "standard":
         lines.extend([
             "",
@@ -3955,7 +4119,6 @@ def build_deep_dive_post(items) -> str:
         ])
         for insight in context_insights:
             lines.append(f"{bullet} {insight}")
-            
     elif content_structure == "bullet_points":
         lines.extend([
             "",
@@ -3965,9 +4128,8 @@ def build_deep_dive_post(items) -> str:
             "",
             "What this means:",
         ])
-        for insight in context_insights[:2]:  # Fewer insights for this style
+        for insight in context_insights[:2]:
             lines.append(f"{bullet} {insight}")
-            
     elif content_structure == "numbered":
         lines.extend([
             "",
@@ -3977,7 +4139,6 @@ def build_deep_dive_post(items) -> str:
             f"2️⃣ {value}",
             f"3️⃣ Key insight: {context_insights[0] if context_insights else 'Focus on fundamentals'}",
         ])
-        
     else:  # minimal
         lines.extend([
             "",
@@ -3985,15 +4146,10 @@ def build_deep_dive_post(items) -> str:
             "",
             f"💡 {context_insights[0] if context_insights else 'Focus on what matters most.'}",
         ])
-    
-    # Add CTA
-    lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags()])
-    
-    # Handle links with variety
+    lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags(), "", f"❓ {footer_question}"])
     links = [link] if link and should_include_links(post_style, "deep_dive") else []
     link_section = format_links_section(links, post_style)
     lines.extend(link_section)
-
     return clip("\n".join(lines), MAX_POST_CHARS)
 
 
@@ -4013,12 +4169,97 @@ def build_digest_post(items):
     
     # Determine items to show based on style
     # Enforce detailed, industry-leader format for every digest post
-    intro_header = "🛠️ What high-perf teams are watching this week."
-    persona_line = "I optimize tech stacks and debunk myths in the DevOps trenches. Here's..."
-    section_header = "What caught my attention:"
-    cta = "💌 Get weekly DevOps insights delivered to your inbox - subscribe to stay ahead!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 Checkout DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf"
-    hashtags = "hashtag#Infrastructure hashtag#DevOps hashtag#Security hashtag#CloudNative hashtag#Kubernetes hashtag#Engineering hashtag#DevSecOps"
-    footer_question = "What did we miss?"
+    intro_headers = [
+        "🛠️ What high-perf teams are watching this week.",
+        "🚀 Signals shaping modern engineering.",
+        "📡 This week's essential DevOps signals.",
+        "🔍 Key trends in platform reliability.",
+        "⚡️ Strategic moves in cloud and infra.",
+        "🌐 What matters for builders and operators.",
+        "📊 Data-driven insights for engineering teams.",
+        "🔒 Security, scale, and innovation: the highlights.",
+        "☁️ Cloud-native breakthroughs to watch.",
+        "🎯 Platform engineering: what stands out now.",
+        "🤖 AI and automation: practical impacts.",
+        "🧠 Leadership lessons from the field.",
+        "🛡️ Security, compliance, and trust: the essentials.",
+        "🚦 SRE and reliability: what’s trending.",
+        "📈 Observability and metrics: actionable insights.",
+        "🔗 Collaboration and culture: team wins.",
+        "💡 Innovation in cloud-native and edge computing.",
+        "🧩 Architecture patterns for scale and resilience.",
+        "🦾 Automation strategies for modern teams.",
+        "🌍 Global tech trends to watch."
+    ]
+    persona_lines = [
+        "Industry leaders optimize tech stacks and debunk myths in the DevOps trenches. Here’s what matters.",
+        "Top teams separate signal from noise in modern infrastructure. Insights below.",
+        "Strategic thinkers track what moves the reliability needle. Here’s the latest.",
+        "Engineering visionaries spotlight what matters most this week.",
+        "Platform architects surface actionable insights for resilient systems.",
+        "DevOps experts curate the signals that drive innovation.",
+        "Cloud pioneers highlight key developments for practitioners.",
+        "Security champions share what shapes the future of operations.",
+        "AI innovators map the future of intelligent systems.",
+        "SRE leaders share reliability wins and lessons.",
+        "Observability advocates surface what teams measure and why.",
+        "Tech strategists decode the next wave of transformation.",
+        "Collaboration experts spotlight culture and process breakthroughs.",
+        "Automation architects drive efficiency and scale across industries."
+    ]
+    section_headers = [
+        "What caught our attention:",
+        "This week's standouts:",
+        "Key developments:",
+        "Signal vs noise:",
+        "Industry pulse:",
+        "Strategic highlights:",
+        "Essential reads:",
+        "Platform wins:",
+        "Cloud-native breakthroughs:",
+        "Security signals:",
+        "Observability insights:",
+        "Leadership lessons:",
+        "Collaboration wins:",
+        "Automation strategies:",
+        "Architecture patterns:",
+        "Global tech trends:"
+    ]
+    ctas = [
+        "💌 Get weekly DevOps insights delivered to your inbox – subscribe to stay ahead!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 Checkout DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf",
+        "💌 Stay ahead: subscribe for weekly DevOps insights!\n👉 Join here: https://lnkd.in/g_mZKwxY\n📖 Get the Playbook: https://lnkd.in/gzTACvZf",
+        "💌 Don’t miss out – get DevOps news in your inbox!\n👉 Sign up: https://lnkd.in/g_mZKwxY\n📖 LinkedIn Playbook: https://lnkd.in/gzTACvZf",
+        "💌 Level up your DevOps game – subscribe now!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf"
+    ]
+    hashtags_list = [
+        "hashtag#Infrastructure hashtag#DevOps hashtag#Security hashtag#CloudNative hashtag#Kubernetes hashtag#Engineering hashtag#DevSecOps",
+        "#DevOps #Cloud #SRE #Platform #Security #Kubernetes #Engineering",
+        "#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps"
+    ]
+    footer_questions = [
+        "What did we miss?",
+        "Which trend resonates most with your team?",
+        "What’s your take on these developments?",
+        "How is your organization responding to these signals?",
+        "Which signal will shape your roadmap?"
+    ]
+    # Track used headers/footers to avoid repetition
+    global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
+    intro_header = random.choice([h for h in intro_headers if h not in _USED_INTRO_LINES] or intro_headers)
+    _USED_INTRO_LINES.append(intro_header)
+    if len(_USED_INTRO_LINES) > len(intro_headers) // 2:
+        _USED_INTRO_LINES = _USED_INTRO_LINES[-len(intro_headers)//2:]
+    persona_line = random.choice([p for p in persona_lines if p not in _USED_SUBHEADER_LINES] or persona_lines)
+    _USED_SUBHEADER_LINES.append(persona_line)
+    if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
+        _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
+    section_header = random.choice(section_headers)
+    cta = random.choice(ctas)
+    hashtags = random.choice(hashtags_list)
+    footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
+    _USED_FOOTER_QUESTIONS.append(footer_question)
+    if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
+        _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     lines = [intro_header, persona_line, "", section_header]
     for i, item in enumerate(items, 1):
         takeaway = remix_title(item["title"])
