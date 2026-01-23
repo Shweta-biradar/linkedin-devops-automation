@@ -2707,31 +2707,43 @@ def get_hashtags(count: Optional[int] = None, context_tags: Optional[List[str]] 
     """Get hashtags based on settings with context-aware selection."""
     # Use custom hashtags if provided
     if HASHTAGS_ENV:
-        tags = [t.strip() for t in HASHTAGS_ENV.split() if t.strip().startswith("#")]
+        tags = [t.strip() for t in HASHTAGS_ENV.split() if t.strip()]
     else:
         tags = HASHTAGS.copy()
-    
+
+    # Always convert to #tag style, never 'hashtag#tag'
+    def normalize_tag(tag):
+        tag = tag.strip()
+        if tag.lower().startswith('hashtag#'):
+            tag = '#' + tag[8:]
+        if not tag.startswith('#'):
+            tag = '#' + tag.lstrip('#')
+        # Remove any whitespace or punctuation after the tag
+        tag = tag.split()[0].split(',')[0]
+        return tag
+    tags = [normalize_tag(t) for t in tags if t]
+
     # Add context-specific hashtags if provided
     if context_tags:
-        tags.extend(context_tags)
+        tags.extend([normalize_tag(t) for t in context_tags if t])
         # Remove duplicates while preserving order
         seen = set()
         tags = [tag for tag in tags if not (tag in seen or seen.add(tag))]
-    
+
     # Limit count
     max_count = count if count else MAX_HASHTAGS
     max_count = min(max_count, len(tags))
-    
+
     # Ensure we have enough unique tags
     if max_count > len(tags):
         max_count = len(tags)
-    
+
     # Rotate or shuffle for variety
     if ROTATE_HASHTAGS and len(tags) > max_count:
         selected = random.sample(tags, max_count)
     else:
         selected = tags[:max_count]
-    
+
     return " ".join(selected)
 
 
@@ -4253,7 +4265,15 @@ def build_digest_post(items):
     _USED_SUBHEADER_LINES.append(persona_line)
     if len(_USED_SUBHEADER_LINES) > len(persona_lines) // 2:
         _USED_SUBHEADER_LINES = _USED_SUBHEADER_LINES[-len(persona_lines)//2:]
-    section_header = random.choice(section_headers)
+    # Rotate section headers to avoid repetition
+    if not hasattr(build_digest_post, '_used_section_headers'):
+        build_digest_post._used_section_headers = []
+    available_section_headers = [h for h in section_headers if h not in build_digest_post._used_section_headers]
+    if not available_section_headers:
+        build_digest_post._used_section_headers = []
+        available_section_headers = section_headers.copy()
+    section_header = random.choice(available_section_headers)
+    build_digest_post._used_section_headers.append(section_header)
     cta = random.choice(ctas)
     hashtags = random.choice(hashtags_list)
     footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
@@ -4265,9 +4285,20 @@ def build_digest_post(items):
         takeaway = remix_title(item["title"])
         snippet = summarize_snippet(item.get("summary", ""))
         value = ai_generate_value_line(item["title"], snippet)
+        # Remove duplicate 'Why it matters:' if present
+        if value.lower().count('why it matters:') > 1:
+            value = value.replace('Why it matters: ', '', 1)
+        # Remove leading/trailing 'Why it matters:'
+        value = value.strip()
+        if value.lower().startswith('why it matters:'):
+            value = value[len('Why it matters:'):].strip()
         link_display = f"\n 🔗 {item.get('link', '')}" if item.get('link') else ""
-        src = f" ({item.get('source')})" if item.get('source') else ""
-        lines.append(f"{i}. {takeaway}{src}\n Context: {snippet}\n Impact: Here's why: {value}{link_display}\n")
+        # Only show source if it is meaningful (not a generic domain)
+        generic_sources = {"about.gitlab.com", "www.gitlab.com", "www.github.com", "github.com", "linkedin.com", "www.linkedin.com", "medium.com", "www.medium.com"}
+        src = ""
+        if item.get('source') and item.get('source').lower() not in generic_sources:
+            src = f" ({item.get('source')})"
+        lines.append(f"{i}. {takeaway}{src}\n Context: {snippet}\n Impact: {value}{link_display}\n")
     lines.extend(["", cta, "", hashtags, "", footer_question])
     post = "\n".join(lines)
     return format_post_content(clip(post, MAX_POST_CHARS))
