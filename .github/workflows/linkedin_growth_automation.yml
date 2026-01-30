@@ -1,4 +1,4 @@
-name: LinkedIn DevOps Growth & Engagement Automation
+name: LinkedIn Data Analytics Growth & Engagement Automation
 
 on:
   schedule:
@@ -403,9 +403,9 @@ jobs:
         AI_GENERATION_MODELS: "distilgpt2,gpt2"
         
         # Content sources
-        SOURCE_PACKS: "devops,sre,platform,kubernetes,architecture,devsecops,security,finops"
-        KEYWORDS_INCLUDE: "devops,scaling,performance,production,engineering,infra,reliability,devsecops,sre,kubernetes,cloud,platform,terraform,helm,gitops,cicd,observability,incident,reliability,aws,gcp,azure,docker,security,vulnerability,compliance,shift-left"
-        KEYWORDS_EXCLUDE: "sponsored,advertisement,marketing,pricing,trial"
+        SOURCE_PACKS: "data-analyst,sql-developer,power-bi,analytics,business-intelligence,etl,reporting,dashboard,python,sql,excel,tableau,dataviz,statistics,insights,visualization,automation,cloud-data,azure-data,aws-data,gcp-data,mlops,databricks,snowflake,warehouse,dbt,airflow,looker,ssrs,ssis,ssas,oracle,postgresql,mysql,redshift,bigquery,alteryx,qlik,sap-bw,sap-hana,bi-tools,advanced-analytics"
+        KEYWORDS_INCLUDE: "data analyst,sql developer,power bi,analytics,business intelligence,etl,reporting,dashboard,python,sql,excel,tableau,data visualization,statistics,insights,visualization,automation,cloud data,azure data,aws data,gcp data,mlops,databricks,snowflake,data warehouse,dbt,airflow,looker,ssrs,ssis,ssas,oracle,postgresql,mysql,redshift,bigquery,alteryx,qlik,sap bw,sap hana,bi tools,advanced analytics"
+        KEYWORDS_EXCLUDE: "sponsored,advertisement,marketing,pricing,trial,devops,sre,platform,kubernetes,architecture,devsecops,security,finops"
         MIN_ARTICLE_AGE_HOURS: "0"
         MAX_ARTICLE_AGE_HOURS: "96"
         FEED_TIMEOUT_SECONDS: "15"
@@ -418,7 +418,7 @@ jobs:
         POST_FORMATS: "deep_dive,case_study,lessons,digest"
         FORCE_FORMAT: "${{ github.event.inputs.post_format || 'auto' }}"
         CUSTOM_MESSAGE: "${{ github.event.inputs.custom_message || '' }}"
-        HASHTAGS: "#DevOps #SRE #CloudNative #Platform #Kubernetes #DevSecOps #Architecture #Engineering #Systems #Infrastructure #Observability #Security"
+        HASHTAGS: "#DataAnalyst #SQL #PowerBI #BusinessIntelligence #Analytics #ETL #Reporting #Dashboard #Python #Tableau #DataVisualization #Statistics #Insights #Automation #CloudData #MLOps #Databricks #Snowflake #DataWarehouse #DBT #Airflow #Looker #SSRS #SSIS #SSAS #Oracle #PostgreSQL #MySQL #Redshift #BigQuery #Alteryx #Qlik #SAPHANA #BITools #AdvancedAnalytics"
         MAX_HASHTAGS: "7"
         ROTATE_HASHTAGS: "true"
         EMOJI_STYLE: "moderate"
@@ -434,13 +434,13 @@ jobs:
         SHORTEN_LINKS: "false"
         UTM_SOURCE: "linkedin"
         UTM_MEDIUM: "social"
-        UTM_CAMPAIGN: "devops-automation"
+        UTM_CAMPAIGN: "data-analytics-automation"
         ADD_UTM_PARAMS: "false"
         
         # Newsletter & product promotion
-        INCLUDE_SUBSCRIPTION: "true"
+        INCLUDE_SUBSCRIPTION: "false"
         NEWSLETTER_URL: "https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a"
-        INCLUDE_PLAYBOOK: "true"
+        INCLUDE_PLAYBOOK: "false"
         PLAYBOOK_URL: "https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook"
         
         # Growth Plan vs RSS probability (0=100% RSS, 1=100% Growth Plan)
