@@ -1,84 +1,547 @@
 {
-  "total_posts": 5,
+  "total_posts": 51,
   "posts_today": 5,
   "last_post_date": "2026-01-31",
   "formats_used": {
-    "digest": 3,
-    "lessons_learned": 2
+    "case_study": 10,
+    "deep_dive": 5,
+    "lessons": 10,
+    "digest": 17,
+    "lessons_learned": 2,
+    "technical_deep_dives": 3,
+    "industry_predictions": 3,
+    "career_advice": 1
   },
   "sources_used": {
-    "netflixtechblog.medium.com": 1,
-    "github.blog": 1,
-    "blog.rapid7.com": 3,
+    "www.infoq.com": 34,
+    "kubernetes.io": 11,
+    "www.docker.com": 4,
+    "krebsonsecurity.com": 2,
+    "blog.pagerduty.com": 1,
+    "blog.newrelic.com": 1,
+    "engineering.fb.com": 2,
+    "blog.google": 2,
+    "blog.checkpoint.com": 5,
+    "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 1,
-    "towardsdatascience.com": 10,
-    "www.snowflake.com": 1,
-    "growth_plan": 2
+    "aws.amazon.com": 7,
+    "www.cncf.io": 6,
+    "blog.rapid7.com": 1,
+    "feeds.feedburner.com": 3,
+    "www.mend.io": 1,
+    "unit42.paloaltonetworks.com": 1,
+    "www.hashicorp.com": 5,
+    "growth_plan": 9,
+    "snyk.io": 1,
+    "netflixtechblog.medium.com": 1,
+    "github.blog": 2,
+    "thenewstack.io": 6,
+    "blog.jetbrains.com": 3,
+    "www.bleepingcomputer.com": 2,
+    "martinfowler.com": 2,
+    "towardsdatascience.com": 2,
+    "www.snowflake.com": 3,
+    "kdnuggets.com": 2
   },
   "errors": [],
   "daily_history": [
     {
-      "date": "2026-01-31",
-      "time": "2026-01-31T06:33:16.044081+00:00",
+      "date": "2025-12-22",
+      "time": "2025-12-22T12:52:38.025154+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.infoq.com",
+        "kubernetes.io",
+        "www.docker.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.docker.com"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "time": "2025-12-22T13:12:14.492424+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "krebsonsecurity.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "kubernetes.io"
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "time": "2025-12-22T15:14:41.509817+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "www.infoq.com",
+        "www.docker.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T04:12:28.547722+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "kubernetes.io",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T05:16:26.898604+00:00",
+      "format": "lessons",
+      "sources": [
+        "blog.pagerduty.com",
+        "blog.newrelic.com",
+        "engineering.fb.com",
+        "blog.google"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T05:30:22.508973+00:00",
+      "format": "lessons",
+      "sources": [
+        "blog.checkpoint.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T05:37:53.541126+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "www.crowdstrike.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T05:55:25.885208+00:00",
       "format": "digest",
       "sources": [
-        "netflixtechblog.medium.com",
-        "github.blog",
-        "blog.rapid7.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com",
+        "www.crowdstrike.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T06:14:18.406193+00:00",
+      "format": "lessons",
+      "sources": [
         "blog.qualys.com",
+        "kubernetes.io",
+        "kubernetes.io",
+        "aws.amazon.com",
+        "www.cncf.io",
+        "www.cncf.io"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T06:50:20.655266+00:00",
+      "format": "case_study",
+      "sources": [
+        "blog.google"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T07:05:25.385753+00:00",
+      "format": "lessons",
+      "sources": [
+        "blog.checkpoint.com",
         "blog.rapid7.com",
-        "blog.rapid7.com"
+        "www.crowdstrike.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T07:12:00.387521+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "engineering.fb.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T13:12:53.485844+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.cncf.io",
+        "www.infoq.com",
+        "www.infoq.com",
+        "feeds.feedburner.com"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T14:04:16.434510+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.mend.io"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "time": "2025-12-23T15:08:27.426029+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "time": "2025-12-24T04:10:44.003732+00:00",
+      "format": "digest",
+      "sources": [
+        "kubernetes.io"
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "time": "2025-12-24T05:38:51.974080+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "time": "2025-12-24T05:50:59.554547+00:00",
+      "format": "digest",
+      "sources": [
+        "unit42.paloaltonetworks.com"
+      ]
+    },
+    {
+      "date": "2025-12-24",
+      "time": "2025-12-24T13:10:01.709295+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.cncf.io",
+        "feeds.feedburner.com"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "time": "2025-12-25T05:28:36.535056+00:00",
+      "format": "case_study",
+      "sources": [
+        "blog.checkpoint.com"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "time": "2025-12-25T07:34:14.671071+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "time": "2025-12-25T13:08:46.318517+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.hashicorp.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T04:11:51.574051+00:00",
+      "format": "case_study",
+      "sources": [
+        "kubernetes.io"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T06:34:41.635151+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T07:07:06.942880+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.hashicorp.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T08:23:14.856862+00:00",
+      "format": "digest",
+      "sources": [
+        "kubernetes.io"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T09:28:34.436684+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T11:05:38.684595+00:00",
+      "format": "digest",
+      "sources": [
+        "www.hashicorp.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T11:33:30.149990+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.hashicorp.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T11:38:23.402526+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-26",
+      "time": "2025-12-26T12:03:45.449781+00:00",
+      "format": "digest",
+      "sources": [
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-27",
+      "time": "2025-12-27T04:47:39.598573+00:00",
+      "format": "lessons_learned",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2025-12-27",
+      "time": "2025-12-27T06:54:43.070891+00:00",
+      "format": "digest",
+      "sources": [
+        "www.infoq.com",
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    },
+    {
+      "date": "2025-12-28",
+      "time": "2025-12-28T06:54:25.542685+00:00",
+      "format": "technical_deep_dives",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "time": "2025-12-29T04:35:50.091093+00:00",
+      "format": "industry_predictions",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2025-12-29",
+      "time": "2025-12-29T11:42:35.428562+00:00",
+      "format": "digest",
+      "sources": []
+    },
+    {
+      "date": "2025-12-30",
+      "time": "2025-12-30T04:15:42.263053+00:00",
+      "format": "technical_deep_dives",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2025-12-30",
+      "time": "2025-12-30T11:41:57.308672+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.checkpoint.com",
+        "feeds.feedburner.com",
+        "www.hashicorp.com",
+        "www.cncf.io",
+        "krebsonsecurity.com",
+        "www.crowdstrike.com"
+      ]
+    },
+    {
+      "date": "2025-12-31",
+      "time": "2025-12-31T04:15:37.232956+00:00",
+      "format": "industry_predictions",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2025-12-31",
+      "time": "2025-12-31T11:39:02.057034+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.checkpoint.com",
+        "snyk.io"
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "time": "2026-01-01T04:34:49.223417+00:00",
+      "format": "digest",
+      "sources": [
+        "kubernetes.io",
+        "kubernetes.io",
+        "kubernetes.io"
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "time": "2026-01-01T11:41:22.769943+00:00",
+      "format": "industry_predictions",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "time": "2026-01-02T04:29:24.483953+00:00",
+      "format": "digest",
+      "sources": [
+        "netflixtechblog.medium.com"
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "time": "2026-01-02T11:40:35.880172+00:00",
+      "format": "career_advice",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "time": "2026-01-03T06:54:12.600099+00:00",
+      "format": "lessons_learned",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2026-01-04",
+      "time": "2026-01-04T06:53:37.749800+00:00",
+      "format": "technical_deep_dives",
+      "sources": [
+        "growth_plan"
       ]
     },
     {
       "date": "2026-01-31",
-      "time": "2026-01-31T06:44:13.476428+00:00",
+      "time": "2026-01-31T03:13:17.370764+00:00",
       "format": "digest",
       "sources": [
         "aws.amazon.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
+        "github.blog",
+        "thenewstack.io",
+        "www.cncf.io",
+        "blog.jetbrains.com",
+        "github.blog"
       ]
     },
     {
       "date": "2026-01-31",
-      "time": "2026-01-31T06:46:40.062464+00:00",
+      "time": "2026-01-31T05:21:11.426678+00:00",
       "format": "digest",
       "sources": [
+        "blog.jetbrains.com",
+        "blog.jetbrains.com",
+        "www.bleepingcomputer.com",
+        "www.bleepingcomputer.com",
+        "martinfowler.com",
+        "www.docker.com"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T05:31:08.207347+00:00",
+      "format": "digest",
+      "sources": [
+        "martinfowler.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T06:13:48.431819+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
         "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T11:45:53.714949+00:00",
+      "format": "digest",
+      "sources": [
         "www.snowflake.com",
+        "www.snowflake.com",
+        "kdnuggets.com",
+        "kdnuggets.com",
         "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
-    {
-      "date": "2026-01-31",
-      "time": "2026-01-31T06:47:25.396426+00:00",
-      "format": "lessons_learned",
-      "sources": [
-        "growth_plan"
-      ]
-    },
-    {
-      "date": "2026-01-31",
-      "time": "2026-01-31T06:50:20.141934+00:00",
-      "format": "lessons_learned",
-      "sources": [
-        "growth_plan"
+        "aws.amazon.com"
       ]
     }
   ],
-  "posts_created": 5,
-  "last_post_content": "Practical frameworks for preventing bad data from cascading into BI and ML systems.\n\nKey insights on data quality frameworks that actually scale:\n\n\u2022 Sources of bad data\n\u2022 Checks and validation at ingestion\n\u2022 Contract testing and schemas\n\u2022 Operational monitoring\n\nWhich data check saved you the most time?\n\n#DataQuality #DataEngineering #GreatExpectations #dbt",
-  "last_post_format": "lessons_learned",
+  "posts_created": 24,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSignal vs noise:\n1. Open by Design: Snowflake\u2019s Commitment to Iceberg and Interoperability\nContext: Snowflake supports full bidirectional interoperability via the Iceberg REST Catalog. Discover how we enable open data federation without vendor lock-in.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability\n\n2. Meet the Startups Building the Future of AI on Snowflake\nContext: Meet the latest Snowflake Startup Accelerator cohort and learn how startups are building, scaling, and innovating on Snowflake AI Data Cloud.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startups-building-ai-snowflake\n\n3. Managing Secrets and API Keys in Python Projects (.env Guide)\nContext: If you use API keys in Python, you need a safe way to store them. This guide explains seven beginner-friendly techniques for managing secrets using .env files.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "growth_plan"
+    "kdnuggets.com",
+    "towardsdatascience.com",
+    "aws.amazon.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-01-31T06:50:20.142358+00:00"
+  "last_post_timestamp": "2026-01-31T11:45:53.715650+00:00"
 }
