@@ -9,6 +9,14 @@ on:
     - cron: '30 3 * * *'   # 9 AM IST daily (morning posting)
     - cron: '30 11 * * *'  # 5 PM IST daily (evening engagement)
     - cron: '30 6 * * *'   # 12 PM IST daily (midday engagement)
+    #
+    # Alternate schedules (uncomment to enable):
+    # Weekdays only (Mon-Fri) — enables morning & evening only
+    # - cron: '30 3 * * 1-5'   # 9 AM IST weekdays (morning posting)
+    # - cron: '30 11 * * 1-5'  # 5 PM IST weekdays (evening engagement)
+    #
+    # Weekends only (Sat-Sun) — enables midday only
+    # - cron: '30 6 * * 0,6'   # 12 PM IST weekends (midday engagement)
   
   workflow_dispatch:
     inputs:
