@@ -91,7 +91,10 @@ MAX_JITTER_SECONDS = safe_int(os.environ.get("MAX_JITTER_SECONDS", "180"), 180, 
 # Use: SOURCE_PACKS="data-analyst,analytics,tableau,power-bi,sql" (or "all")
 SOURCE_PACKS = [
     p.strip().lower()
-    for p in os.environ.get("SOURCE_PACKS", "all").split(",")
+    for p in os.environ.get(
+        "SOURCE_PACKS",
+        "data-analyst,sql-developer,power-bi,analytics,tableau,mlops,databricks,snowflake,dbt,bigquery,redshift,warehouse,etl,bi-tools",
+    ).split(",")
     if p.strip()
 ]
 
@@ -788,6 +791,35 @@ KEYWORDS_EXCLUDE = [
     if k.strip()
 ]
 
+# Analytics-only filter: when enabled, drop RSS items that are not analytics-focused
+ANALYTICS_FILTER = os.environ.get("ANALYTICS_FILTER", "true").lower() == "true"
+ANALYTICS_SOURCES = [
+    s.strip().lower()
+    for s in os.environ.get(
+        "ANALYTICS_SOURCES",
+        "www.infoq.com,aws.amazon.com,blog.google,databricks.com,snowflake.com,dbt.com,towardsdatascience.com,netflixtechblog.com,thenewstack.io,github.blog",
+    ).split(",")
+    if s.strip()
+]
+
+
+def is_analytics_item(it: Dict[str, str]) -> bool:
+    """Return True if item matches analytics whitelist (source or keywords)."""
+    title = (it.get("title") or "").lower()
+    summary = (it.get("summary") or "").lower()
+    src = (it.get("source") or "").lower()
+
+    # Source-based allowlist
+    if any(a in src for a in ANALYTICS_SOURCES):
+        return True
+
+    # Keyword-based allowlist: must match at least one include keyword
+    text = f"{title} {summary}"
+    if any(k and k in text for k in KEYWORDS_INCLUDE):
+        return True
+
+    return False
+
 # Article filtering
 MIN_ARTICLE_AGE_HOURS = safe_int(os.environ.get("MIN_ARTICLE_AGE_HOURS", "0"), 0, 0, 168)
 MAX_ARTICLE_AGE_HOURS = safe_int(os.environ.get("MAX_ARTICLE_AGE_HOURS", "72"), 72, 1, 720)
@@ -809,7 +841,7 @@ CUSTOM_MESSAGE = os.environ.get("CUSTOM_MESSAGE", "")  # Override with custom me
 # Growth Plan Integration
 USE_GROWTH_PLAN = os.environ.get("USE_GROWTH_PLAN", "true").lower() == "true"
 GROWTH_PLAN_FILE = os.environ.get("GROWTH_PLAN_FILE", "weekly_growth_plan.json")
-GROWTH_PLAN_PROBABILITY = float(os.environ.get("GROWTH_PLAN_PROBABILITY", "0.4"))  # 40% growth plan (intelligent), 60% RSS news
+GROWTH_PLAN_PROBABILITY = float(os.environ.get("GROWTH_PLAN_PROBABILITY", "1.0"))  # 100% growth plan by default (authoritative analytics posts)
 
 # Rate limiting
 # Rate limiting and timing controls
@@ -2826,6 +2858,19 @@ def sanitize_generated_post(text: str) -> str:
     return cleaned
 
 
+def pick_random_cta(ctas_list: List[str]) -> str:
+    """Pick a CTA but exclude disabled/placeholder CTAs.
+
+    Filters out CTAs that contain 'disabled' or obviously placeholder text so
+    they never make it into published posts. Returns empty string when none
+    are available.
+    """
+    if not ctas_list:
+        return ""
+    valid = [c for c in ctas_list if not re.search(r"\bdisabled\b|newsletter: disabled|subscribe: \(disabled\)|playbook: \(disabled\)", c, re.IGNORECASE)]
+    return random.choice(valid) if valid else ""
+
+
 def get_contextual_hashtags(topic: str, max_count: int = None) -> str:
     """Generate context-aware hashtags based on topic content."""
     topic_lower = topic.lower()
@@ -3418,13 +3463,18 @@ def fetch_news(posted, state: Optional[Dict[str, Any]] = None):
                 feed_item_count += 1
 
                 if link and link not in posted:
-                    items.append({
+                    candidate = {
                         "title": title,
                         "link": process_link(link),  # Process link for UTM params
                         "summary": summary.strip(),
                         "source": source,
                         "published": published.isoformat() if published else None,
-                    })
+                    }
+                    # If analytics-only filtering enabled, drop non-analytics items
+                    if ANALYTICS_FILTER and not is_analytics_item(candidate):
+                        logger.debug(f"Dropping non-analytics item: {title[:60]}...")
+                        continue
+                    items.append(candidate)
                     
             except Exception as e:
                 logger.debug(f"Error processing entry from {feed}: {e}")
@@ -3826,7 +3876,7 @@ def build_quick_tip_post() -> str:
     _USED_FOOTER_QUESTIONS.append(footer_question)
     if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
         _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
-    cta = random.choice(FORMAT_CTAS["quick_tip"])
+    cta = pick_random_cta(FORMAT_CTAS["quick_tip"]) 
     tip = random.choice(QUICK_TIPS)
     emoji = get_emoji("hook")
     tip_emoji = "💡" if EMOJI_STYLE != "none" else ""
@@ -3884,7 +3934,7 @@ def build_lessons_post(items) -> str:
     _USED_FOOTER_QUESTIONS.append(footer_question)
     if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
         _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
-    cta = random.choice(FORMAT_CTAS["lessons"])
+    cta = pick_random_cta(FORMAT_CTAS["lessons"]) 
     emoji = get_emoji("hook")
     numbers = EMOJI_SETS.get(EMOJI_STYLE, EMOJI_SETS["moderate"])["numbers"]
     if items:
@@ -3993,7 +4043,7 @@ def build_hot_take_post(items) -> str:
     _USED_FOOTER_QUESTIONS.append(footer_question)
     if len(_USED_FOOTER_QUESTIONS) > len(footer_questions) // 2:
         _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
-    cta = random.choice(FORMAT_CTAS["hot_take"])
+    cta = pick_random_cta(FORMAT_CTAS["hot_take"]) 
     hot_takes = [
         "Most analytics transformations fail because they focus on tools, not culture. You can't automate your way to collaboration.",
         "Kubernetes is overkill for 80% of workloads. Sometimes a VM and a systemd service is the right answer.",
@@ -4255,7 +4305,7 @@ def build_deep_dive_post(items) -> str:
 def build_digest_post(items):
     """Build the classic multi-link digest post with varied styles."""
     hook = random.choice(FORMAT_HOOKS.get("digest", HOOKS))
-    cta = random.choice(FORMAT_CTAS.get("digest", CTAS))
+    cta = pick_random_cta(FORMAT_CTAS.get("digest", CTAS))
     why_line = random.choice(WHY_LINES)
     
     # Get random style variation
@@ -4360,7 +4410,7 @@ def build_digest_post(items):
         available_section_headers = section_headers.copy()
     section_header = random.choice(available_section_headers)
     build_digest_post._used_section_headers.append(section_header)
-    cta = random.choice(ctas)
+    cta = pick_random_cta(ctas)
     hashtags = random.choice(hashtags_list)
     footer_question = random.choice([q for q in footer_questions if q not in _USED_FOOTER_QUESTIONS] or footer_questions)
     _USED_FOOTER_QUESTIONS.append(footer_question)
