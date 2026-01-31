@@ -10,7 +10,7 @@
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
-    "career_advice": 1,
+    "career_advice": 2,
     "controversial_takes": 1
   },
   "sources_used": {
@@ -32,7 +32,7 @@
     "www.mend.io": 1,
     "unit42.paloaltonetworks.com": 1,
     "www.hashicorp.com": 5,
-    "growth_plan": 10,
+    "growth_plan": 11,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 2,
@@ -513,7 +513,14 @@
     },
     {
       "date": "2026-01-31",
-<<<<<<< HEAD
+      "time": "2026-01-31T06:09:20.253540+00:00",
+      "format": "controversial_takes",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2026-01-31",
       "time": "2026-01-31T06:13:48.431819+00:00",
       "format": "digest",
       "sources": [
@@ -523,23 +530,6 @@
         "aws.amazon.com",
         "towardsdatascience.com",
         "www.snowflake.com"
-      ]
-    }
-  ],
-  "posts_created": 23,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nSecurity champions share what shapes the future of operations.\n\nStrategic highlights:\n1. Create a customizable cross-company log lake, Part II: Build and add Amazon Bedrock\nContext: In this post, you learn how to build Log Lake, a customizable cross-company data lake for compliance-related use cases that combines AWS CloudTrail and Amazon CloudWatch logs.\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/\n\n2. Streamline your Amazon Redshift maintenance event notifications with Amazon Simple Notification Service\nContext: In this post, we take you through customization options for managing the schedule of your Amazon Redshift maintenance events, along with Amazon Redshift maintenance tracks for...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/\n\n3. Build a trusted foundation for data and AI using Alation and Amazon SageMaker Unified Studio\nContext: The Alation and SageMaker Unified Studio integration helps organizations bridge the gap between fast analytics and ML development and the governance requirements most...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/\n\n\ud83d\udc8c Newsletter: disabled\n\ud83d\udc49 Subscribe: (disabled)\n\ud83d\udcd6 Playbook: (disabled)\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
-  "last_post_format": "digest",
-  "last_post_sources": [
-    "towardsdatascience.com",
-    "aws.amazon.com",
-    "www.snowflake.com"
-  ],
-  "last_post_timestamp": "2026-01-31T06:13:48.432500+00:00"
-=======
-      "time": "2026-01-31T06:09:20.253540+00:00",
-      "format": "controversial_takes",
-      "sources": [
-        "growth_plan"
       ]
     },
     {
@@ -554,16 +544,33 @@
         "www.infoq.com",
         "www.infoq.com"
       ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T06:25:03.288688+00:00",
+      "format": "career_advice",
+      "sources": [
+        "growth_plan"
+      ]
     }
   ],
-  "posts_created": 24,
-  "last_post_content": "📡 This week's essential Data & Analytics signals.\nCollaboration experts spotlight culture and process breakthroughs.\n\nSecurity signals:\n1. Google BigQuery Adds SQL-Native Managed Inference for Hugging Face Models\nContext: Google has launched SQL-native managed inference for 180,000+ Hugging Face models in BigQuery. The preview release collapses the ML lifecycle into a unified SQL interface,...\nImpact: improves delivery speed without sacrificing safety.\n🔗 https://www.infoq.com/news/2026/01/bigquery-sql-huggingface-managed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\n2. Article: Autonomous Big Data Optimization: Multi-Agent Reinforcement Learning to Achieve Self-Tuning Apache…\nContext: This article introduces a reinforcement learning (RL) approach grounded in Apache Spark that enables distributed computing systems to learn optimal configurations autonomously,...\nImpact: practical signal for building reliable systems.\n🔗 https://www.infoq.com/articles/agent-reinforcement-learning-apache-spark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\n3. Metasploit Wrap-Up 01/30/2026\nContext: ...\nFreeBPX Content Galore This week brings 3 new pieces of module content for targeting FreePBX. All three chain multiple vulnerabilities together, starting with CVE-2025-66039. This initial vulnerab\nImpact: strengthens security posture and reduces risk.\n🔗 https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-01-30-2026\n\n💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)\n\n      \n\nWhat’s your take on these developments?\n\n#platform #DataAnalytics #Security #cloudnative",
-  "last_post_format": "digest",
+  "posts_created": 25,
+  "last_post_content": "The hidden cost of how to transition from traditional IT to analytics that no one calculates:\n\nKey insights on how to transition from traditional it to data analytics:\n\n\u2022 Personal career milestone or challenge\n\u2022 3-5 specific strategies that worked\n\u2022 Common mistakes to avoid\n\u2022 Resources for getting started\n\nWhat career advice would you add? Share your experience below.\n\n#scalability #infrastructure #serverless #automation #cloudengineeering",
+  "last_post_format": "career_advice",
   "last_post_sources": [
-    "www.infoq.com",
-    "blog.rapid7.com",
-    "microservices.io"
+    "growth_plan"
+  ],
+  "last_post_timestamp": "2026-01-31T06:25:03.289736+00:00"      "format": "career_advice",
+      "sources": [
+        "growth_plan"
+      ]
+    }
+  ],
+  "posts_created": 25,
+  "last_post_content": "The hidden cost of how to transition from traditional IT to analytics that no one calculates:\n\nKey insights on how to transition from traditional it to data analytics:\n\n\u2022 Personal career milestone or challenge\n\u2022 3-5 specific strategies that worked\n\u2022 Common mistakes to avoid\n\u2022 Resources for getting started\n\nWhat career advice would you add? Share your experience below.\n\n#scalability #infrastructure #serverless #automation #cloudengineeering",
+  "last_post_format": "career_advice",
+  "last_post_sources": [
+    "growth_plan"
   ],
   "last_post_timestamp": "2026-01-31T06:19:30.186357+00:00"
->>>>>>> 5a29adf (fix: sanitize historical metrics post content and expand hashtag mappings to analytics-focused tags)
 }

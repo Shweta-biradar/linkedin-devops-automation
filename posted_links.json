@@ -1,6 +1,7 @@
 {
   "posted_links": [
     "",
+    "http://microservices.io//post/architecture/2026/01/29/about-idea-to-code.html",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
@@ -71,6 +72,7 @@
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
+    "https://www.infoq.com/articles/agent-reinforcement-learning-apache-spark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/articles/evolution-backend-streaming-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/news/2025/12/agentic-ai-foundation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/news/2025/12/artificial-intelligence-customer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -98,6 +100,9 @@
     "https://www.infoq.com/news/2025/12/target-genai-model-recommend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/news/2025/12/uber-infrastructure-benchmarking/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/news/2025/12/uber-opensearch-vector-semantic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "https://www.infoq.com/news/2026/01/bigquery-sql-huggingface-managed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "https://www.infoq.com/news/2026/01/uber-network-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "https://www.infoq.com/news/2026/01/uber-priority-aware-load-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/podcasts/effective-mentorship-remote-team-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/podcasts/latest-open-java-development-kit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/devops-product-engineers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -106,6 +111,7 @@
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
     "https://www.rapid7.com/blog/post/metasploit-wrap-up-12-19-2025",
+    "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-01-30-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.welivesecurity.com/en/eset-research/revisiting-cve-2025-50165-critical-flaw-windows-imaging-component/",
     "https://www.welivesecurity.com/en/scams/brush-online-fraud-what-are-brushing-scams-how-do-i-stay-safe/",
@@ -136,10 +142,18 @@
       "2baa5c340157": "2026-01-31T06:13:48.431093+00:00",
       "c5f21fb9f93b": "2026-01-31T06:13:48.431121+00:00",
       "022e375e042d": "2026-01-31T06:13:48.431156+00:00",
-      "fd8c84f34be1": "2026-01-31T06:13:48.431180+00:00"
+      "fd8c84f34be1": "2026-01-31T06:13:48.431180+00:00",
+      "c1b9129f125e": "2026-01-31T06:09:20.252547+00:00",
+      "d4e4faf3e070": "2026-01-31T06:19:30.184287+00:00",
+      "9efd04d885dc": "2026-01-31T06:19:30.184344+00:00",
+      "645c1e150dc4": "2026-01-31T06:19:30.184367+00:00",
+      "2209dde0a249": "2026-01-31T06:19:30.184416+00:00",
+      "c3864c179395": "2026-01-31T06:19:30.184437+00:00",
+      "3b13c7c83a9a": "2026-01-31T06:19:30.184457+00:00",
+      "6c949046e065": "2026-01-31T06:25:03.287699+00:00"
     },
-    "last_post_id": "urn:li:share:7423247109610610688",
-    "last_posted_at_utc": "2026-01-31T06:13:48.431190+00:00",
-    "last_format": "digest"
+    "last_post_id": "dry-run",
+    "last_posted_at_utc": "2026-01-31T06:25:03.287733+00:00",
+    "last_format": "career_advice"
   }
 }
