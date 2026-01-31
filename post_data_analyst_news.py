@@ -2755,6 +2755,77 @@ def get_hashtags(count: Optional[int] = None, context_tags: Optional[List[str]] 
     return " ".join(selected)
 
 
+# ---------------------------
+# POST SANITIZATION & TAG NORMALIZATION
+# ---------------------------
+HASHTAG_MAP = {
+    "#devops": "#dataanalytics",
+    "#dataops": "#dataanalytics",
+    "#devsecops": "#datasecurity",
+    "#infra": "#platform",
+    "#infrastructure": "#platform",
+    "#platform": "#platform",
+    "#kubernetes": "#cloudnative",
+    "#cloudnative": "#cloudnative",
+    "#observability": "#observability",
+    "#devsec": "#datasecurity",
+}
+
+ALLOWED_HASHTAGS = {
+    "#cloudnative", "#dataops", "#observability", "#platform", "#dataanalytics", "#dataengineering", "#monitoring",
+    "#ml", "#ai", "#datascience", "#datasecurity", "#security", "#analytics"
+}
+
+HASHTAG_REGEX = re.compile(r"#\\w+", re.IGNORECASE)
+
+
+def normalize_hashtags_in_text(text: str) -> str:
+    """Normalize and filter hashtags to analytics-focused set."""
+    def map_tag(tag):
+        lower = tag.lower()
+        if lower in HASHTAG_MAP:
+            mapped = HASHTAG_MAP[lower]
+            return mapped
+        if lower in ALLOWED_HASHTAGS:
+            return tag
+        # Unknown tag -> drop
+        return None
+
+    tags_found = HASHTAG_REGEX.findall(text)
+    # Build unique mapped tags preserving order
+    seen = set()
+    mapped_tags = []
+    for t in tags_found:
+        m = map_tag(t)
+        if m and m.lower() not in seen:
+            seen.add(m.lower())
+            mapped_tags.append(m)
+    # Replace existing hashtags block (if any) with normalized set at end of text
+    # Remove standalone 'hashtag#' garbage
+    text = text.replace("hashtag#", "#")
+    # Remove duplicate or disallowed hashtags replaced above. We'll strip all hashtags and append normalized set.
+    text_no_hashtags = HASHTAG_REGEX.sub("", text)
+    normalized = " ".join(mapped_tags)
+    normalized = normalized.strip()
+    if normalized:
+        return text_no_hashtags.strip() + "\n\n" + normalized
+    return text_no_hashtags.strip()
+
+
+def sanitize_generated_post(text: str) -> str:
+    """Remove stray commentary and fix malformed hashtags."""
+    lines = text.splitlines()
+    clean_lines = []
+    for line in lines:
+        # Remove obvious editor comments
+        if re.search(r"(?i)this was the post|why its coming|should not come in post", line):
+            continue
+        clean_lines.append(line)
+    cleaned = "\n".join(clean_lines).strip()
+    cleaned = normalize_hashtags_in_text(cleaned)
+    return cleaned
+
+
 def get_contextual_hashtags(topic: str, max_count: int = None) -> str:
     """Generate context-aware hashtags based on topic content."""
     topic_lower = topic.lower()
@@ -4490,6 +4561,8 @@ def main():
     
     logger.info(f"\n📝 Generated post ({len(post_text)} chars):")
     logger.info("-"*50)
+    # Sanitize generated post (remove stray commentary and normalize hashtags)
+    post_text = sanitize_generated_post(post_text)
     print(post_text)
     logger.info("-"*50)
     

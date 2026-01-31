@@ -1,6 +1,6 @@
 {
-  "total_posts": 50,
-  "posts_today": 4,
+  "total_posts": 52,
+  "posts_today": 6,
   "last_post_date": "2026-01-31",
   "formats_used": {
     "case_study": 10,
@@ -10,10 +10,11 @@
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
-    "career_advice": 1
+    "career_advice": 1,
+    "controversial_takes": 1
   },
   "sources_used": {
-    "www.infoq.com": 34,
+    "www.infoq.com": 38,
     "kubernetes.io": 11,
     "www.docker.com": 4,
     "krebsonsecurity.com": 2,
@@ -26,12 +27,12 @@
     "blog.qualys.com": 1,
     "aws.amazon.com": 6,
     "www.cncf.io": 6,
-    "blog.rapid7.com": 1,
+    "blog.rapid7.com": 2,
     "feeds.feedburner.com": 3,
     "www.mend.io": 1,
     "unit42.paloaltonetworks.com": 1,
     "www.hashicorp.com": 5,
-    "growth_plan": 9,
+    "growth_plan": 10,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 2,
@@ -39,8 +40,12 @@
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 2,
     "martinfowler.com": 2,
+<<<<<<< HEAD
     "towardsdatascience.com": 1,
     "www.snowflake.com": 1
+=======
+    "microservices.io": 1
+>>>>>>> 5a29adf (fix: sanitize historical metrics post content and expand hashtag mappings to analytics-focused tags)
   },
   "errors": [],
   "daily_history": [
@@ -508,6 +513,7 @@
     },
     {
       "date": "2026-01-31",
+<<<<<<< HEAD
       "time": "2026-01-31T06:13:48.431819+00:00",
       "format": "digest",
       "sources": [
@@ -529,4 +535,35 @@
     "www.snowflake.com"
   ],
   "last_post_timestamp": "2026-01-31T06:13:48.432500+00:00"
+=======
+      "time": "2026-01-31T06:09:20.253540+00:00",
+      "format": "controversial_takes",
+      "sources": [
+        "growth_plan"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T06:19:30.185416+00:00",
+      "format": "digest",
+      "sources": [
+        "www.infoq.com",
+        "www.infoq.com",
+        "blog.rapid7.com",
+        "microservices.io",
+        "www.infoq.com",
+        "www.infoq.com"
+      ]
+    }
+  ],
+  "posts_created": 24,
+  "last_post_content": "📡 This week's essential Data & Analytics signals.\nCollaboration experts spotlight culture and process breakthroughs.\n\nSecurity signals:\n1. Google BigQuery Adds SQL-Native Managed Inference for Hugging Face Models\nContext: Google has launched SQL-native managed inference for 180,000+ Hugging Face models in BigQuery. The preview release collapses the ML lifecycle into a unified SQL interface,...\nImpact: improves delivery speed without sacrificing safety.\n🔗 https://www.infoq.com/news/2026/01/bigquery-sql-huggingface-managed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\n2. Article: Autonomous Big Data Optimization: Multi-Agent Reinforcement Learning to Achieve Self-Tuning Apache…\nContext: This article introduces a reinforcement learning (RL) approach grounded in Apache Spark that enables distributed computing systems to learn optimal configurations autonomously,...\nImpact: practical signal for building reliable systems.\n🔗 https://www.infoq.com/articles/agent-reinforcement-learning-apache-spark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global\n\n3. Metasploit Wrap-Up 01/30/2026\nContext: ...\nFreeBPX Content Galore This week brings 3 new pieces of module content for targeting FreePBX. All three chain multiple vulnerabilities together, starting with CVE-2025-66039. This initial vulnerab\nImpact: strengthens security posture and reduces risk.\n🔗 https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-01-30-2026\n\n💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)\n\n      \n\nWhat’s your take on these developments?\n\n#platform #DataAnalytics #Security #cloudnative",
+  "last_post_format": "digest",
+  "last_post_sources": [
+    "www.infoq.com",
+    "blog.rapid7.com",
+    "microservices.io"
+  ],
+  "last_post_timestamp": "2026-01-31T06:19:30.186357+00:00"
+>>>>>>> 5a29adf (fix: sanitize historical metrics post content and expand hashtag mappings to analytics-focused tags)
 }
