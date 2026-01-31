@@ -1,6 +1,10 @@
 {
   "posted_links": [
     "",
+    "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
+    "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
+    "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
     "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/",
     "https://aws.amazon.com/blogs/mt/search-and-discover-governance-controls-with-control-catalog-in-aws-control-tower/",
     "https://blog.checkpoint.com/company-and-culture/check-point-celebrates-2025-with-top-analyst-and-research-lab-recognitions/",
@@ -39,6 +43,7 @@
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
+    "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
@@ -101,6 +106,7 @@
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
     "https://www.rapid7.com/blog/post/metasploit-wrap-up-12-19-2025",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.welivesecurity.com/en/eset-research/revisiting-cve-2025-50165-critical-flaw-windows-imaging-component/",
     "https://www.welivesecurity.com/en/scams/brush-online-fraud-what-are-brushing-scams-how-do-i-stay-safe/",
     "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-december-2025/"
@@ -124,10 +130,16 @@
       "69a6329b7284": "2026-01-31T05:31:08.206603+00:00",
       "e47d2ede1f7b": "2026-01-31T05:31:08.206629+00:00",
       "cbb98c2f763a": "2026-01-31T05:31:08.206653+00:00",
-      "9bd48812a4f1": "2026-01-31T05:31:08.206682+00:00"
+      "9bd48812a4f1": "2026-01-31T05:31:08.206682+00:00",
+      "ddc2d3d04c48": "2026-01-31T06:13:48.431003+00:00",
+      "5c4b656f0558": "2026-01-31T06:13:48.431056+00:00",
+      "2baa5c340157": "2026-01-31T06:13:48.431093+00:00",
+      "c5f21fb9f93b": "2026-01-31T06:13:48.431121+00:00",
+      "022e375e042d": "2026-01-31T06:13:48.431156+00:00",
+      "fd8c84f34be1": "2026-01-31T06:13:48.431180+00:00"
     },
-    "last_post_id": "urn:li:share:7423236369147195393",
-    "last_posted_at_utc": "2026-01-31T05:31:08.206698+00:00",
+    "last_post_id": "urn:li:share:7423247109610610688",
+    "last_posted_at_utc": "2026-01-31T06:13:48.431190+00:00",
     "last_format": "digest"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "total_posts": 49,
-  "posts_today": 3,
+  "total_posts": 50,
+  "posts_today": 4,
   "last_post_date": "2026-01-31",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 15,
+    "digest": 16,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 2,
+    "aws.amazon.com": 6,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -38,7 +38,9 @@
     "thenewstack.io": 6,
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 2,
-    "martinfowler.com": 2
+    "martinfowler.com": 2,
+    "towardsdatascience.com": 1,
+    "www.snowflake.com": 1
   },
   "errors": [],
   "daily_history": [
@@ -503,14 +505,28 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T06:13:48.431819+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 22,
-  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Bliki: Excessive Bold\nContext: I'm increasingly seeing a lot of technical and business writing make heavy use of bold font weights, in an attempt to emphasize what the writers think is important.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://martinfowler.com/bliki/ExcessiveBold.html\n\n2. Ramp\u2019s Inspect shows closed-loop AI agents are software\u2019s future\nContext: ...\nThe recent release of the background coding agent Inspect by Ramp&#8217;s engineering team serves as a definitive proof point that The post Ramp\u2019s Inspect shows closed-loop AI agents are software\u2019\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/\n\n3. Anthropic brings plugins to Cowork\nContext: Anthropic is extending Cowork with a plugin system that bundles skills, connectors, slash commands, and sub-agents, giving non-developers the kind The post Anthropic brings...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/anthropic-brings-plugins-to-cowork/\n\n\ud83d\udc8c Newsletter: disabled\n\ud83d\udc49 Subscribe: (disabled)\n\ud83d\udcd6 Playbook: (disabled)\n\n#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 23,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nSecurity champions share what shapes the future of operations.\n\nStrategic highlights:\n1. Create a customizable cross-company log lake, Part II: Build and add Amazon Bedrock\nContext: In this post, you learn how to build Log Lake, a customizable cross-company data lake for compliance-related use cases that combines AWS CloudTrail and Amazon CloudWatch logs.\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/\n\n2. Streamline your Amazon Redshift maintenance event notifications with Amazon Simple Notification Service\nContext: In this post, we take you through customization options for managing the schedule of your Amazon Redshift maintenance events, along with Amazon Redshift maintenance tracks for...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/\n\n3. Build a trusted foundation for data and AI using Alation and Amazon SageMaker Unified Studio\nContext: The Alation and SageMaker Unified Studio integration helps organizations bridge the gap between fast analytics and ML development and the governance requirements most...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/\n\n\ud83d\udc8c Newsletter: disabled\n\ud83d\udc49 Subscribe: (disabled)\n\ud83d\udcd6 Playbook: (disabled)\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "martinfowler.com"
+    "towardsdatascience.com",
+    "aws.amazon.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-01-31T05:31:08.208005+00:00"
+  "last_post_timestamp": "2026-01-31T06:13:48.432500+00:00"
 }
