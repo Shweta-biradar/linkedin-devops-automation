@@ -1,4 +1,4 @@
-# Core dependencies for LinkedIn DevOps Automation
+# Core dependencies for LinkedIn Data & Analytics Automation
 requests>=2.31.0
 feedparser>=6.0.10
 python-dateutil>=2.8.2

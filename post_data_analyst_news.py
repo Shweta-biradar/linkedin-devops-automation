@@ -88,7 +88,7 @@ MAX_LINKS = safe_int(os.environ.get("MAX_LINKS", "2"), 2, 0, 10)
 MAX_JITTER_SECONDS = safe_int(os.environ.get("MAX_JITTER_SECONDS", "180"), 180, 0, 600)
 
 # Source packs let you include lots of relevant RSS feeds without editing code.
-# Use: SOURCE_PACKS="devops,sre,platform,kubernetes" (or "all")
+# Use: SOURCE_PACKS="data-analyst,analytics,tableau,power-bi,sql" (or "all")
 SOURCE_PACKS = [
     p.strip().lower()
     for p in os.environ.get("SOURCE_PACKS", "all").split(",")
@@ -97,7 +97,7 @@ SOURCE_PACKS = [
 
 PERSONA_LINE = os.environ.get(
     "PERSONA_LINE",
-    "Simplifying complex DevOps challenges with hands-on expertise, sharing takeaways from the front lines.",
+    "Simplifying complex Data & Analytics challenges with hands-on expertise, sharing practical takeaways.",
 )
 
 # Dynamic persona system
@@ -106,10 +106,10 @@ USE_DYNAMIC_PERSONA = os.environ.get("USE_DYNAMIC_PERSONA", "true").lower() == "
 # Dynamic persona variations by post format and content - Authoritative third-person style
 DYNAMIC_PERSONAS = {
     "deep_dive": [
-        "Simplifying complex DevOps challenges with hands-on expertise. Here's a deep dive into what really matters.",
-        "Bringing clarity to production system patterns. Here's what caught attention this week.",
-        "Breaking down resilient infrastructure approaches. Let's analyze this properly.",
-        "Tracking emerging patterns in distributed systems. This one's worth understanding."
+        "Simplifying complex Data & Analytics challenges with hands-on expertise. Here's a deep dive into what really matters.",
+        "Bringing clarity to analytical system patterns. Here's what caught attention this week.",
+        "Breaking down resilient data architecture approaches. Let's analyze this properly.",
+        "Tracking emerging patterns in data platforms. This one's worth understanding."
     ],
     "case_study": [
         "This pattern plays out repeatedly in production environments. Here's what works (and what doesn't).",
@@ -124,7 +124,7 @@ DYNAMIC_PERSONAS = {
         "Production incidents become learning opportunities. Here's what the analysis reveals."
     ],
     "digest": [
-        "Curating the signals that matter in DevOps. Here's what's worth your time.",
+        "Curating the signals that matter in Data & Analytics. Here's what's worth your time.",
         "Filtering the noise and highlighting substance. Today's essential reads.",
         "Tracking developments that impact system reliability. Signal vs noise.",
         "Parsing industry updates that actually matter. Here's the digest."
@@ -186,7 +186,7 @@ def generate_ai_persona(post_format: str = None, content: str = None, title: str
     if post_format:
         context_info += f"Post format: {post_format}\n"
     
-    prompt = f"""Generate a single, compelling intro line for a DevOps thought leader sharing content on LinkedIn.
+    prompt = f"""Generate a single, compelling intro line for a Data & Analytics thought leader sharing content on LinkedIn.
 
 {context_info}
 
@@ -202,7 +202,7 @@ Example good intro lines:
 - "Enterprise-scale systems reveal deep insights from the trenches. Here's what matters."
 - "Security at scale demands constant vigilance. This is significant."
 - "Container orchestration patterns reveal key trends. Worth understanding."
-- "Simplifying complex DevOps challenges with hands-on expertise. Here's the breakdown."
+- "Simplifying complex Data & Analytics challenges with hands-on expertise. Here's the breakdown."
 
 Return ONLY the intro line, nothing else."""
 
@@ -247,7 +247,7 @@ FALLBACK_PERSONAS_BY_FORMAT = {
     "lessons": "Hard-earned lessons from the field - so teams avoid the same mistakes.",
     "hot_take": "Unpopular opinion: conventional wisdom doesn't always serve engineering teams.",
     "quick_tip": "Practical techniques that actually work in production.",
-    "digest": "Curating the signals that matter in DevOps."
+    "digest": "Curating the signals that matter in Data & Analytics."
 }
 
 # Fallback personas by content topic - Authoritative third-person style
@@ -299,10 +299,10 @@ FALLBACK_PERSONAS_BY_TOPIC = {
         "Comprehensive monitoring and alerting reveals patterns.",
         "Observability platforms for complex systems show trends."
     ],
-    "devops": [
-        "Bridging development and operations delivers value faster.",
-        "DevOps practices at scale reveal key patterns.",
-        "DevOps culture transformation shows what works."
+    "data_analytics": [
+        "Bridging data and analytics delivers actionable insights faster.",
+        "Data analytics practices at scale reveal key patterns.",
+        "Analytics transformation shows what works."
     ]
 }
 
@@ -354,9 +354,9 @@ def get_dynamic_persona(post_format=None, content=None, title=None, items=None):
         # Context-aware intro and subheader
         main_topics = []
         tools_techs = []
-        # Common DevOps/cloud tools and technologies for detection
+        # Common Data & Analytics tools and technologies for detection
         KNOWN_TOOLS_TECHS = [
-            "Kubernetes", "Docker", "Terraform", "Ansible", "Prometheus", "Grafana", "Jenkins", "GitHub", "GitLab", "Azure", "AWS", "GCP", "ArgoCD", "Helm", "Istio", "Linkerd", "Vault", "Consul", "OpenShift", "CircleCI", "PagerDuty", "Slack", "Snyk", "SonarQube", "Datadog", "Splunk", "ELK", "Fluentd", "Cloudflare", "Fastly", "New Relic", "ServiceNow", "Bitbucket", "Trivy", "Sysdig", "Falco", "CloudFormation", "Pulumi", "Octopus Deploy", "Opsgenie", "Sumo Logic", "AppDynamics", "Dynatrace", "Nagios", "Zabbix", "SaltStack", "Chef", "Puppet"
+            "Tableau", "Power BI", "Looker", "dbt", "Snowflake", "Databricks", "BigQuery", "Redshift", "Spark", "Hadoop", "Airflow", "Kafka", "Alteryx", "SQL", "Pandas", "NumPy", "SciKit-Learn", "SAS", "TensorFlow", "MLflow", "Superset", "ClickHouse", "Presto", "Trino"
         ]
         for item in (items or []):
             title = item.get("title", "")
@@ -371,7 +371,7 @@ def get_dynamic_persona(post_format=None, content=None, title=None, items=None):
                     tools_techs.append(tool)
         main_topics = list(dict.fromkeys(main_topics))  # Remove duplicates, preserve order
         tools_techs = list(dict.fromkeys(tools_techs))
-        topics_str = ", ".join(main_topics[:3]) if main_topics else "DevOps, Cloud, Security"
+        topics_str = ", ".join(main_topics[:3]) if main_topics else "Data Analytics, Cloud, Security"
         tools_str = ", ".join(tools_techs[:4]) if tools_techs else "modern platforms"
         # Paraphrase and synonym variations for intro/subheader
         intro_templates = [
@@ -427,7 +427,7 @@ def get_dynamic_persona(post_format=None, content=None, title=None, items=None):
 
         # Context-aware footer question
         if main_topics or tools_techs:
-            topic = main_topics[0].lower() if main_topics else "devops"
+            topic = main_topics[0].lower() if main_topics else "data analytics"
             tool = tools_techs[0] if tools_techs else "modern platforms"
             footer_templates = [
                 f"How is your team approaching {topic} and {tool} this quarter?",
@@ -451,26 +451,18 @@ def get_dynamic_persona(post_format=None, content=None, title=None, items=None):
             available_questions = footer_templates.copy()
         footer_question = random.choice(available_questions)
         _USED_FOOTER_QUESTIONS.append(footer_question)
+        # Newsletter / playbook intentionally disabled by default
         cta_templates = [
-            "💌 **Get weekly DevOps insights delivered to your inbox – subscribe to stay ahead!**",
-            "💌 **Stay ahead: subscribe for weekly DevOps insights!**",
-            "💌 **Don’t miss out – get DevOps news in your inbox!**",
-            "💌 **Level up your DevOps game – subscribe now!**"
+            "💌 **Newsletter: disabled**"
         ]
         subscribe_templates = [
-            "👉 **Subscribe:** https://lnkd.in/g_mZKwxY",
-            "👉 **Join here:** https://lnkd.in/g_mZKwxY",
-            "👉 **Sign up:** https://lnkd.in/g_mZKwxY"
+            "👉 Subscribe: (disabled)"
         ]
         playbook_templates = [
-            "📖 **DevOps LinkedIn Playbook:** https://lnkd.in/gzTACvZf",
-            "📖 **Get the Playbook:** https://lnkd.in/gzTACvZf",
-            "📖 **LinkedIn Playbook:** https://lnkd.in/gzTACvZf"
+            "📖 Playbook: (disabled)"
         ]
         hashtag_templates = [
-            "#Infrastructure #DevOps #Security #CloudNative #Kubernetes #Engineering #DevSecOps",
-            "#DevOps #Cloud #SRE #Platform #Security #Kubernetes #Engineering",
-            "#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps"
+            "#DataAnalytics #DataScience #PowerBI #Tableau #SQL #BigData #DataViz"
         ]
         lines.extend([
             "",
@@ -505,9 +497,9 @@ def call_groq_api(api_key: str, model: str, prompt: str, max_tokens: int = 150, 
         # Optimize prompt for task
         if task_type == "summarization":
             system_prompt = "You are a technical content summarizer. Provide a concise, clear summary in 2-3 sentences maximum."
-            user_prompt = f"Summarize this DevOps/SRE content concisely:\n\n{prompt}"
+            user_prompt = f"Summarize this Data & Analytics content concisely:\n\n{prompt}"
         else:
-            system_prompt = "You are a DevOps expert. Explain technical concepts clearly and concisely."
+            system_prompt = "You are a Data & Analytics expert. Explain analytical and data platform concepts clearly and concisely."
             user_prompt = prompt
         
         payload = {
@@ -549,7 +541,7 @@ def call_gemini_api(api_key: str, model: str, prompt: str, max_tokens: int = 150
     try:
         # Optimize prompt for task
         if task_type == "summarization":
-            full_prompt = f"Summarize this DevOps/SRE content in 2-3 clear, concise sentences:\n\n{prompt}"
+            full_prompt = f"Summarize this Data & Analytics content in 2-3 clear, concise sentences:\n\n{prompt}"
         else:
             full_prompt = prompt
         
@@ -599,15 +591,15 @@ def call_openrouter_api(api_key: str, model: str, prompt: str, max_tokens: int =
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
             "HTTP-Referer": "https://github.com/your-repo",  # Required by OpenRouter
-            "X-Title": "LinkedIn DevOps Automation"
+            "X-Title": "LinkedIn Data & Analytics Automation"
         }
         
         # Optimize prompt for task
         if task_type == "summarization":
-            system_prompt = "You are a technical content summarizer for DevOps professionals. Be concise and clear."
-            user_prompt = f"Summarize this DevOps/SRE content in 2-3 sentences:\n\n{prompt}"
+            system_prompt = "You are a technical content summarizer for Data & Analytics professionals. Be concise and clear."
+            user_prompt = f"Summarize this Data & Analytics/SRE content in 2-3 sentences:\n\n{prompt}"
         else:
-            system_prompt = "You are a DevOps expert explaining technical concepts clearly."
+            system_prompt = "You are a Data & Analytics expert explaining technical concepts clearly and concisely."
             user_prompt = prompt
         
         payload = {
@@ -782,7 +774,7 @@ KEYWORDS_INCLUDE = [
     k.strip().lower()
     for k in os.environ.get(
         "KEYWORDS_INCLUDE",
-        "devops,devsecops,sre,kubernetes,cloud,platform,terraform,helm,gitops,cicd,observability,incident,reliability,aws,gcp,azure,docker,containers,monitoring,security,vulnerability,iam,rbac,policy,compliance,shift-left,sast,dast,sbom,supply-chain",
+        "data-analytics,data-engineering,analytics,tableau,power-bi,snowflake,databricks,bigquery,sql,data-visualization,ml,datascience,airflow,dbt,spark",
     ).split(",")
     if k.strip()
 ]
@@ -852,7 +844,7 @@ ADD_UTM_PARAMS = os.environ.get("ADD_UTM_PARAMS", "false").lower() == "true"
 SHORTEN_LINKS = os.environ.get("SHORTEN_LINKS", "false").lower() == "true"
 UTM_SOURCE = os.environ.get("UTM_SOURCE", "linkedin")
 UTM_MEDIUM = os.environ.get("UTM_MEDIUM", "social")
-UTM_CAMPAIGN = os.environ.get("UTM_CAMPAIGN", "devops-automation")
+UTM_CAMPAIGN = os.environ.get("UTM_CAMPAIGN", "data-analytics-automation")
 
 # Safety controls
 KILL_SWITCH = os.environ.get("KILL_SWITCH", "false").lower() == "true"
@@ -1155,7 +1147,7 @@ def build_growth_plan_post(idea: Dict) -> str:
     title = idea.get('title', 'Data Analytics Insights')
     hook = idea.get('hook', '')
     cta = idea.get('cta', 'What are your thoughts?')
-    hashtags = idea.get('hashtags', ['#devops', '#sre'])
+    hashtags = idea.get('hashtags', ['#DataAnalytics', '#DataScience'])
     category = idea.get('category', 'thought_leadership')
     framework = idea.get('content_framework', {})
     
@@ -1486,21 +1478,7 @@ PACK_SOURCES: Dict[str, list] = {
         "https://medium.com/shopify-engineering/feed",
         "https://github.blog/category/engineering/feed/",
     ],
-    "devops": [
-        "https://aws.amazon.com/blogs/devops/feed/",
-        "https://azure.microsoft.com/en-us/blog/feed/",
-        "https://www.docker.com/blog/feed/",
-        "https://cloud.google.com/blog/products/devops-sre/rss",
-        "https://blog.jenkins.io/rss.xml",
-        "https://about.gitlab.com/blog/categories/ci-cd/atom.xml",
-        "https://github.blog/category/engineering/feed/",
-        "https://blog.circleci.com/feed.xml",
-        "https://www.atlassian.com/blog/rss.xml",
-        "https://blog.terraform.io/rss.xml",
-        "https://blog.ansible.com/rss.xml",
-        "https://blog.chef.io/feed/",
-        "https://puppet.com/blog/rss.xml",
-    ],
+
     "data-analyst": [
         "https://kdnuggets.com/feed",
         "https://towardsdatascience.com/feed",
@@ -1770,9 +1748,9 @@ FORMAT_HOOKS = {
     "digest": [
         "🚀 Signals that move the reliability needle.",
         "🛠️ What high-perf teams are watching this week.",
-        "🔥 Cut noise, keep signal: your DevOps digest.",
+        "🔥 Cut noise, keep signal: your Analytics digest.",
         "📡 Industry signals worth your attention.",
-        "⚡ Latest developments in DevOps and cloud.",
+        "⚡ Latest developments in Data & Analytics and cloud.",
         "🎯 What matters in platform engineering this week.",
         "🌊 Current trends in infrastructure and operations.",
         "📊 Data-driven insights for builders and operators.",
@@ -2071,13 +2049,13 @@ EXTRA_NEWS_SOURCES = [u.strip() for u in os.environ.get("EXTRA_NEWS_SOURCES", ""
 HOOKS = [
     "🚀 Signals that move the reliability needle.",
     "🛠️ What high-perf teams are watching this week.",
-    "🔥 Cut noise, keep signal: your DevOps digest.",
+    "🔥 Cut noise, keep signal: your Analytics digest.",
     "💡 The reliability reads that matter.",
     "⚙️ Infrastructure signals you can't ignore.",
     "🎯 What's moving production systems forward.",
     "🌊 This week's current in platform engineering.",
     "📡 Industry developments worth tracking.",
-    "⚡ Latest insights from the DevOps frontier.",
+    "⚡ Latest insights from the Data & Analytics frontier.",
 ]
 
 CTAS = [
@@ -2098,7 +2076,7 @@ WHY_LINES = [
 ]
 
 HASHTAGS = [
-    "#DevOps", "#SRE", "#Cloud", "#Kubernetes",
+    "#DataAnalytics", "#SRE", "#Cloud", "#Kubernetes",
     "#PlatformEngineering", "#Observability", "#IncidentManagement",
     "#ReliabilityEngineering", "#InfraAsCode", "#CICD", "#FinOps",
     "#Resilience", "#SiteReliability", "#Automation"
@@ -2813,8 +2791,8 @@ def get_subscription_cta() -> str:
         logger.info("DRY_RUN enabled: skipping subscription/playbook CTA")
         return ""
 
-    # Environment variable to control subscription CTA
-    INCLUDE_SUBSCRIPTION = os.environ.get("INCLUDE_SUBSCRIPTION", "true").lower() == "true"
+    # Environment variable to control subscription CTA (disabled by default)
+    INCLUDE_SUBSCRIPTION = os.environ.get("INCLUDE_SUBSCRIPTION", "false").lower() == "true"
     
     if not INCLUDE_SUBSCRIPTION:
         return ""
@@ -2853,9 +2831,9 @@ def get_subscription_cta() -> str:
     # Newsletter subscription URL
     subscription_url = os.environ.get("NEWSLETTER_URL", "https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a")
     
-    # Playbook URL (labelled for analytics)
-    playbook_url = os.environ.get("PLAYBOOK_URL", "https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook")
-    include_playbook = os.environ.get("INCLUDE_PLAYBOOK", "true").lower() == "true"
+    # Playbook URL (labelled for analytics). Playbook inclusion is disabled by default.
+    playbook_url = os.environ.get("PLAYBOOK_URL", "")
+    include_playbook = os.environ.get("INCLUDE_PLAYBOOK", "false").lower() == "true"
 
     # Pick a random message and build the CTA
     message = random.choice(subscription_messages)
@@ -2978,7 +2956,7 @@ def ai_generate_value_line(title: str, snippet: str) -> str:
     # Prepare context for AI generation
     context = clip((snippet_clean or title_clean), 500)
     prompt = (
-        f"Explain in ONE sentence (max 15 words) why this DevOps/SRE topic matters to engineers. "
+        f"Explain in ONE sentence (max 15 words) why this Data & Analytics topic matters to practitioners. "
         f"Start with 'Why it matters:' and be specific and actionable.\n\n"
         f"Topic: {title_clean}\n"
         f"Context: {context}\n\n"
@@ -3478,7 +3456,7 @@ def build_thread_style_post(items) -> str:
     # Unique header/persona/footer logic
     global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
     thread_headers = [
-        "🧵 Unpacking a trending DevOps topic.",
+        "🧵 Unpacking a trending Data & Analytics topic.",
         "🔎 Thread: Key lessons from the field.",
         "📌 Insights in thread format.",
         "💡 What the industry is discussing now.",
@@ -3489,7 +3467,7 @@ def build_thread_style_post(items) -> str:
         "Industry leaders break down complex topics for clarity.",
         "Strategic thinkers share stepwise insights.",
         "Platform architects highlight what matters in practice.",
-        "DevOps experts thread together key lessons.",
+        "Analytics experts thread together key lessons.",
         "Cloud pioneers sequence the signals for impact."
     ]
     footer_questions = [
@@ -3570,7 +3548,7 @@ def build_quote_style_post(items) -> str:
         "Industry leaders highlight what resonates most.",
         "Strategic thinkers share the wisdom behind the quote.",
         "Platform architects surface key perspectives.",
-        "DevOps experts spotlight actionable insights.",
+        "Analytics experts spotlight actionable insights.",
         "Cloud pioneers amplify what matters."
     ]
     footer_questions = [
@@ -3633,7 +3611,7 @@ def build_news_flash_post(items) -> str:
     
     global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
     news_headers = [
-        "🚨 Breaking: Major update in DevOps.",
+        "🚨 Breaking: Major update in Data & Analytics.",
         "📰 News Flash: What just happened.",
         "⚡ Urgent: Industry development to watch.",
         "📢 Hot off the press: Key event.",
@@ -3643,7 +3621,7 @@ def build_news_flash_post(items) -> str:
         "Industry leaders respond to breaking news.",
         "Strategic thinkers analyze the impact.",
         "Platform architects highlight urgent developments.",
-        "DevOps experts react to the latest news.",
+        "Analytics experts react to the latest news.",
         "Cloud pioneers assess the implications."
     ]
     footer_questions = [
@@ -3668,7 +3646,7 @@ def build_news_flash_post(items) -> str:
     lines.extend([
         f"{flash_emoji} News Flash: {title}",
         "",
-        f"📍 What happened: {snippet if snippet else 'Significant development in the DevOps space'}",
+        f"📍 What happened: {snippet if snippet else 'Significant development in the Data & Analytics space'}",
         "",
         f"🎯 Why it matters: {ai_generate_value_line(title, snippet).replace('Why it matters: ', '')}",
         "",
@@ -3756,7 +3734,7 @@ def build_quick_tip_post() -> str:
         "Industry leaders share practical shortcuts.",
         "Strategic thinkers offer time-saving tips.",
         "Platform architects highlight quick wins.",
-        "DevOps experts reveal production-tested advice.",
+        "Analytics experts reveal production-tested advice.",
         "Cloud pioneers surface tactical improvements."
     ]
     footer_questions = [
@@ -3813,7 +3791,8 @@ def build_lessons_post(items) -> str:
         "Industry leaders share what teams wish they knew earlier.",
         "Strategic thinkers highlight recurring patterns.",
         "Platform architects surface lessons from production.",
-        "DevOps experts reveal what sticks.",
+        "Analytics experts reveal what sticks.",
+
         "Cloud pioneers spotlight operational wisdom."
     ]
     footer_questions = [
@@ -3855,7 +3834,7 @@ def build_lessons_post(items) -> str:
             else:
                 value = "enhances system reliability and team productivity"
     else:
-        topic = "DevOps reliability patterns"
+        topic = "Data & Analytics reliability patterns"
         snippet = "Automate what you can, document what you can't."
         value = "reduces cognitive load and improves consistency"
     if items and any(keyword in topic.lower() for keyword in ["security", "vulnerability", "cve", "sast"]):
@@ -3921,7 +3900,8 @@ def build_hot_take_post(items) -> str:
         "Industry leaders question the obvious.",
         "Strategic thinkers challenge assumptions.",
         "Platform architects surface bold opinions.",
-        "DevOps experts debate what works.",
+        "Analytics experts debate what works.",
+
         "Cloud pioneers spark new conversations."
     ]
     footer_questions = [
@@ -3944,7 +3924,7 @@ def build_hot_take_post(items) -> str:
         _USED_FOOTER_QUESTIONS = _USED_FOOTER_QUESTIONS[-len(footer_questions)//2:]
     cta = random.choice(FORMAT_CTAS["hot_take"])
     hot_takes = [
-        "Most 'DevOps transformations' fail because they focus on tools, not culture. You can't Terraform your way to collaboration.",
+        "Most analytics transformations fail because they focus on tools, not culture. You can't automate your way to collaboration.",
         "Kubernetes is overkill for 80% of workloads. Sometimes a VM and a systemd service is the right answer.",
         "100% uptime is a lie. If you're not publishing your error budget, you're hiding from reality.",
         "'Shift left' doesn't mean 'dump everything on developers'. It means 'make security easy to do right'.",
@@ -3993,7 +3973,7 @@ def build_case_study_post(items) -> str:
         "Industry leaders reveal what works (and what doesn't).",
         "Strategic thinkers analyze production outcomes.",
         "Platform architects surface key case studies.",
-        "DevOps experts highlight real-world results.",
+        "Analytics experts highlight real-world results.",
         "Cloud pioneers share implementation lessons."
     ]
     footer_questions = [
@@ -4107,7 +4087,7 @@ def build_deep_dive_post(items) -> str:
         "Industry leaders break down complex challenges.",
         "Strategic thinkers analyze what really matters.",
         "Platform architects surface deep insights.",
-        "DevOps experts reveal the patterns behind success.",
+        "Analytics experts reveal the patterns behind success.",
         "Cloud pioneers spotlight critical lessons."
     ]
     footer_questions = [
@@ -4220,7 +4200,7 @@ def build_digest_post(items):
     intro_headers = [
         "🛠️ What high-perf teams are watching this week.",
         "🚀 Signals shaping modern engineering.",
-        "📡 This week's essential DevOps signals.",
+        "📡 This week's essential Data & Analytics signals.",
         "🔍 Key trends in platform reliability.",
         "⚡️ Strategic moves in cloud and infra.",
         "🌐 What matters for builders and operators.",
@@ -4240,13 +4220,12 @@ def build_digest_post(items):
         "🌍 Global tech trends to watch."
     ]
     persona_lines = [
-        "Industry leaders optimize tech stacks and debunk myths in the DevOps trenches. Here’s what matters.",
+        "Industry leaders optimize stacks and debunk myths in the analytics trenches. Here’s what matters.",
         "Top teams separate signal from noise in modern infrastructure. Insights below.",
         "Strategic thinkers track what moves the reliability needle. Here’s the latest.",
         "Engineering visionaries spotlight what matters most this week.",
         "Platform architects surface actionable insights for resilient systems.",
-        "DevOps experts curate the signals that drive innovation.",
-        "Cloud pioneers highlight key developments for practitioners.",
+        "Analytics experts curate the signals that drive innovation.",        "Cloud pioneers highlight key developments for practitioners.",
         "Security champions share what shapes the future of operations.",
         "AI innovators map the future of intelligent systems.",
         "SRE leaders share reliability wins and lessons.",
@@ -4274,15 +4253,15 @@ def build_digest_post(items):
         "Global tech trends:"
     ]
     ctas = [
-        "💌 Get weekly DevOps insights delivered to your inbox – subscribe to stay ahead!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 Checkout DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf",
-        "💌 Stay ahead: subscribe for weekly DevOps insights!\n👉 Join here: https://lnkd.in/g_mZKwxY\n📖 Get the Playbook: https://lnkd.in/gzTACvZf",
-        "💌 Don’t miss out – get DevOps news in your inbox!\n👉 Sign up: https://lnkd.in/g_mZKwxY\n📖 LinkedIn Playbook: https://lnkd.in/gzTACvZf",
-        "💌 Level up your DevOps game – subscribe now!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf"
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)",
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)",
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)",
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)"
     ]
     hashtags_list = [
-        "#Infrastructure #DevOps #Security #CloudNative #Kubernetes #Engineering #DevSecOps",
-        "#DevOps #Cloud #SRE #Platform #Security #Kubernetes #Engineering",
-        "#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps"
+        "#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps",
+        "#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering",
+        "#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics"
     ]
     footer_questions = [
         "What did we miss?",
@@ -4461,7 +4440,7 @@ def main():
                 post_text = build_growth_plan_post(growth_idea)
                 post_format = growth_idea.get('category', 'thought_leadership')
                 new_items = [{
-                    'title': growth_idea.get('title', 'DevOps Insights'),
+                    'title': growth_idea.get('title', 'Data & Analytics Insights'),
                     'link': '',
                     'source': 'growth_plan',
                     'summary': growth_idea.get('hook', '')

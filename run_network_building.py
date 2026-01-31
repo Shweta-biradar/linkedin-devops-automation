@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Network building automation script for LinkedIn DevOps automation.
+Network building automation script for LinkedIn Data & Analytics automation.
 This script focuses specifically on HR and professional connection building.
 """
 

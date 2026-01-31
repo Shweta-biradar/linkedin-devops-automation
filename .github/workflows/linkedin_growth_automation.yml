@@ -405,7 +405,7 @@ jobs:
         # Content sources
         SOURCE_PACKS: "data-analyst,sql-developer,power-bi,analytics,business-intelligence,etl,reporting,dashboard,python,sql,excel,tableau,dataviz,statistics,insights,visualization,automation,cloud-data,azure-data,aws-data,gcp-data,mlops,databricks,snowflake,warehouse,dbt,airflow,looker,ssrs,ssis,ssas,oracle,postgresql,mysql,redshift,bigquery,alteryx,qlik,sap-bw,sap-hana,bi-tools,advanced-analytics"
         KEYWORDS_INCLUDE: "data analyst,sql developer,power bi,analytics,business intelligence,etl,reporting,dashboard,python,sql,excel,tableau,data visualization,statistics,insights,visualization,automation,cloud data,azure data,aws data,gcp data,mlops,databricks,snowflake,data warehouse,dbt,airflow,looker,ssrs,ssis,ssas,oracle,postgresql,mysql,redshift,bigquery,alteryx,qlik,sap bw,sap hana,bi tools,advanced analytics"
-        KEYWORDS_EXCLUDE: "sponsored,advertisement,marketing,pricing,trial,devops,sre,platform,kubernetes,architecture,devsecops,security,finops"
+        KEYWORDS_EXCLUDE: "sponsored,advertisement,marketing,pricing,trial,sre,platform,kubernetes,architecture,devsecops,security,finops"
         MIN_ARTICLE_AGE_HOURS: "0"
         MAX_ARTICLE_AGE_HOURS: "96"
         FEED_TIMEOUT_SECONDS: "15"
@@ -441,7 +441,7 @@ jobs:
         INCLUDE_SUBSCRIPTION: "false"
         NEWSLETTER_URL: "https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a"
         INCLUDE_PLAYBOOK: "false"
-        PLAYBOOK_URL: "https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook"
+        PLAYBOOK_URL: ""
         
         # Growth Plan vs RSS probability (0=100% RSS, 1=100% Growth Plan)
         GROWTH_PLAN_PROBABILITY: "${{ github.event.inputs.growth_plan_probability || '0' }}"
@@ -747,7 +747,7 @@ jobs:
         
         curl -X POST -H 'Content-type: application/json' \
           --data "{
-            \"text\": \"🚨 LinkedIn DevOps Automation Failed\",
+            \"text\": \"🚨 LinkedIn Data & Analytics Automation Failed\",
             \"blocks\": [
               {
                 \"type\": \"header\",
@@ -842,7 +842,7 @@ jobs:
 # 3. Micro-Targeting Strategies:
 #    - Target specific companies for connections
 #    - Engage with posts from target industries
-#    - Focus on emerging DevOps technologies
+#    - Focus on emerging Data & Analytics technologies
 #    - Build relationships with conference speakers
 #
 # 4. Viral Content Amplification:
@@ -852,7 +852,7 @@ jobs:
 #    - Create content series for sustained engagement
 #
 # 5. Community Building:
-#    - Create DevOps discussion groups
+#    - Create Data & Analytics discussion groups
 #    - Host virtual networking events
 #    - Start LinkedIn newsletter
 #    - Collaborate with other thought leaders
