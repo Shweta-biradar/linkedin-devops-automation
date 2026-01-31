@@ -1,12 +1,12 @@
 {
-  "total_posts": 46,
+  "total_posts": 47,
   "posts_today": 1,
-  "last_post_date": "2026-01-04",
+  "last_post_date": "2026-01-31",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 12,
+    "digest": 13,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,8 +24,8 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 1,
-    "www.cncf.io": 5,
+    "aws.amazon.com": 2,
+    "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
     "www.mend.io": 1,
@@ -33,7 +33,10 @@
     "www.hashicorp.com": 5,
     "growth_plan": 9,
     "snyk.io": 1,
-    "netflixtechblog.medium.com": 1
+    "netflixtechblog.medium.com": 1,
+    "github.blog": 2,
+    "thenewstack.io": 1,
+    "blog.jetbrains.com": 1
   },
   "errors": [],
   "daily_history": [
@@ -459,13 +462,30 @@
       "sources": [
         "growth_plan"
       ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T03:13:17.370764+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "github.blog",
+        "thenewstack.io",
+        "www.cncf.io",
+        "blog.jetbrains.com",
+        "github.blog"
+      ]
     }
   ],
-  "posts_created": 19,
-  "last_post_content": "I architect observability for complex distributed systems and share lessons from the journey. Here's...\n\nThe hidden cost of building observability for 100+ microservices that no one calculates: as systems grow, so does the complexity of monitoring and understanding their behavior. I've seen many organizations struggle with this, and it's an issue that requires careful consideration. In my experience, it's not just about adding more tools, but about creating a cohesive strategy.\n\n\nTechnical constraints and requirements are numerous, including handling large volumes of data, providing real-time insights, and supporting multiple formats and protocols. Some key considerations include:\n* Scalability and performance\n* Data retention and storage\n* Security and access control\n\n\nOur solution architecture consists of a centralized logging and monitoring platform, with distributed agents and collectors to gather data from each microservice. This allows us to consolidate and analyze data from multiple sources, and provide a unified view of system performance.\n\n\nImplementation was not without challenges, including handling variations in data format and quality, and ensuring seamless integration with existing systems. However, by leveraging open-source tools and collaborating with cross-functional teams, we were able to overcome these hurdles and achieve significant results.\n\n\nOur performance metrics show a significant reduction in mean time to detect (MTTD) and mean time to resolve (MTTR) issues, as well as improved overall system uptime and availability. These results have been instrumental in informing our lessons learned and guiding future improvements.\n\n\nLooking back, one key takeaway is the importance of iterative development and continuous refinement. By embracing a culture of experimentation and learning, we can stay ahead of the curve and adapt to evolving system requirements.\n\n\nWhat other solutions have you used for similar problems?\n\n\ud83d\udce8 Subscribe to get weekly DevOps news and insights directly to your inbox!\n\ud83d\udc49 Subscribe: https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a\n\ud83d\udcd6 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook\n\n#grafana #monitoring #cloudengineeering #microservices #observability",
-  "last_post_format": "technical_deep_dives",
+  "posts_created": 20,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nCloud pioneers highlight key developments for practitioners.\n\nWhat caught our attention:\n1. AWS CloudFormation 2025 Year In Review\nContext: AWS CloudFormation enables you to model and provision your cloud application infrastructure as code-base templates. Whether you prefer writing templates directly in JSON or...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/\n\n2. Year recap and future goals for the GitHub Innovation Graph\nContext: Discover the latest trends and insights on public software development activity on GitHub with data from the Innovation Graph through Q3 2025.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/news-insights/policy-news-and-insights/year-recap-and-future-goals-for-the-github-innovation-graph/\n\n3. Mastra empowers web devs to build AI agents in TypeScript\nContext: ...\nPython dominated the early days of machine learning, but that&#8217;s changing as AI becomes more mainstream. Take, for instance, the The post Mastra empowers web devs to build AI agents in TypeSc\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/\n\n\ud83d\udc8c Stay ahead: subscribe for weekly DevOps insights!\n\ud83d\udc49 Join here: https://lnkd.in/g_mZKwxY\n\ud83d\udcd6 Get the Playbook: https://lnkd.in/gzTACvZf\n\n#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps\n\nWhich trend resonates most with your team?",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "growth_plan"
+    "aws.amazon.com",
+    "github.blog",
+    "www.cncf.io",
+    "thenewstack.io",
+    "blog.jetbrains.com"
   ],
-  "last_post_timestamp": "2026-01-04T06:53:37.750452+00:00"
+  "last_post_timestamp": "2026-01-31T03:13:17.371371+00:00"
 }
