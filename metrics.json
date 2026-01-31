@@ -1,12 +1,12 @@
 {
-  "total_posts": 47,
-  "posts_today": 1,
+  "total_posts": 48,
+  "posts_today": 2,
   "last_post_date": "2026-01-31",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 13,
+    "digest": 14,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -15,7 +15,7 @@
   "sources_used": {
     "www.infoq.com": 34,
     "kubernetes.io": 11,
-    "www.docker.com": 3,
+    "www.docker.com": 4,
     "krebsonsecurity.com": 2,
     "blog.pagerduty.com": 1,
     "blog.newrelic.com": 1,
@@ -36,7 +36,9 @@
     "netflixtechblog.medium.com": 1,
     "github.blog": 2,
     "thenewstack.io": 1,
-    "blog.jetbrains.com": 1
+    "blog.jetbrains.com": 3,
+    "www.bleepingcomputer.com": 2,
+    "martinfowler.com": 1
   },
   "errors": [],
   "daily_history": [
@@ -475,17 +477,29 @@
         "blog.jetbrains.com",
         "github.blog"
       ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T05:21:11.426678+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com",
+        "blog.jetbrains.com",
+        "www.bleepingcomputer.com",
+        "www.bleepingcomputer.com",
+        "martinfowler.com",
+        "www.docker.com"
+      ]
     }
   ],
-  "posts_created": 20,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nCloud pioneers highlight key developments for practitioners.\n\nWhat caught our attention:\n1. AWS CloudFormation 2025 Year In Review\nContext: AWS CloudFormation enables you to model and provision your cloud application infrastructure as code-base templates. Whether you prefer writing templates directly in JSON or...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/\n\n2. Year recap and future goals for the GitHub Innovation Graph\nContext: Discover the latest trends and insights on public software development activity on GitHub with data from the Innovation Graph through Q3 2025.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/news-insights/policy-news-and-insights/year-recap-and-future-goals-for-the-github-innovation-graph/\n\n3. Mastra empowers web devs to build AI agents in TypeScript\nContext: ...\nPython dominated the early days of machine learning, but that&#8217;s changing as AI becomes more mainstream. Take, for instance, the The post Mastra empowers web devs to build AI agents in TypeSc\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/\n\n\ud83d\udc8c Stay ahead: subscribe for weekly DevOps insights!\n\ud83d\udc49 Join here: https://lnkd.in/g_mZKwxY\n\ud83d\udcd6 Get the Playbook: https://lnkd.in/gzTACvZf\n\n#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps\n\nWhich trend resonates most with your team?",
+  "posts_created": 21,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nPlatform architects surface actionable insights for resilient systems.\n\nLeadership lessons:\n1. Google Colab Support Is Now Available in PyCharm 2025.3.2\nContext: ...\nPyCharm is designed to support the full range of modern Python workflows, from web development to data and ML/AI work, in a single IDE. An essential part of these workflows is Jupyter notebooks, w\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/01/google-colab-support-is-now-available-in-pycharm-2025-3-2/\n\n2. Spring Data JDBC Made Easy with IntelliJ IDEA\nContext: ...\nIntelliJ IDEA is well-known for its Spring Framework support. The IDE helps with bean navigation, on-the-go bean injection, Spring Data methods completion, and assistance with generating HTTP requ\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/\n\n3. Not a Kids Game: From Roblox Mod to Compromising Your Company\nContext: Seemingly harmless game mods can hide infostealer malware that quietly steals identities. Flare shows how Roblox mods can turn a home PC infection into corporate compromise. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/\n\n\ud83d\udc8c Level up your DevOps game \u2013 subscribe now!\n\ud83d\udc49 Subscribe: https://lnkd.in/g_mZKwxY\n\ud83d\udcd6 DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf\n\n#DevOps #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "github.blog",
-    "www.cncf.io",
-    "thenewstack.io",
-    "blog.jetbrains.com"
+    "martinfowler.com",
+    "blog.jetbrains.com",
+    "www.docker.com",
+    "www.bleepingcomputer.com"
   ],
-  "last_post_timestamp": "2026-01-31T03:13:17.371371+00:00"
+  "last_post_timestamp": "2026-01-31T05:21:11.427332+00:00"
 }
