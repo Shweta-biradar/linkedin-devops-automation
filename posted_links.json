@@ -29,10 +29,16 @@
     "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
     "https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/",
     "https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html",
+    "https://martinfowler.com/bliki/ExcessiveBold.html",
     "https://netflixtechblog.medium.com/towards-generalizable-and-efficient-large-scale-generative-recommenders-a7db648aa257?source=rss-c3aeaf49d8a4------2",
     "https://newrelic.com/blog/observability/aws-reinvent-2025-updates",
     "https://snyk.io/blog/shai-hulud-3-0/",
+    "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
+    "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
+    "https://thenewstack.io/gemini-cli-gets-its-hooks-into-the-agentic-development-loop/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
+    "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
+    "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
@@ -112,10 +118,16 @@
       "bed40f6fcdbd": "2026-01-31T05:21:11.425977+00:00",
       "8592eee0e4fd": "2026-01-31T05:21:11.426000+00:00",
       "335312cb1037": "2026-01-31T05:21:11.426021+00:00",
-      "7b153d59516a": "2026-01-31T05:21:11.426068+00:00"
+      "7b153d59516a": "2026-01-31T05:21:11.426068+00:00",
+      "a5c67dbb87ec": "2026-01-31T05:31:08.206526+00:00",
+      "f991ff27a3ec": "2026-01-31T05:31:08.206573+00:00",
+      "69a6329b7284": "2026-01-31T05:31:08.206603+00:00",
+      "e47d2ede1f7b": "2026-01-31T05:31:08.206629+00:00",
+      "cbb98c2f763a": "2026-01-31T05:31:08.206653+00:00",
+      "9bd48812a4f1": "2026-01-31T05:31:08.206682+00:00"
     },
-    "last_post_id": "dry-run",
-    "last_posted_at_utc": "2026-01-31T05:21:11.426084+00:00",
+    "last_post_id": "urn:li:share:7423236369147195393",
+    "last_posted_at_utc": "2026-01-31T05:31:08.206698+00:00",
     "last_format": "digest"
   }
 }

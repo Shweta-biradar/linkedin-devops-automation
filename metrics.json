@@ -1,12 +1,12 @@
 {
-  "total_posts": 48,
-  "posts_today": 2,
+  "total_posts": 49,
+  "posts_today": 3,
   "last_post_date": "2026-01-31",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 14,
+    "digest": 15,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,10 +35,10 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 2,
-    "thenewstack.io": 1,
+    "thenewstack.io": 6,
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 2,
-    "martinfowler.com": 1
+    "martinfowler.com": 2
   },
   "errors": [],
   "daily_history": [
@@ -490,16 +490,27 @@
         "martinfowler.com",
         "www.docker.com"
       ]
+    },
+    {
+      "date": "2026-01-31",
+      "time": "2026-01-31T05:31:08.207347+00:00",
+      "format": "digest",
+      "sources": [
+        "martinfowler.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 21,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nPlatform architects surface actionable insights for resilient systems.\n\nLeadership lessons:\n1. Google Colab Support Is Now Available in PyCharm 2025.3.2\nContext: ...\nPyCharm is designed to support the full range of modern Python workflows, from web development to data and ML/AI work, in a single IDE. An essential part of these workflows is Jupyter notebooks, w\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/01/google-colab-support-is-now-available-in-pycharm-2025-3-2/\n\n2. Spring Data JDBC Made Easy with IntelliJ IDEA\nContext: ...\nIntelliJ IDEA is well-known for its Spring Framework support. The IDE helps with bean navigation, on-the-go bean injection, Spring Data methods completion, and assistance with generating HTTP requ\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/\n\n3. Not a Kids Game: From Roblox Mod to Compromising Your Company\nContext: Seemingly harmless game mods can hide infostealer malware that quietly steals identities. Flare shows how Roblox mods can turn a home PC infection into corporate compromise. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/\n\n\ud83d\udc8c Level up your DevOps game \u2013 subscribe now!\n\ud83d\udc49 Subscribe: https://lnkd.in/g_mZKwxY\n\ud83d\udcd6 DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf\n\n#DevOps #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 22,
+  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Bliki: Excessive Bold\nContext: I'm increasingly seeing a lot of technical and business writing make heavy use of bold font weights, in an attempt to emphasize what the writers think is important.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://martinfowler.com/bliki/ExcessiveBold.html\n\n2. Ramp\u2019s Inspect shows closed-loop AI agents are software\u2019s future\nContext: ...\nThe recent release of the background coding agent Inspect by Ramp&#8217;s engineering team serves as a definitive proof point that The post Ramp\u2019s Inspect shows closed-loop AI agents are software\u2019\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/\n\n3. Anthropic brings plugins to Cowork\nContext: Anthropic is extending Cowork with a plugin system that bundles skills, connectors, slash commands, and sub-agents, giving non-developers the kind The post Anthropic brings...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/anthropic-brings-plugins-to-cowork/\n\n\ud83d\udc8c Don\u2019t miss out \u2013 get DevOps news in your inbox!\n\ud83d\udc49 Sign up: https://lnkd.in/g_mZKwxY\n\ud83d\udcd6 LinkedIn Playbook: https://lnkd.in/gzTACvZf\n\n#CloudNative #DevSecOps #Observability #Platform #Infra #Kubernetes #DevOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "martinfowler.com",
-    "blog.jetbrains.com",
-    "www.docker.com",
-    "www.bleepingcomputer.com"
+    "thenewstack.io",
+    "martinfowler.com"
   ],
-  "last_post_timestamp": "2026-01-31T05:21:11.427332+00:00"
+  "last_post_timestamp": "2026-01-31T05:31:08.208005+00:00"
 }
