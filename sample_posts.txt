@@ -14,9 +14,9 @@ The pattern: helps you run clusters more reliably and efficiently..
 
 What's a lesson that changed how you work?
 
-✉️ Never miss an analytics update - join my weekly newsletter!
-👉 Subscribe: https://is.gd/analytics-newsletter
-📖 Checkout Data Analytics LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+✉️ Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #Kubernetes #CloudNative #SRE #IncidentManagement #ReliabilityEngineering
 
@@ -35,11 +35,11 @@ My reasoning:
 
 Agree or disagree? Let's debate.
 
-📨 Subscribe to get weekly DevOps news and insights directly to your inbox!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📨 Subscribe: (disabled)
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
-#ReliabilityEngineering #Automation #Observability #DevOps #CICD
+#ReliabilityEngineering #Automation #Observability #DataAnalytics #CICD
 
 ============================================================
 SAMPLE POST 3: QUICK TIP POST
@@ -53,15 +53,15 @@ I architect cloud-native solutions and track platform evolution. Worth understan
 
 What would you add?
 
-📨 Subscribe to get weekly DevOps news and insights directly to your inbox!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📨 Subscribe: (disabled)
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #FinOps #Cloud #InfraAsCode #SRE #ReliabilityEngineering
 
 ============================================================
 SUBSCRIPTION CTA (included in all posts)
 ============================================================
-📮 Stay updated with the latest in DevOps - subscribe to my newsletter!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📮 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)

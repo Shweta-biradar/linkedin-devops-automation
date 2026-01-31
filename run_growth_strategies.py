@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Growth strategy execution script for LinkedIn DevOps automation.
+Growth strategy execution script for LinkedIn Data & Analytics automation.
 This script generates content plans and executes advanced growth strategies.
 """
 

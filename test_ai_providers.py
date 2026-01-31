@@ -12,12 +12,12 @@ from typing import Dict, List, Optional
 
 # Test configuration
 TEST_PROMPT = """
-DevOps teams are increasingly adopting GitOps workflows for Kubernetes deployments. 
-This approach uses Git repositories as the single source of truth for declarative infrastructure and applications.
-GitOps enables better security, auditability, and faster rollbacks compared to traditional CI/CD pipelines.
+Data & Analytics teams are increasingly adopting GitOps-like workflows for data pipelines and deployments.
+This approach uses versioned repositories as the single source of truth for data models and ETL code.
+It improves reproducibility, auditability, and faster rollbacks compared to ad-hoc data ops processes.
 """
 
-EXPECTED_SUMMARY_KEYWORDS = ["gitops", "kubernetes", "git", "deployment", "devops"]
+EXPECTED_SUMMARY_KEYWORDS = ["gitops", "data-pipelines", "git", "deployment", "data-analytics"]
 
 class AIProviderTester:
     def __init__(self):
@@ -39,7 +39,7 @@ class AIProviderTester:
                 "model": "llama-3.3-70b-versatile",
                 "messages": [
                     {"role": "system", "content": "You are a technical content summarizer. Provide a concise summary in 2-3 sentences."},
-                    {"role": "user", "content": f"Summarize this DevOps content:\n\n{TEST_PROMPT}"}
+                    {"role": "user", "content": f"Summarize this Data & Analytics content:\n\n{TEST_PROMPT}"}
                 ],
                 "max_tokens": 150,
                 "temperature": 0.3
@@ -78,7 +78,7 @@ class AIProviderTester:
             payload = {
                 "contents": [
                     {
-                        "parts": [{"text": f"Summarize this DevOps content in 2-3 clear sentences:\n\n{TEST_PROMPT}"}]
+                        "parts": [{"text": f"Summarize this Data & Analytics content in 2-3 clear sentences:\n\n{TEST_PROMPT}"}]
                     }
                 ],
                 "generationConfig": {
@@ -120,14 +120,14 @@ class AIProviderTester:
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://github.com/your-repo",
-                "X-Title": "LinkedIn DevOps Automation"
+                "X-Title": "LinkedIn Data & Analytics Automation"
             }
             
             payload = {
                 "model": "xiaomi/mimo-v2-flash:free",
                 "messages": [
-                    {"role": "system", "content": "You are a technical content summarizer for DevOps professionals."},
-                    {"role": "user", "content": f"Summarize this DevOps content in 2-3 sentences:\n\n{TEST_PROMPT}"}
+                    {"role": "system", "content": "You are a technical content summarizer for Data & Analytics professionals."},
+                    {"role": "user", "content": f"Summarize this Data & Analytics content in 2-3 sentences:\n\n{TEST_PROMPT}"}
                 ],
                 "max_tokens": 150,
                 "temperature": 0.3

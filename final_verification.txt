@@ -4,9 +4,9 @@ FINAL VERIFICATION - ALL SETTINGS
 
 1. SUBSCRIPTION CTA:
 ----------------------------------------
-📩 Subscribe to my newsletter for deep dives into Data & Analytics, BI, and Data Engineering!
-👉 Subscribe: https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a
-📖 Grab my Data Analytics LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 2. SAMPLE POST (Hot Take):
 ----------------------------------------
@@ -22,11 +22,11 @@ The reasoning:
 
 What's the counter-argument?
 
-📩 Get weekly DevOps insights delivered to your inbox!
-👉 Subscribe: https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a
-📖 Grab my DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
-#FinOps #IncidentManagement #DevOps #Kubernetes #Observability
+#FinOps #IncidentManagement #DataAnalytics #Kubernetes #Observability
 
 3. VERIFICATION CHECKLIST:
 ----------------------------------------

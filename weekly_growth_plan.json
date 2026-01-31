@@ -69,7 +69,7 @@
         "tone": "technical, detailed, authoritative"
       },
       "hashtags": [
-        "#devops",
+        "#dataanalytics",
         "#containers",
         "#platformengineering",
         "#infrastructureascode",
@@ -94,7 +94,7 @@
       },
       "hashtags": [
         "#scalability",
-        "#devops",
+        "#dataanalytics",
         "#sre",
         "#infrastructureascode",
         "#gitops"
@@ -119,7 +119,7 @@
       },
       "hashtags": [
         "#jenkins",
-        "#devops",
+        "#dataanalytics",
         "#microservices",
         "#automation",
         "#cloudengineeering"
@@ -228,8 +228,8 @@
     },
     {
       "category": "career_advice",
-      "title": "How to prove ROI for DevOps initiatives",
-      "hook": "I've seen companies fail at how to prove roi for devops initiatives. Here's what they missed:",
+      "title": "How to prove ROI for Data & Analytics initiatives",
+      "hook": "I've seen companies fail at how to prove ROI for data analytics initiatives. Here's what they missed:",
       "content_framework": {
         "structure": [
           "Personal career milestone or challenge",
@@ -254,7 +254,7 @@
   ],
   "community_strategy": [
     {
-      "community": "DevOps Institute",
+      "community": "Data & Analytics Institute",
       "weekly_actions": [
         {
           "action": "share_valuable_resource",
@@ -264,7 +264,7 @@
         },
         {
           "action": "answer_questions",
-          "description": "Answer technical questions in DevOps Institute discussions",
+          "description": "Answer technical questions in Data & Analytics Institute discussions",
           "frequency": "3x per week",
           "example": "Provide detailed answers to certification, best practices questions"
         },
@@ -276,8 +276,8 @@
         }
       ],
       "hashtags": [
-        "#devopsinstitute",
-        "#devopscertification"
+        "#dataanalyticsinstitute",
+        "#dataanalyticscertification"
       ],
       "expected_reach": "500-2000 professionals per week"
     },
@@ -399,28 +399,28 @@
   ],
   "content_series": [
     {
-      "series_name": "DevOps War Stories",
+      "series_name": "Analytics War Stories",
       "description": "Weekly series sharing real production incident stories and lessons learned",
       "post_count": 12,
       "frequency": "Weekly",
       "engagement_hook": "Each post starts with 'The day everything went wrong...'",
       "cta_pattern": "Share your own war story in comments",
       "hashtags": [
-        "#devopswarstories",
+        "#analyticswarstories",
         "#productionincidents",
         "#lessonslearned"
       ]
     },
     {
       "series_name": "Tool Talk Tuesday",
-      "description": "Weekly deep-dives into DevOps tools with honest pros/cons analysis",
+      "description": "Weekly deep-dives into analytics tools with honest pros/cons analysis",
       "post_count": 26,
       "frequency": "Weekly (Tuesdays)",
       "engagement_hook": "Tool review format: 'What I love, what I hate, what you should know'",
       "cta_pattern": "What's your experience with this tool?",
       "hashtags": [
         "#tooltalktuesday",
-        "#devopstools",
+        "#analyticstools",
         "#techreview"
       ]
     },
@@ -439,14 +439,14 @@
     },
     {
       "series_name": "New Engineer Friday",
-      "description": "Weekly advice for engineers new to DevOps and SRE roles",
+      "description": "Weekly advice for engineers new to Data & Analytics and SRE roles",
       "post_count": 20,
       "frequency": "Weekly (Fridays)",
-      "engagement_hook": "If I started DevOps today, here's what I'd focus on first",
+      "engagement_hook": "If I started Data & Analytics today, here's what I'd focus on first",
       "cta_pattern": "New engineers: what questions do you have?",
       "hashtags": [
         "#newengineerfriday",
-        "#devopscareer",
+        "#analyticscareer",
         "#careertips"
       ]
     }

@@ -2,12 +2,12 @@
 LinkedIn Engagement Automation for Enhanced Reach & Followers
 
 Enterprise-grade engagement system that:
-- Comments on trending DevOps posts with AI-generated insights
+- Comments on trending Data & Analytics posts with AI-generated insights
 - Engages with influential people's content intelligently
 - Sends targeted connection requests to HRs and professionals
 - Implements advanced reach enhancement strategies
 
-Author: LinkedIn DevOps Growth System
+Author: LinkedIn Data & Analytics Growth System
 Date: December 26, 2025
 """
 
@@ -102,7 +102,7 @@ logger.info(f"""
 """)
 
 class LinkedInEngagementBot:
-    """Advanced LinkedIn engagement automation for DevOps professionals."""
+    """Advanced LinkedIn engagement automation for Data & Analytics professionals."""
     
     def __init__(self):
         self.access_token = ACCESS_TOKEN
@@ -113,7 +113,7 @@ class LinkedInEngagementBot:
             'Authorization': f'Bearer {self.access_token}',
             'Content-Type': 'application/json',
             'X-Restli-Protocol-Version': '2.0.0',
-            'User-Agent': 'LinkedIn-DevOps-Automation/1.0'
+            'User-Agent': 'LinkedIn-Data-Analytics-Automation/1.0'
         }
         self.base_url = "https://api.linkedin.com/v2"
         self.engagement_cache_file = "engagement_cache.json"
@@ -266,9 +266,9 @@ class LinkedInEngagementBot:
         """Generate an AI-powered reply to a comment on YOUR post."""
         
         prompt = f"""
-        As a DevOps expert, write a friendly, helpful reply to this comment on your LinkedIn post.
+        As a Data & Analytics expert, write a friendly, helpful reply to this comment on your LinkedIn post.
         
-        Your post was about: {post_content[:200] if post_content else 'DevOps best practices'}
+        Your post was about: {post_content[:200] if post_content else 'Data & Analytics best practices'}
         
         Comment received: {comment_text}
         
@@ -317,7 +317,7 @@ class LinkedInEngagementBot:
             "Thanks for sharing your thoughts! What's been your experience with this approach?",
             "Great point! I've seen similar patterns. Would love to hear more about your setup.",
             "Appreciate the feedback! This is exactly the kind of discussion that helps us all learn.",
-            "Thanks for the insight! Have you tried combining this with other DevOps practices?",
+            "Thanks for the insight! Have you tried combining this with other analytics practices?",
             "Really appreciate you taking the time to comment! Let's connect and discuss further."
         ]
         
@@ -467,29 +467,27 @@ class LinkedInEngagementBot:
     # TRENDING POSTS DISCOVERY & ENGAGEMENT
     # =====================================================
     
-    DEVOPS_HASHTAGS = [
-        "#devops", "#kubernetes", "#docker", "#aws", "#azure", "#gcp", 
-        "#cicd", "#jenkins", "#terraform", "#ansible", "#monitoring",
-        "#sre", "#cloudnative", "#microservices", "#observability",
-        "#infrastructure", "#automation", "#containerization",
-        "#platformengineering", "#gitops", "#iac", "#helm", "#prometheus"
+    DATA_HASHTAGS = [
+        "#dataanalytics", "#dataengineering", "#powerbi", "#tableau", "#sql", "#python", 
+        "#dataviz", "#datapipelines", "#dbt", "#airflow", "#bigdata",
+        "#ml", "#datascience", "#analytics", "#dataplatform",
+        "#dataops", "#snowflake", "#spark", "#databricks", "#bigquery"
     ]
     
-    DEVOPS_KEYWORDS = [
-        "kubernetes", "docker", "jenkins", "terraform", "ansible", 
-        "aws", "azure", "gcp", "devops", "sre", "cicd", "microservices",
-        "observability", "monitoring", "infrastructure", "automation",
-        "cloud native", "containerization", "platform engineering",
-        "gitops", "infrastructure as code", "helm", "prometheus",
-        "grafana", "datadog", "splunk"
+    DATA_KEYWORDS = [
+        "analytics", "data", "powerbi", "tableau", "sql", "dbt",
+        "databricks", "snowflake", "bigquery", "airflow", "spark",
+        "dataops", "etl", "pipelines", "dataviz", "mlops",
+        "datascience", "data-engineering", "data-platform", "analytics-stack",
+        "python", "pandas", "spark"
     ]
     
-    def search_trending_devops_posts(self, limit: int = 20) -> List[Dict]:
-        """Search for trending DevOps posts using LinkedIn search."""
+    def search_trending_analytics_posts(self, limit: int = 20) -> List[Dict]:
+        """Search for trending Data & Analytics posts using LinkedIn search."""
         trending_posts = []
         
         # Search by hashtags
-        for hashtag in random.sample(self.DEVOPS_HASHTAGS, min(5, len(self.DEVOPS_HASHTAGS))):
+        for hashtag in random.sample(self.DATA_HASHTAGS, min(5, len(self.DATA_HASHTAGS))):
             try:
                 search_url = f"{self.base_url}/posts"
                 params = {
@@ -532,9 +530,9 @@ class LinkedInEngagementBot:
             content = post.get("commentary", {}).get("text", "").lower()
             title = post.get("content", {}).get("title", "").lower()
             
-            # Must contain DevOps keywords
+            # Must contain Data & Analytics keywords
             text_to_check = f"{content} {title}"
-            if not any(keyword in text_to_check for keyword in self.DEVOPS_KEYWORDS):
+            if not any(keyword in text_to_check for keyword in self.DATA_KEYWORDS):
                 return False
             
             # Check engagement metrics
@@ -576,7 +574,7 @@ class LinkedInEngagementBot:
             return self.get_fallback_comment(post_content, post_title)
         
         prompt = f"""
-        As a senior DevOps engineer, write a thoughtful, professional comment for this LinkedIn post. 
+        As a senior Data & Analytics engineer, write a thoughtful, professional comment for this LinkedIn post. 
         
         Post Title: {post_title}
         Post Content: {post_content[:500]}
@@ -687,12 +685,12 @@ class LinkedInEngagementBot:
                 "Solid SRE practices! What chaos engineering tools do you recommend?"
             ])
         
-        # Generic but valuable DevOps comments
+        # Generic but valuable analytics comments
         else:
             return random.choice([
                 "Valuable insights! How has this approach impacted your deployment frequency?",
                 "Great perspective! What challenges did you face during implementation?",
-                "This resonates with our DevOps journey. What metrics prove the most value?",
+                "This resonates with our analytics journey. What metrics proved the most value?",
                 "Excellent approach! How do you measure the success of these practices?",
                 "Solid thinking! Have you seen this scale across different team sizes?",
                 "Great insights! What would you do differently knowing what you know now?"
@@ -737,27 +735,21 @@ class LinkedInEngagementBot:
     # INFLUENTIAL PEOPLE ENGAGEMENT
     # =====================================================
     
-    DEVOPS_INFLUENCERS = [
-        # Add LinkedIn profile IDs of influential DevOps people
+    DATA_INFLUENCERS = [
+        # Add LinkedIn profile IDs of influential Data & Analytics people
         # Format: {"name": "Name", "profile_id": "linkedin_person_id", "specialty": "area"}
-        {"name": "Kelsey Hightower", "keywords": ["kubernetes", "google", "cloud native"]},
-        {"name": "Jessie Frazelle", "keywords": ["containers", "docker", "security"]},  
-        {"name": "Brendan Gregg", "keywords": ["performance", "observability", "linux"]},
-        {"name": "Nicole Forsgren", "keywords": ["dora", "metrics", "research"]},
-        {"name": "Gene Kim", "keywords": ["devops", "phoenix project", "unicorn project"]},
-        {"name": "John Allspaw", "keywords": ["resilience", "incident response", "sre"]},
-        {"name": "Charity Majors", "keywords": ["observability", "honeycomb", "debugging"]},
-        {"name": "Adrian Cockcroft", "keywords": ["microservices", "netflix", "cloud"]},
-        {"name": "Martin Fowler", "keywords": ["architecture", "microservices", "ci/cd"]},
-        {"name": "Jez Humble", "keywords": ["continuous delivery", "lean", "devops"]}
+        {"name": "Hadley Wickham", "keywords": ["rstats", "tidyverse", "data science"]},
+        {"name": "Claudia Perlich", "keywords": ["machine learning", "modeling", "applied ml"]},
+        {"name": "Jeffrey Heer", "keywords": ["dataviz", "d3", "visualization"]},
+        {"name": "Wes McKinney", "keywords": ["pandas", "dataframes", "python"]}
     ]
     
     def find_influencer_posts(self, limit: int = 10) -> List[Dict]:
-        """Find recent posts from DevOps influencers."""
+        """Find recent posts from Data & Analytics influencers."""
         influencer_posts = []
         
         # Search for posts mentioning influencers or their content
-        for influencer in random.sample(self.DEVOPS_INFLUENCERS, min(5, len(self.DEVOPS_INFLUENCERS))):
+        for influencer in random.sample(self.DATA_INFLUENCERS, min(5, len(self.DATA_INFLUENCERS))):
             try:
                 # Search for posts mentioning the influencer's keywords
                 keywords = " OR ".join(influencer["keywords"])
@@ -816,7 +808,7 @@ class LinkedInEngagementBot:
         "Technical Recruiter", "Senior Recruiter", "Talent Partner",
         "People Operations", "Head of People", "Chief People Officer",
         "Talent Manager", "Recruitment Lead", "HR Business Partner",
-        "Technical Talent Acquisition", "DevOps Recruiter", "Tech Recruiter",
+        "Technical Talent Acquisition", "Data & Analytics Recruiter", "Tech Recruiter",
         "Senior Technical Recruiter", "Principal Recruiter", "Director of Talent"
     ]
     
@@ -873,15 +865,15 @@ class LinkedInEngagementBot:
             if not any(title.lower() in headline for title in self.HR_JOB_TITLES):
                 return False
             
-            # Check if they work at tech companies or have DevOps/tech focus
+            # Check if they work at tech companies or have Data & Analytics/tech focus
             company_info = profile.get("positions", {}).get("values", [])
             if company_info:
                 company_name = company_info[0].get("company", {}).get("name", "").lower()
                 if any(company.lower() in company_name for company in self.HR_COMPANIES):
                     return True
             
-            # Check for tech/DevOps keywords in headline or summary
-            tech_keywords = ["tech", "software", "devops", "engineering", "cloud", "saas"]
+            # Check for tech/Data & Analytics keywords in headline or summary
+            tech_keywords = ["tech", "software", "analytics", "engineering", "cloud", "saas"]
             return any(keyword in headline for keyword in tech_keywords)
             
         except Exception:
@@ -930,13 +922,13 @@ class LinkedInEngagementBot:
         """Generate personalized connection messages for HR professionals."""
         
         messages = [
-            "Hi! I'm a DevOps engineer passionate about building scalable systems. I'd love to connect and stay updated on opportunities in your network.",
+            "Hi! I'm a Data & Analytics engineer passionate about building scalable data platforms. I'd love to connect and stay updated on opportunities in your network.",
             
-            "Hello! I noticed your expertise in technical recruitment. I'm always interested in connecting with talent professionals who understand the DevOps space.",
+            "Hello! I noticed your expertise in technical recruitment. I'm always interested in connecting with talent professionals who understand the Data & Analytics space.",
             
-            "Hi there! As a DevOps professional, I'd appreciate connecting with you to learn more about the evolving landscape of technical roles.",
+            "Hi there! As a Data & Analytics professional, I'd appreciate connecting with you to learn more about the evolving landscape of technical roles.",
             
-            "Hello! I'm actively building my network with talent acquisition professionals. Would love to connect and share insights about the DevOps market.",
+            "Hello! I'm actively building my network with talent acquisition professionals. Would love to connect and share insights about the Data & Analytics market.",
             
             "Hi! I see you work in technical recruitment. I'm always interested in connecting with HR professionals who specialize in engineering roles.",
             
@@ -1023,11 +1015,11 @@ class LinkedInEngagementBot:
         }
         
         try:
-            # 1. Find and comment on trending DevOps posts
+            # 1. Find and comment on trending Data & Analytics posts
             trending_posts = []
             if ENABLE_TRENDING_COMMENTS:
-                logger.info("🔍 Searching for trending DevOps posts...")
-                trending_posts = self.search_trending_devops_posts(MAX_COMMENTS_PER_RUN)
+                logger.info("🔍 Searching for trending Data & Analytics posts...")
+                trending_posts = self.search_trending_analytics_posts(MAX_COMMENTS_PER_RUN)
             else:
                 logger.info("⏭️ Trending comments DISABLED - skipping")
             

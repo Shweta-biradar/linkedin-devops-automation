@@ -1,11 +1,11 @@
 ======================================================================
 🚀 INTELLIGENT POST (70% of posts) - Growth Plan Based
 ======================================================================
-DevOps practices at scale reveal key patterns. Worth understanding.
+Data Analytics practices at scale reveal key patterns. Worth understanding.
 
-Unpopular opinion: Platform Engineering isn't just a rebrand of DevOps - it's a fundamental shift in how we think about developer experience.
+Unpopular opinion: Platform Engineering isn't just a rebrand of analytics operations - it's a fundamental shift in how we think about developer experience.
 
-Key insights on why platform engineering will replace traditional devops:
+Key insights on why platform engineering will replace traditional approaches:
 
 • Define the core difference between DevOps and Platform Engineering
 • Share real examples of platform teams succeeding
@@ -14,7 +14,7 @@ Key insights on why platform engineering will replace traditional devops:
 
 What's your take? Is Platform Engineering the future or just hype?
 
-📩 Join thousands of DevOps professionals - subscribe for weekly insights!
+📩 Join thousands of Data & Analytics professionals - subscribe: (disabled)
 👉 Subscribe: https://is.gd/devopstechradarnewsletter
 📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
 

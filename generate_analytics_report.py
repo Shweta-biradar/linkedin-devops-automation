@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Analytics report generation script for LinkedIn DevOps automation.
+Analytics report generation script for LinkedIn Data & Analytics automation.
 This script collects metrics from different automation jobs and generates comprehensive reports.
 """
 
@@ -53,7 +53,7 @@ def main():
         
         # Generate summary report
         report = """
-LinkedIn DevOps Automation - Daily Report
+LinkedIn Data & Analytics Automation - Daily Report
 ==================================================
 
 Date: {date}

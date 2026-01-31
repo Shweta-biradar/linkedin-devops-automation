@@ -4,7 +4,7 @@
 ⚡ 💭 Perspective shift on a common practice.
 Resilient container infrastructure shows what works. Worth understanding.
 
-🎯 Most 'DevOps transformations' fail because they focus on tools, not culture. You can't Terraform your way to collaboration.
+🎯 Most analytics transformations fail because they focus on tools, not culture. You can't automate your way to collaboration.
 
 The reasoning:
 → This pattern appears across multiple orgs
@@ -13,9 +13,9 @@ The reasoning:
 
 What's the counter-argument?
 
-📩 Join thousands of data & analytics professionals - subscribe for weekly insights!
-👉 Subscribe: https://is.gd/analytics-newsletter
-📖 Checkout Data Analytics LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #FinOps #IncidentManagement #SiteReliability #Automation #SRE
 
@@ -35,9 +35,9 @@ The pattern: helps you run clusters more reliably and efficiently..
 
 What's a lesson that changed how you work?
 
-📩 Subscribe for more deep dives into DevOps, SRE, and platform engineering!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Subscribe: (disabled)
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #IncidentManagement #Resilience #Kubernetes #Cloud #FinOps
 
@@ -55,9 +55,9 @@ Industry pulse:
 
 Why this matters: Faster feedback, calmer incidents, happier on-call.
 
-📩 Never miss a DevOps update - join the weekly newsletter!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #Resilience #Kubernetes #SRE #IncidentManagement #CICD
 

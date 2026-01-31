@@ -2783,8 +2783,8 @@ def get_subscription_cta() -> str:
         logger.info("DRY_RUN enabled: skipping subscription/playbook CTA")
         return ""
 
-    # Environment variable to control subscription CTA
-    INCLUDE_SUBSCRIPTION = os.environ.get("INCLUDE_SUBSCRIPTION", "true").lower() == "true"
+    # Environment variable to control subscription CTA (disabled by default)
+    INCLUDE_SUBSCRIPTION = os.environ.get("INCLUDE_SUBSCRIPTION", "false").lower() == "true"
     
     if not INCLUDE_SUBSCRIPTION:
         return ""
@@ -2823,9 +2823,9 @@ def get_subscription_cta() -> str:
     # Newsletter subscription URL
     subscription_url = os.environ.get("NEWSLETTER_URL", "https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a")
     
-    # DevOps LinkedIn Playbook URL
+    # Playbook URL
     playbook_url = os.environ.get("PLAYBOOK_URL", "https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook")
-    include_playbook = os.environ.get("INCLUDE_PLAYBOOK", "true").lower() == "true"
+    include_playbook = os.environ.get("INCLUDE_PLAYBOOK", "false").lower() == "true"
 
     # Pick a random message and build the CTA
     message = random.choice(subscription_messages)
@@ -4244,10 +4244,10 @@ def build_digest_post(items):
         "Global tech trends:"
     ]
     ctas = [
-        "💌 Get weekly DevOps insights delivered to your inbox – subscribe to stay ahead!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 Checkout DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf",
-        "💌 Stay ahead: subscribe for weekly DevOps insights!\n👉 Join here: https://lnkd.in/g_mZKwxY\n📖 Get the Playbook: https://lnkd.in/gzTACvZf",
-        "💌 Don’t miss out – get DevOps news in your inbox!\n👉 Sign up: https://lnkd.in/g_mZKwxY\n📖 LinkedIn Playbook: https://lnkd.in/gzTACvZf",
-        "💌 Level up your DevOps game – subscribe now!\n👉 Subscribe: https://lnkd.in/g_mZKwxY\n📖 DevOps LinkedIn Playbook: https://lnkd.in/gzTACvZf"
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)",
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)",
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)",
+        "💌 Newsletter: disabled\n👉 Subscribe: (disabled)\n📖 Playbook: (disabled)"
     ]
     hashtags_list = [
         "#Infrastructure #DevOps #Security #CloudNative #Kubernetes #Engineering #DevSecOps",

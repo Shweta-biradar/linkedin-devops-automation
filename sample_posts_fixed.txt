@@ -1,11 +1,11 @@
 ======================================================================
 INTELLIGENT POST (70%) - Growth Plan
 ======================================================================
-DevOps practices at scale reveal key patterns. Pay attention to this.
+Data Analytics practices at scale reveal key patterns. Pay attention to this.
 
-Unpopular opinion: Platform Engineering isn't just a rebrand of DevOps.
+Unpopular opinion: Platform Engineering isn't just a rebrand of data operations.
 
-Key insights on platform engineering will replace traditional devops:
+Key insights on platform engineering will replace traditional approaches:
 
 • Define the difference
 • Share examples
@@ -13,11 +13,11 @@ Key insights on platform engineering will replace traditional devops:
 
 What's your take?
 
-📩 Get weekly DevOps insights delivered to your inbox!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
-#PlatformEngineering #DevOps #CloudNative
+#PlatformEngineering #DataAnalytics #CloudNative
 
 ======================================================================
 RSS POST - Hot Take Style
@@ -34,9 +34,9 @@ The reasoning:
 
 Is this wrong? Share your perspective.
 
-📩 Want more Data & Analytics insights like this? Subscribe for weekly updates!
-👉 Subscribe: https://is.gd/analytics-newsletter
-📖 Checkout Data Analytics LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #Resilience #IncidentManagement #ReliabilityEngineering #SiteReliability #Kubernetes
 
@@ -56,9 +56,9 @@ The pattern: helps you run clusters more reliably and efficiently..
 
 Share your hard-won wisdom below.
 
-📩 Get weekly DevOps insights delivered to your inbox!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #CICD #FinOps #SiteReliability #Resilience #SRE
 
@@ -82,9 +82,9 @@ What stands out:
 
 Why this matters: Better observability, fewer surprises in prod.
 
-📩 Never miss a DevOps update - join the weekly newsletter!
-👉 Subscribe: https://is.gd/devopstechradarnewsletter
-📖 Checkout DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📩 Newsletter: disabled
+👉 Subscribe: (disabled)
+📖 Playbook: (disabled)
 
 #Cloud #IncidentManagement #SRE #Resilience #Observability
 

@@ -1,8 +1,8 @@
-# 🚀 LinkedIn DevOps Growth & Engagement Automation
+# 🚀 LinkedIn Data & Analytics Growth & Engagement Automation
 
-> **Automated LinkedIn content pipeline with AI-powered engagement for DevOps thought leadership**
+> **Automated LinkedIn content pipeline with AI-powered engagement for Data & Analytics thought leadership**
 
-An enterprise-grade system that curates DevOps content, generates expert-level posts, auto-replies to comments on **your** posts using official LinkedIn APIs, and reports results via Slack.
+An enterprise-grade system that curates Data & Analytics content, generates expert-level posts, auto-replies to comments on **your** posts using official LinkedIn APIs, and reports results via Slack.
 
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -37,7 +37,7 @@ An enterprise-grade system that curates DevOps content, generates expert-level p
 ### ✅ What Works (Official LinkedIn API)
 | Feature | Description | API Endpoint |
 |---------|-------------|--------------|
-| Content Posting | Post curated DevOps content to **your** profile | `POST /ugcPosts` |
+| Content Posting | Post curated Data & Analytics content to **your** profile | `POST /ugcPosts` |
 | Read Your Posts | Retrieve your recent posts | `GET /ugcPosts?q=authors` |
 | Read Comments | Get comments on **your** posts | `GET /socialActions/{urn}/comments` |
 | Reply to Comments | Auto-reply on **your** posts | `POST /socialActions/{urn}/comments` |
@@ -58,7 +58,7 @@ Controlled from the workflow dispatch inputs and env vars.
 
 ### Supported (default **true**)
 ```yaml
-ENABLE_CONTENT_POSTING: true      # Post curated DevOps content
+ENABLE_CONTENT_POSTING: true      # Post curated Data & Analytics content
 ENABLE_AUTO_REPLY_COMMENTS: true  # AI replies on your posts
 ENABLE_AI_COMMENTS: true          # AI for content/comment generation
 MAX_REPLIES_PER_RUN: 10           # Cap auto-replies per run
@@ -89,7 +89,7 @@ graph TB
     end
     
     subgraph "Content Posting (Enhanced Original)"
-        C --> G[RSS Feed Aggregation<br/>50+ DevOps Sources]
+        C --> G[RSS Feed Aggregation<br/>50+ Data & Analytics Sources]
         G --> H[AI Content Enhancement<br/>Multi-Provider System]
         H --> I[LinkedIn Publishing<br/>Smart Scheduling]
     end
@@ -166,7 +166,7 @@ sequenceDiagram
     participant SLACK as Slack/Discord
     participant CACHE as State Files
 
-    GHA->>RSS: Fetch latest DevOps articles
+    GHA->>RSS: Fetch latest Data & Analytics articles
     RSS-->>GHA: Article metadata + content
     GHA->>AI: Enhance content + generate personas
     AI-->>GHA: AI-enhanced post content
@@ -244,7 +244,7 @@ This section provides a comprehensive overview of everything that happens when t
         ▼                       ▼                       ▼
 ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐
 │ JOB 2: POST       │  │ JOB 3: ENGAGEMENT │  │ JOB 5: GROWTH     │
-│ DEVOPS CONTENT    │  │ AUTOMATION        │  │ STRATEGY          │
+│ DATA & ANALYTICS CONTENT    │  │ AUTOMATION        │  │ STRATEGY          │
 │ ✅ SUPPORTED      │  │ ✅ SUPPORTED      │  │ ✅ SUPPORTED      │
 │                   │  │ (auto-reply only) │  │                   │
 │ if: run_content   │  │ if: run_engagement│  │ if: run_growth    │
@@ -320,7 +320,7 @@ This section provides a comprehensive overview of everything that happens when t
 
 **Content Generation Features:**
 - 🤖 AI providers: Groq → Gemini → OpenRouter → HuggingFace
-- 📰 RSS sources: DevOps, SRE, Platform, Kubernetes, Security, FinOps
+- 📰 RSS sources: Data & Analytics, SRE, Platform, Kubernetes, Security, FinOps
 - 📝 Formats: deep_dive, case_study, lessons, digest, quick_tip, hot_take
 - 🎭 Dynamic personas for variety
 - 🔗 Newsletter & playbook promotion
@@ -498,7 +498,7 @@ Flow:
 
 Fallback personas (your set):
 - **By Format**: deep_dive, case_study, lessons, hot_take, quick_tip, digest.
-- **By Topic**: kubernetes, security, observability, incident, cloud, terraform, cicd, docker, monitoring, devops.
+- **By Topic**: kubernetes, security, observability, incident, cloud, terraform, cicd, docker, monitoring, data-analytics.
 
 ---
 
@@ -508,10 +508,10 @@ The system aggregates content from **50+ curated sources** organized into 11 top
 
 ### Source Packs Detail
 
-#### 🚀 **DevOps Pack**
-- AWS DevOps Blog, Azure DevOps Blog, Docker Blog
-- GCP DevOps & SRE, Jenkins Blog, GitLab Blog
-- CircleCI, Terraform, Ansible, Chef, Puppet
+#### 🚀 **Analytics Pack**
+- KDnuggets, Towards Data Science, Analytics Vidhya
+- Databricks Blog, Snowflake Blog, Power BI Blog
+- dbt, Airflow, BigQuery, Spark
 
 #### 📊 **SRE Pack**  
 - Grafana Blog, Prometheus Blog, Datadog Blog
@@ -568,7 +568,7 @@ The system aggregates content from **50+ curated sources** organized into 11 top
 
 ```yaml
 # Use specific packs
-SOURCE_PACKS: "devops,sre,platform,kubernetes"
+SOURCE_PACKS: "data-analyst,analytics,platform,kubernetes"
 
 # Use all sources (default)  
 SOURCE_PACKS: "all"
@@ -580,7 +580,7 @@ EXTRA_NEWS_SOURCES: "https://example.com/feed.xml,https://another.com/rss"
 ### Content Filtering
 
 ```yaml
-KEYWORDS_INCLUDE: "devops,kubernetes,cloud,platform,terraform,security"
+KEYWORDS_INCLUDE: "dataanalytics,power-bi,sql,kubernetes,cloud,security"
 KEYWORDS_EXCLUDE: "sponsored,advertisement,marketing,webinar"
 MAX_ARTICLE_AGE_HOURS: 72  # Only articles from last 3 days
 MIN_ARTICLE_AGE_HOURS: 0   # No minimum age
@@ -687,7 +687,7 @@ The system provides **enterprise-grade monitoring** with detailed Slack notifica
 #### 🚀 **Start Notification**
 Sent when workflow begins:
 ```
-🚀 LinkedIn DevOps Automation Started
+🚀 LinkedIn Data & Analytics Automation Started
 
 📅 Started At: 2025-12-26 09:00:00
 🔗 Workflow: [Monitor Progress](github.com/run/123456)
@@ -696,7 +696,7 @@ Sent when workflow begins:
 🎯 Mode: 🟡 DRY RUN MODE (DRY_RUN=true) - Test mode only
 
 🎯 Enabled Features:
-• ✅ Post DevOps content (ENABLE_CONTENT_POSTING=true)
+• ✅ Post Data & Analytics content (ENABLE_CONTENT_POSTING=true)
 • ✅ Auto-reply to comments on your posts (ENABLE_AUTO_REPLY_COMMENTS=true)
 
 🚫 Disabled Features:
@@ -737,14 +737,14 @@ Shows full comment/reply details (only if ENABLE_AUTO_REPLY_COMMENTS=true):
 #### ✅ **Success Report**  
 Complete automation summary:
 ```
-🚀 LinkedIn DevOps Automation Completed Successfully
+🚀 LinkedIn Data & Analytics Automation Completed Successfully
 
 📅 Date: 2025-12-26 09:45:00
 ⏱ Status: Completed successfully
 🎯 Mode: 🔴 LIVE MODE - Posted to LinkedIn
 
 📊 Activities Completed (Enabled Features Only):
-• ✅ Posted 2 DevOps content pieces (ENABLE_CONTENT_POSTING=true)
+• ✅ Posted 2 Data & Analytics content pieces (ENABLE_CONTENT_POSTING=true)
 • ✅ Replied to 3 comments on your posts (ENABLE_AUTO_REPLY_COMMENTS=true)
 • ✅ Generated analytics report
 • ✅ Updated growth strategies
@@ -759,14 +759,14 @@ Complete automation summary:
 
 **For DRY RUN mode:**
 ```
-🟡 LinkedIn DevOps Automation Completed (DRY RUN)
+🟡 LinkedIn Data & Analytics Automation Completed (DRY RUN)
 
 📅 Date: 2025-12-26 09:45:00
 ⏱ Status: Test completed successfully
 🎯 Mode: 🟡 DRY RUN MODE - No actual LinkedIn posts created
 
 📊 Activities Simulated (Would have executed):
-• 🧪 Would have posted 2 DevOps content pieces
+• 🧪 Would have posted 2 Data & Analytics content pieces
 • 🧪 Would have replied to 3 comments on your posts
 • ✅ Generated analytics report (always runs)
 
@@ -776,7 +776,7 @@ Complete automation summary:
 #### 🚨 **Failure Alert**
 Detailed troubleshooting guidance:
 ```
-🚨 LinkedIn DevOps Automation Failed
+🚨 LinkedIn Data & Analytics Automation Failed
 
 📅 Failed At: 2025-12-26 09:15:00  
 🔗 Workflow: [View Logs](github.com/run/123456)
@@ -860,8 +860,8 @@ cd linkedin-devops-automation
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `SOURCE_PACKS` | `all` | `devops,sre,platform,kubernetes,architecture,security,devsecops,observability,cicd,cloud_native,finops` or `all` |
-| `KEYWORDS_INCLUDE` | `devops,kubernetes,cloud...` | Comma-separated required keywords |
+| `SOURCE_PACKS` | `all` | `data-analyst,analytics,platform,kubernetes,architecture,security,devsecops,observability,cicd,cloud_native,finops` or `all` |
+| `KEYWORDS_INCLUDE` | `dataanalytics,power-bi,sql,kubernetes...` | Comma-separated required keywords |
 | `KEYWORDS_EXCLUDE` | `sponsored,advertisement...` | Comma-separated blocked keywords |
 | `MAX_ARTICLE_AGE_HOURS` | `72` | Only include articles newer than X hours |
 | `MIN_ARTICLE_AGE_HOURS` | `0` | Exclude articles newer than X hours |
@@ -914,15 +914,15 @@ cd linkedin-devops-automation
 | `ADD_UTM_PARAMS` | `false` | Add UTM tracking parameters |
 | `UTM_SOURCE` | `linkedin` | UTM source parameter |
 | `UTM_MEDIUM` | `social` | UTM medium parameter |
-| `UTM_CAMPAIGN` | `devops-automation` | UTM campaign parameter |
+| `UTM_CAMPAIGN` | `data-analytics-automation` | UTM campaign parameter |
 
 ### 📢 Newsletter & Product Integration
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `INCLUDE_SUBSCRIPTION` | `true` | Add newsletter subscription CTA |
+| `INCLUDE_SUBSCRIPTION` | `false` | Add newsletter subscription CTA (disabled by default) |
 | `NEWSLETTER_URL` | `""` | Newsletter signup URL |
-| `INCLUDE_PLAYBOOK` | `true` | Add product promotion |
+| `INCLUDE_PLAYBOOK` | `false` | Add product promotion (disabled by default) |
 | `PLAYBOOK_URL` | `""` | Product/course URL (e.g., Gumroad) |
 
 ### 📊 Workflow Schedule Configuration
@@ -982,11 +982,11 @@ on:
 - **Content Consistency**: 6-21 high-quality posts per month
 
 #### **Medium-term Results (3-6 Months)**  
-- **Authority Building**: Recognized expert in DevOps community
+- **Authority Building**: Recognized expert in Data & Analytics community
 - **Network Quality**: Connections with 20+ top-tier companies
 - **Content Performance**: Consistent 100+ likes, 20+ comments per post
 - **Thought Leadership**: Regular speaking/collaboration opportunities
-- **Industry Recognition**: Featured in DevOps publications
+- **Industry Recognition**: Featured in Data & Analytics publications
 
 #### **Long-term Results (6-12 Months)**
 - **Conference Speaking**: Invited to DevOps conferences and panels
@@ -1330,6 +1330,6 @@ MIT License - see LICENSE.
 ---
 
 <div align="center">
-<b>Built with ❤️ for the DevOps community</b><br/>
+<b>Built with ❤️ for the Data & Analytics community</b><br/>
 ⭐ Star this repo if it helps automate your LinkedIn growth!
 </div>
