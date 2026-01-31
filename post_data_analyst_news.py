@@ -1152,7 +1152,7 @@ def remove_first_person_pronouns(text: str) -> str:
 def build_growth_plan_post(idea: Dict) -> str:
     """Build a LinkedIn post from a growth plan idea using AI."""
     
-    title = idea.get('title', 'DevOps Insights')
+    title = idea.get('title', 'Data Analytics Insights')
     hook = idea.get('hook', '')
     cta = idea.get('cta', 'What are your thoughts?')
     hashtags = idea.get('hashtags', ['#devops', '#sre'])
@@ -1421,32 +1421,26 @@ HEADERS = {
 STATE_FILE = "posted_links.json"
 
 NEWS_SOURCES = [
-    "https://kubernetes.io/feed.xml",
-    "https://www.cncf.io/feed/",
-    "https://aws.amazon.com/blogs/devops/feed/",
-    "https://azure.microsoft.com/en-us/blog/feed/",
-    "https://www.hashicorp.com/blog/feed.xml",
-    "https://netflixtechblog.medium.com/feed",
-    "https://engineering.atspotify.com/feed/",
-    "https://about.gitlab.com/atom.xml",
-    "https://martinfowler.com/feed.atom",
-    "https://www.docker.com/blog/feed/",
-    # Major Tech Companies
+    # Data & Analytics focused sources (prioritized)
+    "https://kdnuggets.com/feed",
+    "https://towardsdatascience.com/feed",
+    "https://www.analyticsvidhya.com/blog/feed/",
+    "https://databricks.com/blog/feed",
+    "https://www.snowflake.com/feed/",
+    "https://www.tableau.com/about/blog-feed.xml",
+    "https://powerbi.microsoft.com/en-us/blog/feed/",
+    "https://cloud.google.com/blog/topics/big-data/rss.xml",
+    "https://aws.amazon.com/blogs/big-data/feed/",
+    "https://www.thoughtspot.com/blog/rss.xml",
+    "https://medium.com/feed/data-driven",
+    "https://towardsdatascience.com/feed",
+    # Broader tech sources that still contain analytics coverage
     "https://github.blog/feed/",
     "https://blog.jetbrains.com/feed/",
     "https://stackoverflow.blog/feed/",
-    "https://blog.cloudflare.com/rss/",
-    "https://blog.mongodb.com/rss.xml",
-    "https://redis.io/blog/rss.xml",
-    "https://blog.elastic.co/rss.xml",
-    "https://blog.nginx.org/feed.xml",
-    # News & Industry Sites
-    "https://techcrunch.com/category/enterprise/feed/",
     "https://www.infoq.com/rss/rss.xml",
-    "https://devclass.com/feed/",
+    "https://techcrunch.com/category/enterprise/feed/",
     "https://thenewstack.io/feed/",
-    "https://www.darkreading.com/rss_simple.asp",
-    "https://www.zdnet.com/topic/security/rss.xml",
     "https://www.bleepingcomputer.com/feed/"
 ]
 
@@ -1506,6 +1500,42 @@ PACK_SOURCES: Dict[str, list] = {
         "https://blog.ansible.com/rss.xml",
         "https://blog.chef.io/feed/",
         "https://puppet.com/blog/rss.xml",
+    ],
+    "data-analyst": [
+        "https://kdnuggets.com/feed",
+        "https://towardsdatascience.com/feed",
+        "https://www.analyticsvidhya.com/blog/feed/",
+        "https://databricks.com/blog/feed",
+        "https://www.snowflake.com/feed/",
+        "https://www.tableau.com/about/blog-feed.xml",
+        "https://powerbi.microsoft.com/en-us/blog/feed/",
+        "https://cloud.google.com/blog/topics/big-data/rss.xml",
+        "https://aws.amazon.com/blogs/big-data/feed/",
+    ],
+    "analytics": [
+        "https://kdnuggets.com/feed",
+        "https://towardsdatascience.com/feed",
+        "https://www.analyticsvidhya.com/blog/feed/",
+        "https://databricks.com/blog/feed",
+        "https://www.snowflake.com/feed/",
+        "https://medium.com/feed/data-driven",
+    ],
+    "tableau": [
+        "https://www.tableau.com/about/blog-feed.xml",
+        "https://public.tableau.com/en-us/s/blog",
+    ],
+    "power-bi": [
+        "https://powerbi.microsoft.com/en-us/blog/feed/",
+    ],
+    "sql": [
+        "https://www.postgresql.org/about/news/",
+        "https://dev.mysql.com/tech-resources/news/",
+        "https://www.oracle.com/newsroom/rss-feeds.html",
+    ],
+    "bigdata": [
+        "https://databricks.com/blog/feed",
+        "https://www.confluent.io/blog/rss/",
+        "https://www.cloudera.com/blog.html?format=rss",
     ],
     "architecture": [
         "https://martinfowler.com/feed.atom",
@@ -2806,24 +2836,24 @@ def get_subscription_cta() -> str:
     # Subscription CTA messages - vary based on emoji style
     if EMOJI_STYLE == "none":
         subscription_messages = [
-            "Want more DevOps insights like this? Subscribe to my newsletter for weekly updates!",
-            "Get weekly DevOps insights delivered to your inbox - subscribe to stay ahead!",
-            "Subscribe for more deep dives into DevOps, SRE, and platform engineering!",
-            "Never miss a DevOps update - join my weekly newsletter!",
+            "Want more Data & Analytics insights like this? Subscribe to my newsletter for weekly updates!",
+            "Get weekly analytics insights delivered to your inbox - subscribe to stay ahead!",
+            "Subscribe for more deep dives into Analytics, Data Engineering, and BI!",
+            "Never miss an analytics update - join my weekly newsletter!",
         ]
     else:
         subscription_messages = [
-            f"{subscribe_emoji} Want more DevOps insights like this? Subscribe to my newsletter!",
-            f"{subscribe_emoji} Get weekly DevOps insights delivered to your inbox!",
-            f"{subscribe_emoji} Subscribe to my newsletter for deep dives into DevOps, SRE, and platform engineering!",
-            f"{subscribe_emoji} Never miss a DevOps update - join my weekly newsletter!",
-            f"{subscribe_emoji} Join thousands of DevOps professionals - subscribe to my newsletter for weekly insights!",
+            f"{subscribe_emoji} Want more Data & Analytics insights like this? Subscribe to my newsletter!",
+            f"{subscribe_emoji} Get weekly analytics insights delivered to your inbox!",
+            f"{subscribe_emoji} Subscribe to my newsletter for deep dives into Analytics, BI, and Data Engineering!",
+            f"{subscribe_emoji} Never miss an analytics update - join my weekly newsletter!",
+            f"{subscribe_emoji} Join thousands of analytics professionals - subscribe to my newsletter for weekly insights!",
         ]
     
     # Newsletter subscription URL
     subscription_url = os.environ.get("NEWSLETTER_URL", "https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a")
     
-    # DevOps LinkedIn Playbook URL
+    # Playbook URL (labelled for analytics)
     playbook_url = os.environ.get("PLAYBOOK_URL", "https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook")
     include_playbook = os.environ.get("INCLUDE_PLAYBOOK", "true").lower() == "true"
 
@@ -2838,9 +2868,9 @@ def get_subscription_cta() -> str:
     
     if include_playbook and playbook_url:
         if book_emoji:
-            cta += f"\n{book_emoji} Grab my DevOps LinkedIn Playbook: {playbook_url}"
+            cta += f"\n{book_emoji} Grab my Data Analytics LinkedIn Playbook: {playbook_url}"
         else:
-            cta += f"\nGrab my DevOps LinkedIn Playbook: {playbook_url}"
+            cta += f"\nGrab my Data Analytics LinkedIn Playbook: {playbook_url}"
     
     return cta
 
@@ -4330,7 +4360,7 @@ def build_digest_post(items):
 
 def main():
     logger.info("="*50)
-    logger.info("LinkedIn DevOps Bot Starting")
+    logger.info("LinkedIn Data Analytics Bot Starting")
     logger.info("="*50)
     
     # Production readiness checks
@@ -4349,6 +4379,19 @@ def main():
         notify("LinkedIn bot FAILED: Cannot resolve author URN", is_error=True)
         return
     
+    # Allow CLI override for dry-run (helps local testing)
+    try:
+        import argparse
+        parser = argparse.ArgumentParser(description='Post Data Analyst News')
+        parser.add_argument('--dry-run', action='store_true', help='Force dry run mode (no actual posting)')
+        args, _ = parser.parse_known_args()
+        if args.dry_run:
+            globals()['DRY_RUN'] = True
+            logger.info('CLI: --dry-run detected: forcing DRY_RUN mode')
+    except Exception:
+        # argparse available in stdlib; if anything fails, ignore
+        pass
+
     # Show configuration
     logger.info(f"Mode: {'DRY RUN' if DRY_RUN else 'LIVE'}")
     logger.info(f"AI Enhancement: {'✓ Enabled' if ENABLE_AI_ENHANCE and HF_API_KEY else '✗ Disabled (using heuristics)'}")

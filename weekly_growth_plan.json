@@ -43,10 +43,10 @@
         "tone": "provocative but respectful"
       },
       "hashtags": [
-        "#devops",
-        "#grafana",
-        "#monitoring",
+        "#dataanalytics",
         "#observability",
+        "#monitoring",
+        "#dataengineering",
         "#artificialintelligence"
       ],
       "cta": "Challenge my thinking - what am I missing here?"
@@ -79,8 +79,8 @@
     },
     {
       "category": "controversial_takes",
-      "title": "The dirty truth about DevOps transformation",
-      "hook": "Hot take: the dirty truth about devops transformation is more important than most people realize.",
+      "title": "The dirty truth about analytics transformation",
+      "hook": "Hot take: the dirty truth about analytics transformation is more important than most people realize.",
       "content_framework": {
         "structure": [
           "Bold statement that challenges conventional wisdom",
@@ -153,8 +153,8 @@
     },
     {
       "category": "career_advice",
-      "title": "How to transition from traditional IT to DevOps",
-      "hook": "The hidden cost of how to transition from traditional it to devops that no one calculates:",
+      "title": "How to transition from traditional IT to Data Analytics",
+      "hook": "The hidden cost of how to transition from traditional IT to analytics that no one calculates:",
       "content_framework": {
         "structure": [
           "Personal career milestone or challenge",
@@ -224,7 +224,7 @@
         "#infrastructureascode",
         "#automation"
       ],
-      "cta": "What predictions do you have for DevOps in 2026? Share your thoughts below!"
+      "cta": "What predictions do you have for Data & Analytics in 2026? Share your thoughts below!"
     },
     {
       "category": "career_advice",

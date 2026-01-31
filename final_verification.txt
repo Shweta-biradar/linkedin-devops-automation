@@ -4,16 +4,16 @@ FINAL VERIFICATION - ALL SETTINGS
 
 1. SUBSCRIPTION CTA:
 ----------------------------------------
-📩 Subscribe to my newsletter for deep dives into DevOps, SRE, and platform engineering!
+📩 Subscribe to my newsletter for deep dives into Data & Analytics, BI, and Data Engineering!
 👉 Subscribe: https://subscribe-forms.beehiiv.com/8c55da26-5925-46d6-9877-47c84af2c18a
-📖 Grab my DevOps LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
+📖 Grab my Data Analytics LinkedIn Playbook: https://ajayverse34.gumroad.com/l/the-devops-linkedin-authority-playbook
 
 2. SAMPLE POST (Hot Take):
 ----------------------------------------
 ⚡ 🔥 Hot take: unpopular opinion incoming.
 Container orchestration strategies worth understanding. This matters.
 
-🎯 Most 'DevOps transformations' fail because they focus on tools, not culture. You can't Terraform your way to collaboration.
+🎯 Most analytics transformations fail because they focus on tools, not people. You can't automate your way to collaboration.
 
 The reasoning:
 → This pattern appears across multiple orgs
