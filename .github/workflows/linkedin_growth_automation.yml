@@ -325,7 +325,7 @@ jobs:
   # MAIN CONTENT POSTING (Uses Growth Strategy Ideas)
   # =====================================================
   
-  post_devops_content:
+  post_data_analyst_content:
     needs: [setup, growth_strategy_execution]
     # ✅ SUPPORTED: Runs AFTER growth strategy generates ideas
     if: |
@@ -368,7 +368,7 @@ jobs:
         restore-keys: |
           linkedin-automation-
     
-    - name: Generate and Post DevOps Content
+    - name: Generate and Post Data Analyst Content
       run: |
         # Check if growth plan exists
         if [ -f "weekly_growth_plan.json" ]; then
@@ -378,7 +378,7 @@ jobs:
           echo "⚠️ No growth plan found - using RSS-based content"
           export USE_GROWTH_PLAN=false
         fi
-        python post_devops_news.py
+        python post_data_analyst_news.py
       env:
         GITHUB_ACTIONS: 'true'
         RUNNER_ENVIRONMENT: 'github'
@@ -628,7 +628,7 @@ jobs:
   
   generate_analytics_report:
     runs-on: ubuntu-latest
-    needs: [setup, post_devops_content, intelligent_engagement, network_building, growth_strategy_execution]
+    needs: [setup, post_data_analyst_content, intelligent_engagement, network_building, growth_strategy_execution]
     if: always()
     
     steps:
@@ -735,7 +735,7 @@ jobs:
   
   handle_failures:
     runs-on: ubuntu-latest
-    needs: [setup, post_devops_content, intelligent_engagement, network_building, growth_strategy_execution]
+    needs: [setup, post_data_analyst_content, intelligent_engagement, network_building, growth_strategy_execution]
     if: failure()
     
     steps:

@@ -302,11 +302,11 @@ This section provides a comprehensive overview of everything that happens when t
 
 ---
 
-#### **Job 2: post_devops_content** ✅ SUPPORTED
+#### **Job 2: post_data_analyst_content** ✅ SUPPORTED
 | Property | Value |
 |----------|-------|
 | Duration | ~3 minutes |
-| Script | `python post_devops_news.py` |
+| Script | `python post_data_analyst_news.py` |
 
 **Execution Steps:**
 | Step | Action |
@@ -1042,7 +1042,7 @@ The system provides continuous monitoring via:
 ## 🧭 Project Structure
 ```
 .github/workflows/linkedin_growth_automation.yml   # Main workflow
-post_devops_news.py                                # Content engine (AI + RSS)
+post_data_analyst_news.py                                # Content engine (AI + RSS)
 linkedin_engagement_automation.py                  # Engagement & auto-replies
 advanced_growth_strategies.py                      # Growth algorithms
 generate_analytics_report.py                       # Analytics & reporting
