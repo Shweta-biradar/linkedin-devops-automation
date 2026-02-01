@@ -1,12 +1,12 @@
 {
-  "total_posts": 51,
-  "posts_today": 5,
-  "last_post_date": "2026-01-31",
+  "total_posts": 52,
+  "posts_today": 1,
+  "last_post_date": "2026-02-01",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 17,
+    "digest": 18,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 2,
-    "thenewstack.io": 6,
+    "thenewstack.io": 9,
     "blog.jetbrains.com": 3,
-    "www.bleepingcomputer.com": 2,
+    "www.bleepingcomputer.com": 4,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 2,
+    "towardsdatascience.com": 3,
     "www.snowflake.com": 3,
     "kdnuggets.com": 2
   },
@@ -532,16 +532,28 @@
         "towardsdatascience.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-02-01",
+      "time": "2026-02-01T05:16:21.597748+00:00",
+      "format": "digest",
+      "sources": [
+        "www.bleepingcomputer.com",
+        "www.bleepingcomputer.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 24,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSignal vs noise:\n1. Open by Design: Snowflake\u2019s Commitment to Iceberg and Interoperability\nContext: Snowflake supports full bidirectional interoperability via the Iceberg REST Catalog. Discover how we enable open data federation without vendor lock-in.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability\n\n2. Meet the Startups Building the Future of AI on Snowflake\nContext: Meet the latest Snowflake Startup Accelerator cohort and learn how startups are building, scaling, and innovating on Snowflake AI Data Cloud.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startups-building-ai-snowflake\n\n3. Managing Secrets and API Keys in Python Projects (.env Guide)\nContext: If you use API keys in Python, you need a safe way to store them. This guide explains seven beginner-friendly techniques for managing secrets using .env files.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 25,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nObservability advocates surface what teams measure and why.\n\nAutomation strategies:\n1. U.S. convicts ex-Google engineer for sending AI tech data to China\nContext: A U.S. federal jury has convicted Linwei Ding, a former software engineer at Google, for stealing AI supercomputer data from his employer and secretly sharing it with Chinese...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/\n\n2. Mandiant details how ShinyHunters abuse SSO to steal cloud data\nContext: Mandiant says a wave of recent ShinyHunters SaaS data-theft attacks is being fueled by targeted voice phishing (vishing) attacks and company-branded phishing sites that steal...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/\n\n3. Meet Gravitino, a geo-distributed, federated metadata lake\nContext: In the new world of agentic AI, the discussion has revolved around data: governance, storage, and compute. But what about The post Meet Gravitino, a geo-distributed, federated...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
+    "www.bleepingcomputer.com",
     "towardsdatascience.com",
-    "aws.amazon.com",
-    "www.snowflake.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-01-31T11:45:53.715650+00:00"
+  "last_post_timestamp": "2026-02-01T05:16:21.598375+00:00"
 }
