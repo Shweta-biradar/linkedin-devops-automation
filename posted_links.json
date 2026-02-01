@@ -39,8 +39,10 @@
     "https://newrelic.com/blog/observability/aws-reinvent-2025-updates",
     "https://snyk.io/blog/shai-hulud-3-0/",
     "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
+    "https://thenewstack.io/beating-the-rot-and-getting-stuff-done/",
     "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
     "https://thenewstack.io/drupal-turns-25-from-simple-to-complex-then-simple-again/",
+    "https://thenewstack.io/forget-vmware-and-virtualbox-this-should-be-your-new-vm-manager/",
     "https://thenewstack.io/gemini-cli-gets-its-hooks-into-the-agentic-development-loop/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
     "https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/",
@@ -48,7 +50,11 @@
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
+    "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
+    "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
+    "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
+    "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
@@ -160,10 +166,16 @@
       "acf6a877ca9c": "2026-02-01T05:16:21.597005+00:00",
       "970750f59a4e": "2026-02-01T05:16:21.597032+00:00",
       "47aadcccb833": "2026-02-01T05:16:21.597056+00:00",
-      "af6ae03d103b": "2026-02-01T05:16:21.597078+00:00"
+      "af6ae03d103b": "2026-02-01T05:16:21.597078+00:00",
+      "914bc24428df": "2026-02-01T07:15:01.749419+00:00",
+      "592efeca062b": "2026-02-01T07:15:01.749483+00:00",
+      "8b0b0b1de4cb": "2026-02-01T07:15:01.749522+00:00",
+      "c97aed389fae": "2026-02-01T07:15:01.749560+00:00",
+      "241dec0630a4": "2026-02-01T07:15:01.749588+00:00",
+      "dbe44bbe3b88": "2026-02-01T07:15:01.749614+00:00"
     },
-    "last_post_id": "urn:li:share:7423595040406560768",
-    "last_posted_at_utc": "2026-02-01T05:16:21.597091+00:00",
+    "last_post_id": "urn:li:share:7423624904530403328",
+    "last_posted_at_utc": "2026-02-01T07:15:01.749630+00:00",
     "last_format": "digest"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "total_posts": 52,
-  "posts_today": 1,
+  "total_posts": 53,
+  "posts_today": 2,
   "last_post_date": "2026-02-01",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 18,
+    "digest": 19,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 2,
-    "thenewstack.io": 9,
+    "thenewstack.io": 11,
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 4,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 3,
+    "towardsdatascience.com": 7,
     "www.snowflake.com": 3,
     "kdnuggets.com": 2
   },
@@ -545,15 +545,27 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-01",
+      "time": "2026-02-01T07:15:01.750271+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 25,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nObservability advocates surface what teams measure and why.\n\nAutomation strategies:\n1. U.S. convicts ex-Google engineer for sending AI tech data to China\nContext: A U.S. federal jury has convicted Linwei Ding, a former software engineer at Google, for stealing AI supercomputer data from his employer and secretly sharing it with Chinese...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/\n\n2. Mandiant details how ShinyHunters abuse SSO to steal cloud data\nContext: Mandiant says a wave of recent ShinyHunters SaaS data-theft attacks is being fueled by targeted voice phishing (vishing) attacks and company-branded phishing sites that steal...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/\n\n3. Meet Gravitino, a geo-distributed, federated metadata lake\nContext: In the new world of agentic AI, the discussion has revolved around data: governance, storage, and compute. But what about The post Meet Gravitino, a geo-distributed, federated...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 26,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTech strategists decode the next wave of transformation.\n\nAutomation strategies:\n1. Forget VMware and VirtualBox: This should be your new VM manager\nContext: For decades, I used VirtualBox for all my virtual machine (VM) needs. I could use it as a graphical user The post Forget VMware and VirtualBox: This should be your new VM...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/forget-vmware-and-virtualbox-this-should-be-your-new-vm-manager/\n\n2. Beating context rot in Claude Code with GSD\nContext: ...\nUntil now, I&#8217;ve generally only used LLM tools with existing projects. Attempts to create detailed projects from scratch via agentic The post Beating context rot in Claude Code with GSD appea\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/beating-the-rot-and-getting-stuff-done/\n\n3. How to Apply Agentic Coding to Solve Problems\nContext: Learn how to efficiently solve problems with coding agents The post How to Apply Agentic Coding to Solve Problems appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.bleepingcomputer.com",
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-01T05:16:21.598375+00:00"
+  "last_post_timestamp": "2026-02-01T07:15:01.751003+00:00"
 }
