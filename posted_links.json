@@ -64,7 +64,9 @@
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
+    "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
+    "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
@@ -196,10 +198,12 @@
       "deff1cceec6f": "2026-02-02T05:15:33.551443+00:00",
       "26879e56937d": "2026-02-02T05:15:33.551487+00:00",
       "5a22f508ca2e": "2026-02-02T05:15:33.551518+00:00",
-      "9d0e391529ba": "2026-02-02T05:15:33.551543+00:00"
+      "9d0e391529ba": "2026-02-02T05:15:33.551543+00:00",
+      "a83d88918c34": "2026-02-02T07:36:13.299948+00:00",
+      "0b1bfd7ca2bd": "2026-02-02T07:36:13.300017+00:00"
     },
-    "last_post_id": "urn:li:share:7423957226870030338",
-    "last_posted_at_utc": "2026-02-02T05:15:33.551562+00:00",
+    "last_post_id": "urn:li:share:7423992625721987072",
+    "last_posted_at_utc": "2026-02-02T07:36:13.300056+00:00",
     "last_format": "digest"
   }
 }

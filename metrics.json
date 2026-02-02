@@ -1,12 +1,12 @@
 {
-  "total_posts": 55,
-  "posts_today": 1,
+  "total_posts": 56,
+  "posts_today": 2,
   "last_post_date": "2026-02-02",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 21,
+    "digest": 22,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 4,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 11,
+    "towardsdatascience.com": 13,
     "www.snowflake.com": 5,
     "kdnuggets.com": 2
   },
@@ -584,15 +584,22 @@
         "www.snowflake.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-02",
+      "time": "2026-02-02T07:36:13.300784+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 28,
-  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nArchitecture patterns:\n1. Distributed Reinforcement Learning for Scalable High-Performance Policy Optimization\nContext: Leveraging massive parallelism, asynchronous updates, and multi-machine training to match and exceed human-level performance The post Distributed Reinforcement Learning for...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/\n\n2. 50 years ago, a young Bill Gates took on the \u2018software pirates\u2019\nContext: ...\nJust months after his 20th birthday, Bill Gates had already angered the programmer community. As the first home computers began The post 50 years ago, a young Bill Gates took on the &#8216;softwar\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/50-years-ago-a-young-bill-gates-took-on-the-software-pirates/\n\n3. Liya Linux proves high performance doesn\u2019t require a command line\nContext: Any Linux distribution claiming that it wants to make Linux easy and accessible to the general public, as well as The post Liya Linux proves high performance doesn\u2019t require a...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 29,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nAI innovators map the future of intelligent systems.\n\nSignal vs noise:\n1. The Unbearable Lightness of Coding\nContext: Confessions of a vibe coder The post The Unbearable Lightness of Coding appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-unbearable-lightness-of-coding/\n\n2. RoPE, Clearly Explained\nContext: Going beyond the math to build intuition The post RoPE, Clearly Explained appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/rope-clearly-explained/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "thenewstack.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-02T05:15:33.552935+00:00"
+  "last_post_timestamp": "2026-02-02T07:36:13.301449+00:00"
 }
