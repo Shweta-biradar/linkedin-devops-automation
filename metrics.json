@@ -1,12 +1,12 @@
 {
-  "total_posts": 56,
-  "posts_today": 2,
+  "total_posts": 57,
+  "posts_today": 3,
   "last_post_date": "2026-02-02",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 22,
+    "digest": 23,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 7,
+    "aws.amazon.com": 8,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -593,13 +593,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-02",
+      "time": "2026-02-02T11:57:43.661752+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 29,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nAI innovators map the future of intelligent systems.\n\nSignal vs noise:\n1. The Unbearable Lightness of Coding\nContext: Confessions of a vibe coder The post The Unbearable Lightness of Coding appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-unbearable-lightness-of-coding/\n\n2. RoPE, Clearly Explained\nContext: Going beyond the math to build intuition The post RoPE, Clearly Explained appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/rope-clearly-explained/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 30,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nAI innovators map the future of intelligent systems.\n\nSecurity signals:\n1. Build a trusted foundation for data and AI using Alation and Amazon SageMaker Unified Studio\nContext: The Alation and SageMaker Unified Studio integration helps organizations bridge the gap between fast analytics and ML development and the governance requirements most...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-02-02T07:36:13.301449+00:00"
+  "last_post_timestamp": "2026-02-02T11:57:43.662376+00:00"
 }
