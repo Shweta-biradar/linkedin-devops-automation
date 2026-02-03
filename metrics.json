@@ -1,12 +1,12 @@
 {
-  "total_posts": 58,
-  "posts_today": 1,
+  "total_posts": 59,
+  "posts_today": 2,
   "last_post_date": "2026-02-03",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 24,
+    "digest": 25,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 8,
+    "aws.amazon.com": 9,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 3,
-    "thenewstack.io": 17,
+    "github.blog": 4,
+    "thenewstack.io": 20,
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 5,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 13,
+    "towardsdatascience.com": 14,
     "www.snowflake.com": 6,
     "kdnuggets.com": 3,
     "techcrunch.com": 1,
@@ -616,18 +616,29 @@
         "techcrunch.com",
         "stackoverflow.blog"
       ]
+    },
+    {
+      "date": "2026-02-03",
+      "time": "2026-02-03T07:27:45.116073+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "github.blog",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 31,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nThis week's standouts:\n1. Working with Billion-Row Datasets in Python (Using Vaex)\nContext: Analyze billion-row datasets in Python using Vaex. Learn how out-of-core processing, lazy evaluation, and memory mapping enable fast analytics at scale.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/working-with-billion-row-datasets-in-python-using-vaex\n\n2. Beyond automation: Dynatrace unveils agentic AI that fixes problems on its own\nContext: ...\nAI unsurprisingly took center stage during the keynotes and throughout much of&#160;Dynatrace Perform 2026, the annual user conference last week The post Beyond automation: Dynatrace unveils agent\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/beyond-automation-dynatrace-unveils-agentic-ai-that-fixes-problems-on-its-own/\n\n3. Malicious MoltBot skills used to push password-stealing malware\nContext: More than 230 malicious packages for the personal AI assistant OpenClaw (formerly known as Moltbot and ClawdBot) have been published in less than a week on the tool's official...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 32,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nSRE leaders share reliability wins and lessons.\n\nSecurity signals:\n1. Federate access to Amazon SageMaker Unified Studio with AWS IAM Identity Center and Ping Identity\nContext: In this post, we show how to set up workforce access with SageMaker Unified Studio using Ping Identity as an external IdP with IAM Identity Center.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/\n\n2. How to maximize GitHub Copilot\u2019s agentic capabilities\nContext: ...\nA senior engineer's guide to architecting and extending Copilot's real-world applications. The post How to maximize GitHub Copilot&#8217;s agentic capabilities appeared first on The GitHub Blog .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/\n\n3. Unlocking AI\u2019s full potential: Why context is everything\nContext: ...\nAI is ubiquitous in both the consumer and enterprise sectors. Yet few organizations are realizing AI&#8217;s full potential. Why? AI The post Unlocking AI&#8217;s full potential: Why context is ev\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/context-is-everything-sales-force-data-360/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "stackoverflow.blog",
     "thenewstack.io",
-    "www.bleepingcomputer.com",
-    "techcrunch.com",
-    "kdnuggets.com"
+    "aws.amazon.com",
+    "towardsdatascience.com",
+    "github.blog"
   ],
-  "last_post_timestamp": "2026-02-03T05:05:52.085212+00:00"
+  "last_post_timestamp": "2026-02-03T07:27:45.116830+00:00"
 }
