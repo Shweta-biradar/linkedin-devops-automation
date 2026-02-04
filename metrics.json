@@ -1,12 +1,12 @@
 {
-  "total_posts": 62,
-  "posts_today": 2,
+  "total_posts": 63,
+  "posts_today": 3,
   "last_post_date": "2026-02-04",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 28,
+    "digest": 29,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 5,
     "martinfowler.com": 2,
     "towardsdatascience.com": 19,
-    "www.snowflake.com": 10,
+    "www.snowflake.com": 11,
     "kdnuggets.com": 3,
     "techcrunch.com": 2,
     "stackoverflow.blog": 1
@@ -665,15 +665,21 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-04",
+      "time": "2026-02-04T11:54:53.193974+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 35,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nAnalytics experts curate the signals that drive innovation.\n\nCollaboration wins:\n1. Use Amazon MSK Connect and Iceberg Kafka Connect to build a real-time data lake\nContext: In this post, we demonstrate how to use Iceberg Kafka Connect with Amazon Managed Streaming for Apache Kafka (Amazon MSK) Connect to accelerate real-time data ingestion into...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/\n\n2. Routing in a Sparse Graph: a Distributed Q-Learning Approach\nContext: Distributed agents need only decide one move ahead. The post Routing in a Sparse Graph: a Distributed Q-Learning Approach appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/\n\n3. Moltbook: Hype or the Singularity?\nContext: Hysteria continues to build over Moltbook, the so-called AI Agent social network. If you believe Elon Musk, Moltbook is at The post Moltbook: Hype or the Singularity? appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/moltbook-the-singularity-or-hype/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 36,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nCollaboration experts spotlight culture and process breakthroughs.\n\nAutomation strategies:\n1. Snowflake Acquires TensorStax to Accelerate Agentic AI for Data Engineering\nContext: Learn how innovations in autonomous AI will help make agents more effective at data engineering and help Snowflake customes focus on building intelligent ecosystems.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/tensorstax-acquisition-agentic-ai\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "thenewstack.io",
-    "towardsdatascience.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-04T07:28:44.705960+00:00"
+  "last_post_timestamp": "2026-02-04T11:54:53.194765+00:00"
 }
