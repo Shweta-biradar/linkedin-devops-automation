@@ -1,12 +1,12 @@
 {
-  "total_posts": 61,
-  "posts_today": 1,
+  "total_posts": 62,
+  "posts_today": 2,
   "last_post_date": "2026-02-04",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 27,
+    "digest": 28,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 10,
+    "aws.amazon.com": 11,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 5,
-    "thenewstack.io": 21,
+    "thenewstack.io": 22,
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 5,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 18,
+    "towardsdatascience.com": 19,
     "www.snowflake.com": 10,
     "kdnuggets.com": 3,
     "techcrunch.com": 2,
@@ -655,16 +655,25 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-04",
+      "time": "2026-02-04T07:28:44.705247+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 34,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCollaboration wins:\n1. Optimizing Flink\u2019s join operations on Amazon EMR with Alluxio\nContext: In this post, we show you how to implement real-time data correlation using Apache Flink to join streaming order data with historical customer and product information, enabling...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/\n\n2. Creating a Data Pipeline to Monitor Local Crime Trends\nContext: A walkthough of creating an ETL pipeline to extract local crime data and visualize it in Metabase. The post Creating a Data Pipeline to Monitor Local Crime Trends appeared...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/\n\n3. What the fastest-growing tools reveal about how software is being built\nContext: What languages are growing fastest, and why? What about the projects that people are interested in the most? Where are new developers cutting their teeth? Let\u2019s take a look at...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 35,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nAnalytics experts curate the signals that drive innovation.\n\nCollaboration wins:\n1. Use Amazon MSK Connect and Iceberg Kafka Connect to build a real-time data lake\nContext: In this post, we demonstrate how to use Iceberg Kafka Connect with Amazon Managed Streaming for Apache Kafka (Amazon MSK) Connect to accelerate real-time data ingestion into...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/\n\n2. Routing in a Sparse Graph: a Distributed Q-Learning Approach\nContext: Distributed agents need only decide one move ahead. The post Routing in a Sparse Graph: a Distributed Q-Learning Approach appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/\n\n3. Moltbook: Hype or the Singularity?\nContext: Hysteria continues to build over Moltbook, the so-called AI Agent social network. If you believe Elon Musk, Moltbook is at The post Moltbook: Hype or the Singularity? appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/moltbook-the-singularity-or-hype/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "aws.amazon.com",
-    "towardsdatascience.com",
-    "github.blog",
-    "www.snowflake.com"
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-04T05:00:03.364064+00:00"
+  "last_post_timestamp": "2026-02-04T07:28:44.705960+00:00"
 }

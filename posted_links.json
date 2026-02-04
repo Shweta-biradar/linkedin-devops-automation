@@ -8,6 +8,7 @@
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
     "https://aws.amazon.com/blogs/big-data/secure-apache-spark-writes-to-amazon-s3-on-amazon-emr-with-dynamic-aws-kms-encryption/",
     "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
+    "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/",
     "https://aws.amazon.com/blogs/mt/search-and-discover-governance-controls-with-control-catalog-in-aws-control-tower/",
     "https://blog.checkpoint.com/company-and-culture/check-point-celebrates-2025-with-top-analyst-and-research-lab-recognitions/",
@@ -60,6 +61,7 @@
     "https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
     "https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/",
+    "https://thenewstack.io/moltbook-the-singularity-or-hype/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
@@ -79,6 +81,7 @@
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/rope-clearly-explained/",
+    "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
@@ -248,10 +251,13 @@
       "82c2c65f4ef0": "2026-02-04T05:00:03.362439+00:00",
       "54cc1c311dac": "2026-02-04T05:00:03.362475+00:00",
       "17aea1b1eceb": "2026-02-04T05:00:03.362510+00:00",
-      "75e22d632688": "2026-02-04T05:00:03.362542+00:00"
+      "75e22d632688": "2026-02-04T05:00:03.362542+00:00",
+      "7fc52a5709b7": "2026-02-04T07:28:44.704326+00:00",
+      "be2e85f69b9f": "2026-02-04T07:28:44.704450+00:00",
+      "244d94e745a6": "2026-02-04T07:28:44.704492+00:00"
     },
-    "last_post_id": "urn:li:share:7424678100820647936",
-    "last_posted_at_utc": "2026-02-04T05:00:03.362567+00:00",
+    "last_post_id": "urn:li:share:7424715519813095425",
+    "last_posted_at_utc": "2026-02-04T07:28:44.704522+00:00",
     "last_format": "digest"
   }
 }
