@@ -1,12 +1,12 @@
 {
-  "total_posts": 60,
-  "posts_today": 3,
-  "last_post_date": "2026-02-03",
+  "total_posts": 61,
+  "posts_today": 1,
+  "last_post_date": "2026-02-04",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 26,
+    "digest": 27,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 9,
+    "aws.amazon.com": 10,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -34,13 +34,13 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 4,
+    "github.blog": 5,
     "thenewstack.io": 21,
     "blog.jetbrains.com": 3,
     "www.bleepingcomputer.com": 5,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 15,
-    "www.snowflake.com": 9,
+    "towardsdatascience.com": 18,
+    "www.snowflake.com": 10,
     "kdnuggets.com": 3,
     "techcrunch.com": 2,
     "stackoverflow.blog": 1
@@ -642,16 +642,29 @@
         "thenewstack.io",
         "techcrunch.com"
       ]
+    },
+    {
+      "date": "2026-02-04",
+      "time": "2026-02-04T05:00:03.363294+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "github.blog",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 33,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nTech strategists decode the next wave of transformation.\n\nCloud-native breakthroughs:\n1. Snowflake Semantic View Autopilot: AI-Powered Semantic Modeling in Minutes\nContext: Snowflake Semantic View Autopilot automates semantic modeling in minutes, creating governed, trusted semantic views that power AI and BI at scale.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot\n\n2. Snowflake Puts AI-Ready Enterprise Data at Your Fingertips\nContext: Make all your enterprise data AI ready with continuous performance, built-in governance controls, and interoperability. Reduce data movement and scale AI applications confidently\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform\n\n3. Production ML Workflows: Agentic ML, Multimodal & Real-time ML\nContext: Announcing new Snowflake ML capabilities for production workflows, including agentic ML, multimodal and real-time inference at scale.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/production-ml-workflows\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 34,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCollaboration wins:\n1. Optimizing Flink\u2019s join operations on Amazon EMR with Alluxio\nContext: In this post, we show you how to implement real-time data correlation using Apache Flink to join streaming order data with historical customer and product information, enabling...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/\n\n2. Creating a Data Pipeline to Monitor Local Crime Trends\nContext: A walkthough of creating an ETL pipeline to extract local crime data and visualize it in Metabase. The post Creating a Data Pipeline to Monitor Local Crime Trends appeared...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/\n\n3. What the fastest-growing tools reveal about how software is being built\nContext: What languages are growing fastest, and why? What about the projects that people are interested in the most? Where are new developers cutting their teeth? Let\u2019s take a look at...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "www.snowflake.com",
+    "aws.amazon.com",
     "towardsdatascience.com",
-    "techcrunch.com"
+    "github.blog",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-03T11:59:41.057165+00:00"
+  "last_post_timestamp": "2026-02-04T05:00:03.364064+00:00"
 }
