@@ -1,12 +1,12 @@
 {
-  "total_posts": 65,
-  "posts_today": 2,
+  "total_posts": 66,
+  "posts_today": 3,
   "last_post_date": "2026-02-05",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 31,
+    "digest": 32,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -37,7 +37,7 @@
     "github.blog": 6,
     "thenewstack.io": 24,
     "blog.jetbrains.com": 4,
-    "www.bleepingcomputer.com": 6,
+    "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
     "towardsdatascience.com": 22,
     "www.snowflake.com": 11,
@@ -696,14 +696,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-05",
+      "time": "2026-02-05T11:59:38.366222+00:00",
+      "format": "digest",
+      "sources": [
+        "www.bleepingcomputer.com"
+      ]
     }
   ],
-  "posts_created": 38,
-  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nObservability advocates surface what teams measure and why.\n\nGlobal tech trends:\n1. The \u2018weird\u2019 things that happened when Clickhouse replaced C++ with Rust\nContext: ...\nClickHouse&#8217;s decision to shift parts of its codebase to Rust is a perfect storm: the convergence of a wildly popular The post The &#8216;weird&#8217; things that happened when Clickhouse rep\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/\n\n2. How to Build Your Own Custom LLM Memory Layer from Scratch\nContext: Step-by-step guide to building autonomous memory retrieval systems The post How to Build Your Own Custom LLM Memory Layer from Scratch appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/\n\n3. AWS vs. Azure: A Deep Dive into Model Training \u2013 Part 2\nContext: This article covers how Azure ML's persistent, workspace-centric compute resources differ from AWS SageMaker's on-demand, job-specific approach.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 39,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nCollaboration experts spotlight culture and process breakthroughs.\n\nWhat caught our attention:\n1. Zendesk spam wave returns, floods users with 'Activate account' emails\nContext: A fresh wave of spam is hitting inboxes worldwide, with users reporting that they are once again being bombarded by automated emails generated through companies' unsecured...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "www.bleepingcomputer.com"
   ],
-  "last_post_timestamp": "2026-02-05T07:34:44.984476+00:00"
+  "last_post_timestamp": "2026-02-05T11:59:38.367001+00:00"
 }

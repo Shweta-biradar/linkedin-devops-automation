@@ -102,6 +102,7 @@
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
     "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
     "https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/",
+    "https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/",
     "https://www.cncf.io/announcements/2025/12/17/cncf-welcomes-12-new-silver-members-emphasizing-a-growing-need-for-observability-and-automation/",
     "https://www.cncf.io/blog/2025/12/17/kubevirt-undergoes-ostif-security-audit/",
     "https://www.cncf.io/blog/2025/12/23/kyverno-at-contribfest-community-collaboration-and-the-power-of-open-source-in-action/",
@@ -274,10 +275,11 @@
       "d267f8e100e3": "2026-02-05T05:07:50.471719+00:00",
       "4111bc6e0b80": "2026-02-05T07:34:44.982754+00:00",
       "2a226da338a4": "2026-02-05T07:34:44.982845+00:00",
-      "207b3d8c48ca": "2026-02-05T07:34:44.982893+00:00"
+      "207b3d8c48ca": "2026-02-05T07:34:44.982893+00:00",
+      "c57d190eac4f": "2026-02-05T11:59:38.365377+00:00"
     },
-    "last_post_id": "urn:li:share:7425079418726989824",
-    "last_posted_at_utc": "2026-02-05T07:34:44.982924+00:00",
+    "last_post_id": "urn:li:share:7425146080637530112",
+    "last_posted_at_utc": "2026-02-05T11:59:38.365444+00:00",
     "last_format": "digest"
   }
 }
