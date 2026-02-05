@@ -1,12 +1,12 @@
 {
-  "total_posts": 64,
-  "posts_today": 1,
+  "total_posts": 65,
+  "posts_today": 2,
   "last_post_date": "2026-02-05",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 30,
+    "digest": 31,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 6,
-    "thenewstack.io": 23,
+    "thenewstack.io": 24,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 6,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 20,
+    "towardsdatascience.com": 22,
     "www.snowflake.com": 11,
     "kdnuggets.com": 4,
     "techcrunch.com": 2,
@@ -686,18 +686,24 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-05",
+      "time": "2026-02-05T07:34:44.983713+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 37,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nLeadership lessons:\n1. Pick your agent: Use Claude and Codex on Agent HQ\nContext: Claude by Anthropic and OpenAI Codex are now available in public preview on GitHub and VS Code with a Copilot Pro+ or Copilot Enterprise subscription.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/\n\n2. Enhanced AI Management and Analytics for Organizations\nContext: ...\nToday, we\u2019re introducing the JetBrains Console, which provides enhanced AI management and analytics for organizations, including new capabilities to manage, observe, and control AI usage and costs\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/\n\n3. The Double-Edged Sword of Non-Human Identities\nContext: Leaked non-human identities like API keys and tokens are becoming a major breach driver in cloud environments. Flare shows how exposed machine credentials quietly grant...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 38,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nObservability advocates surface what teams measure and why.\n\nGlobal tech trends:\n1. The \u2018weird\u2019 things that happened when Clickhouse replaced C++ with Rust\nContext: ...\nClickHouse&#8217;s decision to shift parts of its codebase to Rust is a perfect storm: the convergence of a wildly popular The post The &#8216;weird&#8217; things that happened when Clickhouse rep\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/\n\n2. How to Build Your Own Custom LLM Memory Layer from Scratch\nContext: Step-by-step guide to building autonomous memory retrieval systems The post How to Build Your Own Custom LLM Memory Layer from Scratch appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/\n\n3. AWS vs. Azure: A Deep Dive into Model Training \u2013 Part 2\nContext: This article covers how Azure ML's persistent, workspace-centric compute resources differ from AWS SageMaker's on-demand, job-specific approach.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.bleepingcomputer.com",
-    "kdnuggets.com",
-    "github.blog",
-    "thenewstack.io",
-    "blog.jetbrains.com",
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-05T05:07:50.473272+00:00"
+  "last_post_timestamp": "2026-02-05T07:34:44.984476+00:00"
 }

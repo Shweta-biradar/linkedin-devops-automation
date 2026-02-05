@@ -68,15 +68,18 @@
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
+    "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
     "https://thenewstack.io/when-ai-fails-the-new-reality-of-incident-management/",
     "https://thenewstack.io/why-enterprise-businesses-should-adopt-immutable-linux-for-the-desktop/",
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
+    "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
+    "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
@@ -268,10 +271,13 @@
       "d975ef83b4fe": "2026-02-05T05:07:50.471583+00:00",
       "2398f44afab6": "2026-02-05T05:07:50.471641+00:00",
       "46fa0bdfddf5": "2026-02-05T05:07:50.471683+00:00",
-      "d267f8e100e3": "2026-02-05T05:07:50.471719+00:00"
+      "d267f8e100e3": "2026-02-05T05:07:50.471719+00:00",
+      "4111bc6e0b80": "2026-02-05T07:34:44.982754+00:00",
+      "2a226da338a4": "2026-02-05T07:34:44.982845+00:00",
+      "207b3d8c48ca": "2026-02-05T07:34:44.982893+00:00"
     },
-    "last_post_id": "urn:li:share:7425042446100860928",
-    "last_posted_at_utc": "2026-02-05T05:07:50.471746+00:00",
+    "last_post_id": "urn:li:share:7425079418726989824",
+    "last_posted_at_utc": "2026-02-05T07:34:44.982924+00:00",
     "last_format": "digest"
   }
 }
