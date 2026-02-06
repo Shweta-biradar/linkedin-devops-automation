@@ -1,12 +1,12 @@
 {
-  "total_posts": 67,
-  "posts_today": 1,
+  "total_posts": 68,
+  "posts_today": 2,
   "last_post_date": "2026-02-06",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 33,
+    "digest": 34,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 6,
-    "thenewstack.io": 25,
+    "github.blog": 7,
+    "thenewstack.io": 29,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 23,
+    "towardsdatascience.com": 24,
     "www.snowflake.com": 12,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
@@ -717,17 +717,28 @@
         "aws.amazon.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-06",
+      "time": "2026-02-06T07:31:23.770337+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "github.blog",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 40,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nCloud pioneers highlight key developments for practitioners.\n\nIndustry pulse:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n2. Why Is My Code So Slow? A Guide to Py-Spy Python Profiling\nContext: Stop guessing and start diagnosing performance issues using Py-Spy The post Why Is My Code So Slow? A Guide to Py-Spy Python Profiling appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/\n\n3. Reduce Mean Time to Resolution with an observability agent\nContext: In this post, we present an observability agent using OpenSearch Service and Amazon Bedrock AgentCore that can help surface root cause and get insights faster, handle multiple...\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 41,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nAI innovators map the future of intelligent systems.\n\nCloud-native breakthroughs:\n1. Anthropic debuts Opus 4.6 with standout scores for solving hard problems that other AIs miss\nContext: ...\nAnthropic launched Opus 4.6 on Thursday, an update to its flagship Opus model that delivers major improvements over its predecessor&#8212;and The post Anthropic debuts Opus 4.6 with standout score\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/anthropics-opus-4-6-is-a-step-change-for-the-enterprise/\n\n2. OpenAI\u2019s GPT-5.3-Codex helped build itself\nContext: ...\nOpenAI&#8217;s new GPT-5.3-Codex model is the company&#8217;s most capable agentic coding model yet. However, unlike previous Codex models, it focuses The post OpenAI&#8217;s GPT-5.3-Codex helped\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/\n\n3. Mechanistic Interpretability: Peeking Inside an LLM\nContext: Are the human-like cognitive abilities of LLMs real or fake? How does information travel through the neural network? Is there hidden knowledge inside an LLM? The post...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
     "towardsdatascience.com",
-    "thenewstack.io",
-    "aws.amazon.com",
-    "techcrunch.com"
+    "github.blog",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-06T05:04:57.300342+00:00"
+  "last_post_timestamp": "2026-02-06T07:31:23.771161+00:00"
 }
