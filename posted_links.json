@@ -1,11 +1,13 @@
 {
   "posted_links": [
     "",
+    "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
+    "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
     "https://aws.amazon.com/blogs/big-data/secure-apache-spark-writes-to-amazon-s3-on-amazon-emr-with-dynamic-aws-kms-encryption/",
     "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
@@ -49,6 +51,7 @@
     "https://stackoverflow.blog/2026/02/02/what-s-new-at-stack-overflow-february-2026/",
     "https://techcrunch.com/2026/02/02/linq-raises-20m-to-enable-ai-assistants-to-live-within-messaging-apps/",
     "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
+    "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
     "https://thenewstack.io/50-years-ago-a-young-bill-gates-took-on-the-software-pirates/",
     "https://thenewstack.io/agodas-secret-to-50x-scale-getting-the-database-basics-right/",
     "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
@@ -65,6 +68,7 @@
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
     "https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/",
     "https://thenewstack.io/moltbook-the-singularity-or-hype/",
+    "https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
@@ -93,6 +97,7 @@
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
+    "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
@@ -169,6 +174,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/observe-acquisition-ai-powered-observability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/production-ml-workflows",
@@ -276,10 +282,16 @@
       "4111bc6e0b80": "2026-02-05T07:34:44.982754+00:00",
       "2a226da338a4": "2026-02-05T07:34:44.982845+00:00",
       "207b3d8c48ca": "2026-02-05T07:34:44.982893+00:00",
-      "c57d190eac4f": "2026-02-05T11:59:38.365377+00:00"
+      "c57d190eac4f": "2026-02-05T11:59:38.365377+00:00",
+      "05dea58a658a": "2026-02-06T05:04:57.298554+00:00",
+      "f4adbef629e6": "2026-02-06T05:04:57.298626+00:00",
+      "890ee15987b6": "2026-02-06T05:04:57.298694+00:00",
+      "fed10a1d3378": "2026-02-06T05:04:57.298757+00:00",
+      "b69c1bb2b64a": "2026-02-06T05:04:57.298795+00:00",
+      "f88649373811": "2026-02-06T05:04:57.298831+00:00"
     },
-    "last_post_id": "urn:li:share:7425146080637530112",
-    "last_posted_at_utc": "2026-02-05T11:59:38.365444+00:00",
+    "last_post_id": "urn:li:share:7425404109232553984",
+    "last_posted_at_utc": "2026-02-06T05:04:57.298861+00:00",
     "last_format": "digest"
   }
 }

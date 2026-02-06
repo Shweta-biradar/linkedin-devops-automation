@@ -1,12 +1,12 @@
 {
-  "total_posts": 66,
-  "posts_today": 3,
-  "last_post_date": "2026-02-05",
+  "total_posts": 67,
+  "posts_today": 1,
+  "last_post_date": "2026-02-06",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 32,
+    "digest": 33,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 11,
+    "aws.amazon.com": 13,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,14 +35,14 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 6,
-    "thenewstack.io": 24,
+    "thenewstack.io": 25,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 22,
-    "www.snowflake.com": 11,
+    "towardsdatascience.com": 23,
+    "www.snowflake.com": 12,
     "kdnuggets.com": 4,
-    "techcrunch.com": 2,
+    "techcrunch.com": 3,
     "stackoverflow.blog": 1
   },
   "errors": [],
@@ -704,13 +704,30 @@
       "sources": [
         "www.bleepingcomputer.com"
       ]
+    },
+    {
+      "date": "2026-02-06",
+      "time": "2026-02-06T05:04:57.299611+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "aws.amazon.com",
+        "techcrunch.com",
+        "aws.amazon.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 39,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nCollaboration experts spotlight culture and process breakthroughs.\n\nWhat caught our attention:\n1. Zendesk spam wave returns, floods users with 'Activate account' emails\nContext: A fresh wave of spam is hitting inboxes worldwide, with users reporting that they are once again being bombarded by automated emails generated through companies' unsecured...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 40,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nCloud pioneers highlight key developments for practitioners.\n\nIndustry pulse:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n2. Why Is My Code So Slow? A Guide to Py-Spy Python Profiling\nContext: Stop guessing and start diagnosing performance issues using Py-Spy The post Why Is My Code So Slow? A Guide to Py-Spy Python Profiling appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/\n\n3. Reduce Mean Time to Resolution with an observability agent\nContext: In this post, we present an observability agent using OpenSearch Service and Amazon Bedrock AgentCore that can help surface root cause and get insights faster, handle multiple...\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.bleepingcomputer.com"
+    "www.snowflake.com",
+    "towardsdatascience.com",
+    "thenewstack.io",
+    "aws.amazon.com",
+    "techcrunch.com"
   ],
-  "last_post_timestamp": "2026-02-05T11:59:38.367001+00:00"
+  "last_post_timestamp": "2026-02-06T05:04:57.300342+00:00"
 }
