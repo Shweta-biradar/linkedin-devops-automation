@@ -1,12 +1,12 @@
 {
-  "total_posts": 68,
-  "posts_today": 2,
+  "total_posts": 69,
+  "posts_today": 3,
   "last_post_date": "2026-02-06",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 34,
+    "digest": 35,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 7,
-    "thenewstack.io": 29,
+    "thenewstack.io": 31,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 24,
+    "towardsdatascience.com": 25,
     "www.snowflake.com": 12,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
@@ -730,15 +730,24 @@
         "github.blog",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-06",
+      "time": "2026-02-06T11:55:03.675164+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 41,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nAI innovators map the future of intelligent systems.\n\nCloud-native breakthroughs:\n1. Anthropic debuts Opus 4.6 with standout scores for solving hard problems that other AIs miss\nContext: ...\nAnthropic launched Opus 4.6 on Thursday, an update to its flagship Opus model that delivers major improvements over its predecessor&#8212;and The post Anthropic debuts Opus 4.6 with standout score\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/anthropics-opus-4-6-is-a-step-change-for-the-enterprise/\n\n2. OpenAI\u2019s GPT-5.3-Codex helped build itself\nContext: ...\nOpenAI&#8217;s new GPT-5.3-Codex model is the company&#8217;s most capable agentic coding model yet. However, unlike previous Codex models, it focuses The post OpenAI&#8217;s GPT-5.3-Codex helped\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/\n\n3. Mechanistic Interpretability: Peeking Inside an LLM\nContext: Are the human-like cognitive abilities of LLMs real or fake? How does information travel through the neural network? Is there hidden knowledge inside an LLM? The post...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 42,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nEngineering visionaries spotlight what matters most this week.\n\nSecurity signals:\n1. pg_lake comes to Snowflake Postgres: What it means for open standards\nContext: ...\nThe pg_lake extension, which was initially released to the open source community in November, is now natively available in &#160;Postgres, The post pg_lake comes to Snowflake Postgres: What it mea\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/pg_lake-comes-to-snowflake-postgres-what-it-means-for-open-standards/\n\n2. The Rule Everyone Misses: How to Stop Confusing loc and iloc in Pandas\nContext: A simple mental model to remember when each one works (with examples that finally click). The post The Rule Everyone Misses: How to Stop Confusing loc and iloc in Pandas...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/\n\n3. The enterprise is not ready for \u201cthe rise of the developer\u201d\nContext: ...\nAsked what enterprises aren&#8217;t ready for as AI advances, Sean O&#8217;Dell of Dynatrace offers a prediction &#8212; and before doing The post The enterprise is not ready for &#8220;the rise o\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/dynatrace-perform-rise-of-the-developer/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "github.blog",
-    "thenewstack.io"
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-06T07:31:23.771161+00:00"
+  "last_post_timestamp": "2026-02-06T11:55:03.675922+00:00"
 }

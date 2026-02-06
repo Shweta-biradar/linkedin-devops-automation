@@ -63,6 +63,7 @@
     "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
     "https://thenewstack.io/drupal-turns-25-from-simple-to-complex-then-simple-again/",
+    "https://thenewstack.io/dynatrace-perform-rise-of-the-developer/",
     "https://thenewstack.io/forget-vmware-and-virtualbox-this-should-be-your-new-vm-manager/",
     "https://thenewstack.io/gemini-cli-gets-its-hooks-into-the-agentic-development-loop/",
     "https://thenewstack.io/github-agent-hq/",
@@ -74,6 +75,7 @@
     "https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/",
+    "https://thenewstack.io/pg_lake-comes-to-snowflake-postgres-what-it-means-for-open-standards/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
     "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
@@ -101,6 +103,7 @@
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
+    "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
@@ -300,10 +303,13 @@
       "d05a8661774b": "2026-02-06T07:31:23.769258+00:00",
       "e031f63553b8": "2026-02-06T07:31:23.769304+00:00",
       "98bb917c87ea": "2026-02-06T07:31:23.769347+00:00",
-      "60cb3f43e50e": "2026-02-06T07:31:23.769388+00:00"
+      "60cb3f43e50e": "2026-02-06T07:31:23.769388+00:00",
+      "23c96da701bd": "2026-02-06T11:55:03.674253+00:00",
+      "cebaa3fa116a": "2026-02-06T11:55:03.674354+00:00",
+      "950ff5a7763b": "2026-02-06T11:55:03.674409+00:00"
     },
-    "last_post_id": "urn:li:share:7425440962451238912",
-    "last_posted_at_utc": "2026-02-06T07:31:23.769422+00:00",
+    "last_post_id": "urn:li:share:7425507314171965440",
+    "last_posted_at_utc": "2026-02-06T11:55:03.674447+00:00",
     "last_format": "digest"
   }
 }
