@@ -1,12 +1,12 @@
 {
-  "total_posts": 71,
-  "posts_today": 2,
+  "total_posts": 72,
+  "posts_today": 3,
   "last_post_date": "2026-02-07",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 37,
+    "digest": 38,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
     "towardsdatascience.com": 28,
-    "www.snowflake.com": 12,
+    "www.snowflake.com": 13,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
     "stackoverflow.blog": 1
@@ -758,13 +758,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-07",
+      "time": "2026-02-07T11:45:41.260563+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 44,
-  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nIndustry pulse:\n1. TDS Newsletter: Vibe Coding Is Great. Until It\u2019s Not.\nContext: Sorting through the good, bad, and ambiguous aspects of vibe coding The post TDS Newsletter: Vibe Coding Is Great. Until It&#8217;s Not. appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 45,
+  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nSRE leaders share reliability wins and lessons.\n\nGlobal tech trends:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-07T07:11:10.380738+00:00"
+  "last_post_timestamp": "2026-02-07T11:45:41.261409+00:00"
 }
