@@ -1,12 +1,12 @@
 {
-  "total_posts": 69,
-  "posts_today": 3,
-  "last_post_date": "2026-02-06",
+  "total_posts": 70,
+  "posts_today": 1,
+  "last_post_date": "2026-02-07",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 35,
+    "digest": 36,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 7,
-    "thenewstack.io": 31,
+    "thenewstack.io": 32,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 25,
+    "towardsdatascience.com": 27,
     "www.snowflake.com": 12,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
@@ -740,14 +740,24 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-07",
+      "time": "2026-02-07T04:54:04.643401+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 42,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nEngineering visionaries spotlight what matters most this week.\n\nSecurity signals:\n1. pg_lake comes to Snowflake Postgres: What it means for open standards\nContext: ...\nThe pg_lake extension, which was initially released to the open source community in November, is now natively available in &#160;Postgres, The post pg_lake comes to Snowflake Postgres: What it mea\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/pg_lake-comes-to-snowflake-postgres-what-it-means-for-open-standards/\n\n2. The Rule Everyone Misses: How to Stop Confusing loc and iloc in Pandas\nContext: A simple mental model to remember when each one works (with examples that finally click). The post The Rule Everyone Misses: How to Stop Confusing loc and iloc in Pandas...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/\n\n3. The enterprise is not ready for \u201cthe rise of the developer\u201d\nContext: ...\nAsked what enterprises aren&#8217;t ready for as AI advances, Sean O&#8217;Dell of Dynatrace offers a prediction &#8212; and before doing The post The enterprise is not ready for &#8220;the rise o\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/dynatrace-perform-rise-of-the-developer/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 43,
+  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nCollaboration experts spotlight culture and process breakthroughs.\n\nGlobal tech trends:\n1. Prompt Fidelity: Measuring How Much of Your Intent an AI Agent Actually Executes\nContext: How much of your AI agent's output is real data versus confident guesswork? The post Prompt Fidelity: Measuring How Much of Your Intent an AI Agent Actually Executes appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/\n\n2. Pydantic Performance: 4 Tips on How to Validate Large Amounts of Data Efficiently\nContext: The real value lies in writing clearer code and using your tools right The post Pydantic Performance: 4 Tips on How to Validate Large Amounts of Data Efficiently appeared first...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/\n\n3. How Homepage simplifies monitoring your self-hosted services\nContext: ...\nSlowly but surely, I&#8217;ve been migrating over to self-hosted services so I can finally cut the cord to third parties. The post How Homepage simplifies monitoring your self-hosted services appe\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/homepage-is-your-one-stop-shop-for-monitoring-and-viewing-all-of-the-services-you-depend-on/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
     "thenewstack.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-06T11:55:03.675922+00:00"
+  "last_post_timestamp": "2026-02-07T04:54:04.644255+00:00"
 }

@@ -67,6 +67,7 @@
     "https://thenewstack.io/forget-vmware-and-virtualbox-this-should-be-your-new-vm-manager/",
     "https://thenewstack.io/gemini-cli-gets-its-hooks-into-the-agentic-development-loop/",
     "https://thenewstack.io/github-agent-hq/",
+    "https://thenewstack.io/homepage-is-your-one-stop-shop-for-monitoring-and-viewing-all-of-the-services-you-depend-on/",
     "https://thenewstack.io/how-to-reduce-mcp-token-bloat/",
     "https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
@@ -98,6 +99,8 @@
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
+    "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
+    "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
@@ -306,10 +309,13 @@
       "60cb3f43e50e": "2026-02-06T07:31:23.769388+00:00",
       "23c96da701bd": "2026-02-06T11:55:03.674253+00:00",
       "cebaa3fa116a": "2026-02-06T11:55:03.674354+00:00",
-      "950ff5a7763b": "2026-02-06T11:55:03.674409+00:00"
+      "950ff5a7763b": "2026-02-06T11:55:03.674409+00:00",
+      "46540dcfd1a5": "2026-02-07T04:54:04.642441+00:00",
+      "79db9a7ea5be": "2026-02-07T04:54:04.642542+00:00",
+      "e6cb3456a789": "2026-02-07T04:54:04.642640+00:00"
     },
-    "last_post_id": "urn:li:share:7425507314171965440",
-    "last_posted_at_utc": "2026-02-06T11:55:03.674447+00:00",
+    "last_post_id": "urn:li:share:7425763759861686273",
+    "last_posted_at_utc": "2026-02-07T04:54:04.642676+00:00",
     "last_format": "digest"
   }
 }
