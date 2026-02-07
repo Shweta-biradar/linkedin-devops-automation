@@ -107,6 +107,7 @@
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
+    "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
@@ -312,10 +313,11 @@
       "950ff5a7763b": "2026-02-06T11:55:03.674409+00:00",
       "46540dcfd1a5": "2026-02-07T04:54:04.642441+00:00",
       "79db9a7ea5be": "2026-02-07T04:54:04.642542+00:00",
-      "e6cb3456a789": "2026-02-07T04:54:04.642640+00:00"
+      "e6cb3456a789": "2026-02-07T04:54:04.642640+00:00",
+      "32530d6a4dc9": "2026-02-07T07:11:10.379088+00:00"
     },
-    "last_post_id": "urn:li:share:7425763759861686273",
-    "last_posted_at_utc": "2026-02-07T04:54:04.642676+00:00",
+    "last_post_id": "urn:li:share:7425798261413928960",
+    "last_posted_at_utc": "2026-02-07T07:11:10.379154+00:00",
     "last_format": "digest"
   }
 }

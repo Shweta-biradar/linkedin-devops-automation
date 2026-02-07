@@ -1,12 +1,12 @@
 {
-  "total_posts": 70,
-  "posts_today": 1,
+  "total_posts": 71,
+  "posts_today": 2,
   "last_post_date": "2026-02-07",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 36,
+    "digest": 37,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 27,
+    "towardsdatascience.com": 28,
     "www.snowflake.com": 12,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
@@ -750,14 +750,21 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-07",
+      "time": "2026-02-07T07:11:10.379946+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 43,
-  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nCollaboration experts spotlight culture and process breakthroughs.\n\nGlobal tech trends:\n1. Prompt Fidelity: Measuring How Much of Your Intent an AI Agent Actually Executes\nContext: How much of your AI agent's output is real data versus confident guesswork? The post Prompt Fidelity: Measuring How Much of Your Intent an AI Agent Actually Executes appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/\n\n2. Pydantic Performance: 4 Tips on How to Validate Large Amounts of Data Efficiently\nContext: The real value lies in writing clearer code and using your tools right The post Pydantic Performance: 4 Tips on How to Validate Large Amounts of Data Efficiently appeared first...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/\n\n3. How Homepage simplifies monitoring your self-hosted services\nContext: ...\nSlowly but surely, I&#8217;ve been migrating over to self-hosted services so I can finally cut the cord to third parties. The post How Homepage simplifies monitoring your self-hosted services appe\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/homepage-is-your-one-stop-shop-for-monitoring-and-viewing-all-of-the-services-you-depend-on/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 44,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nIndustry pulse:\n1. TDS Newsletter: Vibe Coding Is Great. Until It\u2019s Not.\nContext: Sorting through the good, bad, and ambiguous aspects of vibe coding The post TDS Newsletter: Vibe Coding Is Great. Until It&#8217;s Not. appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-07T04:54:04.644255+00:00"
+  "last_post_timestamp": "2026-02-07T07:11:10.380738+00:00"
 }
