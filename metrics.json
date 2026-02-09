@@ -1,12 +1,12 @@
 {
-  "total_posts": 75,
-  "posts_today": 3,
-  "last_post_date": "2026-02-08",
+  "total_posts": 76,
+  "posts_today": 1,
+  "last_post_date": "2026-02-09",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 41,
+    "digest": 42,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 7,
-    "thenewstack.io": 36,
+    "thenewstack.io": 37,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
@@ -794,13 +794,21 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-09",
+      "time": "2026-02-09T05:18:36.088779+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 48,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nEngineering visionaries spotlight what matters most this week.\n\nArchitecture patterns:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 49,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nAnalytics experts curate the signals that drive innovation.\n\nGlobal tech trends:\n1. IDEcline: How the world\u2019s most powerful coding tools became second-class citizens overnight\nContext: During the early phase of my career, I used to spend eight hours a day inside the Visual Studio IDE. The post IDEcline: How the world\u2019s most powerful coding tools became...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ide-vs-desktop-agent/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-08T11:48:08.377479+00:00"
+  "last_post_timestamp": "2026-02-09T05:18:36.089635+00:00"
 }

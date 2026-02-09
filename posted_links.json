@@ -71,6 +71,7 @@
     "https://thenewstack.io/github-agent-hq/",
     "https://thenewstack.io/homepage-is-your-one-stop-shop-for-monitoring-and-viewing-all-of-the-services-you-depend-on/",
     "https://thenewstack.io/how-to-reduce-mcp-token-bloat/",
+    "https://thenewstack.io/ide-vs-desktop-agent/",
     "https://thenewstack.io/jule-open-source-programming-language/",
     "https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
@@ -324,10 +325,11 @@
       "bded89e7e720": "2026-02-08T05:17:00.950777+00:00",
       "6e64b06c887a": "2026-02-08T05:17:00.950828+00:00",
       "5dafd70fcc06": "2026-02-08T05:17:00.950871+00:00",
-      "58f8b4b22307": "2026-02-08T05:17:00.950928+00:00"
+      "58f8b4b22307": "2026-02-08T05:17:00.950928+00:00",
+      "44596bb70165": "2026-02-09T05:18:36.087876+00:00"
     },
-    "last_post_id": "urn:li:share:7426230350416228352",
-    "last_posted_at_utc": "2026-02-08T11:48:08.375809+00:00",
+    "last_post_id": "urn:li:share:7426494707624726528",
+    "last_posted_at_utc": "2026-02-09T05:18:36.087960+00:00",
     "last_format": "digest"
   }
 }
