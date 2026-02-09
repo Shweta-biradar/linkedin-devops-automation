@@ -1,12 +1,12 @@
 {
-  "total_posts": 77,
-  "posts_today": 2,
+  "total_posts": 78,
+  "posts_today": 3,
   "last_post_date": "2026-02-09",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 43,
+    "digest": 44,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
     "towardsdatascience.com": 29,
-    "www.snowflake.com": 16,
+    "www.snowflake.com": 17,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
     "stackoverflow.blog": 1
@@ -810,13 +810,21 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-09",
+      "time": "2026-02-09T12:04:09.482926+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 50,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nCollaboration wins:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 51,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSecurity signals:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-09T07:41:12.691423+00:00"
+  "last_post_timestamp": "2026-02-09T12:04:09.483786+00:00"
 }
