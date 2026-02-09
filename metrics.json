@@ -1,12 +1,12 @@
 {
-  "total_posts": 76,
-  "posts_today": 1,
+  "total_posts": 77,
+  "posts_today": 2,
   "last_post_date": "2026-02-09",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 42,
+    "digest": 43,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
     "towardsdatascience.com": 29,
-    "www.snowflake.com": 15,
+    "www.snowflake.com": 16,
     "kdnuggets.com": 4,
     "techcrunch.com": 3,
     "stackoverflow.blog": 1
@@ -802,13 +802,21 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-09",
+      "time": "2026-02-09T07:41:12.690628+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 49,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nAnalytics experts curate the signals that drive innovation.\n\nGlobal tech trends:\n1. IDEcline: How the world\u2019s most powerful coding tools became second-class citizens overnight\nContext: During the early phase of my career, I used to spend eight hours a day inside the Visual Studio IDE. The post IDEcline: How the world\u2019s most powerful coding tools became...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ide-vs-desktop-agent/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 50,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nCollaboration wins:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-09T05:18:36.089635+00:00"
+  "last_post_timestamp": "2026-02-09T07:41:12.691423+00:00"
 }
