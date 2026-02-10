@@ -104,6 +104,7 @@
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
+    "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
@@ -350,10 +351,11 @@
       "d1e303b5ee21": "2026-02-10T07:39:08.606792+00:00",
       "4541c63cbdea": "2026-02-10T07:39:08.606873+00:00",
       "720b5225ac8d": "2026-02-10T07:39:08.606952+00:00",
-      "a0d4476b5e21": "2026-02-10T07:39:08.607036+00:00"
+      "a0d4476b5e21": "2026-02-10T07:39:08.607036+00:00",
+      "1c45f53f51a1": "2026-02-10T12:08:16.666933+00:00"
     },
-    "last_post_id": "urn:li:share:7426892463883051008",
-    "last_posted_at_utc": "2026-02-10T07:39:08.607120+00:00",
+    "last_post_id": "urn:li:share:7426960193781121026",
+    "last_posted_at_utc": "2026-02-10T12:08:16.666993+00:00",
     "last_format": "digest"
   }
 }

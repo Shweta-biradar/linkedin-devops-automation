@@ -1,12 +1,12 @@
 {
-  "total_posts": 80,
-  "posts_today": 2,
+  "total_posts": 81,
+  "posts_today": 3,
   "last_post_date": "2026-02-10",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 46,
+    "digest": 47,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 31,
+    "towardsdatascience.com": 32,
     "www.snowflake.com": 19,
     "kdnuggets.com": 6,
     "techcrunch.com": 4,
@@ -844,16 +844,21 @@
         "thenewstack.io",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-10",
+      "time": "2026-02-10T12:08:16.667819+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 53,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nEngineering visionaries spotlight what matters most this week.\n\nPlatform wins:\n1. Is Open Source in Trouble?\nContext: First, the bad. I would argue that current open source practices and usage are not sustainable, or at the very The post Is Open Source in Trouble? appeared first on The New Stack .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/is-open-source-in-trouble/\n\n2. The Machine Learning Lessons I\u2019ve Learned Last Month\nContext: Delayed January: deadlines, downtimes, and flow times The post The Machine Learning Lessons I\u2019ve Learned Last Month appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/\n\n3. The Death of the \u201cEverything Prompt\u201d: Google\u2019s Move Toward Structured AI\nContext: How the new Interactions API enables deep-reasoning, stateful, agentic workflows. The post The Death of the \u201cEverything Prompt\u201d: Google\u2019s Move Toward Structured AI appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 54,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAutomation architects drive efficiency and scale across industries.\n\nSecurity signals:\n1. How to Personalize Claude Code\nContext: Learn how to get more out of Claude code by giving it access to more information. The post How to Personalize Claude Code appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-personalize-claude-code/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "towardsdatascience.com",
-    "www.snowflake.com",
-    "thenewstack.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-10T07:39:08.609270+00:00"
+  "last_post_timestamp": "2026-02-10T12:08:16.668730+00:00"
 }
