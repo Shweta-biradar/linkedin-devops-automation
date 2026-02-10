@@ -1,12 +1,12 @@
 {
-  "total_posts": 78,
-  "posts_today": 3,
-  "last_post_date": "2026-02-09",
+  "total_posts": 79,
+  "posts_today": 1,
+  "last_post_date": "2026-02-10",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 44,
+    "digest": 45,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 13,
+    "aws.amazon.com": 14,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,14 +35,14 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 7,
-    "thenewstack.io": 37,
+    "thenewstack.io": 38,
     "blog.jetbrains.com": 4,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
     "towardsdatascience.com": 29,
-    "www.snowflake.com": 17,
-    "kdnuggets.com": 4,
-    "techcrunch.com": 3,
+    "www.snowflake.com": 18,
+    "kdnuggets.com": 6,
+    "techcrunch.com": 4,
     "stackoverflow.blog": 1
   },
   "errors": [],
@@ -818,13 +818,30 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-10",
+      "time": "2026-02-10T05:19:39.404293+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "kdnuggets.com",
+        "thenewstack.io",
+        "techcrunch.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 51,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSecurity signals:\n1. How Ecommerce Companies Democratize Data with Snowflake Intelligence\nContext: Learn how ecommerce companies use Snowflake Intelligence to democratize data, unlock AI-driven insights, and enable faster, smarter decision-making across teams.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 52,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nSRE leaders share reliability wins and lessons.\n\nSignal vs noise:\n1. Orchestrate end-to-end scalable ETL pipeline with Amazon SageMaker workflows\nContext: This post explores how to build and manage a comprehensive extract, transform, and load (ETL) pipeline using SageMaker Unified Studio workflows through a code-based approach.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/\n\n2. Snowflake Ventures Invests in Pliable to Bring AI-Ready Analytics to Millions of SMBs\nContext: Snowflake Ventures announces investment in Pilable, expanding access to AI-ready, governed analytics for millions of small and midsize business built on Snowflake\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/pliable-ai-analytics-smbs\n\n3. Claude Code Power Tips\nContext: Use Claude Code to speed up data science. Master data cleaning, visualization, and model prototyping with Python, pandas, and scikit-learn. Get actionable power tips.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/claude-code-power-tips\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "aws.amazon.com",
+    "techcrunch.com",
+    "kdnuggets.com",
+    "thenewstack.io",
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-09T12:04:09.483786+00:00"
+  "last_post_timestamp": "2026-02-10T05:19:39.405147+00:00"
 }
