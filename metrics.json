@@ -1,12 +1,12 @@
 {
-  "total_posts": 81,
-  "posts_today": 3,
-  "last_post_date": "2026-02-10",
+  "total_posts": 82,
+  "posts_today": 1,
+  "last_post_date": "2026-02-11",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 47,
+    "digest": 48,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 15,
+    "aws.amazon.com": 16,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,15 +35,16 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 7,
-    "thenewstack.io": 40,
-    "blog.jetbrains.com": 4,
+    "thenewstack.io": 41,
+    "blog.jetbrains.com": 5,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
     "towardsdatascience.com": 32,
-    "www.snowflake.com": 19,
-    "kdnuggets.com": 6,
+    "www.snowflake.com": 20,
+    "kdnuggets.com": 7,
     "techcrunch.com": 4,
-    "stackoverflow.blog": 1
+    "stackoverflow.blog": 1,
+    "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
@@ -852,13 +853,31 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-11",
+      "time": "2026-02-11T05:21:11.358640+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "blog.jetbrains.com",
+        "aws.amazon.com",
+        "powerbi.microsoft.com",
+        "thenewstack.io",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 54,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAutomation architects drive efficiency and scale across industries.\n\nSecurity signals:\n1. How to Personalize Claude Code\nContext: Learn how to get more out of Claude code by giving it access to more information. The post How to Personalize Claude Code appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-personalize-claude-code/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 55,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nSRE leaders share reliability wins and lessons.\n\nWhat caught our attention:\n1. What\u2019s New in SnowConvert AI: February 2026\nContext: SnowConvert AI accelerates data migrations with new features like Generally Available AI-Powered Code Conversion, two-sided verification, direct Iceberg table conversion, and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026\n\n2. Introducing Databao: The JetBrains Tool That Lets You Talk to Your Data\nContext: ...\nAt JetBrains, we build tools that help teams work with complex systems in a more productive and enjoyable way. As AI becomes part of everyday workflows, a new challenge is emerging for data teams:\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/02/introducing-databao/\n\n3. How Zalando innovates their Fast-Serving layer by migrating to Amazon Redshift\nContext: In this post, we show how Zalando migrated their fast-serving layer data warehouse to Amazon Redshift to achieve better price-performance and scalability.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "kdnuggets.com",
+    "powerbi.microsoft.com",
+    "thenewstack.io",
+    "aws.amazon.com",
+    "blog.jetbrains.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-10T12:08:16.668730+00:00"
+  "last_post_timestamp": "2026-02-11T05:21:11.359478+00:00"
 }
