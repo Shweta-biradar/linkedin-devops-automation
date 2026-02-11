@@ -23,6 +23,7 @@
     "https://blog.google/products/google-cloud/ai-business-trends-report-2026/",
     "https://blog.google/technology/ai/google-ai-news-recap-2025/",
     "https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/",
+    "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/",
     "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
@@ -100,6 +101,7 @@
     "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
     "https://thenewstack.io/tidb-and-the-rise-of-the-ai-native-database/",
     "https://thenewstack.io/top-vibe-coding-countries/",
+    "https://thenewstack.io/vibe-coding-is-passe/",
     "https://thenewstack.io/when-ai-fails-the-new-reality-of-incident-management/",
     "https://thenewstack.io/why-enterprise-businesses-should-adopt-immutable-linux-for-the-desktop/",
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
@@ -376,10 +378,12 @@
       "007bdf0405d8": "2026-02-11T07:36:58.368485+00:00",
       "6ead4c47adc9": "2026-02-11T07:36:58.368547+00:00",
       "9795e7eb890d": "2026-02-11T07:36:58.368610+00:00",
-      "1d8e12fd755a": "2026-02-11T07:36:58.368657+00:00"
+      "1d8e12fd755a": "2026-02-11T07:36:58.368657+00:00",
+      "225786357aad": "2026-02-11T12:04:52.406478+00:00",
+      "967ac8911125": "2026-02-11T12:04:52.406584+00:00"
     },
-    "last_post_id": "urn:li:share:7427254305335910401",
-    "last_posted_at_utc": "2026-02-11T07:36:58.368698+00:00",
+    "last_post_id": "urn:li:share:7427321725106806784",
+    "last_posted_at_utc": "2026-02-11T12:04:52.406658+00:00",
     "last_format": "digest"
   }
 }
