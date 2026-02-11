@@ -1,12 +1,12 @@
 {
-  "total_posts": 82,
-  "posts_today": 1,
+  "total_posts": 83,
+  "posts_today": 2,
   "last_post_date": "2026-02-11",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 48,
+    "digest": 49,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,13 +35,13 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 7,
-    "thenewstack.io": 41,
-    "blog.jetbrains.com": 5,
+    "thenewstack.io": 44,
+    "blog.jetbrains.com": 6,
     "www.bleepingcomputer.com": 7,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 32,
+    "towardsdatascience.com": 33,
     "www.snowflake.com": 20,
-    "kdnuggets.com": 7,
+    "kdnuggets.com": 8,
     "techcrunch.com": 4,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
@@ -866,18 +866,29 @@
         "thenewstack.io",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-02-11",
+      "time": "2026-02-11T07:36:58.369469+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com",
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 55,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nSRE leaders share reliability wins and lessons.\n\nWhat caught our attention:\n1. What\u2019s New in SnowConvert AI: February 2026\nContext: SnowConvert AI accelerates data migrations with new features like Generally Available AI-Powered Code Conversion, two-sided verification, direct Iceberg table conversion, and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026\n\n2. Introducing Databao: The JetBrains Tool That Lets You Talk to Your Data\nContext: ...\nAt JetBrains, we build tools that help teams work with complex systems in a more productive and enjoyable way. As AI becomes part of everyday workflows, a new challenge is emerging for data teams:\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/02/introducing-databao/\n\n3. How Zalando innovates their Fast-Serving layer by migrating to Amazon Redshift\nContext: In this post, we show how Zalando migrated their fast-serving layer data warehouse to Amazon Redshift to achieve better price-performance and scalability.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 56,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nAI innovators map the future of intelligent systems.\n\nSignal vs noise:\n1. dotInsights | February 2026\nContext: ...\nDid you know? C# allows digit separators (_) in numeric literals to make large numbers more readable, e.g., int num = 1_000_000; is valid and equals one million. Welcome to dotInsights by JetBrain\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/\n\n2. 5 Useful Python Scripts to Automate Boring File Tasks\nContext: Tired of sifting through bloated folders, waiting on manual conversions, or not quite knowing what is on your drive? These Python scripts handle the file grunt work so you...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks\n\n3. Implementing the Snake Game in Python\nContext: An easy step-by-step guide to building the snake game from scratch The post Implementing the Snake Game in Python appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/implementing-the-snake-game-in-python/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
-    "powerbi.microsoft.com",
-    "thenewstack.io",
-    "aws.amazon.com",
     "blog.jetbrains.com",
-    "www.snowflake.com"
+    "thenewstack.io",
+    "kdnuggets.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-11T05:21:11.359478+00:00"
+  "last_post_timestamp": "2026-02-11T07:36:58.370380+00:00"
 }
