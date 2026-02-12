@@ -1,6 +1,7 @@
 {
   "posted_links": [
     "",
+    "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
@@ -28,6 +29,7 @@
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
     "https://blog.jetbrains.com/pycharm/2026/01/google-colab-support-is-now-available-in-pycharm-2025-3-2/",
+    "https://blog.jetbrains.com/pycharm/2026/02/python-unplugged-on-pytv/",
     "https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/",
     "https://blog.qualys.com/category/product-tech",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
@@ -35,6 +37,7 @@
     "https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-practice-what-developers-can-automate-today-with-agentic-ci/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
     "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+    "https://github.blog/news-insights/company-news/github-availability-report-january-2026/",
     "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
     "https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/",
     "https://github.blog/news-insights/policy-news-and-insights/help-shape-the-future-of-open-source-in-europe/",
@@ -120,6 +123,7 @@
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
+    "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
@@ -144,6 +148,7 @@
     "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/",
     "https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/",
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
+    "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
     "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
     "https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/",
     "https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/",
@@ -210,6 +215,7 @@
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
+    "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
     "https://www.kdnuggets.com/working-with-billion-row-datasets-in-python-using-vaex",
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
@@ -380,10 +386,16 @@
       "9795e7eb890d": "2026-02-11T07:36:58.368610+00:00",
       "1d8e12fd755a": "2026-02-11T07:36:58.368657+00:00",
       "225786357aad": "2026-02-11T12:04:52.406478+00:00",
-      "967ac8911125": "2026-02-11T12:04:52.406584+00:00"
+      "967ac8911125": "2026-02-11T12:04:52.406584+00:00",
+      "f8a7ee366d00": "2026-02-12T05:17:23.790565+00:00",
+      "a78c1bb9a6b4": "2026-02-12T05:17:23.790672+00:00",
+      "7c82ddc63e78": "2026-02-12T05:17:23.790724+00:00",
+      "8ce43a13c11c": "2026-02-12T05:17:23.790773+00:00",
+      "bcd52c9e6721": "2026-02-12T05:17:23.790838+00:00",
+      "ea42239c5d06": "2026-02-12T05:17:23.790884+00:00"
     },
-    "last_post_id": "urn:li:share:7427321725106806784",
-    "last_posted_at_utc": "2026-02-11T12:04:52.406658+00:00",
+    "last_post_id": "urn:li:share:7427581567893450752",
+    "last_posted_at_utc": "2026-02-12T05:17:23.790924+00:00",
     "last_format": "digest"
   }
 }
