@@ -1,12 +1,12 @@
 {
-  "total_posts": 85,
-  "posts_today": 1,
+  "total_posts": 86,
+  "posts_today": 2,
   "last_post_date": "2026-02-12",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 51,
+    "digest": 52,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,12 +35,12 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 8,
-    "thenewstack.io": 45,
+    "thenewstack.io": 48,
     "blog.jetbrains.com": 8,
     "www.bleepingcomputer.com": 8,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 34,
-    "www.snowflake.com": 20,
+    "towardsdatascience.com": 35,
+    "www.snowflake.com": 22,
     "kdnuggets.com": 9,
     "techcrunch.com": 4,
     "stackoverflow.blog": 1,
@@ -901,18 +901,28 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-12",
+      "time": "2026-02-12T07:36:46.384749+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "www.snowflake.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 58,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nAutomation architects drive efficiency and scale across industries.\n\nGlobal tech trends:\n1. Amazon Athena adds 1-minute reservations and new capacity control features\nContext: Amazon Athena is a serverless interactive query service that makes it easy to analyze data using SQL. With Athena, there\u2019s no infrastructure to manage, you simply submit...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/\n\n2. Python Unplugged on PyTV \u2013 A Free Online Python Conference for Everyone\nContext: ...\nThe PyCharm team loves being part of the global Python community. From PyCon US to EuroPython to every PyCon in between, we enjoy the atmosphere at conferences, as well as meeting people who are a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/02/python-unplugged-on-pytv/\n\n3. GitHub availability report: January 2026\nContext: In January, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: January 2026 appeared first on The...\nImpact: reduces incident risk and improves MTTR.\n\ud83d\udd17 https://github.blog/news-insights/company-news/github-availability-report-january-2026/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 59,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nEngineering visionaries spotlight what matters most this week.\n\nThis week's standouts:\n1. Bluefin Linux: ChromeOS simplicity meets Linux power\nContext: ...\nImagine you could use an operating system that&#8217;s as easy as ChromeOS, while also being as powerful as Linux. What The post Bluefin Linux: ChromeOS simplicity meets Linux power appeared first\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/bluefin-linux-chromeos-simplicity-meets-linux-power/\n\n2. Building an AI Agent to Detect and Handle Anomalies in Time-Series Data\nContext: Combining statistical detection with agentic decision-making The post Building an AI Agent to Detect and Handle Anomalies in Time-Series Data appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/\n\n3. You can\u2019t fire a bot: The blunt truth about AI slop and your job\nContext: ...\nMatan-Paul Shetrit puts it bluntly: &#8220;If you generate slop, I&#8217;m not blaming the AI, I&#8217;m blaming you.&#8221; As Director of The post You can\u2019t fire a bot: The blunt truth about AI\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/matan-paul-shetrit-interview/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com",
-    "kdnuggets.com",
     "towardsdatascience.com",
-    "github.blog",
-    "www.bleepingcomputer.com",
-    "aws.amazon.com"
+    "www.snowflake.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-12T05:17:23.792915+00:00"
+  "last_post_timestamp": "2026-02-12T07:36:46.385691+00:00"
 }
