@@ -1,12 +1,12 @@
 {
-  "total_posts": 86,
-  "posts_today": 2,
+  "total_posts": 87,
+  "posts_today": 3,
   "last_post_date": "2026-02-12",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 52,
+    "digest": 53,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 8,
     "martinfowler.com": 2,
     "towardsdatascience.com": 35,
-    "www.snowflake.com": 22,
+    "www.snowflake.com": 23,
     "kdnuggets.com": 9,
     "techcrunch.com": 4,
     "stackoverflow.blog": 1,
@@ -914,15 +914,21 @@
         "www.snowflake.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-12",
+      "time": "2026-02-12T12:02:20.165350+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 59,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nEngineering visionaries spotlight what matters most this week.\n\nThis week's standouts:\n1. Bluefin Linux: ChromeOS simplicity meets Linux power\nContext: ...\nImagine you could use an operating system that&#8217;s as easy as ChromeOS, while also being as powerful as Linux. What The post Bluefin Linux: ChromeOS simplicity meets Linux power appeared first\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/bluefin-linux-chromeos-simplicity-meets-linux-power/\n\n2. Building an AI Agent to Detect and Handle Anomalies in Time-Series Data\nContext: Combining statistical detection with agentic decision-making The post Building an AI Agent to Detect and Handle Anomalies in Time-Series Data appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/\n\n3. You can\u2019t fire a bot: The blunt truth about AI slop and your job\nContext: ...\nMatan-Paul Shetrit puts it bluntly: &#8220;If you generate slop, I&#8217;m not blaming the AI, I&#8217;m blaming you.&#8221; As Director of The post You can\u2019t fire a bot: The blunt truth about AI\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/matan-paul-shetrit-interview/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 60,
+  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nIndustry pulse:\n1. What\u2019s New in SnowConvert AI: February 2026\nContext: SnowConvert AI accelerates data migrations with new features like Generally Available AI-Powered Code Conversion, two-sided verification, direct Iceberg table conversion, and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.snowflake.com",
-    "thenewstack.io"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-12T07:36:46.385691+00:00"
+  "last_post_timestamp": "2026-02-12T12:02:20.166274+00:00"
 }
