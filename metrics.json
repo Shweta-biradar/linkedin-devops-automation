@@ -1,12 +1,12 @@
 {
-  "total_posts": 89,
-  "posts_today": 2,
+  "total_posts": 90,
+  "posts_today": 3,
   "last_post_date": "2026-02-13",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 55,
+    "digest": 56,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 17,
+    "aws.amazon.com": 18,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,12 +35,12 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 9,
-    "thenewstack.io": 54,
+    "thenewstack.io": 55,
     "blog.jetbrains.com": 9,
     "www.bleepingcomputer.com": 9,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 36,
-    "www.snowflake.com": 24,
+    "towardsdatascience.com": 37,
+    "www.snowflake.com": 26,
     "kdnuggets.com": 10,
     "techcrunch.com": 4,
     "stackoverflow.blog": 1,
@@ -948,15 +948,28 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-13",
+      "time": "2026-02-13T11:54:49.521002+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "www.snowflake.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 62,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nCollaboration experts spotlight culture and process breakthroughs.\n\nThis week's standouts:\n1. Welcome to the Eternal September of open source. Here\u2019s what we plan to do for maintainers.\nContext: ...\nOpen source is hitting an \u201cEternal September.\u201d As contribution friction drops, maintainers are adapting with new trust signals, triage approaches, and community-led solutions. The post Welcome to\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/\n\n2. How to Leverage Explainable AI for Better Business Decisions\nContext: Moving beyond the black box to turn complex model outputs into actionable organizational strategies. The post How to Leverage Explainable AI for Better Business Decisions...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/\n\n3. OpenAI\u2019s new Codex Spark model is built for speed\nContext: ...\nOpenAI&#8217;s new GPT-5.3-Codex-Spark model is a bit of a departure for the company&#8217;s family of Codex software development models: its The post OpenAI&#8217;s new Codex Spark model is built\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openais-new-codex-spark-is-optimized-for-speed/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 63,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nCollaboration wins:\n1. Matching your Ingestion Strategy with your OpenSearch Query Patterns\nContext: In this post, we demonstrate how you can create a custom index analyzer in OpenSearch to implement autocomplete functionality efficiently by using the Edge n-gram tokenizer to...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/\n\n2. AI in Multiple GPUs: Understanding the Host and Device Paradigm\nContext: Learn how CPU and GPUs interact in the host-device paradigm The post AI in Multiple GPUs: Understanding the Host and Device Paradigm appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/understanding-the-host-and-device-paradigm/\n\n3. ShareChat hit a billion features per second, then it had to make it 10x cheaper\nContext: ...\n&#8220;Great system&#8230;now please make it 10 times cheaper.&#8221; That&#8217;s not exactly what the ShareChat team wanted to hear after completing The post ShareChat hit a billion features per\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/scylladb-database-sharechat/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
+    "www.snowflake.com",
+    "aws.amazon.com",
     "towardsdatascience.com",
-    "github.blog"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-13T07:33:24.373001+00:00"
+  "last_post_timestamp": "2026-02-13T11:54:49.521949+00:00"
 }
