@@ -1,12 +1,12 @@
 {
-  "total_posts": 88,
-  "posts_today": 1,
+  "total_posts": 89,
+  "posts_today": 2,
   "last_post_date": "2026-02-13",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 54,
+    "digest": 55,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 8,
-    "thenewstack.io": 50,
+    "github.blog": 9,
+    "thenewstack.io": 54,
     "blog.jetbrains.com": 9,
     "www.bleepingcomputer.com": 9,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 35,
+    "towardsdatascience.com": 36,
     "www.snowflake.com": 24,
     "kdnuggets.com": 10,
     "techcrunch.com": 4,
@@ -935,17 +935,28 @@
         "www.bleepingcomputer.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-13",
+      "time": "2026-02-13T07:33:24.372047+00:00",
+      "format": "digest",
+      "sources": [
+        "github.blog",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 61,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nSecurity champions share what shapes the future of operations.\n\nCloud-native breakthroughs:\n1. How Snowflake Intelligence Transforms Media & Entertainment Insights\nContext: How media and entertainment companies use Snowflake Intelligence to unify data and institutional knowledge, and deliver trusted, enterprise-ready insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence\n\n2. Are We Having the Wrong AI Dreams?\nContext: ...\n(This opinion piece by JetBrains\u2019 Team Lead in AI Development Experience reflects on key takeaways from NeurIPS 2025, a major AI research conference. It explains why these insights matter and cons\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/02/are-we-having-the-wrong-ai-dreams/\n\n3. Statistical language R is making a comeback against Python\nContext: ...\nThe latest iteration of the TIOBE Index of programming languages indicates that more specialized languages are creeping up on Python&#8217;s The post Statistical language R is making a comeback ag\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 62,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nCollaboration experts spotlight culture and process breakthroughs.\n\nThis week's standouts:\n1. Welcome to the Eternal September of open source. Here\u2019s what we plan to do for maintainers.\nContext: ...\nOpen source is hitting an \u201cEternal September.\u201d As contribution friction drops, maintainers are adapting with new trust signals, triage approaches, and community-led solutions. The post Welcome to\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/\n\n2. How to Leverage Explainable AI for Better Business Decisions\nContext: Moving beyond the black box to turn complex model outputs into actionable organizational strategies. The post How to Leverage Explainable AI for Better Business Decisions...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/\n\n3. OpenAI\u2019s new Codex Spark model is built for speed\nContext: ...\nOpenAI&#8217;s new GPT-5.3-Codex-Spark model is a bit of a departure for the company&#8217;s family of Codex software development models: its The post OpenAI&#8217;s new Codex Spark model is built\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openais-new-codex-spark-is-optimized-for-speed/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "kdnuggets.com",
-    "www.bleepingcomputer.com",
-    "blog.jetbrains.com",
-    "thenewstack.io"
+    "thenewstack.io",
+    "towardsdatascience.com",
+    "github.blog"
   ],
-  "last_post_timestamp": "2026-02-13T05:13:32.730354+00:00"
+  "last_post_timestamp": "2026-02-13T07:33:24.373001+00:00"
 }
