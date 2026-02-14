@@ -1,12 +1,12 @@
 {
-  "total_posts": 90,
-  "posts_today": 3,
-  "last_post_date": "2026-02-13",
+  "total_posts": 91,
+  "posts_today": 1,
+  "last_post_date": "2026-02-14",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 56,
+    "digest": 57,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 18,
+    "aws.amazon.com": 19,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 9,
-    "thenewstack.io": 55,
+    "github.blog": 10,
+    "thenewstack.io": 57,
     "blog.jetbrains.com": 9,
-    "www.bleepingcomputer.com": 9,
+    "www.bleepingcomputer.com": 10,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 37,
+    "towardsdatascience.com": 38,
     "www.snowflake.com": 26,
     "kdnuggets.com": 10,
     "techcrunch.com": 4,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-22",
-      "time": "2025-12-22T12:52:38.025154+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.infoq.com",
-        "kubernetes.io",
-        "www.docker.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.docker.com"
-      ]
-    },
     {
       "date": "2025-12-22",
       "time": "2025-12-22T13:12:14.492424+00:00",
@@ -960,16 +947,30 @@
         "www.snowflake.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-14",
+      "time": "2026-02-14T04:59:47.989753+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "github.blog",
+        "www.bleepingcomputer.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 63,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nCollaboration wins:\n1. Matching your Ingestion Strategy with your OpenSearch Query Patterns\nContext: In this post, we demonstrate how you can create a custom index analyzer in OpenSearch to implement autocomplete functionality efficiently by using the Edge n-gram tokenizer to...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/\n\n2. AI in Multiple GPUs: Understanding the Host and Device Paradigm\nContext: Learn how CPU and GPUs interact in the host-device paradigm The post AI in Multiple GPUs: Understanding the Host and Device Paradigm appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/understanding-the-host-and-device-paradigm/\n\n3. ShareChat hit a billion features per second, then it had to make it 10x cheaper\nContext: ...\n&#8220;Great system&#8230;now please make it 10 times cheaper.&#8221; That&#8217;s not exactly what the ShareChat team wanted to hear after completing The post ShareChat hit a billion features per\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/scylladb-database-sharechat/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 64,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nPlatform architects surface actionable insights for resilient systems.\n\nSecurity signals:\n1. Common streaming data enrichment patterns in Amazon Kinesis Data Analytics for Apache Flink\nContext: Common streaming data enrichment patterns in Amazon Managed Service for Apache FlinkStream data processing allows you to act on data in real time.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/\n\n2. Automate repository tasks with GitHub Agentic Workflows\nContext: Discover GitHub Agentic Workflows, now in technical preview. Build automations using coding agents in GitHub Actions to handle triage, documentation, code quality, and more.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/\n\n3. Fake job recruiters hide malware in developer coding challenges\nContext: A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
     "aws.amazon.com",
+    "github.blog",
+    "thenewstack.io",
     "towardsdatascience.com",
-    "thenewstack.io"
+    "www.bleepingcomputer.com"
   ],
-  "last_post_timestamp": "2026-02-13T11:54:49.521949+00:00"
+  "last_post_timestamp": "2026-02-14T04:59:47.990733+00:00"
 }
