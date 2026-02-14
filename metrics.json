@@ -1,12 +1,12 @@
 {
-  "total_posts": 91,
-  "posts_today": 1,
+  "total_posts": 92,
+  "posts_today": 2,
   "last_post_date": "2026-02-14",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 57,
+    "digest": 58,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,28 +39,15 @@
     "blog.jetbrains.com": 9,
     "www.bleepingcomputer.com": 10,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 38,
+    "towardsdatascience.com": 39,
     "www.snowflake.com": 26,
-    "kdnuggets.com": 10,
+    "kdnuggets.com": 11,
     "techcrunch.com": 4,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-22",
-      "time": "2025-12-22T13:12:14.492424+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "krebsonsecurity.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "kubernetes.io"
-      ]
-    },
     {
       "date": "2025-12-22",
       "time": "2025-12-22T15:14:41.509817+00:00",
@@ -960,17 +947,23 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-14",
+      "time": "2026-02-14T07:11:39.868585+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 64,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nPlatform architects surface actionable insights for resilient systems.\n\nSecurity signals:\n1. Common streaming data enrichment patterns in Amazon Kinesis Data Analytics for Apache Flink\nContext: Common streaming data enrichment patterns in Amazon Managed Service for Apache FlinkStream data processing allows you to act on data in real time.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/\n\n2. Automate repository tasks with GitHub Agentic Workflows\nContext: Discover GitHub Agentic Workflows, now in technical preview. Build automations using coding agents in GitHub Actions to handle triage, documentation, code quality, and more.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/\n\n3. Fake job recruiters hide malware in developer coding challenges\nContext: A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
+  "posts_created": 65,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. The Evolving Role of the ML Engineer\nContext: Stephanie Kirmer on the $200 billion investment bubble, how AI companies can rebuild trust, and how her day-to-day work changed with the rise of LLMs.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/\n\n2. 12 Python Libraries You Need to Try in 2026\nContext: These are 12 Python libraries that made waves in 2025, and that every developer should try in 2026.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "github.blog",
-    "thenewstack.io",
-    "towardsdatascience.com",
-    "www.bleepingcomputer.com"
+    "kdnuggets.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-14T04:59:47.990733+00:00"
+  "last_post_timestamp": "2026-02-14T07:11:39.869643+00:00"
 }
