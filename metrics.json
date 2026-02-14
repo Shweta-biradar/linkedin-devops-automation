@@ -1,12 +1,12 @@
 {
-  "total_posts": 92,
-  "posts_today": 2,
+  "total_posts": 93,
+  "posts_today": 3,
   "last_post_date": "2026-02-14",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 58,
+    "digest": 59,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 9,
     "www.bleepingcomputer.com": 10,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 39,
+    "towardsdatascience.com": 40,
     "www.snowflake.com": 26,
     "kdnuggets.com": 11,
     "techcrunch.com": 4,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-22",
-      "time": "2025-12-22T15:14:41.509817+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "www.infoq.com",
-        "www.docker.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T04:12:28.547722+00:00",
@@ -956,14 +943,21 @@
         "towardsdatascience.com",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-02-14",
+      "time": "2026-02-14T11:47:21.527610+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 65,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. The Evolving Role of the ML Engineer\nContext: Stephanie Kirmer on the $200 billion investment bubble, how AI companies can rebuild trust, and how her day-to-day work changed with the rise of LLMs.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/\n\n2. 12 Python Libraries You Need to Try in 2026\nContext: These are 12 Python libraries that made waves in 2025, and that every developer should try in 2026.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 66,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSecurity signals:\n1. Your First 90 Days as a Data Scientist\nContext: A practical onboarding checklist for building trust, business fluency, and data intuition The post Your First 90 Days as a Data Scientist appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-14T07:11:39.869643+00:00"
+  "last_post_timestamp": "2026-02-14T11:47:21.528595+00:00"
 }
