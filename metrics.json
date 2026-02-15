@@ -1,12 +1,12 @@
 {
-  "total_posts": 93,
-  "posts_today": 3,
-  "last_post_date": "2026-02-14",
+  "total_posts": 94,
+  "posts_today": 1,
+  "last_post_date": "2026-02-15",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 59,
+    "digest": 60,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 10,
-    "thenewstack.io": 57,
+    "thenewstack.io": 58,
     "blog.jetbrains.com": 9,
     "www.bleepingcomputer.com": 10,
     "martinfowler.com": 2,
@@ -48,18 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T04:12:28.547722+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "kubernetes.io",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T05:16:26.898604+00:00",
@@ -951,13 +939,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-15",
+      "time": "2026-02-15T05:12:19.431763+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 66,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSecurity signals:\n1. Your First 90 Days as a Data Scientist\nContext: A practical onboarding checklist for building trust, business fluency, and data intuition The post Your First 90 Days as a Data Scientist appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 67,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nCloud pioneers highlight key developments for practitioners.\n\nSecurity signals:\n1. HackerOS is what a Linux enthusiast\u2019s OS should be\nContext: ...\nThere are over 1,000 Linux distributions on the market. Throw a rock into the tech pond, and I guarantee that The post HackerOS is what a Linux enthusiast&#8217;s OS should be appeared first on Th\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/hackeros-is-what-a-linux-enthusiasts-os-should-be/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-14T11:47:21.528595+00:00"
+  "last_post_timestamp": "2026-02-15T05:12:19.432703+00:00"
 }
