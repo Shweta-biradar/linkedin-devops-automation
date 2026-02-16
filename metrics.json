@@ -1,12 +1,12 @@
 {
-  "total_posts": 98,
-  "posts_today": 2,
+  "total_posts": 99,
+  "posts_today": 3,
   "last_post_date": "2026-02-16",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 64,
+    "digest": 65,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,28 +39,15 @@
     "blog.jetbrains.com": 10,
     "www.bleepingcomputer.com": 10,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 41,
+    "towardsdatascience.com": 42,
     "www.snowflake.com": 28,
     "kdnuggets.com": 11,
-    "techcrunch.com": 4,
+    "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T06:14:18.406193+00:00",
-      "format": "lessons",
-      "sources": [
-        "blog.qualys.com",
-        "kubernetes.io",
-        "kubernetes.io",
-        "aws.amazon.com",
-        "www.cncf.io",
-        "www.cncf.io"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T06:50:20.655266+00:00",
@@ -937,13 +924,23 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-16",
+      "time": "2026-02-16T12:01:16.478583+00:00",
+      "format": "digest",
+      "sources": [
+        "techcrunch.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 71,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nSignal vs noise:\n1. How Snowflake Intelligence Transforms Media & Entertainment Insights\nContext: How media and entertainment companies use Snowflake Intelligence to unify data and institutional knowledge, and deliver trusted, enterprise-ready insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 72,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSecurity signals:\n1. Fractal Analytics\u2019 muted IPO debut signals persistent AI fears in India\nContext: As India's first AI company to IPO, Fractal Analytics didn't have a stellar first day on the public markets, as enthusiasm for the technology collided with jittery investors in...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/\n\n2. The Strangest Bottleneck in Modern LLMs\nContext: Why insanely fast GPUs still can\u2019t make LLMs feel instant The post The Strangest Bottleneck in Modern LLMs appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com"
+    "towardsdatascience.com",
+    "techcrunch.com"
   ],
-  "last_post_timestamp": "2026-02-16T07:38:40.059588+00:00"
+  "last_post_timestamp": "2026-02-16T12:01:16.479513+00:00"
 }

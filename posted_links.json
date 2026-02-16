@@ -69,6 +69,7 @@
     "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
     "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
     "https://techcrunch.com/2026/02/09/databricks-ceo-says-saas-isnt-dead-but-ai-will-soon-make-it-irrelevant/",
+    "https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/",
     "https://thenewstack.io/2026-java-ai-apps/",
     "https://thenewstack.io/50-years-ago-a-young-bill-gates-took-on-the-software-pirates/",
     "https://thenewstack.io/agodas-secret-to-50x-scale-getting-the-database-basics-right/",
@@ -162,6 +163,7 @@
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
+    "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
@@ -276,7 +278,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "2baa5c340157": "2026-02-02T11:57:43.661036+00:00",
       "27d6d9489efd": "2026-02-03T05:05:52.083542+00:00",
       "ac275eaaed75": "2026-02-03T05:05:52.083621+00:00",
       "a55914469942": "2026-02-03T05:05:52.083671+00:00",
@@ -407,10 +408,12 @@
       "8a236d6d44d0": "2026-02-14T11:47:21.526545+00:00",
       "b4f42796bdd3": "2026-02-15T05:12:19.430606+00:00",
       "784e9a5d9e99": "2026-02-16T05:19:48.326183+00:00",
-      "5ed00163c105": "2026-02-16T05:19:48.326305+00:00"
+      "5ed00163c105": "2026-02-16T05:19:48.326305+00:00",
+      "6f6cbbb76bb5": "2026-02-16T12:01:16.477387+00:00",
+      "600b12b0e176": "2026-02-16T12:01:16.477487+00:00"
     },
-    "last_post_id": "urn:li:share:7429066671300034560",
-    "last_posted_at_utc": "2026-02-16T07:38:40.057837+00:00",
+    "last_post_id": "urn:li:share:7429132758574235648",
+    "last_posted_at_utc": "2026-02-16T12:01:16.477540+00:00",
     "last_format": "digest"
   }
 }
