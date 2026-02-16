@@ -1,12 +1,12 @@
 {
-  "total_posts": 96,
-  "posts_today": 3,
-  "last_post_date": "2026-02-15",
+  "total_posts": 97,
+  "posts_today": 1,
+  "last_post_date": "2026-02-16",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 62,
+    "digest": 63,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 10,
-    "thenewstack.io": 58,
+    "thenewstack.io": 59,
     "blog.jetbrains.com": 10,
     "www.bleepingcomputer.com": 10,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 40,
+    "towardsdatascience.com": 41,
     "www.snowflake.com": 27,
     "kdnuggets.com": 11,
     "techcrunch.com": 4,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T05:37:53.541126+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "www.crowdstrike.com",
-        "www.crowdstrike.com",
-        "www.crowdstrike.com",
-        "www.crowdstrike.com",
-        "www.crowdstrike.com",
-        "www.crowdstrike.com"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T05:55:25.885208+00:00",
@@ -944,13 +931,23 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-16",
+      "time": "2026-02-16T05:19:48.327362+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 69,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nEngineering visionaries spotlight what matters most this week.\n\nCollaboration wins:\n1. How Snowflake Intelligence Transforms Media & Entertainment Insights\nContext: How media and entertainment companies use Snowflake Intelligence to unify data and institutional knowledge, and deliver trusted, enterprise-ready insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 70,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nTech strategists decode the next wave of transformation.\n\nKey developments:\n1. A beginner\u2019s guide to Tmux: a multitasking superpower for your terminal\nContext: ...\nOne of the new things I\u2019ve come across recently, while researching command-line-based coding assistants, is the mention and use of a tool I hadn\u2019t heard of before. That tool is called Tmux, which\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/\n\n2. cURL\u2019s Daniel Stenberg: AI slop is DDoSing open source\nContext: ...\nAt FOSDEM 2026 in Brussels, Belgium, Daniel Stenberg, creator of the popular open source data transfer program, cURL,&#160;described AI as The post cURL\u2019s Daniel Stenberg: AI slop is DDoSing open\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com"
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-15T11:47:58.301606+00:00"
+  "last_post_timestamp": "2026-02-16T05:19:48.328327+00:00"
 }
