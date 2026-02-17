@@ -1,12 +1,12 @@
 {
-  "total_posts": 99,
-  "posts_today": 3,
-  "last_post_date": "2026-02-16",
+  "total_posts": 100,
+  "posts_today": 1,
+  "last_post_date": "2026-02-17",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 65,
+    "digest": 66,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 19,
+    "aws.amazon.com": 20,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,27 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 10,
-    "thenewstack.io": 59,
+    "thenewstack.io": 60,
     "blog.jetbrains.com": 10,
-    "www.bleepingcomputer.com": 10,
+    "www.bleepingcomputer.com": 11,
     "martinfowler.com": 2,
     "towardsdatascience.com": 42,
-    "www.snowflake.com": 28,
-    "kdnuggets.com": 11,
+    "www.snowflake.com": 29,
+    "kdnuggets.com": 13,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T06:50:20.655266+00:00",
-      "format": "case_study",
-      "sources": [
-        "blog.google"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T07:05:25.385753+00:00",
@@ -933,14 +925,30 @@
         "techcrunch.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-17",
+      "time": "2026-02-17T05:12:49.099645+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "thenewstack.io",
+        "www.bleepingcomputer.com",
+        "kdnuggets.com",
+        "aws.amazon.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 72,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSecurity signals:\n1. Fractal Analytics\u2019 muted IPO debut signals persistent AI fears in India\nContext: As India's first AI company to IPO, Fractal Analytics didn't have a stellar first day on the public markets, as enthusiasm for the technology collided with jittery investors in...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/\n\n2. The Strangest Bottleneck in Modern LLMs\nContext: Why insanely fast GPUs still can\u2019t make LLMs feel instant The post The Strangest Bottleneck in Modern LLMs appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 73,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nObservability advocates surface what teams measure and why.\n\nAutomation strategies:\n1. Learn Python, SQL and PowerBI to Become a Certified Data Analyst for FREE This Week\nContext: From February 16\u201322, DataCamp\u2019s entire curriculum is 100% free.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week\n\n2. Python virtual environments: isolation without the chaos\nContext: ...\nInstalling packages globally isn&#8217;t always a good idea. Different tools inside an application can require specific versions of features, functions, The post Python virtual environments: isola\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/for-darryl-python-virtual-environment/\n\n3. Infostealer malware found stealing OpenClaw secrets for first time\nContext: With the massive adoption of the OpenClaw agentic AI assistant, information-stealing malware has been spotted stealing files associated with the framework that contain API...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "techcrunch.com"
+    "thenewstack.io",
+    "aws.amazon.com",
+    "kdnuggets.com",
+    "www.snowflake.com",
+    "www.bleepingcomputer.com"
   ],
-  "last_post_timestamp": "2026-02-16T12:01:16.479513+00:00"
+  "last_post_timestamp": "2026-02-17T05:12:49.100594+00:00"
 }
