@@ -1,12 +1,12 @@
 {
-  "total_posts": 101,
-  "posts_today": 2,
+  "total_posts": 102,
+  "posts_today": 3,
   "last_post_date": "2026-02-17",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 67,
+    "digest": 68,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -41,21 +41,13 @@
     "martinfowler.com": 2,
     "towardsdatascience.com": 42,
     "www.snowflake.com": 29,
-    "kdnuggets.com": 13,
+    "kdnuggets.com": 14,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T07:12:00.387521+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "engineering.fb.com"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T13:12:53.485844+00:00",
@@ -936,13 +928,21 @@
       "sources": [
         "blog.jetbrains.com"
       ]
+    },
+    {
+      "date": "2026-02-17",
+      "time": "2026-02-17T12:00:04.877024+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 74,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nCloud pioneers highlight key developments for practitioners.\n\nWhat caught our attention:\n1. The Most Popular AI Tools: What Developers Use and Why\nContext: ...\nAI tools have become a core part of modern software development. Developers rely on them throughout the life cycle, from writing and refactoring code to testing, documentation, and analysis. Once\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
+  "posts_created": 75,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nSRE leaders share reliability wins and lessons.\n\nCloud-native breakthroughs:\n1. Learn Python, SQL and PowerBI to Become a Certified Data Analyst for FREE This Week\nContext: From February 16\u201322, DataCamp\u2019s entire curriculum is 100% free.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com"
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-02-17T07:33:29.137856+00:00"
+  "last_post_timestamp": "2026-02-17T12:00:04.878035+00:00"
 }
