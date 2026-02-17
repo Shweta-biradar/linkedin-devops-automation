@@ -29,6 +29,7 @@
     "https://blog.jetbrains.com/ai/2026/02/are-we-having-the-wrong-ai-dreams/",
     "https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/",
     "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/",
+    "https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/",
     "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
@@ -284,12 +285,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "0f0d84d41ce4": "2026-02-03T07:27:45.115096+00:00",
-      "a4453dc1012e": "2026-02-03T07:27:45.115172+00:00",
-      "b06f98c44735": "2026-02-03T07:27:45.115216+00:00",
-      "be93d7f26dc6": "2026-02-03T07:27:45.115256+00:00",
-      "4d95dd87c3f3": "2026-02-03T07:27:45.115288+00:00",
-      "26513b2238e2": "2026-02-03T07:27:45.115318+00:00",
       "f09aee55cdab": "2026-02-03T11:59:41.055532+00:00",
       "434cd0b7eb9f": "2026-02-03T11:59:41.055597+00:00",
       "328bd78b823a": "2026-02-03T11:59:41.055632+00:00",
@@ -416,10 +411,11 @@
       "f53d579ac694": "2026-02-17T05:12:49.098436+00:00",
       "8480902c4652": "2026-02-17T05:12:49.098513+00:00",
       "11ff280565ee": "2026-02-17T05:12:49.098604+00:00",
-      "9235305f91ab": "2026-02-17T05:12:49.098685+00:00"
+      "9235305f91ab": "2026-02-17T05:12:49.098685+00:00",
+      "a464fb193f6f": "2026-02-17T07:33:29.136109+00:00"
     },
-    "last_post_id": "urn:li:share:7429392355046326272",
-    "last_posted_at_utc": "2026-02-17T05:12:49.098725+00:00",
+    "last_post_id": "urn:li:share:7429427755357999105",
+    "last_posted_at_utc": "2026-02-17T07:33:29.136196+00:00",
     "last_format": "digest"
   }
 }

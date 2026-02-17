@@ -1,12 +1,12 @@
 {
-  "total_posts": 100,
-  "posts_today": 1,
+  "total_posts": 101,
+  "posts_today": 2,
   "last_post_date": "2026-02-17",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 66,
+    "digest": 67,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -36,7 +36,7 @@
     "netflixtechblog.medium.com": 1,
     "github.blog": 10,
     "thenewstack.io": 60,
-    "blog.jetbrains.com": 10,
+    "blog.jetbrains.com": 11,
     "www.bleepingcomputer.com": 11,
     "martinfowler.com": 2,
     "towardsdatascience.com": 42,
@@ -48,16 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T07:05:25.385753+00:00",
-      "format": "lessons",
-      "sources": [
-        "blog.checkpoint.com",
-        "blog.rapid7.com",
-        "www.crowdstrike.com"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T07:12:00.387521+00:00",
@@ -938,17 +928,21 @@
         "aws.amazon.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-17",
+      "time": "2026-02-17T07:33:29.136975+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com"
+      ]
     }
   ],
-  "posts_created": 73,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nObservability advocates surface what teams measure and why.\n\nAutomation strategies:\n1. Learn Python, SQL and PowerBI to Become a Certified Data Analyst for FREE This Week\nContext: From February 16\u201322, DataCamp\u2019s entire curriculum is 100% free.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week\n\n2. Python virtual environments: isolation without the chaos\nContext: ...\nInstalling packages globally isn&#8217;t always a good idea. Different tools inside an application can require specific versions of features, functions, The post Python virtual environments: isola\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/for-darryl-python-virtual-environment/\n\n3. Infostealer malware found stealing OpenClaw secrets for first time\nContext: With the massive adoption of the OpenClaw agentic AI assistant, information-stealing malware has been spotted stealing files associated with the framework that contain API...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 74,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nCloud pioneers highlight key developments for practitioners.\n\nWhat caught our attention:\n1. The Most Popular AI Tools: What Developers Use and Why\nContext: ...\nAI tools have become a core part of modern software development. Developers rely on them throughout the life cycle, from writing and refactoring code to testing, documentation, and analysis. Once\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "aws.amazon.com",
-    "kdnuggets.com",
-    "www.snowflake.com",
-    "www.bleepingcomputer.com"
+    "blog.jetbrains.com"
   ],
-  "last_post_timestamp": "2026-02-17T05:12:49.100594+00:00"
+  "last_post_timestamp": "2026-02-17T07:33:29.137856+00:00"
 }
