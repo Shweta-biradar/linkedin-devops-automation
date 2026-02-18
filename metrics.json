@@ -1,12 +1,12 @@
 {
-  "total_posts": 103,
-  "posts_today": 1,
+  "total_posts": 104,
+  "posts_today": 2,
   "last_post_date": "2026-02-18",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 69,
+    "digest": 70,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 10,
-    "thenewstack.io": 60,
+    "thenewstack.io": 64,
     "blog.jetbrains.com": 12,
     "www.bleepingcomputer.com": 11,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 43,
+    "towardsdatascience.com": 45,
     "www.snowflake.com": 29,
     "kdnuggets.com": 16,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T14:04:16.434510+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.mend.io"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T15:08:27.426029+00:00",
@@ -938,16 +930,27 @@
         "kdnuggets.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-02-18",
+      "time": "2026-02-18T07:36:17.362097+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 76,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nAutomation strategies:\n1. Build a data pipeline from Google Search Console to Amazon Redshift using AWS Glue\nContext: In this post, we explore how AWS Glue extract, transform, and load (ETL) capabilities connect Google applications and Amazon Redshift, helping you unlock deeper insights and...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/\n\n2. Databao Becomes a Partner of the Open Semantic Interchange Initiative led by Snowflake and other industry l\u2026\nContext: ...\nModern data teams need flexibility and scalability as workflows evolve and AI becomes central to analytics. They are increasingly relying on AI to enable self-service analytics and accelerate data\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/02/databao-becomes-osi-partner/\n\n3. Top 7 Python Libraries for Progress Bars\nContext: This article covers the top seven Python libraries for implementing progress bars, with practical examples to help you quickly add progress tracking to data processing, machine...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
+  "posts_created": 77,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nAutomation architects drive efficiency and scale across industries.\n\nWhat caught our attention:\n1. Simplify managing your Docker compose files with this handy tool\nContext: ...\nThe Docker run command is a great introduction to running containers. It&#8217;s simple, it&#8217;s quick, and it&#8217;s fairly easy to The post Simplify managing your Docker compose files with t\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/\n\n2. Your AI strategy is built on layers of API sediment\nContext: ...\n&#8220;The API landscape is a mess, and very few people understand it,&#8221; Kin Lane, API industry veteran and founder of The post Your AI strategy is built on layers of API sediment appeared fi\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-strategy-api-sediment/\n\n3. From notebooks to nodes: Architecting production-ready AI infrastructure\nContext: The transition from running machine learning models in Colab notebooks to operational, high-traffic applications requires significant changes in infrastructure setup.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/production-ai-infrastructure-guide/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com",
     "towardsdatascience.com",
-    "aws.amazon.com",
-    "kdnuggets.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-18T05:13:31.430891+00:00"
+  "last_post_timestamp": "2026-02-18T07:36:17.363080+00:00"
 }

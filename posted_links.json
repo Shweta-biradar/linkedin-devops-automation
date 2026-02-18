@@ -81,6 +81,8 @@
     "https://thenewstack.io/ai-agents-search-context/",
     "https://thenewstack.io/ai-paradox-gitlab/",
     "https://thenewstack.io/ai-ready-infrastructure/",
+    "https://thenewstack.io/ai-strategy-api-sediment/",
+    "https://thenewstack.io/ai-velocity-debt-accelerator/",
     "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
     "https://thenewstack.io/anthropics-opus-4-6-is-a-step-change-for-the-enterprise/",
     "https://thenewstack.io/beating-the-rot-and-getting-stuff-done/",
@@ -122,9 +124,11 @@
     "https://thenewstack.io/openais-new-codex-spark-is-optimized-for-speed/",
     "https://thenewstack.io/openclaw-gsd/",
     "https://thenewstack.io/pg_lake-comes-to-snowflake-postgres-what-it-means-for-open-standards/",
+    "https://thenewstack.io/production-ai-infrastructure-guide/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
     "https://thenewstack.io/scylladb-database-sharechat/",
+    "https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/",
     "https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/",
     "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
     "https://thenewstack.io/tidb-and-the-rise-of-the-ai-native-database/",
@@ -136,6 +140,7 @@
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
+    "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
@@ -149,6 +154,7 @@
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
+    "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
@@ -291,9 +297,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "7fc52a5709b7": "2026-02-04T07:28:44.704326+00:00",
-      "be2e85f69b9f": "2026-02-04T07:28:44.704450+00:00",
-      "244d94e745a6": "2026-02-04T07:28:44.704492+00:00",
       "55862d0e7b8b": "2026-02-04T11:54:53.193147+00:00",
       "187111a7627c": "2026-02-05T05:07:50.471452+00:00",
       "6e421ba56cc7": "2026-02-05T05:07:50.471517+00:00",
@@ -412,10 +415,16 @@
       "c2705f8ca294": "2026-02-18T05:13:31.429014+00:00",
       "662db5406a8a": "2026-02-18T05:13:31.429087+00:00",
       "4f394091f420": "2026-02-18T05:13:31.429160+00:00",
-      "2e6db0951674": "2026-02-18T05:13:31.429203+00:00"
+      "2e6db0951674": "2026-02-18T05:13:31.429203+00:00",
+      "d0afe82a1258": "2026-02-18T07:36:17.360766+00:00",
+      "ab70363b06de": "2026-02-18T07:36:17.360874+00:00",
+      "f2421c8106c2": "2026-02-18T07:36:17.360955+00:00",
+      "63c247404403": "2026-02-18T07:36:17.361045+00:00",
+      "bfee516a19f8": "2026-02-18T07:36:17.361093+00:00",
+      "46bf48d09933": "2026-02-18T07:36:17.361135+00:00"
     },
-    "last_post_id": "urn:li:share:7429754919714349056",
-    "last_posted_at_utc": "2026-02-18T05:13:31.429238+00:00",
+    "last_post_id": "urn:li:share:7429790847061176320",
+    "last_posted_at_utc": "2026-02-18T07:36:17.361170+00:00",
     "last_format": "digest"
   }
 }
