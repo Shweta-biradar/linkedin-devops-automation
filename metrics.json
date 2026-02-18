@@ -1,12 +1,12 @@
 {
-  "total_posts": 102,
-  "posts_today": 3,
-  "last_post_date": "2026-02-17",
+  "total_posts": 103,
+  "posts_today": 1,
+  "last_post_date": "2026-02-18",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 68,
+    "digest": 69,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 20,
+    "aws.amazon.com": 22,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -36,29 +36,18 @@
     "netflixtechblog.medium.com": 1,
     "github.blog": 10,
     "thenewstack.io": 60,
-    "blog.jetbrains.com": 11,
+    "blog.jetbrains.com": 12,
     "www.bleepingcomputer.com": 11,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 42,
+    "towardsdatascience.com": 43,
     "www.snowflake.com": 29,
-    "kdnuggets.com": 14,
+    "kdnuggets.com": 16,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T13:12:53.485844+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.cncf.io",
-        "www.infoq.com",
-        "www.infoq.com",
-        "feeds.feedburner.com"
-      ]
-    },
     {
       "date": "2025-12-23",
       "time": "2025-12-23T14:04:16.434510+00:00",
@@ -936,13 +925,29 @@
       "sources": [
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-02-18",
+      "time": "2026-02-18T05:13:31.429964+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "blog.jetbrains.com",
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 75,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nSRE leaders share reliability wins and lessons.\n\nCloud-native breakthroughs:\n1. Learn Python, SQL and PowerBI to Become a Certified Data Analyst for FREE This Week\nContext: From February 16\u201322, DataCamp\u2019s entire curriculum is 100% free.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 76,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nAutomation strategies:\n1. Build a data pipeline from Google Search Console to Amazon Redshift using AWS Glue\nContext: In this post, we explore how AWS Glue extract, transform, and load (ETL) capabilities connect Google applications and Amazon Redshift, helping you unlock deeper insights and...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/\n\n2. Databao Becomes a Partner of the Open Semantic Interchange Initiative led by Snowflake and other industry l\u2026\nContext: ...\nModern data teams need flexibility and scalability as workflows evolve and AI becomes central to analytics. They are increasingly relying on AI to enable self-service analytics and accelerate data\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/02/databao-becomes-osi-partner/\n\n3. Top 7 Python Libraries for Progress Bars\nContext: This article covers the top seven Python libraries for implementing progress bars, with practical examples to help you quickly add progress tracking to data processing, machine...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "blog.jetbrains.com",
+    "towardsdatascience.com",
+    "aws.amazon.com",
     "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-02-17T12:00:04.878035+00:00"
+  "last_post_timestamp": "2026-02-18T05:13:31.430891+00:00"
 }

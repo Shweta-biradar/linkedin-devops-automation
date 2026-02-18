@@ -2,8 +2,10 @@
   "posted_links": [
     "",
     "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
+    "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
+    "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
@@ -30,6 +32,7 @@
     "https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/",
     "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/",
     "https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/",
+    "https://blog.jetbrains.com/databao/2026/02/databao-becomes-osi-partner/",
     "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
@@ -169,6 +172,7 @@
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
+    "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
@@ -253,6 +257,8 @@
     "https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
+    "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
+    "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
     "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
     "https://www.kdnuggets.com/working-with-billion-row-datasets-in-python-using-vaex",
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
@@ -285,12 +291,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "13fc7bf758a2": "2026-02-04T05:00:03.362264+00:00",
-      "1a6e9aabdc01": "2026-02-04T05:00:03.362368+00:00",
-      "82c2c65f4ef0": "2026-02-04T05:00:03.362439+00:00",
-      "54cc1c311dac": "2026-02-04T05:00:03.362475+00:00",
-      "17aea1b1eceb": "2026-02-04T05:00:03.362510+00:00",
-      "75e22d632688": "2026-02-04T05:00:03.362542+00:00",
       "7fc52a5709b7": "2026-02-04T07:28:44.704326+00:00",
       "be2e85f69b9f": "2026-02-04T07:28:44.704450+00:00",
       "244d94e745a6": "2026-02-04T07:28:44.704492+00:00",
@@ -406,10 +406,16 @@
       "8480902c4652": "2026-02-17T05:12:49.098513+00:00",
       "11ff280565ee": "2026-02-17T05:12:49.098604+00:00",
       "9235305f91ab": "2026-02-17T05:12:49.098685+00:00",
-      "a464fb193f6f": "2026-02-17T07:33:29.136109+00:00"
+      "a464fb193f6f": "2026-02-17T07:33:29.136109+00:00",
+      "868df6a454d8": "2026-02-18T05:13:31.428832+00:00",
+      "dba32e1720ef": "2026-02-18T05:13:31.428933+00:00",
+      "c2705f8ca294": "2026-02-18T05:13:31.429014+00:00",
+      "662db5406a8a": "2026-02-18T05:13:31.429087+00:00",
+      "4f394091f420": "2026-02-18T05:13:31.429160+00:00",
+      "2e6db0951674": "2026-02-18T05:13:31.429203+00:00"
     },
-    "last_post_id": "urn:li:share:7429494846236573697",
-    "last_posted_at_utc": "2026-02-17T12:00:04.875903+00:00",
+    "last_post_id": "urn:li:share:7429754919714349056",
+    "last_posted_at_utc": "2026-02-18T05:13:31.429238+00:00",
     "last_format": "digest"
   }
 }
