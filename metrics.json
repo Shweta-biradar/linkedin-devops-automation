@@ -1,12 +1,12 @@
 {
-  "total_posts": 104,
-  "posts_today": 2,
+  "total_posts": 105,
+  "posts_today": 3,
   "last_post_date": "2026-02-18",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 70,
+    "digest": 71,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 12,
     "www.bleepingcomputer.com": 11,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 45,
+    "towardsdatascience.com": 46,
     "www.snowflake.com": 29,
     "kdnuggets.com": 16,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-23",
-      "time": "2025-12-23T15:08:27.426029+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-24",
       "time": "2025-12-24T04:10:44.003732+00:00",
@@ -943,14 +935,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-18",
+      "time": "2026-02-18T12:00:46.377806+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 77,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nAutomation architects drive efficiency and scale across industries.\n\nWhat caught our attention:\n1. Simplify managing your Docker compose files with this handy tool\nContext: ...\nThe Docker run command is a great introduction to running containers. It&#8217;s simple, it&#8217;s quick, and it&#8217;s fairly easy to The post Simplify managing your Docker compose files with t\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/\n\n2. Your AI strategy is built on layers of API sediment\nContext: ...\n&#8220;The API landscape is a mess, and very few people understand it,&#8221; Kin Lane, API industry veteran and founder of The post Your AI strategy is built on layers of API sediment appeared fi\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-strategy-api-sediment/\n\n3. From notebooks to nodes: Architecting production-ready AI infrastructure\nContext: The transition from running machine learning models in Colab notebooks to operational, high-traffic applications requires significant changes in infrastructure setup.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/production-ai-infrastructure-guide/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 78,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nCollaboration experts spotlight culture and process breakthroughs.\n\nEssential reads:\n1. Building a LangGraph Agent from Scratch\nContext: Everything you need to know to get started The post Building a LangGraph Agent from Scratch appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-18T07:36:17.363080+00:00"
+  "last_post_timestamp": "2026-02-18T12:00:46.378748+00:00"
 }

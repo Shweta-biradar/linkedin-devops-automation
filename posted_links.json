@@ -142,6 +142,7 @@
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
+    "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
@@ -297,7 +298,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "55862d0e7b8b": "2026-02-04T11:54:53.193147+00:00",
       "187111a7627c": "2026-02-05T05:07:50.471452+00:00",
       "6e421ba56cc7": "2026-02-05T05:07:50.471517+00:00",
       "d975ef83b4fe": "2026-02-05T05:07:50.471583+00:00",
@@ -421,10 +421,11 @@
       "f2421c8106c2": "2026-02-18T07:36:17.360955+00:00",
       "63c247404403": "2026-02-18T07:36:17.361045+00:00",
       "bfee516a19f8": "2026-02-18T07:36:17.361093+00:00",
-      "46bf48d09933": "2026-02-18T07:36:17.361135+00:00"
+      "46bf48d09933": "2026-02-18T07:36:17.361135+00:00",
+      "1e23c7b5bde8": "2026-02-18T12:00:46.376837+00:00"
     },
-    "last_post_id": "urn:li:share:7429790847061176320",
-    "last_posted_at_utc": "2026-02-18T07:36:17.361170+00:00",
+    "last_post_id": "urn:li:share:7429857408375582720",
+    "last_posted_at_utc": "2026-02-18T12:00:46.376922+00:00",
     "last_format": "digest"
   }
 }
