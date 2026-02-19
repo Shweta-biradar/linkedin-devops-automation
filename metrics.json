@@ -1,12 +1,12 @@
 {
-  "total_posts": 106,
-  "posts_today": 1,
+  "total_posts": 107,
+  "posts_today": 2,
   "last_post_date": "2026-02-19",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 72,
+    "digest": 73,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,27 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 11,
-    "thenewstack.io": 66,
+    "thenewstack.io": 67,
     "blog.jetbrains.com": 12,
     "www.bleepingcomputer.com": 12,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 47,
+    "towardsdatascience.com": 49,
     "www.snowflake.com": 29,
-    "kdnuggets.com": 16,
+    "kdnuggets.com": 17,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-24",
-      "time": "2025-12-24T05:38:51.974080+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-24",
       "time": "2025-12-24T05:50:59.554547+00:00",
@@ -948,17 +940,26 @@
         "thenewstack.io",
         "github.blog"
       ]
+    },
+    {
+      "date": "2026-02-19",
+      "time": "2026-02-19T07:34:28.242669+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 79,
-  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nAI innovators map the future of intelligent systems.\n\nAutomation strategies:\n1. Building Cost-Efficient Agentic RAG on Long-Text Documents in SQL Tables\nContext: Designing a hybrid SQL + vector retrieval system without schema changes, data migration, or performance trade-offs The post Building Cost-Efficient Agentic RAG on Long-Text...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/\n\n2. Best practices for right-sizing Amazon OpenSearch Service domains\nContext: In this post, we guide you through the steps to determine if your OpenSearch Service domain is right-sized, using AWS tools and best practices to optimize your configuration...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/\n\n3. Microsoft says bug causes Copilot to summarize confidential emails\nContext: Microsoft says a Microsoft 365 Copilot bug has been causing the AI assistant to summarize confidential emails since late January, bypassing data loss prevention (DLP) policies...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 80,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nIndustry pulse:\n1. 6 agentic knowledge base patterns emerging in the wild\nContext: ...\nAI agents have become the software industry&#8217;s latest fascination. Backed by large language models (LLMs), this new class of AI The post 6 agentic knowledge base patterns emerging in the wild\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/agentic-knowledge-base-patterns/\n\n2. Agentic AI for Modern Deep Learning Experimentation\nContext: Stop babysitting training runs. Start shipping research. Autonomous experiment management built for/by deep learning engineers.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/\n\n3. From Messy to Clean: 8 Python Tricks for Effortless Data Preprocessing\nContext: 8 Python tricks to turn raw, messy data into clean, neatly preprocessed data with minimal effort.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.bleepingcomputer.com",
-    "github.blog",
     "thenewstack.io",
-    "towardsdatascience.com",
-    "aws.amazon.com"
+    "kdnuggets.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-19T05:12:46.122047+00:00"
+  "last_post_timestamp": "2026-02-19T07:34:28.243664+00:00"
 }

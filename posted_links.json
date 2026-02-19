@@ -79,6 +79,7 @@
     "https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/",
     "https://thenewstack.io/2026-java-ai-apps/",
     "https://thenewstack.io/50-years-ago-a-young-bill-gates-took-on-the-software-pirates/",
+    "https://thenewstack.io/agentic-knowledge-base-patterns/",
     "https://thenewstack.io/agodas-secret-to-50x-scale-getting-the-database-basics-right/",
     "https://thenewstack.io/ai-agents-search-context/",
     "https://thenewstack.io/ai-paradox-gitlab/",
@@ -145,11 +146,13 @@
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
+    "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
+    "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
@@ -268,6 +271,7 @@
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
     "https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week",
+    "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
@@ -428,10 +432,14 @@
       "e4cb3b69239b": "2026-02-19T05:12:46.119726+00:00",
       "2f25c16733ae": "2026-02-19T05:12:46.119790+00:00",
       "60aaa515405c": "2026-02-19T05:12:46.119857+00:00",
-      "53c4051aa20e": "2026-02-19T05:12:46.119949+00:00"
+      "53c4051aa20e": "2026-02-19T05:12:46.119949+00:00",
+      "c0929516c98b": "2026-02-19T07:34:28.241382+00:00",
+      "620ea834112d": "2026-02-19T07:34:28.241505+00:00",
+      "061f6b457e55": "2026-02-19T07:34:28.241604+00:00",
+      "005814120a4d": "2026-02-19T07:34:28.241668+00:00"
     },
-    "last_post_id": "urn:li:share:7430117118219800576",
-    "last_posted_at_utc": "2026-02-19T05:12:46.120004+00:00",
+    "last_post_id": "urn:li:share:7430152778737471488",
+    "last_posted_at_utc": "2026-02-19T07:34:28.241712+00:00",
     "last_format": "digest"
   }
 }
