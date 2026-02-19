@@ -1,12 +1,12 @@
 {
-  "total_posts": 107,
-  "posts_today": 2,
+  "total_posts": 108,
+  "posts_today": 3,
   "last_post_date": "2026-02-19",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 73,
+    "digest": 74,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 12,
     "www.bleepingcomputer.com": 12,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 49,
+    "towardsdatascience.com": 50,
     "www.snowflake.com": 29,
     "kdnuggets.com": 17,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-24",
-      "time": "2025-12-24T05:50:59.554547+00:00",
-      "format": "digest",
-      "sources": [
-        "unit42.paloaltonetworks.com"
-      ]
-    },
     {
       "date": "2025-12-24",
       "time": "2025-12-24T13:10:01.709295+00:00",
@@ -951,15 +943,21 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-19",
+      "time": "2026-02-19T12:02:35.947281+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 80,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nIndustry pulse:\n1. 6 agentic knowledge base patterns emerging in the wild\nContext: ...\nAI agents have become the software industry&#8217;s latest fascination. Backed by large language models (LLMs), this new class of AI The post 6 agentic knowledge base patterns emerging in the wild\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/agentic-knowledge-base-patterns/\n\n2. Agentic AI for Modern Deep Learning Experimentation\nContext: Stop babysitting training runs. Start shipping research. Autonomous experiment management built for/by deep learning engineers.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/\n\n3. From Messy to Clean: 8 Python Tricks for Effortless Data Preprocessing\nContext: 8 Python tricks to turn raw, messy data into clean, neatly preprocessed data with minimal effort.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 81,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. AI in Multiple GPUs: How GPUs Communicate\nContext: A deep dive into the hardware infrastructure that enables multi-GPU communication for AI workloads The post AI in Multiple GPUs: How GPUs Communicate appeared first on Towards...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://towardsdatascience.com/how-gpus-communicate/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "kdnuggets.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-19T07:34:28.243664+00:00"
+  "last_post_timestamp": "2026-02-19T12:02:35.948235+00:00"
 }
