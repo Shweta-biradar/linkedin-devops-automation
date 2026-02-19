@@ -1,12 +1,12 @@
 {
-  "total_posts": 105,
-  "posts_today": 3,
-  "last_post_date": "2026-02-18",
+  "total_posts": 106,
+  "posts_today": 1,
+  "last_post_date": "2026-02-19",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 71,
+    "digest": 72,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 22,
+    "aws.amazon.com": 23,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 10,
-    "thenewstack.io": 64,
+    "github.blog": 11,
+    "thenewstack.io": 66,
     "blog.jetbrains.com": 12,
-    "www.bleepingcomputer.com": 11,
+    "www.bleepingcomputer.com": 12,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 46,
+    "towardsdatascience.com": 47,
     "www.snowflake.com": 29,
     "kdnuggets.com": 16,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-24",
-      "time": "2025-12-24T04:10:44.003732+00:00",
-      "format": "digest",
-      "sources": [
-        "kubernetes.io"
-      ]
-    },
     {
       "date": "2025-12-24",
       "time": "2025-12-24T05:38:51.974080+00:00",
@@ -943,13 +935,30 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-19",
+      "time": "2026-02-19T05:12:46.121049+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "aws.amazon.com",
+        "www.bleepingcomputer.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "github.blog"
+      ]
     }
   ],
-  "posts_created": 78,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nCollaboration experts spotlight culture and process breakthroughs.\n\nEssential reads:\n1. Building a LangGraph Agent from Scratch\nContext: Everything you need to know to get started The post Building a LangGraph Agent from Scratch appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 79,
+  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nAI innovators map the future of intelligent systems.\n\nAutomation strategies:\n1. Building Cost-Efficient Agentic RAG on Long-Text Documents in SQL Tables\nContext: Designing a hybrid SQL + vector retrieval system without schema changes, data migration, or performance trade-offs The post Building Cost-Efficient Agentic RAG on Long-Text...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/\n\n2. Best practices for right-sizing Amazon OpenSearch Service domains\nContext: In this post, we guide you through the steps to determine if your OpenSearch Service domain is right-sized, using AWS tools and best practices to optimize your configuration...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/\n\n3. Microsoft says bug causes Copilot to summarize confidential emails\nContext: Microsoft says a Microsoft 365 Copilot bug has been causing the AI assistant to summarize confidential emails since late January, bypassing data loss prevention (DLP) policies...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.bleepingcomputer.com",
+    "github.blog",
+    "thenewstack.io",
+    "towardsdatascience.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-02-18T12:00:46.378748+00:00"
+  "last_post_timestamp": "2026-02-19T05:12:46.122047+00:00"
 }
