@@ -1,12 +1,12 @@
 {
-  "total_posts": 108,
-  "posts_today": 3,
-  "last_post_date": "2026-02-19",
+  "total_posts": 109,
+  "posts_today": 1,
+  "last_post_date": "2026-02-20",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 74,
+    "digest": 75,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,28 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 11,
-    "thenewstack.io": 67,
-    "blog.jetbrains.com": 12,
+    "thenewstack.io": 68,
+    "blog.jetbrains.com": 13,
     "www.bleepingcomputer.com": 12,
     "martinfowler.com": 2,
     "towardsdatascience.com": 50,
-    "www.snowflake.com": 29,
-    "kdnuggets.com": 17,
+    "www.snowflake.com": 32,
+    "kdnuggets.com": 18,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-24",
-      "time": "2025-12-24T13:10:01.709295+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.cncf.io",
-        "feeds.feedburner.com"
-      ]
-    },
     {
       "date": "2025-12-25",
       "time": "2025-12-25T05:28:36.535056+00:00",
@@ -951,13 +942,29 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-20",
+      "time": "2026-02-20T05:07:50.972789+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "blog.jetbrains.com",
+        "thenewstack.io",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 81,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. AI in Multiple GPUs: How GPUs Communicate\nContext: A deep dive into the hardware infrastructure that enables multi-GPU communication for AI workloads The post AI in Multiple GPUs: How GPUs Communicate appeared first on Towards...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://towardsdatascience.com/how-gpus-communicate/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 82,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nEssential reads:\n1. Startup Spotlight: Streamkap Powers Real-Time Data for the AI Era\nContext: Streamkap simplifies real-time streaming into Snowflake so teams can build low-latency apps and insights without heavy ops - reliable pipelines, lower overhead.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap\n\n2. LangChain Python Tutorial: 2026\u2019s Complete Guide\nContext: ...\nIf you\u2019ve read the blog post How to Build Chatbots With LangChain, you may want to know more about LangChain. This blog post will dive deeper into what LangChain offers and guide you through a few\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/\n\n3. How your LLM is silently hallucinating company revenue\nContext: LLMs are accelerating work across engineering disciplines, from generating React components and building backend APIs to noodling with SQL.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/llm-database-context-mcp/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "blog.jetbrains.com",
+    "thenewstack.io",
+    "kdnuggets.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-19T12:02:35.948235+00:00"
+  "last_post_timestamp": "2026-02-20T05:07:50.973762+00:00"
 }

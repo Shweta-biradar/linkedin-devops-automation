@@ -38,6 +38,7 @@
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
     "https://blog.jetbrains.com/pycharm/2026/01/google-colab-support-is-now-available-in-pycharm-2025-3-2/",
+    "https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/",
     "https://blog.jetbrains.com/pycharm/2026/02/python-unplugged-on-pytv/",
     "https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/",
     "https://blog.qualys.com/category/product-tech",
@@ -115,6 +116,7 @@
     "https://thenewstack.io/is-open-source-in-trouble/",
     "https://thenewstack.io/jule-open-source-programming-language/",
     "https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/",
+    "https://thenewstack.io/llm-database-context-mcp/",
     "https://thenewstack.io/managing-database-debt/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
     "https://thenewstack.io/matan-paul-shetrit-interview/",
@@ -272,6 +274,7 @@
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
     "https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week",
+    "https://www.kdnuggets.com/fastmcp-the-pythonic-way-to-build-mcp-servers-and-clients",
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
@@ -285,6 +288,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
@@ -301,6 +305,8 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-ddi",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startups-building-ai-snowflake",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/tensorstax-acquisition-agentic-ai",
     "https://www.welivesecurity.com/en/eset-research/revisiting-cve-2025-50165-critical-flaw-windows-imaging-component/",
@@ -310,11 +316,6 @@
   "meta": {
     "topic_hashes": {
       "05dea58a658a": "2026-02-09T12:04:09.481980+00:00",
-      "f4adbef629e6": "2026-02-06T05:04:57.298626+00:00",
-      "890ee15987b6": "2026-02-06T05:04:57.298694+00:00",
-      "fed10a1d3378": "2026-02-06T05:04:57.298757+00:00",
-      "b69c1bb2b64a": "2026-02-06T05:04:57.298795+00:00",
-      "f88649373811": "2026-02-06T05:04:57.298831+00:00",
       "50b7c4519b0a": "2026-02-06T07:31:23.769072+00:00",
       "fb3632fad654": "2026-02-06T07:31:23.769198+00:00",
       "d05a8661774b": "2026-02-06T07:31:23.769258+00:00",
@@ -434,10 +435,16 @@
       "620ea834112d": "2026-02-19T07:34:28.241505+00:00",
       "061f6b457e55": "2026-02-19T07:34:28.241604+00:00",
       "005814120a4d": "2026-02-19T07:34:28.241668+00:00",
-      "aae47041d404": "2026-02-19T12:02:35.946215+00:00"
+      "aae47041d404": "2026-02-19T12:02:35.946215+00:00",
+      "53763e583a5d": "2026-02-20T05:07:50.971481+00:00",
+      "0f98b39da130": "2026-02-20T05:07:50.971582+00:00",
+      "33e251fdb0dd": "2026-02-20T05:07:50.971661+00:00",
+      "9dc818ba8dfd": "2026-02-20T05:07:50.971738+00:00",
+      "f36507aa8ce5": "2026-02-20T05:07:50.971810+00:00",
+      "21620d3c3fca": "2026-02-20T05:07:50.971881+00:00"
     },
-    "last_post_id": "urn:li:share:7430220255773335552",
-    "last_posted_at_utc": "2026-02-19T12:02:35.946290+00:00",
+    "last_post_id": "urn:li:share:7430478268014919680",
+    "last_posted_at_utc": "2026-02-20T05:07:50.971946+00:00",
     "last_format": "digest"
   }
 }
