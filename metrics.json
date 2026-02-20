@@ -1,12 +1,12 @@
 {
-  "total_posts": 110,
-  "posts_today": 2,
+  "total_posts": 111,
+  "posts_today": 3,
   "last_post_date": "2026-02-20",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 76,
+    "digest": 77,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 11,
-    "thenewstack.io": 73,
+    "github.blog": 12,
+    "thenewstack.io": 75,
     "blog.jetbrains.com": 13,
-    "www.bleepingcomputer.com": 12,
+    "www.bleepingcomputer.com": 13,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 51,
+    "towardsdatascience.com": 53,
     "www.snowflake.com": 32,
     "kdnuggets.com": 18,
     "techcrunch.com": 5,
@@ -48,18 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-25",
-      "time": "2025-12-25T07:34:14.671071+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-25",
       "time": "2025-12-25T13:08:46.318517+00:00",
@@ -960,14 +948,29 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-20",
+      "time": "2026-02-20T11:55:00.515474+00:00",
+      "format": "digest",
+      "sources": [
+        "www.bleepingcomputer.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "github.blog",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 83,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nAnalytics experts curate the signals that drive innovation.\n\nWhat caught our attention:\n1. Rising identity complexity: How CISOs can prevent it from becoming an attacker\u2019s roadmap\nContext: Identity has always been the thread that stitches enterprise IT together, but the nature of that identity has changed dramatically.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ciso-identity-complexity-strategy/\n\n2. AlpamayoR1: Large Causal Reasoning Models for Autonomous Driving\nContext: All you need to know about Chain of Causation reasoning and the current state of Autonomous Driving! The post AlpamayoR1: Large Causal Reasoning Models for Autonomous Driving...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/\n\n3. Twilio\u2019s A2H is a new protocol that helps agents talk to humans\nContext: ...\nOver the last year or so, we&#8217;ve seen a proliferation of frameworks and protocols for agentic AI tools. There is The post Twilio&#8217;s A2H is a new protocol that helps agents talk to humans\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/twilio-a2h-protocol-launch/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 84,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nSRE leaders share reliability wins and lessons.\n\nKey developments:\n1. Mississippi medical center closes all clinics after ransomware attack\nContext: The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/\n\n2. The developer as conductor: Leading an orchestra of AI agents with the feature flag baton\nContext: Last month, just a few weeks after Dynatrace finalized its acquisition of DevCycle, Michael Beemer of Dynatrace and Andrew Norris, The post The developer as conductor: Leading...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/feature-flags-ai-agents/\n\n3. Understanding the Chi-Square Test Beyond the Formula\nContext: How categorical data becomes statistical evidence. The post Understanding the Chi-Square Test Beyond the Formula appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "github.blog",
+    "www.bleepingcomputer.com",
     "towardsdatascience.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-20T07:31:39.166354+00:00"
+  "last_post_timestamp": "2026-02-20T11:55:00.516424+00:00"
 }
