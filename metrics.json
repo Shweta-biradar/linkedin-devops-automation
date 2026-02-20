@@ -1,12 +1,12 @@
 {
-  "total_posts": 109,
-  "posts_today": 1,
+  "total_posts": 110,
+  "posts_today": 2,
   "last_post_date": "2026-02-20",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 75,
+    "digest": 76,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 11,
-    "thenewstack.io": 68,
+    "thenewstack.io": 73,
     "blog.jetbrains.com": 13,
     "www.bleepingcomputer.com": 12,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 50,
+    "towardsdatascience.com": 51,
     "www.snowflake.com": 32,
     "kdnuggets.com": 18,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-25",
-      "time": "2025-12-25T05:28:36.535056+00:00",
-      "format": "case_study",
-      "sources": [
-        "blog.checkpoint.com"
-      ]
-    },
     {
       "date": "2025-12-25",
       "time": "2025-12-25T07:34:14.671071+00:00",
@@ -955,16 +947,27 @@
         "www.snowflake.com",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-02-20",
+      "time": "2026-02-20T07:31:39.165469+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 82,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nEssential reads:\n1. Startup Spotlight: Streamkap Powers Real-Time Data for the AI Era\nContext: Streamkap simplifies real-time streaming into Snowflake so teams can build low-latency apps and insights without heavy ops - reliable pipelines, lower overhead.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap\n\n2. LangChain Python Tutorial: 2026\u2019s Complete Guide\nContext: ...\nIf you\u2019ve read the blog post How to Build Chatbots With LangChain, you may want to know more about LangChain. This blog post will dive deeper into what LangChain offers and guide you through a few\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/\n\n3. How your LLM is silently hallucinating company revenue\nContext: LLMs are accelerating work across engineering disciplines, from generating React components and building backend APIs to noodling with SQL.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/llm-database-context-mcp/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 83,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nAnalytics experts curate the signals that drive innovation.\n\nWhat caught our attention:\n1. Rising identity complexity: How CISOs can prevent it from becoming an attacker\u2019s roadmap\nContext: Identity has always been the thread that stitches enterprise IT together, but the nature of that identity has changed dramatically.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ciso-identity-complexity-strategy/\n\n2. AlpamayoR1: Large Causal Reasoning Models for Autonomous Driving\nContext: All you need to know about Chain of Causation reasoning and the current state of Autonomous Driving! The post AlpamayoR1: Large Causal Reasoning Models for Autonomous Driving...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/\n\n3. Twilio\u2019s A2H is a new protocol that helps agents talk to humans\nContext: ...\nOver the last year or so, we&#8217;ve seen a proliferation of frameworks and protocols for agentic AI tools. There is The post Twilio&#8217;s A2H is a new protocol that helps agents talk to humans\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/twilio-a2h-protocol-launch/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com",
-    "thenewstack.io",
-    "kdnuggets.com",
-    "www.snowflake.com"
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-20T05:07:50.973762+00:00"
+  "last_post_timestamp": "2026-02-20T07:31:39.166354+00:00"
 }
