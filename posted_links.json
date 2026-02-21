@@ -81,6 +81,8 @@
     "https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/",
     "https://thenewstack.io/2026-java-ai-apps/",
     "https://thenewstack.io/50-years-ago-a-young-bill-gates-took-on-the-software-pirates/",
+    "https://thenewstack.io/agent-framework-container-wars/",
+    "https://thenewstack.io/agentic-ai-verification-impact/",
     "https://thenewstack.io/agentic-knowledge-base-patterns/",
     "https://thenewstack.io/agodas-secret-to-50x-scale-getting-the-database-basics-right/",
     "https://thenewstack.io/ai-agents-search-context/",
@@ -139,6 +141,7 @@
     "https://thenewstack.io/prometheus-and-opentelemetry-love-each-other-more-than-in-the-past/",
     "https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/",
     "https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/",
+    "https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/",
     "https://thenewstack.io/scylladb-database-sharechat/",
     "https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/",
     "https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/",
@@ -167,6 +170,7 @@
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
+    "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
@@ -282,6 +286,7 @@
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
     "https://www.kdnuggets.com/7-python-eda-tricks-to-find-and-fix-data-issues",
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
+    "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
     "https://www.kdnuggets.com/building-practical-mlops-for-a-personal-ml-project",
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
@@ -297,6 +302,7 @@
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
     "https://www.rapid7.com/blog/post/metasploit-wrap-up-12-19-2025",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
@@ -328,9 +334,6 @@
   "meta": {
     "topic_hashes": {
       "05dea58a658a": "2026-02-09T12:04:09.481980+00:00",
-      "23c96da701bd": "2026-02-06T11:55:03.674253+00:00",
-      "cebaa3fa116a": "2026-02-06T11:55:03.674354+00:00",
-      "950ff5a7763b": "2026-02-06T11:55:03.674409+00:00",
       "46540dcfd1a5": "2026-02-07T04:54:04.642441+00:00",
       "79db9a7ea5be": "2026-02-07T04:54:04.642542+00:00",
       "e6cb3456a789": "2026-02-07T04:54:04.642640+00:00",
@@ -459,10 +462,16 @@
       "376258d0fef5": "2026-02-20T11:55:00.514323+00:00",
       "3bac9f4d39f5": "2026-02-20T11:55:00.514400+00:00",
       "0934de063611": "2026-02-20T11:55:00.514474+00:00",
-      "a3c66c491eac": "2026-02-20T11:55:00.514521+00:00"
+      "a3c66c491eac": "2026-02-20T11:55:00.514521+00:00",
+      "94a5584b4ad6": "2026-02-21T04:53:52.137580+00:00",
+      "cee918248a4d": "2026-02-21T04:53:52.137672+00:00",
+      "d81dc2485641": "2026-02-21T04:53:52.137754+00:00",
+      "7d148840a093": "2026-02-21T04:53:52.137809+00:00",
+      "584a3f28e13c": "2026-02-21T04:53:52.137855+00:00",
+      "aead98e6c8ef": "2026-02-21T04:53:52.137901+00:00"
     },
-    "last_post_id": "urn:li:share:7430580733259337728",
-    "last_posted_at_utc": "2026-02-20T11:55:00.514559+00:00",
+    "last_post_id": "urn:li:share:7430837137643831296",
+    "last_posted_at_utc": "2026-02-21T04:53:52.137939+00:00",
     "last_format": "digest"
   }
 }

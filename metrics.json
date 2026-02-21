@@ -1,12 +1,12 @@
 {
-  "total_posts": 111,
-  "posts_today": 3,
-  "last_post_date": "2026-02-20",
+  "total_posts": 112,
+  "posts_today": 1,
+  "last_post_date": "2026-02-21",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 77,
+    "digest": 78,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,27 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 12,
-    "thenewstack.io": 75,
+    "thenewstack.io": 78,
     "blog.jetbrains.com": 13,
     "www.bleepingcomputer.com": 13,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 53,
-    "www.snowflake.com": 32,
-    "kdnuggets.com": 18,
+    "towardsdatascience.com": 54,
+    "www.snowflake.com": 33,
+    "kdnuggets.com": 19,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-25",
-      "time": "2025-12-25T13:08:46.318517+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.hashicorp.com"
-      ]
-    },
     {
       "date": "2025-12-26",
       "time": "2025-12-26T04:11:51.574051+00:00",
@@ -961,16 +953,29 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-21T04:53:52.138840+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "www.snowflake.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 84,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nSRE leaders share reliability wins and lessons.\n\nKey developments:\n1. Mississippi medical center closes all clinics after ransomware attack\nContext: The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/\n\n2. The developer as conductor: Leading an orchestra of AI agents with the feature flag baton\nContext: Last month, just a few weeks after Dynatrace finalized its acquisition of DevCycle, Michael Beemer of Dynatrace and Andrew Norris, The post The developer as conductor: Leading...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/feature-flags-ai-agents/\n\n3. Understanding the Chi-Square Test Beyond the Formula\nContext: How categorical data becomes statistical evidence. The post Understanding the Chi-Square Test Beyond the Formula appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 85,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nEngineering visionaries spotlight what matters most this week.\n\nLeadership lessons:\n1. From Monolith to Contract-Driven Data Mesh\nContext: A pragmatic journey using website analytics as a real-world example The post From Monolith to Contract-Driven Data Mesh appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/\n\n2. 7 XGBoost Tricks for More Accurate Predictive Models\nContext: 7 Python tricks that may help make the most of the standalone XGBoost library, particularly in terms of seeking more accurate predictive models.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models\n\n3. Operationalizing AI Agents at Scale in Financial Services\nContext: Learn how FSI is moving beyond siloed AI models. Operationalize governed, autonomous AI agents for risk, compliance and claims with Snowflake Intelligence.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "github.blog",
-    "www.bleepingcomputer.com",
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "kdnuggets.com",
+    "www.snowflake.com",
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-20T11:55:00.516424+00:00"
+  "last_post_timestamp": "2026-02-21T04:53:52.139781+00:00"
 }
