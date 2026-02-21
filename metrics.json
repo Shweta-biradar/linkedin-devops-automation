@@ -1,12 +1,12 @@
 {
-  "total_posts": 113,
-  "posts_today": 2,
+  "total_posts": 114,
+  "posts_today": 3,
   "last_post_date": "2026-02-21",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 79,
+    "digest": 80,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 23,
+    "aws.amazon.com": 24,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -48,15 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-26",
-      "time": "2025-12-26T06:34:41.635151+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.infoq.com",
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-26",
       "time": "2025-12-26T07:07:06.942880+00:00",
@@ -966,13 +957,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-21T11:46:01.489020+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 86,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nAI innovators map the future of intelligent systems.\n\nKey developments:\n1. Donkeys, Not Unicorns\nContext: The New Rules of Entrepreneurship in the Era of Commoditized Magic The post Donkeys, Not Unicorns appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 87,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nEngineering visionaries spotlight what matters most this week.\n\nAutomation strategies:\n1. Build a data pipeline from Google Search Console to Amazon Redshift using AWS Glue\nContext: In this post, we explore how AWS Glue extract, transform, and load (ETL) capabilities connect Google applications and Amazon Redshift, helping you unlock deeper insights and...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-02-21T07:09:45.562572+00:00"
+  "last_post_timestamp": "2026-02-21T11:46:01.489944+00:00"
 }
