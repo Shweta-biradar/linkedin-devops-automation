@@ -170,6 +170,7 @@
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
+    "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
@@ -334,9 +335,6 @@
   "meta": {
     "topic_hashes": {
       "05dea58a658a": "2026-02-09T12:04:09.481980+00:00",
-      "46540dcfd1a5": "2026-02-07T04:54:04.642441+00:00",
-      "79db9a7ea5be": "2026-02-07T04:54:04.642542+00:00",
-      "e6cb3456a789": "2026-02-07T04:54:04.642640+00:00",
       "32530d6a4dc9": "2026-02-07T07:11:10.379088+00:00",
       "69756abb4c44": "2026-02-08T05:17:00.950675+00:00",
       "bded89e7e720": "2026-02-08T05:17:00.950777+00:00",
@@ -468,10 +466,11 @@
       "d81dc2485641": "2026-02-21T04:53:52.137754+00:00",
       "7d148840a093": "2026-02-21T04:53:52.137809+00:00",
       "584a3f28e13c": "2026-02-21T04:53:52.137855+00:00",
-      "aead98e6c8ef": "2026-02-21T04:53:52.137901+00:00"
+      "aead98e6c8ef": "2026-02-21T04:53:52.137901+00:00",
+      "fe37e84e9641": "2026-02-21T07:09:45.560603+00:00"
     },
-    "last_post_id": "urn:li:share:7430837137643831296",
-    "last_posted_at_utc": "2026-02-21T04:53:52.137939+00:00",
+    "last_post_id": "urn:li:share:7430871335829983232",
+    "last_posted_at_utc": "2026-02-21T07:09:45.560692+00:00",
     "last_format": "digest"
   }
 }

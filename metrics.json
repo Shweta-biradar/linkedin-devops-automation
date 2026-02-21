@@ -1,12 +1,12 @@
 {
-  "total_posts": 112,
-  "posts_today": 1,
+  "total_posts": 113,
+  "posts_today": 2,
   "last_post_date": "2026-02-21",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 78,
+    "digest": 79,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 13,
     "www.bleepingcomputer.com": 13,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 54,
+    "towardsdatascience.com": 55,
     "www.snowflake.com": 33,
     "kdnuggets.com": 19,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-26",
-      "time": "2025-12-26T04:11:51.574051+00:00",
-      "format": "case_study",
-      "sources": [
-        "kubernetes.io"
-      ]
-    },
     {
       "date": "2025-12-26",
       "time": "2025-12-26T06:34:41.635151+00:00",
@@ -966,16 +958,21 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-21T07:09:45.561666+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 85,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nEngineering visionaries spotlight what matters most this week.\n\nLeadership lessons:\n1. From Monolith to Contract-Driven Data Mesh\nContext: A pragmatic journey using website analytics as a real-world example The post From Monolith to Contract-Driven Data Mesh appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/\n\n2. 7 XGBoost Tricks for More Accurate Predictive Models\nContext: 7 Python tricks that may help make the most of the standalone XGBoost library, particularly in terms of seeking more accurate predictive models.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models\n\n3. Operationalizing AI Agents at Scale in Financial Services\nContext: Learn how FSI is moving beyond siloed AI models. Operationalize governed, autonomous AI agents for risk, compliance and claims with Snowflake Intelligence.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 86,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nAI innovators map the future of intelligent systems.\n\nKey developments:\n1. Donkeys, Not Unicorns\nContext: The New Rules of Entrepreneurship in the Era of Commoditized Magic The post Donkeys, Not Unicorns appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
-    "www.snowflake.com",
-    "thenewstack.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-21T04:53:52.139781+00:00"
+  "last_post_timestamp": "2026-02-21T07:09:45.562572+00:00"
 }
