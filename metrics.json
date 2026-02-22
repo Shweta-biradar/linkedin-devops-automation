@@ -1,12 +1,12 @@
 {
-  "total_posts": 115,
-  "posts_today": 1,
+  "total_posts": 116,
+  "posts_today": 2,
   "last_post_date": "2026-02-22",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 81,
+    "digest": 82,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 15,
     "martinfowler.com": 2,
     "towardsdatascience.com": 55,
-    "www.snowflake.com": 33,
+    "www.snowflake.com": 34,
     "kdnuggets.com": 19,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-26",
-      "time": "2025-12-26T08:23:14.856862+00:00",
-      "format": "digest",
-      "sources": [
-        "kubernetes.io"
-      ]
-    },
     {
       "date": "2025-12-26",
       "time": "2025-12-26T09:28:34.436684+00:00",
@@ -968,14 +960,21 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-22",
+      "time": "2026-02-22T07:13:24.055666+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 88,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nPlatform architects surface actionable insights for resilient systems.\n\nObservability insights:\n1. Predator spyware hooks iOS SpringBoard to hide mic, camera activity\nContext: Intellexa's Predator spyware can hide iOS recording indicators while secretly streaming camera and microphone feeds to its operators. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/\n\n2. Amazon: AI-assisted hacker breached 600 Fortinet firewalls in 5 weeks\nContext: Amazon is warning that a Russian-speaking hacker used multiple generative AI services as part of a campaign that breached more than 600 FortiGate firewalls across 55 countries...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/\n\n3. Beyond the vibe code: The steep mountain MCP must climb to reach production\nContext: ...\nOne thing I didn&#8217;t do last year was go to any Model Context Protocol (MCP) conferences, largely because I couldn&#8217;t The post Beyond the vibe code: The steep mountain MCP must climb to r\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/model-context-protocol-evolution/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
+  "posts_created": 89,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nSecurity champions share what shapes the future of operations.\n\nGlobal tech trends:\n1. Startup Spotlight: Streamkap Powers Real-Time Data for the AI Era\nContext: Streamkap simplifies real-time streaming into Snowflake so teams can build low-latency apps and insights without heavy ops - reliable pipelines, lower overhead.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "www.bleepingcomputer.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-22T05:06:47.171732+00:00"
+  "last_post_timestamp": "2026-02-22T07:13:24.056599+00:00"
 }
