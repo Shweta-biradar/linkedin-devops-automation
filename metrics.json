@@ -1,12 +1,12 @@
 {
-  "total_posts": 116,
-  "posts_today": 2,
+  "total_posts": 117,
+  "posts_today": 3,
   "last_post_date": "2026-02-22",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 82,
+    "digest": 83,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 15,
     "martinfowler.com": 2,
     "towardsdatascience.com": 55,
-    "www.snowflake.com": 34,
+    "www.snowflake.com": 35,
     "kdnuggets.com": 19,
     "techcrunch.com": 5,
     "stackoverflow.blog": 1,
@@ -48,15 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-26",
-      "time": "2025-12-26T09:28:34.436684+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.infoq.com",
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-26",
       "time": "2025-12-26T11:05:38.684595+00:00",
@@ -968,13 +959,21 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-22",
+      "time": "2026-02-22T11:44:49.194902+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 89,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nSecurity champions share what shapes the future of operations.\n\nGlobal tech trends:\n1. Startup Spotlight: Streamkap Powers Real-Time Data for the AI Era\nContext: Streamkap simplifies real-time streaming into Snowflake so teams can build low-latency apps and insights without heavy ops - reliable pipelines, lower overhead.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 90,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSignal vs noise:\n1. Startup Spotlight: Streamkap Powers Real-Time Data for the AI Era\nContext: Streamkap simplifies real-time streaming into Snowflake so teams can build low-latency apps and insights without heavy ops - reliable pipelines, lower overhead.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-22T07:13:24.056599+00:00"
+  "last_post_timestamp": "2026-02-22T11:44:49.195818+00:00"
 }
