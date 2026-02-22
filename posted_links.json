@@ -100,6 +100,7 @@
     "https://thenewstack.io/chainguard-and-the-hunt-for-truly-zero-cve-container-images/",
     "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
     "https://thenewstack.io/ciso-identity-complexity-strategy/",
+    "https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
     "https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/",
     "https://thenewstack.io/docker-versus-nix-the-quest-for-true-reproducibility/",
@@ -128,6 +129,7 @@
     "https://thenewstack.io/matan-paul-shetrit-interview/",
     "https://thenewstack.io/mature-itops-framework/",
     "https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/",
+    "https://thenewstack.io/model-context-protocol-evolution/",
     "https://thenewstack.io/modernizing-itops-incident-management/",
     "https://thenewstack.io/moltbook-the-singularity-or-hype/",
     "https://thenewstack.io/multimodal-rag-hybrid-search/",
@@ -215,6 +217,7 @@
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
+    "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
     "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/",
     "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
     "https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/",
@@ -222,6 +225,7 @@
     "https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/",
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
     "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
+    "https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/",
     "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
     "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
     "https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/",
@@ -466,10 +470,14 @@
       "7d148840a093": "2026-02-21T04:53:52.137809+00:00",
       "584a3f28e13c": "2026-02-21T04:53:52.137855+00:00",
       "aead98e6c8ef": "2026-02-21T04:53:52.137901+00:00",
-      "fe37e84e9641": "2026-02-21T07:09:45.560603+00:00"
+      "fe37e84e9641": "2026-02-21T07:09:45.560603+00:00",
+      "77089ce7f3d8": "2026-02-22T05:06:47.169547+00:00",
+      "686e78a2c5df": "2026-02-22T05:06:47.169688+00:00",
+      "9548a65cd17c": "2026-02-22T05:06:47.169755+00:00",
+      "024b23324d02": "2026-02-22T05:06:47.169805+00:00"
     },
-    "last_post_id": "urn:li:share:7430940860290203648",
-    "last_posted_at_utc": "2026-02-21T11:46:01.488104+00:00",
+    "last_post_id": "urn:li:share:7431202776313122816",
+    "last_posted_at_utc": "2026-02-22T05:06:47.169845+00:00",
     "last_format": "digest"
   }
 }
