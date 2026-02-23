@@ -1,12 +1,12 @@
 {
-  "total_posts": 119,
-  "posts_today": 2,
+  "total_posts": 120,
+  "posts_today": 3,
   "last_post_date": "2026-02-23",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 85,
+    "digest": 86,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 14,
     "www.bleepingcomputer.com": 16,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 55,
+    "towardsdatascience.com": 56,
     "www.snowflake.com": 35,
     "kdnuggets.com": 19,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-26",
-      "time": "2025-12-26T11:38:23.402526+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-26",
       "time": "2025-12-26T12:03:45.449781+00:00",
@@ -969,13 +961,21 @@
       "sources": [
         "blog.jetbrains.com"
       ]
+    },
+    {
+      "date": "2026-02-23",
+      "time": "2026-02-23T12:00:18.313366+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 92,
-  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nObservability advocates surface what teams measure and why.\n\nPlatform wins:\n1. LangChain Python Tutorial: 2026\u2019s Complete Guide\nContext: ...\nIf you\u2019ve read the blog post How to Build Chatbots With LangChain, you may want to know more about LangChain. This blog post will dive deeper into what LangChain offers and guide you through a few\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 93,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. From Monolith to Contract-Driven Data Mesh\nContext: A pragmatic journey using website analytics as a real-world example The post From Monolith to Contract-Driven Data Mesh appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-23T07:38:59.628573+00:00"
+  "last_post_timestamp": "2026-02-23T12:00:18.314292+00:00"
 }
