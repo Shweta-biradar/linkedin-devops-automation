@@ -148,6 +148,7 @@
     "https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/",
     "https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/",
     "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
+    "https://thenewstack.io/this-simple-infrastructure-gap-is-holding-back-ai-productivity/",
     "https://thenewstack.io/tidb-and-the-rise-of-the-ai-native-database/",
     "https://thenewstack.io/top-vibe-coding-countries/",
     "https://thenewstack.io/twilio-a2h-protocol-launch/",
@@ -155,6 +156,7 @@
     "https://thenewstack.io/vibe-coding-spec-driven/",
     "https://thenewstack.io/vs-code-becomes-multi-agent-command-center-for-developers/",
     "https://thenewstack.io/want-an-easy-way-to-manage-podman-containers-here-it-is/",
+    "https://thenewstack.io/wasm-vs-javascript-who-wins-at-a-million-rows/",
     "https://thenewstack.io/when-ai-fails-the-new-reality-of-incident-management/",
     "https://thenewstack.io/why-enterprise-businesses-should-adopt-immutable-linux-for-the-desktop/",
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
@@ -218,6 +220,7 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
     "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
+    "https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/",
     "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/",
     "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
     "https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/",
@@ -469,10 +472,13 @@
       "77089ce7f3d8": "2026-02-22T05:06:47.169547+00:00",
       "686e78a2c5df": "2026-02-22T05:06:47.169688+00:00",
       "9548a65cd17c": "2026-02-22T05:06:47.169755+00:00",
-      "024b23324d02": "2026-02-22T05:06:47.169805+00:00"
+      "024b23324d02": "2026-02-22T05:06:47.169805+00:00",
+      "237ec40a6a7e": "2026-02-23T05:15:59.519765+00:00",
+      "be9df5e4d2e9": "2026-02-23T05:15:59.519867+00:00",
+      "5c6b7265d627": "2026-02-23T05:15:59.519958+00:00"
     },
-    "last_post_id": "urn:li:share:7431302944999989248",
-    "last_posted_at_utc": "2026-02-22T11:44:49.193985+00:00",
+    "last_post_id": "urn:li:share:7431567478763216896",
+    "last_posted_at_utc": "2026-02-23T05:15:59.520040+00:00",
     "last_format": "digest"
   }
 }
