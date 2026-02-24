@@ -12,6 +12,7 @@
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
+    "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
@@ -29,6 +30,7 @@
     "https://blog.checkpoint.com/research/phishing-campaign-leverages-trusted-google-cloud-automation-capabilities-to-evade-detection/",
     "https://blog.google/products/google-cloud/ai-business-trends-report-2026/",
     "https://blog.google/technology/ai/google-ai-news-recap-2025/",
+    "https://blog.jetbrains.com/ai/2026/02/ai-tool-switching-is-stealth-friction-beat-it-at-the-access-layer/",
     "https://blog.jetbrains.com/ai/2026/02/are-we-having-the-wrong-ai-dreams/",
     "https://blog.jetbrains.com/ai/2026/02/enhanced-ai-management-and-analytics-for-organizations/",
     "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/",
@@ -164,6 +166,7 @@
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
+    "https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/",
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
@@ -316,6 +319,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
@@ -331,6 +335,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-ddi",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startups-building-ai-snowflake",
@@ -341,7 +346,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "05dea58a658a": "2026-02-09T12:04:09.481980+00:00",
       "cd423e5f4422": "2026-02-10T05:19:39.403016+00:00",
       "7ac18c13ad6b": "2026-02-10T05:19:39.403123+00:00",
       "bfe71e39ca51": "2026-02-10T05:19:39.403199+00:00",
@@ -474,10 +478,16 @@
       "024b23324d02": "2026-02-22T05:06:47.169805+00:00",
       "237ec40a6a7e": "2026-02-23T05:15:59.519765+00:00",
       "be9df5e4d2e9": "2026-02-23T05:15:59.519867+00:00",
-      "5c6b7265d627": "2026-02-23T05:15:59.519958+00:00"
+      "5c6b7265d627": "2026-02-23T05:15:59.519958+00:00",
+      "3e05f25fb1ac": "2026-02-24T05:10:50.169160+00:00",
+      "440b0fa93e42": "2026-02-24T05:10:50.169271+00:00",
+      "1fa0ebb2ceb3": "2026-02-24T05:10:50.169355+00:00",
+      "7aaa0b550f61": "2026-02-24T05:10:50.169453+00:00",
+      "8f416ee528e0": "2026-02-24T05:10:50.169531+00:00",
+      "5c8eb53c94a0": "2026-02-24T05:10:50.169587+00:00"
     },
-    "last_post_id": "urn:li:share:7431669229822754816",
-    "last_posted_at_utc": "2026-02-23T12:00:18.312485+00:00",
+    "last_post_id": "urn:li:share:7431928571155103744",
+    "last_posted_at_utc": "2026-02-24T05:10:50.169627+00:00",
     "last_format": "digest"
   }
 }
