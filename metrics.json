@@ -1,12 +1,12 @@
 {
-  "total_posts": 122,
-  "posts_today": 2,
+  "total_posts": 123,
+  "posts_today": 3,
   "last_post_date": "2026-02-24",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 88,
+    "digest": 89,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -36,28 +36,18 @@
     "netflixtechblog.medium.com": 1,
     "github.blog": 12,
     "thenewstack.io": 85,
-    "blog.jetbrains.com": 15,
+    "blog.jetbrains.com": 16,
     "www.bleepingcomputer.com": 16,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 60,
+    "towardsdatascience.com": 61,
     "www.snowflake.com": 37,
     "kdnuggets.com": 19,
     "techcrunch.com": 5,
-    "stackoverflow.blog": 1,
+    "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-27",
-      "time": "2025-12-27T06:54:43.070891+00:00",
-      "format": "digest",
-      "sources": [
-        "www.infoq.com",
-        "www.infoq.com",
-        "www.infoq.com"
-      ]
-    },
     {
       "date": "2025-12-28",
       "time": "2025-12-28T06:54:25.542685+00:00",
@@ -978,14 +968,25 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-24",
+      "time": "2026-02-24T12:01:19.033210+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com",
+        "stackoverflow.blog",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 95,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nObservability advocates surface what teams measure and why.\n\nPlatform wins:\n1. The Pentagon\u2019s Anthropic problem is every enterprise\u2019s AI problem\nContext: ...\nThe Pentagon&#8217;s&#160;standoff with Anthropic raises a question for any CTO building on a single frontier AI model: If access changed The post The Pentagon&#8217;s Anthropic problem is every e\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/pentagon-anthropic-model-orchestration/\n\n2. AWS creates a sandbox for its agent experiments\nContext: (AWS) is launching a dedicated GitHub organization for its most experimental agentic AI work. On Monday, the company launched Strands The post AWS creates a sandbox for its...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://thenewstack.io/aws-strands-labs-launch/\n\n3. Build Effective Internal Tooling with Claude Code\nContext: Use Claude Code to quickly build completely personalized applications The post Build Effective Internal Tooling with Claude Code appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 96,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCloud-native breakthroughs:\n1. #1 on Spider 2.0\u2013DBT Benchmark \u2013 How Databao Agent Did It\nContext: ...\nAs of February 2026, Databao Agent ranks #1 in the Spider 2.0\u2013DBT benchmark. This ranking measures how well agents can operate in a real dbt project, including reading the repository, understandin\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/02/how-databao-agent-ranked-1-spider-2-0-dbt/\n\n2. Dogfood so nutritious it\u2019s building the future of SDLCs\nContext: Ryan welcomes Thibault Sottiaux, OpenAI\u2019s engineering lead on Codex, to discuss how the Codex team dogfoods Codex to build Codex, what distinguishes an agentic coding tool from...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://stackoverflow.blog/2026/02/24/dogfood-so-nutritious-it-s-building-the-future-of-sdlcs/\n\n3. AI Bots Formed a Cartel. No One Told Them To.\nContext: Inside the research that shows algorithmic price-fixing isn't a bug in the code. It's a feature of the math. The post AI Bots Formed a Cartel. No One Told Them To.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
+    "stackoverflow.blog",
+    "blog.jetbrains.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-24T07:35:25.287962+00:00"
+  "last_post_timestamp": "2026-02-24T12:01:19.034193+00:00"
 }

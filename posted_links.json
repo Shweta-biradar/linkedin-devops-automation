@@ -36,6 +36,7 @@
     "https://blog.jetbrains.com/ai/2026/02/the-best-ai-models-for-coding-accuracy-integration-and-developer-fit/",
     "https://blog.jetbrains.com/ai/2026/02/the-most-popular-ai-tools-what-developers-use-and-why/",
     "https://blog.jetbrains.com/databao/2026/02/databao-becomes-osi-partner/",
+    "https://blog.jetbrains.com/databao/2026/02/how-databao-agent-ranked-1-spider-2-0-dbt/",
     "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
@@ -76,6 +77,7 @@
     "https://powerbi.microsoft.com/en-us/blog/deprecation-of-old-excel-and-csv-import-experience-in-power-bi-service/",
     "https://snyk.io/blog/shai-hulud-3-0/",
     "https://stackoverflow.blog/2026/02/02/what-s-new-at-stack-overflow-february-2026/",
+    "https://stackoverflow.blog/2026/02/24/dogfood-so-nutritious-it-s-building-the-future-of-sdlcs/",
     "https://techcrunch.com/2026/02/02/linq-raises-20m-to-enable-ai-assistants-to-live-within-messaging-apps/",
     "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
     "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
@@ -168,6 +170,7 @@
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
+    "https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/",
     "https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/",
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
@@ -351,12 +354,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "d55f8fe2f614": "2026-02-10T07:39:08.606516+00:00",
-      "d898ea09aadb": "2026-02-10T07:39:08.606640+00:00",
-      "d1e303b5ee21": "2026-02-10T07:39:08.606792+00:00",
-      "4541c63cbdea": "2026-02-10T07:39:08.606873+00:00",
-      "720b5225ac8d": "2026-02-10T07:39:08.606952+00:00",
-      "a0d4476b5e21": "2026-02-10T07:39:08.607036+00:00",
       "1c45f53f51a1": "2026-02-10T12:08:16.666933+00:00",
       "812ee35182c2": "2026-02-12T12:02:20.164388+00:00",
       "958e5710b932": "2026-02-11T05:21:11.357622+00:00",
@@ -488,10 +485,13 @@
       "c39f4fbea628": "2026-02-24T07:35:25.285863+00:00",
       "914427e8d63b": "2026-02-24T07:35:25.285918+00:00",
       "0a81c1ab94ff": "2026-02-24T07:35:25.285965+00:00",
-      "41679a902d1a": "2026-02-24T07:35:25.286012+00:00"
+      "41679a902d1a": "2026-02-24T07:35:25.286012+00:00",
+      "1b62efcfc1c8": "2026-02-24T12:01:19.032030+00:00",
+      "c13691b5702c": "2026-02-24T12:01:19.032151+00:00",
+      "37279a886bd3": "2026-02-24T12:01:19.032220+00:00"
     },
-    "last_post_id": "urn:li:share:7431964955266068481",
-    "last_posted_at_utc": "2026-02-24T07:35:25.286051+00:00",
+    "last_post_id": "urn:li:share:7432031870244020224",
+    "last_posted_at_utc": "2026-02-24T12:01:19.032270+00:00",
     "last_format": "digest"
   }
 }
