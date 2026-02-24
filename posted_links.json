@@ -95,6 +95,7 @@
     "https://thenewstack.io/anthropic-agent-sdk-confusion/",
     "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
     "https://thenewstack.io/anthropics-opus-4-6-is-a-step-change-for-the-enterprise/",
+    "https://thenewstack.io/aws-strands-labs-launch/",
     "https://thenewstack.io/beating-the-rot-and-getting-stuff-done/",
     "https://thenewstack.io/beyond-automation-dynatrace-unveils-agentic-ai-that-fixes-problems-on-its-own/",
     "https://thenewstack.io/bluefin-linux-chromeos-simplicity-meets-linux-power/",
@@ -140,6 +141,7 @@
     "https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/",
     "https://thenewstack.io/openais-new-codex-spark-is-optimized-for-speed/",
     "https://thenewstack.io/openclaw-gsd/",
+    "https://thenewstack.io/pentagon-anthropic-model-orchestration/",
     "https://thenewstack.io/pg_lake-comes-to-snowflake-postgres-what-it-means-for-open-standards/",
     "https://thenewstack.io/production-ai-infrastructure-guide/",
     "https://thenewstack.io/prometheus-and-opentelemetry-love-each-other-more-than-in-the-past/",
@@ -169,6 +171,7 @@
     "https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/",
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
+    "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/",
@@ -188,6 +191,7 @@
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
+    "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
@@ -197,6 +201,7 @@
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
+    "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
@@ -346,12 +351,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "cd423e5f4422": "2026-02-10T05:19:39.403016+00:00",
-      "7ac18c13ad6b": "2026-02-10T05:19:39.403123+00:00",
-      "bfe71e39ca51": "2026-02-10T05:19:39.403199+00:00",
-      "4cd9474e9e1d": "2026-02-10T05:19:39.403281+00:00",
-      "408f89d95ccc": "2026-02-10T05:19:39.403360+00:00",
-      "21afee237d7c": "2026-02-10T05:19:39.403424+00:00",
       "d55f8fe2f614": "2026-02-10T07:39:08.606516+00:00",
       "d898ea09aadb": "2026-02-10T07:39:08.606640+00:00",
       "d1e303b5ee21": "2026-02-10T07:39:08.606792+00:00",
@@ -484,10 +483,15 @@
       "1fa0ebb2ceb3": "2026-02-24T05:10:50.169355+00:00",
       "7aaa0b550f61": "2026-02-24T05:10:50.169453+00:00",
       "8f416ee528e0": "2026-02-24T05:10:50.169531+00:00",
-      "5c8eb53c94a0": "2026-02-24T05:10:50.169587+00:00"
+      "5c8eb53c94a0": "2026-02-24T05:10:50.169587+00:00",
+      "d9d21425c912": "2026-02-24T07:35:25.285765+00:00",
+      "c39f4fbea628": "2026-02-24T07:35:25.285863+00:00",
+      "914427e8d63b": "2026-02-24T07:35:25.285918+00:00",
+      "0a81c1ab94ff": "2026-02-24T07:35:25.285965+00:00",
+      "41679a902d1a": "2026-02-24T07:35:25.286012+00:00"
     },
-    "last_post_id": "urn:li:share:7431928571155103744",
-    "last_posted_at_utc": "2026-02-24T05:10:50.169627+00:00",
+    "last_post_id": "urn:li:share:7431964955266068481",
+    "last_posted_at_utc": "2026-02-24T07:35:25.286051+00:00",
     "last_format": "digest"
   }
 }

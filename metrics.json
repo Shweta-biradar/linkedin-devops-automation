@@ -1,12 +1,12 @@
 {
-  "total_posts": 121,
-  "posts_today": 1,
+  "total_posts": 122,
+  "posts_today": 2,
   "last_post_date": "2026-02-24",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 87,
+    "digest": 88,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 12,
-    "thenewstack.io": 83,
+    "thenewstack.io": 85,
     "blog.jetbrains.com": 15,
     "www.bleepingcomputer.com": 16,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 57,
+    "towardsdatascience.com": 60,
     "www.snowflake.com": 37,
     "kdnuggets.com": 19,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-27",
-      "time": "2025-12-27T04:47:39.598573+00:00",
-      "format": "lessons_learned",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2025-12-27",
       "time": "2025-12-27T06:54:43.070891+00:00",
@@ -974,17 +966,26 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-24",
+      "time": "2026-02-24T07:35:25.287000+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 94,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nAutomation architects drive efficiency and scale across industries.\n\nStrategic highlights:\n1. Cortex Code CLI Expands Towards Supporting Any Data, Anywhere\nContext: Cortex Code CLI, in addition to supporting Snowflake workflows end to end, is now expanding native support for all data systems, starting with data engineering systems dbt and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support\n\n2. AI Tool Switching Is Stealth Friction \u2013 Beat It at the Access Layer\nContext: ...\nHas your team&#8217;s sprint velocity actually improved since you approved all those AI coding tools? If not, recent research by JetBrains and UC Irvine shows your developers may be facing a new d\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/02/ai-tool-switching-is-stealth-friction-beat-it-at-the-access-layer/\n\n3. Startup Spotlight: Alquant\nContext: Learn how Alquant built on Snowflake to help financial companies turn data from multiple sources into usable insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 95,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nObservability advocates surface what teams measure and why.\n\nPlatform wins:\n1. The Pentagon\u2019s Anthropic problem is every enterprise\u2019s AI problem\nContext: ...\nThe Pentagon&#8217;s&#160;standoff with Anthropic raises a question for any CTO building on a single frontier AI model: If access changed The post The Pentagon&#8217;s Anthropic problem is every e\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/pentagon-anthropic-model-orchestration/\n\n2. AWS creates a sandbox for its agent experiments\nContext: (AWS) is launching a dedicated GitHub organization for its most experimental agentic AI work. On Monday, the company launched Strands The post AWS creates a sandbox for its...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://thenewstack.io/aws-strands-labs-launch/\n\n3. Build Effective Internal Tooling with Claude Code\nContext: Use Claude Code to quickly build completely personalized applications The post Build Effective Internal Tooling with Claude Code appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "thenewstack.io",
-    "aws.amazon.com",
-    "www.snowflake.com",
-    "towardsdatascience.com",
-    "blog.jetbrains.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-24T05:10:50.171472+00:00"
+  "last_post_timestamp": "2026-02-24T07:35:25.287962+00:00"
 }
