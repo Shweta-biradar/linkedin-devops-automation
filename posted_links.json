@@ -196,6 +196,7 @@
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
+    "https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
@@ -367,12 +368,6 @@
   "meta": {
     "topic_hashes": {
       "812ee35182c2": "2026-02-12T12:02:20.164388+00:00",
-      "392bcce7a107": "2026-02-11T07:36:58.368270+00:00",
-      "5e8f10007f64": "2026-02-11T07:36:58.368402+00:00",
-      "007bdf0405d8": "2026-02-11T07:36:58.368485+00:00",
-      "6ead4c47adc9": "2026-02-11T07:36:58.368547+00:00",
-      "9795e7eb890d": "2026-02-11T07:36:58.368610+00:00",
-      "1d8e12fd755a": "2026-02-11T07:36:58.368657+00:00",
       "225786357aad": "2026-02-15T07:13:56.353377+00:00",
       "967ac8911125": "2026-02-11T12:04:52.406584+00:00",
       "f8a7ee366d00": "2026-02-12T05:17:23.790565+00:00",
@@ -506,10 +501,11 @@
       "b2ee8bb45f8f": "2026-02-25T07:35:30.364712+00:00",
       "7f15e92ebb94": "2026-02-25T07:35:30.364772+00:00",
       "d492487b4937": "2026-02-25T07:35:30.364823+00:00",
-      "ce02cac44bc0": "2026-02-25T07:35:30.364875+00:00"
+      "ce02cac44bc0": "2026-02-25T07:35:30.364875+00:00",
+      "6105ba28e23f": "2026-02-25T12:00:56.813474+00:00"
     },
-    "last_post_id": "urn:li:share:7432327366460268544",
-    "last_posted_at_utc": "2026-02-25T07:35:30.364917+00:00",
+    "last_post_id": "urn:li:share:7432394166996795393",
+    "last_posted_at_utc": "2026-02-25T12:00:56.813568+00:00",
     "last_format": "digest"
   }
 }

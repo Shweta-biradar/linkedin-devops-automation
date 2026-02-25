@@ -1,12 +1,12 @@
 {
-  "total_posts": 125,
-  "posts_today": 2,
+  "total_posts": 126,
+  "posts_today": 3,
   "last_post_date": "2026-02-25",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 91,
+    "digest": 92,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 17,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 64,
+    "towardsdatascience.com": 65,
     "www.snowflake.com": 37,
     "kdnuggets.com": 20,
     "techcrunch.com": 5,
@@ -48,12 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-29",
-      "time": "2025-12-29T11:42:35.428562+00:00",
-      "format": "digest",
-      "sources": []
-    },
     {
       "date": "2025-12-30",
       "time": "2025-12-30T04:15:42.263053+00:00",
@@ -988,15 +982,21 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-25",
+      "time": "2026-02-25T12:00:56.814408+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 98,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nObservability advocates surface what teams measure and why.\n\nThis week's standouts:\n1. OpenTelemetry roadmap: Sampling rates and collector improvements ahead\nContext: OpenTelemetry has evolved over the last few years to become the de facto standard of choice for a rapidly growing The post OpenTelemetry roadmap: Sampling rates and collector...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/opentelemetry-roadmap-sampling-rates-and-collector-improvements-ahead/\n\n2. Optimizing Token Generation in PyTorch Decoder Models\nContext: Hiding host-device synchronization via CUDA stream interleaving The post Optimizing Token Generation in PyTorch Decoder Models appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/\n\n3. Multi-agent workflows often fail. Here\u2019s how to engineer ones that don\u2019t.\nContext: Most multi-agent workflow failures come down to missing structure, not model capability. Learn the three engineering patterns that make agent systems reliable.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 99,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCollaboration wins:\n1. How to Define the Modeling Scope of an Internal Credit Risk Model\nContext: Dataset construction for Internal Ratings-Based (IRB) Probability of Default (PD) models The post How to Define the Modeling Scope of an Internal Credit Risk Model appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "towardsdatascience.com",
-    "github.blog"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-25T07:35:30.366899+00:00"
+  "last_post_timestamp": "2026-02-25T12:00:56.815322+00:00"
 }
