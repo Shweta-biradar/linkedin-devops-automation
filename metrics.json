@@ -1,12 +1,12 @@
 {
-  "total_posts": 123,
-  "posts_today": 3,
-  "last_post_date": "2026-02-24",
+  "total_posts": 124,
+  "posts_today": 1,
+  "last_post_date": "2026-02-25",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 89,
+    "digest": 90,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,27 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 12,
-    "thenewstack.io": 85,
-    "blog.jetbrains.com": 16,
-    "www.bleepingcomputer.com": 16,
+    "thenewstack.io": 86,
+    "blog.jetbrains.com": 17,
+    "www.bleepingcomputer.com": 17,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 61,
+    "towardsdatascience.com": 62,
     "www.snowflake.com": 37,
-    "kdnuggets.com": 19,
+    "kdnuggets.com": 20,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
-    "powerbi.microsoft.com": 1
+    "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-28",
-      "time": "2025-12-28T06:54:25.542685+00:00",
-      "format": "technical_deep_dives",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2025-12-29",
       "time": "2025-12-29T04:35:50.091093+00:00",
@@ -978,15 +970,31 @@
         "stackoverflow.blog",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-25",
+      "time": "2026-02-25T05:14:10.300898+00:00",
+      "format": "digest",
+      "sources": [
+        "www.bleepingcomputer.com",
+        "powerbi.microsoft.com",
+        "blog.jetbrains.com",
+        "kdnuggets.com",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 96,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCloud-native breakthroughs:\n1. #1 on Spider 2.0\u2013DBT Benchmark \u2013 How Databao Agent Did It\nContext: ...\nAs of February 2026, Databao Agent ranks #1 in the Spider 2.0\u2013DBT benchmark. This ranking measures how well agents can operate in a real dbt project, including reading the repository, understandin\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/02/how-databao-agent-ranked-1-spider-2-0-dbt/\n\n2. Dogfood so nutritious it\u2019s building the future of SDLCs\nContext: Ryan welcomes Thibault Sottiaux, OpenAI\u2019s engineering lead on Codex, to discuss how the Codex team dogfoods Codex to build Codex, what distinguishes an agentic coding tool from...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://stackoverflow.blog/2026/02/24/dogfood-so-nutritious-it-s-building-the-future-of-sdlcs/\n\n3. AI Bots Formed a Cartel. No One Told Them To.\nContext: Inside the research that shows algorithmic price-fixing isn't a bug in the code. It's a feature of the math. The post AI Bots Formed a Cartel. No One Told Them To.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 97,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nSecurity signals:\n1. Microsoft adds Copilot data controls to all storage locations\nContext: Microsoft is expanding data loss prevention (DLP) controls to block the Microsoft 365 Copilot AI assistant from processing confidential Word, Excel, and PowerPoint documents,...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/\n\n2. Power BI February 2026 Feature Summary\nContext: ...\nWelcome to the February Power BI update! Power BI\u2019s February 2026 update is here, and it\u2019s a good one. This release brings smarter Copilot and AI experiences, more flexible ways to interact with r\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/\n\n3. Beyond the Build Log: How TeamCity Provides Actionable Build Insights\nContext: ...\nThis article was brought to you by Kumar Harsh, draft.dev. Where there is a CI/CD pipeline, there will be build logs. And while they&#8217;re important, anyone who&#8217;s stared at one knows the\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "stackoverflow.blog",
     "blog.jetbrains.com",
-    "towardsdatascience.com"
+    "www.bleepingcomputer.com",
+    "towardsdatascience.com",
+    "thenewstack.io",
+    "kdnuggets.com",
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-02-24T12:01:19.034193+00:00"
+  "last_post_timestamp": "2026-02-25T05:14:10.301868+00:00"
 }

@@ -44,6 +44,7 @@
     "https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/",
     "https://blog.jetbrains.com/pycharm/2026/02/python-unplugged-on-pytv/",
     "https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/",
+    "https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/",
     "https://blog.qualys.com/category/product-tech",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
     "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
@@ -75,6 +76,7 @@
     "https://netflixtechblog.medium.com/towards-generalizable-and-efficient-large-scale-generative-recommenders-a7db648aa257?source=rss-c3aeaf49d8a4------2",
     "https://newrelic.com/blog/observability/aws-reinvent-2025-updates",
     "https://powerbi.microsoft.com/en-us/blog/deprecation-of-old-excel-and-csv-import-experience-in-power-bi-service/",
+    "https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/",
     "https://snyk.io/blog/shai-hulud-3-0/",
     "https://stackoverflow.blog/2026/02/02/what-s-new-at-stack-overflow-february-2026/",
     "https://stackoverflow.blog/2026/02/24/dogfood-so-nutritious-it-s-building-the-future-of-sdlcs/",
@@ -94,6 +96,7 @@
     "https://thenewstack.io/ai-ready-infrastructure/",
     "https://thenewstack.io/ai-strategy-api-sediment/",
     "https://thenewstack.io/ai-velocity-debt-accelerator/",
+    "https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/",
     "https://thenewstack.io/anthropic-agent-sdk-confusion/",
     "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
     "https://thenewstack.io/anthropics-opus-4-6-is-a-step-change-for-the-enterprise/",
@@ -200,6 +203,7 @@
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
+    "https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
@@ -228,6 +232,7 @@
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
     "https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
     "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-teams-feature-will-let-you-report-suspicious-calls/",
     "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
@@ -302,6 +307,7 @@
     "https://www.infoq.com/presentations/llm-ai-africa/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
+    "https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
     "https://www.kdnuggets.com/7-python-eda-tricks-to-find-and-fix-data-issues",
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
@@ -354,7 +360,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "1c45f53f51a1": "2026-02-10T12:08:16.666933+00:00",
       "812ee35182c2": "2026-02-12T12:02:20.164388+00:00",
       "958e5710b932": "2026-02-11T05:21:11.357622+00:00",
       "d00c721b298e": "2026-02-11T05:21:11.357677+00:00",
@@ -488,10 +493,16 @@
       "41679a902d1a": "2026-02-24T07:35:25.286012+00:00",
       "1b62efcfc1c8": "2026-02-24T12:01:19.032030+00:00",
       "c13691b5702c": "2026-02-24T12:01:19.032151+00:00",
-      "37279a886bd3": "2026-02-24T12:01:19.032220+00:00"
+      "37279a886bd3": "2026-02-24T12:01:19.032220+00:00",
+      "47345be033f7": "2026-02-25T05:14:10.299549+00:00",
+      "594a8c211292": "2026-02-25T05:14:10.299629+00:00",
+      "e35eea89affa": "2026-02-25T05:14:10.299714+00:00",
+      "272ff9bed3fb": "2026-02-25T05:14:10.299788+00:00",
+      "ee5390592b6a": "2026-02-25T05:14:10.299865+00:00",
+      "657f2ada90b0": "2026-02-25T05:14:10.299912+00:00"
     },
-    "last_post_id": "urn:li:share:7432031870244020224",
-    "last_posted_at_utc": "2026-02-24T12:01:19.032270+00:00",
+    "last_post_id": "urn:li:share:7432291797848211456",
+    "last_posted_at_utc": "2026-02-25T05:14:10.299951+00:00",
     "last_format": "digest"
   }
 }
