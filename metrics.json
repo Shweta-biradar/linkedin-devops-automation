@@ -1,12 +1,12 @@
 {
-  "total_posts": 126,
-  "posts_today": 3,
-  "last_post_date": "2026-02-25",
+  "total_posts": 127,
+  "posts_today": 1,
+  "last_post_date": "2026-02-26",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 92,
+    "digest": 93,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 13,
-    "thenewstack.io": 89,
+    "thenewstack.io": 92,
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 17,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 65,
+    "towardsdatascience.com": 68,
     "www.snowflake.com": 37,
     "kdnuggets.com": 20,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-30",
-      "time": "2025-12-30T04:15:42.263053+00:00",
-      "format": "technical_deep_dives",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2025-12-30",
       "time": "2025-12-30T11:41:57.308672+00:00",
@@ -990,13 +982,27 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-26T05:11:07.043441+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 99,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCollaboration wins:\n1. How to Define the Modeling Scope of an Internal Credit Risk Model\nContext: Dataset construction for Internal Ratings-Based (IRB) Probability of Default (PD) models The post How to Define the Modeling Scope of an Internal Credit Risk Model appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 100,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nObservability insights:\n1. In the driver\u2019s seat: How Google Conductor AI actually stays under control\nContext: Google wants to give developers a comprehensive, functional AI software development toolkit. As such, this month the company has added The post In the driver\u2019s seat: How Google...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/google-conductor-automated-reviews/\n\n2. Scaling Feature Engineering Pipelines with Feast and Ray\nContext: Utilizing feature stores like Feast and distributed compute frameworks like Ray in production machine learning systems The post Scaling Feature Engineering Pipelines with Feast...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/\n\n3. VAST Data tackles the enterprise AI trust gap\nContext: ...\nThe biggest obstacle to shipping AI agents in the enterprise isn&#8217;t model quality. It&#8217;s trust. Or at least that&#8217;s the The post VAST Data tackles the enterprise AI trust gap appear\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/vast-data-ai-trust/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "thenewstack.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-25T12:00:56.815322+00:00"
+  "last_post_timestamp": "2026-02-26T05:11:07.044392+00:00"
 }
