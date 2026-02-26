@@ -229,6 +229,7 @@
     "https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
+    "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
@@ -376,12 +377,6 @@
     "topic_hashes": {
       "812ee35182c2": "2026-02-12T12:02:20.164388+00:00",
       "225786357aad": "2026-02-15T07:13:56.353377+00:00",
-      "0832543e4609": "2026-02-12T07:36:46.383440+00:00",
-      "221522e4d80d": "2026-02-12T07:36:46.383561+00:00",
-      "d3c880fbd53d": "2026-02-12T07:36:46.383644+00:00",
-      "6ee60a20f804": "2026-02-12T07:36:46.383702+00:00",
-      "15ee1773d16b": "2026-02-12T07:36:46.383760+00:00",
-      "ee8d26cf86b3": "2026-02-12T07:36:46.383829+00:00",
       "175bedda3a72": "2026-02-16T07:38:40.057751+00:00",
       "ddeeed63e766": "2026-02-13T05:13:32.728180+00:00",
       "9c5306eb5777": "2026-02-13T05:13:32.728278+00:00",
@@ -509,10 +504,11 @@
       "192d5e656e3a": "2026-02-26T05:11:07.042448+00:00",
       "f3c1ad05b377": "2026-02-26T05:11:07.042508+00:00",
       "48c725fdc698": "2026-02-26T05:11:07.042564+00:00",
-      "fe55f4081ba0": "2026-02-26T07:33:58.881646+00:00"
+      "fe55f4081ba0": "2026-02-26T07:33:58.881646+00:00",
+      "8089efdc6d64": "2026-02-26T12:01:37.199808+00:00"
     },
-    "last_post_id": "urn:li:share:7432689370769399808",
-    "last_posted_at_utc": "2026-02-26T07:33:58.881730+00:00",
+    "last_post_id": "urn:li:share:7432756724442488832",
+    "last_posted_at_utc": "2026-02-26T12:01:37.199896+00:00",
     "last_format": "digest"
   }
 }

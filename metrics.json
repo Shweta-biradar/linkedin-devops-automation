@@ -1,12 +1,12 @@
 {
-  "total_posts": 128,
-  "posts_today": 2,
+  "total_posts": 129,
+  "posts_today": 3,
   "last_post_date": "2026-02-26",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 94,
+    "digest": 95,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 17,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 68,
+    "towardsdatascience.com": 69,
     "www.snowflake.com": 37,
     "kdnuggets.com": 20,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-31",
-      "time": "2025-12-31T04:15:37.232956+00:00",
-      "format": "industry_predictions",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2025-12-31",
       "time": "2025-12-31T11:39:02.057034+00:00",
@@ -990,13 +982,21 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-26T12:01:37.200989+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 101,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nTech strategists decode the next wave of transformation.\n\nArchitecture patterns:\n1. WebAssembly is everywhere. Here\u2019s how it works\nContext: ...\nIf you&#8217;re familiar with building web applications in the last few years, you&#8217;ve probably heard of WebAssembly (Wasm). And if The post WebAssembly is everywhere. Here&#8217;s how it wor\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/webassembly-deep-dive/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 102,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nPlatform architects surface actionable insights for resilient systems.\n\nGlobal tech trends:\n1. Take a Deep Dive into Filtering in DAX\nContext: Have you ever wondered what happens when you apply a filter in a DAX expression? Well, Today I will take you on a deep dive into this fascinating topic, with examples to help...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-26T07:33:58.883693+00:00"
+  "last_post_timestamp": "2026-02-26T12:01:37.201971+00:00"
 }
