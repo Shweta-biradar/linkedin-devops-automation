@@ -1,12 +1,12 @@
 {
-  "total_posts": 127,
-  "posts_today": 1,
+  "total_posts": 128,
+  "posts_today": 2,
   "last_post_date": "2026-02-26",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 93,
+    "digest": 94,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 13,
-    "thenewstack.io": 92,
+    "thenewstack.io": 93,
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 17,
     "martinfowler.com": 2,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-30",
-      "time": "2025-12-30T11:41:57.308672+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.checkpoint.com",
-        "feeds.feedburner.com",
-        "www.hashicorp.com",
-        "www.cncf.io",
-        "krebsonsecurity.com",
-        "www.crowdstrike.com"
-      ]
-    },
     {
       "date": "2025-12-31",
       "time": "2025-12-31T04:15:37.232956+00:00",
@@ -995,14 +982,21 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-26T07:33:58.882727+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 100,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nObservability insights:\n1. In the driver\u2019s seat: How Google Conductor AI actually stays under control\nContext: Google wants to give developers a comprehensive, functional AI software development toolkit. As such, this month the company has added The post In the driver\u2019s seat: How Google...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/google-conductor-automated-reviews/\n\n2. Scaling Feature Engineering Pipelines with Feast and Ray\nContext: Utilizing feature stores like Feast and distributed compute frameworks like Ray in production machine learning systems The post Scaling Feature Engineering Pipelines with Feast...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/\n\n3. VAST Data tackles the enterprise AI trust gap\nContext: ...\nThe biggest obstacle to shipping AI agents in the enterprise isn&#8217;t model quality. It&#8217;s trust. Or at least that&#8217;s the The post VAST Data tackles the enterprise AI trust gap appear\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/vast-data-ai-trust/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 101,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nTech strategists decode the next wave of transformation.\n\nArchitecture patterns:\n1. WebAssembly is everywhere. Here\u2019s how it works\nContext: ...\nIf you&#8217;re familiar with building web applications in the last few years, you&#8217;ve probably heard of WebAssembly (Wasm). And if The post WebAssembly is everywhere. Here&#8217;s how it wor\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/webassembly-deep-dive/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "towardsdatascience.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-26T05:11:07.044392+00:00"
+  "last_post_timestamp": "2026-02-26T07:33:58.883693+00:00"
 }
