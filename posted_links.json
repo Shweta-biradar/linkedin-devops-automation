@@ -93,10 +93,12 @@
     "https://thenewstack.io/agentic-ai-verification-impact/",
     "https://thenewstack.io/agentic-knowledge-base-patterns/",
     "https://thenewstack.io/agodas-secret-to-50x-scale-getting-the-database-basics-right/",
+    "https://thenewstack.io/ai-agents-istio-validation/",
     "https://thenewstack.io/ai-agents-search-context/",
     "https://thenewstack.io/ai-paradox-gitlab/",
     "https://thenewstack.io/ai-ready-infrastructure/",
     "https://thenewstack.io/ai-strategy-api-sediment/",
+    "https://thenewstack.io/ai-unified-data-foundation/",
     "https://thenewstack.io/ai-velocity-debt-accelerator/",
     "https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/",
     "https://thenewstack.io/anthropic-agent-sdk-confusion/",
@@ -171,6 +173,7 @@
     "https://thenewstack.io/top-vibe-coding-countries/",
     "https://thenewstack.io/twilio-a2h-protocol-launch/",
     "https://thenewstack.io/vast-data-ai-trust/",
+    "https://thenewstack.io/vibe-coding-agentic-engineering/",
     "https://thenewstack.io/vibe-coding-is-passe/",
     "https://thenewstack.io/vibe-coding-spec-driven/",
     "https://thenewstack.io/vs-code-becomes-multi-agent-command-center-for-developers/",
@@ -383,11 +386,6 @@
     "topic_hashes": {
       "225786357aad": "2026-02-15T07:13:56.353377+00:00",
       "175bedda3a72": "2026-02-16T07:38:40.057751+00:00",
-      "ddeeed63e766": "2026-02-13T05:13:32.728180+00:00",
-      "9c5306eb5777": "2026-02-13T05:13:32.728278+00:00",
-      "e99949a76c9b": "2026-02-13T05:13:32.728332+00:00",
-      "1ba1784385c5": "2026-02-13T05:13:32.728385+00:00",
-      "e07ebda10f0b": "2026-02-13T05:13:32.728436+00:00",
       "151341fc884d": "2026-02-13T07:33:24.370704+00:00",
       "e9a8e6d3775c": "2026-02-13T07:33:24.370827+00:00",
       "b275db860b21": "2026-02-13T07:33:24.370895+00:00",
@@ -516,10 +514,13 @@
       "e065e9f8f40e": "2026-02-27T05:05:19.364039+00:00",
       "9a02666c1369": "2026-02-27T05:05:19.364118+00:00",
       "6d739fd1b141": "2026-02-27T05:05:19.364171+00:00",
-      "3f49f6106ad5": "2026-02-27T05:05:19.364216+00:00"
+      "3f49f6106ad5": "2026-02-27T05:05:19.364216+00:00",
+      "79d341aed2b9": "2026-02-27T07:31:38.455596+00:00",
+      "f156ab4999b2": "2026-02-27T07:31:38.455720+00:00",
+      "4bfa040ba9f8": "2026-02-27T07:31:38.455823+00:00"
     },
-    "last_post_id": "urn:li:share:7433014347364352000",
-    "last_posted_at_utc": "2026-02-27T05:05:19.364255+00:00",
+    "last_post_id": "urn:li:share:7433051169662615552",
+    "last_posted_at_utc": "2026-02-27T07:31:38.455922+00:00",
     "last_format": "digest"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "total_posts": 130,
-  "posts_today": 1,
+  "total_posts": 131,
+  "posts_today": 2,
   "last_post_date": "2026-02-27",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 96,
+    "digest": 97,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 13,
-    "thenewstack.io": 95,
+    "thenewstack.io": 98,
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 18,
     "martinfowler.com": 2,
@@ -48,16 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-01",
-      "time": "2026-01-01T04:34:49.223417+00:00",
-      "format": "digest",
-      "sources": [
-        "kubernetes.io",
-        "kubernetes.io",
-        "kubernetes.io"
-      ]
-    },
     {
       "date": "2026-01-01",
       "time": "2026-01-01T11:41:22.769943+00:00",
@@ -994,17 +984,23 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-27",
+      "time": "2026-02-27T07:31:38.456963+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 103,
-  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nCloud pioneers highlight key developments for practitioners.\n\nSecurity signals:\n1. Netdata is a seriously impressive server monitoring tool\nContext: ...\nEvery once in a while, I come across a tool that makes me lean back and go, &#8220;Wooo, that&#8217;s cool!&#8221; The post Netdata is a seriously impressive server monitoring tool appeared first\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/\n\n2. 5 Useful Python Scripts for Automated Data Quality Checks\nContext: Bad data leads to bad decisions. These Python scripts will help you catch data quality issues before they cause problems.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks\n\n3. Previously harmless Google API keys now expose Gemini AI data\nContext: Google API keys for services like Maps embedded in accessible client-side code could be used to authenticate to the Gemini AI assistant and access private data. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 104,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nSecurity champions share what shapes the future of operations.\n\nArchitecture patterns:\n1. From vibes to engineering: How AI agents outgrew their own terminology\nContext: ...\nAndrej Karpathy probably didn&#8217;t set out to retire &#8220;vibe coding&#8221; just a year after popularizing it, but time and technological The post From vibes to engineering: How AI agents ou\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/vibe-coding-agentic-engineering/\n\n2. The agent pull request flood is here. If you run Istio, you\u2019re halfway to solving it.\nContext: Agentic workflows are rapidly accelerating the volume of pull requests, and validation is quickly becoming the most critical bottleneck.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-istio-validation/\n\n3. Why the secret to scaling AI isn\u2019t a better model, it\u2019s a simpler foundation\nContext: ...\nA recent study from MIT&#8217;s NANDA initiative highlights a persistent challenge in enterprise AI adoption. Despite heavy investment and experimentation, The post Why the secret to scaling AI is\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-unified-data-foundation/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "kdnuggets.com",
-    "www.bleepingcomputer.com",
-    "towardsdatascience.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-27T05:05:19.366229+00:00"
+  "last_post_timestamp": "2026-02-27T07:31:38.457933+00:00"
 }
