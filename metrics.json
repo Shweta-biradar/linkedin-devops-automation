@@ -1,12 +1,12 @@
 {
-  "total_posts": 131,
-  "posts_today": 2,
+  "total_posts": 132,
+  "posts_today": 3,
   "last_post_date": "2026-02-27",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 97,
+    "digest": 98,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 18,
     "martinfowler.com": 2,
     "towardsdatascience.com": 70,
-    "www.snowflake.com": 37,
+    "www.snowflake.com": 38,
     "kdnuggets.com": 21,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-01",
-      "time": "2026-01-01T11:41:22.769943+00:00",
-      "format": "industry_predictions",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2026-01-02",
       "time": "2026-01-02T04:29:24.483953+00:00",
@@ -994,13 +986,21 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-02-27",
+      "time": "2026-02-27T11:54:31.970437+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 104,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nSecurity champions share what shapes the future of operations.\n\nArchitecture patterns:\n1. From vibes to engineering: How AI agents outgrew their own terminology\nContext: ...\nAndrej Karpathy probably didn&#8217;t set out to retire &#8220;vibe coding&#8221; just a year after popularizing it, but time and technological The post From vibes to engineering: How AI agents ou\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/vibe-coding-agentic-engineering/\n\n2. The agent pull request flood is here. If you run Istio, you\u2019re halfway to solving it.\nContext: Agentic workflows are rapidly accelerating the volume of pull requests, and validation is quickly becoming the most critical bottleneck.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-istio-validation/\n\n3. Why the secret to scaling AI isn\u2019t a better model, it\u2019s a simpler foundation\nContext: ...\nA recent study from MIT&#8217;s NANDA initiative highlights a persistent challenge in enterprise AI adoption. Despite heavy investment and experimentation, The post Why the secret to scaling AI is\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-unified-data-foundation/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 105,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nWhat caught our attention:\n1. Cortex Code CLI Expands Towards Supporting Any Data, Anywhere\nContext: Cortex Code CLI, in addition to supporting Snowflake workflows end to end, is now expanding native support for all data systems, starting with data engineering systems dbt and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-02-27T07:31:38.457933+00:00"
+  "last_post_timestamp": "2026-02-27T11:54:31.971418+00:00"
 }
