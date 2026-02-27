@@ -1,12 +1,12 @@
 {
-  "total_posts": 129,
-  "posts_today": 3,
-  "last_post_date": "2026-02-26",
+  "total_posts": 130,
+  "posts_today": 1,
+  "last_post_date": "2026-02-27",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 95,
+    "digest": 96,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 25,
+    "aws.amazon.com": 26,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,28 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 13,
-    "thenewstack.io": 93,
+    "thenewstack.io": 95,
     "blog.jetbrains.com": 17,
-    "www.bleepingcomputer.com": 17,
+    "www.bleepingcomputer.com": 18,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 69,
+    "towardsdatascience.com": 70,
     "www.snowflake.com": 37,
-    "kdnuggets.com": 20,
+    "kdnuggets.com": 21,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2025-12-31",
-      "time": "2025-12-31T11:39:02.057034+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.checkpoint.com",
-        "snyk.io"
-      ]
-    },
     {
       "date": "2026-01-01",
       "time": "2026-01-01T04:34:49.223417+00:00",
@@ -990,13 +981,30 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-27",
+      "time": "2026-02-27T05:05:19.365264+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "kdnuggets.com",
+        "www.bleepingcomputer.com",
+        "aws.amazon.com",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 102,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nPlatform architects surface actionable insights for resilient systems.\n\nGlobal tech trends:\n1. Take a Deep Dive into Filtering in DAX\nContext: Have you ever wondered what happens when you apply a filter in a DAX expression? Well, Today I will take you on a deep dive into this fascinating topic, with examples to help...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 103,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nCloud pioneers highlight key developments for practitioners.\n\nSecurity signals:\n1. Netdata is a seriously impressive server monitoring tool\nContext: ...\nEvery once in a while, I come across a tool that makes me lean back and go, &#8220;Wooo, that&#8217;s cool!&#8221; The post Netdata is a seriously impressive server monitoring tool appeared first\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/\n\n2. 5 Useful Python Scripts for Automated Data Quality Checks\nContext: Bad data leads to bad decisions. These Python scripts will help you catch data quality issues before they cause problems.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks\n\n3. Previously harmless Google API keys now expose Gemini AI data\nContext: Google API keys for services like Maps embedded in accessible client-side code could be used to authenticate to the Gemini AI assistant and access private data. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com",
+    "kdnuggets.com",
+    "www.bleepingcomputer.com",
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-26T12:01:37.201971+00:00"
+  "last_post_timestamp": "2026-02-27T05:05:19.366229+00:00"
 }

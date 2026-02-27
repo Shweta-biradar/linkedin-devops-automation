@@ -13,6 +13,7 @@
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
+    "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
@@ -144,6 +145,8 @@
     "https://thenewstack.io/modernizing-itops-incident-management/",
     "https://thenewstack.io/moltbook-the-singularity-or-hype/",
     "https://thenewstack.io/multimodal-rag-hybrid-search/",
+    "https://thenewstack.io/nano-banana-2/",
+    "https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/",
     "https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/",
@@ -196,6 +199,7 @@
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
     "https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/",
+    "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
@@ -260,6 +264,7 @@
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
     "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
     "https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/",
+    "https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/",
     "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
     "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
     "https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/",
@@ -323,6 +328,7 @@
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using",
+    "https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
     "https://www.kdnuggets.com/7-python-eda-tricks-to-find-and-fix-data-issues",
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
@@ -375,7 +381,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "812ee35182c2": "2026-02-12T12:02:20.164388+00:00",
       "225786357aad": "2026-02-15T07:13:56.353377+00:00",
       "175bedda3a72": "2026-02-16T07:38:40.057751+00:00",
       "ddeeed63e766": "2026-02-13T05:13:32.728180+00:00",
@@ -505,10 +510,16 @@
       "f3c1ad05b377": "2026-02-26T05:11:07.042508+00:00",
       "48c725fdc698": "2026-02-26T05:11:07.042564+00:00",
       "fe55f4081ba0": "2026-02-26T07:33:58.881646+00:00",
-      "8089efdc6d64": "2026-02-26T12:01:37.199808+00:00"
+      "8089efdc6d64": "2026-02-26T12:01:37.199808+00:00",
+      "61898288d354": "2026-02-27T05:05:19.363865+00:00",
+      "83f0c5c8e0d7": "2026-02-27T05:05:19.363975+00:00",
+      "e065e9f8f40e": "2026-02-27T05:05:19.364039+00:00",
+      "9a02666c1369": "2026-02-27T05:05:19.364118+00:00",
+      "6d739fd1b141": "2026-02-27T05:05:19.364171+00:00",
+      "3f49f6106ad5": "2026-02-27T05:05:19.364216+00:00"
     },
-    "last_post_id": "urn:li:share:7432756724442488832",
-    "last_posted_at_utc": "2026-02-26T12:01:37.199896+00:00",
+    "last_post_id": "urn:li:share:7433014347364352000",
+    "last_posted_at_utc": "2026-02-27T05:05:19.364255+00:00",
     "last_format": "digest"
   }
 }
