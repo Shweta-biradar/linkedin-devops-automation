@@ -1,12 +1,12 @@
 {
-  "total_posts": 132,
-  "posts_today": 3,
-  "last_post_date": "2026-02-27",
+  "total_posts": 133,
+  "posts_today": 1,
+  "last_post_date": "2026-02-28",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 98,
+    "digest": 99,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,28 +34,20 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 13,
+    "github.blog": 14,
     "thenewstack.io": 98,
     "blog.jetbrains.com": 17,
-    "www.bleepingcomputer.com": 18,
+    "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 70,
-    "www.snowflake.com": 38,
-    "kdnuggets.com": 21,
+    "towardsdatascience.com": 72,
+    "www.snowflake.com": 39,
+    "kdnuggets.com": 22,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-02",
-      "time": "2026-01-02T04:29:24.483953+00:00",
-      "format": "digest",
-      "sources": [
-        "netflixtechblog.medium.com"
-      ]
-    },
     {
       "date": "2026-01-02",
       "time": "2026-01-02T11:40:35.880172+00:00",
@@ -994,13 +986,30 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-02-28",
+      "time": "2026-02-28T04:43:08.729570+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "www.snowflake.com",
+        "www.bleepingcomputer.com",
+        "github.blog",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 105,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nWhat caught our attention:\n1. Cortex Code CLI Expands Towards Supporting Any Data, Anywhere\nContext: Cortex Code CLI, in addition to supporting Snowflake workflows end to end, is now expanding native support for all data systems, starting with data engineering systems dbt and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 106,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nAutomation architects drive efficiency and scale across industries.\n\nStrategic highlights:\n1. Coding the Pong Game from Scratch in Python\nContext: Implementing the classic Pong game in Python using OOP and Turtle The post Coding the Pong Game from Scratch in Python appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/\n\n2. Replacing Debezium with Openflow | Near Real-Time CDC for Snowflake\nContext: Learn how a healthcare customer replaced Debezium with Snowflake Openflow to simplify CDC pipelines and deliver near real-time data synchronization\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow\n\n3. Third-Party Patching and the Business Footprint We All Share\nContext: Everyday tools like PDF readers, email clients, and archive utilities quietly define the real attack surface. Action1 explains how third-party software drift increases exploit...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com"
+    "www.snowflake.com",
+    "kdnuggets.com",
+    "github.blog",
+    "towardsdatascience.com",
+    "www.bleepingcomputer.com"
   ],
-  "last_post_timestamp": "2026-02-27T11:54:31.971418+00:00"
+  "last_post_timestamp": "2026-02-28T04:43:08.730654+00:00"
 }
