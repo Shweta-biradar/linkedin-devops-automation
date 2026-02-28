@@ -1,12 +1,12 @@
 {
-  "total_posts": 134,
-  "posts_today": 2,
+  "total_posts": 135,
+  "posts_today": 3,
   "last_post_date": "2026-02-28",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 100,
+    "digest": 101,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 14,
-    "thenewstack.io": 98,
+    "thenewstack.io": 99,
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-03",
-      "time": "2026-01-03T06:54:12.600099+00:00",
-      "format": "lessons_learned",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2026-01-04",
       "time": "2026-01-04T06:53:37.749800+00:00",
@@ -1001,14 +993,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-28",
+      "time": "2026-02-28T11:41:20.626479+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 107,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nAutomation architects drive efficiency and scale across industries.\n\nPlatform wins:\n1. Don\u2019t Wait for Regulators. Embrace AI Governance for Your Customers.\nContext: Customer trust drives AI governance. Learn four essential steps your business can take now to protect your reputation and achieve compliance, ahead of new regulations.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust\n\n2. Generative AI, Discriminative Human\nContext: How to think critically about AI in an ocean of hype The post Generative AI, Discriminative Human appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/generative-ai-discriminative-human/\n\n3. Stop Asking if a Model Is Interpretable\nContext: Start asking what question the explanation should answer. The post Stop Asking if a Model Is Interpretable appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 108,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSignal vs noise:\n1. Netdata is a seriously impressive server monitoring tool\nContext: ...\nEvery once in a while, I come across a tool that makes me lean back and go, &#8220;Wooo, that&#8217;s cool!&#8221; The post Netdata is a seriously impressive server monitoring tool appeared first\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "towardsdatascience.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-28T07:03:13.954444+00:00"
+  "last_post_timestamp": "2026-02-28T11:41:20.627515+00:00"
 }
