@@ -1,12 +1,12 @@
 {
-  "total_posts": 133,
-  "posts_today": 1,
+  "total_posts": 134,
+  "posts_today": 2,
   "last_post_date": "2026-02-28",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 99,
+    "digest": 100,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,8 +39,8 @@
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 72,
-    "www.snowflake.com": 39,
+    "towardsdatascience.com": 74,
+    "www.snowflake.com": 40,
     "kdnuggets.com": 22,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-02",
-      "time": "2026-01-02T11:40:35.880172+00:00",
-      "format": "career_advice",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2026-01-03",
       "time": "2026-01-03T06:54:12.600099+00:00",
@@ -999,17 +991,24 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-02-28",
+      "time": "2026-02-28T07:03:13.952225+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 106,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nAutomation architects drive efficiency and scale across industries.\n\nStrategic highlights:\n1. Coding the Pong Game from Scratch in Python\nContext: Implementing the classic Pong game in Python using OOP and Turtle The post Coding the Pong Game from Scratch in Python appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/\n\n2. Replacing Debezium with Openflow | Near Real-Time CDC for Snowflake\nContext: Learn how a healthcare customer replaced Debezium with Snowflake Openflow to simplify CDC pipelines and deliver near real-time data synchronization\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow\n\n3. Third-Party Patching and the Business Footprint We All Share\nContext: Everyday tools like PDF readers, email clients, and archive utilities quietly define the real attack surface. Action1 explains how third-party software drift increases exploit...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 107,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nAutomation architects drive efficiency and scale across industries.\n\nPlatform wins:\n1. Don\u2019t Wait for Regulators. Embrace AI Governance for Your Customers.\nContext: Customer trust drives AI governance. Learn four essential steps your business can take now to protect your reputation and achieve compliance, ahead of new regulations.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust\n\n2. Generative AI, Discriminative Human\nContext: How to think critically about AI in an ocean of hype The post Generative AI, Discriminative Human appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/generative-ai-discriminative-human/\n\n3. Stop Asking if a Model Is Interpretable\nContext: Start asking what question the explanation should answer. The post Stop Asking if a Model Is Interpretable appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
     "www.snowflake.com",
-    "kdnuggets.com",
-    "github.blog",
-    "towardsdatascience.com",
-    "www.bleepingcomputer.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-02-28T04:43:08.730654+00:00"
+  "last_post_timestamp": "2026-02-28T07:03:13.954444+00:00"
 }

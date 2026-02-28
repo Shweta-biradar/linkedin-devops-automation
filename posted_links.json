@@ -208,6 +208,7 @@
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
+    "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
@@ -237,6 +238,7 @@
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
+    "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
@@ -357,6 +359,7 @@
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
     "https://www.rapid7.com/blog/post/metasploit-wrap-up-12-19-2025",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
@@ -392,12 +395,6 @@
     "topic_hashes": {
       "225786357aad": "2026-02-15T07:13:56.353377+00:00",
       "175bedda3a72": "2026-02-16T07:38:40.057751+00:00",
-      "a61a9afe5615": "2026-02-14T04:59:47.988343+00:00",
-      "cdebfc4454c3": "2026-02-14T04:59:47.988449+00:00",
-      "4740bde74ca0": "2026-02-14T04:59:47.988557+00:00",
-      "0119f8043054": "2026-02-14T04:59:47.988626+00:00",
-      "247b4609670d": "2026-02-14T04:59:47.988686+00:00",
-      "9cb295940ec6": "2026-02-14T04:59:47.988748+00:00",
       "8ccf786d80b5": "2026-02-14T07:11:39.867420+00:00",
       "b63571daf915": "2026-02-14T07:11:39.867523+00:00",
       "8a236d6d44d0": "2026-02-14T11:47:21.526545+00:00",
@@ -518,10 +515,13 @@
       "6aa894d7f0cc": "2026-02-28T04:43:08.728242+00:00",
       "b9f20263a7f1": "2026-02-28T04:43:08.728294+00:00",
       "96e2a541bb64": "2026-02-28T04:43:08.728343+00:00",
-      "380df7601568": "2026-02-28T04:43:08.728395+00:00"
+      "380df7601568": "2026-02-28T04:43:08.728395+00:00",
+      "4c635985699d": "2026-02-28T07:03:13.950011+00:00",
+      "39ca589dbb18": "2026-02-28T07:03:13.950196+00:00",
+      "1ab2d0f607ae": "2026-02-28T07:03:13.950334+00:00"
     },
-    "last_post_id": "urn:li:share:7433371154159058944",
-    "last_posted_at_utc": "2026-02-28T04:43:08.728437+00:00",
+    "last_post_id": "urn:li:share:7433406407561056256",
+    "last_posted_at_utc": "2026-02-28T07:03:13.950379+00:00",
     "last_format": "digest"
   }
 }
