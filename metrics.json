@@ -1,12 +1,12 @@
 {
-  "total_posts": 135,
-  "posts_today": 3,
-  "last_post_date": "2026-02-28",
+  "total_posts": 136,
+  "posts_today": 1,
+  "last_post_date": "2026-03-01",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 101,
+    "digest": 102,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 14,
-    "thenewstack.io": 99,
+    "thenewstack.io": 101,
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 74,
+    "towardsdatascience.com": 76,
     "www.snowflake.com": 40,
     "kdnuggets.com": 22,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-04",
-      "time": "2026-01-04T06:53:37.749800+00:00",
-      "format": "technical_deep_dives",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2026-01-31",
       "time": "2026-01-31T03:13:17.370764+00:00",
@@ -1001,13 +993,25 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-01",
+      "time": "2026-03-01T05:10:43.234908+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 108,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSignal vs noise:\n1. Netdata is a seriously impressive server monitoring tool\nContext: ...\nEvery once in a while, I come across a tool that makes me lean back and go, &#8220;Wooo, that&#8217;s cool!&#8221; The post Netdata is a seriously impressive server monitoring tool appeared first\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 109,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nSecurity champions share what shapes the future of operations.\n\nIndustry pulse:\n1. Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel\nContext: How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development. The post Claude Skills and Subagents: Escaping the Prompt Engineering Hamster...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/\n\n2. Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not?\nContext: A case study on techniques to maximize your clusters The post Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not? appeared first on Towards Data Science .\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/\n\n3. The real breakthrough in robotics is foundation models \u2014 not hardware\nContext: Physical AI, also known as embodied AI, is purported to be the next evolution in the quest to build autonomous The post The real breakthrough in robotics is foundation models \u2014...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/physical-ai-models-frontier/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "towardsdatascience.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-02-28T11:41:20.627515+00:00"
+  "last_post_timestamp": "2026-03-01T05:10:43.235863+00:00"
 }
