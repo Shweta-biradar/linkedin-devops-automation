@@ -1,12 +1,12 @@
 {
-  "total_posts": 137,
-  "posts_today": 2,
+  "total_posts": 138,
+  "posts_today": 3,
   "last_post_date": "2026-03-01",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 103,
+    "digest": 104,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 76,
+    "towardsdatascience.com": 77,
     "www.snowflake.com": 40,
     "kdnuggets.com": 22,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-31",
-      "time": "2026-01-31T05:21:11.426678+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com",
-        "blog.jetbrains.com",
-        "www.bleepingcomputer.com",
-        "www.bleepingcomputer.com",
-        "martinfowler.com",
-        "www.docker.com"
-      ]
-    },
     {
       "date": "2026-01-31",
       "time": "2026-01-31T05:31:08.207347+00:00",
@@ -999,13 +986,21 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-01",
+      "time": "2026-03-01T11:44:25.563404+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 110,
-  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nCollaboration experts spotlight culture and process breakthroughs.\n\nThis week's standouts:\n1. In the driver\u2019s seat: How Google Conductor AI actually stays under control\nContext: Google wants to give developers a comprehensive, functional AI software development toolkit. As such, this month the company has added The post In the driver\u2019s seat: How Google...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/google-conductor-automated-reviews/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 111,
+  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nPlatform architects surface actionable insights for resilient systems.\n\nWhat caught our attention:\n1. Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel\nContext: How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development. The post Claude Skills and Subagents: Escaping the Prompt Engineering Hamster...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-01T07:12:36.578938+00:00"
+  "last_post_timestamp": "2026-03-01T11:44:25.564380+00:00"
 }
