@@ -1,12 +1,12 @@
 {
-  "total_posts": 138,
-  "posts_today": 3,
-  "last_post_date": "2026-03-01",
+  "total_posts": 139,
+  "posts_today": 1,
+  "last_post_date": "2026-03-02",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 104,
+    "digest": 105,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 77,
+    "towardsdatascience.com": 78,
     "www.snowflake.com": 40,
     "kdnuggets.com": 22,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-31",
-      "time": "2026-01-31T05:31:08.207347+00:00",
-      "format": "digest",
-      "sources": [
-        "martinfowler.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-01-31",
       "time": "2026-01-31T06:13:48.431819+00:00",
@@ -994,13 +981,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-02",
+      "time": "2026-03-02T05:05:53.828572+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 111,
-  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nPlatform architects surface actionable insights for resilient systems.\n\nWhat caught our attention:\n1. Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel\nContext: How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development. The post Claude Skills and Subagents: Escaping the Prompt Engineering Hamster...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
+  "posts_created": 112,
+  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nCollaboration experts spotlight culture and process breakthroughs.\n\nThis week's standouts:\n1. Context Engineering as Your Competitive Edge\nContext: If you have both unique domain expertise and know how to make it usable to your AI systems, you\u2019ll be hard to beat. The post Context Engineering as Your Competitive Edge...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/context-engineering-as-your-competitive-edge/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-01T11:44:25.564380+00:00"
+  "last_post_timestamp": "2026-03-02T05:05:53.829537+00:00"
 }
