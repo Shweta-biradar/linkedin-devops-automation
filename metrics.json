@@ -1,12 +1,12 @@
 {
-  "total_posts": 139,
-  "posts_today": 1,
+  "total_posts": 140,
+  "posts_today": 2,
   "last_post_date": "2026-03-02",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 105,
+    "digest": 106,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 14,
-    "thenewstack.io": 102,
+    "thenewstack.io": 103,
     "blog.jetbrains.com": 17,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-31",
-      "time": "2026-01-31T06:13:48.431819+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-01-31",
       "time": "2026-01-31T11:45:53.714949+00:00",
@@ -989,13 +976,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-02",
+      "time": "2026-03-02T07:35:21.422681+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 112,
-  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nCollaboration experts spotlight culture and process breakthroughs.\n\nThis week's standouts:\n1. Context Engineering as Your Competitive Edge\nContext: If you have both unique domain expertise and know how to make it usable to your AI systems, you\u2019ll be hard to beat. The post Context Engineering as Your Competitive Edge...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/context-engineering-as-your-competitive-edge/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 113,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nSecurity champions share what shapes the future of operations.\n\nSignal vs noise:\n1. Netdata is a seriously impressive server monitoring tool\nContext: ...\nEvery once in a while, I come across a tool that makes me lean back and go, &#8220;Wooo, that&#8217;s cool!&#8221; The post Netdata is a seriously impressive server monitoring tool appeared first\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-02T05:05:53.829537+00:00"
+  "last_post_timestamp": "2026-03-02T07:35:21.423662+00:00"
 }
