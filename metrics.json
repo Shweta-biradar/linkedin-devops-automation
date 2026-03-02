@@ -1,12 +1,12 @@
 {
-  "total_posts": 140,
-  "posts_today": 2,
+  "total_posts": 141,
+  "posts_today": 3,
   "last_post_date": "2026-03-02",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 106,
+    "digest": 107,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -36,7 +36,7 @@
     "netflixtechblog.medium.com": 1,
     "github.blog": 14,
     "thenewstack.io": 103,
-    "blog.jetbrains.com": 17,
+    "blog.jetbrains.com": 18,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
     "towardsdatascience.com": 78,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-01-31",
-      "time": "2026-01-31T11:45:53.714949+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "kdnuggets.com",
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-02-01",
       "time": "2026-02-01T05:16:21.597748+00:00",
@@ -984,13 +971,21 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-02",
+      "time": "2026-03-02T11:54:20.410421+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com"
+      ]
     }
   ],
-  "posts_created": 113,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nSecurity champions share what shapes the future of operations.\n\nSignal vs noise:\n1. Netdata is a seriously impressive server monitoring tool\nContext: ...\nEvery once in a while, I come across a tool that makes me lean back and go, &#8220;Wooo, that&#8217;s cool!&#8221; The post Netdata is a seriously impressive server monitoring tool appeared first\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 114,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nSRE leaders share reliability wins and lessons.\n\nEssential reads:\n1. Your First Migration: Moving a Single Project From Jenkins to TeamCity Painlessly\nContext: ...\nThis article was brought to you by Rajkumar Venkatasamy, draft.dev. Migrating from Jenkins can feel risky. Your pipelines work, your jobs run, and your scripts hold everything together. Jenkins is\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io"
+    "blog.jetbrains.com"
   ],
-  "last_post_timestamp": "2026-03-02T07:35:21.423662+00:00"
+  "last_post_timestamp": "2026-03-02T11:54:20.411373+00:00"
 }

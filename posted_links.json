@@ -46,6 +46,7 @@
     "https://blog.jetbrains.com/pycharm/2026/02/python-unplugged-on-pytv/",
     "https://blog.jetbrains.com/rust/2026/01/27/rust-vs-javascript-typescript/",
     "https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/",
+    "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
     "https://blog.qualys.com/category/product-tech",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
     "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
@@ -398,7 +399,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "175bedda3a72": "2026-02-16T07:38:40.057751+00:00",
       "6f6cbbb76bb5": "2026-02-16T12:01:16.477387+00:00",
       "600b12b0e176": "2026-02-16T12:01:16.477487+00:00",
       "21a5a4e91e3d": "2026-02-17T12:00:04.875817+00:00",
@@ -521,10 +521,11 @@
       "a8b09009f975": "2026-03-01T05:10:43.233938+00:00",
       "b701d7f4b0cc": "2026-03-01T05:10:43.233993+00:00",
       "5184c332828c": "2026-03-01T05:10:43.234041+00:00",
-      "edd287012397": "2026-03-02T05:05:53.827524+00:00"
+      "edd287012397": "2026-03-02T05:05:53.827524+00:00",
+      "90cf56c91f4c": "2026-03-02T11:54:20.409387+00:00"
     },
-    "last_post_id": "urn:li:share:7434139268509507586",
-    "last_posted_at_utc": "2026-03-02T07:35:21.421684+00:00",
+    "last_post_id": "urn:li:share:7434204443618967552",
+    "last_posted_at_utc": "2026-03-02T11:54:20.409475+00:00",
     "last_format": "digest"
   }
 }
