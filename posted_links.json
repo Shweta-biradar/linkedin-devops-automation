@@ -119,6 +119,7 @@
     "https://thenewstack.io/ciq-launches-rlc-pro-for-enterprise-linux-for-the-ai-era/",
     "https://thenewstack.io/ciso-identity-complexity-strategy/",
     "https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/",
+    "https://thenewstack.io/claudes-free-plan-can-now-remember-you/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
     "https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/",
     "https://thenewstack.io/docker-versus-nix-the-quest-for-true-reproducibility/",
@@ -139,6 +140,7 @@
     "https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/",
     "https://thenewstack.io/how-to-reduce-mcp-token-bloat/",
     "https://thenewstack.io/ide-vs-desktop-agent/",
+    "https://thenewstack.io/inception-labs-mercury-2-diffusion/",
     "https://thenewstack.io/intent-engineering-ai-agents/",
     "https://thenewstack.io/is-open-source-in-trouble/",
     "https://thenewstack.io/jule-open-source-programming-language/",
@@ -208,6 +210,7 @@
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
     "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
+    "https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/",
     "https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/",
     "https://towardsdatascience.com/context-engineering-as-your-competitive-edge/",
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
@@ -216,6 +219,7 @@
     "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
+    "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/how-gpus-communicate/",
@@ -406,11 +410,6 @@
   "meta": {
     "topic_hashes": {
       "21a5a4e91e3d": "2026-02-17T12:00:04.875817+00:00",
-      "75851533dbf8": "2026-02-17T05:12:49.098354+00:00",
-      "f53d579ac694": "2026-02-17T05:12:49.098436+00:00",
-      "8480902c4652": "2026-02-17T05:12:49.098513+00:00",
-      "11ff280565ee": "2026-02-17T05:12:49.098604+00:00",
-      "9235305f91ab": "2026-02-17T05:12:49.098685+00:00",
       "a464fb193f6f": "2026-02-17T07:33:29.136109+00:00",
       "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
       "dba32e1720ef": "2026-02-18T05:13:31.428933+00:00",
@@ -532,10 +531,14 @@
       "f10410db4471": "2026-03-03T05:06:01.750615+00:00",
       "ebe2ad0da340": "2026-03-03T05:06:01.750662+00:00",
       "03162906e0aa": "2026-03-03T05:06:01.750707+00:00",
-      "d5fc3f9e3a45": "2026-03-03T05:06:01.750754+00:00"
+      "d5fc3f9e3a45": "2026-03-03T05:06:01.750754+00:00",
+      "f007c7b400d0": "2026-03-03T07:27:59.392278+00:00",
+      "21b02da4e72f": "2026-03-03T07:27:59.392408+00:00",
+      "414e9ff71153": "2026-03-03T07:27:59.392476+00:00",
+      "7aa328f321a5": "2026-03-03T07:27:59.392572+00:00"
     },
-    "last_post_id": "urn:li:share:7434464076614787072",
-    "last_posted_at_utc": "2026-03-03T05:06:01.750791+00:00",
+    "last_post_id": "urn:li:share:7434499801997799424",
+    "last_posted_at_utc": "2026-03-03T07:27:59.392622+00:00",
     "last_format": "digest"
   }
 }

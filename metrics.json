@@ -1,12 +1,12 @@
 {
-  "total_posts": 142,
-  "posts_today": 1,
+  "total_posts": 143,
+  "posts_today": 2,
   "last_post_date": "2026-03-03",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 108,
+    "digest": 109,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 15,
-    "thenewstack.io": 105,
+    "thenewstack.io": 107,
     "blog.jetbrains.com": 18,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 79,
+    "towardsdatascience.com": 81,
     "www.snowflake.com": 40,
     "kdnuggets.com": 23,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-01",
-      "time": "2026-02-01T07:15:01.750271+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-01",
       "time": "2026-02-01T11:45:35.167432+00:00",
@@ -979,17 +966,25 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-03",
+      "time": "2026-03-03T07:27:59.393418+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 115,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nLeadership lessons:\n1. Standardize Amazon Redshift operations using Templates\nContext: In this post, we introduce Redshift Templates and show examples of how they can standardize and simplify your data loading operations across different scenarios.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/\n\n2. The Machine Learning Lessons I\u2019ve Learned This Month\nContext: February 2026: exchange with others, documentation, and MLOps The post The Machine Learning Lessons I\u2019ve Learned This Month appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/\n\n3. Getting Started with Python Async Programming\nContext: Build faster Python applications by mastering async programming and learning how to handle I/O bound workloads efficiently with real world examples.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/getting-started-with-python-async-programming\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
+  "posts_created": 116,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nCloud pioneers highlight key developments for practitioners.\n\nArchitecture patterns:\n1. Code Less, Ship Faster: Building APIs with FastAPI\nContext: Master path operations, Pydantic models, dependency injection, and automatic documentation. The post Code Less, Ship Faster: Building APIs with FastAPI appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/\n\n2. Inception Labs says its diffusion LLM is 10x faster than Claude, ChatGPT, Gemini\nContext: Last week, Inception Labs launched Mercury 2, a large language model based on diffusion rather than the autoregressive approach used The post Inception Labs says its diffusion...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/inception-labs-mercury-2-diffusion/\n\n3. Claude\u2019s free plan can now remember you\nContext: ...\nThere may be some things the folks at Anthropic sure want to forget sooner rather than later, but at least The post Claude&#8217;s free plan can now remember you appeared first on The New Stack .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/claudes-free-plan-can-now-remember-you/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "thenewstack.io",
-    "kdnuggets.com",
-    "aws.amazon.com",
-    "towardsdatascience.com",
-    "github.blog"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-03T05:06:01.752660+00:00"
+  "last_post_timestamp": "2026-03-03T07:27:59.394373+00:00"
 }
