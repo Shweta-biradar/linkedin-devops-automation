@@ -20,6 +20,7 @@
     "https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/",
     "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
     "https://aws.amazon.com/blogs/big-data/secure-apache-spark-writes-to-amazon-s3-on-amazon-emr-with-dynamic-aws-kms-encryption/",
+    "https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/",
     "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
@@ -56,6 +57,7 @@
     "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
     "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
+    "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
     "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
     "https://github.blog/news-insights/company-news/github-availability-report-january-2026/",
     "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
@@ -114,6 +116,7 @@
     "https://thenewstack.io/chainguard-admitted-factory-1-0-was-brittle-heres-how-2-0-fixes-it/",
     "https://thenewstack.io/chainguard-and-the-hunt-for-truly-zero-cve-container-images/",
     "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
+    "https://thenewstack.io/ciq-launches-rlc-pro-for-enterprise-linux-for-the-ai-era/",
     "https://thenewstack.io/ciso-identity-complexity-strategy/",
     "https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
@@ -136,6 +139,7 @@
     "https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/",
     "https://thenewstack.io/how-to-reduce-mcp-token-bloat/",
     "https://thenewstack.io/ide-vs-desktop-agent/",
+    "https://thenewstack.io/intent-engineering-ai-agents/",
     "https://thenewstack.io/is-open-source-in-trouble/",
     "https://thenewstack.io/jule-open-source-programming-language/",
     "https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/",
@@ -252,6 +256,7 @@
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
+    "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/",
     "https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
@@ -354,6 +359,7 @@
     "https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week",
     "https://www.kdnuggets.com/fastmcp-the-pythonic-way-to-build-mcp-servers-and-clients",
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
+    "https://www.kdnuggets.com/getting-started-with-python-async-programming",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
@@ -399,8 +405,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "6f6cbbb76bb5": "2026-02-16T12:01:16.477387+00:00",
-      "600b12b0e176": "2026-02-16T12:01:16.477487+00:00",
       "21a5a4e91e3d": "2026-02-17T12:00:04.875817+00:00",
       "75851533dbf8": "2026-02-17T05:12:49.098354+00:00",
       "f53d579ac694": "2026-02-17T05:12:49.098436+00:00",
@@ -522,10 +526,16 @@
       "b701d7f4b0cc": "2026-03-01T05:10:43.233993+00:00",
       "5184c332828c": "2026-03-01T05:10:43.234041+00:00",
       "edd287012397": "2026-03-02T05:05:53.827524+00:00",
-      "90cf56c91f4c": "2026-03-02T11:54:20.409387+00:00"
+      "90cf56c91f4c": "2026-03-02T11:54:20.409387+00:00",
+      "c5a26e17366a": "2026-03-03T05:06:01.750450+00:00",
+      "d898ea09aadb": "2026-03-03T05:06:01.750562+00:00",
+      "f10410db4471": "2026-03-03T05:06:01.750615+00:00",
+      "ebe2ad0da340": "2026-03-03T05:06:01.750662+00:00",
+      "03162906e0aa": "2026-03-03T05:06:01.750707+00:00",
+      "d5fc3f9e3a45": "2026-03-03T05:06:01.750754+00:00"
     },
-    "last_post_id": "urn:li:share:7434204443618967552",
-    "last_posted_at_utc": "2026-03-02T11:54:20.409475+00:00",
+    "last_post_id": "urn:li:share:7434464076614787072",
+    "last_posted_at_utc": "2026-03-03T05:06:01.750791+00:00",
     "last_format": "digest"
   }
 }

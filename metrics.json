@@ -1,12 +1,12 @@
 {
-  "total_posts": 141,
-  "posts_today": 3,
-  "last_post_date": "2026-03-02",
+  "total_posts": 142,
+  "posts_today": 1,
+  "last_post_date": "2026-03-03",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 107,
+    "digest": 108,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 26,
+    "aws.amazon.com": 27,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -34,33 +34,20 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 14,
-    "thenewstack.io": 103,
+    "github.blog": 15,
+    "thenewstack.io": 105,
     "blog.jetbrains.com": 18,
     "www.bleepingcomputer.com": 19,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 78,
+    "towardsdatascience.com": 79,
     "www.snowflake.com": 40,
-    "kdnuggets.com": 22,
+    "kdnuggets.com": 23,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-01",
-      "time": "2026-02-01T05:16:21.597748+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-01",
       "time": "2026-02-01T07:15:01.750271+00:00",
@@ -979,13 +966,30 @@
       "sources": [
         "blog.jetbrains.com"
       ]
+    },
+    {
+      "date": "2026-03-03",
+      "time": "2026-03-03T05:06:01.751723+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "github.blog",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 114,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nSRE leaders share reliability wins and lessons.\n\nEssential reads:\n1. Your First Migration: Moving a Single Project From Jenkins to TeamCity Painlessly\nContext: ...\nThis article was brought to you by Rajkumar Venkatasamy, draft.dev. Migrating from Jenkins can feel risky. Your pipelines work, your jobs run, and your scripts hold everything together. Jenkins is\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 115,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nLeadership lessons:\n1. Standardize Amazon Redshift operations using Templates\nContext: In this post, we introduce Redshift Templates and show examples of how they can standardize and simplify your data loading operations across different scenarios.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/\n\n2. The Machine Learning Lessons I\u2019ve Learned This Month\nContext: February 2026: exchange with others, documentation, and MLOps The post The Machine Learning Lessons I\u2019ve Learned This Month appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/\n\n3. Getting Started with Python Async Programming\nContext: Build faster Python applications by mastering async programming and learning how to handle I/O bound workloads efficiently with real world examples.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/getting-started-with-python-async-programming\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com"
+    "thenewstack.io",
+    "kdnuggets.com",
+    "aws.amazon.com",
+    "towardsdatascience.com",
+    "github.blog"
   ],
-  "last_post_timestamp": "2026-03-02T11:54:20.411373+00:00"
+  "last_post_timestamp": "2026-03-03T05:06:01.752660+00:00"
 }
