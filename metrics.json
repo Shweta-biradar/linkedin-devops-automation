@@ -1,12 +1,12 @@
 {
-  "total_posts": 143,
-  "posts_today": 2,
+  "total_posts": 144,
+  "posts_today": 3,
   "last_post_date": "2026-03-03",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 109,
+    "digest": 110,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -37,7 +37,7 @@
     "github.blog": 15,
     "thenewstack.io": 107,
     "blog.jetbrains.com": 18,
-    "www.bleepingcomputer.com": 19,
+    "www.bleepingcomputer.com": 20,
     "martinfowler.com": 2,
     "towardsdatascience.com": 81,
     "www.snowflake.com": 40,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-01",
-      "time": "2026-02-01T11:45:35.167432+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "github.blog",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-02",
       "time": "2026-02-02T05:15:33.552243+00:00",
@@ -977,14 +964,21 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-03",
+      "time": "2026-03-03T11:55:34.987996+00:00",
+      "format": "digest",
+      "sources": [
+        "www.bleepingcomputer.com"
+      ]
     }
   ],
-  "posts_created": 116,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nCloud pioneers highlight key developments for practitioners.\n\nArchitecture patterns:\n1. Code Less, Ship Faster: Building APIs with FastAPI\nContext: Master path operations, Pydantic models, dependency injection, and automatic documentation. The post Code Less, Ship Faster: Building APIs with FastAPI appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/\n\n2. Inception Labs says its diffusion LLM is 10x faster than Claude, ChatGPT, Gemini\nContext: Last week, Inception Labs launched Mercury 2, a large language model based on diffusion rather than the autoregressive approach used The post Inception Labs says its diffusion...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/inception-labs-mercury-2-diffusion/\n\n3. Claude\u2019s free plan can now remember you\nContext: ...\nThere may be some things the folks at Anthropic sure want to forget sooner rather than later, but at least The post Claude&#8217;s free plan can now remember you appeared first on The New Stack .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/claudes-free-plan-can-now-remember-you/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 117,
+  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nCloud pioneers highlight key developments for practitioners.\n\nThis week's standouts:\n1. Amazon: Drone strikes damaged AWS data centers in Middle East\nContext: Amazon has confirmed that three Amazon Web Services (AWS) data centers in the United Arab Emirates (UAE) and one in Bahrain have been damaged by drone strikes, causing an...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/technology/amazon-drone-strikes-damaged-aws-data-centers-in-middle-east/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "towardsdatascience.com"
+    "www.bleepingcomputer.com"
   ],
-  "last_post_timestamp": "2026-03-03T07:27:59.394373+00:00"
+  "last_post_timestamp": "2026-03-03T11:55:34.988880+00:00"
 }
