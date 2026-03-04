@@ -1,12 +1,12 @@
 {
-  "total_posts": 146,
-  "posts_today": 2,
+  "total_posts": 147,
+  "posts_today": 3,
   "last_post_date": "2026-03-04",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 112,
+    "digest": 113,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 27,
+    "aws.amazon.com": 28,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 16,
-    "thenewstack.io": 113,
+    "thenewstack.io": 114,
     "blog.jetbrains.com": 18,
     "www.bleepingcomputer.com": 21,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 83,
+    "towardsdatascience.com": 85,
     "www.snowflake.com": 41,
     "kdnuggets.com": 24,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-02",
-      "time": "2026-02-02T11:57:43.661752+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-02-03",
       "time": "2026-02-03T05:05:52.084509+00:00",
@@ -976,15 +968,26 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-04",
+      "time": "2026-03-04T11:53:20.096031+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 119,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nEngineering visionaries spotlight what matters most this week.\n\nEssential reads:\n1. 7 Essential OpenClaw Skills You Need Right Now\nContext: Skills are what make OpenClaw more than a local assistant, and these are the most popular ones worth installing today.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/7-essential-openclaw-skills-you-need-right-now\n\n2. Why You Should Stop Writing Loops in Pandas\nContext: How to think in columns, write faster code, and finally use Pandas like a professional The post Why You Should Stop Writing Loops in Pandas appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/\n\n3. Meta gave React its own foundation. But it\u2019s not letting go just yet.\nContext: ...\nOpen source has long been shaped by the tension between community ideals and commercial reality. This past week highlighted just The post Meta gave React its own foundation. But it&#8217;s not let\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/react-foundation-open-source-governance/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 120,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nSecurity signals:\n1. Google\u2019s Chrome browser moves to a two-week release cycle\nContext: ...\nGoogle on Tuesday announced that its Chrome browser will move to a faster release cycle later this year, with a The post Google&#8217;s Chrome browser moves to a two-week release cycle appeared fi\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/chrome-two-week-releases/\n\n2. Set up production-ready monitoring for Amazon MSK using CloudWatch alarms\nContext: In this post, I show you how to implement effective monitoring for your Kafka clusters using Amazon MSK and Amazon CloudWatch.\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/set-up-production-ready-monitoring-for-amazon-msk-using-cloudwatch-alarms/\n\n3. Agentic RAG vs Classic RAG: From a Pipeline to a Control Loop\nContext: A practical guide to choosing between single-pass pipelines and adaptive retrieval loops based on your use case's complexity, cost, and reliability requirements The post...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/agentic-rag-vs-classic-rag-from-a-pipeline-to-a-control-loop/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com",
-    "kdnuggets.com",
+    "aws.amazon.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-04T07:13:07.124302+00:00"
+  "last_post_timestamp": "2026-03-04T11:53:20.097251+00:00"
 }
