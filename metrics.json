@@ -1,12 +1,12 @@
 {
-  "total_posts": 144,
-  "posts_today": 3,
-  "last_post_date": "2026-03-03",
+  "total_posts": 145,
+  "posts_today": 1,
+  "last_post_date": "2026-03-04",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 110,
+    "digest": 111,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,13 +34,13 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 15,
-    "thenewstack.io": 107,
+    "github.blog": 16,
+    "thenewstack.io": 109,
     "blog.jetbrains.com": 18,
-    "www.bleepingcomputer.com": 20,
+    "www.bleepingcomputer.com": 21,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 81,
-    "www.snowflake.com": 40,
+    "towardsdatascience.com": 82,
+    "www.snowflake.com": 41,
     "kdnuggets.com": 23,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-02",
-      "time": "2026-02-02T05:15:33.552243+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "www.snowflake.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-02",
       "time": "2026-02-02T07:36:13.300784+00:00",
@@ -972,13 +959,30 @@
       "sources": [
         "www.bleepingcomputer.com"
       ]
+    },
+    {
+      "date": "2026-03-04",
+      "time": "2026-03-04T04:57:27.528184+00:00",
+      "format": "digest",
+      "sources": [
+        "github.blog",
+        "towardsdatascience.com",
+        "www.snowflake.com",
+        "www.bleepingcomputer.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 117,
-  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nCloud pioneers highlight key developments for practitioners.\n\nThis week's standouts:\n1. Amazon: Drone strikes damaged AWS data centers in Middle East\nContext: Amazon has confirmed that three Amazon Web Services (AWS) data centers in the United Arab Emirates (UAE) and one in Bahrain have been damaged by drone strikes, causing an...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/technology/amazon-drone-strikes-damaged-aws-data-centers-in-middle-east/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 118,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nAI innovators map the future of intelligent systems.\n\nGlobal tech trends:\n1. Join or host a GitHub Copilot Dev Days event near you\nContext: GitHub Copilot Dev Days is a global series of hands-on, in-person, community-led events designed to help developers explore real-world, AI-assisted coding.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/\n\n2. Graph Coloring You Can See\nContext: Visual intuition with Python The post Graph Coloring You Can See appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/\n\n3. Public Sector Organizations Make Data-Informed Decisions with Snowflake Intelligence\nContext: By leveraging Snowflake Intelligence government agencies can best serve their citizens and build trust while delivering high quality, reliable digital services.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/public-sector-data-informed-snowflake-intelligence\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.bleepingcomputer.com"
+    "www.bleepingcomputer.com",
+    "towardsdatascience.com",
+    "www.snowflake.com",
+    "github.blog",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-03T11:55:34.988880+00:00"
+  "last_post_timestamp": "2026-03-04T04:57:27.529152+00:00"
 }

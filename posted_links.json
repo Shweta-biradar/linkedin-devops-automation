@@ -57,6 +57,7 @@
     "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
     "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
+    "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
     "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
     "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
     "https://github.blog/news-insights/company-news/github-availability-report-january-2026/",
@@ -122,6 +123,7 @@
     "https://thenewstack.io/claudes-free-plan-can-now-remember-you/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
     "https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/",
+    "https://thenewstack.io/developers-coding-moving-target-ai/",
     "https://thenewstack.io/docker-versus-nix-the-quest-for-true-reproducibility/",
     "https://thenewstack.io/drupal-turns-25-from-simple-to-complex-then-simple-again/",
     "https://thenewstack.io/dynatrace-perform-rise-of-the-developer/",
@@ -158,6 +160,7 @@
     "https://thenewstack.io/nano-banana-2/",
     "https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/",
     "https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/",
+    "https://thenewstack.io/openai-gpt-5-1-instant/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/",
     "https://thenewstack.io/openais-new-codex-spark-is-optimized-for-speed/",
@@ -222,6 +225,7 @@
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
+    "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
@@ -282,6 +286,7 @@
     "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/",
     "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
     "https://www.bleepingcomputer.com/news/security/infostealer-malware-found-stealing-openclaw-secrets-for-first-time/",
+    "https://www.bleepingcomputer.com/news/security/lexisnexis-confirms-data-breach-as-hackers-leak-stolen-files/",
     "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/",
     "https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/",
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
@@ -392,6 +397,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/observe-acquisition-ai-powered-observability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/pliable-ai-analytics-smbs",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/production-ml-workflows",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/public-sector-data-informed-snowflake-intelligence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-2026-predictions-webinar-recap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
@@ -410,7 +416,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "21a5a4e91e3d": "2026-02-17T12:00:04.875817+00:00",
       "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
       "dba32e1720ef": "2026-02-18T05:13:31.428933+00:00",
       "c2705f8ca294": "2026-02-18T05:13:31.429014+00:00",
@@ -536,10 +541,16 @@
       "21b02da4e72f": "2026-03-03T07:27:59.392408+00:00",
       "414e9ff71153": "2026-03-03T07:27:59.392476+00:00",
       "7aa328f321a5": "2026-03-03T07:27:59.392572+00:00",
-      "e07ffcf9853f": "2026-03-03T11:55:34.987005+00:00"
+      "e07ffcf9853f": "2026-03-03T11:55:34.987005+00:00",
+      "4e3241a469d9": "2026-03-04T04:57:27.526842+00:00",
+      "e91dbb4a37cb": "2026-03-04T04:57:27.526946+00:00",
+      "7465e7b92b09": "2026-03-04T04:57:27.527031+00:00",
+      "ecf9b7935aa6": "2026-03-04T04:57:27.527082+00:00",
+      "5528dccf2e28": "2026-03-04T04:57:27.527130+00:00",
+      "dd7d4677501d": "2026-03-04T04:57:27.527176+00:00"
     },
-    "last_post_id": "urn:li:share:7434567144367063040",
-    "last_posted_at_utc": "2026-03-03T11:55:34.987105+00:00",
+    "last_post_id": "urn:li:share:7434824307643400194",
+    "last_posted_at_utc": "2026-03-04T04:57:27.527212+00:00",
     "last_format": "digest"
   }
 }
