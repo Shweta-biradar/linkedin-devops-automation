@@ -1,12 +1,12 @@
 {
-  "total_posts": 148,
-  "posts_today": 1,
+  "total_posts": 149,
+  "posts_today": 2,
   "last_post_date": "2026-03-05",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 114,
+    "digest": 115,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,32 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 16,
-    "thenewstack.io": 114,
+    "thenewstack.io": 117,
     "blog.jetbrains.com": 19,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 85,
+    "towardsdatascience.com": 87,
     "www.snowflake.com": 44,
-    "kdnuggets.com": 24,
+    "kdnuggets.com": 25,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-03",
-      "time": "2026-02-03T07:27:45.116073+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "github.blog",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-03",
       "time": "2026-02-03T11:59:41.056427+00:00",
@@ -979,16 +966,28 @@
         "www.snowflake.com",
         "www.bleepingcomputer.com"
       ]
+    },
+    {
+      "date": "2026-03-05",
+      "time": "2026-03-05T07:26:14.381735+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 121,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nThis week's standouts:\n1. Snowflake Openflow Connector: Agentless Oracle CDC to Snowflake\nContext: Announcing the GA of the native, agentless Snowflake Openflow Connector for Oracle. Stream data with near-real-time CDC, minimal source impact, and simplified operations.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle\n\n2. Zero-ETL integrations with Amazon OpenSearch Service\nContext: OpenSearch Service offers zero-ETL integrations with other Amazon Web Service (AWS) services, enabling seamless data access and analysis without the need for maintaining...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/\n\n3. dotInsights | March 2026\nContext: ...\nDid you know?&#160;The async and await keywords in C# were introduced in C# 5.0 (2012) to simplify asynchronous programming. Under the hood, the compiler uses a state machine to transform your asy\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/dotnet/2026/03/04/dotinsights-march-2026/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 122,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nAnalytics experts curate the signals that drive innovation.\n\nSecurity signals:\n1. 5 Useful Python Scripts to Automate Exploratory Data Analysis\nContext: Spending hours cleaning, summarizing, and visualizing your data manually? Automate your exploratory data analysis workflow with these 5 ready-to-use Python scripts.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis\n\n2. Unleash raises $35M, launches Impact Metrics to govern feature rollouts at AI speed\nContext: ...\nFour years is a long time in technology. But in AI, it&#8217;s more like an eternity. When Unleash last raised The post Unleash raises $35M, launches Impact Metrics to govern feature rollouts at A\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/unleash-feature-management-funding/\n\n3. Eclipse Foundation reports Open VSX hits 300 million monthly downloads\nContext: The Eclipse Foundation this week announced that Open VSX, the open source extension registry for tools built on the VS The post Eclipse Foundation reports Open VSX hits 300...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/open-vsx-aws-investment/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "blog.jetbrains.com",
-    "www.snowflake.com",
-    "www.bleepingcomputer.com"
+    "towardsdatascience.com",
+    "kdnuggets.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-05T05:01:58.334116+00:00"
+  "last_post_timestamp": "2026-03-05T07:26:14.382688+00:00"
 }
