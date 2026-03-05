@@ -97,6 +97,7 @@
     "https://techcrunch.com/2026/02/16/fractal-analytics-muted-ipo-debut-signals-persistent-ai-fears-in-india/",
     "https://thenewstack.io/2026-java-ai-apps/",
     "https://thenewstack.io/50-years-ago-a-young-bill-gates-took-on-the-software-pirates/",
+    "https://thenewstack.io/aerynos-linux-distribution/",
     "https://thenewstack.io/agent-framework-container-wars/",
     "https://thenewstack.io/agentic-ai-verification-impact/",
     "https://thenewstack.io/agentic-knowledge-base-patterns/",
@@ -143,6 +144,7 @@
     "https://thenewstack.io/google-conductor-automated-reviews/",
     "https://thenewstack.io/google-gemini-3-1-flash-lite/",
     "https://thenewstack.io/googles-gemini-3-1-pro-is-mostly-great/",
+    "https://thenewstack.io/gsma-open-gateway-developers/",
     "https://thenewstack.io/hackeros-is-what-a-linux-enthusiasts-os-should-be/",
     "https://thenewstack.io/homepage-is-your-one-stop-shop-for-monitoring-and-viewing-all-of-the-services-you-depend-on/",
     "https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/",
@@ -170,6 +172,7 @@
     "https://thenewstack.io/open-vsx-aws-investment/",
     "https://thenewstack.io/openai-gpt-5-1-instant/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
+    "https://thenewstack.io/openais-codex-is-now-on-windows/",
     "https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/",
     "https://thenewstack.io/openais-new-codex-spark-is-optimized-for-speed/",
     "https://thenewstack.io/openclaw-gsd/",
@@ -189,6 +192,7 @@
     "https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/",
     "https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/",
     "https://thenewstack.io/surrealdb-3-ai-agents/",
+    "https://thenewstack.io/the-ai-shift-why-risc-v-is-poised-to-challenge-arm-and-x86/",
     "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
     "https://thenewstack.io/this-simple-infrastructure-gap-is-holding-back-ai-productivity/",
     "https://thenewstack.io/tidb-and-the-rise-of-the-ai-native-database/",
@@ -208,6 +212,7 @@
     "https://thenewstack.io/why-enterprise-businesses-should-adopt-immutable-linux-for-the-desktop/",
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
+    "https://towardsdatascience.com/5-ways-for-variable-discretization/",
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
@@ -273,6 +278,7 @@
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
+    "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
@@ -439,10 +445,6 @@
   "meta": {
     "topic_hashes": {
       "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
-      "c0929516c98b": "2026-02-19T07:34:28.241382+00:00",
-      "620ea834112d": "2026-02-19T07:34:28.241505+00:00",
-      "061f6b457e55": "2026-02-19T07:34:28.241604+00:00",
-      "005814120a4d": "2026-02-19T07:34:28.241668+00:00",
       "aae47041d404": "2026-02-19T12:02:35.946215+00:00",
       "53763e583a5d": "2026-02-22T11:44:49.193901+00:00",
       "0f98b39da130": "2026-02-23T07:38:59.626614+00:00",
@@ -573,10 +575,16 @@
       "51cfb2e5d29d": "2026-03-05T07:26:14.380457+00:00",
       "b4ab34d0941d": "2026-03-05T07:26:14.380526+00:00",
       "5514efe38771": "2026-03-05T07:26:14.380573+00:00",
-      "a379947dcdd2": "2026-03-05T07:26:14.380617+00:00"
+      "a379947dcdd2": "2026-03-05T07:26:14.380617+00:00",
+      "a2807e74de48": "2026-03-05T11:56:02.604459+00:00",
+      "fed0447743a0": "2026-03-05T11:56:02.604554+00:00",
+      "af235cd5d5a7": "2026-03-05T11:56:02.604606+00:00",
+      "d197393dc95d": "2026-03-05T11:56:02.604654+00:00",
+      "0ee96e5b26cb": "2026-03-05T11:56:02.604700+00:00",
+      "b22d1e75a448": "2026-03-05T11:56:02.604748+00:00"
     },
-    "last_post_id": "urn:li:share:7435224137498927104",
-    "last_posted_at_utc": "2026-03-05T07:26:14.380653+00:00",
+    "last_post_id": "urn:li:share:7435292035802128384",
+    "last_posted_at_utc": "2026-03-05T11:56:02.604787+00:00",
     "last_format": "digest"
   }
 }

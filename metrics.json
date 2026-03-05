@@ -1,12 +1,12 @@
 {
-  "total_posts": 149,
-  "posts_today": 2,
+  "total_posts": 150,
+  "posts_today": 3,
   "last_post_date": "2026-03-05",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 115,
+    "digest": 116,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 16,
-    "thenewstack.io": 117,
+    "thenewstack.io": 121,
     "blog.jetbrains.com": 19,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 87,
+    "towardsdatascience.com": 89,
     "www.snowflake.com": 44,
     "kdnuggets.com": 25,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-03",
-      "time": "2026-02-03T11:59:41.056427+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "techcrunch.com"
-      ]
-    },
     {
       "date": "2026-02-04",
       "time": "2026-02-04T05:00:03.363294+00:00",
@@ -979,15 +966,27 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-05",
+      "time": "2026-03-05T11:56:02.605785+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 122,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nAnalytics experts curate the signals that drive innovation.\n\nSecurity signals:\n1. 5 Useful Python Scripts to Automate Exploratory Data Analysis\nContext: Spending hours cleaning, summarizing, and visualizing your data manually? Automate your exploratory data analysis workflow with these 5 ready-to-use Python scripts.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis\n\n2. Unleash raises $35M, launches Impact Metrics to govern feature rollouts at AI speed\nContext: ...\nFour years is a long time in technology. But in AI, it&#8217;s more like an eternity. When Unleash last raised The post Unleash raises $35M, launches Impact Metrics to govern feature rollouts at A\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://thenewstack.io/unleash-feature-management-funding/\n\n3. Eclipse Foundation reports Open VSX hits 300 million monthly downloads\nContext: The Eclipse Foundation this week announced that Open VSX, the open source extension registry for tools built on the VS The post Eclipse Foundation reports Open VSX hits 300...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/open-vsx-aws-investment/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
+  "posts_created": 123,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nCloud pioneers highlight key developments for practitioners.\n\nKey developments:\n1. The AI Shift: Why RISC-V is poised to challenge Arm and x86\nContext: The RISC-V standard has evolved and matured to the extent that performance drawbacks have largely disappeared compared with the long-tried The post The AI Shift: Why RISC-V is...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/the-ai-shift-why-risc-v-is-poised-to-challenge-arm-and-x86/\n\n2. AerynOS is a Linux distribution geared toward performance and bulletproof updates\nContext: There are thousands upon thousands of Linux distributions, so when a new flavor comes into being, the first thing I The post AerynOS is a Linux distribution geared toward...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/aerynos-linux-distribution/\n\n3. GSMA Open Gateway offers developers one API for 300+ mobile networks\nContext: ...\nDevelopers care about protocols, standards, and specifications &#8212; a little. But it&#8217;s not what keeps them up at night. Your The post GSMA Open Gateway offers developers one API for 300+\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/gsma-open-gateway-developers/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com",
-    "kdnuggets.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-05T07:26:14.382688+00:00"
+  "last_post_timestamp": "2026-03-05T11:56:02.606754+00:00"
 }
