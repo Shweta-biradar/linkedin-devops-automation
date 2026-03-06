@@ -61,6 +61,7 @@
     "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
     "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
+    "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
     "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
     "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
     "https://github.blog/news-insights/company-news/github-availability-report-january-2026/",
@@ -170,7 +171,9 @@
     "https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/",
     "https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/",
     "https://thenewstack.io/open-vsx-aws-investment/",
+    "https://thenewstack.io/openai-defense-department-debate/",
     "https://thenewstack.io/openai-gpt-5-1-instant/",
+    "https://thenewstack.io/openai-launches-gpt-5-4/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/openais-codex-is-now-on-windows/",
     "https://thenewstack.io/openais-gpt-5-3-codex-helped-build-itself/",
@@ -219,6 +222,7 @@
     "https://towardsdatascience.com/agentic-rag-vs-classic-rag-from-a-pipeline-to-a-control-loop/",
     "https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/",
     "https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/",
+    "https://towardsdatascience.com/ai-in-multiple-gpus-zero-fsdp/",
     "https://towardsdatascience.com/aliasing-in-audio-easily-explained-from-wagon-wheels-to-waveforms/",
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
@@ -396,6 +400,7 @@
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/getting-started-with-python-async-programming",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
+    "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
@@ -406,6 +411,7 @@
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
     "https://www.rapid7.com/blog/post/metasploit-wrap-up-12-19-2025",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform",
@@ -445,7 +451,6 @@
   "meta": {
     "topic_hashes": {
       "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
-      "aae47041d404": "2026-02-19T12:02:35.946215+00:00",
       "53763e583a5d": "2026-02-22T11:44:49.193901+00:00",
       "0f98b39da130": "2026-02-23T07:38:59.626614+00:00",
       "33e251fdb0dd": "2026-02-20T05:07:50.971661+00:00",
@@ -581,10 +586,16 @@
       "af235cd5d5a7": "2026-03-05T11:56:02.604606+00:00",
       "d197393dc95d": "2026-03-05T11:56:02.604654+00:00",
       "0ee96e5b26cb": "2026-03-05T11:56:02.604700+00:00",
-      "b22d1e75a448": "2026-03-05T11:56:02.604748+00:00"
+      "b22d1e75a448": "2026-03-05T11:56:02.604748+00:00",
+      "4495504bc7b2": "2026-03-06T04:59:02.945600+00:00",
+      "a6a3782b5645": "2026-03-06T04:59:02.945706+00:00",
+      "c15776811e96": "2026-03-06T04:59:02.945802+00:00",
+      "567280a1fe56": "2026-03-06T04:59:02.945877+00:00",
+      "7118fcc41c6f": "2026-03-06T04:59:02.945929+00:00",
+      "d4f5c23aa94f": "2026-03-06T04:59:02.945977+00:00"
     },
-    "last_post_id": "urn:li:share:7435292035802128384",
-    "last_posted_at_utc": "2026-03-05T11:56:02.604787+00:00",
+    "last_post_id": "urn:li:share:7435549481481281536",
+    "last_posted_at_utc": "2026-03-06T04:59:02.946018+00:00",
     "last_format": "digest"
   }
 }

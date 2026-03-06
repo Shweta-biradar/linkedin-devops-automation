@@ -1,12 +1,12 @@
 {
-  "total_posts": 150,
-  "posts_today": 3,
-  "last_post_date": "2026-03-05",
+  "total_posts": 151,
+  "posts_today": 1,
+  "last_post_date": "2026-03-06",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 116,
+    "digest": 117,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,33 +34,20 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 16,
-    "thenewstack.io": 121,
+    "github.blog": 17,
+    "thenewstack.io": 123,
     "blog.jetbrains.com": 19,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 89,
-    "www.snowflake.com": 44,
-    "kdnuggets.com": 25,
+    "towardsdatascience.com": 90,
+    "www.snowflake.com": 45,
+    "kdnuggets.com": 26,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-04",
-      "time": "2026-02-04T05:00:03.363294+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "github.blog",
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-04",
       "time": "2026-02-04T07:28:44.705247+00:00",
@@ -979,14 +966,30 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-06",
+      "time": "2026-03-06T04:59:02.947045+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "github.blog",
+        "kdnuggets.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 123,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nCloud pioneers highlight key developments for practitioners.\n\nKey developments:\n1. The AI Shift: Why RISC-V is poised to challenge Arm and x86\nContext: The RISC-V standard has evolved and matured to the extent that performance drawbacks have largely disappeared compared with the long-tried The post The AI Shift: Why RISC-V is...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/the-ai-shift-why-risc-v-is-poised-to-challenge-arm-and-x86/\n\n2. AerynOS is a Linux distribution geared toward performance and bulletproof updates\nContext: There are thousands upon thousands of Linux distributions, so when a new flavor comes into being, the first thing I The post AerynOS is a Linux distribution geared toward...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/aerynos-linux-distribution/\n\n3. GSMA Open Gateway offers developers one API for 300+ mobile networks\nContext: ...\nDevelopers care about protocols, standards, and specifications &#8212; a little. But it&#8217;s not what keeps them up at night. Your The post GSMA Open Gateway offers developers one API for 300+\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/gsma-open-gateway-developers/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 124,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nPlatform architects surface actionable insights for resilient systems.\n\nWhat caught our attention:\n1. How AI Agents Improve Healthcare Workflows and Insights\nContext: Discover how healthcare organizations use AI agents with Snowflake Intelligence to streamline workflows, reduce costs and deliver secure, care-critical insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency\n\n2. Scaling AI opportunity across the globe: Learnings from GitHub and Andela\nContext: Developers connected to Andela share how they\u2019re learning AI tools inside real production workflows. The post Scaling AI opportunity across the globe: Learnings from GitHub and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/\n\n3. Pandas vs. Polars: A Complete Comparison of Syntax, Speed, and Memory\nContext: Need help choosing the right Python dataframe library? This article compares Pandas and Polars to help you decide.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "www.snowflake.com",
+    "thenewstack.io",
+    "kdnuggets.com",
+    "github.blog",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-05T11:56:02.606754+00:00"
+  "last_post_timestamp": "2026-03-06T04:59:02.948073+00:00"
 }
