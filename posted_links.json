@@ -42,6 +42,7 @@
     "https://blog.jetbrains.com/databao/2026/02/databao-becomes-osi-partner/",
     "https://blog.jetbrains.com/databao/2026/02/how-databao-agent-ranked-1-spider-2-0-dbt/",
     "https://blog.jetbrains.com/databao/2026/02/introducing-databao/",
+    "https://blog.jetbrains.com/databao/2026/03/guja-customer-story/",
     "https://blog.jetbrains.com/dotnet/2026/02/10/dotinsights-february-2026/",
     "https://blog.jetbrains.com/dotnet/2026/03/04/dotinsights-march-2026/",
     "https://blog.jetbrains.com/idea/2026/01/spring-data-jdbc-made-easy-with-intellij-idea/",
@@ -455,12 +456,6 @@
       "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
       "53763e583a5d": "2026-02-22T11:44:49.193901+00:00",
       "0f98b39da130": "2026-02-23T07:38:59.626614+00:00",
-      "ca2a73001fe5": "2026-02-20T07:31:39.164301+00:00",
-      "dbffbd0ead6c": "2026-02-20T07:31:39.164373+00:00",
-      "c690c2db5870": "2026-02-20T07:31:39.164423+00:00",
-      "b9118d3f62b5": "2026-02-20T07:31:39.164470+00:00",
-      "064f8173aba1": "2026-02-20T07:31:39.164542+00:00",
-      "6fd21ec612a0": "2026-02-20T07:31:39.164601+00:00",
       "53a91ce08aca": "2026-02-20T11:55:00.514120+00:00",
       "dee708e8dabd": "2026-02-20T11:55:00.514245+00:00",
       "376258d0fef5": "2026-02-20T11:55:00.514323+00:00",
@@ -592,10 +587,11 @@
       "7118fcc41c6f": "2026-03-06T04:59:02.945929+00:00",
       "d4f5c23aa94f": "2026-03-06T04:59:02.945977+00:00",
       "98bbaa77083c": "2026-03-06T07:15:22.403099+00:00",
-      "3d615176f6b3": "2026-03-06T07:15:22.403210+00:00"
+      "3d615176f6b3": "2026-03-06T07:15:22.403210+00:00",
+      "adf1833eaf15": "2026-03-06T11:52:03.462586+00:00"
     },
-    "last_post_id": "urn:li:share:7435583790917382144",
-    "last_posted_at_utc": "2026-03-06T07:15:22.403288+00:00",
+    "last_post_id": "urn:li:share:7435653420499292160",
+    "last_posted_at_utc": "2026-03-06T11:52:03.462678+00:00",
     "last_format": "digest"
   }
 }

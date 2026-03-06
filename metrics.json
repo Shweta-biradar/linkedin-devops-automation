@@ -1,12 +1,12 @@
 {
-  "total_posts": 152,
-  "posts_today": 2,
+  "total_posts": 153,
+  "posts_today": 3,
   "last_post_date": "2026-03-06",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 118,
+    "digest": 119,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -36,7 +36,7 @@
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
     "thenewstack.io": 123,
-    "blog.jetbrains.com": 19,
+    "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
     "towardsdatascience.com": 91,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-04",
-      "time": "2026-02-04T11:54:53.193974+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-05",
       "time": "2026-02-05T05:07:50.472496+00:00",
@@ -978,14 +970,21 @@
         "github.blog",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-06",
+      "time": "2026-03-06T11:52:03.463827+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com"
+      ]
     }
   ],
-  "posts_created": 125,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. 60 million Copilot code reviews and counting\nContext: How Copilot code review helps teams keep up with AI-accelerated code changes. The post 60 million Copilot code reviews and counting appeared first on The GitHub Blog .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/\n\n2. How Human Work Will Remain Valuable in an AI World\nContext: The Road to Reality \u2014 Episode 1 The post How Human Work Will Remain Valuable in an AI World appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 126,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Speeding up analytics with Databao\nContext: ...\nGuja is currently an analytics engineer at Carnival Maritime, one of the world\u2019s largest leisure travel and cruise companies. As one of our first alpha users, Guja tried Databao\u2019s context engine,\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/03/guja-customer-story/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "github.blog",
-    "towardsdatascience.com"
+    "blog.jetbrains.com"
   ],
-  "last_post_timestamp": "2026-03-06T07:15:22.405349+00:00"
+  "last_post_timestamp": "2026-03-06T11:52:03.464845+00:00"
 }
