@@ -1,12 +1,12 @@
 {
-  "total_posts": 151,
-  "posts_today": 1,
+  "total_posts": 152,
+  "posts_today": 2,
   "last_post_date": "2026-03-06",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 117,
+    "digest": 118,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 17,
+    "github.blog": 18,
     "thenewstack.io": 123,
     "blog.jetbrains.com": 19,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 90,
+    "towardsdatascience.com": 91,
     "www.snowflake.com": 45,
     "kdnuggets.com": 26,
     "techcrunch.com": 5,
@@ -48,16 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-04",
-      "time": "2026-02-04T07:28:44.705247+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-04",
       "time": "2026-02-04T11:54:53.193974+00:00",
@@ -979,17 +969,23 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-06",
+      "time": "2026-03-06T07:15:22.404345+00:00",
+      "format": "digest",
+      "sources": [
+        "github.blog",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 124,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nPlatform architects surface actionable insights for resilient systems.\n\nWhat caught our attention:\n1. How AI Agents Improve Healthcare Workflows and Insights\nContext: Discover how healthcare organizations use AI agents with Snowflake Intelligence to streamline workflows, reduce costs and deliver secure, care-critical insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency\n\n2. Scaling AI opportunity across the globe: Learnings from GitHub and Andela\nContext: Developers connected to Andela share how they\u2019re learning AI tools inside real production workflows. The post Scaling AI opportunity across the globe: Learnings from GitHub and...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/\n\n3. Pandas vs. Polars: A Complete Comparison of Syntax, Speed, and Memory\nContext: Need help choosing the right Python dataframe library? This article compares Pandas and Polars to help you decide.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 125,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. 60 million Copilot code reviews and counting\nContext: How Copilot code review helps teams keep up with AI-accelerated code changes. The post 60 million Copilot code reviews and counting appeared first on The GitHub Blog .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/\n\n2. How Human Work Will Remain Valuable in an AI World\nContext: The Road to Reality \u2014 Episode 1 The post How Human Work Will Remain Valuable in an AI World appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "thenewstack.io",
-    "kdnuggets.com",
     "github.blog",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-06T04:59:02.948073+00:00"
+  "last_post_timestamp": "2026-03-06T07:15:22.405349+00:00"
 }

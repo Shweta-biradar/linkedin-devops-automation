@@ -58,6 +58,7 @@
     "https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-practice-what-developers-can-automate-today-with-agentic-ci/",
     "https://github.blog/ai-and-ml/generative-ai/how-ai-is-reshaping-developer-choice-and-octoverse-data-proves-it/",
     "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
+    "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
     "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
     "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
@@ -255,6 +256,7 @@
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
+    "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
@@ -453,10 +455,6 @@
       "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
       "53763e583a5d": "2026-02-22T11:44:49.193901+00:00",
       "0f98b39da130": "2026-02-23T07:38:59.626614+00:00",
-      "33e251fdb0dd": "2026-02-20T05:07:50.971661+00:00",
-      "9dc818ba8dfd": "2026-02-20T05:07:50.971738+00:00",
-      "f36507aa8ce5": "2026-02-20T05:07:50.971810+00:00",
-      "21620d3c3fca": "2026-02-20T05:07:50.971881+00:00",
       "ca2a73001fe5": "2026-02-20T07:31:39.164301+00:00",
       "dbffbd0ead6c": "2026-02-20T07:31:39.164373+00:00",
       "c690c2db5870": "2026-02-20T07:31:39.164423+00:00",
@@ -592,10 +590,12 @@
       "c15776811e96": "2026-03-06T04:59:02.945802+00:00",
       "567280a1fe56": "2026-03-06T04:59:02.945877+00:00",
       "7118fcc41c6f": "2026-03-06T04:59:02.945929+00:00",
-      "d4f5c23aa94f": "2026-03-06T04:59:02.945977+00:00"
+      "d4f5c23aa94f": "2026-03-06T04:59:02.945977+00:00",
+      "98bbaa77083c": "2026-03-06T07:15:22.403099+00:00",
+      "3d615176f6b3": "2026-03-06T07:15:22.403210+00:00"
     },
-    "last_post_id": "urn:li:share:7435549481481281536",
-    "last_posted_at_utc": "2026-03-06T04:59:02.946018+00:00",
+    "last_post_id": "urn:li:share:7435583790917382144",
+    "last_posted_at_utc": "2026-03-06T07:15:22.403288+00:00",
     "last_format": "digest"
   }
 }
