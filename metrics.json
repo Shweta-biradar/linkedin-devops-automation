@@ -1,12 +1,12 @@
 {
-  "total_posts": 153,
-  "posts_today": 3,
-  "last_post_date": "2026-03-06",
+  "total_posts": 154,
+  "posts_today": 1,
+  "last_post_date": "2026-03-07",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 119,
+    "digest": 120,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,32 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 123,
+    "thenewstack.io": 126,
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 91,
+    "towardsdatascience.com": 93,
     "www.snowflake.com": 45,
-    "kdnuggets.com": 26,
+    "kdnuggets.com": 27,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-05",
-      "time": "2026-02-05T05:07:50.472496+00:00",
-      "format": "digest",
-      "sources": [
-        "github.blog",
-        "blog.jetbrains.com",
-        "www.bleepingcomputer.com",
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-05",
       "time": "2026-02-05T07:34:44.983713+00:00",
@@ -978,13 +965,28 @@
       "sources": [
         "blog.jetbrains.com"
       ]
+    },
+    {
+      "date": "2026-03-07",
+      "time": "2026-03-07T04:50:14.297454+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 126,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Speeding up analytics with Databao\nContext: ...\nGuja is currently an analytics engineer at Carnival Maritime, one of the world\u2019s largest leisure travel and cruise companies. As one of our first alpha users, Guja tried Databao\u2019s context engine,\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/03/guja-customer-story/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 127,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. 5 Powerful Python Decorators to Optimize LLM Applications\nContext: Learn these five Python decorators based on diverse libraries, that take particular significance when used in the context of LLM-based applications.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications\n\n2. OutSystems CEO on how enterprises can successfully adopt vibe coding\nContext: Everybody is building AI agents. But the enterprises actually shipping them to production are learning that an agent on its The post OutSystems CEO on how enterprises can...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-need-more/\n\n3. Anthropic and OpenAI are battling for the best open-source maintainers\nContext: The open-source maintainer sits at the center of the modern software ecosystem, with the libraries they build often deep within The post Anthropic and OpenAI are battling for...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openai-anthropic-open-source/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com"
+    "towardsdatascience.com",
+    "thenewstack.io",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-03-06T11:52:03.464845+00:00"
+  "last_post_timestamp": "2026-03-07T04:50:14.298396+00:00"
 }
