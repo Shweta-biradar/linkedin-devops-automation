@@ -162,6 +162,7 @@
     "https://thenewstack.io/jule-open-source-programming-language/",
     "https://thenewstack.io/liya-linux-proves-high-performance-doesnt-require-a-command-line/",
     "https://thenewstack.io/llm-database-context-mcp/",
+    "https://thenewstack.io/long-term-support-for-linux-releases-gets-a-new-lease-on-life/",
     "https://thenewstack.io/managing-database-debt/",
     "https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/",
     "https://thenewstack.io/matan-paul-shetrit-interview/",
@@ -196,6 +197,7 @@
     "https://thenewstack.io/react-foundation-open-source-governance/",
     "https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/",
     "https://thenewstack.io/roi-open-source-contribution/",
+    "https://thenewstack.io/rust-enterprise-developers/",
     "https://thenewstack.io/scylladb-database-sharechat/",
     "https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/",
     "https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/",
@@ -307,6 +309,7 @@
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
+    "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
@@ -463,11 +466,6 @@
       "53763e583a5d": "2026-02-22T11:44:49.193901+00:00",
       "0f98b39da130": "2026-02-23T07:38:59.626614+00:00",
       "94a5584b4ad6": "2026-02-23T12:00:18.312424+00:00",
-      "cee918248a4d": "2026-02-21T04:53:52.137672+00:00",
-      "d81dc2485641": "2026-02-21T04:53:52.137754+00:00",
-      "7d148840a093": "2026-02-21T04:53:52.137809+00:00",
-      "584a3f28e13c": "2026-02-21T04:53:52.137855+00:00",
-      "aead98e6c8ef": "2026-02-21T04:53:52.137901+00:00",
       "fe37e84e9641": "2026-02-21T07:09:45.560603+00:00",
       "77089ce7f3d8": "2026-02-22T05:06:47.169547+00:00",
       "686e78a2c5df": "2026-02-22T05:06:47.169688+00:00",
@@ -594,10 +592,13 @@
       "4e33801e4ae0": "2026-03-07T04:50:14.296255+00:00",
       "ba4174d8e94b": "2026-03-07T04:50:14.296320+00:00",
       "d44a43896d2d": "2026-03-07T04:50:14.296367+00:00",
-      "b1f05f610432": "2026-03-07T04:50:14.296419+00:00"
+      "b1f05f610432": "2026-03-07T04:50:14.296419+00:00",
+      "ea4329652f89": "2026-03-07T07:06:31.945904+00:00",
+      "9576baabdad4": "2026-03-07T07:06:31.946005+00:00",
+      "5f15b356ea98": "2026-03-07T07:06:31.946090+00:00"
     },
-    "last_post_id": "urn:li:share:7435909652325900288",
-    "last_posted_at_utc": "2026-03-07T04:50:14.296458+00:00",
+    "last_post_id": "urn:li:share:7435943953717219329",
+    "last_posted_at_utc": "2026-03-07T07:06:31.946157+00:00",
     "last_format": "digest"
   }
 }

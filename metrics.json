@@ -1,12 +1,12 @@
 {
-  "total_posts": 154,
-  "posts_today": 1,
+  "total_posts": 155,
+  "posts_today": 2,
   "last_post_date": "2026-03-07",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 120,
+    "digest": 121,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 126,
+    "thenewstack.io": 128,
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 93,
+    "towardsdatascience.com": 94,
     "www.snowflake.com": 45,
     "kdnuggets.com": 27,
     "techcrunch.com": 5,
@@ -48,16 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-05",
-      "time": "2026-02-05T07:34:44.983713+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-05",
       "time": "2026-02-05T11:59:38.366222+00:00",
@@ -978,15 +968,24 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-07",
+      "time": "2026-03-07T07:06:31.947198+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 127,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. 5 Powerful Python Decorators to Optimize LLM Applications\nContext: Learn these five Python decorators based on diverse libraries, that take particular significance when used in the context of LLM-based applications.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications\n\n2. OutSystems CEO on how enterprises can successfully adopt vibe coding\nContext: Everybody is building AI agents. But the enterprises actually shipping them to production are learning that an agent on its The post OutSystems CEO on how enterprises can...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-need-more/\n\n3. Anthropic and OpenAI are battling for the best open-source maintainers\nContext: The open-source maintainer sits at the center of the modern software ecosystem, with the libraries they build often deep within The post Anthropic and OpenAI are battling for...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openai-anthropic-open-source/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 128,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nAnalytics experts curate the signals that drive innovation.\n\nStrategic highlights:\n1. Nearly half of all companies now use Rust in production, survey finds\nContext: A decade into tracking the Rust programming language, the 2025 State of Rust Survey, released this week, paints a picture The post Nearly half of all companies now use Rust in...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/rust-enterprise-developers/\n\n2. Long-term support for Linux releases gets a new lease on life\nContext: If you want to keep your Linux instances safe and secure, your best course is to use Long Term Support The post Long-term support for Linux releases gets a new lease on life...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/long-term-support-for-linux-releases-gets-a-new-lease-on-life/\n\n3. What Makes Quantum Machine Learning \u201cQuantum\u201d?\nContext: And where is it today? The post What Makes Quantum Machine Learning \u201cQuantum\u201d? appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
     "thenewstack.io",
-    "kdnuggets.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-07T04:50:14.298396+00:00"
+  "last_post_timestamp": "2026-03-07T07:06:31.948145+00:00"
 }
