@@ -1,12 +1,12 @@
 {
-  "total_posts": 156,
-  "posts_today": 3,
-  "last_post_date": "2026-03-07",
+  "total_posts": 157,
+  "posts_today": 1,
+  "last_post_date": "2026-03-08",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 122,
+    "digest": 123,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 128,
+    "thenewstack.io": 131,
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 94,
+    "towardsdatascience.com": 96,
     "www.snowflake.com": 46,
     "kdnuggets.com": 27,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-06",
-      "time": "2026-02-06T05:04:57.299611+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "aws.amazon.com",
-        "techcrunch.com",
-        "aws.amazon.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-06",
       "time": "2026-02-06T07:31:23.770337+00:00",
@@ -978,13 +965,26 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T05:00:03.513510+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 129,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nCollaboration experts spotlight culture and process breakthroughs.\n\nGlobal tech trends:\n1. Snowflake Openflow Connector: Agentless Oracle CDC to Snowflake\nContext: Announcing the GA of the native, agentless Snowflake Openflow Connector for Oracle. Stream data with near-real-time CDC, minimal source impact, and simplified operations.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 130,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nSecurity champions share what shapes the future of operations.\n\nSignal vs noise:\n1. Understanding Context and Contextual Retrieval in RAG\nContext: Why traditional RAG loses context and how contextual retrieval dramatically improves retrieval accuracy The post Understanding Context and Contextual Retrieval in RAG appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/\n\n2. The AI Bubble Has a Data Science Escape Hatch\nContext: Five classical data science skills are becoming the scarcest resource in tech. A 90-day roadmap to build them while everyone else chases AI hype.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/\n\n3. OpenAI GPT-5.4 launches, AI gets its own jobs report, Claude surges after U.S. ban\nContext: ...\nI&#8217;m Matt Burns, Director of Editorial at Insight Media Group. Each week, I round up the most important AI developments. The post OpenAI GPT-5.4 launches, AI gets its own jobs report, Claude\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openai-gpt-5-4-ai-jobs-report-anthropic-dow-supply-chain-risk/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com"
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-07T11:42:33.219865+00:00"
+  "last_post_timestamp": "2026-03-08T05:00:03.514500+00:00"
 }

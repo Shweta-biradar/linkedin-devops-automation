@@ -157,6 +157,7 @@
     "https://thenewstack.io/ide-vs-desktop-agent/",
     "https://thenewstack.io/inception-labs-mercury-2-diffusion/",
     "https://thenewstack.io/intent-engineering-ai-agents/",
+    "https://thenewstack.io/is-ai-killing-open-source-software/",
     "https://thenewstack.io/is-open-source-in-trouble/",
     "https://thenewstack.io/it-tools-brings-many-useful-developer-tools-into-one-convenient-location/",
     "https://thenewstack.io/jule-open-source-programming-language/",
@@ -174,11 +175,13 @@
     "https://thenewstack.io/multimodal-rag-hybrid-search/",
     "https://thenewstack.io/nano-banana-2/",
     "https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/",
+    "https://thenewstack.io/open-source-coding-agents-like-opencode-cline-and-aider-are-solving-a-huge-headache-for-developers/",
     "https://thenewstack.io/open-source-usearch-library-jumpstarts-scylladb-vector-search/",
     "https://thenewstack.io/open-vsx-aws-investment/",
     "https://thenewstack.io/openai-anthropic-open-source/",
     "https://thenewstack.io/openai-defense-department-debate/",
     "https://thenewstack.io/openai-gpt-5-1-instant/",
+    "https://thenewstack.io/openai-gpt-5-4-ai-jobs-report-anthropic-dow-supply-chain-risk/",
     "https://thenewstack.io/openai-launches-gpt-5-4/",
     "https://thenewstack.io/openais-codex-desktop-app-is-all-about-managing-agents/",
     "https://thenewstack.io/openais-codex-is-now-on-windows/",
@@ -295,6 +298,7 @@
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
+    "https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/",
     "https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/",
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
@@ -305,6 +309,7 @@
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
+    "https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/",
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
@@ -462,7 +467,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "868df6a454d8": "2026-02-21T11:46:01.488024+00:00",
       "53763e583a5d": "2026-02-22T11:44:49.193901+00:00",
       "0f98b39da130": "2026-02-23T07:38:59.626614+00:00",
       "94a5584b4ad6": "2026-02-23T12:00:18.312424+00:00",
@@ -594,10 +598,15 @@
       "b1f05f610432": "2026-03-07T04:50:14.296419+00:00",
       "ea4329652f89": "2026-03-07T07:06:31.945904+00:00",
       "9576baabdad4": "2026-03-07T07:06:31.946005+00:00",
-      "5f15b356ea98": "2026-03-07T07:06:31.946090+00:00"
+      "5f15b356ea98": "2026-03-07T07:06:31.946090+00:00",
+      "b52a1dda6768": "2026-03-08T05:00:03.512146+00:00",
+      "7479d22b837e": "2026-03-08T05:00:03.512257+00:00",
+      "a38e371e9467": "2026-03-08T05:00:03.512320+00:00",
+      "d63f52246c25": "2026-03-08T05:00:03.512375+00:00",
+      "11b6856b558c": "2026-03-08T05:00:03.512423+00:00"
     },
-    "last_post_id": "urn:li:share:7436013416961576960",
-    "last_posted_at_utc": "2026-03-07T11:42:33.217874+00:00",
+    "last_post_id": "urn:li:share:7436274513048375297",
+    "last_posted_at_utc": "2026-03-08T05:00:03.512465+00:00",
     "last_format": "digest"
   }
 }
