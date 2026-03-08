@@ -1,12 +1,12 @@
 {
-  "total_posts": 158,
-  "posts_today": 2,
+  "total_posts": 159,
+  "posts_today": 3,
   "last_post_date": "2026-03-08",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 124,
+    "digest": 125,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
     "towardsdatascience.com": 96,
-    "www.snowflake.com": 47,
+    "www.snowflake.com": 48,
     "kdnuggets.com": 27,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
@@ -48,16 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-06",
-      "time": "2026-02-06T11:55:03.675164+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-07",
       "time": "2026-02-07T04:54:04.643401+00:00",
@@ -972,13 +962,21 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T11:45:35.766180+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 131,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCollaboration wins:\n1. How AI Agents Improve Healthcare Workflows and Insights\nContext: Discover how healthcare organizations use AI agents with Snowflake Intelligence to streamline workflows, reduce costs and deliver secure, care-critical insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 132,
+  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nCloud pioneers highlight key developments for practitioners.\n\nStrategic highlights:\n1. Snowflake Openflow Connector: Agentless Oracle CDC to Snowflake\nContext: Announcing the GA of the native, agentless Snowflake Openflow Connector for Oracle. Stream data with near-real-time CDC, minimal source impact, and simplified operations.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-08T07:09:58.124743+00:00"
+  "last_post_timestamp": "2026-03-08T11:45:35.767141+00:00"
 }
