@@ -1,12 +1,12 @@
 {
-  "total_posts": 157,
-  "posts_today": 1,
+  "total_posts": 158,
+  "posts_today": 2,
   "last_post_date": "2026-03-08",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 123,
+    "digest": 124,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
     "towardsdatascience.com": 96,
-    "www.snowflake.com": 46,
+    "www.snowflake.com": 47,
     "kdnuggets.com": 27,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-06",
-      "time": "2026-02-06T07:31:23.770337+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "github.blog",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-06",
       "time": "2026-02-06T11:55:03.675164+00:00",
@@ -977,14 +964,21 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T07:09:58.123739+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 130,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nSecurity champions share what shapes the future of operations.\n\nSignal vs noise:\n1. Understanding Context and Contextual Retrieval in RAG\nContext: Why traditional RAG loses context and how contextual retrieval dramatically improves retrieval accuracy The post Understanding Context and Contextual Retrieval in RAG appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/\n\n2. The AI Bubble Has a Data Science Escape Hatch\nContext: Five classical data science skills are becoming the scarcest resource in tech. A 90-day roadmap to build them while everyone else chases AI hype.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/\n\n3. OpenAI GPT-5.4 launches, AI gets its own jobs report, Claude surges after U.S. ban\nContext: ...\nI&#8217;m Matt Burns, Director of Editorial at Insight Media Group. Each week, I round up the most important AI developments. The post OpenAI GPT-5.4 launches, AI gets its own jobs report, Claude\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openai-gpt-5-4-ai-jobs-report-anthropic-dow-supply-chain-risk/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 131,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nCollaboration wins:\n1. How AI Agents Improve Healthcare Workflows and Insights\nContext: Discover how healthcare organizations use AI agents with Snowflake Intelligence to streamline workflows, reduce costs and deliver secure, care-critical insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-08T05:00:03.514500+00:00"
+  "last_post_timestamp": "2026-03-08T07:09:58.124743+00:00"
 }
