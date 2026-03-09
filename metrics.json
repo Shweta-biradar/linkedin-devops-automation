@@ -1,12 +1,12 @@
 {
-  "total_posts": 160,
-  "posts_today": 1,
+  "total_posts": 161,
+  "posts_today": 2,
   "last_post_date": "2026-03-09",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 126,
+    "digest": 127,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 133,
+    "thenewstack.io": 134,
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-07",
-      "time": "2026-02-07T07:11:10.379946+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-07",
       "time": "2026-02-07T11:45:41.260563+00:00",
@@ -971,14 +963,21 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "time": "2026-03-09T07:35:52.068617+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 133,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nEssential reads:\n1. Snowflake Cortex Code CLI adds dbt and Apache Airflow support for AI-powered data pipelines\nContext: ...\nSnowflake Cortex Code CLI, Snowflake&#8217;s coding agent that was announced at the end of February, recently added support for dbt The post Snowflake Cortex Code CLI adds dbt and Apache Airflow s\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/snowflake-cortex-code-dbt-airflow/\n\n2. Write C Code Without Learning C: The Magic of PythoC\nContext: Compile native, standalone applications using the Python syntax you already know. The post Write C Code Without Learning C: The Magic of PythoC appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/\n\n3. LatentVLA: Latent Reasoning Models for Autonomous Driving\nContext: What if natural language is not the best abstraction for driving? The post LatentVLA: Latent Reasoning Models for Autonomous Driving appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
+  "posts_created": 134,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nEssential reads:\n1. Snowflake Cortex Code CLI adds dbt and Apache Airflow support for AI-powered data pipelines\nContext: ...\nSnowflake Cortex Code CLI, Snowflake&#8217;s coding agent that was announced at the end of February, recently added support for dbt The post Snowflake Cortex Code CLI adds dbt and Apache Airflow s\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/snowflake-cortex-code-dbt-airflow/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-09T05:12:51.953849+00:00"
+  "last_post_timestamp": "2026-03-09T07:35:52.069595+00:00"
 }
