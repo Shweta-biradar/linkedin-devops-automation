@@ -1,12 +1,12 @@
 {
-  "total_posts": 161,
-  "posts_today": 2,
+  "total_posts": 162,
+  "posts_today": 3,
   "last_post_date": "2026-03-09",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 127,
+    "digest": 128,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 134,
+    "thenewstack.io": 135,
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 22,
     "martinfowler.com": 2,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-07",
-      "time": "2026-02-07T11:45:41.260563+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-08",
       "time": "2026-02-08T05:17:00.951721+00:00",
@@ -971,13 +963,21 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-09",
+      "time": "2026-03-09T11:57:16.135860+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 134,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nEssential reads:\n1. Snowflake Cortex Code CLI adds dbt and Apache Airflow support for AI-powered data pipelines\nContext: ...\nSnowflake Cortex Code CLI, Snowflake&#8217;s coding agent that was announced at the end of February, recently added support for dbt The post Snowflake Cortex Code CLI adds dbt and Apache Airflow s\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/snowflake-cortex-code-dbt-airflow/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 135,
+  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nAI innovators map the future of intelligent systems.\n\nGlobal tech trends:\n1. The technical leap where most brilliant AI initiatives spectacularly fail\nContext: The hard work is done. Your organization successfully navigated the treacherous waters of legacy infrastructure and now stands at the The post The technical leap where most...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/where-ai-initiatives-fail/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-09T07:35:52.069595+00:00"
+  "last_post_timestamp": "2026-03-09T11:57:16.136729+00:00"
 }
