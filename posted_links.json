@@ -203,8 +203,10 @@
     "https://thenewstack.io/rust-enterprise-developers/",
     "https://thenewstack.io/scylladb-database-sharechat/",
     "https://thenewstack.io/simplify-managing-your-docker-compose-files-with-this-handy-tool/",
+    "https://thenewstack.io/snowflake-cortex-code-dbt-airflow/",
     "https://thenewstack.io/statistical-language-r-is-making-a-comeback-against-python/",
     "https://thenewstack.io/surrealdb-3-ai-agents/",
+    "https://thenewstack.io/tanstack-start-vibe-coding/",
     "https://thenewstack.io/the-ai-shift-why-risc-v-is-poised-to-challenge-arm-and-x86/",
     "https://thenewstack.io/the-weird-things-that-happened-when-clickhouse-replaced-c-with-rust/",
     "https://thenewstack.io/this-simple-infrastructure-gap-is-holding-back-ai-productivity/",
@@ -272,6 +274,7 @@
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
+    "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
@@ -317,6 +320,7 @@
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
+    "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
     "https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
@@ -598,10 +602,14 @@
       "7479d22b837e": "2026-03-08T05:00:03.512257+00:00",
       "a38e371e9467": "2026-03-08T05:00:03.512320+00:00",
       "d63f52246c25": "2026-03-08T05:00:03.512375+00:00",
-      "11b6856b558c": "2026-03-08T05:00:03.512423+00:00"
+      "11b6856b558c": "2026-03-08T05:00:03.512423+00:00",
+      "6eb58f68cf38": "2026-03-09T05:12:51.951639+00:00",
+      "e5306d6c6bfa": "2026-03-09T05:12:51.951732+00:00",
+      "304502e0575a": "2026-03-09T05:12:51.951815+00:00",
+      "5fe6a35abb6a": "2026-03-09T05:12:51.951877+00:00"
     },
-    "last_post_id": "urn:li:share:7436376570405097473",
-    "last_posted_at_utc": "2026-03-08T11:45:35.765118+00:00",
+    "last_post_id": "urn:li:share:7436640124303650816",
+    "last_posted_at_utc": "2026-03-09T05:12:51.951917+00:00",
     "last_format": "digest"
   }
 }
