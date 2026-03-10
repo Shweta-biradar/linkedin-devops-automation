@@ -14,6 +14,7 @@
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
     "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
+    "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
@@ -109,6 +110,7 @@
     "https://thenewstack.io/ai-agents-need-more/",
     "https://thenewstack.io/ai-agents-search-context/",
     "https://thenewstack.io/ai-incident-management-evolution/",
+    "https://thenewstack.io/ai-infrastructure-crisis-roadmap/",
     "https://thenewstack.io/ai-paradox-gitlab/",
     "https://thenewstack.io/ai-ready-infrastructure/",
     "https://thenewstack.io/ai-strategy-api-sediment/",
@@ -481,11 +483,6 @@
   "meta": {
     "topic_hashes": {
       "3e05f25fb1ac": "2026-02-27T11:54:31.969272+00:00",
-      "d9d21425c912": "2026-02-24T07:35:25.285765+00:00",
-      "c39f4fbea628": "2026-02-24T07:35:25.285863+00:00",
-      "914427e8d63b": "2026-02-24T07:35:25.285918+00:00",
-      "0a81c1ab94ff": "2026-02-24T07:35:25.285965+00:00",
-      "41679a902d1a": "2026-02-24T07:35:25.286012+00:00",
       "1b62efcfc1c8": "2026-02-24T12:01:19.032030+00:00",
       "c13691b5702c": "2026-02-24T12:01:19.032151+00:00",
       "37279a886bd3": "2026-02-24T12:01:19.032220+00:00",
@@ -614,10 +611,12 @@
       "566590ebb08a": "2026-03-10T04:58:48.603808+00:00",
       "80d0f7904676": "2026-03-10T04:58:48.603865+00:00",
       "bb20f3c44cb6": "2026-03-10T07:17:05.420931+00:00",
-      "74400d261062": "2026-03-10T07:17:05.421006+00:00"
+      "74400d261062": "2026-03-10T07:17:05.421006+00:00",
+      "60e6cb7cd13c": "2026-03-10T11:57:05.927930+00:00",
+      "555a386b5052": "2026-03-10T11:57:05.928015+00:00"
     },
-    "last_post_id": "urn:li:share:7437033774363639808",
-    "last_posted_at_utc": "2026-03-10T07:17:05.421078+00:00",
+    "last_post_id": "urn:li:share:7437104240499634176",
+    "last_posted_at_utc": "2026-03-10T11:57:05.928093+00:00",
     "last_format": "digest"
   }
 }

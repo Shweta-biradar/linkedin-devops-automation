@@ -1,12 +1,12 @@
 {
-  "total_posts": 164,
-  "posts_today": 2,
+  "total_posts": 165,
+  "posts_today": 3,
   "last_post_date": "2026-03-10",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 130,
+    "digest": 131,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 29,
+    "aws.amazon.com": 30,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 138,
+    "thenewstack.io": 139,
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 23,
     "martinfowler.com": 2,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-08",
-      "time": "2026-02-08T11:48:08.376609+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-09",
       "time": "2026-02-09T05:18:36.088779+00:00",
@@ -973,13 +965,23 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "time": "2026-03-10T11:57:05.929160+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 137,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAutomation architects drive efficiency and scale across industries.\n\nPlatform wins:\n1. I Stole a Wall Street Trick to Solve a Google Trends Data Problem\nContext: A methodology for comparing Google Trends data across countries. The post I Stole a Wall Street Trick to Solve a Google Trends Data Problem appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/\n\n2. Why Your AI Search Evaluation Is Probably Wrong (And How to Fix It)\nContext: A five-step framework for building rigorous, reproducible AI search benchmarks \u2014 before you make six-figure infrastructure decisions The post Why Your AI Search Evaluation Is...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 138,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nCloud pioneers highlight key developments for practitioners.\n\nArchitecture patterns:\n1. Kinesis On-demand Advantage saves 60%+ on streaming costs\nContext: On November 4, 2025, Amazon Kinesis Data Streams introduced On-demand Advantage mode, a capability that enables on-demand streams to handle instant throughput increases at...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/\n\n2. The AI Infrastructure crisis: When ambition meets ancient systems\nContext: Artificial Intelligence has become a core capability in modern software systems, powering applications such as personalized recommendations, fraud detection, medical The post...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/ai-infrastructure-crisis-roadmap/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-10T07:17:05.423129+00:00"
+  "last_post_timestamp": "2026-03-10T11:57:05.930144+00:00"
 }
