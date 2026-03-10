@@ -1,12 +1,12 @@
 {
-  "total_posts": 162,
-  "posts_today": 3,
-  "last_post_date": "2026-03-09",
+  "total_posts": 163,
+  "posts_today": 1,
+  "last_post_date": "2026-03-10",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 128,
+    "digest": 129,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 135,
+    "thenewstack.io": 138,
     "blog.jetbrains.com": 20,
-    "www.bleepingcomputer.com": 22,
+    "www.bleepingcomputer.com": 23,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 98,
+    "towardsdatascience.com": 100,
     "www.snowflake.com": 48,
     "kdnuggets.com": 27,
     "techcrunch.com": 5,
@@ -48,18 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-08",
-      "time": "2026-02-08T05:17:00.951721+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-08",
       "time": "2026-02-08T07:14:31.366838+00:00",
@@ -971,13 +959,28 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "time": "2026-03-10T04:58:48.604907+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "www.bleepingcomputer.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 135,
-  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nAI innovators map the future of intelligent systems.\n\nGlobal tech trends:\n1. The technical leap where most brilliant AI initiatives spectacularly fail\nContext: The hard work is done. Your organization successfully navigated the treacherous waters of legacy infrastructure and now stands at the The post The technical leap where most...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/where-ai-initiatives-fail/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
+  "posts_created": 136,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nEngineering visionaries spotlight what matters most this week.\n\nIndustry pulse:\n1. Cursor builds always-on agents to tackle developer task tedium\nContext: AI-powered code editor company Cursor has introduced Cursor Automations to build always-on agents that operate on its deep understanding of The post Cursor builds always-on...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/cursor-agents-developer-workflows/\n\n2. Microsoft Teams phishing targets employees with A0Backdoor malware\nContext: Hackers contacted employees at financial and healthcare organizations over Microsoft Teams to trick them into granting remote access through Quick Assist and deploy a new piece...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/\n\n3. Machine Learning at Scale: Managing More Than One Model in Production\nContext: From one model to managing a massive portfolio: What 10 years in the industry taught me The post Machine Learning at Scale: Managing More Than One Model in Production appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io"
+    "www.bleepingcomputer.com",
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-09T11:57:16.136729+00:00"
+  "last_post_timestamp": "2026-03-10T04:58:48.605864+00:00"
 }

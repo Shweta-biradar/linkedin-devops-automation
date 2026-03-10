@@ -117,6 +117,7 @@
     "https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/",
     "https://thenewstack.io/anthropic-agent-sdk-confusion/",
     "https://thenewstack.io/anthropic-brings-plugins-to-cowork/",
+    "https://thenewstack.io/anthropic-launches-a-multi-agent-code-review-tool-for-claude-code/",
     "https://thenewstack.io/anthropics-opus-4-6-is-a-step-change-for-the-enterprise/",
     "https://thenewstack.io/automated-infrastructure-hidden-costs/",
     "https://thenewstack.io/aws-strands-labs-launch/",
@@ -132,7 +133,9 @@
     "https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/",
     "https://thenewstack.io/claudes-free-plan-can-now-remember-you/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
+    "https://thenewstack.io/context-rot-enterprise-ai-llms/",
     "https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/",
+    "https://thenewstack.io/cursor-agents-developer-workflows/",
     "https://thenewstack.io/developers-coding-moving-target-ai/",
     "https://thenewstack.io/docker-versus-nix-the-quest-for-true-reproducibility/",
     "https://thenewstack.io/drupal-turns-25-from-simple-to-complex-then-simple-again/",
@@ -277,6 +280,7 @@
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
+    "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
@@ -313,6 +317,7 @@
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
+    "https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/",
     "https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/",
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
@@ -336,6 +341,7 @@
     "https://www.bleepingcomputer.com/news/security/lexisnexis-confirms-data-breach-as-hackers-leak-stolen-files/",
     "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/",
     "https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/",
     "https://www.bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack/",
     "https://www.bleepingcomputer.com/news/security/not-a-kids-game-from-roblox-mod-to-compromising-your-company/",
     "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
@@ -472,7 +478,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "94a5584b4ad6": "2026-02-23T12:00:18.312424+00:00",
       "3e05f25fb1ac": "2026-02-27T11:54:31.969272+00:00",
       "440b0fa93e42": "2026-02-24T05:10:50.169271+00:00",
       "1fa0ebb2ceb3": "2026-02-24T05:10:50.169355+00:00",
@@ -604,10 +609,16 @@
       "e5306d6c6bfa": "2026-03-09T05:12:51.951732+00:00",
       "304502e0575a": "2026-03-09T05:12:51.951815+00:00",
       "5fe6a35abb6a": "2026-03-09T05:12:51.951877+00:00",
-      "1084e300d30a": "2026-03-09T11:57:16.134720+00:00"
+      "1084e300d30a": "2026-03-09T11:57:16.134720+00:00",
+      "32500a1c6ae5": "2026-03-10T04:58:48.603414+00:00",
+      "952446de02c9": "2026-03-10T04:58:48.603541+00:00",
+      "c2326fcdba5e": "2026-03-10T04:58:48.603633+00:00",
+      "d67f5d843fbc": "2026-03-10T04:58:48.603720+00:00",
+      "566590ebb08a": "2026-03-10T04:58:48.603808+00:00",
+      "80d0f7904676": "2026-03-10T04:58:48.603865+00:00"
     },
-    "last_post_id": "urn:li:share:7436741895642497027",
-    "last_posted_at_utc": "2026-03-09T11:57:16.134823+00:00",
+    "last_post_id": "urn:li:share:7436998974760370177",
+    "last_posted_at_utc": "2026-03-10T04:58:48.603905+00:00",
     "last_format": "digest"
   }
 }
