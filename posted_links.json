@@ -275,6 +275,7 @@
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
+    "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
@@ -325,6 +326,7 @@
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
+    "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
@@ -479,11 +481,6 @@
   "meta": {
     "topic_hashes": {
       "3e05f25fb1ac": "2026-02-27T11:54:31.969272+00:00",
-      "440b0fa93e42": "2026-02-24T05:10:50.169271+00:00",
-      "1fa0ebb2ceb3": "2026-02-24T05:10:50.169355+00:00",
-      "7aaa0b550f61": "2026-02-24T05:10:50.169453+00:00",
-      "8f416ee528e0": "2026-02-24T05:10:50.169531+00:00",
-      "5c8eb53c94a0": "2026-02-24T05:10:50.169587+00:00",
       "d9d21425c912": "2026-02-24T07:35:25.285765+00:00",
       "c39f4fbea628": "2026-02-24T07:35:25.285863+00:00",
       "914427e8d63b": "2026-02-24T07:35:25.285918+00:00",
@@ -615,10 +612,12 @@
       "c2326fcdba5e": "2026-03-10T04:58:48.603633+00:00",
       "d67f5d843fbc": "2026-03-10T04:58:48.603720+00:00",
       "566590ebb08a": "2026-03-10T04:58:48.603808+00:00",
-      "80d0f7904676": "2026-03-10T04:58:48.603865+00:00"
+      "80d0f7904676": "2026-03-10T04:58:48.603865+00:00",
+      "bb20f3c44cb6": "2026-03-10T07:17:05.420931+00:00",
+      "74400d261062": "2026-03-10T07:17:05.421006+00:00"
     },
-    "last_post_id": "urn:li:share:7436998974760370177",
-    "last_posted_at_utc": "2026-03-10T04:58:48.603905+00:00",
+    "last_post_id": "urn:li:share:7437033774363639808",
+    "last_posted_at_utc": "2026-03-10T07:17:05.421078+00:00",
     "last_format": "digest"
   }
 }

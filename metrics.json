@@ -1,12 +1,12 @@
 {
-  "total_posts": 163,
-  "posts_today": 1,
+  "total_posts": 164,
+  "posts_today": 2,
   "last_post_date": "2026-03-10",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 129,
+    "digest": 130,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,7 +39,7 @@
     "blog.jetbrains.com": 20,
     "www.bleepingcomputer.com": 23,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 100,
+    "towardsdatascience.com": 102,
     "www.snowflake.com": 48,
     "kdnuggets.com": 27,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-08",
-      "time": "2026-02-08T07:14:31.366838+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-08",
       "time": "2026-02-08T11:48:08.376609+00:00",
@@ -972,15 +964,22 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "time": "2026-03-10T07:17:05.422136+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 136,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nEngineering visionaries spotlight what matters most this week.\n\nIndustry pulse:\n1. Cursor builds always-on agents to tackle developer task tedium\nContext: AI-powered code editor company Cursor has introduced Cursor Automations to build always-on agents that operate on its deep understanding of The post Cursor builds always-on...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/cursor-agents-developer-workflows/\n\n2. Microsoft Teams phishing targets employees with A0Backdoor malware\nContext: Hackers contacted employees at financial and healthcare organizations over Microsoft Teams to trick them into granting remote access through Quick Assist and deploy a new piece...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/\n\n3. Machine Learning at Scale: Managing More Than One Model in Production\nContext: From one model to managing a massive portfolio: What 10 years in the industry taught me The post Machine Learning at Scale: Managing More Than One Model in Production appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 137,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAutomation architects drive efficiency and scale across industries.\n\nPlatform wins:\n1. I Stole a Wall Street Trick to Solve a Google Trends Data Problem\nContext: A methodology for comparing Google Trends data across countries. The post I Stole a Wall Street Trick to Solve a Google Trends Data Problem appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/\n\n2. Why Your AI Search Evaluation Is Probably Wrong (And How to Fix It)\nContext: A five-step framework for building rigorous, reproducible AI search benchmarks \u2014 before you make six-figure infrastructure decisions The post Why Your AI Search Evaluation Is...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.bleepingcomputer.com",
-    "thenewstack.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-10T04:58:48.605864+00:00"
+  "last_post_timestamp": "2026-03-10T07:17:05.423129+00:00"
 }
