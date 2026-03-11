@@ -67,6 +67,7 @@
     "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
     "https://github.blog/ai-and-ml/github-copilot/how-to-maximize-github-copilots-agentic-capabilities/",
     "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
+    "https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/",
     "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
     "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
     "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
@@ -162,6 +163,7 @@
     "https://thenewstack.io/homepage-is-your-one-stop-shop-for-monitoring-and-viewing-all-of-the-services-you-depend-on/",
     "https://thenewstack.io/how-ai-coding-makes-developers-56-faster-and-19-slower/",
     "https://thenewstack.io/how-to-clone-a-drive-to-an-image-with-clonezilla/",
+    "https://thenewstack.io/how-to-deploy-an-ai-server-on-your-debianubuntu-server/",
     "https://thenewstack.io/how-to-reduce-mcp-token-bloat/",
     "https://thenewstack.io/ide-vs-desktop-agent/",
     "https://thenewstack.io/inception-labs-mercury-2-diffusion/",
@@ -282,6 +284,7 @@
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
+    "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
@@ -422,6 +425,7 @@
     "https://www.infoq.com/presentations/devops-product-engineers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/hierarchical-team/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/llm-ai-africa/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications",
@@ -477,6 +481,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/public-sector-data-informed-snowflake-intelligence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-2026-predictions-webinar-recap",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/roi-generative-agentic-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
@@ -495,12 +500,6 @@
   "meta": {
     "topic_hashes": {
       "3e05f25fb1ac": "2026-02-27T11:54:31.969272+00:00",
-      "c24013c4d886": "2026-02-25T07:35:30.364534+00:00",
-      "e4cc93a1532e": "2026-02-25T07:35:30.364620+00:00",
-      "b2ee8bb45f8f": "2026-02-25T07:35:30.364712+00:00",
-      "7f15e92ebb94": "2026-02-25T07:35:30.364772+00:00",
-      "d492487b4937": "2026-02-25T07:35:30.364823+00:00",
-      "ce02cac44bc0": "2026-02-25T07:35:30.364875+00:00",
       "6105ba28e23f": "2026-02-25T12:00:56.813474+00:00",
       "6fa3d903e855": "2026-03-01T07:12:36.576844+00:00",
       "ed06ca442e86": "2026-02-26T05:11:07.042293+00:00",
@@ -628,10 +627,15 @@
       "bd769bdc12e6": "2026-03-11T07:29:26.210322+00:00",
       "d07743f9f59e": "2026-03-11T07:29:26.210369+00:00",
       "36ce3a0b073a": "2026-03-11T07:29:26.210420+00:00",
-      "aa92c720b616": "2026-03-11T07:29:26.210467+00:00"
+      "aa92c720b616": "2026-03-11T07:29:26.210467+00:00",
+      "77065fe01316": "2026-03-11T11:57:04.700110+00:00",
+      "b3d46d2583bf": "2026-03-11T11:57:04.700232+00:00",
+      "e0b7da07b181": "2026-03-11T11:57:04.700299+00:00",
+      "c746b7453343": "2026-03-11T11:57:04.700352+00:00",
+      "2b02dd11bd84": "2026-03-11T11:57:04.700403+00:00"
     },
-    "last_post_id": "urn:li:share:7437399268937822209",
-    "last_posted_at_utc": "2026-03-11T07:29:26.210505+00:00",
+    "last_post_id": "urn:li:share:7437466623239909377",
+    "last_posted_at_utc": "2026-03-11T11:57:04.700445+00:00",
     "last_format": "digest"
   }
 }

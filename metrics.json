@@ -1,12 +1,12 @@
 {
-  "total_posts": 167,
-  "posts_today": 2,
+  "total_posts": 168,
+  "posts_today": 3,
   "last_post_date": "2026-03-11",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 133,
+    "digest": 134,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,28 +34,20 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 18,
-    "thenewstack.io": 142,
+    "github.blog": 19,
+    "thenewstack.io": 143,
     "blog.jetbrains.com": 21,
     "www.bleepingcomputer.com": 23,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 105,
-    "www.snowflake.com": 50,
-    "kdnuggets.com": 28,
+    "towardsdatascience.com": 106,
+    "www.snowflake.com": 51,
+    "kdnuggets.com": 29,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-09",
-      "time": "2026-02-09T12:04:09.482926+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-10",
       "time": "2026-02-10T05:19:39.404293+00:00",
@@ -984,16 +976,29 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-11",
+      "time": "2026-03-11T11:57:04.701485+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "kdnuggets.com",
+        "github.blog",
+        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 140,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nGlobal tech trends:\n1. Healthcare AI Data Solutions: 2026 Interoperability Research Report\nContext: Discover how 183 healthcare leaders are adopting AI and prioritizing interoperability. Get actionable insights on healthcare data solutions for 2026 and beyond.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare\n\n2. Optimize HBase reads with bucket caching on Amazon EMR\nContext: In this post, we demonstrate how to improve HBase read performance by implementing bucket caching on Amazon EMR. Our tests reduced latency by 57.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/\n\n3. Reducing costs for shuffle-heavy Apache Spark workloads with serverless storage for Amazon EMR Serverless\nContext: In this post, we explore the cost improvements we observed when benchmarking Apache Spark jobs with serverless storage on EMR Serverless.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 141,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nCollaboration experts spotlight culture and process breakthroughs.\n\nAutomation strategies:\n1. How to deploy an AI server on your Debian/Ubuntu server\nContext: Whenever I use AI, I always opt to go with a locally installed instance. The reason for that is twofold. The post How to deploy an AI server on your Debian/Ubuntu server...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/how-to-deploy-an-ai-server-on-your-debianubuntu-server/\n\n2. 10 Python Libraries Every LLM Engineer Should Know\nContext: Interested in becoming an LLM engineer? Here's a list of Python libraries you'll find essential for your work.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know\n\n3. The era of \u201cAI as text\u201d is over. Execution is the new interface.\nContext: AI is shifting from prompt-response interactions to programmable execution. See how the GitHub Copilot SDK enables agentic workflows directly inside your applications.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
+    "kdnuggets.com",
+    "towardsdatascience.com",
     "www.snowflake.com",
-    "aws.amazon.com",
-    "towardsdatascience.com"
+    "thenewstack.io",
+    "github.blog"
   ],
-  "last_post_timestamp": "2026-03-11T07:29:26.212446+00:00"
+  "last_post_timestamp": "2026-03-11T11:57:04.702459+00:00"
 }
