@@ -1,12 +1,12 @@
 {
-  "total_posts": 165,
-  "posts_today": 3,
-  "last_post_date": "2026-03-10",
+  "total_posts": 166,
+  "posts_today": 1,
+  "last_post_date": "2026-03-11",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 131,
+    "digest": 132,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,27 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 18,
-    "thenewstack.io": 139,
-    "blog.jetbrains.com": 20,
+    "thenewstack.io": 141,
+    "blog.jetbrains.com": 21,
     "www.bleepingcomputer.com": 23,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 102,
-    "www.snowflake.com": 48,
-    "kdnuggets.com": 27,
+    "towardsdatascience.com": 103,
+    "www.snowflake.com": 49,
+    "kdnuggets.com": 28,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-09",
-      "time": "2026-02-09T05:18:36.088779+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-09",
       "time": "2026-02-09T07:41:12.690628+00:00",
@@ -974,14 +966,30 @@
         "aws.amazon.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-11",
+      "time": "2026-03-11T05:00:36.649716+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "www.snowflake.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "blog.jetbrains.com"
+      ]
     }
   ],
-  "posts_created": 138,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nCloud pioneers highlight key developments for practitioners.\n\nArchitecture patterns:\n1. Kinesis On-demand Advantage saves 60%+ on streaming costs\nContext: On November 4, 2025, Amazon Kinesis Data Streams introduced On-demand Advantage mode, a capability that enables on-demand streams to handle instant throughput increases at...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/\n\n2. The AI Infrastructure crisis: When ambition meets ancient systems\nContext: Artificial Intelligence has become a core capability in modern software systems, powering applications such as personalized recommendations, fraud detection, medical The post...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/ai-infrastructure-crisis-roadmap/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
+  "posts_created": 139,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nEngineering visionaries spotlight what matters most this week.\n\nAutomation strategies:\n1. With GridGain acquisition, MariaDB bets on in-memory computing and Apache Ignite\nContext: ...\nMariaDB is one of the stalwarts of the open-source database world. Born out of the MySQL fork&#160;following Oracle&#8217;s acquisition of The post With GridGain acquisition, MariaDB bets on in-me\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/\n\n2. Snowflake Intelligence for Manufacturing: Actionable Data Insights\nContext: Empower manufacturers with Snowflake Intelligence. Unify product and customer data to overcome fragmentation, unlock actionable insights, and drive product innovation.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers\n\n3. Amazon calls engineers for a \u201cdeep dive\u201d internal meeting to discuss \u201cGenAI\u201d-related outages\nContext: ...\nA normally optional, routine Amazon meeting turned serious when the brand&#8217;s top retail executive summoned engineers to discuss a series The post Amazon calls engineers for a \u201cdeep dive\u201d inte\nImpact: reduces incident risk and improves MTTR.\n\ud83d\udd17 https://thenewstack.io/amazon-ai-assisted-errors/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "thenewstack.io"
+    "kdnuggets.com",
+    "blog.jetbrains.com",
+    "thenewstack.io",
+    "towardsdatascience.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-10T11:57:05.930144+00:00"
+  "last_post_timestamp": "2026-03-11T05:00:36.650686+00:00"
 }
