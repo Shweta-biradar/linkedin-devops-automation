@@ -1,12 +1,12 @@
 {
-  "total_posts": 169,
-  "posts_today": 1,
+  "total_posts": 170,
+  "posts_today": 2,
   "last_post_date": "2026-03-12",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 135,
+    "digest": 136,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 21,
-    "thenewstack.io": 144,
+    "thenewstack.io": 149,
     "blog.jetbrains.com": 21,
     "www.bleepingcomputer.com": 24,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 107,
+    "towardsdatascience.com": 108,
     "www.snowflake.com": 51,
     "kdnuggets.com": 29,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-10",
-      "time": "2026-02-10T07:39:08.608108+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "aws.amazon.com",
-        "thenewstack.io",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-10",
       "time": "2026-02-10T12:08:16.667819+00:00",
@@ -988,17 +975,27 @@
         "www.bleepingcomputer.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-12",
+      "time": "2026-03-12T07:31:01.137804+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 142,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nEngineering visionaries spotlight what matters most this week.\n\nKey developments:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n2. Addressing GitHub\u2019s recent availability issues\nContext: GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we\u2019re...\nImpact: reduces incident risk and improves MTTR.\n\ud83d\udd17 https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/\n\n3. Microsoft\u2019s VS Code team moved to weekly releases after 10 years of monthly \u2014 and credits AI for making it\u2026\nContext: ...\nEarlier this year, Pierce Boggan, the Product Lead for VS Code and GitHub Copilot at Microsoft, quietly dropped a bombshell The post Microsoft&#8217;s VS Code team moved to weekly releases after 1\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/vs-code-ai-copilot/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 143,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nSRE leaders share reliability wins and lessons.\n\nObservability insights:\n1. JetBrains names the debt AI agents leave behind\nContext: ...\nDevelopers have spent years fighting technical debt. Now there&#8217;s a new variant accumulating in codebases, and many teams don&#8217;t even The post JetBrains names the debt AI agents leave be\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/jetbrains-names-the-debt-ai-agents-leave-behind/\n\n2. Nvidia launches Nemotron 3 Super, a 120B open model for large-scale AI systems\nContext: Ahead of its flagship GTC conference next week, Nvidia on Wednesday launched the second model in its open-weight Nemotron 3 The post Nvidia launches Nemotron 3 Super, a 120B...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/nvidia-launches-nemotron-3-super-a-120b-open-model-for-large-scale-ai-systems/\n\n3. \u201cSelf-healing\u201d IT? HPE research explores how AI-trained models can catch silent infrastructure failures\nContext: ...\nThe volume of data and noise that comes with enterprise IT complexity leaves operations teams struggling to understand how to The post &#8220;Self-healing&#8221; IT? HPE research explores how AI-t\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/hpe-self-healing-ai-infrastructure/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "www.bleepingcomputer.com",
     "towardsdatascience.com",
-    "thenewstack.io",
-    "github.blog"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-12T05:07:46.771275+00:00"
+  "last_post_timestamp": "2026-03-12T07:31:01.138703+00:00"
 }
