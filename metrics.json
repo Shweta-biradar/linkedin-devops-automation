@@ -1,12 +1,12 @@
 {
-  "total_posts": 168,
-  "posts_today": 3,
-  "last_post_date": "2026-03-11",
+  "total_posts": 169,
+  "posts_today": 1,
+  "last_post_date": "2026-03-12",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 134,
+    "digest": 135,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 32,
+    "aws.amazon.com": 33,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 19,
-    "thenewstack.io": 143,
+    "github.blog": 21,
+    "thenewstack.io": 144,
     "blog.jetbrains.com": 21,
-    "www.bleepingcomputer.com": 23,
+    "www.bleepingcomputer.com": 24,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 106,
+    "towardsdatascience.com": 107,
     "www.snowflake.com": 51,
     "kdnuggets.com": 29,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-10",
-      "time": "2026-02-10T05:19:39.404293+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "www.snowflake.com",
-        "kdnuggets.com",
-        "thenewstack.io",
-        "techcrunch.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-02-10",
       "time": "2026-02-10T07:39:08.608108+00:00",
@@ -988,17 +975,30 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-12",
+      "time": "2026-03-12T05:07:46.770374+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "github.blog",
+        "thenewstack.io",
+        "github.blog",
+        "www.bleepingcomputer.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 141,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nCollaboration experts spotlight culture and process breakthroughs.\n\nAutomation strategies:\n1. How to deploy an AI server on your Debian/Ubuntu server\nContext: Whenever I use AI, I always opt to go with a locally installed instance. The reason for that is twofold. The post How to deploy an AI server on your Debian/Ubuntu server...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/how-to-deploy-an-ai-server-on-your-debianubuntu-server/\n\n2. 10 Python Libraries Every LLM Engineer Should Know\nContext: Interested in becoming an LLM engineer? Here's a list of Python libraries you'll find essential for your work.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know\n\n3. The era of \u201cAI as text\u201d is over. Execution is the new interface.\nContext: AI is shifting from prompt-response interactions to programmable execution. See how the GitHub Copilot SDK enables agentic workflows directly inside your applications.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 142,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nEngineering visionaries spotlight what matters most this week.\n\nKey developments:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n2. Addressing GitHub\u2019s recent availability issues\nContext: GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we\u2019re...\nImpact: reduces incident risk and improves MTTR.\n\ud83d\udd17 https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/\n\n3. Microsoft\u2019s VS Code team moved to weekly releases after 10 years of monthly \u2014 and credits AI for making it\u2026\nContext: ...\nEarlier this year, Pierce Boggan, the Product Lead for VS Code and GitHub Copilot at Microsoft, quietly dropped a bombshell The post Microsoft&#8217;s VS Code team moved to weekly releases after 1\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/vs-code-ai-copilot/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
+    "aws.amazon.com",
+    "www.bleepingcomputer.com",
     "towardsdatascience.com",
-    "www.snowflake.com",
     "thenewstack.io",
     "github.blog"
   ],
-  "last_post_timestamp": "2026-03-11T11:57:04.702459+00:00"
+  "last_post_timestamp": "2026-03-12T05:07:46.771275+00:00"
 }

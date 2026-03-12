@@ -5,6 +5,7 @@
     "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
+    "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
     "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
@@ -71,6 +72,8 @@
     "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
     "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
     "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+    "https://github.blog/news-insights/company-news/addressing-githubs-recent-availability-issues-2/",
+    "https://github.blog/news-insights/company-news/github-availability-report-february-2026/",
     "https://github.blog/news-insights/company-news/github-availability-report-january-2026/",
     "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
     "https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/",
@@ -229,6 +232,7 @@
     "https://thenewstack.io/vibe-coding-agentic-engineering/",
     "https://thenewstack.io/vibe-coding-is-passe/",
     "https://thenewstack.io/vibe-coding-spec-driven/",
+    "https://thenewstack.io/vs-code-ai-copilot/",
     "https://thenewstack.io/vs-code-becomes-multi-agent-command-center-for-developers/",
     "https://thenewstack.io/want-an-easy-way-to-manage-podman-containers-here-it-is/",
     "https://thenewstack.io/wasm-vs-javascript-who-wins-at-a-million-rows/",
@@ -313,6 +317,7 @@
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
+    "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
     "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
@@ -363,6 +368,7 @@
     "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
     "https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/",
     "https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/",
+    "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
     "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
     "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
     "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
@@ -500,7 +506,6 @@
   "meta": {
     "topic_hashes": {
       "3e05f25fb1ac": "2026-02-27T11:54:31.969272+00:00",
-      "6105ba28e23f": "2026-02-25T12:00:56.813474+00:00",
       "6fa3d903e855": "2026-03-01T07:12:36.576844+00:00",
       "ed06ca442e86": "2026-02-26T05:11:07.042293+00:00",
       "4eb836709657": "2026-02-26T05:11:07.042382+00:00",
@@ -632,10 +637,16 @@
       "b3d46d2583bf": "2026-03-11T11:57:04.700232+00:00",
       "e0b7da07b181": "2026-03-11T11:57:04.700299+00:00",
       "c746b7453343": "2026-03-11T11:57:04.700352+00:00",
-      "2b02dd11bd84": "2026-03-11T11:57:04.700403+00:00"
+      "2b02dd11bd84": "2026-03-11T11:57:04.700403+00:00",
+      "cc851ca0f49b": "2026-03-12T05:07:46.769021+00:00",
+      "c8b28c69a1ce": "2026-03-12T05:07:46.769125+00:00",
+      "f3e61377c105": "2026-03-12T05:07:46.769217+00:00",
+      "c133b2d6046b": "2026-03-12T05:07:46.769305+00:00",
+      "df4c211b12dc": "2026-03-12T05:07:46.769385+00:00",
+      "31b14ceacddd": "2026-03-12T05:07:46.769430+00:00"
     },
-    "last_post_id": "urn:li:share:7437466623239909377",
-    "last_posted_at_utc": "2026-03-11T11:57:04.700445+00:00",
+    "last_post_id": "urn:li:share:7437726005747879936",
+    "last_posted_at_utc": "2026-03-12T05:07:46.769480+00:00",
     "last_format": "digest"
   }
 }
