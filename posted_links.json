@@ -281,6 +281,7 @@
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
+    "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
@@ -351,6 +352,7 @@
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
+    "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
     "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
@@ -378,6 +380,7 @@
     "https://www.bleepingcomputer.com/news/security/the-double-edged-sword-of-non-human-identities/",
     "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
     "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
+    "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
     "https://www.bleepingcomputer.com/news/security/us-convicts-ex-google-engineer-for-sending-ai-tech-data-to-china/",
     "https://www.bleepingcomputer.com/news/security/zendesk-spam-wave-returns-floods-users-with-activate-account-emails/",
     "https://www.bleepingcomputer.com/news/technology/amazon-drone-strikes-damaged-aws-data-centers-in-middle-east/",
@@ -513,7 +516,6 @@
     "topic_hashes": {
       "3e05f25fb1ac": "2026-02-27T11:54:31.969272+00:00",
       "6fa3d903e855": "2026-03-01T07:12:36.576844+00:00",
-      "fe55f4081ba0": "2026-02-26T07:33:58.881646+00:00",
       "8089efdc6d64": "2026-02-26T12:01:37.199808+00:00",
       "61898288d354": "2026-03-02T07:35:21.421596+00:00",
       "83f0c5c8e0d7": "2026-02-27T05:05:19.363975+00:00",
@@ -650,10 +652,13 @@
       "d1e95e88758e": "2026-03-12T07:31:01.136700+00:00",
       "75934463af82": "2026-03-12T07:31:01.136746+00:00",
       "92191cebeb22": "2026-03-12T07:31:01.136791+00:00",
-      "247349dde215": "2026-03-12T07:31:01.136834+00:00"
+      "247349dde215": "2026-03-12T07:31:01.136834+00:00",
+      "d7f255e67f7b": "2026-03-12T11:52:24.630248+00:00",
+      "8c1146cc8dda": "2026-03-12T11:52:24.630391+00:00",
+      "aa4a4e333e51": "2026-03-12T11:52:24.630483+00:00"
     },
-    "last_post_id": "urn:li:share:7437762055111086081",
-    "last_posted_at_utc": "2026-03-12T07:31:01.136870+00:00",
+    "last_post_id": "urn:li:share:7437827834871533569",
+    "last_posted_at_utc": "2026-03-12T11:52:24.630530+00:00",
     "last_format": "digest"
   }
 }
