@@ -1,12 +1,12 @@
 {
-  "total_posts": 172,
-  "posts_today": 1,
+  "total_posts": 173,
+  "posts_today": 2,
   "last_post_date": "2026-03-13",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 138,
+    "digest": 139,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 21,
-    "thenewstack.io": 152,
+    "github.blog": 22,
+    "thenewstack.io": 155,
     "blog.jetbrains.com": 21,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 112,
+    "towardsdatascience.com": 114,
     "www.snowflake.com": 51,
     "kdnuggets.com": 30,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-11",
-      "time": "2026-02-11T07:36:58.369469+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com",
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-11",
       "time": "2026-02-11T12:04:52.407554+00:00",
@@ -990,15 +977,28 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-13",
+      "time": "2026-03-13T07:30:16.117880+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "github.blog",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 145,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nSRE leaders share reliability wins and lessons.\n\nPlatform wins:\n1. The 2026 Data Science Starter Kit: What to Learn First (And What to Ignore)\nContext: New to data science? Cut through the noise with the 2026 starter kit. Which Python, SQL, and machine learning essentials are important, and what can be ignored?\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore\n\n2. Exploratory Data Analysis for Credit Scoring with Python\nContext: Understanding default risk through statistical analysis of borrower and loan characteristics. The post Exploratory Data Analysis for Credit Scoring with Python appeared first...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/\n\n3. Anthropic\u2019s Claude can now draw interactive charts and diagrams\nContext: ...\nAnthropic&#8217;s Claude has always been great at coding and working with text, but where Google and OpenAI invested heavily in The post Anthropic&#8217;s Claude can now draw interactive charts an\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/anthropics-claude-interactive-visualizations/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 146,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSecurity signals:\n1. Why AI-driven operations are pushing governance beyond a compliance issue and into an operational priority\nContext: Board members and senior executives are pushing hard to accelerate AI adoption. As a result, significant numbers of organizations have The post Why AI-driven operations are...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/five-pillars-ai-governance/\n\n2. Continuous AI for accessibility: How GitHub transforms feedback into inclusion\nContext: AI automates triage for accessibility feedback, allowing us to focus on fixing barriers\u2014turning a chaotic backlog into continuous, rapid resolutions.\nImpact: practical signal for building reliable systems.\n\n3. Solving the Human Training Data Problem\nContext: How AI has completely transformed the way I study as a graduate student The post Solving the Human Training Data Problem appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/solving-the-human-training-data-problem/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com",
-    "thenewstack.io"
+    "thenewstack.io",
+    "github.blog",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-13T05:02:49.404636+00:00"
+  "last_post_timestamp": "2026-03-13T07:30:16.118862+00:00"
 }
