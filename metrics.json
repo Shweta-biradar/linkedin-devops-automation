@@ -1,12 +1,12 @@
 {
-  "total_posts": 171,
-  "posts_today": 3,
-  "last_post_date": "2026-03-12",
+  "total_posts": 172,
+  "posts_today": 1,
+  "last_post_date": "2026-03-13",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 137,
+    "digest": 138,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,32 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 21,
-    "thenewstack.io": 149,
+    "thenewstack.io": 152,
     "blog.jetbrains.com": 21,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 110,
+    "towardsdatascience.com": 112,
     "www.snowflake.com": 51,
-    "kdnuggets.com": 29,
+    "kdnuggets.com": 30,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-11",
-      "time": "2026-02-11T05:21:11.358640+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "blog.jetbrains.com",
-        "aws.amazon.com",
-        "powerbi.microsoft.com",
-        "thenewstack.io",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-02-11",
       "time": "2026-02-11T07:36:58.369469+00:00",
@@ -990,14 +977,28 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-13",
+      "time": "2026-03-13T05:02:49.403685+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 144,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nIndustry pulse:\n1. US charges another ransomware negotiator linked to BlackCat attacks\nContext: The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/\n\n2. How the Fourier Transform Converts Sound Into Frequencies\nContext: A visual, intuition-first guide to understanding what the math is really doing \u2014 from winding machines to spectrograms The post How the Fourier Transform Converts Sound Into...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/\n\n3. Why Most A/B Tests Are Lying to You\nContext: The 4 statistical sins that invalidate most A/B tests, plus a pre-test checklist and Bayesian vs frequentist decision framework you can use Monday.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 145,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nSRE leaders share reliability wins and lessons.\n\nPlatform wins:\n1. The 2026 Data Science Starter Kit: What to Learn First (And What to Ignore)\nContext: New to data science? Cut through the noise with the 2026 starter kit. Which Python, SQL, and machine learning essentials are important, and what can be ignored?\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore\n\n2. Exploratory Data Analysis for Credit Scoring with Python\nContext: Understanding default risk through statistical analysis of borrower and loan characteristics. The post Exploratory Data Analysis for Credit Scoring with Python appeared first...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/\n\n3. Anthropic\u2019s Claude can now draw interactive charts and diagrams\nContext: ...\nAnthropic&#8217;s Claude has always been great at coding and working with text, but where Google and OpenAI invested heavily in The post Anthropic&#8217;s Claude can now draw interactive charts an\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/anthropics-claude-interactive-visualizations/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com",
-    "www.bleepingcomputer.com"
+    "kdnuggets.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-12T11:52:24.632549+00:00"
+  "last_post_timestamp": "2026-03-13T05:02:49.404636+00:00"
 }
