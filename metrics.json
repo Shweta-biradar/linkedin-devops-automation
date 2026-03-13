@@ -1,12 +1,12 @@
 {
-  "total_posts": 173,
-  "posts_today": 2,
+  "total_posts": 174,
+  "posts_today": 3,
   "last_post_date": "2026-03-13",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 139,
+    "digest": 140,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 155,
+    "thenewstack.io": 156,
     "blog.jetbrains.com": 21,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
@@ -48,15 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-11",
-      "time": "2026-02-11T12:04:52.407554+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-12",
       "time": "2026-02-12T05:17:23.791925+00:00",
@@ -990,15 +981,21 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-13",
+      "time": "2026-03-13T11:55:01.254855+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 146,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nSecurity signals:\n1. Why AI-driven operations are pushing governance beyond a compliance issue and into an operational priority\nContext: Board members and senior executives are pushing hard to accelerate AI adoption. As a result, significant numbers of organizations have The post Why AI-driven operations are...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/five-pillars-ai-governance/\n\n2. Continuous AI for accessibility: How GitHub transforms feedback into inclusion\nContext: AI automates triage for accessibility feedback, allowing us to focus on fixing barriers\u2014turning a chaotic backlog into continuous, rapid resolutions.\nImpact: practical signal for building reliable systems.\n\n3. Solving the Human Training Data Problem\nContext: How AI has completely transformed the way I study as a graduate student The post Solving the Human Training Data Problem appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/solving-the-human-training-data-problem/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 147,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nAnalytics experts curate the signals that drive innovation.\n\nObservability insights:\n1. New Perplexity APIs give developers access to agentic workflows and orchestration\nContext: ...\nOn the heels of last month&#8217;s Perplexity Computer launch, the company on Thursday announced an expansion of the Perplexity API The post New Perplexity APIs give developers access to agentic w\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/perplexity-agent-api/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "github.blog",
-    "towardsdatascience.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-13T07:30:16.118862+00:00"
+  "last_post_timestamp": "2026-03-13T11:55:01.255804+00:00"
 }
