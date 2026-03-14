@@ -1,12 +1,12 @@
 {
-  "total_posts": 174,
-  "posts_today": 3,
-  "last_post_date": "2026-03-13",
+  "total_posts": 175,
+  "posts_today": 1,
+  "last_post_date": "2026-03-14",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 140,
+    "digest": 141,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,32 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 156,
-    "blog.jetbrains.com": 21,
+    "thenewstack.io": 157,
+    "blog.jetbrains.com": 22,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 114,
+    "towardsdatascience.com": 117,
     "www.snowflake.com": 51,
-    "kdnuggets.com": 30,
+    "kdnuggets.com": 31,
     "techcrunch.com": 5,
     "stackoverflow.blog": 2,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-12",
-      "time": "2026-02-12T05:17:23.791925+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "blog.jetbrains.com",
-        "github.blog",
-        "www.bleepingcomputer.com",
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-12",
       "time": "2026-02-12T07:36:46.384749+00:00",
@@ -989,13 +976,29 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-14",
+      "time": "2026-03-14T05:00:58.884167+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 147,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nAnalytics experts curate the signals that drive innovation.\n\nObservability insights:\n1. New Perplexity APIs give developers access to agentic workflows and orchestration\nContext: ...\nOn the heels of last month&#8217;s Perplexity Computer launch, the company on Thursday announced an expansion of the Perplexity API The post New Perplexity APIs give developers access to agentic w\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/perplexity-agent-api/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 148,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nStrategic thinkers track what moves the reliability needle. Here\u2019s the latest.\n\nGlobal tech trends:\n1. Python Unplugged on PyTV Recap\nContext: ...\nLast week marked the fruition of almost a year of hard work by the entire PyCharm team. On March 4th, 2026, we hosted Python Unplugged on PyTV, our first-ever community conference featuring a 90s\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/pycharm/2026/03/python-unplugged-on-pytv-recap/\n\n2. A Tale of Two Variances: Why NumPy and Pandas Give Different Answers\nContext: ...\nImagine you are analyzing a small dataset: You want to calculate some summary statistics to get an idea of the distribution of this data, so you use numpy to calculate the mean and variance. Your\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/\n\n3. 5 Powerful Python Decorators for High-Performance Data Pipelines\nContext: This article presents five useful and effective Python decorators to build and optimize high performance data pipelines.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "kdnuggets.com",
+    "blog.jetbrains.com",
+    "towardsdatascience.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-13T11:55:01.255804+00:00"
+  "last_post_timestamp": "2026-03-14T05:00:58.885124+00:00"
 }
