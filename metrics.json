@@ -1,12 +1,12 @@
 {
-  "total_posts": 176,
-  "posts_today": 2,
+  "total_posts": 177,
+  "posts_today": 3,
   "last_post_date": "2026-03-14",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 142,
+    "digest": 143,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 33,
+    "aws.amazon.com": 34,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-12",
-      "time": "2026-02-12T12:02:20.165350+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-13",
       "time": "2026-02-13T05:13:32.729379+00:00",
@@ -985,13 +977,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-14",
+      "time": "2026-03-14T11:48:46.296770+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 149,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nWhat caught our attention:\n1. Why Care About Prompt Caching in LLMs?\nContext: Optimizing the cost and latency of your LLM calls with Prompt Caching The post Why Care About Prompt Caching in LLMs? appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-care-about-promp-caching-in-llms/\n\n2. How to Build Agentic RAG with Hybrid Search\nContext: Learn how to build a powerful agentic RAG system The post How to Build Agentic RAG with Hybrid Search appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 150,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTech strategists decode the next wave of transformation.\n\nPlatform wins:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-03-14T07:12:55.207767+00:00"
+  "last_post_timestamp": "2026-03-14T11:48:46.297739+00:00"
 }
