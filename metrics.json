@@ -1,12 +1,12 @@
 {
-  "total_posts": 179,
-  "posts_today": 2,
+  "total_posts": 180,
+  "posts_today": 3,
   "last_post_date": "2026-03-15",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 145,
+    "digest": 146,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 35,
+    "aws.amazon.com": 36,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -48,18 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-13",
-      "time": "2026-02-13T11:54:49.521002+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "www.snowflake.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-14",
       "time": "2026-02-14T04:59:47.989753+00:00",
@@ -980,13 +968,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-15",
+      "time": "2026-03-15T11:49:59.107245+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 152,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nPlatform architects surface actionable insights for resilient systems.\n\nGlobal tech trends:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 153,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nStrategic highlights:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-03-15T07:29:21.943308+00:00"
+  "last_post_timestamp": "2026-03-15T11:49:59.108242+00:00"
 }
