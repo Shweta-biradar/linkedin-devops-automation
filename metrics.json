@@ -1,12 +1,12 @@
 {
-  "total_posts": 177,
-  "posts_today": 3,
-  "last_post_date": "2026-03-14",
+  "total_posts": 178,
+  "posts_today": 1,
+  "last_post_date": "2026-03-15",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 143,
+    "digest": 144,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 157,
+    "thenewstack.io": 162,
     "blog.jetbrains.com": 22,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 119,
+    "towardsdatascience.com": 120,
     "www.snowflake.com": 51,
     "kdnuggets.com": 31,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-13",
-      "time": "2026-02-13T05:13:32.729379+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "blog.jetbrains.com",
-        "thenewstack.io",
-        "kdnuggets.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-13",
       "time": "2026-02-13T07:33:24.372047+00:00",
@@ -985,13 +972,27 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-15",
+      "time": "2026-03-15T05:19:51.656807+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "thenewstack.io",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 150,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTech strategists decode the next wave of transformation.\n\nPlatform wins:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
+  "posts_created": 151,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nCollaboration experts spotlight culture and process breakthroughs.\n\nPlatform wins:\n1. Why AI systems are failing in familiar ways\nContext: ...\nWith the introduction of AI-assisted coding tools and agents, many people hoped we&#8217;d solve all the problems for human teams. The post Why AI systems are failing in familiar ways appeared fir\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-batch-size-gravity/\n\n2. Andrej Karpathy\u2019s 630-line Python script ran 50 experiments overnight without any human input\nContext: ...\nOn the night of March 7, Andrej Karpathy pushed a 630-line Python script to GitHub and went to sleep. By The post Andrej Karpathy&#8217;s 630-line Python script ran 50 experiments overnight withou\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/karpathy-autonomous-experiment-loop/\n\n3. AI layoffs are here, the MCP vs API debate, and the rise of the Mac Mini-powered Agent\nContext: ...\nI&#8217;m Matt Burns, Head of Content at Insight Media Group. Each week, I round up the most important AI developments The post AI layoffs are here, the MCP vs API debate, and the rise of the Mac\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-layoffs-mcp-api-mac-mini-agent/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com"
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-14T11:48:46.297739+00:00"
+  "last_post_timestamp": "2026-03-15T05:19:51.657752+00:00"
 }
