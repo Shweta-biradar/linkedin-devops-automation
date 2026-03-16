@@ -118,6 +118,7 @@
     "https://thenewstack.io/ai-agents-istio-validation/",
     "https://thenewstack.io/ai-agents-need-more/",
     "https://thenewstack.io/ai-agents-search-context/",
+    "https://thenewstack.io/ai-agents-software-engineering/",
     "https://thenewstack.io/ai-incident-management-evolution/",
     "https://thenewstack.io/ai-infrastructure-crisis-roadmap/",
     "https://thenewstack.io/ai-layoffs-mcp-api-mac-mini-agent/",
@@ -280,6 +281,7 @@
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
+    "https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
@@ -543,7 +545,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "90cf56c91f4c": "2026-03-02T11:54:20.409387+00:00",
       "c5a26e17366a": "2026-03-03T05:06:01.750450+00:00",
       "d898ea09aadb": "2026-03-03T05:06:01.750562+00:00",
       "f10410db4471": "2026-03-03T05:06:01.750615+00:00",
@@ -688,10 +689,12 @@
       "6ccc5276cbbb": "2026-03-15T05:19:51.655749+00:00",
       "30fd78a71e18": "2026-03-16T07:55:19.526129+00:00",
       "c0d2ccbdff57": "2026-03-16T05:30:38.180170+00:00",
-      "d375ea39aeee": "2026-03-16T05:30:38.180235+00:00"
+      "d375ea39aeee": "2026-03-16T05:30:38.180235+00:00",
+      "c15e3256a6f2": "2026-03-16T12:05:53.224989+00:00",
+      "7263745f3126": "2026-03-16T12:05:53.225133+00:00"
     },
-    "last_post_id": "urn:li:share:7439217723714207744",
-    "last_posted_at_utc": "2026-03-16T07:55:19.526221+00:00",
+    "last_post_id": "urn:li:share:7439280777567240192",
+    "last_posted_at_utc": "2026-03-16T12:05:53.225200+00:00",
     "last_format": "digest"
   }
 }

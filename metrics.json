@@ -1,12 +1,12 @@
 {
-  "total_posts": 182,
-  "posts_today": 2,
+  "total_posts": 183,
+  "posts_today": 3,
   "last_post_date": "2026-03-16",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 148,
+    "digest": 149,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 165,
+    "thenewstack.io": 166,
     "blog.jetbrains.com": 22,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 121,
+    "towardsdatascience.com": 122,
     "www.snowflake.com": 51,
     "kdnuggets.com": 31,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-14",
-      "time": "2026-02-14T11:47:21.527610+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-15",
       "time": "2026-02-15T05:12:19.431763+00:00",
@@ -972,13 +964,23 @@
       "sources": [
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T12:05:53.226282+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 155,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nSecurity champions share what shapes the future of operations.\n\nCloud-native breakthroughs:\n1. Ex-Snowflake engineers say there\u2019s a blind spot in data engineering \u2014 so they built Tower to fix it\nContext: ...\nAI coding assistants might have made it easier to generate software, but getting that code to run reliably &#8212; packaging The post Ex-Snowflake engineers say there&#8217;s a blind spot in data\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/tower-python-data-pipelines/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "posts_created": 156,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Bayesian Thinking for People Who Hated Statistics\nContext: You already think like a Bayesian. Your stats class just taught the formula before the intuition. Here's a 5-step framework to apply it at work.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/\n\n2. Agents write code. They don\u2019t do software engineering.\nContext: ...\nLong-running and background coding agents have hit a new threshold. When an agent runs for hours, manages its own iteration The post Agents write code. They don&#8217;t do software engineering. ap\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-software-engineering/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "towardsdatascience.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-16T07:55:19.528131+00:00"
+  "last_post_timestamp": "2026-03-16T12:05:53.227279+00:00"
 }
