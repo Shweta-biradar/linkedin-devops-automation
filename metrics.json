@@ -1,12 +1,12 @@
 {
-  "total_posts": 181,
-  "posts_today": 1,
+  "total_posts": 182,
+  "posts_today": 2,
   "last_post_date": "2026-03-16",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 147,
+    "digest": 148,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,7 +35,7 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 164,
+    "thenewstack.io": 165,
     "blog.jetbrains.com": 22,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
@@ -48,15 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-14",
-      "time": "2026-02-14T07:11:39.868585+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-02-14",
       "time": "2026-02-14T11:47:21.527610+00:00",
@@ -973,14 +964,21 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T07:55:19.527200+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 154,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nAutomation architects drive efficiency and scale across industries.\n\nObservability insights:\n1. Ex-Snowflake engineers say there\u2019s a blind spot in data engineering \u2014 so they built Tower to fix it\nContext: ...\nAI coding assistants might have made it easier to generate software, but getting that code to run reliably &#8212; packaging The post Ex-Snowflake engineers say there&#8217;s a blind spot in data\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/tower-python-data-pipelines/\n\n2. The Causal Inference Playbook: Advanced Methods Every Data Scientist Should Master\nContext: Master six advanced causal inference methods with Python: doubly robust estimation, instrumental variables, regression discontinuity, modern difference-in-differences,...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/\n\n3. Beginners guide to vibe coding\nContext: We talk a lot about vibe coding. And to be honest, I&#8217;d heard the term far too many times before The post Beginners guide to vibe coding appeared first on The New Stack .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/beginners-guide-to-vibe-coding/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 155,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nSecurity champions share what shapes the future of operations.\n\nCloud-native breakthroughs:\n1. Ex-Snowflake engineers say there\u2019s a blind spot in data engineering \u2014 so they built Tower to fix it\nContext: ...\nAI coding assistants might have made it easier to generate software, but getting that code to run reliably &#8212; packaging The post Ex-Snowflake engineers say there&#8217;s a blind spot in data\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/tower-python-data-pipelines/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "towardsdatascience.com"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-16T05:30:38.182320+00:00"
+  "last_post_timestamp": "2026-03-16T07:55:19.528131+00:00"
 }
