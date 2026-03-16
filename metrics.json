@@ -1,12 +1,12 @@
 {
-  "total_posts": 180,
-  "posts_today": 3,
-  "last_post_date": "2026-03-15",
+  "total_posts": 181,
+  "posts_today": 1,
+  "last_post_date": "2026-03-16",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 146,
+    "digest": 147,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 162,
+    "thenewstack.io": 164,
     "blog.jetbrains.com": 22,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 120,
+    "towardsdatascience.com": 121,
     "www.snowflake.com": 51,
     "kdnuggets.com": 31,
     "techcrunch.com": 5,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-14",
-      "time": "2026-02-14T04:59:47.989753+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "github.blog",
-        "www.bleepingcomputer.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-14",
       "time": "2026-02-14T07:11:39.868585+00:00",
@@ -976,13 +963,24 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T05:30:38.181362+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 153,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nStrategic highlights:\n1. Amazon Redshift DC2 migration approach with a customer case study\nContext: In this post, we share insights from one of our customers' migration from DC2 to RA3 instances. The customer, a large enterprise in the retail industry, operated a 16-node dc2.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 154,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nAutomation architects drive efficiency and scale across industries.\n\nObservability insights:\n1. Ex-Snowflake engineers say there\u2019s a blind spot in data engineering \u2014 so they built Tower to fix it\nContext: ...\nAI coding assistants might have made it easier to generate software, but getting that code to run reliably &#8212; packaging The post Ex-Snowflake engineers say there&#8217;s a blind spot in data\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/tower-python-data-pipelines/\n\n2. The Causal Inference Playbook: Advanced Methods Every Data Scientist Should Master\nContext: Master six advanced causal inference methods with Python: doubly robust estimation, instrumental variables, regression discontinuity, modern difference-in-differences,...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/\n\n3. Beginners guide to vibe coding\nContext: We talk a lot about vibe coding. And to be honest, I&#8217;d heard the term far too many times before The post Beginners guide to vibe coding appeared first on The New Stack .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/beginners-guide-to-vibe-coding/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com"
+    "thenewstack.io",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-15T11:49:59.108242+00:00"
+  "last_post_timestamp": "2026-03-16T05:30:38.182320+00:00"
 }
