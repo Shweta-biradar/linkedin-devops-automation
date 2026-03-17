@@ -1,12 +1,12 @@
 {
-  "total_posts": 183,
-  "posts_today": 3,
-  "last_post_date": "2026-03-16",
+  "total_posts": 184,
+  "posts_today": 1,
+  "last_post_date": "2026-03-17",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 149,
+    "digest": 150,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,27 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 22,
-    "thenewstack.io": 166,
-    "blog.jetbrains.com": 22,
+    "thenewstack.io": 168,
+    "blog.jetbrains.com": 23,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
     "towardsdatascience.com": 122,
-    "www.snowflake.com": 51,
-    "kdnuggets.com": 31,
+    "www.snowflake.com": 52,
+    "kdnuggets.com": 32,
     "techcrunch.com": 5,
-    "stackoverflow.blog": 2,
+    "stackoverflow.blog": 3,
     "powerbi.microsoft.com": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-15",
-      "time": "2026-02-15T05:12:19.431763+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-15",
       "time": "2026-02-15T07:13:56.354350+00:00",
@@ -973,14 +965,30 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-17",
+      "time": "2026-03-17T05:11:55.039838+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "blog.jetbrains.com",
+        "stackoverflow.blog",
+        "www.snowflake.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 156,
-  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Bayesian Thinking for People Who Hated Statistics\nContext: You already think like a Bayesian. Your stats class just taught the formula before the intuition. Here's a 5-step framework to apply it at work.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/\n\n2. Agents write code. They don\u2019t do software engineering.\nContext: ...\nLong-running and background coding agents have hit a new threshold. When an agent runs for hours, manages its own iteration The post Agents write code. They don&#8217;t do software engineering. ap\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/ai-agents-software-engineering/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 157,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nTech strategists decode the next wave of transformation.\n\nIndustry pulse:\n1. 5 Critical Shifts D&A Leaders Must Make to Drive Analytics and AI Success\nContext: Access the complimentary Gartner insights now and discover how to make the shifts that matter most for analytics and AI success.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success\n\n2. Trust, Two Truths, and the Coming Agent Swarm\nContext: ...\nPicture a typical workday. You\u2019re in a meeting. Someone asks the typical question: \u201cSo, how was revenue last month?\u201d You pull up your dashboard and respond, \u201cLooks like we\u2019re up 5%.\u201d The CFO then\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/03/trust-and-the-coming-agent-swarm/\n\n3. Domain expertise still wanted: the latest trends in AI-assisted knowledge for developers\nContext: In February, we surveyed our users with research designed in partnership with OpenAI and found out that more developers than ever are using AI at work to learn, they are using...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://stackoverflow.blog/2026/03/16/domain-expertise-still-wanted-the-latest-trends-in-ai/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "www.snowflake.com",
+    "thenewstack.io",
+    "kdnuggets.com",
+    "blog.jetbrains.com",
+    "stackoverflow.blog"
   ],
-  "last_post_timestamp": "2026-03-16T12:05:53.227279+00:00"
+  "last_post_timestamp": "2026-03-17T05:11:55.040804+00:00"
 }
