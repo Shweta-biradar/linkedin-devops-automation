@@ -1,12 +1,12 @@
 {
-  "total_posts": 185,
-  "posts_today": 2,
+  "total_posts": 186,
+  "posts_today": 3,
   "last_post_date": "2026-03-17",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 151,
+    "digest": 152,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 23,
-    "thenewstack.io": 169,
+    "thenewstack.io": 170,
     "blog.jetbrains.com": 23,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 124,
+    "towardsdatascience.com": 125,
     "www.snowflake.com": 53,
     "kdnuggets.com": 32,
     "techcrunch.com": 5,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-15",
-      "time": "2026-02-15T11:47:58.300685+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-16",
       "time": "2026-02-16T05:19:48.327362+00:00",
@@ -982,16 +974,23 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-17",
+      "time": "2026-03-17T12:02:15.474413+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 158,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nStrategic highlights:\n1. Nvidia brings together AI labs to build the next generation of open base models\nContext: Nvidia on Monday announced the Nemotron Coalition at its GTC conference. This new coalition of AI labs will pool expertise, The post Nvidia brings together AI labs to build the...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/nvidia-tier2-nemotron-coalition/\n\n2. How to Build a Production-Ready Claude Code Skill\nContext: What I learned building and distributing my first Skill from scratch The post How to Build a Production-Ready Claude Code Skill appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/\n\n3. GitHub for Beginners: Getting started with GitHub Actions\nContext: Set up your first GitHub Actions workflow in this how-to guide. The post GitHub for Beginners: Getting started with GitHub Actions appeared first on The GitHub Blog .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 159,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nCloud pioneers highlight key developments for practitioners.\n\nEssential reads:\n1. How a Neural Network Learned Its Own Fraud Rules: A Neuro-Symbolic AI Experiment\nContext: Most neuro-symbolic systems inject rules written by humans. But what if a neural network could discover those rules itself? In this experiment, I extend a hybrid neural network...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/\n\n2. From monolith to global mesh: How Uber standardized ML at scale\nContext: ...\nIntroduction: the scaling wall In 2015, Uber&#8217;s growth was outpacing its infrastructure. As the company evolved from a luxury car The post From monolith to global mesh: How Uber standardized\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/uber-standardized-ml-scale/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
     "towardsdatascience.com",
-    "thenewstack.io",
-    "github.blog"
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-17T07:38:33.205610+00:00"
+  "last_post_timestamp": "2026-03-17T12:02:15.475388+00:00"
 }
