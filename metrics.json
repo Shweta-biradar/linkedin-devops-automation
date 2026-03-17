@@ -1,12 +1,12 @@
 {
-  "total_posts": 184,
-  "posts_today": 1,
+  "total_posts": 185,
+  "posts_today": 2,
   "last_post_date": "2026-03-17",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 150,
+    "digest": 151,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,13 +34,13 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 22,
-    "thenewstack.io": 168,
+    "github.blog": 23,
+    "thenewstack.io": 169,
     "blog.jetbrains.com": 23,
     "www.bleepingcomputer.com": 25,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 122,
-    "www.snowflake.com": 52,
+    "towardsdatascience.com": 124,
+    "www.snowflake.com": 53,
     "kdnuggets.com": 32,
     "techcrunch.com": 5,
     "stackoverflow.blog": 3,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-15",
-      "time": "2026-02-15T07:13:56.354350+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com"
-      ]
-    },
     {
       "date": "2026-02-15",
       "time": "2026-02-15T11:47:58.300685+00:00",
@@ -978,17 +970,28 @@
         "thenewstack.io",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-17",
+      "time": "2026-03-17T07:38:33.204642+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "github.blog",
+        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 157,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nTech strategists decode the next wave of transformation.\n\nIndustry pulse:\n1. 5 Critical Shifts D&A Leaders Must Make to Drive Analytics and AI Success\nContext: Access the complimentary Gartner insights now and discover how to make the shifts that matter most for analytics and AI success.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success\n\n2. Trust, Two Truths, and the Coming Agent Swarm\nContext: ...\nPicture a typical workday. You\u2019re in a meeting. Someone asks the typical question: \u201cSo, how was revenue last month?\u201d You pull up your dashboard and respond, \u201cLooks like we\u2019re up 5%.\u201d The CFO then\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/databao/2026/03/trust-and-the-coming-agent-swarm/\n\n3. Domain expertise still wanted: the latest trends in AI-assisted knowledge for developers\nContext: In February, we surveyed our users with research designed in partnership with OpenAI and found out that more developers than ever are using AI at work to learn, they are using...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://stackoverflow.blog/2026/03/16/domain-expertise-still-wanted-the-latest-trends-in-ai/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 158,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nStrategic highlights:\n1. Nvidia brings together AI labs to build the next generation of open base models\nContext: Nvidia on Monday announced the Nemotron Coalition at its GTC conference. This new coalition of AI labs will pool expertise, The post Nvidia brings together AI labs to build the...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/nvidia-tier2-nemotron-coalition/\n\n2. How to Build a Production-Ready Claude Code Skill\nContext: What I learned building and distributing my first Skill from scratch The post How to Build a Production-Ready Claude Code Skill appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/\n\n3. GitHub for Beginners: Getting started with GitHub Actions\nContext: Set up your first GitHub Actions workflow in this how-to guide. The post GitHub for Beginners: Getting started with GitHub Actions appeared first on The GitHub Blog .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
     "www.snowflake.com",
+    "towardsdatascience.com",
     "thenewstack.io",
-    "kdnuggets.com",
-    "blog.jetbrains.com",
-    "stackoverflow.blog"
+    "github.blog"
   ],
-  "last_post_timestamp": "2026-03-17T05:11:55.040804+00:00"
+  "last_post_timestamp": "2026-03-17T07:38:33.205610+00:00"
 }
