@@ -146,6 +146,7 @@
     "https://thenewstack.io/beginners-guide-to-vibe-coding/",
     "https://thenewstack.io/beyond-automation-dynatrace-unveils-agentic-ai-that-fixes-problems-on-its-own/",
     "https://thenewstack.io/bluefin-linux-chromeos-simplicity-meets-linux-power/",
+    "https://thenewstack.io/btrfs-petabyte-cost-reduction/",
     "https://thenewstack.io/chainguard-admitted-factory-1-0-was-brittle-heres-how-2-0-fixes-it/",
     "https://thenewstack.io/chainguard-and-the-hunt-for-truly-zero-cve-container-images/",
     "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
@@ -276,6 +277,7 @@
     "https://thenewstack.io/where-ai-initiatives-fail/",
     "https://thenewstack.io/why-83-of-organizations-reportedly-trust-open-source-with-their-most-sensitive-assets/",
     "https://thenewstack.io/why-enterprise-businesses-should-adopt-immutable-linux-for-the-desktop/",
+    "https://thenewstack.io/why-observability-bills-grow/",
     "https://thenewstack.io/why-the-forward-deployed-engineer-is-techs-hottest-job/",
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
     "https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/",
@@ -352,6 +354,7 @@
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
+    "https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/",
     "https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/",
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
@@ -570,10 +573,6 @@
   ],
   "meta": {
     "topic_hashes": {
-      "29dd73415c06": "2026-03-04T11:53:20.094459+00:00",
-      "1a4206e50952": "2026-03-04T11:53:20.094565+00:00",
-      "d586372b83b3": "2026-03-04T11:53:20.094674+00:00",
-      "9264e0d43048": "2026-03-04T11:53:20.094756+00:00",
       "0d68967e8751": "2026-03-08T11:45:35.765038+00:00",
       "bbdc425a55c3": "2026-03-05T05:01:58.331164+00:00",
       "632942bba920": "2026-03-05T05:01:58.331251+00:00",
@@ -718,10 +717,13 @@
       "60187f9a4950": "2026-03-18T07:36:33.865017+00:00",
       "4bd624718562": "2026-03-18T07:36:33.865070+00:00",
       "74f2660a7d4c": "2026-03-18T07:36:33.865121+00:00",
-      "bdf06dfcc413": "2026-03-18T07:36:33.865173+00:00"
+      "bdf06dfcc413": "2026-03-18T07:36:33.865173+00:00",
+      "66231a89af84": "2026-03-18T12:04:44.393464+00:00",
+      "4765c669b370": "2026-03-18T12:04:44.393577+00:00",
+      "9d2952af81a2": "2026-03-18T12:04:44.393639+00:00"
     },
-    "last_post_id": "urn:li:share:7439937778026487808",
-    "last_posted_at_utc": "2026-03-18T07:36:33.865216+00:00",
+    "last_post_id": "urn:li:share:7440005266483519488",
+    "last_posted_at_utc": "2026-03-18T12:04:44.393681+00:00",
     "last_format": "digest"
   }
 }

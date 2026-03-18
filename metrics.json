@@ -1,12 +1,12 @@
 {
-  "total_posts": 188,
-  "posts_today": 2,
+  "total_posts": 189,
+  "posts_today": 3,
   "last_post_date": "2026-03-18",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 154,
+    "digest": 155,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 23,
-    "thenewstack.io": 175,
+    "thenewstack.io": 177,
     "blog.jetbrains.com": 24,
     "www.bleepingcomputer.com": 26,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 128,
+    "towardsdatascience.com": 129,
     "www.snowflake.com": 55,
     "kdnuggets.com": 32,
     "techcrunch.com": 5,
@@ -48,15 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-16",
-      "time": "2026-02-16T12:01:16.478583+00:00",
-      "format": "digest",
-      "sources": [
-        "techcrunch.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-17",
       "time": "2026-02-17T05:12:49.099645+00:00",
@@ -992,15 +983,24 @@
         "www.snowflake.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-18",
+      "time": "2026-03-18T12:04:44.394777+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 161,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nSignal vs noise:\n1. OpenAI\u2019s GPT-5.4 mini and nano are built for the subagent era\nContext: ...\nOn Tuesday, OpenAI&#160;released GPT-5.4 mini and nano, two smaller models designed for tasks that agentic AI systems delegate: codebase searches, The post OpenAI&#8217;s GPT-5.4 mini and nano are\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/gpt-54-nano-mini/\n\n2. How to Effectively Review Claude Code Output\nContext: Get more out of your coding agents by making reviewing more efficient The post How to Effectively Review Claude Code Output appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-effectively-review-claude-code-output/\n\n3. Your database is about to become an AI tool. Is it ready?\nContext: ...\nFor 25 years, I&#8217;ve watched the database sit behind layers of protection: firewalls, VPNs, connection poolers, role-based access, and even The post Your database is about to become an AI tool\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/securing-mcp-database-access/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 162,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nSRE leaders share reliability wins and lessons.\n\nIndustry pulse:\n1. Scaling Btrfs to petabytes in production: a 74% cost reduction story\nContext: At Chronosphere, we saved 74% of our storage costs by moving petabytes of time-series data from ext4 to Btrfs, the The post Scaling Btrfs to petabytes in production: a 74% cost...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/btrfs-petabyte-cost-reduction/\n\n2. One Model to Rule Them All? SAP-RPT-1 and the Future of Tabular Foundation Models\nContext: A hands-on case study and practical guidance The post One Model to Rule Them All? SAP-RPT-1 and the Future of Tabular Foundation Models appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/\n\n3. Why your observability bill keeps growing (and it\u2019s not your vendor\u2019s fault)\nContext: ...\nOver the past year, I have spoken with dozens of engineering teams about their observability pipelines and analyzed their production The post Why your observability bill keeps growing (and it&#821\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/why-observability-bills-grow/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
     "thenewstack.io",
-    "www.snowflake.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-18T07:36:33.867305+00:00"
+  "last_post_timestamp": "2026-03-18T12:04:44.395770+00:00"
 }
