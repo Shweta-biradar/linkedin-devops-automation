@@ -1,12 +1,12 @@
 {
-  "total_posts": 186,
-  "posts_today": 3,
-  "last_post_date": "2026-03-17",
+  "total_posts": 187,
+  "posts_today": 1,
+  "last_post_date": "2026-03-18",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 152,
+    "digest": 153,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,12 +35,12 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 23,
-    "thenewstack.io": 170,
-    "blog.jetbrains.com": 23,
-    "www.bleepingcomputer.com": 25,
+    "thenewstack.io": 173,
+    "blog.jetbrains.com": 24,
+    "www.bleepingcomputer.com": 26,
     "martinfowler.com": 2,
     "towardsdatascience.com": 125,
-    "www.snowflake.com": 53,
+    "www.snowflake.com": 54,
     "kdnuggets.com": 32,
     "techcrunch.com": 5,
     "stackoverflow.blog": 3,
@@ -48,15 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-16",
-      "time": "2026-02-16T05:19:48.327362+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-16",
       "time": "2026-02-16T07:38:40.058715+00:00",
@@ -983,14 +974,29 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-18",
+      "time": "2026-03-18T05:16:32.450695+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "www.snowflake.com",
+        "blog.jetbrains.com",
+        "www.bleepingcomputer.com",
+        "thenewstack.io",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 159,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nCloud pioneers highlight key developments for practitioners.\n\nEssential reads:\n1. How a Neural Network Learned Its Own Fraud Rules: A Neuro-Symbolic AI Experiment\nContext: Most neuro-symbolic systems inject rules written by humans. But what if a neural network could discover those rules itself? In this experiment, I extend a hybrid neural network...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/\n\n2. From monolith to global mesh: How Uber standardized ML at scale\nContext: ...\nIntroduction: the scaling wall In 2015, Uber&#8217;s growth was outpacing its infrastructure. As the company evolved from a luxury car The post From monolith to global mesh: How Uber standardized\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/uber-standardized-ml-scale/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?",
+  "posts_created": 160,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nSRE leaders share reliability wins and lessons.\n\nLeadership lessons:\n1. GitHub Copilot\u2019s effect on collaboration has stunned researchers\nContext: ...\nGenerative AI tools like GitHub Copilot are not just speeding up coding; they are quietly rewiring how software developers divide The post GitHub Copilot&#8217;s effect on collaboration has stunne\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/copilot-reshapes-developer-work/\n\n2. Snowflake Ventures Invests in Aira Technologies to Power the Future of Telecom with Agentic AI\nContext: Snowflake Ventures invests in Aira Technologies to advance agentic AI for telecom. Discover how Snowflake and Aira enable RAN operations and network automation.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/aira-agentic-investment-ai-telecom-automation\n\n3. UI Freezes and the Dangers of Non-Cancellable Read Actions in Background Threads\nContext: ...\nIn JetBrains IDEs, UI freezes are often blamed on \u201cheavy work on the EDT,\u201d but our recent investigations show another common culprit in plugins: long, non-cancellable read actions running in backg\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/platform/2026/03/ui-freezes-and-the-dangers-of-non-cancellable-read-actions-in-background-threads/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
+    "blog.jetbrains.com",
+    "www.bleepingcomputer.com",
+    "www.snowflake.com",
     "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-17T12:02:15.475388+00:00"
+  "last_post_timestamp": "2026-03-18T05:16:32.451694+00:00"
 }
