@@ -109,6 +109,7 @@
     "https://stackoverflow.blog/2026/02/02/what-s-new-at-stack-overflow-february-2026/",
     "https://stackoverflow.blog/2026/02/24/dogfood-so-nutritious-it-s-building-the-future-of-sdlcs/",
     "https://stackoverflow.blog/2026/03/16/domain-expertise-still-wanted-the-latest-trends-in-ai/",
+    "https://stackoverflow.blog/2026/03/19/building-a-global-engineering-team-netlify/",
     "https://techcrunch.com/2026/02/02/linq-raises-20m-to-enable-ai-assistants-to-live-within-messaging-apps/",
     "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/",
     "https://techcrunch.com/2026/02/05/fundamental-raises-255-million-series-a-with-a-new-take-on-big-data-analysis/",
@@ -584,12 +585,6 @@
   "meta": {
     "topic_hashes": {
       "0d68967e8751": "2026-03-08T11:45:35.765038+00:00",
-      "a2807e74de48": "2026-03-05T11:56:02.604459+00:00",
-      "fed0447743a0": "2026-03-05T11:56:02.604554+00:00",
-      "af235cd5d5a7": "2026-03-05T11:56:02.604606+00:00",
-      "d197393dc95d": "2026-03-05T11:56:02.604654+00:00",
-      "0ee96e5b26cb": "2026-03-05T11:56:02.604700+00:00",
-      "b22d1e75a448": "2026-03-05T11:56:02.604748+00:00",
       "4495504bc7b2": "2026-03-08T07:09:58.122631+00:00",
       "a6a3782b5645": "2026-03-06T04:59:02.945706+00:00",
       "c15776811e96": "2026-03-06T04:59:02.945802+00:00",
@@ -729,10 +724,11 @@
       "fbe92ff93158": "2026-03-19T07:33:59.918323+00:00",
       "f44cf0167518": "2026-03-19T07:33:59.918438+00:00",
       "881a39cfd3bc": "2026-03-19T07:33:59.918528+00:00",
-      "5e32b0fe944c": "2026-03-19T07:33:59.918625+00:00"
+      "5e32b0fe944c": "2026-03-19T07:33:59.918625+00:00",
+      "4329645a1c03": "2026-03-19T11:56:56.440476+00:00"
     },
-    "last_post_id": "urn:li:share:7440299520338587648",
-    "last_posted_at_utc": "2026-03-19T07:33:59.918698+00:00",
+    "last_post_id": "urn:li:share:7440365691771301889",
+    "last_posted_at_utc": "2026-03-19T11:56:56.440570+00:00",
     "last_format": "digest"
   }
 }

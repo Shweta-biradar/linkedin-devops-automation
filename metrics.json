@@ -1,12 +1,12 @@
 {
-  "total_posts": 191,
-  "posts_today": 2,
+  "total_posts": 192,
+  "posts_today": 3,
   "last_post_date": "2026-03-19",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 157,
+    "digest": 158,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -43,19 +43,11 @@
     "www.snowflake.com": 56,
     "kdnuggets.com": 32,
     "techcrunch.com": 6,
-    "stackoverflow.blog": 3,
+    "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 3
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T12:00:04.877024+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T05:13:31.429964+00:00",
@@ -996,14 +988,21 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-19",
+      "time": "2026-03-19T11:56:56.441716+00:00",
+      "format": "digest",
+      "sources": [
+        "stackoverflow.blog"
+      ]
     }
   ],
-  "posts_created": 164,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. Capital One deprecated an AI tool it once championed. Its DevEx chief says that\u2019s the point.\nContext: ...\nHow could you possibly ensure you are providing the right tools and processes to 14,000 engineers? How do you even The post Capital One deprecated an AI tool it once championed. Its DevEx chief sa\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/capital-one-developer-enablement/\n\n2. Two-Stage Hurdle Models: Predicting Zero-Inflated Outcomes\nContext: Why one model can't do two jobs The post Two-Stage Hurdle Models: Predicting Zero-Inflated Outcomes appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/\n\n3. Why You Should Stop Worrying About AI Taking Data Science Jobs\nContext: It's all just fearmongering The post Why You Should Stop Worrying About AI Taking Data Science Jobs appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
+  "posts_created": 165,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nCloud pioneers highlight key developments for practitioners.\n\nIndustry pulse:\n1. Building a global engineering team (plus AI agents) with Netlify\nContext: Dana Lawson, CTO of Netlify, shares her insights on leading a lean, globally distributed engineering team that powers 5% of the internet.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://stackoverflow.blog/2026/03/19/building-a-global-engineering-team-netlify/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "stackoverflow.blog"
   ],
-  "last_post_timestamp": "2026-03-19T07:33:59.920813+00:00"
+  "last_post_timestamp": "2026-03-19T11:56:56.442643+00:00"
 }
