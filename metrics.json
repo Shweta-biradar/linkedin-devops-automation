@@ -1,12 +1,12 @@
 {
-  "total_posts": 190,
-  "posts_today": 1,
+  "total_posts": 191,
+  "posts_today": 2,
   "last_post_date": "2026-03-19",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 156,
+    "digest": 157,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 23,
-    "thenewstack.io": 177,
+    "thenewstack.io": 179,
     "blog.jetbrains.com": 24,
     "www.bleepingcomputer.com": 26,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 130,
+    "towardsdatascience.com": 132,
     "www.snowflake.com": 56,
     "kdnuggets.com": 32,
     "techcrunch.com": 6,
@@ -48,14 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T07:33:29.136975+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com"
-      ]
-    },
     {
       "date": "2026-02-17",
       "time": "2026-02-17T12:00:04.877024+00:00",
@@ -993,17 +985,25 @@
         "towardsdatascience.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-19",
+      "time": "2026-03-19T07:33:59.919854+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 163,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nCollaboration experts spotlight culture and process breakthroughs.\n\nSecurity signals:\n1. Power BI March 2026 Feature Summary\nContext: ...\nWelcome to the Power BI March 2026 Feature Summary\u2014and welcome to FabCon! As FabCon gets underway, this month\u2019s update reflects the momentum we\u2019re seeing across Power BI and the conversations happ\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/\n\n2. Best practices for Amazon Redshift Lambda User-Defined Functions\nContext: While working with Lambda User-Defined Functions (UDFs) in Amazon Redshift, knowing best practices may help you streamline the respective feature development and reduce common...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/best-practices-for-amazon-redshift-lambda-user-defined-functions/\n\n3. Powering the Era of the Agentic Enterprise\nContext: Discover how Snowflake powers the Agentic Enterprise with a control plane that connects AI, data, and enterprise systems to drive intelligent action.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 164,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. Capital One deprecated an AI tool it once championed. Its DevEx chief says that\u2019s the point.\nContext: ...\nHow could you possibly ensure you are providing the right tools and processes to 14,000 engineers? How do you even The post Capital One deprecated an AI tool it once championed. Its DevEx chief sa\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/capital-one-developer-enablement/\n\n2. Two-Stage Hurdle Models: Predicting Zero-Inflated Outcomes\nContext: Why one model can't do two jobs The post Two-Stage Hurdle Models: Predicting Zero-Inflated Outcomes appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/\n\n3. Why You Should Stop Worrying About AI Taking Data Science Jobs\nContext: It's all just fearmongering The post Why You Should Stop Worrying About AI Taking Data Science Jobs appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "powerbi.microsoft.com",
-    "techcrunch.com",
-    "aws.amazon.com",
-    "www.snowflake.com",
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-19T05:12:19.047717+00:00"
+  "last_post_timestamp": "2026-03-19T07:33:59.920813+00:00"
 }

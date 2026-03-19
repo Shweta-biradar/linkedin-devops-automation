@@ -134,6 +134,7 @@
     "https://thenewstack.io/ai-paradox-gitlab/",
     "https://thenewstack.io/ai-ready-infrastructure/",
     "https://thenewstack.io/ai-strategy-api-sediment/",
+    "https://thenewstack.io/ai-test-authoring-launch/",
     "https://thenewstack.io/ai-unified-data-foundation/",
     "https://thenewstack.io/ai-velocity-debt-accelerator/",
     "https://thenewstack.io/amazon-ai-assisted-errors/",
@@ -151,6 +152,7 @@
     "https://thenewstack.io/beyond-automation-dynatrace-unveils-agentic-ai-that-fixes-problems-on-its-own/",
     "https://thenewstack.io/bluefin-linux-chromeos-simplicity-meets-linux-power/",
     "https://thenewstack.io/btrfs-petabyte-cost-reduction/",
+    "https://thenewstack.io/capital-one-developer-enablement/",
     "https://thenewstack.io/chainguard-admitted-factory-1-0-was-brittle-heres-how-2-0-fixes-it/",
     "https://thenewstack.io/chainguard-and-the-hunt-for-truly-zero-cve-container-images/",
     "https://thenewstack.io/chainguard-emeritoss-backs-minio-other-orphaned-projects/",
@@ -380,6 +382,7 @@
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
     "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
+    "https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
@@ -398,6 +401,7 @@
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/",
+    "https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/",
     "https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/",
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
@@ -580,12 +584,6 @@
   "meta": {
     "topic_hashes": {
       "0d68967e8751": "2026-03-08T11:45:35.765038+00:00",
-      "5e8f10007f64": "2026-03-05T07:26:14.380287+00:00",
-      "67b06dce213e": "2026-03-05T07:26:14.380382+00:00",
-      "51cfb2e5d29d": "2026-03-05T07:26:14.380457+00:00",
-      "b4ab34d0941d": "2026-03-05T07:26:14.380526+00:00",
-      "5514efe38771": "2026-03-05T07:26:14.380573+00:00",
-      "a379947dcdd2": "2026-03-05T07:26:14.380617+00:00",
       "a2807e74de48": "2026-03-05T11:56:02.604459+00:00",
       "fed0447743a0": "2026-03-05T11:56:02.604554+00:00",
       "af235cd5d5a7": "2026-03-05T11:56:02.604606+00:00",
@@ -727,10 +725,14 @@
       "820bd4db3231": "2026-03-19T05:12:19.045229+00:00",
       "df6501cd00c6": "2026-03-19T05:12:19.045359+00:00",
       "edb8dfd19b0c": "2026-03-19T05:12:19.045469+00:00",
-      "b3f048f25be5": "2026-03-19T05:12:19.045554+00:00"
+      "b3f048f25be5": "2026-03-19T05:12:19.045554+00:00",
+      "fbe92ff93158": "2026-03-19T07:33:59.918323+00:00",
+      "f44cf0167518": "2026-03-19T07:33:59.918438+00:00",
+      "881a39cfd3bc": "2026-03-19T07:33:59.918528+00:00",
+      "5e32b0fe944c": "2026-03-19T07:33:59.918625+00:00"
     },
-    "last_post_id": "urn:li:share:7440263864996433921",
-    "last_posted_at_utc": "2026-03-19T05:12:19.045597+00:00",
+    "last_post_id": "urn:li:share:7440299520338587648",
+    "last_posted_at_utc": "2026-03-19T07:33:59.918698+00:00",
     "last_format": "digest"
   }
 }
