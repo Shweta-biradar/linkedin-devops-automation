@@ -1,12 +1,12 @@
 {
-  "total_posts": 189,
-  "posts_today": 3,
-  "last_post_date": "2026-03-18",
+  "total_posts": 190,
+  "posts_today": 1,
+  "last_post_date": "2026-03-19",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 155,
+    "digest": 156,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -24,7 +24,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 36,
+    "aws.amazon.com": 38,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -39,28 +39,15 @@
     "blog.jetbrains.com": 24,
     "www.bleepingcomputer.com": 26,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 129,
-    "www.snowflake.com": 55,
+    "towardsdatascience.com": 130,
+    "www.snowflake.com": 56,
     "kdnuggets.com": 32,
-    "techcrunch.com": 5,
+    "techcrunch.com": 6,
     "stackoverflow.blog": 3,
-    "powerbi.microsoft.com": 2
+    "powerbi.microsoft.com": 3
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T05:12:49.099645+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com",
-        "thenewstack.io",
-        "www.bleepingcomputer.com",
-        "kdnuggets.com",
-        "aws.amazon.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-17",
       "time": "2026-02-17T07:33:29.136975+00:00",
@@ -993,14 +980,30 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-19",
+      "time": "2026-03-19T05:12:19.046702+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "techcrunch.com",
+        "towardsdatascience.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 162,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nSRE leaders share reliability wins and lessons.\n\nIndustry pulse:\n1. Scaling Btrfs to petabytes in production: a 74% cost reduction story\nContext: At Chronosphere, we saved 74% of our storage costs by moving petabytes of time-series data from ext4 to Btrfs, the The post Scaling Btrfs to petabytes in production: a 74% cost...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/btrfs-petabyte-cost-reduction/\n\n2. One Model to Rule Them All? SAP-RPT-1 and the Future of Tabular Foundation Models\nContext: A hands-on case study and practical guidance The post One Model to Rule Them All? SAP-RPT-1 and the Future of Tabular Foundation Models appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/\n\n3. Why your observability bill keeps growing (and it\u2019s not your vendor\u2019s fault)\nContext: ...\nOver the past year, I have spoken with dozens of engineering teams about their observability pipelines and analyzed their production The post Why your observability bill keeps growing (and it&#821\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/why-observability-bills-grow/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 163,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nCollaboration experts spotlight culture and process breakthroughs.\n\nSecurity signals:\n1. Power BI March 2026 Feature Summary\nContext: ...\nWelcome to the Power BI March 2026 Feature Summary\u2014and welcome to FabCon! As FabCon gets underway, this month\u2019s update reflects the momentum we\u2019re seeing across Power BI and the conversations happ\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/\n\n2. Best practices for Amazon Redshift Lambda User-Defined Functions\nContext: While working with Lambda User-Defined Functions (UDFs) in Amazon Redshift, knowing best practices may help you streamline the respective feature development and reduce common...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/best-practices-for-amazon-redshift-lambda-user-defined-functions/\n\n3. Powering the Era of the Agentic Enterprise\nContext: Discover how Snowflake powers the Agentic Enterprise with a control plane that connects AI, data, and enterprise systems to drive intelligent action.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
+    "powerbi.microsoft.com",
+    "techcrunch.com",
+    "aws.amazon.com",
+    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-18T12:04:44.395770+00:00"
+  "last_post_timestamp": "2026-03-19T05:12:19.047717+00:00"
 }
