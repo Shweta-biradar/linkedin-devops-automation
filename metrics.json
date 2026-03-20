@@ -1,12 +1,12 @@
 {
-  "total_posts": 193,
-  "posts_today": 1,
+  "total_posts": 194,
+  "posts_today": 2,
   "last_post_date": "2026-03-20",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 159,
+    "digest": 160,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -34,12 +34,12 @@
     "growth_plan": 9,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
-    "github.blog": 23,
-    "thenewstack.io": 180,
+    "github.blog": 25,
+    "thenewstack.io": 181,
     "blog.jetbrains.com": 25,
-    "www.bleepingcomputer.com": 26,
+    "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 132,
+    "towardsdatascience.com": 134,
     "www.snowflake.com": 59,
     "kdnuggets.com": 33,
     "techcrunch.com": 6,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-18",
-      "time": "2026-02-18T07:36:17.362097+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T12:00:46.377806+00:00",
@@ -996,16 +983,29 @@
         "www.snowflake.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-20",
+      "time": "2026-03-20T07:32:08.457764+00:00",
+      "format": "digest",
+      "sources": [
+        "www.bleepingcomputer.com",
+        "github.blog",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "github.blog"
+      ]
     }
   ],
-  "posts_created": 166,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nCollaboration experts spotlight culture and process breakthroughs.\n\nWhat caught our attention:\n1. Why Your AI Governance Is Holding You Back, and You Don\u2019t Even Know It\nContext: ...\nMost enterprises claim to govern their AI use. They have policy documents, review boards, approval flows, and sandbox environments. On paper, control exists. Then agents enter real software delive\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/03/why-your-ai-governance-is-holding-you-back-and-you-don-t-even-know-it/\n\n2. Jellyfish AI development study: The real sting has yet to land\nContext: Developers are adopting and eschewing AI coding tools depending on their trust in the new automation mantra, the level of The post Jellyfish AI development study: The real...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/jellyfish-ai-engineering-trends/\n\n3. 5 Useful Python Scripts for Synthetic Data Generation\nContext: Before you trust a library to generate your data, learn how to do it yourself and see where bias and errors actually begin.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 167,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nIndustry pulse:\n1. Ex-data analyst stole company data in $2.5M extortion scheme\nContext: A North Carolina man was found guilty of extorting a D.C.-based technology company while still being employed as a data analyst contractor. [...]\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.bleepingcomputer.com/news/security/data-analyst-found-guilty-of-extorting-brightly-software-of-25-million/\n\n2. Rethinking open source mentorship in the AI era\nContext: As contribution volume grows, mentorship signals are harder to read. The 3 Cs framework helps maintainers mentor more strategically... without burning out.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/\n\n3. Beyond Prompt Caching: 5 More Things You Should Cache in RAG Pipelines\nContext: A practical guide to caching layers across the RAG pipeline, from query embeddings to full query-response reuse The post Beyond Prompt Caching: 5 More Things You Should Cache...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "blog.jetbrains.com",
+    "towardsdatascience.com",
     "thenewstack.io",
-    "kdnuggets.com",
-    "www.snowflake.com"
+    "www.bleepingcomputer.com",
+    "github.blog"
   ],
-  "last_post_timestamp": "2026-03-20T05:07:05.033464+00:00"
+  "last_post_timestamp": "2026-03-20T07:32:08.458741+00:00"
 }
