@@ -1,12 +1,12 @@
 {
-  "total_posts": 192,
-  "posts_today": 3,
-  "last_post_date": "2026-03-19",
+  "total_posts": 193,
+  "posts_today": 1,
+  "last_post_date": "2026-03-20",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 158,
+    "digest": 159,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,32 +35,19 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 23,
-    "thenewstack.io": 179,
-    "blog.jetbrains.com": 24,
+    "thenewstack.io": 180,
+    "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 26,
     "martinfowler.com": 2,
     "towardsdatascience.com": 132,
-    "www.snowflake.com": 56,
-    "kdnuggets.com": 32,
+    "www.snowflake.com": 59,
+    "kdnuggets.com": 33,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 3
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-18",
-      "time": "2026-02-18T05:13:31.429964+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "blog.jetbrains.com",
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T07:36:17.362097+00:00",
@@ -996,13 +983,29 @@
       "sources": [
         "stackoverflow.blog"
       ]
+    },
+    {
+      "date": "2026-03-20",
+      "time": "2026-03-20T05:07:05.032543+00:00",
+      "format": "digest",
+      "sources": [
+        "blog.jetbrains.com",
+        "thenewstack.io",
+        "kdnuggets.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 165,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nCloud pioneers highlight key developments for practitioners.\n\nIndustry pulse:\n1. Building a global engineering team (plus AI agents) with Netlify\nContext: Dana Lawson, CTO of Netlify, shares her insights on leading a lean, globally distributed engineering team that powers 5% of the internet.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://stackoverflow.blog/2026/03/19/building-a-global-engineering-team-netlify/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 166,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nCollaboration experts spotlight culture and process breakthroughs.\n\nWhat caught our attention:\n1. Why Your AI Governance Is Holding You Back, and You Don\u2019t Even Know It\nContext: ...\nMost enterprises claim to govern their AI use. They have policy documents, review boards, approval flows, and sandbox environments. On paper, control exists. Then agents enter real software delive\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://blog.jetbrains.com/ai/2026/03/why-your-ai-governance-is-holding-you-back-and-you-don-t-even-know-it/\n\n2. Jellyfish AI development study: The real sting has yet to land\nContext: Developers are adopting and eschewing AI coding tools depending on their trust in the new automation mantra, the level of The post Jellyfish AI development study: The real...\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://thenewstack.io/jellyfish-ai-engineering-trends/\n\n3. 5 Useful Python Scripts for Synthetic Data Generation\nContext: Before you trust a library to generate your data, learn how to do it yourself and see where bias and errors actually begin.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "stackoverflow.blog"
+    "blog.jetbrains.com",
+    "thenewstack.io",
+    "kdnuggets.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-19T11:56:56.442643+00:00"
+  "last_post_timestamp": "2026-03-20T05:07:05.033464+00:00"
 }
