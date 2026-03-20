@@ -170,6 +170,7 @@
     "https://thenewstack.io/copilot-reshapes-developer-work/",
     "https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/",
     "https://thenewstack.io/cursor-agents-developer-workflows/",
+    "https://thenewstack.io/cursors-composer-2-beats-opus/",
     "https://thenewstack.io/developers-coding-moving-target-ai/",
     "https://thenewstack.io/distributed-tracing-sampling-opentelemetry/",
     "https://thenewstack.io/docker-versus-nix-the-quest-for-true-reproducibility/",
@@ -201,6 +202,7 @@
     "https://thenewstack.io/ide-vs-desktop-agent/",
     "https://thenewstack.io/inception-labs-mercury-2-diffusion/",
     "https://thenewstack.io/intent-engineering-ai-agents/",
+    "https://thenewstack.io/introduction-to-backend-development/",
     "https://thenewstack.io/is-ai-killing-open-source-software/",
     "https://thenewstack.io/is-open-source-in-trouble/",
     "https://thenewstack.io/it-tools-brings-many-useful-developer-tools-into-one-convenient-location/",
@@ -395,6 +397,7 @@
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
     "https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/",
+    "https://towardsdatascience.com/the-basics-of-vibe-engineering/",
     "https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/",
     "https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/",
     "https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/",
@@ -414,6 +417,7 @@
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
+    "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
@@ -598,7 +602,6 @@
     "topic_hashes": {
       "0d68967e8751": "2026-03-08T11:45:35.765038+00:00",
       "4495504bc7b2": "2026-03-08T07:09:58.122631+00:00",
-      "adf1833eaf15": "2026-03-06T11:52:03.462586+00:00",
       "6ebe6bc722a2": "2026-03-07T04:50:14.296089+00:00",
       "79bae54b6758": "2026-03-07T04:50:14.296200+00:00",
       "4e33801e4ae0": "2026-03-07T04:50:14.296255+00:00",
@@ -742,10 +745,14 @@
       "0636912411dd": "2026-03-20T07:32:08.456398+00:00",
       "213e9b4939d3": "2026-03-20T07:32:08.456496+00:00",
       "c927e086b083": "2026-03-20T07:32:08.456583+00:00",
-      "3efd69cc6467": "2026-03-20T07:32:08.456646+00:00"
+      "3efd69cc6467": "2026-03-20T07:32:08.456646+00:00",
+      "f5f065a653c4": "2026-03-20T11:52:53.974021+00:00",
+      "aa5e360f8b2b": "2026-03-20T11:52:53.974140+00:00",
+      "eae4bacd296b": "2026-03-20T11:52:53.974206+00:00",
+      "3e74b4e80eef": "2026-03-20T11:52:53.974259+00:00"
     },
-    "last_post_id": "urn:li:share:7440661439926734848",
-    "last_posted_at_utc": "2026-03-20T07:32:08.456687+00:00",
+    "last_post_id": "urn:li:share:7440727060572000257",
+    "last_posted_at_utc": "2026-03-20T11:52:53.974305+00:00",
     "last_format": "digest"
   }
 }
