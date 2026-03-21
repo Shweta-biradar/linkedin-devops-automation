@@ -1,12 +1,12 @@
 {
-  "total_posts": 197,
-  "posts_today": 2,
+  "total_posts": 198,
+  "posts_today": 3,
   "last_post_date": "2026-03-21",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 163,
+    "digest": 164,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -44,18 +44,10 @@
     "kdnuggets.com": 34,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 3
+    "powerbi.microsoft.com": 4
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-19",
-      "time": "2026-02-19T12:02:35.947281+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-20",
       "time": "2026-02-20T05:07:50.972789+00:00",
@@ -998,14 +990,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-21",
+      "time": "2026-03-21T11:46:54.008987+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 170,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nCollaboration wins:\n1. 5 Powerful Python Decorators for Robust AI Agents\nContext: These five Python decorators have saved me from countless headaches, and they will probably save you, too.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents\n\n2. Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and Context Bloat (and How to Spot Them Early)\nContext: Why agentic RAG systems fail silently in production and how to detect them before your cloud bill does The post Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/\n\n3. How to Measure AI Value\nContext: While efficiency is an important source of AI value, it is only part of the picture The post How to Measure AI Value appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-measure-ai-value/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 171,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. Power BI March 2026 Feature Summary\nContext: ...\nWelcome to the Power BI March 2026 Feature Summary\u2014and welcome to FabCon! As FabCon gets underway, this month\u2019s update reflects the momentum we\u2019re seeing across Power BI and the conversations happ\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com"
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-03-21T07:09:50.216683+00:00"
+  "last_post_timestamp": "2026-03-21T11:46:54.009981+00:00"
 }
