@@ -1,12 +1,12 @@
 {
-  "total_posts": 195,
-  "posts_today": 3,
-  "last_post_date": "2026-03-20",
+  "total_posts": 196,
+  "posts_today": 1,
+  "last_post_date": "2026-03-21",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 161,
+    "digest": 162,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,12 +35,12 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 25,
-    "thenewstack.io": 183,
+    "thenewstack.io": 186,
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 136,
-    "www.snowflake.com": 59,
+    "towardsdatascience.com": 138,
+    "www.snowflake.com": 60,
     "kdnuggets.com": 33,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-19",
-      "time": "2026-02-19T05:12:46.121049+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "aws.amazon.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "github.blog"
-      ]
-    },
     {
       "date": "2026-02-19",
       "time": "2026-02-19T07:34:28.242669+00:00",
@@ -999,14 +986,28 @@
         "thenewstack.io",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-21",
+      "time": "2026-03-21T04:55:43.320698+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 168,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nAI innovators map the future of intelligent systems.\n\nSecurity signals:\n1. Cursor\u2019s Composer 2 beats Opus 4.6 on coding benchmarks at a fraction of the price\nContext: ...\nCursor on Thursday released Composer 2, the third generation of its in-house coding model. The model outperforms Anthropic&#8217;s Opus 4.6 The post Cursor&#8217;s Composer 2 beats Opus 4.6 on cod\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://thenewstack.io/cursors-composer-2-beats-opus/\n\n2. Vibe Coding with AI: Best Practices for Human-AI Collaboration in Software Development\nContext: Accelerate coding with AI while staying in control and building reliable, production-ready software. The post Vibe Coding with AI: Best Practices for Human-AI Collaboration in...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/\n\n3. Backend Development in 2026: What\u2019s Changed, What Matters, and What to Learn Next\nContext: ...\nOverview of Backend Development Backend development, often called server-side development, involves building and overseeing applications that run on computers controlled The post Backend Developme\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/introduction-to-backend-development/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
+  "posts_created": 169,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nAutomation architects drive efficiency and scale across industries.\n\nStrategic highlights:\n1. Accelerating Redshift Modernization with Confidence: How Snowflake Automates and De-risks Migration\nContext: Accelerate Redshift migration with Snowflake and SnowConvert AI. Automate code conversion, validate data integrity and reduce risk with AI-driven workflows.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence\n\n2. OpenAI acquires Astral to bring open source Python developer tools to Codex \u2014 but details are still fuzzy\nContext: ...\nOpenAI this week announced its acquisition of Astral to bring the startup&#8217;s open source Python developer tools into the Codex The post OpenAI acquires Astral to bring open source Python deve\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openai-astral-acquisition/\n\n3. Building Robust Credit Scoring Models (Part 3)\nContext: Handling outliers and missing values in borrower data using Python. The post Building Robust Credit Scoring Models (Part 3) appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "thenewstack.io",
-    "towardsdatascience.com"
+    "www.snowflake.com",
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-20T11:52:53.976480+00:00"
+  "last_post_timestamp": "2026-03-21T04:55:43.321701+00:00"
 }
