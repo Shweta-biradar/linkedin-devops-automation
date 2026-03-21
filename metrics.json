@@ -1,12 +1,12 @@
 {
-  "total_posts": 196,
-  "posts_today": 1,
+  "total_posts": 197,
+  "posts_today": 2,
   "last_post_date": "2026-03-21",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 162,
+    "digest": 163,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -39,26 +39,15 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 138,
+    "towardsdatascience.com": 140,
     "www.snowflake.com": 60,
-    "kdnuggets.com": 33,
+    "kdnuggets.com": 34,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 3
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-19",
-      "time": "2026-02-19T07:34:28.242669+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-19",
       "time": "2026-02-19T12:02:35.947281+00:00",
@@ -999,15 +988,24 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-21",
+      "time": "2026-03-21T07:09:50.215730+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 169,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nAutomation architects drive efficiency and scale across industries.\n\nStrategic highlights:\n1. Accelerating Redshift Modernization with Confidence: How Snowflake Automates and De-risks Migration\nContext: Accelerate Redshift migration with Snowflake and SnowConvert AI. Automate code conversion, validate data integrity and reduce risk with AI-driven workflows.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence\n\n2. OpenAI acquires Astral to bring open source Python developer tools to Codex \u2014 but details are still fuzzy\nContext: ...\nOpenAI this week announced its acquisition of Astral to bring the startup&#8217;s open source Python developer tools into the Codex The post OpenAI acquires Astral to bring open source Python deve\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/openai-astral-acquisition/\n\n3. Building Robust Credit Scoring Models (Part 3)\nContext: Handling outliers and missing values in borrower data using Python. The post Building Robust Credit Scoring Models (Part 3) appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
+  "posts_created": 170,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nCollaboration wins:\n1. 5 Powerful Python Decorators for Robust AI Agents\nContext: These five Python decorators have saved me from countless headaches, and they will probably save you, too.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents\n\n2. Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and Context Bloat (and How to Spot Them Early)\nContext: Why agentic RAG systems fail silently in production and how to detect them before your cloud bill does The post Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/\n\n3. How to Measure AI Value\nContext: While efficiency is an important source of AI value, it is only part of the picture The post How to Measure AI Value appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-measure-ai-value/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
     "towardsdatascience.com",
-    "thenewstack.io"
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-03-21T04:55:43.321701+00:00"
+  "last_post_timestamp": "2026-03-21T07:09:50.216683+00:00"
 }

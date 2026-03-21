@@ -305,6 +305,7 @@
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
+    "https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/",
     "https://towardsdatascience.com/agentic-rag-vs-classic-rag-from-a-pipeline-to-a-control-loop/",
     "https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/",
     "https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/",
@@ -353,6 +354,7 @@
     "https://towardsdatascience.com/how-to-effectively-review-claude-code-output/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
+    "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
@@ -524,6 +526,7 @@
     "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
+    "https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents",
     "https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications",
     "https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks",
@@ -608,9 +611,6 @@
     "topic_hashes": {
       "0d68967e8751": "2026-03-08T11:45:35.765038+00:00",
       "4495504bc7b2": "2026-03-08T07:09:58.122631+00:00",
-      "ea4329652f89": "2026-03-07T07:06:31.945904+00:00",
-      "9576baabdad4": "2026-03-07T07:06:31.946005+00:00",
-      "5f15b356ea98": "2026-03-07T07:06:31.946090+00:00",
       "b52a1dda6768": "2026-03-08T05:00:03.512146+00:00",
       "7479d22b837e": "2026-03-08T05:00:03.512257+00:00",
       "a38e371e9467": "2026-03-08T05:00:03.512320+00:00",
@@ -755,10 +755,13 @@
       "164f24918884": "2026-03-21T04:55:43.319325+00:00",
       "4b30a47214df": "2026-03-21T04:55:43.319379+00:00",
       "a6533422db35": "2026-03-21T04:55:43.319429+00:00",
-      "ec71b50940ef": "2026-03-21T04:55:43.319499+00:00"
+      "ec71b50940ef": "2026-03-21T04:55:43.319499+00:00",
+      "6df3912d5500": "2026-03-21T07:09:50.214275+00:00",
+      "f32188a4ff25": "2026-03-21T07:09:50.214392+00:00",
+      "a4383d5abf04": "2026-03-21T07:09:50.214477+00:00"
     },
-    "last_post_id": "urn:li:share:7440984463875923968",
-    "last_posted_at_utc": "2026-03-21T04:55:43.319543+00:00",
+    "last_post_id": "urn:li:share:7441018215293657088",
+    "last_posted_at_utc": "2026-03-21T07:09:50.214553+00:00",
     "last_format": "digest"
   }
 }
