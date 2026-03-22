@@ -1,12 +1,12 @@
 {
-  "total_posts": 198,
-  "posts_today": 3,
-  "last_post_date": "2026-03-21",
+  "total_posts": 199,
+  "posts_today": 1,
+  "last_post_date": "2026-03-22",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 164,
+    "digest": 165,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -35,11 +35,11 @@
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 25,
-    "thenewstack.io": 186,
+    "thenewstack.io": 188,
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 140,
+    "towardsdatascience.com": 141,
     "www.snowflake.com": 60,
     "kdnuggets.com": 34,
     "techcrunch.com": 6,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-20",
-      "time": "2026-02-20T05:07:50.972789+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "blog.jetbrains.com",
-        "thenewstack.io",
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-02-20",
       "time": "2026-02-20T07:31:39.165469+00:00",
@@ -998,13 +985,24 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-03-22",
+      "time": "2026-03-22T05:09:08.860724+00:00",
+      "format": "digest",
+      "sources": [
+        "thenewstack.io",
+        "towardsdatascience.com",
+        "thenewstack.io"
+      ]
     }
   ],
-  "posts_created": 171,
-  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nAnalytics experts curate the signals that drive innovation.\n\nSignal vs noise:\n1. Power BI March 2026 Feature Summary\nContext: ...\nWelcome to the Power BI March 2026 Feature Summary\u2014and welcome to FabCon! As FabCon gets underway, this month\u2019s update reflects the momentum we\u2019re seeing across Power BI and the conversations happ\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?",
+  "posts_created": 172,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nTech strategists decode the next wave of transformation.\n\nSignal vs noise:\n1. Cursor beats Opus at 10x less, Meta\u2019s agent goes rogue, and the 300-page Trump America AI Act\nContext: ...\nI&#8217;m Matt Burns, Director of Editorial at Insight Media Group. Each week, I round up the most important AI developments, The post Cursor beats Opus at 10x less, Meta&#8217;s agent goes rogue,\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/cursor-beats-opus-metas-agent-rogue-and-trump-america-ai-act/\n\n2. A Gentle Introduction to Nonlinear Constrained Optimization with Piecewise Linear Approximations\nContext: Piecewise linear approximations are a practical way to handle nonlinear constrained models using LP/MIP solvers like Gurobi. The post A Gentle Introduction to Nonlinear...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/\n\n3. Anthropic\u2019s response to the AI tool that caused lines around the block in Shenzhen\nContext: ...\nIt is sometimes difficult to capture just how popular OpenClaw is around the world. Then there are reports like one The post Anthropic&#8217;s response to the AI tool that caused lines around the\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/claude-dispatch-versus-openclaw/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "powerbi.microsoft.com"
+    "towardsdatascience.com",
+    "thenewstack.io"
   ],
-  "last_post_timestamp": "2026-03-21T11:46:54.009981+00:00"
+  "last_post_timestamp": "2026-03-22T05:09:08.861713+00:00"
 }

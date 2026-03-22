@@ -165,12 +165,14 @@
     "https://thenewstack.io/ciq-launches-rlc-pro-for-enterprise-linux-for-the-ai-era/",
     "https://thenewstack.io/ciso-identity-complexity-strategy/",
     "https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/",
+    "https://thenewstack.io/claude-dispatch-versus-openclaw/",
     "https://thenewstack.io/claudes-free-plan-can-now-remember-you/",
     "https://thenewstack.io/context-is-everything-sales-force-data-360/",
     "https://thenewstack.io/context-rot-enterprise-ai-llms/",
     "https://thenewstack.io/copilot-reshapes-developer-work/",
     "https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/",
     "https://thenewstack.io/cursor-agents-developer-workflows/",
+    "https://thenewstack.io/cursor-beats-opus-metas-agent-rogue-and-trump-america-ai-act/",
     "https://thenewstack.io/cursors-composer-2-beats-opus/",
     "https://thenewstack.io/developers-coding-moving-target-ai/",
     "https://thenewstack.io/distributed-tracing-sampling-opentelemetry/",
@@ -302,6 +304,7 @@
     "https://towardsdatascience.com/5-ways-for-variable-discretization/",
     "https://towardsdatascience.com/649627-2/",
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
+    "https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/",
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
@@ -611,11 +614,6 @@
     "topic_hashes": {
       "0d68967e8751": "2026-03-08T11:45:35.765038+00:00",
       "4495504bc7b2": "2026-03-08T07:09:58.122631+00:00",
-      "b52a1dda6768": "2026-03-08T05:00:03.512146+00:00",
-      "7479d22b837e": "2026-03-08T05:00:03.512257+00:00",
-      "a38e371e9467": "2026-03-08T05:00:03.512320+00:00",
-      "d63f52246c25": "2026-03-08T05:00:03.512375+00:00",
-      "11b6856b558c": "2026-03-08T05:00:03.512423+00:00",
       "6eb58f68cf38": "2026-03-09T07:35:52.067470+00:00",
       "e5306d6c6bfa": "2026-03-09T05:12:51.951732+00:00",
       "304502e0575a": "2026-03-09T05:12:51.951815+00:00",
@@ -758,10 +756,13 @@
       "ec71b50940ef": "2026-03-21T04:55:43.319499+00:00",
       "6df3912d5500": "2026-03-21T07:09:50.214275+00:00",
       "f32188a4ff25": "2026-03-21T07:09:50.214392+00:00",
-      "a4383d5abf04": "2026-03-21T07:09:50.214477+00:00"
+      "a4383d5abf04": "2026-03-21T07:09:50.214477+00:00",
+      "7f3ff2d1ae90": "2026-03-22T05:09:08.859429+00:00",
+      "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
+      "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7441087940807700480",
-    "last_posted_at_utc": "2026-03-21T11:46:54.007807+00:00",
+    "last_post_id": "urn:li:share:7441350230769512448",
+    "last_posted_at_utc": "2026-03-22T05:09:08.859631+00:00",
     "last_format": "digest"
   }
 }
