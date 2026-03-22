@@ -1,12 +1,12 @@
 {
-  "total_posts": 199,
-  "posts_today": 1,
+  "total_posts": 200,
+  "posts_today": 2,
   "last_post_date": "2026-03-22",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 165,
+    "digest": 166,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 141,
-    "www.snowflake.com": 60,
+    "www.snowflake.com": 61,
     "kdnuggets.com": 34,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-20",
-      "time": "2026-02-20T07:31:39.165469+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-20",
       "time": "2026-02-20T11:55:00.515474+00:00",
@@ -995,14 +982,21 @@
         "towardsdatascience.com",
         "thenewstack.io"
       ]
+    },
+    {
+      "date": "2026-03-22",
+      "time": "2026-03-22T07:16:51.580256+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 172,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nTech strategists decode the next wave of transformation.\n\nSignal vs noise:\n1. Cursor beats Opus at 10x less, Meta\u2019s agent goes rogue, and the 300-page Trump America AI Act\nContext: ...\nI&#8217;m Matt Burns, Director of Editorial at Insight Media Group. Each week, I round up the most important AI developments, The post Cursor beats Opus at 10x less, Meta&#8217;s agent goes rogue,\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/cursor-beats-opus-metas-agent-rogue-and-trump-america-ai-act/\n\n2. A Gentle Introduction to Nonlinear Constrained Optimization with Piecewise Linear Approximations\nContext: Piecewise linear approximations are a practical way to handle nonlinear constrained models using LP/MIP solvers like Gurobi. The post A Gentle Introduction to Nonlinear...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/\n\n3. Anthropic\u2019s response to the AI tool that caused lines around the block in Shenzhen\nContext: ...\nIt is sometimes difficult to capture just how popular OpenClaw is around the world. Then there are reports like one The post Anthropic&#8217;s response to the AI tool that caused lines around the\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://thenewstack.io/claude-dispatch-versus-openclaw/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
+  "posts_created": 173,
+  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nObservability advocates surface what teams measure and why.\n\nCollaboration wins:\n1. Accelerating Redshift Modernization with Confidence: How Snowflake Automates and De-risks Migration\nContext: Accelerate Redshift migration with Snowflake and SnowConvert AI. Automate code conversion, validate data integrity and reduce risk with AI-driven workflows.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "thenewstack.io"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-22T05:09:08.861713+00:00"
+  "last_post_timestamp": "2026-03-22T07:16:51.581223+00:00"
 }
