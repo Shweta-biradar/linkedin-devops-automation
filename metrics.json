@@ -1,12 +1,12 @@
 {
-  "total_posts": 200,
-  "posts_today": 2,
+  "total_posts": 201,
+  "posts_today": 3,
   "last_post_date": "2026-03-22",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 166,
+    "digest": 167,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 141,
-    "www.snowflake.com": 61,
+    "www.snowflake.com": 62,
     "kdnuggets.com": 34,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -48,19 +48,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-20",
-      "time": "2026-02-20T11:55:00.515474+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "github.blog",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-21",
       "time": "2026-02-21T04:53:52.138840+00:00",
@@ -990,13 +977,21 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-22",
+      "time": "2026-03-22T11:48:02.987765+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 173,
-  "last_post_content": "\ud83c\udf0d Global tech trends to watch.\nObservability advocates surface what teams measure and why.\n\nCollaboration wins:\n1. Accelerating Redshift Modernization with Confidence: How Snowflake Automates and De-risks Migration\nContext: Accelerate Redshift migration with Snowflake and SnowConvert AI. Automate code conversion, validate data integrity and reduce risk with AI-driven workflows.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 174,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nAI innovators map the future of intelligent systems.\n\nWhat caught our attention:\n1. Accelerating Redshift Modernization with Confidence: How Snowflake Automates and De-risks Migration\nContext: Accelerate Redshift migration with Snowflake and SnowConvert AI. Automate code conversion, validate data integrity and reduce risk with AI-driven workflows.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-22T07:16:51.581223+00:00"
+  "last_post_timestamp": "2026-03-22T11:48:02.988758+00:00"
 }
