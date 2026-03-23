@@ -1,7 +1,7 @@
 {
-  "total_posts": 201,
-  "posts_today": 3,
-  "last_post_date": "2026-03-22",
+  "total_posts": 202,
+  "posts_today": 1,
+  "last_post_date": "2026-03-23",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
@@ -10,7 +10,8 @@
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
-    "career_advice": 1
+    "career_advice": 1,
+    "controversial_takes": 1
   },
   "sources_used": {
     "www.infoq.com": 34,
@@ -31,7 +32,7 @@
     "www.mend.io": 1,
     "unit42.paloaltonetworks.com": 1,
     "www.hashicorp.com": 5,
-    "growth_plan": 9,
+    "growth_plan": 10,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 25,
@@ -48,19 +49,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-21",
-      "time": "2026-02-21T04:53:52.138840+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "www.snowflake.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-21",
       "time": "2026-02-21T07:09:45.561666+00:00",
@@ -985,13 +973,21 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-23",
+      "time": "2026-03-23T04:45:30.979093+00:00",
+      "format": "controversial_takes",
+      "sources": [
+        "growth_plan"
+      ]
     }
   ],
-  "posts_created": 174,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nAI innovators map the future of intelligent systems.\n\nWhat caught our attention:\n1. Accelerating Redshift Modernization with Confidence: How Snowflake Automates and De-risks Migration\nContext: Accelerate Redshift migration with Snowflake and SnowConvert AI. Automate code conversion, validate data integrity and reduce risk with AI-driven workflows.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
-  "last_post_format": "digest",
+  "posts_created": 175,
+  "last_post_content": "The thing nobody tells engineers about data drift: the silent killer of analytics:\n\nKey insights on data drift: the silent killer of analytics:\n\n\u2022 Bold statement that challenges conventional wisdom\n\u2022 3 supporting arguments with real examples\n\u2022 Acknowledge the counterargument\n\u2022 Personal story illustrating the point\n\nWhat's your take on this? Let's debate it professionally in the comments.\n\n#ai #businessintelligence #datavisualization #python #rstats",
+  "last_post_format": "controversial_takes",
   "last_post_sources": [
-    "www.snowflake.com"
+    "growth_plan"
   ],
-  "last_post_timestamp": "2026-03-22T11:48:02.988758+00:00"
+  "last_post_timestamp": "2026-03-23T04:45:30.980050+00:00"
 }

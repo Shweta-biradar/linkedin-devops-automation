@@ -759,8 +759,16 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7441450618101166080",
-    "last_posted_at_utc": "2026-03-22T11:48:02.986624+00:00",
-    "last_format": "digest"
+    "last_post_id": "urn:li:share:7441706672022192129",
+    "last_posted_at_utc": "2026-03-23T04:45:30.977911+00:00",
+    "last_format": "controversial_takes",
+    "topic_titles": [
+      {
+        "title": "Data drift: The silent killer of analytics",
+        "date": "2026-03-23T04:45:30.977626+00:00",
+        "hash_strict": "bdeb0736fe3b",
+        "hash_medium": "169ce2948e4d"
+      }
+    ]
   }
 }
