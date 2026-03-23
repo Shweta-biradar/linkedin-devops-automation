@@ -762,8 +762,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7441716301305192449",
-    "last_posted_at_utc": "2026-03-23T05:23:47.358458+00:00",
+    "last_post_id": "urn:li:share:7441752638343438336",
+    "last_posted_at_utc": "2026-03-23T07:48:10.254553+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -789,6 +789,12 @@
         "date": "2026-03-23T05:23:47.358420+00:00",
         "hash_strict": "07318ea48104",
         "hash_medium": "b656e79bdc3e"
+      },
+      {
+        "title": "Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow",
+        "date": "2026-03-23T07:48:10.254481+00:00",
+        "hash_strict": "2f17f6ca21f5",
+        "hash_medium": "0919f5ae2f1c"
       }
     ]
   }
