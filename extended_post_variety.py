@@ -590,6 +590,14 @@ DATA_EXPERTISE_POST_TYPES = {
         "engagement_level": "MEDIUM",
         "audience": ["practitioners", "peers"]
     },
+    "data_drift_insight": {
+        "name": "Data Drift Insight",
+        "category": "DATA EXPERTISE",
+        "description": "Explain the risks of data drift and how to detect/control it",
+        "emoji": "📉",
+        "engagement_level": "HIGH",
+        "audience": ["practitioners", "executives", "peers"]
+    },
     "tool_comparison": {
         "name": "Tool Comparison",
         "category": "DATA EXPERTISE",

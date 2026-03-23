@@ -32,6 +32,9 @@ from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
+# Bring in identity post builders for add-on formats
+from identity_post_builders import build_data_drift_post
+
 # Import fcntl for Unix systems only
 try:
     import fcntl
@@ -55,9 +58,10 @@ logger = logging.getLogger(__name__)
 # ENV
 # -------------------------------------------------
 
+DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
-if not ACCESS_TOKEN:
-    print("ERROR: LINKEDIN_ACCESS_TOKEN not set")
+if not ACCESS_TOKEN and not DRY_RUN:
+    print("ERROR: LINKEDIN_ACCESS_TOKEN not set (set DRY_RUN=true for local testing without token)")
     sys.exit(1)
 
 API_VERSION = os.environ.get("LINKEDIN_API_VERSION", "202405")
@@ -80,7 +84,6 @@ def safe_int(value: str, default: int, min_val: int = None, max_val: int = None)
 # Environment variable validation
 MAX_POST_CHARS = 2800  # LinkedIn hard cap ~3000; keep headroom
 
-DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 MAX_ITEMS = safe_int(os.environ.get("MAX_ITEMS", "5"), 5, 1, 20)
 INCLUDE_LINKS = os.environ.get("INCLUDE_LINKS", "true").lower() == "true"
 ALWAYS_INCLUDE_LINKS = os.environ.get("ALWAYS_INCLUDE_LINKS", "false").lower() == "true"
@@ -833,7 +836,7 @@ ROTATE_HASHTAGS = os.environ.get("ROTATE_HASHTAGS", "true").lower() == "true"
 INCLUDE_PERSONA = os.environ.get("INCLUDE_PERSONA", "true").lower() == "true"
 
 # Post formats
-POST_FORMATS_STR = os.environ.get("POST_FORMATS", "digest,deep_dive,quick_tip,case_study,hot_take,lessons")
+POST_FORMATS_STR = os.environ.get("POST_FORMATS", "digest,deep_dive,quick_tip,case_study,hot_take,lessons,data_drift_insight")
 AVAILABLE_POST_FORMATS = [f.strip() for f in POST_FORMATS_STR.split(",") if f.strip()]
 FORCE_FORMAT = os.environ.get("FORCE_FORMAT", "auto")  # auto, or specific format name
 CUSTOM_MESSAGE = os.environ.get("CUSTOM_MESSAGE", "")  # Override with custom message
@@ -941,6 +944,23 @@ def get_growth_plan_content() -> Optional[Dict]:
     logger.info(f"   Hook: {idea.get('hook', 'None')[:50]}...")
     
     return idea
+
+
+def enrich_post_content(text: str, post_format: str = None) -> str:
+    """Enhance posts to ensure detail and practical context across formats."""
+    if not text:
+        return text
+    # Ensure minimum depth for all post formats
+    if len(text) < 280 or len([l for l in text.splitlines() if l.strip()]) < 6:
+        additional = [
+            "💡 Practical next step: Document this in your weekly data review and attach quick checks to your pipeline.",
+            "🛠️ Why this matters: It reduces debugging time, increases stakeholder trust, and uncovers hidden drift before alerts trigger.",
+            "📌 Tip: Add a checkpoint test for schema/format changes as part of release validation for any source ingestion.",
+        ]
+        if "data_drift" in (post_format or ""):
+            additional.insert(0, "🔍 Focus: measure drift in distribution, null ratios, and data freshness so you catch silent failures.")
+        text = f"{text}\n\n---\n\n{random.choice(additional)}"
+    return text
 
 
 def format_post_content(text: str) -> str:
@@ -4000,34 +4020,36 @@ def build_post(items, post_format: Optional[str] = None):
     random.shuffle(items)
     try:
         if post_format == "quick_tip":
-            return build_quick_tip_post()
+            post_text = build_quick_tip_post()
         elif post_format == "lessons":
-            return build_lessons_post(items)
+            post_text = build_lessons_post(items)
         elif post_format == "hot_take":
-            return build_hot_take_post(items)
+            post_text = build_hot_take_post(items)
         elif post_format == "case_study":
-            return build_case_study_post(items)
+            post_text = build_case_study_post(items)
         elif post_format == "deep_dive":
-            return build_deep_dive_post(items)
+            post_text = build_deep_dive_post(items)
         elif post_format == "thread":
-            return build_thread_style_post(items)
+            post_text = build_thread_style_post(items)
         elif post_format == "quote":
-            return build_quote_style_post(items)  
+            post_text = build_quote_style_post(items)
         elif post_format == "news_flash":
-            return build_news_flash_post(items)
+            post_text = build_news_flash_post(items)
+        elif post_format == "data_drift_insight":
+            post_text = build_data_drift_post()
         else:
-            return build_digest_post(items)
+            post_text = build_digest_post(items)
     except Exception as e:
         logger.error(f"Post format '{post_format}' failed: {e}")
         logger.warning("Falling back to digest format")
         try:
-            return build_digest_post(items)
+            post_text = build_digest_post(items)
         except Exception as e2:
             logger.error(f"Digest fallback also failed: {e2}")
             # Final fallback to quick tip
-            return build_quick_tip_post()
+            post_text = build_quick_tip_post()
 
-
+    return enrich_post_content(post_text, post_format)
 def build_quick_tip_post() -> str:
     """Build a short-form quick tip post."""
     global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
@@ -4675,12 +4697,12 @@ def main():
         notify("LinkedIn bot DISABLED: Kill switch activated", is_error=True)
         return
         
-    if not ACCESS_TOKEN:
+    if not ACCESS_TOKEN and not DRY_RUN:
         logger.error("❌ LINKEDIN_ACCESS_TOKEN not configured")
         notify("LinkedIn bot FAILED: No access token configured", is_error=True)
         return
     
-    if not AUTHOR_URN:
+    if not AUTHOR_URN and not DRY_RUN:
         logger.error("❌ LinkedIn author URN not resolved - check token permissions")
         notify("LinkedIn bot FAILED: Cannot resolve author URN", is_error=True)
         return
@@ -4845,6 +4867,19 @@ def main():
         logger.info("✅ Content validation passed")
     
     # Post to LinkedIn with comprehensive error handling
+    if DRY_RUN:
+        logger.info("DRY_RUN enabled: skipping actual LinkedIn post")
+        # Save generated post info for debug and metrics
+        metrics = load_metrics()
+        metrics["last_post_content"] = post_text
+        metrics["last_post_format"] = post_format
+        metrics["last_post_sources"] = list(set([item.get("source") for item in new_items]))
+        metrics["last_post_timestamp"] = datetime.now(timezone.utc).isoformat()
+        metrics["dry_run"] = True
+        save_metrics(metrics)
+        logger.info("✅ Dry-run complete; post generated successfully")
+        return
+
     try:
         post_id = post_to_linkedin(post_text)
     except Exception as e:

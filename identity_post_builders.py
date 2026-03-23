@@ -341,6 +341,41 @@ def build_framework_post() -> str:
     return "\n".join(lines)
 
 
+def build_data_drift_post() -> str:
+    """Build a detailed data drift post with practical context and hashtags."""
+    lines = [
+        "🔍 Data drift is the silent killer for analytics teams, and it usually starts with small, invisible changes.",
+        "",
+        "What is data drift?",
+        "- The data distribution changes over time compared to training or expected historical patterns.",
+        "- Examples include new input sources, schema modifications, or value shifts (e.g., free-text to numeric).",
+        "",
+        "Why it matters:",
+        "1) Model drift: A scoring model built in Jan can fail by June if input features shift. (Example: new product category added without retraining)",
+        "2) Analytics drift: KPI definitions change under the hood and dashboard numbers silently move, leading stakeholders to the wrong conclusion.",
+        "3) Data source drift: A previously reliable API starts returning different values (format changes, null patterns), breaking ETL logic.",
+        "",
+        "Common counterargument:",
+        "- 'Data drift is only an ML problem.' That's not true. Business intelligence pipelines, direct query dashboards, and ETL health checks suffer first.",
+        "",
+        "Personal experience:",
+        "- I once had a report showing an 18% revenue spike weeks after a software rename propagated into the fact table. It wasn't real growth, it was poorly managed source drift.",
+        "- Fix: Implement automated data quality checks, versioned schemas, and drift alerts in CI/CD for all data pipelines.",
+        "",
+        "Actionable checklist:",
+        "- Set up daily distribution checks for key fields (mean, median, null %, unique values)",
+        "- Add data contract monitoring (versioned schema + change agreement with source owners)",
+        "- Review KPI definitions monthly with business, not just data engineering",
+        "",
+        "If you’re not tracking it, it will silently erode trust. ",
+        "",
+        "➡️ What’s your data drift story? Leave one practical tip below. 👇",
+        "",
+        "#ai #businessintelligence #datavisualization #python #rstats",
+    ]
+    return "\n".join(lines)
+
+
 def build_market_observation_post() -> str:
     """Build a market observation post."""
     template = POST_TEMPLATES["market_observation"]
@@ -372,6 +407,7 @@ def build_market_observation_post() -> str:
     ]
     
     return "\n".join(lines)
+
 
 
 def build_before_after_post() -> str:
@@ -771,6 +807,7 @@ POST_BUILDERS = {
     "question_thread": build_question_thread_post,
     "framework": build_framework_post,
     "market_observation": build_market_observation_post,
+    "data_drift_insight": build_data_drift_post,
     "before_after": build_before_after_post,
     "career_journey": build_career_journey_post,
     "sql_tip": build_sql_tip_post,
