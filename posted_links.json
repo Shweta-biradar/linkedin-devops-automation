@@ -363,6 +363,7 @@
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
+    "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
@@ -762,8 +763,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7441752638343438336",
-    "last_posted_at_utc": "2026-03-23T07:48:10.254553+00:00",
+    "last_post_id": "urn:li:share:7441816814134833152",
+    "last_posted_at_utc": "2026-03-23T12:03:10.963236+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -795,6 +796,12 @@
         "date": "2026-03-23T07:48:10.254481+00:00",
         "hash_strict": "2f17f6ca21f5",
         "hash_medium": "0919f5ae2f1c"
+      },
+      {
+        "title": "I Built a Podcast Clipping App in One Weekend Using Vibe Coding",
+        "date": "2026-03-23T12:03:10.963162+00:00",
+        "hash_strict": "f9a2a488214c",
+        "hash_medium": "f89a0d378f31"
       }
     ]
   }

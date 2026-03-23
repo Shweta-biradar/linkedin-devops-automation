@@ -1,12 +1,12 @@
 {
-  "total_posts": 204,
-  "posts_today": 3,
+  "total_posts": 205,
+  "posts_today": 4,
   "last_post_date": "2026-03-23",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 169,
+    "digest": 170,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 144,
+    "towardsdatascience.com": 145,
     "www.snowflake.com": 62,
     "kdnuggets.com": 34,
     "techcrunch.com": 6,
@@ -50,17 +50,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-22",
-      "time": "2026-02-22T05:06:47.170751+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-22",
       "time": "2026-02-22T07:13:24.055666+00:00",
@@ -984,13 +973,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-23",
+      "time": "2026-03-23T12:03:10.964423+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 177,
-  "last_post_content": "\ud83d\udce1 This week's essential Data & Analytics signals.\nSRE leaders share reliability wins and lessons.\n\nArchitecture patterns:\n1. Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow\nContext: A hands-on guide to implementing CFD with NumPy, from discretization to airflow simulation around a bird's wing The post Building a Navier-Stokes Solver in Python from Scratch:...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?",
+  "posts_created": 178,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nAI innovators map the future of intelligent systems.\n\nObservability insights:\n1. I Built a Podcast Clipping App in One Weekend Using Vibe Coding\nContext: Rapid prototyping with Replit, AI agents, and minimal manual coding The post I Built a Podcast Clipping App in One Weekend Using Vibe Coding appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-23T07:48:10.256673+00:00"
+  "last_post_timestamp": "2026-03-23T12:03:10.965388+00:00"
 }
