@@ -323,6 +323,7 @@
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-a-like-for-like-solution-for-stores-in-power-bi/",
+    "https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/",
     "https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/",
@@ -385,6 +386,7 @@
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
+    "https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
@@ -490,6 +492,7 @@
     "https://www.docker.com/blog/docker-hardened-images-security-independently-validated-by-srlabs/",
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
+    "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
     "https://www.infoq.com/articles/evolution-backend-streaming-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -759,15 +762,33 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7441706672022192129",
-    "last_posted_at_utc": "2026-03-23T04:45:30.977911+00:00",
-    "last_format": "controversial_takes",
+    "last_post_id": "urn:li:share:7441716301305192449",
+    "last_posted_at_utc": "2026-03-23T05:23:47.358458+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "Data drift: The silent killer of analytics",
         "date": "2026-03-23T04:45:30.977626+00:00",
         "hash_strict": "bdeb0736fe3b",
         "hash_medium": "169ce2948e4d"
+      },
+      {
+        "title": "Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow",
+        "date": "2026-03-23T05:23:47.358309+00:00",
+        "hash_strict": "2f17f6ca21f5",
+        "hash_medium": "0919f5ae2f1c"
+      },
+      {
+        "title": "Prompt Caching with the OpenAI API: A Full Hands-On Python tutorial",
+        "date": "2026-03-23T05:23:47.358365+00:00",
+        "hash_strict": "9f31c8874cbb",
+        "hash_medium": "a2bba139ffb3"
+      },
+      {
+        "title": "Types of data transformations for machine learning",
+        "date": "2026-03-23T05:23:47.358420+00:00",
+        "hash_strict": "07318ea48104",
+        "hash_medium": "b656e79bdc3e"
       }
     ]
   }

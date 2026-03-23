@@ -1,12 +1,12 @@
 {
-  "total_posts": 202,
-  "posts_today": 1,
+  "total_posts": 203,
+  "posts_today": 2,
   "last_post_date": "2026-03-23",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 167,
+    "digest": 168,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,23 +40,16 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 141,
+    "towardsdatascience.com": 143,
     "www.snowflake.com": 62,
     "kdnuggets.com": 34,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 4
+    "powerbi.microsoft.com": 4,
+    "www.dbt.com": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-21",
-      "time": "2026-02-21T07:09:45.561666+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-21",
       "time": "2026-02-21T11:46:01.489020+00:00",
@@ -981,13 +974,24 @@
       "sources": [
         "growth_plan"
       ]
+    },
+    {
+      "date": "2026-03-23",
+      "time": "2026-03-23T05:23:47.359681+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 175,
-  "last_post_content": "The thing nobody tells engineers about data drift: the silent killer of analytics:\n\nKey insights on data drift: the silent killer of analytics:\n\n\u2022 Bold statement that challenges conventional wisdom\n\u2022 3 supporting arguments with real examples\n\u2022 Acknowledge the counterargument\n\u2022 Personal story illustrating the point\n\nWhat's your take on this? Let's debate it professionally in the comments.\n\n#ai #businessintelligence #datavisualization #python #rstats",
-  "last_post_format": "controversial_takes",
+  "posts_created": 176,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nCollaboration experts spotlight culture and process breakthroughs.\n\nKey developments:\n1. Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow\nContext: A hands-on guide to implementing CFD with NumPy, from discretization to airflow simulation around a bird's wing The post Building a Navier-Stokes Solver in Python from Scratch:...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/\n\n2. Prompt Caching with the OpenAI API: A Full Hands-On Python tutorial\nContext: A step-by-step guide to making your OpenAI apps faster, cheaper, and more efficient The post Prompt Caching with the OpenAI API: A Full Hands-On Python tutorial appeared first...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/\n\n3. Types of data transformations for machine learning\nContext: Explore key data transformation types for ML, including cleaning, scaling, feature engineering, and validation.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/data-transformations-for-machine-learning\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "growth_plan"
+    "towardsdatascience.com",
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-03-23T04:45:30.980050+00:00"
+  "last_post_timestamp": "2026-03-23T05:23:47.360652+00:00"
 }
