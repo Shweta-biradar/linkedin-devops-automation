@@ -83,7 +83,7 @@ MAX_POST_CHARS = 2800  # LinkedIn hard cap ~3000; keep headroom
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 MAX_ITEMS = safe_int(os.environ.get("MAX_ITEMS", "5"), 5, 1, 20)
 INCLUDE_LINKS = os.environ.get("INCLUDE_LINKS", "true").lower() == "true"
-ALWAYS_INCLUDE_LINKS = os.environ.get("ALWAYS_INCLUDE_LINKS", "true").lower() == "true"
+ALWAYS_INCLUDE_LINKS = os.environ.get("ALWAYS_INCLUDE_LINKS", "false").lower() == "true"
 MAX_LINKS = safe_int(os.environ.get("MAX_LINKS", "2"), 2, 0, 10)
 MAX_JITTER_SECONDS = safe_int(os.environ.get("MAX_JITTER_SECONDS", "180"), 180, 0, 600)
 
@@ -1521,6 +1521,27 @@ PACK_SOURCES: Dict[str, list] = {
         "https://powerbi.microsoft.com/en-us/blog/feed/",
         "https://cloud.google.com/blog/topics/big-data/rss.xml",
         "https://aws.amazon.com/blogs/big-data/feed/",
+        "https://blog.microsoft.com/en-us/feed/",
+        "https://www.dbt.com/blog/feed/",
+        "https://www.quicksight.aws/blog/feed/",
+        "https://looker.com/blog/feed",
+        "https://www.sisense.com/blog/feed/",
+        "https://www.qlik.com/blog/feed/",
+        "https://www.microstrategy.com/us/blog/feed",
+        "https://www.alteryx.com/blog/feed",
+        "https://blog.datacamp.com/feed",
+        "https://www.udacity.com/blog/feed",
+        "https://hack.guides/feed",
+        "https://www.dataquest.io/blog/feed/",
+        "https://mode.com/blog/feed/",
+        "https://segment.com/blog/feed/", 
+        "https://www.modeanalytics.com/blog/feed",
+        "https://meltano.com/blog/feed/",
+        "https://fivetran.com/blog/feed",
+        "https://www.talend.com/blog/feed",
+        "https://www.informatica.com/blog/feed/",
+        "https://aws.amazon.com/blogs/database/feed/",
+        "https://www.postgresql.org/about/news/",
     ],
     "analytics": [
         "https://kdnuggets.com/feed",
@@ -1529,6 +1550,123 @@ PACK_SOURCES: Dict[str, list] = {
         "https://databricks.com/blog/feed",
         "https://www.snowflake.com/feed/",
         "https://medium.com/feed/data-driven",
+        "https://www.dbt.com/blog/feed/",
+        "https://mode.com/blog/feed/",
+        "https://databox.com/blog/feed",
+        "https://www.explorium.ai/blog/feed",
+        "https://www.preqin.com/insights/feed",
+    ],
+    "powerbi-dax": [
+        "https://powerbi.microsoft.com/en-us/blog/feed/",
+        "https://www.sqlbi.com/blog/feed/",
+        "https://www.damvtech.com/blog-feed.xml",
+        "https://exceleratorbi.com.au/feed/",
+        "https://www.curbal.com/blog/feed",
+        "https://www.powerbidesktop.com/feed",
+        "https://enterprisedna.co/blog/feed/",
+        "https://www.youtube.com/feeds/videos.xml?channel_id=UCoJI2wnbK-vXZGE8nBwvvgw",  # Guy in a Cube
+    ],
+    "sql-databases": [
+        "https://www.postgresql.org/about/news/",
+        "https://dev.mysql.com/tech-resources/news/",
+        "https://www.oracle.com/newsroom/rss-feeds.html",
+        "https://aws.amazon.com/blogs/database/feed/",
+        "https://cloud.google.com/blog/topics/databases/rss.xml",
+        "https://www.sqlshack.com/feed",
+        "https://sqlperformance.com/feed",
+        "https://www.sqlservercentral.com/feed",
+        "https://www.brentozar.com/feed",
+        "https://www.sql-server-performance.blogspot.com/feeds/posts/default",
+        "https://www.mssqltips.com/feed",
+        "https://stackoverflow.com/feeds/tag/sql",
+    ],
+    "etl-data-pipeline": [
+        "https://www.dbt.com/blog/feed/",
+        "https://meltano.com/blog/feed/",
+        "https://fivetran.com/blog/feed",
+        "https://www.talend.com/blog/feed",
+        "https://www.informatica.com/blog/feed/",
+        "https://www.talend.com/blog/feed",
+        "https://www.apache.org/feeds/",
+        "https://airflow.apache.org/blog/feed",
+        "https://datadrivenco.medium.com/feed",
+        "https://www.prefect.io/blog/feed",
+        "https://www.activeledger.io/feed",
+    ],
+    "data-modeling-schema": [
+        "https://www.sqlbi.com/blog/feed/",
+        "https://www.kimballgroup.com/feed",
+        "https://dataedo.com/blog/feed",
+        "https://www.holistics.io/blog/feed",
+        "https://blog.getdbt.com/feed",
+        "https://www.dimensional.com/blog/feed",
+    ],
+    "business-intelligence": [
+        "https://www.tableau.com/about/blog-feed.xml",
+        "https://looker.com/blog/feed",
+        "https://www.sisense.com/blog/feed/",
+        "https://www.qlik.com/blog/feed/",
+        "https://www.microstrategy.com/us/blog/feed",
+        "https://www.alteryx.com/blog/feed",
+        "https://www.gooddata.com/blog/feed",
+        "https://www.perforce.com/blog/vcs",
+        "https://www.holistics.io/blog/feed",
+    ],
+    "data-science-ml": [
+        "https://towardsdatascience.com/feed",
+        "https://www.analyticsvidhya.com/blog/feed/",
+        "https://kdnuggets.com/feed",
+        "https://blog.datacamp.com/feed",
+        "https://machinelearningmastery.com/blog/feed/",
+        "https://www.fast.ai/feed",
+        "https://distill.pub/rss.xml",
+        "https://www.deeplearningbook.org/feed",
+        "https://openai.com/blog/feed/",
+        "https://research.fb.com/feed/",
+    ],
+    "data-governance-quality": [
+        "https://www.immuta.com/blog/feed",
+        "https://www.talend.com/blog/feed",
+        "https://www.informatica.com/blog/feed/",
+        "https://www.dataiq.io/blog/feed",
+        "https://collibra.com/us/en/blog.html",
+        "https://alation.com/blog/feed",
+        "https://www.starburstdata.com/blog/feed",
+    ],
+    "cloud-data-platforms": [
+        "https://cloud.google.com/blog/topics/big-data/rss.xml",
+        "https://aws.amazon.com/blogs/big-data/feed/",
+        "https://azure.microsoft.com/en-us/blog/",
+        "https://www.snowflake.com/feed/",
+        "https://databricks.com/blog/feed",
+        "https://cloud.google.com/newsroom/feeds/bigquery-feed.xml",
+        "https://www.confluent.io/blog/rss/",
+        "https://www.cloudera.com/blog.html?format=rss",
+    ],
+    "performance-optimization": [
+        "https://sqlperformance.com/feed",
+        "https://www.sqlshack.com/feed",
+        "https://www.brentozar.com/feed",
+        "https://www.mssqltips.com/feed",
+        "https://blog.sqlauthority.com/feed",
+        "https://www.1keydata.com/blog/feed",
+        "https://mode.com/blog/feed/",
+    ],
+    "analytics-engineering": [
+        "https://www.dbt.com/blog/feed/",
+        "https://blog.getdbt.com/feed",
+        "https://dataedo.com/blog/feed",
+        "https://www.holistics.io/blog/feed",
+        "https://www.sqlbi.com/blog/feed/",
+        "https://meltano.com/blog/feed/",
+        "https://www.semanticscholar.org/feed",
+    ],
+    "technology-news": [
+        "https://techcrunch.com/feed/",
+        "https://www.theverge.com/feed/index.xml",
+        "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "https://feeds.bloomberg.com/technology/news.rss",
+        "https://feeds.arstechnica.com/arstechnica/index",
     ],
     "tableau": [
         "https://www.tableau.com/about/blog-feed.xml",
@@ -2567,61 +2705,108 @@ def check_rate_limits(state: Dict[str, Any]) -> Tuple[bool, str]:
     return True, "OK"
 
 
-def get_topic_hash(title: str) -> str:
-    """Generate a hash for topic deduplication."""
+def get_topic_hash(title: str, level: int = 1) -> str:
+    """Generate multi-level hashes for topic deduplication.
+    
+    Args:
+        title: Title to hash
+        level: 1=strict (first 3 words), 2=medium (first 5 words), 3=loose (first 8 words)
+    """
     # Normalize title for comparison
     normalized = re.sub(r"[^a-z0-9\s]", "", title.lower())
     normalized = re.sub(r"\s+", " ", normalized).strip()
-    # Get first few significant words
-    words = normalized.split()[:6]
+    
+    # Get significant words based on level
+    level_map = {1: 3, 2: 5, 3: 8}
+    words = normalized.split()[:level_map.get(level, 5)]
     return hashlib.md5(" ".join(words).encode()).hexdigest()[:12]
 
 
+def get_topic_similarity_score(title1: str, title2: str) -> float:
+    """Calculate similarity between two titles (0-1, where 1 is identical)."""
+    # Normalize both titles
+    norm1 = re.sub(r"[^a-z0-9\s]", "", title1.lower()).split()
+    norm2 = re.sub(r"[^a-z0-9\s]", "", title2.lower()).split()
+    
+    if not norm1 or not norm2:
+        return 0.0
+    
+    # Calculate Jaccard similarity
+    set1 = set(norm1)
+    set2 = set(norm2)
+    
+    if not set1 or not set2:
+        return 0.0
+    
+    intersection = len(set1 & set2)
+    union = len(set1 | set2)
+    
+    return intersection / union if union > 0 else 0.0
+
+
 def is_duplicate_topic(title: str, state: Dict[str, Any]) -> bool:
-    """Check if topic was recently posted about."""
+    """Check if topic was recently posted about using multi-level duplicate detection."""
     if not BLOCK_DUPLICATE_TOPICS:
         return False
     
-    topic_hash = get_topic_hash(title)
-    topic_history = state.get("meta", {}).get("topic_hashes", {})
+    # Get topic history
+    topic_history = state.get("meta", {}).get("topic_titles", [])
+    window = timedelta(days=DUPLICATE_WINDOW_DAYS)
+    now = datetime.now(timezone.utc)
     
-    if topic_hash in topic_history:
-        posted_date = topic_history[topic_hash]
+    for prev_entry in topic_history:
         try:
-            posted_time = datetime.fromisoformat(posted_date.replace("Z", "+00:00"))
-            window = timedelta(days=DUPLICATE_WINDOW_DAYS)
-            if datetime.now(timezone.utc) - posted_time < window:
+            prev_title = prev_entry.get("title", "")
+            prev_date_str = prev_entry.get("date")
+            prev_date = datetime.fromisoformat(prev_date_str.replace("Z", "+00:00")) if prev_date_str else None
+            
+            if prev_date and now - prev_date >= window:
+                continue  # Old entry, skip
+            
+            # Check exact hash match (strict)
+            if get_topic_hash(title, level=1) == get_topic_hash(prev_title, level=1):
                 return True
+            
+            # Check similarity score (medium threshold) 
+            similarity = get_topic_similarity_score(title, prev_title)
+            if similarity > 0.6:  # 60% similarity is too similar
+                return True
+                
         except Exception:
-            pass
+            continue
     
     return False
 
 
 def record_topic(title: str, state: Dict[str, Any]) -> None:
-    """Record a topic hash to prevent duplicates."""
+    """Record a topic to prevent duplicates with enhanced tracking."""
     if not BLOCK_DUPLICATE_TOPICS:
         return
     
-    topic_hash = get_topic_hash(title)
     meta = state.get("meta", {})
-    topic_hashes = meta.get("topic_hashes", {})
+    topic_titles = meta.get("topic_titles", [])
     
-    # Add new hash
-    topic_hashes[topic_hash] = datetime.now(timezone.utc).isoformat()
+    # Add new entry with title and timestamp
+    topic_titles.append({
+        "title": title[:200],  # Limit title length
+        "date": datetime.now(timezone.utc).isoformat(),
+        "hash_strict": get_topic_hash(title, level=1),
+        "hash_medium": get_topic_hash(title, level=2)
+    })
     
-    # Clean old hashes
+    # Clean old entries beyond the duplicate window
     cutoff = datetime.now(timezone.utc) - timedelta(days=DUPLICATE_WINDOW_DAYS * 2)
-    cleaned = {}
-    for h, d in topic_hashes.items():
+    cleaned = []
+    for entry in topic_titles:
         try:
-            t = datetime.fromisoformat(d.replace("Z", "+00:00"))
-            if t > cutoff:
-                cleaned[h] = d
+            entry_date = datetime.fromisoformat(entry["date"].replace("Z", "+00:00"))
+            if entry_date > cutoff:
+                cleaned.append(entry)
         except Exception:
             pass
     
-    meta["topic_hashes"] = cleaned
+    # Keep only last 200 entries to prevent memory bloat
+    meta["topic_titles"] = cleaned[-200:]
     state["meta"] = meta
 
 
@@ -3633,8 +3818,9 @@ def build_thread_style_post(items) -> str:
         "",
         f"❓ {footer_question}"
     ])
+    # Add link only 40% of the time
     if link and random.random() > 0.6:
-        lines.extend(["", f"🔗 {link}"])
+        lines.extend(["", f"📖 Source: {link}"])
     return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
@@ -3709,8 +3895,9 @@ def build_quote_style_post(items) -> str:
         f"❓ {footer_question}"
     ])
     # Only show the link, never the domain or 'Source:'
-    if link and random.random() > 0.7:
-        lines.extend(["", f"{link}"])
+    # Only show link strategically (40% of posts)
+    if link and random.random() > 0.6:
+        lines.extend(["", f"🔗 Dive deeper: {link}"])
     return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
 
@@ -3781,8 +3968,9 @@ def build_news_flash_post(items) -> str:
         "",
         f"❓ {footer_question}"
     ])
-    if link:
-        style = random.choice([f"Breaking: {link}", f"Full story: {link}", f"Details: {link}"])
+    # Add link only 35% of the time
+    if link and random.random() > 0.65:
+        style = random.choice([f"📰 Read more: {link}", f"🔍 Full story: {link}", f"📄 Learn more: {link}"])
         lines.extend(["", style])
     return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
 
@@ -3844,19 +4032,24 @@ def build_quick_tip_post() -> str:
     """Build a short-form quick tip post."""
     global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
     quick_headers = [
-        "💡 Quick tip for practitioners.",
-        "⚡ Fast insight for your toolkit.",
-        "🎯 Tactical advice from the field.",
-        "🔧 Pro tip for modern teams.",
-        "🛠️ Small fix, big impact.",
-        "📈 Micro-optimization that compounds." 
+        "💡 Quick tip that actually works.",
+        "⚡ One insight that changes everything.",
+        "🎯 The tactical move you're missing.",
+        "🔧 This one trick saves hours.",
+        "🛠️ Small fix, massive impact.",
+        "📈 The optimization nobody talks about.",
+        "🚀 One simple change.",
+        "💎 The hidden productivity hack."
     ]
     persona_lines = [
-        "Industry leaders share practical shortcuts.",
-        "Strategic thinkers offer time-saving tips.",
-        "Platform architects highlight quick wins.",
-        "Analytics experts reveal production-tested advice.",
-        "Cloud pioneers surface tactical improvements."
+        "The best teams use this one trick.",
+        "Industry leaders swear by this approach.",
+        "Most teams miss this simple optimization.",
+        "Here's what the experts actually do.",
+        "This separates good from great.",
+        "One change that compounds over time.",
+        "The professionals' secret weapon.",
+        "This solves a problem you didn't know you had."
     ]
     footer_questions = [
         "What’s your favorite quick tip?",
@@ -3901,12 +4094,13 @@ def build_lessons_post(items) -> str:
     """Build a lessons-learned style post."""
     global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
     lessons_headers = [
-        "📝 Lessons learned from the field.",
-        "🎓 Hard-won wisdom for teams.",
-        "📚 Patterns that keep showing up.",
-        "💡 Insights from real incidents.",
-        "🔍 What experience reveals.",
-        "⚡ Lessons that drive change."
+        "📝 Lessons we learned the hard way.",
+        "🎓 5 things we wish we knew sooner.",
+        "📚 Patterns that keep repeating.",
+        "💡 What production taught us.",
+        "🔍 The costly mistakes (so you don't repeat them).",
+        "⚡ Career-changing lessons.",
+        "🚀 The breakthroughs that mattered."
     ]
     persona_lines = [
         "Industry leaders share what teams wish they knew earlier.",
@@ -4059,6 +4253,15 @@ def build_hot_take_post(items) -> str:
     take = random.choice(hot_takes)
     target_emoji = "🎯" if EMOJI_STYLE != "none" else ""
     arrow = get_emoji("arrow")
+    # Add engagement hooks
+    engagement_hooks = [
+        "Thoughts?",
+        "Fight me on this.",
+        "Prove me wrong.",
+        "What's your take?",
+        "Change my mind if you can."
+    ]
+    
     lines = [hook, persona_line, ""]
     lines.extend([
         f"{target_emoji} {take}".strip(),
@@ -4296,7 +4499,10 @@ def build_deep_dive_post(items) -> str:
             f"💡 {context_insights[0] if context_insights else 'Focus on what matters most.'}",
         ])
     lines.extend(["", context_cta, "", get_subscription_cta(), "", get_hashtags(), "", f"❓ {footer_question}"])
-    links = [link] if link and should_include_links(post_style, "deep_dive") else []
+    # Add link only 35% of the time for deep dives
+    links = []
+    if link and random.random() > 0.65 and should_include_links(post_style, "deep_dive"):
+        links = [link]
     link_section = format_links_section(links, post_style)
     lines.extend(link_section)
     return format_post_content(clip("\n".join(lines), MAX_POST_CHARS))
