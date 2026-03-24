@@ -415,6 +415,7 @@
     "https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/",
     "https://towardsdatascience.com/the-basics-of-vibe-engineering/",
     "https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/",
+    "https://towardsdatascience.com/the-complete-guide-to-ai-implementation-for-chief-data-ai-officers-in-2026/",
     "https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/",
     "https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/",
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
@@ -769,8 +770,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442112857137344512",
-    "last_posted_at_utc": "2026-03-24T07:39:33.105797+00:00",
+    "last_post_id": "urn:li:share:7442179495635132417",
+    "last_posted_at_utc": "2026-03-24T12:04:20.994117+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -850,6 +851,12 @@
         "date": "2026-03-24T07:39:33.105719+00:00",
         "hash_strict": "69161c4dc89c",
         "hash_medium": "10f63545e685"
+      },
+      {
+        "title": "The Complete Guide to AI Implementation for Chief Data & AI Officers in 2026",
+        "date": "2026-03-24T12:04:20.994039+00:00",
+        "hash_strict": "1a219611fa0e",
+        "hash_medium": "54c094f81ce4"
       }
     ]
   }

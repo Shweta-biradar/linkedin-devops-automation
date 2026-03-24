@@ -1,12 +1,12 @@
 {
-  "total_posts": 207,
-  "posts_today": 2,
+  "total_posts": 208,
+  "posts_today": 3,
   "last_post_date": "2026-03-24",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 172,
+    "digest": 173,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 147,
+    "towardsdatascience.com": 148,
     "www.snowflake.com": 62,
     "kdnuggets.com": 35,
     "techcrunch.com": 6,
@@ -51,16 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-23",
-      "time": "2026-02-23T05:15:59.521019+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-23",
       "time": "2026-02-23T07:38:59.627662+00:00",
@@ -987,13 +977,21 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-03-24",
+      "time": "2026-03-24T12:04:20.995325+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 180,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nEngineering visionaries spotlight what matters most this week.\n\nArchitecture patterns:\n1. 15 Power BI Project Ideas to Build Your Portfolio in 2026\nContext: ...\nBuilding a Power BI portfolio of projects is one of the most direct paths into a business analyst or data analyst role. Employers want evidence that you can take messy data, build a clean model, a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
+  "posts_created": 181,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nGlobal tech trends:\n1. The Complete Guide to AI Implementation for Chief Data & AI Officers in 2026\nContext: ...\nHow to leverage a framework to effectively prioritize AI Initiatives to rapidly accelerate growth and efficiency The post The Complete Guide to AI Implementation for Chief Data &#038; AI Officers\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-complete-guide-to-ai-implementation-for-chief-data-ai-officers-in-2026/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.dataquest.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-24T07:39:33.107879+00:00"
+  "last_post_timestamp": "2026-03-24T12:04:20.996212+00:00"
 }
