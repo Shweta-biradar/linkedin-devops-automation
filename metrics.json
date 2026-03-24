@@ -1,12 +1,12 @@
 {
-  "total_posts": 206,
-  "posts_today": 1,
+  "total_posts": 207,
+  "posts_today": 2,
   "last_post_date": "2026-03-24",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 171,
+    "digest": 172,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -47,18 +47,10 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 1,
-    "www.dataquest.io": 1
+    "www.dataquest.io": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-22",
-      "time": "2026-02-22T11:44:49.194902+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-23",
       "time": "2026-02-23T05:15:59.521019+00:00",
@@ -987,16 +979,21 @@
         "kdnuggets.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-24",
+      "time": "2026-03-24T07:39:33.106922+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 179,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nAI innovators map the future of intelligent systems.\n\nStrategic highlights:\n1. 15 Power BI Project Ideas to Build Your Portfolio in 2026\nContext: ...\nBuilding a Power BI portfolio of projects is one of the most direct paths into a business analyst or data analyst role. Employers want evidence that you can take messy data, build a clean model, a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/\n\n2. Extract data from Amazon Aurora MySQL to Amazon S3 Tables in Apache Iceberg format\nContext: In this post, you learn how to set up an automated, end-to-end solution that extracts tables from Amazon Aurora MySQL Serverless v2 and writes them to Amazon S3 Tables in...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/\n\n3. 4 Pandas Concepts That Quietly Break Your Data Pipelines\nContext: Master data types, index alignment, and defensive Pandas practices to prevent silent bugs in real data pipelines. The post 4 Pandas Concepts That Quietly Break Your Data...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 180,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nEngineering visionaries spotlight what matters most this week.\n\nArchitecture patterns:\n1. 15 Power BI Project Ideas to Build Your Portfolio in 2026\nContext: ...\nBuilding a Power BI portfolio of projects is one of the most direct paths into a business analyst or data analyst role. Employers want evidence that you can take messy data, build a clean model, a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat\u2019s your take on these developments?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
-    "aws.amazon.com",
-    "www.dataquest.io",
-    "towardsdatascience.com"
+    "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-03-24T05:13:42.836289+00:00"
+  "last_post_timestamp": "2026-03-24T07:39:33.107879+00:00"
 }
