@@ -12,6 +12,7 @@
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
+    "https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/filter-catalog-assets-using-custom-metadata-search-filters-in-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
@@ -27,6 +28,7 @@
     "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
     "https://aws.amazon.com/blogs/big-data/secure-apache-spark-writes-to-amazon-s3-on-amazon-emr-with-dynamic-aws-kms-encryption/",
     "https://aws.amazon.com/blogs/big-data/set-up-production-ready-monitoring-for-amazon-msk-using-cloudwatch-alarms/",
+    "https://aws.amazon.com/blogs/big-data/simplifying-kafka-operations-with-amazon-msk-express-brokers/",
     "https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/",
     "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
@@ -329,6 +331,7 @@
     "https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
+    "https://towardsdatascience.com/causal-inference-is-eating-machine-learning/",
     "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
     "https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/",
     "https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/",
@@ -378,6 +381,7 @@
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
+    "https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
@@ -489,6 +493,7 @@
     "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-december-2025/",
     "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
+    "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
     "https://www.docker.com/blog/2025-recap-the-year-software-development-changed-shape/",
     "https://www.docker.com/blog/docker-hardened-images-security-independently-validated-by-srlabs/",
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
@@ -551,6 +556,7 @@
     "https://www.kdnuggets.com/fastmcp-the-pythonic-way-to-build-mcp-servers-and-clients",
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/getting-started-with-python-async-programming",
+    "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
     "https://www.kdnuggets.com/postgres-vs-mysql-vs-sqlite-comparing-sql-performance-across-engines",
@@ -763,8 +769,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7441816814134833152",
-    "last_posted_at_utc": "2026-03-23T12:03:10.963236+00:00",
+    "last_post_id": "urn:li:share:7442076154150412289",
+    "last_posted_at_utc": "2026-03-24T05:13:42.833998+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -802,6 +808,42 @@
         "date": "2026-03-23T12:03:10.963162+00:00",
         "hash_strict": "f9a2a488214c",
         "hash_medium": "f89a0d378f31"
+      },
+      {
+        "title": "15 Power BI Project Ideas to Build Your Portfolio in 2026",
+        "date": "2026-03-24T05:13:42.833756+00:00",
+        "hash_strict": "69161c4dc89c",
+        "hash_medium": "10f63545e685"
+      },
+      {
+        "title": "Extract data from Amazon Aurora MySQL to Amazon S3 Tables in Apache Iceberg format",
+        "date": "2026-03-24T05:13:42.833856+00:00",
+        "hash_strict": "705787424e41",
+        "hash_medium": "d1c29fb921cf"
+      },
+      {
+        "title": "4 Pandas Concepts That Quietly Break Your Data Pipelines",
+        "date": "2026-03-24T05:13:42.833906+00:00",
+        "hash_strict": "93d1d5fc2701",
+        "hash_medium": "7d1b4a7e15e5"
+      },
+      {
+        "title": "Causal Inference Is Eating Machine Learning",
+        "date": "2026-03-24T05:13:42.833933+00:00",
+        "hash_strict": "689303b26e2b",
+        "hash_medium": "70bf1b7a233f"
+      },
+      {
+        "title": "How to Speed Up Slow Python Code Even If You\u2019re a Beginner",
+        "date": "2026-03-24T05:13:42.833952+00:00",
+        "hash_strict": "bceb4e1af3cb",
+        "hash_medium": "cf3477769223"
+      },
+      {
+        "title": "Simplifying Kafka operations with Amazon MSK Express brokers",
+        "date": "2026-03-24T05:13:42.833978+00:00",
+        "hash_strict": "47a344a33717",
+        "hash_medium": "0866e7081b06"
       }
     ]
   }

@@ -1,12 +1,12 @@
 {
-  "total_posts": 205,
-  "posts_today": 4,
-  "last_post_date": "2026-03-23",
+  "total_posts": 206,
+  "posts_today": 1,
+  "last_post_date": "2026-03-24",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 170,
+    "digest": 171,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 38,
+    "aws.amazon.com": 40,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,24 +40,17 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 145,
+    "towardsdatascience.com": 147,
     "www.snowflake.com": 62,
-    "kdnuggets.com": 34,
+    "kdnuggets.com": 35,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
-    "www.dbt.com": 1
+    "www.dbt.com": 1,
+    "www.dataquest.io": 1
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-22",
-      "time": "2026-02-22T07:13:24.055666+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-22",
       "time": "2026-02-22T11:44:49.194902+00:00",
@@ -981,13 +974,29 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-24",
+      "time": "2026-03-24T05:13:42.835240+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 178,
-  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nAI innovators map the future of intelligent systems.\n\nObservability insights:\n1. I Built a Podcast Clipping App in One Weekend Using Vibe Coding\nContext: Rapid prototyping with Replit, AI agents, and minimal manual coding The post I Built a Podcast Clipping App in One Weekend Using Vibe Coding appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?",
+  "posts_created": 179,
+  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nAI innovators map the future of intelligent systems.\n\nStrategic highlights:\n1. 15 Power BI Project Ideas to Build Your Portfolio in 2026\nContext: ...\nBuilding a Power BI portfolio of projects is one of the most direct paths into a business analyst or data analyst role. Employers want evidence that you can take messy data, build a clean model, a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/\n\n2. Extract data from Amazon Aurora MySQL to Amazon S3 Tables in Apache Iceberg format\nContext: In this post, you learn how to set up an automated, end-to-end solution that extracts tables from Amazon Aurora MySQL Serverless v2 and writes them to Amazon S3 Tables in...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/\n\n3. 4 Pandas Concepts That Quietly Break Your Data Pipelines\nContext: Master data types, index alignment, and defensive Pandas practices to prevent silent bugs in real data pipelines. The post 4 Pandas Concepts That Quietly Break Your Data...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "kdnuggets.com",
+    "aws.amazon.com",
+    "www.dataquest.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-23T12:03:10.965388+00:00"
+  "last_post_timestamp": "2026-03-24T05:13:42.836289+00:00"
 }
