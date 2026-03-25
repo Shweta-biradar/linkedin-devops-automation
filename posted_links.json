@@ -6,12 +6,14 @@
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
     "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "https://aws.amazon.com/blogs/big-data/automating-data-classification-in-amazon-sagemaker-catalog-using-an-ai-agent/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-amazon-redshift-lambda-user-defined-functions/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
     "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
+    "https://aws.amazon.com/blogs/big-data/designing-centralized-and-distributed-network-connectivity-patterns-for-amazon-opensearch-serverless-part-1/",
     "https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/filter-catalog-assets-using-custom-metadata-search-filters-in-amazon-sagemaker-unified-studio/",
@@ -347,6 +349,7 @@
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
+    "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
@@ -494,7 +497,9 @@
     "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-december-2025/",
     "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
+    "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
+    "https://www.dataquest.io/blog/python-interview-questions-and-answers/",
     "https://www.docker.com/blog/2025-recap-the-year-software-development-changed-shape/",
     "https://www.docker.com/blog/docker-hardened-images-security-independently-validated-by-srlabs/",
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
@@ -550,6 +555,7 @@
     "https://www.kdnuggets.com/7-python-eda-tricks-to-find-and-fix-data-issues",
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
     "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
+    "https://www.kdnuggets.com/analytics-patterns-every-data-scientist-should-master",
     "https://www.kdnuggets.com/building-practical-mlops-for-a-personal-ml-project",
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
@@ -770,8 +776,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442179495635132417",
-    "last_posted_at_utc": "2026-03-24T12:04:20.994117+00:00",
+    "last_post_id": "urn:li:share:7442438950000132096",
+    "last_posted_at_utc": "2026-03-25T05:15:19.768788+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -857,6 +863,42 @@
         "date": "2026-03-24T12:04:20.994039+00:00",
         "hash_strict": "1a219611fa0e",
         "hash_medium": "54c094f81ce4"
+      },
+      {
+        "title": "From Dashboards to Decisions: Rethinking Data & Analytics in the Age of AI",
+        "date": "2026-03-25T05:15:19.768510+00:00",
+        "hash_strict": "86b47a9c60a1",
+        "hash_medium": "3d963f2222bb"
+      },
+      {
+        "title": "What We Learned Building a RAG System from Scratch (No Frameworks)",
+        "date": "2026-03-25T05:15:19.768596+00:00",
+        "hash_strict": "bf7d44ce3db5",
+        "hash_medium": "41a8921f56c2"
+      },
+      {
+        "title": "40+ Python Interview Questions and Answers for Data Roles (2026)",
+        "date": "2026-03-25T05:15:19.768649+00:00",
+        "hash_strict": "f9c7cfac0fd2",
+        "hash_medium": "b4ca5880bd96"
+      },
+      {
+        "title": "Automating data classification in Amazon SageMaker Catalog using an AI agent",
+        "date": "2026-03-25T05:15:19.768683+00:00",
+        "hash_strict": "9ea1497f7793",
+        "hash_medium": "d70844abb285"
+      },
+      {
+        "title": "Analytics Patterns Every Data Scientist Should Master",
+        "date": "2026-03-25T05:15:19.768707+00:00",
+        "hash_strict": "1aa597dd144b",
+        "hash_medium": "ada4347bc387"
+      },
+      {
+        "title": "Designing centralized and distributed network connectivity patterns for Amazon OpenSearch Serverless \u2013 Part 1",
+        "date": "2026-03-25T05:15:19.768744+00:00",
+        "hash_strict": "59a13b2039a0",
+        "hash_medium": "701a45045431"
       }
     ]
   }

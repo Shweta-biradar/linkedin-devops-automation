@@ -1,12 +1,12 @@
 {
-  "total_posts": 208,
-  "posts_today": 3,
-  "last_post_date": "2026-03-24",
+  "total_posts": 209,
+  "posts_today": 1,
+  "last_post_date": "2026-03-25",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 173,
+    "digest": 174,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 40,
+    "aws.amazon.com": 42,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,25 +40,17 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 148,
+    "towardsdatascience.com": 149,
     "www.snowflake.com": 62,
-    "kdnuggets.com": 35,
+    "kdnuggets.com": 36,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 1,
-    "www.dataquest.io": 2
+    "www.dataquest.io": 4
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-23",
-      "time": "2026-02-23T07:38:59.627662+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com"
-      ]
-    },
     {
       "date": "2026-02-23",
       "time": "2026-02-23T12:00:18.313366+00:00",
@@ -985,13 +977,29 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-25",
+      "time": "2026-03-25T05:15:19.770044+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "www.dataquest.io",
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "kdnuggets.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 181,
-  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nGlobal tech trends:\n1. The Complete Guide to AI Implementation for Chief Data & AI Officers in 2026\nContext: ...\nHow to leverage a framework to effectively prioritize AI Initiatives to rapidly accelerate growth and efficiency The post The Complete Guide to AI Implementation for Chief Data &#038; AI Officers\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-complete-guide-to-ai-implementation-for-chief-data-ai-officers-in-2026/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "posts_created": 182,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nSignal vs noise:\n1. From Dashboards to Decisions: Rethinking Data & Analytics in the Age of AI\nContext: ...\nHow AI agents, data foundations, and human-centered analytics are reshaping the future of decision-making The post From Dashboards to Decisions: Rethinking Data &#038; Analytics in the Age of AI a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/\n\n2. What We Learned Building a RAG System from Scratch (No Frameworks)\nContext: ...\nWe built a retrieval-augmented generation (RAG) system entirely from scratch. No LangChain, no LlamaIndex, no abstractions hiding the details. Just Python, a vector database, and a few API calls.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/build-a-rag-system-from-scratch/\n\n3. 40+ Python Interview Questions and Answers for Data Roles (2026)\nContext: ...\nThis article covers 40+ Python interview questions written specifically for data roles. Every answer includes a working code example, an explanation of the underlying concept, and a note on what t\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/python-interview-questions-and-answers/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "kdnuggets.com",
+    "www.dataquest.io",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-03-24T12:04:20.996212+00:00"
+  "last_post_timestamp": "2026-03-25T05:15:19.771023+00:00"
 }
