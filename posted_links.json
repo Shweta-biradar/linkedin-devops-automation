@@ -36,6 +36,7 @@
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
+    "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
     "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/",
     "https://aws.amazon.com/blogs/mt/search-and-discover-governance-controls-with-control-catalog-in-aws-control-tower/",
     "https://blog.checkpoint.com/company-and-culture/check-point-celebrates-2025-with-top-analyst-and-research-lab-recognitions/",
@@ -330,6 +331,7 @@
     "https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/",
+    "https://towardsdatascience.com/building-human-in-the-loop-agentic-workflows/",
     "https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
@@ -387,6 +389,7 @@
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
+    "https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/",
@@ -549,6 +552,7 @@
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents",
     "https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications",
     "https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using",
+    "https://www.kdnuggets.com/5-useful-diy-python-functions-for-error-handling",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
@@ -779,8 +783,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442474404284076032",
-    "last_posted_at_utc": "2026-03-25T07:36:12.729530+00:00",
+    "last_post_id": "urn:li:share:7442541745797672960",
+    "last_posted_at_utc": "2026-03-25T12:03:48.172116+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -920,6 +924,30 @@
         "date": "2026-03-25T07:36:12.729481+00:00",
         "hash_strict": "6be7fb551769",
         "hash_medium": "3526fab68f94"
+      },
+      {
+        "title": "Automatically scale storage for Amazon RDS Multi-AZ DB clusters using AWS Lambda",
+        "date": "2026-03-25T12:03:48.171899+00:00",
+        "hash_strict": "6124e072187d",
+        "hash_medium": "c77bd89c7366"
+      },
+      {
+        "title": "5 Useful DIY Python Functions for Error Handling",
+        "date": "2026-03-25T12:03:48.172013+00:00",
+        "hash_strict": "bf6257126a98",
+        "hash_medium": "13457aeb7eb6"
+      },
+      {
+        "title": "Building Human-In-The-Loop Agentic Workflows",
+        "date": "2026-03-25T12:03:48.172055+00:00",
+        "hash_strict": "52687ee0a6bb",
+        "hash_medium": "40b7b59823e8"
+      },
+      {
+        "title": "My Models Failed. That\u2019s How I Became a Better Data Scientist.",
+        "date": "2026-03-25T12:03:48.172084+00:00",
+        "hash_strict": "def1df1ae22b",
+        "hash_medium": "ff24d75ce091"
       }
     ]
   }

@@ -1,12 +1,12 @@
 {
-  "total_posts": 210,
-  "posts_today": 2,
+  "total_posts": 211,
+  "posts_today": 3,
   "last_post_date": "2026-03-25",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 175,
+    "digest": 176,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 42,
+    "aws.amazon.com": 43,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 151,
+    "towardsdatascience.com": 153,
     "www.snowflake.com": 63,
-    "kdnuggets.com": 36,
+    "kdnuggets.com": 37,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -51,19 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-24",
-      "time": "2026-02-24T05:10:50.170527+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "blog.jetbrains.com",
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-24",
       "time": "2026-02-24T07:35:25.287000+00:00",
@@ -992,14 +979,26 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-25",
+      "time": "2026-03-25T12:03:48.173443+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 183,
-  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nCloud pioneers highlight key developments for practitioners.\n\nWhat caught our attention:\n1. Enterprise-Grade Data and AI Sharing, Trusted for Agents, Apps and More\nContext: Enable enterprise AI with Snowflake Data Sharing. Easily build reliable, observable AI agents on a unified data foundation using Listing BCDR and Resharing.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing\n\n2. How to Make Claude Code Improve from its Own Mistakes\nContext: Supercharge Claude Code with continual learning The post How to Make Claude Code Improve from its Own Mistakes appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/\n\n3. Production-Ready LLM Agents: A Comprehensive Framework for Offline Evaluation\nContext: We\u2019ve become remarkably good at building sophisticated agent systems, but we haven\u2019t developed the same rigor around proving they work.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/production-ready-llm-agents-a-comprehensive-framework-for-offline-evaluation/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
+  "posts_created": 184,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nGlobal tech trends:\n1. Automatically scale storage for Amazon RDS Multi-AZ DB clusters using AWS Lambda\nContext: In this post, we walk you through building an automated storage scaling solution for Amazon RDS Multi-AZ clusters with two readable standbys.\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/\n\n2. 5 Useful DIY Python Functions for Error Handling\nContext: Debugging Python doesn\u2019t need to be complicated. These 5 DIY functions simplify error handling and improve code reliability.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-diy-python-functions-for-error-handling\n\n3. Building Human-In-The-Loop Agentic Workflows\nContext: Understanding how to set up human-in-the-loop (HITL) agentic workflows in LangGraph The post Building Human-In-The-Loop Agentic Workflows appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-human-in-the-loop-agentic-workflows/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
+    "kdnuggets.com",
     "towardsdatascience.com",
-    "www.snowflake.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-03-25T07:36:12.731903+00:00"
+  "last_post_timestamp": "2026-03-25T12:03:48.174457+00:00"
 }
