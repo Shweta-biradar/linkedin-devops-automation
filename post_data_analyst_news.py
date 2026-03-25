@@ -32,8 +32,32 @@ from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
-# Bring in identity post builders for add-on formats
-from identity_post_builders import build_data_drift_post
+# Bring in identity post builders for expert Data Analyst formats
+from identity_post_builders import (
+    build_data_drift_post,
+    build_sql_tip_post,
+    build_power_bi_insight_post,
+    build_data_modeling_lesson_post,
+    build_etl_challenge_post,
+    build_kpi_strategy_post,
+    build_query_optimization_post,
+    build_stakeholder_management_post,
+    build_data_governance_post,
+    build_tool_comparison_post,
+    build_personal_story_post,
+    build_bold_prediction_post,
+    build_contrarian_take_post,
+    build_values_statement_post,
+    build_failure_story_post,
+    build_myth_busting_post,
+    build_this_or_that_post,
+    build_question_thread_post,
+    build_framework_post,
+    build_market_observation_post,
+    build_before_after_post,
+    build_career_journey_post,
+    build_hiring_pitch_post,
+)
 
 # Import fcntl for Unix systems only
 try:
@@ -92,11 +116,12 @@ MAX_JITTER_SECONDS = safe_int(os.environ.get("MAX_JITTER_SECONDS", "180"), 180, 
 
 # Source packs let you include lots of relevant RSS feeds without editing code.
 # Use: SOURCE_PACKS="data-analyst,analytics,tableau,power-bi,sql" (or "all")
+# NOTE: Data Analyst focused - removed infrastructure/devops/kubernetes sources
 SOURCE_PACKS = [
     p.strip().lower()
     for p in os.environ.get(
         "SOURCE_PACKS",
-        "data-analyst,sql-developer,power-bi,analytics,tableau,mlops,databricks,snowflake,dbt,bigquery,redshift,warehouse,etl,bi-tools",
+        "data-analyst,analytics,sql-databases,powerbi-dax,tableau,databricks,snowflake,dbt,bigquery,redshift,warehouse,etl,bi-tools",
     ).split(",")
     if p.strip()
 ]
@@ -836,7 +861,9 @@ ROTATE_HASHTAGS = os.environ.get("ROTATE_HASHTAGS", "true").lower() == "true"
 INCLUDE_PERSONA = os.environ.get("INCLUDE_PERSONA", "true").lower() == "true"
 
 # Post formats
-POST_FORMATS_STR = os.environ.get("POST_FORMATS", "digest,deep_dive,quick_tip,case_study,hot_take,lessons,data_drift_insight")
+# UPDATED: Now includes expert Data Analyst post types + HIRING PITCH for recruitment visibility
+# hiring_pitch appears multiple times to increase posting frequency (aim for 2x daily)
+POST_FORMATS_STR = os.environ.get("POST_FORMATS", "hiring_pitch,sql_tip,power_bi_insight,hiring_pitch,data_modeling_lesson,etl_challenge,query_optimization,hiring_pitch,kpi_strategy,tool_comparison,data_governance,digest,deep_dive,quick_tip,hiring_pitch,case_study,hot_take,lessons,data_drift_insight,bold_prediction,contrarian_take,framework,myth_busting,this_or_that")
 AVAILABLE_POST_FORMATS = [f.strip() for f in POST_FORMATS_STR.split(",") if f.strip()]
 FORCE_FORMAT = os.environ.get("FORCE_FORMAT", "auto")  # auto, or specific format name
 CUSTOM_MESSAGE = os.environ.get("CUSTOM_MESSAGE", "")  # Override with custom message
@@ -4037,6 +4064,45 @@ def build_post(items, post_format: Optional[str] = None):
             post_text = build_news_flash_post(items)
         elif post_format == "data_drift_insight":
             post_text = build_data_drift_post()
+        # ===== EXPERT DATA ANALYST POST TYPES =====
+        elif post_format == "sql_tip":
+            post_text = build_sql_tip_post()
+        elif post_format == "power_bi_insight":
+            post_text = build_power_bi_insight_post()
+        elif post_format == "data_modeling_lesson":
+            post_text = build_data_modeling_lesson_post()
+        elif post_format == "etl_challenge":
+            post_text = build_etl_challenge_post()
+        elif post_format == "query_optimization":
+            post_text = build_query_optimization_post()
+        elif post_format == "kpi_strategy":
+            post_text = build_kpi_strategy_post()
+        elif post_format == "tool_comparison":
+            post_text = build_tool_comparison_post()
+        elif post_format == "data_governance":
+            post_text = build_data_governance_post()
+        elif post_format == "stakeholder_management":
+            post_text = build_stakeholder_management_post()
+        # ===== IDENTITY & THOUGHT LEADERSHIP POST TYPES =====
+        elif post_format == "bold_prediction":
+            post_text = build_bold_prediction_post()
+        elif post_format == "contrarian_take":
+            post_text = build_contrarian_take_post()
+        elif post_format == "myth_busting":
+            post_text = build_myth_busting_post()
+        elif post_format == "this_or_that":
+            post_text = build_this_or_that_post()
+        elif post_format == "framework":
+            post_text = build_framework_post()
+        elif post_format == "personal_story":
+            post_text = build_personal_story_post()
+        elif post_format == "failure_story":
+            post_text = build_failure_story_post()
+        elif post_format == "before_after":
+            post_text = build_before_after_post()
+        # ===== RECRUITMENT/HIRING PITCH =====
+        elif post_format == "hiring_pitch":
+            post_text = build_hiring_pitch_post()
         else:
             post_text = build_digest_post(items)
     except Exception as e:

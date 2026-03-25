@@ -795,6 +795,137 @@ def build_tool_comparison_post() -> str:
     return "\n".join(lines)
 
 
+def build_hiring_pitch_post() -> str:
+    """
+    Build a viral hiring pitch post following LinkedIn's proven engagement framework.
+    
+    Structure:
+    1. HOOK - Stop the scroll, create curiosity (1-2 lines)
+    2. PROBLEM/STORY - Relatable situation (2-4 lines)
+    3. INSIGHT/VALUE - Core value with numbered points (3-5 points)
+    4. POSITIONING - Skills & focus area (1-2 lines)
+    5. CTA - Clear ask (1-2 lines)
+    6. HASHTAGS - Relevant hashtags (5-8)
+    
+    Focus: Data Analyst recruitment positioning with #OpenToWork
+    """
+    
+    # HOOK OPTIONS
+    hooks = [
+        "Most Data Analysts focus on tools.",
+        "I made a mistake most analysts make.",
+        "3 years in data taught me this…",
+        "Here's what separates good analysts from great ones.",
+        "Most teams are doing this wrong with their analytics.",
+        "The best insights come from understanding the business.",
+    ]
+    
+    # PROBLEM/STORY: Used to X, but then realized Y
+    problems = [
+        {
+            "problem": "I used to think better dashboards = better impact",
+            "realization": "But I was wrong",
+            "setup": ""
+        },
+        {
+            "problem": "I spent years building perfect dashboards",
+            "realization": "Nobody was using them",
+            "setup": ""
+        },
+        {
+            "problem": "I optimized queries until they were perfect",
+            "realization": "But the real problem was asking the wrong questions",
+            "setup": ""
+        },
+        {
+            "problem": "I thought SQL expertise was all I needed",
+            "realization": "Communication turned out to be equally important",
+            "setup": ""
+        },
+    ]
+    
+    # INSIGHTS/VALUE POINTS
+    insights_pool = [
+        {
+            "title": "Asking the right questions",
+            "details": "Understanding business needs comes before building"
+        },
+        {
+            "title": "Understanding business needs",
+            "details": "The context matters more than the tool"
+        },
+        {
+            "title": "Communicating insights clearly",
+            "details": "A dashboard nobody uses isn't a dashboard"
+        },
+        {
+            "title": "Data quality foundations",
+            "details": "Garbage in = garbage out, always"
+        },
+        {
+            "title": "SQL expertise",
+            "details": "Still the backbone of real analytics"
+        },
+        {
+            "title": "Translating data to business decisions",
+            "details": "That's where analysts add real value"
+        },
+    ]
+    
+    # POSITIONING OPTIONS
+    positioning = [
+        "With 2.5+ years of experience in SQL, Power BI & data warehousing\nI focus on solving real business problems through data",
+        "With experience in ETL, data modeling & BI tool development\nI focus on enabling data-driven decisions",
+        "Specialized in Power BI, SQL optimization & data governance\nI solve analytics problems that matter",
+        "With expertise in query optimization, data modeling & reporting\nI build analytics solutions that drive action",
+    ]
+    
+    # CTAs - Job seeking focused
+    ctas = [
+        "I'm open to Data Analyst roles 📊 (Immediate Joiner)\nWould appreciate referrals 🙏",
+        "Currently looking for Data Analyst opportunities 🎯\nLet's connect if you have an opening",
+        "Open to Data Analyst/BI Developer roles 🚀\nDrop a note if your team is hiring",
+        "Actively seeking Data Analyst positions 💼\nConnected and ready to contribute immediately",
+        "Looking for Data Analyst opportunities with growth potential 📈\nHappy to discuss roles in your organization",
+    ]
+    
+    # Build the post
+    hook = random.choice(hooks)
+    problem_item = random.choice(problems)
+    insights_selected = random.sample(insights_pool, k=random.randint(3, 5))
+    position = random.choice(positioning)
+    cta = random.choice(ctas)
+    
+    # Core hashtags
+    hashtags = "#DataAnalyst #SQL #PowerBI #Analytics #OpenToWork #Hiring #DataJobs"
+    
+    # Construct the post with proper spacing
+    lines = [
+        hook,
+        "",
+        problem_item["problem"],
+        problem_item["realization"],
+        "",
+        "Here's what actually matters:",
+        "",
+    ]
+    
+    # Add insights as numbered points
+    for i, insight in enumerate(insights_selected, 1):
+        lines.append(f"{i}. {insight['title']}")
+    
+    lines.extend([
+        "",
+        position,
+        "",
+        cta,
+        "",
+        hashtags,
+    ])
+    
+    return "\n".join(lines)
+
+
 # Export all builders
 POST_BUILDERS = {
     "personal_story": build_personal_story_post,
@@ -819,6 +950,7 @@ POST_BUILDERS = {
     "stakeholder_management": build_stakeholder_management_post,
     "data_governance": build_data_governance_post,
     "tool_comparison": build_tool_comparison_post,
+    "hiring_pitch": build_hiring_pitch_post,
 }
 
 print(f"✅ Post builders ready: {len(POST_BUILDERS)} data-focused formats loaded")
