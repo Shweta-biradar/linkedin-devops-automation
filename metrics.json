@@ -1,12 +1,12 @@
 {
-  "total_posts": 202,
-  "posts_today": 1,
-  "last_post_date": "2026-03-23",
+  "total_posts": 208,
+  "posts_today": 3,
+  "last_post_date": "2026-03-24",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 167,
+    "digest": 173,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 38,
+    "aws.amazon.com": 40,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,68 +40,17 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 141,
+    "towardsdatascience.com": 148,
     "www.snowflake.com": 62,
-    "kdnuggets.com": 34,
+    "kdnuggets.com": 35,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 4
+    "powerbi.microsoft.com": 4,
+    "www.dbt.com": 1,
+    "www.dataquest.io": 2
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-21",
-      "time": "2026-02-21T07:09:45.561666+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
-    {
-      "date": "2026-02-21",
-      "time": "2026-02-21T11:46:01.489020+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "time": "2026-02-22T05:06:47.170751+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "time": "2026-02-22T07:13:24.055666+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "time": "2026-02-22T11:44:49.194902+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
-    {
-      "date": "2026-02-23",
-      "time": "2026-02-23T05:15:59.521019+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-23",
       "time": "2026-02-23T07:38:59.627662+00:00",
@@ -981,13 +930,68 @@
       "sources": [
         "growth_plan"
       ]
+    },
+    {
+      "date": "2026-03-23",
+      "time": "2026-03-23T05:23:47.359681+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "www.dbt.com"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "time": "2026-03-23T07:48:10.255698+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "time": "2026-03-23T12:03:10.964423+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "time": "2026-03-24T05:13:42.835240+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "aws.amazon.com"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "time": "2026-03-24T07:39:33.106922+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "time": "2026-03-24T12:04:20.995325+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 175,
-  "last_post_content": "The thing nobody tells engineers about data drift: the silent killer of analytics:\n\nKey insights on data drift: the silent killer of analytics:\n\n\u2022 Bold statement that challenges conventional wisdom\n\u2022 3 supporting arguments with real examples\n\u2022 Acknowledge the counterargument\n\u2022 Personal story illustrating the point\n\nWhat's your take on this? Let's debate it professionally in the comments.\n\n#ai #businessintelligence #datavisualization #python #rstats",
-  "last_post_format": "controversial_takes",
+  "posts_created": 181,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nGlobal tech trends:\n1. The Complete Guide to AI Implementation for Chief Data & AI Officers in 2026\nContext: ...\nHow to leverage a framework to effectively prioritize AI Initiatives to rapidly accelerate growth and efficiency The post The Complete Guide to AI Implementation for Chief Data &#038; AI Officers\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-complete-guide-to-ai-implementation-for-chief-data-ai-officers-in-2026/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "growth_plan"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-23T04:45:30.980050+00:00"
+  "last_post_timestamp": "2026-03-24T12:04:20.996212+00:00"
 }
