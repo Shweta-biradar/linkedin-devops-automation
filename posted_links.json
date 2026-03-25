@@ -364,6 +364,7 @@
     "https://towardsdatascience.com/how-to-effectively-review-claude-code-output/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
+    "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
@@ -394,6 +395,7 @@
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
+    "https://towardsdatascience.com/production-ready-llm-agents-a-comprehensive-framework-for-offline-evaluation/",
     "https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
@@ -595,6 +597,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/give-to-gain-women-in-tech-international-womens-day",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/how-data-ai-reshaping-careers",
@@ -776,8 +779,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442438950000132096",
-    "last_posted_at_utc": "2026-03-25T05:15:19.768788+00:00",
+    "last_post_id": "urn:li:share:7442474404284076032",
+    "last_posted_at_utc": "2026-03-25T07:36:12.729530+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -899,6 +902,24 @@
         "date": "2026-03-25T05:15:19.768744+00:00",
         "hash_strict": "59a13b2039a0",
         "hash_medium": "701a45045431"
+      },
+      {
+        "title": "Enterprise-Grade Data and AI Sharing, Trusted for Agents, Apps and More",
+        "date": "2026-03-25T07:36:12.729370+00:00",
+        "hash_strict": "eb0ef8684f3e",
+        "hash_medium": "b65da96b84c8"
+      },
+      {
+        "title": "How to Make Claude Code Improve from its Own Mistakes",
+        "date": "2026-03-25T07:36:12.729436+00:00",
+        "hash_strict": "f7f6bf859905",
+        "hash_medium": "a20f80c90869"
+      },
+      {
+        "title": "Production-Ready LLM Agents: A Comprehensive Framework for Offline Evaluation",
+        "date": "2026-03-25T07:36:12.729481+00:00",
+        "hash_strict": "6be7fb551769",
+        "hash_medium": "3526fab68f94"
       }
     ]
   }

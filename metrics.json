@@ -1,12 +1,12 @@
 {
-  "total_posts": 209,
-  "posts_today": 1,
+  "total_posts": 210,
+  "posts_today": 2,
   "last_post_date": "2026-03-25",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 174,
+    "digest": 175,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 149,
-    "www.snowflake.com": 62,
+    "towardsdatascience.com": 151,
+    "www.snowflake.com": 63,
     "kdnuggets.com": 36,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -51,14 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-23",
-      "time": "2026-02-23T12:00:18.313366+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-24",
       "time": "2026-02-24T05:10:50.170527+00:00",
@@ -990,16 +982,24 @@
         "kdnuggets.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-25",
+      "time": "2026-03-25T07:36:12.730878+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 182,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nAI innovators map the future of intelligent systems.\n\nSignal vs noise:\n1. From Dashboards to Decisions: Rethinking Data & Analytics in the Age of AI\nContext: ...\nHow AI agents, data foundations, and human-centered analytics are reshaping the future of decision-making The post From Dashboards to Decisions: Rethinking Data &#038; Analytics in the Age of AI a\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/\n\n2. What We Learned Building a RAG System from Scratch (No Frameworks)\nContext: ...\nWe built a retrieval-augmented generation (RAG) system entirely from scratch. No LangChain, no LlamaIndex, no abstractions hiding the details. Just Python, a vector database, and a few API calls.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/build-a-rag-system-from-scratch/\n\n3. 40+ Python Interview Questions and Answers for Data Roles (2026)\nContext: ...\nThis article covers 40+ Python interview questions written specifically for data roles. Every answer includes a working code example, an explanation of the underlying concept, and a note on what t\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/python-interview-questions-and-answers/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?",
+  "posts_created": 183,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nCloud pioneers highlight key developments for practitioners.\n\nWhat caught our attention:\n1. Enterprise-Grade Data and AI Sharing, Trusted for Agents, Apps and More\nContext: Enable enterprise AI with Snowflake Data Sharing. Easily build reliable, observable AI agents on a unified data foundation using Listing BCDR and Resharing.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing\n\n2. How to Make Claude Code Improve from its Own Mistakes\nContext: Supercharge Claude Code with continual learning The post How to Make Claude Code Improve from its Own Mistakes appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/\n\n3. Production-Ready LLM Agents: A Comprehensive Framework for Offline Evaluation\nContext: We\u2019ve become remarkably good at building sophisticated agent systems, but we haven\u2019t developed the same rigor around proving they work.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/production-ready-llm-agents-a-comprehensive-framework-for-offline-evaluation/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com",
-    "kdnuggets.com",
-    "www.dataquest.io",
-    "aws.amazon.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-25T05:15:19.771023+00:00"
+  "last_post_timestamp": "2026-03-25T07:36:12.731903+00:00"
 }
