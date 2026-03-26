@@ -797,180 +797,224 @@ def build_tool_comparison_post() -> str:
 
 def build_hiring_pitch_post() -> str:
     """
-    Build a viral hiring pitch post following LinkedIn's proven engagement framework.
+    Build a detailed hiring pitch post with business impact and concrete achievements.
     
     Structure:
-    1. HOOK - Stop the scroll, create curiosity (1-2 lines)
-    2. PROBLEM/STORY - Relatable situation (2-4 lines)
-    3. INSIGHT/VALUE - Core value with numbered points (3-5 points)
-    4. POSITIONING - Skills & focus area (1-2 lines)
-    5. CTA - Clear ask (1-2 lines)
-    6. HASHTAGS - Relevant hashtags (5-8)
-    
-    Focus: Data Analyst recruitment positioning with #OpenToWork
+    1. HOOK - Stop the scroll, create curiosity
+    2. PROBLEM/LEARNING - What I discovered
+    3. CORE ACHIEVEMENTS - Quantified impact
+    4. KEY SKILLS - Technical expertise with details
+    5. VALUE PROPOSITION - Why I'm valuable
+    6. POSITIONING - Professional summary
+    7. CALL TO ACTION - Clear next steps
+    8. HASHTAGS - Visibility
     """
     
-    # HOOK OPTIONS
     hooks = [
-        "Most Data Analysts focus on tools.",
-        "I made a mistake most analysts make.",
-        "3 years in data taught me this…",
-        "Here's what separates good analysts from great ones.",
-        "Most teams are doing this wrong with their analytics.",
-        "The best insights come from understanding the business.",
+        "3+ years in data taught me this: Tools don't matter. Impact does.",
+        "I used to think perfect dashboards = business value. I was wrong.",
+        "Most analytical teams are solving the wrong problems. Here's what actually works.",
+        "The difference between good analysts and great ones? It's not SQL.",
+        "I've built 50+ dashboards. Here's what separates the ones that matter.",
     ]
     
-    # PROBLEM/STORY: Used to X, but then realized Y
-    problems = [
+    achievements = random.sample([
         {
-            "problem": "I used to think better dashboards = better impact",
-            "realization": "But I was wrong",
-            "setup": ""
+            "title": "Built KPI dashboards",
+            "impact": "Reduced C-suite decision time from 1 week to 1 hour—directly influencing $2M+ in strategic decisions"
         },
         {
-            "problem": "I spent years building perfect dashboards",
-            "realization": "Nobody was using them",
-            "setup": ""
+            "title": "Optimized data warehouse",
+            "impact": "Query performance improved 10x, saving 20 hours/week of manual reporting"
         },
         {
-            "problem": "I optimized queries until they were perfect",
-            "realization": "But the real problem was asking the wrong questions",
-            "setup": ""
+            "title": "Designed ETL pipelines",
+            "impact": "Automated 95% of manual data processes, eliminating human error and reducing costs by $150K annually"
         },
         {
-            "problem": "I thought SQL expertise was all I needed",
-            "realization": "Communication turned out to be equally important",
-            "setup": ""
+            "title": "Led data governance",
+            "impact": "Implemented security framework covering 200+ users—achieved 100% compliance"
         },
+        {
+            "title": "Stakeholder reporting",
+            "impact": "Created executive scorecards used by leadership team for quarterly planning"
+        },
+        {
+            "title": "Data modeling",
+            "impact": "Designed schema supporting 500M+ daily transactions with 99.9% uptime"
+        },
+    ], k=3)
+    
+    core_insights = [
+        "Asking the right questions beats writing perfect SQL",
+        "Communication is as important as technical skills",
+        "Business context matters more than tools",
+        "Data quality is the foundation of everything",
+        "Stakeholder alignment prevents wasted analysis",
+        "Performance optimization compounds over time",
     ]
     
-    # INSIGHTS/VALUE POINTS
-    insights_pool = [
-        {
-            "title": "Asking the right questions",
-            "details": "Understanding business needs comes before building"
-        },
-        {
-            "title": "Understanding business needs",
-            "details": "The context matters more than the tool"
-        },
-        {
-            "title": "Communicating insights clearly",
-            "details": "A dashboard nobody uses isn't a dashboard"
-        },
-        {
-            "title": "Data quality foundations",
-            "details": "Garbage in = garbage out, always"
-        },
-        {
-            "title": "SQL expertise",
-            "details": "Still the backbone of real analytics"
-        },
-        {
-            "title": "Translating data to business decisions",
-            "details": "That's where analysts add real value"
-        },
-    ]
+    selected_insights = random.sample(core_insights, k=3)
     
-    # POSITIONING OPTIONS
-    positioning = [
-        "With 2.5+ years of experience in SQL, Power BI & data warehousing\nI focus on solving real business problems through data",
-        "With experience in ETL, data modeling & BI tool development\nI focus on enabling data-driven decisions",
-        "Specialized in Power BI, SQL optimization & data governance\nI solve analytics problems that matter",
-        "With expertise in query optimization, data modeling & reporting\nI build analytics solutions that drive action",
-    ]
+    technical_expertise = random.choice([
+        [
+            "✅ SQL & Database Design: Complex queries, optimization, data modeling",
+            "✅ BI Tools: Power BI (DAX, Power Query), advanced dashboarding",
+            "✅ Python: Automation, ETL scripting, data manipulation",
+            "✅ Cloud Platforms: AWS, Azure, GCP data services",
+        ],
+        [
+            "✅ Data Pipeline Development: ETL/ELT, automation, cloud warehouses",
+            "✅ Dashboard Architecture: User-centric design, performance tuning",
+            "✅ Advanced Analytics: Statistical methods, forecasting, trend analysis",
+            "✅ Database Optimization: Indexing strategies, query tuning, architecture design",
+        ],
+    ])
     
-    # CTAs - Job seeking focused
-    ctas = [
-        "I'm open to Data Analyst roles 📊 (Immediate Joiner)\nWould appreciate referrals 🙏",
-        "Currently looking for Data Analyst opportunities 🎯\nLet's connect if you have an opening",
-        "Open to Data Analyst/BI Developer roles 🚀\nDrop a note if your team is hiring",
-        "Actively seeking Data Analyst positions 💼\nConnected and ready to contribute immediately",
-        "Looking for Data Analyst opportunities with growth potential 📈\nHappy to discuss roles in your organization",
-    ]
-    
-    # Build the post
-    hook = random.choice(hooks)
-    problem_item = random.choice(problems)
-    insights_selected = random.sample(insights_pool, k=random.randint(3, 5))
-    position = random.choice(positioning)
-    cta = random.choice(ctas)
-    
-    # Core hashtags
-    hashtags = "#DataAnalyst #SQL #PowerBI #Analytics #OpenToWork #Hiring #DataJobs"
-    
-    # Construct the post with proper spacing
+    # Build comprehensive post
     lines = [
-        hook,
+        random.choice(hooks),
         "",
-        problem_item["problem"],
-        problem_item["realization"],
-        "",
-        "Here's what actually matters:",
+        "Here's what I've learned:",
         "",
     ]
     
-    # Add insights as numbered points
-    for i, insight in enumerate(insights_selected, 1):
-        lines.append(f"{i}. {insight['title']}")
+    # Add insights
+    for i, insight in enumerate(selected_insights, 1):
+        lines.append(f"{i}. {insight}")
     
     lines.extend([
         "",
-        position,
+        "---",
         "",
-        cta,
+        "**💼 Concrete Achievements:**",
         "",
-        hashtags,
+    ])
+    
+    # Add achievements
+    for achievement in achievements:
+        lines.append(f"🎯 {achievement['title']}: {achievement['impact']}")
+    
+    lines.extend([
+        "",
+        "**🛠️ Technical Depth:**",
+        "",
+    ])
+    
+    # Add technical skills
+    for skill in technical_expertise:
+        lines.append(skill)
+    
+    lines.extend([
+        "",
+        "---",
+        "",
+        "**💡 Why This Matters:**",
+        "I don't just build dashboards—I solve business problems. I understand that analytics is 80% business acumen and 20% SQL.",
+        "I've consistently delivered solutions that directly impact revenue, strategy, and team efficiency.",
+        "",
+        "**📍 I'm Actively Seeking:**",
+        "Data Analyst or BI Developer roles (Remote/Hybrid preferred)",
+        "Organizations where data has a seat at the decision-making table",
+        "Team-oriented environments focused on impact, not just metrics",
+        "",
+        "**📬 Let's Connect:**",
+        "💬 Drop a comment or message me directly",
+        "📧 Ready to discuss opportunities, share portfolio work, and move quickly",
+        "#OpenToWork #DataAnalyst #BusinessIntelligence #SQL #PowerBI #DataJobs #Hiring",
     ])
     
     return "\n".join(lines)
 
 
+
 def build_referral_request_post() -> str:
-    """Build a post asking for referrals and job opportunities."""
-    hooks = [
-        "🚀 Actively seeking new opportunities in Data Analytics & BI",
-        "📊 Looking to connect with teams doing impactful data work",
-        "🔍 Open to referrals for Data Analyst/BI Developer roles",
-        "💼 Seeking data-driven organizations to join",
-        "🎯 Looking for my next challenge in analytics",
+    """Build a detailed referral request post with comprehensive value proposition for HR visibility."""
+    
+    opening = random.choice([
+        "🚀 **Now Actively Seeking:** Data Analyst / BI Developer Roles",
+        "📊 **Open to Opportunities:** Looking to join a data-driven organization",
+        "🔍 **Referrals Welcome:** Data Analytics & BI Developer positions",
+        "💼 **Seeking My Next Role:** Data Analyst / BI Engineer",
+    ])
+    
+    impact_statements = random.sample([
+        "Built 50+ Power BI dashboards reducing decision-making time by 40% for stakeholder teams",
+        "Optimized SQL queries achieving 10x faster data retrieval, improving report generation performance",
+        "Designed data models supporting 100K+ daily transactions with 99.9% uptime",
+        "Implemented ETL pipelines processing 500M+ records daily, eliminating manual data entry",
+        "Created KPI frameworks used by C-suite for strategic business planning",
+        "Reduced data warehouse costs by 35% through query optimization and indexing strategy",
+        "Led data governance implementation covering 200+ stakeholders across 5 departments",
+    ], k=3)
+    
+    core_skills = [
+        "✅ **SQL & Database Design:** Advanced query optimization, data modeling, complex joins & aggregations",
+        "✅ **BI Tools:** Power BI (DAX, Power Query), Tableau, Looker—dashboards that drive action",
+        "✅ **Data Engineering:** ETL pipelines, Python automation, cloud platforms (AWS, Azure, GCP)",
+        "✅ **Performance Tuning:** Query optimization, index strategies, warehouse architecture",
+        "✅ **Stakeholder Management:** Translating business needs into analytics solutions, executive reporting",
+        "✅ **Data Governance:** Security policies, data quality frameworks, documentation standards",
     ]
     
-    value_props = [
-        "3+ years building data pipelines, dashboards, and insights that drive business decisions",
-        "Expert in SQL, Power BI, Python, and ETL processes with a track record of optimizing performance",
-        "Passionate about turning complex data into actionable insights for stakeholders",
-        "Experienced in data modeling, KPI development, and stakeholder management",
-        "Skilled in modern BI tools and cloud data platforms (AWS, Azure, GCP)",
-    ]
+    selected_skills = random.sample(core_skills, k=4)
     
-    asks = [
-        "If you know of any opportunities or can make an introduction, I'd greatly appreciate it!",
-        "Please reach out if you hear of relevant roles or want to discuss potential fits",
-        "Open to connecting with hiring managers or teams in data/analytics",
-        "Happy to chat about how my skills could contribute to your organization",
-        "Let's connect if you're hiring or know someone who is",
-    ]
+    what_im_seeking = random.choice([
+        "🎯 **Looking for:** Roles where I can drive impact through data, work with modern tech stacks, and grow with a high-performing team",
+        "🎯 **Ideal fit:** Organizations valuing data-driven decisions, innovation, and continuous learning",
+        "🎯 **Seeking:** Environments where analytics directly influences product/business strategy",
+    ])
     
-    hashtags = [
-        "#DataAnalyst #BusinessIntelligence #PowerBI #SQL #DataScience",
-        "#Analytics #DataEngineering #BI #DataVisualization #Python",
-        "#DataAnalytics #ETL #DataModeling #Tableau #Azure",
-        "#BigData #DataWarehouse #KPI #DataGovernance #CareerOpportunity",
-    ]
+    why_hire = random.choice([
+        "💪 **Why consider me:** I combine technical depth with business acumen—I don't just build reports, I solve problems. Proven track record of delivering high-impact analytics solutions.",
+        "💪 **What I bring:** 3+ years delivering end-to-end analytics solutions from requirement gathering to production monitoring—on time, on budget, exceeding expectations.",
+        "💪 **My value:** I reduce complexity—turning messy data into clear insights. Strong collaborator who elevates team standards and mentors junior analysts.",
+    ])
     
+    # Build comprehensive post
     lines = [
-        random.choice(hooks),
+        opening,
         "",
-        random.choice(value_props),
+        "---",
         "",
-        random.choice(asks),
+        "**💡 What I've Accomplished:**",
         "",
-        "#OpenToWork",
-        random.choice(hashtags),
     ]
+    
+    # Add impact statements
+    for i, impact in enumerate(impact_statements, 1):
+        lines.append(f"{i}. {impact}")
+    
+    lines.extend([
+        "",
+        "**🛠️ Core Technical Expertise:**",
+        "",
+    ])
+    
+    # Add selected skills
+    for skill in selected_skills:
+        lines.append(skill)
+    
+    lines.extend([
+        "",
+        "---",
+        "",
+        what_im_seeking,
+        "",
+        why_hire,
+        "",
+        "---",
+        "",
+        "**📬 How to Reach Me:**",
+        "💬 Comment below or slide into my DMs",
+        "📧 Happy to send resume, portfolio, and referral details",
+        "⏱️ Available to interview immediately",
+        "",
+        "#OpenToWork #DataAnalyst #BI #SQL #PowerBI #DataCareer #HiringNow #Analytics #DataJobs #Referrals",
+    ])
     
     return "\n".join(lines)
+
 
 # Export all builders
 POST_BUILDERS = {
