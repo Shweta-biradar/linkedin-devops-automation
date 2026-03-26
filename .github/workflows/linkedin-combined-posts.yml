@@ -12,6 +12,8 @@ on:
     - cron: '0 12 * * *'
     # 6:00 PM UTC every day (Evening - 11:30 IST)
     - cron: '0 18 * * *'
+    # Optional quick-check schedule (every 15 min) for initial validation. Remove once confirmed.
+    - cron: '*/15 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -19,6 +21,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Diagnose trigger
+        run: |
+          echo "EVENT NAME: $GITHUB_EVENT_NAME"
+          echo "EVENT PATH: $GITHUB_EVENT_PATH"
+          echo "WORKFLOW REF: $GITHUB_REF"
+          echo "RUN ID: $GITHUB_RUN_ID"
+          echo "RUN NUMBER: $GITHUB_RUN_NUMBER"
+          echo "RUN ATTEMPT: $GITHUB_RUN_ATTEMPT"
+          echo "RUN CREATED AT: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
       - name: Checkout code
         uses: actions/checkout@v3
 

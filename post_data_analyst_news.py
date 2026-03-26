@@ -974,10 +974,11 @@ def get_growth_plan_content() -> Optional[Dict]:
     return idea
 
 
-def enrich_post_content(text: str, post_format: str = None) -> str:
+def enrich_post_content(text: str, post_format: str = None, topic: str = None) -> str:
     """Enhance posts to ensure detail and practical context across formats."""
     if not text:
         return text
+
     # Ensure minimum depth for all post formats
     if len(text) < 280 or len([l for l in text.splitlines() if l.strip()]) < 6:
         additional = [
@@ -988,6 +989,16 @@ def enrich_post_content(text: str, post_format: str = None) -> str:
         if "data_drift" in (post_format or ""):
             additional.insert(0, "🔍 Focus: measure drift in distribution, null ratios, and data freshness so you catch silent failures.")
         text = f"{text}\n\n---\n\n{random.choice(additional)}"
+
+    # Add contextual hashtags for topic-based items across all formats
+    if topic:
+        normalized_topic = topic.strip()
+        contextual = get_contextual_hashtags(normalized_topic, MAX_HASHTAGS)
+        if contextual:
+            # Avoid appending duplicate hashtag block
+            if contextual not in text:
+                text = f"{text}\n\n{contextual}"
+
     return text
 
 
@@ -2466,8 +2477,77 @@ def get_contextual_hashtags(topic: str, max_count: int = None) -> str:
         context_tags.extend(["#InfrastructureAsCode", "#Terraform", "#Automation"])
     elif any(keyword in topic_lower for keyword in ["incident", "outage", "reliability"]):
         context_tags.extend(["#SRE", "#IncidentResponse", "#Reliability"])
-    
+    elif any(keyword in topic_lower for keyword in ["power bi", "bi", "dashboard", "analytics", "datavisualization", "business intelligence"]):
+        context_tags.extend(["#PowerBI", "#BusinessIntelligence", "#DataAnalytics"])
+
     return get_hashtags(max_count, context_tags)
+
+
+def detect_topic_category(topic: str) -> str:
+    """Classify topic into a loose category for lesson text matching."""
+    topic_lower = (topic or "").lower()
+    if any(keyword in topic_lower for keyword in ["security", "vulnerability", "cve", "sast", "devsecops", "zero-trust"]):
+        return "security"
+    if any(keyword in topic_lower for keyword in ["kubernetes", "container", "k8s", "helm", "cloudnative"]):
+        return "infrastructure"
+    if any(keyword in topic_lower for keyword in ["observability", "monitoring", "metrics", "logs", "tracing", "sre"]):
+        return "observability"
+    if any(keyword in topic_lower for keyword in ["cloud", "aws", "gcp", "azure", "iaas", "paas", "saas"]):
+        return "cloud"
+    if any(keyword in topic_lower for keyword in ["power bi", "bi", "dashboard", "analytics", "data model", "portfolio", "datavisualization", "business intelligence"]):
+        return "analytics"
+    return "general"
+
+
+def get_lesson_texts_for_category(category: str):
+    """Return an ordered list of lessons for a given category."""
+    if category == "security":
+        return [
+            "Shift left on security. Finding vulns in prod costs 10x more.",
+            "Automated security scans in CI prevent production surprises.",
+            "Zero-trust architecture isn't optional in modern systems.",
+        ]
+    if category == "infrastructure":
+        return [
+            "Resource limits prevent noisy neighbors from killing your cluster.",
+            "Health checks are your first line of defense against cascading failures.",
+            "GitOps keeps your cluster state predictable and recoverable.",
+        ]
+    if category == "observability":
+        return [
+            "Observability isn't optional. You can't fix what you can't see.",
+            "Golden signals first: latency, traffic, errors, saturation.",
+            "Alert on symptoms, not causes. Users care about impact.",
+        ]
+    if category == "analytics":
+        return [
+            "Start every project with the business question first, not the tool features.",
+            "Keep your data model clean: star schema, consistent granularity, reusable measures.",
+            "Tell a decision story with your dashboard so each chart supports one action.",
+        ]
+    # fallback generic lessons
+    return [
+        "Automation beats heroics. Every manual step is a future incident.",
+        "Observability isn't optional. You can't fix what you can't see.",
+        "Progressive rollouts save sleep. 1% → 10% → 100%.",
+        "Blameless culture wins. Hide mistakes = repeat mistakes.",
+        "Infrastructure as code prevents configuration drift.",
+    ]
+
+
+def get_lesson_value_for_category(category: str):
+    """Return a short value statement for a given category."""
+    if category == "security":
+        return "strengthens your security posture and reduces breach risk"
+    if category == "infrastructure":
+        return "improves cluster reliability and operational efficiency"
+    if category == "observability":
+        return "enhances system visibility and incident response time"
+    if category == "cloud":
+        return "optimizes cloud costs and improves reliability"
+    if category == "analytics":
+        return "boosts analytics clarity and helps build a compelling BI project portfolio"
+    return "enhances system reliability and team productivity"
 
 
 def clip(text: str, limit: int, preserve_hashtags: bool = True) -> str:
@@ -2996,9 +3076,11 @@ def get_hashtags(count: Optional[int] = None, context_tags: Optional[List[str]] 
         return tag
     tags = [normalize_tag(t) for t in tags if t]
 
-    # Add context-specific hashtags if provided
+    # Add context-specific hashtags if provided (context tags should get priority)
     if context_tags:
-        tags.extend([normalize_tag(t) for t in context_tags if t])
+        normalized_context = [normalize_tag(t) for t in context_tags if t]
+        existing = [t for t in tags if t not in normalized_context]
+        tags = normalized_context + existing
         # Remove duplicates while preserving order
         seen = set()
         tags = [tag for tag in tags if not (tag in seen or seen.add(tag))]
@@ -3011,9 +3093,25 @@ def get_hashtags(count: Optional[int] = None, context_tags: Optional[List[str]] 
     if max_count > len(tags):
         max_count = len(tags)
 
-    # Rotate or shuffle for variety
+    # Rotate or shuffle for variety, but keep context tags prioritized.
+    if context_tags:
+        # Preserve context tags and remove duplicates from the remainder list
+        context_normalized = [normalize_tag(t) for t in context_tags if t]
+        remaining = [t for t in tags if t not in context_normalized]
+        tags = context_normalized + remaining
+
     if ROTATE_HASHTAGS and len(tags) > max_count:
-        selected = random.sample(tags, max_count)
+        if context_tags:
+            # Always include context tags in output (up to max_count)
+            context_set = [t for t in tags if t in context_normalized]
+            remaining = [t for t in tags if t not in context_set]
+            picks_needed = max_count - len(context_set)
+            if picks_needed <= 0:
+                selected = context_set[:max_count]
+            else:
+                selected = context_set + random.sample(remaining, picks_needed)
+        else:
+            selected = random.sample(tags, max_count)
     else:
         selected = tags[:max_count]
 
@@ -3122,6 +3220,8 @@ def get_contextual_hashtags(topic: str, max_count: int = None) -> str:
         context_tags.extend(["#InfrastructureAsCode", "#Terraform", "#Automation"])
     elif any(keyword in topic_lower for keyword in ["incident", "outage", "reliability"]):
         context_tags.extend(["#SRE", "#IncidentResponse", "#Reliability"])
+    elif any(keyword in topic_lower for keyword in ["power bi", "bi", "dashboard", "analytics", "datavisualization", "business intelligence"]):
+        context_tags.extend(["#PowerBI", "#BusinessIntelligence", "#DataAnalytics"])
     
     return get_hashtags(max_count, context_tags)
 
@@ -4118,7 +4218,11 @@ def build_post(items, post_format: Optional[str] = None):
             # Final fallback to quick tip
             post_text = build_quick_tip_post()
 
-    return enrich_post_content(post_text, post_format)
+    post_topic = None
+    if items:
+        first = items[0]
+        post_topic = remix_title(first.get("title", "")) if isinstance(first, dict) and first.get("title") else None
+    return enrich_post_content(post_text, post_format, topic=post_topic)
 def build_quick_tip_post() -> str:
     """Build a short-form quick tip post."""
     global _USED_INTRO_LINES, _USED_SUBHEADER_LINES, _USED_FOOTER_QUESTIONS
@@ -4228,47 +4332,19 @@ def build_lessons_post(items) -> str:
         snippet = summarize_snippet(item.get("summary", ""))
         value = ai_generate_value_line(item["title"], snippet).replace("Why it matters: ", "")
         if not value or len(value) < 15 or "practical signal" in value:
-            topic_lower = topic.lower()
-            if any(keyword in topic_lower for keyword in ["security", "vulnerability", "cve"]):
-                value = "strengthens your security posture and reduces breach risk"
-            elif any(keyword in topic_lower for keyword in ["kubernetes", "container", "k8s"]):
-                value = "improves cluster reliability and operational efficiency"
-            elif any(keyword in topic_lower for keyword in ["observability", "monitoring", "metrics"]):
-                value = "enhances system visibility and incident response time"
-            elif any(keyword in topic_lower for keyword in ["cloud", "aws", "gcp", "azure"]):
-                value = "optimizes cloud costs and improves reliability"
-            else:
-                value = "enhances system reliability and team productivity"
+            category = detect_topic_category(topic)
+            value = get_lesson_value_for_category(category)
     else:
         topic = "Data & Analytics reliability patterns"
         snippet = "Automate what you can, document what you can't."
-        value = "reduces cognitive load and improves consistency"
-    if items and any(keyword in topic.lower() for keyword in ["security", "vulnerability", "cve", "sast"]):
-        lesson_texts = [
-            "Shift left on security. Finding vulns in prod costs 10x more.",
-            "Automated security scans in CI prevent production surprises.",
-            "Zero-trust architecture isn't optional in modern systems.",
-        ]
-    elif items and any(keyword in topic.lower() for keyword in ["kubernetes", "container", "k8s", "helm"]):
-        lesson_texts = [
-            "Resource limits prevent noisy neighbors from killing your cluster.",
-            "Health checks are your first line of defense against cascading failures.", 
-            "GitOps keeps your cluster state predictable and recoverable.",
-        ]
-    elif items and any(keyword in topic.lower() for keyword in ["monitoring", "observability", "metrics", "logs"]):
-        lesson_texts = [
-            "Observability isn't optional. You can't fix what you can't see.",
-            "Golden signals first: latency, traffic, errors, saturation.",
-            "Alert on symptoms, not causes. Users care about impact.",
-        ]
-    else:
-        lesson_texts = [
-            "Automation beats heroics. Every manual step is a future incident.",
-            "Observability isn't optional. You can't fix what you can't see.", 
-            "Progressive rollouts save sleep. 1% → 10% → 100%.",
-            "Blameless culture wins. Hide mistakes = repeat mistakes.",
-            "Infrastructure as code prevents configuration drift.",
-        ]
+        category = "general"
+        value = get_lesson_value_for_category(category)
+
+    if not items:
+        topic = "Data & Analytics reliability patterns"
+
+    category = detect_topic_category(topic)
+    lesson_texts = get_lesson_texts_for_category(category)
     random.shuffle(lesson_texts)
     lessons = [f"{numbers[i]} {lesson_texts[i]}" for i in range(min(3, len(lesson_texts)))]
     lines = [hook, persona_line, ""]
