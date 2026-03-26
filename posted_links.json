@@ -787,9 +787,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442803451132194816",
-    "last_posted_at_utc": "2026-03-26T05:23:44.006563+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7442838722234097665",
+    "last_posted_at_utc": "2026-03-26T07:43:52.836649+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "Data drift: The silent killer of analytics",
@@ -980,6 +980,12 @@
       {
         "title": "15 Power BI Project Ideas to Build Your Portfolio in 2026",
         "date": "2026-03-26T05:23:44.006451+00:00",
+        "hash_strict": "69161c4dc89c",
+        "hash_medium": "10f63545e685"
+      },
+      {
+        "title": "15 Power BI Project Ideas to Build Your Portfolio in 2026",
+        "date": "2026-03-26T07:43:52.836553+00:00",
         "hash_strict": "69161c4dc89c",
         "hash_medium": "10f63545e685"
       }
