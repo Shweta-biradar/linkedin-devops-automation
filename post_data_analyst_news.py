@@ -7,7 +7,7 @@ _USED_FOOTER_QUESTIONS = []
 # --- Default config for missing variables ---
 import os
 
-ENABLE_AI_ENHANCE = False
+ENABLE_AI_ENHANCE = True
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 FREE_AI_PROVIDERS = {}
 AI_SUMMARIZATION_MODELS = []
@@ -863,7 +863,7 @@ INCLUDE_PERSONA = os.environ.get("INCLUDE_PERSONA", "true").lower() == "true"
 # Post formats
 # UPDATED: Now includes expert Data Analyst post types + HIRING PITCH for recruitment visibility
 # hiring_pitch appears multiple times to increase posting frequency (aim for 2x daily)
-POST_FORMATS_STR = os.environ.get("POST_FORMATS", "hiring_pitch,sql_tip,power_bi_insight,hiring_pitch,data_modeling_lesson,etl_challenge,query_optimization,hiring_pitch,kpi_strategy,tool_comparison,data_governance,digest,deep_dive,quick_tip,hiring_pitch,case_study,hot_take,lessons,data_drift_insight,bold_prediction,contrarian_take,framework,myth_busting,this_or_that")
+POST_FORMATS_STR = os.environ.get("POST_FORMATS", "referral_request,hiring_pitch,sql_tip,power_bi_insight,hiring_pitch,data_modeling_lesson,etl_challenge,query_optimization,hiring_pitch,kpi_strategy,tool_comparison,data_governance,digest,deep_dive,quick_tip,hiring_pitch,case_study,hot_take,lessons,data_drift_insight,bold_prediction,contrarian_take,framework,myth_busting,this_or_that,referral_request")
 AVAILABLE_POST_FORMATS = [f.strip() for f in POST_FORMATS_STR.split(",") if f.strip()]
 FORCE_FORMAT = os.environ.get("FORCE_FORMAT", "auto")  # auto, or specific format name
 CUSTOM_MESSAGE = os.environ.get("CUSTOM_MESSAGE", "")  # Override with custom message
@@ -4103,6 +4103,8 @@ def build_post(items, post_format: Optional[str] = None):
         # ===== RECRUITMENT/HIRING PITCH =====
         elif post_format == "hiring_pitch":
             post_text = build_hiring_pitch_post()
+        elif post_format == "referral_request":
+            post_text = build_referral_request_post()
         else:
             post_text = build_digest_post(items)
     except Exception as e:

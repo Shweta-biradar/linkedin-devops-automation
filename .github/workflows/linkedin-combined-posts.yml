@@ -1,0 +1,70 @@
+name: LinkedIn Combined Posts - Hiring & Referrals (Three Times Daily)
+
+# Posts both hiring pitches and referral requests three times daily
+# Morning: 9 AM UTC (03:30 IST) - Midday: 12 PM UTC (05:30 IST) - Evening: 6 PM UTC (11:30 IST)
+# Each run: 1 Hiring Pitch + 1 Referral Request (30s apart)
+
+on:
+  schedule:
+    # 9:00 AM UTC every day (Morning - 03:30 IST)
+    - cron: '0 9 * * *'
+    # 12:00 PM UTC every day (Midday - 05:30 IST)
+    - cron: '0 12 * * *'
+    # 6:00 PM UTC every day (Evening - 11:30 IST)
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  post-combined-content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Post Hiring Pitch
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_MEMBER_ID: ${{ secrets.LINKEDIN_MEMBER_ID }}
+          FORCE_FORMAT: hiring_pitch
+          DRY_RUN: false
+          ENABLE_AI_ENHANCE: true
+        run: |
+          echo "🚀 Posting hiring pitch..."
+          python post_data_analyst_news.py
+
+      - name: Wait between posts
+        run: |
+          echo "⏱️ Waiting 30 seconds between posts to avoid rate limits..."
+          sleep 30
+
+      - name: Post Referral Request
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_MEMBER_ID: ${{ secrets.LINKEDIN_MEMBER_ID }}
+          FORCE_FORMAT: referral_request
+          DRY_RUN: false
+          ENABLE_AI_ENHANCE: true
+        run: |
+          echo "🔍 Posting referral request..."
+          python post_data_analyst_news.py
+
+      - name: Save success log
+        if: success()
+        run: |
+          echo "✅ Combined posts (hiring + referral) completed successfully at $(date)" >> /tmp/linkedin_success.log
+
+      - name: Save failure log
+        if: failure()
+        run: |
+          echo "❌ Combined posts failed at $(date)" >> /tmp/linkedin_errors.log

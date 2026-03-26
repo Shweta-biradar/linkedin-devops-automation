@@ -926,6 +926,52 @@ def build_hiring_pitch_post() -> str:
     return "\n".join(lines)
 
 
+def build_referral_request_post() -> str:
+    """Build a post asking for referrals and job opportunities."""
+    hooks = [
+        "🚀 Actively seeking new opportunities in Data Analytics & BI",
+        "📊 Looking to connect with teams doing impactful data work",
+        "🔍 Open to referrals for Data Analyst/BI Developer roles",
+        "💼 Seeking data-driven organizations to join",
+        "🎯 Looking for my next challenge in analytics",
+    ]
+    
+    value_props = [
+        "3+ years building data pipelines, dashboards, and insights that drive business decisions",
+        "Expert in SQL, Power BI, Python, and ETL processes with a track record of optimizing performance",
+        "Passionate about turning complex data into actionable insights for stakeholders",
+        "Experienced in data modeling, KPI development, and stakeholder management",
+        "Skilled in modern BI tools and cloud data platforms (AWS, Azure, GCP)",
+    ]
+    
+    asks = [
+        "If you know of any opportunities or can make an introduction, I'd greatly appreciate it!",
+        "Please reach out if you hear of relevant roles or want to discuss potential fits",
+        "Open to connecting with hiring managers or teams in data/analytics",
+        "Happy to chat about how my skills could contribute to your organization",
+        "Let's connect if you're hiring or know someone who is",
+    ]
+    
+    hashtags = [
+        "#DataAnalyst #BusinessIntelligence #PowerBI #SQL #DataScience",
+        "#Analytics #DataEngineering #BI #DataVisualization #Python",
+        "#DataAnalytics #ETL #DataModeling #Tableau #Azure",
+        "#BigData #DataWarehouse #KPI #DataGovernance #CareerOpportunity",
+    ]
+    
+    lines = [
+        random.choice(hooks),
+        "",
+        random.choice(value_props),
+        "",
+        random.choice(asks),
+        "",
+        "#OpenToWork",
+        random.choice(hashtags),
+    ]
+    
+    return "\n".join(lines)
+
 # Export all builders
 POST_BUILDERS = {
     "personal_story": build_personal_story_post,
@@ -951,6 +997,7 @@ POST_BUILDERS = {
     "data_governance": build_data_governance_post,
     "tool_comparison": build_tool_comparison_post,
     "hiring_pitch": build_hiring_pitch_post,
+    "referral_request": build_referral_request_post,
 }
 
 print(f"✅ Post builders ready: {len(POST_BUILDERS)} data-focused formats loaded")

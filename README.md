@@ -928,23 +928,47 @@ cd linkedin-devops-automation
 ### 📊 Workflow Schedule Configuration
 
 **Current Default Schedule (IST - Indian Standard Time):**
-| Time | Days | Purpose | UTC Equivalent |
-|------|------|---------|----------------|
-| 9 AM IST | Monday-Friday | Morning posting | 03:30 UTC |
-| 5 PM IST | Monday-Friday | Evening engagement | 11:30 UTC |
-| 12 PM IST | Saturday-Sunday | Weekend engagement | 06:30 UTC |
+| Time | Days | Purpose | UTC Equivalent | Workflow File |
+|------|------|---------|----------------|---------------|
+| 9 AM IST | Daily | Combined Posts (Hiring + Referral) | 03:30 UTC | `linkedin-combined-posts.yml` |
+| 2:30 PM IST | Daily | Combined Posts (Hiring + Referral) | 09:00 UTC | `linkedin-combined-posts.yml` |
+| 6 PM IST | Daily | Combined Posts (Hiring + Referral) | 11:30 UTC | `linkedin-combined-posts.yml` |
+| 9 AM IST | Monday-Friday | Growth & Engagement | 03:30 UTC | `linkedin_growth_automation.yml` |
+| 5 PM IST | Monday-Friday | Growth & Engagement | 11:30 UTC | `linkedin_growth_automation.yml` |
+| 12 PM IST | Saturday-Sunday | Growth & Engagement | 06:30 UTC | `linkedin_growth_automation.yml` |
+
+**Combined Posts Workflow:**
+- `linkedin-combined-posts.yml` - Posts both hiring pitch and referral request
+- Runs three times daily: 9 AM IST (03:30 UTC), 2:30 PM IST (09:00 UTC), and 6 PM IST (11:30 UTC)
+- Each run posts: 1 hiring pitch + 1 referral request (with 30s delay between)
+- Uses AI enhancement for both post types
 
 **IST to UTC Conversion:**
 - IST (Indian Standard Time) = UTC + 5:30
 - 9 AM IST = 03:30 UTC
 - 12 PM IST = 06:30 UTC
+- 2:30 PM IST = 09:00 UTC
 - 5 PM IST = 11:30 UTC
+- 6 PM IST = 11:30 UTC
 
 **Current Cron Configuration:**
 
-Edit `.github/workflows/linkedin_growth_automation.yml`:
-
+**Combined Posts Workflow:**
 ```yaml
+# linkedin-combined-posts.yml
+on:
+  schedule:
+    # 9:00 AM UTC every day (03:30 IST - Morning)
+    - cron: '0 9 * * *'
+    # 12:00 PM UTC every day (05:30 IST - Midday)
+    - cron: '0 12 * * *'
+    # 6:00 PM UTC every day (11:30 IST - Evening)
+    - cron: '0 18 * * *'
+```
+
+**Growth Automation Workflow:**
+```yaml
+# linkedin_growth_automation.yml
 on:
   schedule:
     # ⚠️ GitHub Actions uses UTC time! IST = UTC+5:30
