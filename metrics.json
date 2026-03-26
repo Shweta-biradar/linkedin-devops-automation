@@ -1,9 +1,9 @@
 {
-  "total_posts": 212,
-  "posts_today": 1,
+  "total_posts": 213,
+  "posts_today": 2,
   "last_post_date": "2026-03-26",
   "formats_used": {
-    "case_study": 10,
+    "case_study": 11,
     "deep_dive": 5,
     "lessons": 10,
     "digest": 177,
@@ -47,20 +47,10 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 1,
-    "www.dataquest.io": 4
+    "www.dataquest.io": 5
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-24",
-      "time": "2026-02-24T12:01:19.033210+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com",
-        "stackoverflow.blog",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-25",
       "time": "2026-02-25T05:14:10.300898+00:00",
@@ -989,14 +979,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-26",
+      "time": "2026-03-26T05:23:44.008052+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 185,
-  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nEngineering visionaries spotlight what matters most this week.\n\nCollaboration wins:\n1. Vibe Coding a Private AI Financial Analyst with Python and Local LLMs\nContext: Learn to build an AI data analyst with Python: analyzes data, detects anomalies, and generates predictions using local LLMs.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms\n\n2. Building Declarative Data Pipelines with Snowflake Dynamic Tables: A Workshop Deep Dive\nContext: Traditional data pipeline development often requires extensive procedural code to define how data should be transformed and moved between stages.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive\n\n3. Following Up on Like-for-Like for Stores: Handling PY\nContext: My last article was about implementing Like-for-Like (L4L) for Stores. After discussing my solution with my peers and clients, I encountered an interesting issue that brought...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
-  "last_post_format": "digest",
+  "posts_created": 186,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nPlatform architects surface key case studies.\n\n\ud83d\udccc 15 Power BI Project Ideas to Build Your Portfolio in 2026\n\nThe situation:\n\u21b3 ...\nBuilding a Power BI portfolio of projects is one of the most direct paths into a business analyst or data analyst role. Employers want evidence that you can take messy data, build a clean model, and produce a dashboard that actually helps someone make a decision. Projects give you that evidence. This post covers 15 [&#8230;]\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Cardinality explosion will kill your monitoring budget\n\u2192 Step 2: Metrics without context are just numbers - add business meaning\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you prevent alert fatigue in your team?\n\n#Reporting #DataVisualization #Python #Statistics #SAPHANA #Databricks #Insights\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udcd6 https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com"
+    "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-03-26T04:24:11.614769+00:00"
+  "last_post_timestamp": "2026-03-26T05:23:44.009065+00:00"
 }
