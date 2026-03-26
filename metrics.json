@@ -1,12 +1,12 @@
 {
-  "total_posts": 211,
-  "posts_today": 3,
-  "last_post_date": "2026-03-25",
+  "total_posts": 212,
+  "posts_today": 1,
+  "last_post_date": "2026-03-26",
   "formats_used": {
     "case_study": 10,
     "deep_dive": 5,
     "lessons": 10,
-    "digest": 176,
+    "digest": 177,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 153,
+    "towardsdatascience.com": 155,
     "www.snowflake.com": 63,
-    "kdnuggets.com": 37,
+    "kdnuggets.com": 39,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -51,18 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-24",
-      "time": "2026-02-24T07:35:25.287000+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-24",
       "time": "2026-02-24T12:01:19.033210+00:00",
@@ -990,15 +978,25 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-26",
+      "time": "2026-03-26T04:24:11.613809+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com",
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 184,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nGlobal tech trends:\n1. Automatically scale storage for Amazon RDS Multi-AZ DB clusters using AWS Lambda\nContext: In this post, we walk you through building an automated storage scaling solution for Amazon RDS Multi-AZ clusters with two readable standbys.\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/\n\n2. 5 Useful DIY Python Functions for Error Handling\nContext: Debugging Python doesn\u2019t need to be complicated. These 5 DIY functions simplify error handling and improve code reliability.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-useful-diy-python-functions-for-error-handling\n\n3. Building Human-In-The-Loop Agentic Workflows\nContext: Understanding how to set up human-in-the-loop (HITL) agentic workflows in LangGraph The post Building Human-In-The-Loop Agentic Workflows appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/building-human-in-the-loop-agentic-workflows/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
+  "posts_created": 185,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nEngineering visionaries spotlight what matters most this week.\n\nCollaboration wins:\n1. Vibe Coding a Private AI Financial Analyst with Python and Local LLMs\nContext: Learn to build an AI data analyst with Python: analyzes data, detects anomalies, and generates predictions using local LLMs.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms\n\n2. Building Declarative Data Pipelines with Snowflake Dynamic Tables: A Workshop Deep Dive\nContext: Traditional data pipeline development often requires extensive procedural code to define how data should be transformed and moved between stages.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive\n\n3. Following Up on Like-for-Like for Stores: Handling PY\nContext: My last article was about implementing Like-for-Like (L4L) for Stores. After discussing my solution with my peers and clients, I encountered an interesting issue that brought...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
     "towardsdatascience.com",
-    "aws.amazon.com"
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-03-25T12:03:48.174457+00:00"
+  "last_post_timestamp": "2026-03-26T04:24:11.614769+00:00"
 }

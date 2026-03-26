@@ -351,6 +351,7 @@
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
+    "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
@@ -431,6 +432,7 @@
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/",
+    "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-5/",
     "https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/",
     "https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/",
     "https://towardsdatascience.com/the-new-experience-of-coding-with-ai/",
@@ -562,6 +564,7 @@
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
     "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
     "https://www.kdnuggets.com/analytics-patterns-every-data-scientist-should-master",
+    "https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive",
     "https://www.kdnuggets.com/building-practical-mlops-for-a-personal-ml-project",
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
@@ -579,6 +582,7 @@
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
     "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
     "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
+    "https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms",
     "https://www.kdnuggets.com/working-with-billion-row-datasets-in-python-using-vaex",
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
@@ -783,8 +787,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442541745797672960",
-    "last_posted_at_utc": "2026-03-25T12:03:48.172116+00:00",
+    "last_post_id": "urn:li:share:7442788469111726082",
+    "last_posted_at_utc": "2026-03-26T04:24:11.612449+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -948,6 +952,30 @@
         "date": "2026-03-25T12:03:48.172084+00:00",
         "hash_strict": "def1df1ae22b",
         "hash_medium": "ff24d75ce091"
+      },
+      {
+        "title": "Vibe Coding a Private AI Financial Analyst with Python and Local LLMs",
+        "date": "2026-03-26T04:24:11.612212+00:00",
+        "hash_strict": "9d1fec8336b4",
+        "hash_medium": "c268558f8457"
+      },
+      {
+        "title": "Building Declarative Data Pipelines with Snowflake Dynamic Tables: A Workshop Deep Dive",
+        "date": "2026-03-26T04:24:11.612344+00:00",
+        "hash_strict": "28d95dbf0e2c",
+        "hash_medium": "fd7473199487"
+      },
+      {
+        "title": "Following Up on Like-for-Like for Stores: Handling PY",
+        "date": "2026-03-26T04:24:11.612394+00:00",
+        "hash_strict": "cff19b52e781",
+        "hash_medium": "b1bb26237c44"
+      },
+      {
+        "title": "The Machine Learning Lessons I\u2019ve Learned This Month",
+        "date": "2026-03-26T04:24:11.612420+00:00",
+        "hash_strict": "8f3795421a9e",
+        "hash_medium": "71397fdaad96"
       }
     ]
   }
