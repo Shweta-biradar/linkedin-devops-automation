@@ -1,12 +1,12 @@
 {
-  "total_posts": 214,
-  "posts_today": 3,
+  "total_posts": 215,
+  "posts_today": 4,
   "last_post_date": "2026-03-26",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 5,
     "lessons": 11,
-    "digest": 177,
+    "digest": 178,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,30 +40,17 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 155,
+    "towardsdatascience.com": 157,
     "www.snowflake.com": 63,
     "kdnuggets.com": 39,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
-    "www.dbt.com": 1,
+    "www.dbt.com": 2,
     "www.dataquest.io": 6
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-25",
-      "time": "2026-02-25T07:35:30.365894+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "github.blog",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-25",
       "time": "2026-02-25T12:00:56.814408+00:00",
@@ -982,13 +969,24 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-03-26",
+      "time": "2026-03-26T12:08:49.304308+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dbt.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 187,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nAnalytics experts reveal what sticks.\n\nTopic: 15 Power BI Project Ideas to Build Your Portfolio in 2026\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Automation #DBT #CloudData #BusinessIntelligence #SSRS #SSAS #AdvancedAnalytics\n\n\u2753 Which lesson resonates most with your team?",
-  "last_post_format": "lessons",
+  "posts_created": 188,
+  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nPlatform architects surface actionable insights for resilient systems.\n\nGlobal tech trends:\n1. Beyond Code Generation: AI for the Full Data Science Workflow\nContext: Using Codex and MCP to connect Google Drive, GitHub, BigQuery, and analysis in one real workflow The post Beyond Code Generation: AI for the Full Data Science Workflow appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/\n\n2. What the Bits-over-Random Metric Changed in How I Think About RAG and Agents\nContext: Why retrieval that looks excellent on paper can still behave like noise in real RAG and agent workflows The post What the Bits-over-Random Metric Changed in How I Think About...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/\n\n3. Introducing the dbt Community Champions Program\nContext: Building the future of analytics engineering, together.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?\n\n#Oracle #Databricks #DataVisualization #Analytics #Automation #Redshift #Qlik",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "www.dataquest.io"
+    "towardsdatascience.com",
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-03-26T07:43:52.839250+00:00"
+  "last_post_timestamp": "2026-03-26T12:08:49.305277+00:00"
 }

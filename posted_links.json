@@ -323,6 +323,7 @@
     "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/",
+    "https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/",
     "https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
@@ -449,6 +450,7 @@
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
+    "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
@@ -512,6 +514,7 @@
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
+    "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
     "https://www.infoq.com/articles/evolution-backend-streaming-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -787,9 +790,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442838722234097665",
-    "last_posted_at_utc": "2026-03-26T07:43:52.836649+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7442905395377127424",
+    "last_posted_at_utc": "2026-03-26T12:08:49.302966+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "Data drift: The silent killer of analytics",
@@ -988,6 +991,24 @@
         "date": "2026-03-26T07:43:52.836553+00:00",
         "hash_strict": "69161c4dc89c",
         "hash_medium": "10f63545e685"
+      },
+      {
+        "title": "Introducing the dbt Community Champions Program",
+        "date": "2026-03-26T12:08:49.302775+00:00",
+        "hash_strict": "1a4f2aed66f6",
+        "hash_medium": "f9739c7f233e"
+      },
+      {
+        "title": "Beyond Code Generation: AI for the Full Data Science\u00a0Workflow",
+        "date": "2026-03-26T12:08:49.302891+00:00",
+        "hash_strict": "dd7f6ddbdd9a",
+        "hash_medium": "e7514bd6dd24"
+      },
+      {
+        "title": "What the Bits-over-Random Metric Changed in How I Think About RAG and Agents",
+        "date": "2026-03-26T12:08:49.302935+00:00",
+        "hash_strict": "dbd0f0b2a2df",
+        "hash_medium": "f99beaad663d"
       }
     ]
   }
