@@ -57,6 +57,7 @@ from identity_post_builders import (
     build_before_after_post,
     build_career_journey_post,
     build_hiring_pitch_post,
+    build_referral_request_post,
 )
 
 # Import fcntl for Unix systems only
@@ -4849,8 +4850,14 @@ def main():
         post_format = "custom"
         new_items = []
     else:
-        # Check for growth plan content (AI-generated thought leadership)
-        growth_idea = get_growth_plan_content()
+        # FORCE_FORMAT should override growth plan selection
+        if FORCE_FORMAT and FORCE_FORMAT != "auto":
+            logger.info(f"FORCE_FORMAT is set to '{FORCE_FORMAT}', skipping growth plan selection")
+            growth_idea = None
+        else:
+            # Check for growth plan content (AI-generated thought leadership)
+            growth_idea = get_growth_plan_content()
+
         if growth_idea:
             logger.info("🚀 Using growth plan content (AI-generated thought leadership)")
             try:
@@ -4895,15 +4902,15 @@ def main():
                 post_text = build_post(new_items, post_format)
             except Exception as e:
                 logger.error(f"Post generation failed: {e}")
-            # Fallback to simple digest
-            try:
-                post_format = "digest"
-                post_text = build_digest_post(new_items[:3])  # Use fewer items for safety
-                logger.warning("Using fallback digest format")
-            except Exception as e2:
-                logger.error(f"Fallback post generation also failed: {e2}")
-                notify(f"LinkedIn bot FAILED: Post generation error - {e}", is_error=True)
-                return
+                # Fallback to simple digest only when initial post generation fails
+                try:
+                    post_format = "digest"
+                    post_text = build_digest_post(new_items[:3])  # Use fewer items for safety
+                    logger.warning("Using fallback digest format")
+                except Exception as e2:
+                    logger.error(f"Fallback post generation also failed: {e2}")
+                    notify(f"LinkedIn bot FAILED: Post generation error - {e}", is_error=True)
+                    return
     
     logger.info(f"\n📝 Generated post ({len(post_text)} chars):")
     logger.info("-"*50)
