@@ -1,10 +1,10 @@
 {
-  "total_posts": 217,
-  "posts_today": 2,
+  "total_posts": 218,
+  "posts_today": 3,
   "last_post_date": "2026-03-27",
   "formats_used": {
     "case_study": 11,
-    "deep_dive": 5,
+    "deep_dive": 6,
     "lessons": 11,
     "digest": 180,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 157,
+    "towardsdatascience.com": 158,
     "www.snowflake.com": 66,
     "kdnuggets.com": 41,
     "techcrunch.com": 6,
@@ -51,14 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-26",
-      "time": "2026-02-26T07:33:58.882727+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-02-26",
       "time": "2026-02-26T12:01:37.200989+00:00",
@@ -979,13 +971,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-27",
+      "time": "2026-03-27T12:04:03.482998+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 190,
-  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nWhat caught our attention:\n1. Introducing enhancements to Amazon EMR Managed Scaling\nContext: In this post, we discuss the benefits of Advanced Scaling for Amazon EMR and demonstrate how it works through some example scenarios.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/introducing-enhancements-to-amazon-emr-managed-scaling/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?\n\n#SSAS #DBT #BusinessIntelligence #Reporting #CloudData #BITools #MLOps",
-  "last_post_format": "digest",
+  "posts_created": 191,
+  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Deep dive: How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations\n\n...\nA warehouse picking operation is the process of collecting items from storage locations to fulfil customer orders. It is one of the most labour-intensive activities in logistics, accounting for up to&#160;55% of total warehouse operating costs. For each order, an operator receives a list of items to collect from their storage locations. They walk to [&#8230;] The post How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations appeared first on Towards Data Science .\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nHow do you keep learning while managing operational load?\n\n#Insights #SSIS #BigQuery #Dashboard #BITools #Databricks #Looker\n\n\u2753 What would you add to this deep dive?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/\n\n#ETL #Databricks #SQL #Automation #Redshift #Dashboard #BITools",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-27T07:43:58.579107+00:00"
+  "last_post_timestamp": "2026-03-27T12:04:03.483930+00:00"
 }

@@ -360,6 +360,7 @@
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
     "https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/",
+    "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
@@ -797,9 +798,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7443201134191820800",
-    "last_posted_at_utc": "2026-03-27T07:43:58.576911+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7443266585777131520",
+    "last_posted_at_utc": "2026-03-27T12:04:03.481559+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "Data drift: The silent killer of analytics",
@@ -1058,6 +1059,12 @@
         "date": "2026-03-27T07:43:58.576822+00:00",
         "hash_strict": "3e0701046bd5",
         "hash_medium": "7030b1e4f460"
+      },
+      {
+        "title": "How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations",
+        "date": "2026-03-27T12:04:03.481444+00:00",
+        "hash_strict": "f0daecf443f9",
+        "hash_medium": "1c8aeef3ab3b"
       }
     ]
   }
