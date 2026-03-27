@@ -1,12 +1,12 @@
 {
-  "total_posts": 215,
-  "posts_today": 4,
-  "last_post_date": "2026-03-26",
+  "total_posts": 216,
+  "posts_today": 1,
+  "last_post_date": "2026-03-27",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 5,
     "lessons": 11,
-    "digest": 178,
+    "digest": 179,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 43,
+    "aws.amazon.com": 44,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -41,8 +41,8 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 157,
-    "www.snowflake.com": 63,
-    "kdnuggets.com": 39,
+    "www.snowflake.com": 66,
+    "kdnuggets.com": 41,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -51,14 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-25",
-      "time": "2026-02-25T12:00:56.814408+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-26",
       "time": "2026-02-26T05:11:07.043441+00:00",
@@ -979,14 +971,28 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-27",
+      "time": "2026-03-27T05:26:43.894834+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "kdnuggets.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 188,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nPlatform architects surface actionable insights for resilient systems.\n\nGlobal tech trends:\n1. Beyond Code Generation: AI for the Full Data Science Workflow\nContext: Using Codex and MCP to connect Google Drive, GitHub, BigQuery, and analysis in one real workflow The post Beyond Code Generation: AI for the Full Data Science Workflow appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/\n\n2. What the Bits-over-Random Metric Changed in How I Think About RAG and Agents\nContext: Why retrieval that looks excellent on paper can still behave like noise in real RAG and agent workflows The post What the Bits-over-Random Metric Changed in How I Think About...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/\n\n3. Introducing the dbt Community Champions Program\nContext: Building the future of analytics engineering, together.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?\n\n#Oracle #Databricks #DataVisualization #Analytics #Automation #Redshift #Qlik",
+  "posts_created": 189,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nCloud pioneers highlight key developments for practitioners.\n\nLeadership lessons:\n1. Build AWS Glue Data Quality pipeline using Terraform\nContext: AWS Glue Data Quality is a feature of AWS Glue that helps maintain trust in your data and support better decision-making and analytics across your organization.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/\n\n2. Cortex Code Updates: Faster AI Data Engineering on Snowflake\nContext: Discover Cortex Code updates: GA in Snowsight, Windows CLI support, agent teams, and new skills to build, automate, and scale data workflows faster.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-snowsight\n\n3. Agentic ML in Snowflake: Automate Predictive Insights Faster\nContext: Discover agentic ML in Snowflake with Cortex Code. Automate model development, speed up workflows and deliver predictive insights faster with AI-driven pipelines.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights\n\n4. Getting Started with Smolagents: Build Your First Code Agent in 15 Minutes\nContext: Build an AI weather agent in 40 lines of Python using Hugging Face's smolagents library. Learn to create tools, connect LLMs, and run autonomous tasks.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes\n\n5. 10 GitHub Repositories to Master OpenClaw\nContext: Learn OpenClaw by exploring key GitHub repositories covering agents, skills, automation, memory systems, and deployment tools.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/10-github-repositories-to-master-openclaw\n\n6. Next-Gen Data Engineering: 6 Snowflake Features Transforming How You Build\nContext: Explore 6 Snowflake features like Dynamic Tables and Cortex Code that automate pipelines, boost productivity, and transform modern data engineering workflows.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/next-gen-data-engineering-snowflake-features\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#Cloud #CloudArchitecture #CloudNative #BITools #SSIS #Alteryx #DBT",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.dbt.com"
+    "aws.amazon.com",
+    "www.snowflake.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-03-26T12:08:49.305277+00:00"
+  "last_post_timestamp": "2026-03-27T05:26:43.895829+00:00"
 }

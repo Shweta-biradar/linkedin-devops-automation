@@ -11,6 +11,7 @@
     "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
     "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/designing-centralized-and-distributed-network-connectivity-patterns-for-amazon-opensearch-serverless-part-1/",
@@ -549,6 +550,7 @@
     "https://www.infoq.com/presentations/devops-product-engineers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/hierarchical-team/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/llm-ai-africa/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "https://www.kdnuggets.com/10-github-repositories-to-master-openclaw",
     "https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
     "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
@@ -575,6 +577,7 @@
     "https://www.kdnuggets.com/fastmcp-the-pythonic-way-to-build-mcp-servers-and-clients",
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/getting-started-with-python-async-programming",
+    "https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes",
     "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
@@ -594,6 +597,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agent-context-layer-trustworthy-data-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
@@ -605,6 +609,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-snowsight",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
@@ -615,6 +620,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/next-gen-data-engineering-snowflake-features",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/observe-acquisition-ai-powered-observability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/pliable-ai-analytics-smbs",
@@ -790,8 +796,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7442905395377127424",
-    "last_posted_at_utc": "2026-03-26T12:08:49.302966+00:00",
+    "last_post_id": "urn:li:share:7443166594991788032",
+    "last_posted_at_utc": "2026-03-27T05:26:43.893509+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -1009,6 +1015,42 @@
         "date": "2026-03-26T12:08:49.302935+00:00",
         "hash_strict": "dbd0f0b2a2df",
         "hash_medium": "f99beaad663d"
+      },
+      {
+        "title": "Agentic ML in Snowflake: Automate Predictive Insights Faster",
+        "date": "2026-03-27T05:26:43.893190+00:00",
+        "hash_strict": "e27d872ac8ec",
+        "hash_medium": "4bcfe2b32ec5"
+      },
+      {
+        "title": "Build AWS Glue Data Quality pipeline using Terraform",
+        "date": "2026-03-27T05:26:43.893270+00:00",
+        "hash_strict": "d603fb87b881",
+        "hash_medium": "665e7dcc43b9"
+      },
+      {
+        "title": "Next-Gen Data Engineering: 6 Snowflake Features Transforming How You Build",
+        "date": "2026-03-27T05:26:43.893322+00:00",
+        "hash_strict": "c108bc3f0d4a",
+        "hash_medium": "0fd959d07722"
+      },
+      {
+        "title": "Cortex Code Updates: Faster AI Data Engineering on Snowflake",
+        "date": "2026-03-27T05:26:43.893371+00:00",
+        "hash_strict": "8ef6c1982fb7",
+        "hash_medium": "125f51fd6174"
+      },
+      {
+        "title": "10 GitHub Repositories to Master OpenClaw",
+        "date": "2026-03-27T05:26:43.893413+00:00",
+        "hash_strict": "041f65002609",
+        "hash_medium": "3816a0fa4321"
+      },
+      {
+        "title": "Getting Started with Smolagents: Build Your First Code Agent in 15 Minutes",
+        "date": "2026-03-27T05:26:43.893461+00:00",
+        "hash_strict": "595f3ef27074",
+        "hash_medium": "9ed3aa2563eb"
       }
     ]
   }
