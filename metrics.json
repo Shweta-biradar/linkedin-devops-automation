@@ -1,12 +1,12 @@
 {
-  "total_posts": 216,
-  "posts_today": 1,
+  "total_posts": 217,
+  "posts_today": 2,
   "last_post_date": "2026-03-27",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 5,
     "lessons": 11,
-    "digest": 179,
+    "digest": 180,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 44,
+    "aws.amazon.com": 45,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -51,19 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-26",
-      "time": "2026-02-26T05:11:07.043441+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-26",
       "time": "2026-02-26T07:33:58.882727+00:00",
@@ -984,15 +971,21 @@
         "kdnuggets.com",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-03-27",
+      "time": "2026-03-27T07:43:58.578198+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 189,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nCloud pioneers highlight key developments for practitioners.\n\nLeadership lessons:\n1. Build AWS Glue Data Quality pipeline using Terraform\nContext: AWS Glue Data Quality is a feature of AWS Glue that helps maintain trust in your data and support better decision-making and analytics across your organization.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/\n\n2. Cortex Code Updates: Faster AI Data Engineering on Snowflake\nContext: Discover Cortex Code updates: GA in Snowsight, Windows CLI support, agent teams, and new skills to build, automate, and scale data workflows faster.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-snowsight\n\n3. Agentic ML in Snowflake: Automate Predictive Insights Faster\nContext: Discover agentic ML in Snowflake with Cortex Code. Automate model development, speed up workflows and deliver predictive insights faster with AI-driven pipelines.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights\n\n4. Getting Started with Smolagents: Build Your First Code Agent in 15 Minutes\nContext: Build an AI weather agent in 40 lines of Python using Hugging Face's smolagents library. Learn to create tools, connect LLMs, and run autonomous tasks.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes\n\n5. 10 GitHub Repositories to Master OpenClaw\nContext: Learn OpenClaw by exploring key GitHub repositories covering agents, skills, automation, memory systems, and deployment tools.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/10-github-repositories-to-master-openclaw\n\n6. Next-Gen Data Engineering: 6 Snowflake Features Transforming How You Build\nContext: Explore 6 Snowflake features like Dynamic Tables and Cortex Code that automate pipelines, boost productivity, and transform modern data engineering workflows.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/next-gen-data-engineering-snowflake-features\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#Cloud #CloudArchitecture #CloudNative #BITools #SSIS #Alteryx #DBT",
+  "posts_created": 190,
+  "last_post_content": "\u26a1\ufe0f Strategic moves in cloud and infra.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nWhat caught our attention:\n1. Introducing enhancements to Amazon EMR Managed Scaling\nContext: In this post, we discuss the benefits of Advanced Scaling for Amazon EMR and demonstrate how it works through some example scenarios.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/introducing-enhancements-to-amazon-emr-managed-scaling/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhat did we miss?\n\n#SSAS #DBT #BusinessIntelligence #Reporting #CloudData #BITools #MLOps",
   "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
-    "www.snowflake.com",
-    "kdnuggets.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-03-27T05:26:43.895829+00:00"
+  "last_post_timestamp": "2026-03-27T07:43:58.579107+00:00"
 }

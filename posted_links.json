@@ -21,6 +21,7 @@
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
     "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
+    "https://aws.amazon.com/blogs/big-data/introducing-enhancements-to-amazon-emr-managed-scaling/",
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
@@ -796,8 +797,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7443166594991788032",
-    "last_posted_at_utc": "2026-03-27T05:26:43.893509+00:00",
+    "last_post_id": "urn:li:share:7443201134191820800",
+    "last_posted_at_utc": "2026-03-27T07:43:58.576911+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -1051,6 +1052,12 @@
         "date": "2026-03-27T05:26:43.893461+00:00",
         "hash_strict": "595f3ef27074",
         "hash_medium": "9ed3aa2563eb"
+      },
+      {
+        "title": "Introducing enhancements to Amazon EMR Managed Scaling",
+        "date": "2026-03-27T07:43:58.576822+00:00",
+        "hash_strict": "3e0701046bd5",
+        "hash_medium": "7030b1e4f460"
       }
     ]
   }
