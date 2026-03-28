@@ -310,6 +310,7 @@
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
     "https://towardsdatascience.com/5-ways-for-variable-discretization/",
     "https://towardsdatascience.com/649627-2/",
+    "https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/",
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/",
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
@@ -332,6 +333,7 @@
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-a-like-for-like-solution-for-stores-in-power-bi/",
     "https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/",
+    "https://towardsdatascience.com/building-a-production-grade-multi-node-training-pipeline-with-pytorch-ddp/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
     "https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/",
     "https://towardsdatascience.com/building-human-in-the-loop-agentic-workflows/",
@@ -512,6 +514,7 @@
     "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
     "https://www.dataquest.io/blog/python-interview-questions-and-answers/",
+    "https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/",
     "https://www.docker.com/blog/2025-recap-the-year-software-development-changed-shape/",
     "https://www.docker.com/blog/docker-hardened-images-security-independently-validated-by-srlabs/",
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
@@ -798,8 +801,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7443266585777131520",
-    "last_posted_at_utc": "2026-03-27T12:04:03.481559+00:00",
+    "last_post_id": "urn:li:share:7443525641980960769",
+    "last_posted_at_utc": "2026-03-28T05:13:27.291519+00:00",
     "last_format": "deep_dive",
     "topic_titles": [
       {
@@ -1065,6 +1068,24 @@
         "date": "2026-03-27T12:04:03.481444+00:00",
         "hash_strict": "f0daecf443f9",
         "hash_medium": "1c8aeef3ab3b"
+      },
+      {
+        "title": "60 SQL Interview Questions From Beginner to Advanced (2026)",
+        "date": "2026-03-28T05:13:27.291349+00:00",
+        "hash_strict": "e9f1cab724e6",
+        "hash_medium": "cff9d59bc9d9"
+      },
+      {
+        "title": "A Beginner\u2019s Guide to Quantum Computing with Python",
+        "date": "2026-03-28T05:13:27.291430+00:00",
+        "hash_strict": "4ddbd1a958f9",
+        "hash_medium": "b2d7ee9e7b89"
+      },
+      {
+        "title": "Building a Production-Grade Multi-Node Training Pipeline with PyTorch DDP",
+        "date": "2026-03-28T05:13:27.291476+00:00",
+        "hash_strict": "93d035dfc3b9",
+        "hash_medium": "08892336591b"
       }
     ]
   }
