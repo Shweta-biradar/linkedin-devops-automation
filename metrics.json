@@ -1,11 +1,11 @@
 {
-  "total_posts": 219,
-  "posts_today": 1,
+  "total_posts": 220,
+  "posts_today": 2,
   "last_post_date": "2026-03-28",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 11,
+    "lessons": 12,
     "digest": 180,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -47,23 +47,10 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 2,
-    "www.dataquest.io": 7
+    "www.dataquest.io": 8
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-27",
-      "time": "2026-02-27T05:05:19.365264+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "kdnuggets.com",
-        "www.bleepingcomputer.com",
-        "aws.amazon.com",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-27",
       "time": "2026-02-27T07:31:38.456963+00:00",
@@ -981,14 +968,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-28",
+      "time": "2026-03-28T07:30:12.970829+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 192,
-  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udd0e Topic: A Beginner\u2019s Guide to Quantum Computing with Python\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: Simulate a quantum computer with Qiskit The post A Beginner\u2019s Guide to Quantum Computing with Python appeared first on Towards Data Science .\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: Operational simplicity beats architectural elegance every time\n\nWhat would you do differently if you started over today?\n\n#SSIS #Snowflake #Statistics #AdvancedAnalytics #SQL #MySQL #Insights\n\n\u2753 How would you apply this insight?\n\n\ud83d\udcda Key resource: https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/\n\n#Python #DataVisualization #SSAS #SAPHANA #MySQL #Tableau #Looker",
-  "last_post_format": "deep_dive",
+  "posts_created": 193,
+  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: What We Learned Building a RAG System from Scratch (No Frameworks)\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#Oracle #DataAnalyst #BigQuery #DataVisualization #Databricks #MySQL #Automation\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Analytics #PowerBI #DataAnalyst #Reporting #DataWarehouse #Looker #SQL",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com",
     "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-03-28T05:13:27.293860+00:00"
+  "last_post_timestamp": "2026-03-28T07:30:12.971822+00:00"
 }
