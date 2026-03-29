@@ -803,9 +803,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7443923676540026880",
-    "last_posted_at_utc": "2026-03-29T07:35:06.106805+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7443988411415445504",
+    "last_posted_at_utc": "2026-03-29T11:52:20.054962+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "Data drift: The silent killer of analytics",
@@ -1118,6 +1118,12 @@
         "date": "2026-03-29T07:35:06.106716+00:00",
         "hash_strict": "9d1fec8336b4",
         "hash_medium": "c268558f8457"
+      },
+      {
+        "title": "Agentic ML in Snowflake: Automate Predictive Insights Faster",
+        "date": "2026-03-29T11:52:20.054873+00:00",
+        "hash_strict": "e27d872ac8ec",
+        "hash_medium": "4bcfe2b32ec5"
       }
     ]
   }

@@ -1,11 +1,11 @@
 {
-  "total_posts": 223,
-  "posts_today": 2,
+  "total_posts": 224,
+  "posts_today": 3,
   "last_post_date": "2026-03-29",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 14,
+    "lessons": 15,
     "digest": 181,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -41,7 +41,7 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 162,
-    "www.snowflake.com": 66,
+    "www.snowflake.com": 67,
     "kdnuggets.com": 42,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -51,16 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-28",
-      "time": "2026-02-28T07:03:13.952225+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-28",
       "time": "2026-02-28T11:41:20.626479+00:00",
@@ -970,13 +960,21 @@
       "sources": [
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-03-29",
+      "time": "2026-03-29T11:52:20.056495+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 196,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nObservability advocates surface what teams measure and why.\n\nAutomation strategies:\n1. Vibe Coding a Private AI Financial Analyst with Python and Local LLMs\nContext: Learn to build an AI data analyst with Python: analyzes data, detects anomalies, and generates predictions using local LLMs.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#SSRS #DataVisualization #DBT #PowerBI #Airflow #SSAS #BusinessIntelligence",
-  "last_post_format": "digest",
+  "posts_created": 197,
+  "last_post_content": "\ud83d\udca1 What production taught us.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Agentic ML in Snowflake: Automate Predictive Insights Faster\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat would you add to this list?\n\n#Analytics #Insights #Python #MySQL #DataAnalyst #DBT #Statistics\n\n\u2753 How do you apply these lessons?\n\n#BigQuery #Qlik #PostgreSQL #SSAS #DataVisualization #Airflow #BITools",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "kdnuggets.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-03-29T07:35:06.109227+00:00"
+  "last_post_timestamp": "2026-03-29T11:52:20.057450+00:00"
 }
