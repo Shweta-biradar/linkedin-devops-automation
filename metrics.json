@@ -1,12 +1,12 @@
 {
-  "total_posts": 222,
-  "posts_today": 1,
+  "total_posts": 223,
+  "posts_today": 2,
   "last_post_date": "2026-03-29",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
     "lessons": 14,
-    "digest": 180,
+    "digest": 181,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -42,7 +42,7 @@
     "martinfowler.com": 2,
     "towardsdatascience.com": 162,
     "www.snowflake.com": 66,
-    "kdnuggets.com": 41,
+    "kdnuggets.com": 42,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -51,19 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-28",
-      "time": "2026-02-28T04:43:08.729570+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "www.snowflake.com",
-        "www.bleepingcomputer.com",
-        "github.blog",
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-02-28",
       "time": "2026-02-28T07:03:13.952225+00:00",
@@ -975,13 +962,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-29",
+      "time": "2026-03-29T07:35:06.108301+00:00",
+      "format": "digest",
+      "sources": [
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 195,
-  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Qlik #AdvancedAnalytics #Redshift #DBT #DataWarehouse #SAPHANA #SSRS\n\n\u2753 What would you add to this list?\n\n#SAPHANA #DataVisualization #ETL #MySQL #DataAnalyst #Tableau #BigQuery",
-  "last_post_format": "lessons",
+  "posts_created": 196,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nObservability advocates surface what teams measure and why.\n\nAutomation strategies:\n1. Vibe Coding a Private AI Financial Analyst with Python and Local LLMs\nContext: Learn to build an AI data analyst with Python: analyzes data, detects anomalies, and generates predictions using local LLMs.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#SSRS #DataVisualization #DBT #PowerBI #Airflow #SSAS #BusinessIntelligence",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-03-29T05:26:12.585914+00:00"
+  "last_post_timestamp": "2026-03-29T07:35:06.109227+00:00"
 }
