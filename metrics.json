@@ -1,11 +1,11 @@
 {
-  "total_posts": 221,
-  "posts_today": 3,
-  "last_post_date": "2026-03-28",
+  "total_posts": 222,
+  "posts_today": 1,
+  "last_post_date": "2026-03-29",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 13,
+    "lessons": 14,
     "digest": 180,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 160,
+    "towardsdatascience.com": 162,
     "www.snowflake.com": 66,
     "kdnuggets.com": 41,
     "techcrunch.com": 6,
@@ -51,14 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-27",
-      "time": "2026-02-27T11:54:31.970437+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-02-28",
       "time": "2026-02-28T04:43:08.729570+00:00",
@@ -974,13 +966,22 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-03-29",
+      "time": "2026-03-29T05:26:12.584969+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 194,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nCloud pioneers spotlight operational wisdom.\n\nTopic: 60 SQL Interview Questions From Beginner to Advanced (2026)\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#SSAS #DataVisualization #Alteryx #Reporting #DataWarehouse #Insights #Analytics\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Insights #DataWarehouse #DataAnalyst #Snowflake #Automation #BITools #AdvancedAnalytics",
+  "posts_created": 195,
+  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Qlik #AdvancedAnalytics #Redshift #DBT #DataWarehouse #SAPHANA #SSRS\n\n\u2753 What would you add to this list?\n\n#SAPHANA #DataVisualization #ETL #MySQL #DataAnalyst #Tableau #BigQuery",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "www.dataquest.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-28T11:51:39.371097+00:00"
+  "last_post_timestamp": "2026-03-29T05:26:12.585914+00:00"
 }

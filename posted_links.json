@@ -359,6 +359,7 @@
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
+    "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
     "https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/",
@@ -451,6 +452,7 @@
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
+    "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
@@ -801,8 +803,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7443625852900327425",
-    "last_posted_at_utc": "2026-03-28T11:51:39.368591+00:00",
+    "last_post_id": "urn:li:share:7443891239885860864",
+    "last_posted_at_utc": "2026-03-29T05:26:12.583581+00:00",
     "last_format": "lessons",
     "topic_titles": [
       {
@@ -1098,6 +1100,18 @@
         "date": "2026-03-28T11:51:39.368474+00:00",
         "hash_strict": "e9f1cab724e6",
         "hash_medium": "cff9d59bc9d9"
+      },
+      {
+        "title": "From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk Analysis",
+        "date": "2026-03-29T05:26:12.583401+00:00",
+        "hash_strict": "3f470b0a10f2",
+        "hash_medium": "91de73cc74a4"
+      },
+      {
+        "title": "Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents",
+        "date": "2026-03-29T05:26:12.583509+00:00",
+        "hash_strict": "01d2f42afdb9",
+        "hash_medium": "1104ab1e6d2d"
       }
     ]
   }
