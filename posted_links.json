@@ -366,6 +366,7 @@
     "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
+    "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
     "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
     "https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
@@ -417,6 +418,7 @@
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/",
+    "https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/",
     "https://towardsdatascience.com/self-hosting-your-first-llm/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/solving-the-human-training-data-problem/",
@@ -803,8 +805,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7443988411415445504",
-    "last_posted_at_utc": "2026-03-29T11:52:20.054962+00:00",
+    "last_post_id": "urn:li:share:7444257576470622208",
+    "last_posted_at_utc": "2026-03-30T05:41:54.030869+00:00",
     "last_format": "lessons",
     "topic_titles": [
       {
@@ -1124,6 +1126,18 @@
         "date": "2026-03-29T11:52:20.054873+00:00",
         "hash_strict": "e27d872ac8ec",
         "hash_medium": "4bcfe2b32ec5"
+      },
+      {
+        "title": "Self-Healing Neural Networks in PyTorch: Fix Model Drift in Real Time Without Retraining",
+        "date": "2026-03-30T05:41:54.030691+00:00",
+        "hash_strict": "949bfd6f5837",
+        "hash_medium": "8cf33da3a3d4"
+      },
+      {
+        "title": "How to Become an AI Engineer Fast (Skills, Projects, Salary)",
+        "date": "2026-03-30T05:41:54.030800+00:00",
+        "hash_strict": "14a9a7514cd7",
+        "hash_medium": "21a45ef7b1a2"
       }
     ]
   }

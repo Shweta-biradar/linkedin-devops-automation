@@ -1,11 +1,11 @@
 {
-  "total_posts": 224,
-  "posts_today": 3,
-  "last_post_date": "2026-03-29",
+  "total_posts": 225,
+  "posts_today": 1,
+  "last_post_date": "2026-03-30",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 15,
+    "lessons": 16,
     "digest": 181,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 162,
+    "towardsdatascience.com": 164,
     "www.snowflake.com": 67,
     "kdnuggets.com": 42,
     "techcrunch.com": 6,
@@ -51,14 +51,6 @@
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-02-28",
-      "time": "2026-02-28T11:41:20.626479+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-01",
       "time": "2026-03-01T05:10:43.234908+00:00",
@@ -968,13 +960,22 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-03-30",
+      "time": "2026-03-30T05:41:54.034430+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 197,
-  "last_post_content": "\ud83d\udca1 What production taught us.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Agentic ML in Snowflake: Automate Predictive Insights Faster\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat would you add to this list?\n\n#Analytics #Insights #Python #MySQL #DataAnalyst #DBT #Statistics\n\n\u2753 How do you apply these lessons?\n\n#BigQuery #Qlik #PostgreSQL #SSAS #DataVisualization #Airflow #BITools",
+  "posts_created": 198,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nAnalytics experts reveal what sticks.\n\nTopic: How to Become an AI Engineer Fast (Skills, Projects, Salary)\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#MLOps #AdvancedAnalytics #SAPHANA #Oracle #Insights #Automation #Looker\n\n\u2753 How do you apply these lessons?\n\n#CloudData #Automation #Databricks #ETL #Alteryx #SSAS #BigQuery",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "www.snowflake.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-03-29T11:52:20.057450+00:00"
+  "last_post_timestamp": "2026-03-30T05:41:54.035386+00:00"
 }
