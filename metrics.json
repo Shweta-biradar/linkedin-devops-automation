@@ -1,11 +1,11 @@
 {
-  "total_posts": 225,
-  "posts_today": 1,
+  "total_posts": 226,
+  "posts_today": 2,
   "last_post_date": "2026-03-30",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 16,
+    "lessons": 17,
     "digest": 181,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -47,21 +47,10 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 2,
-    "www.dataquest.io": 9
+    "www.dataquest.io": 10
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-03-01",
-      "time": "2026-03-01T05:10:43.234908+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-01",
       "time": "2026-03-01T07:12:36.577918+00:00",
@@ -969,13 +958,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-03-30",
+      "time": "2026-03-30T08:10:03.771421+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 198,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nAnalytics experts reveal what sticks.\n\nTopic: How to Become an AI Engineer Fast (Skills, Projects, Salary)\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#MLOps #AdvancedAnalytics #SAPHANA #Oracle #Insights #Automation #Looker\n\n\u2753 How do you apply these lessons?\n\n#CloudData #Automation #Databricks #ETL #Alteryx #SSAS #BigQuery",
+  "posts_created": 199,
+  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nCloud pioneers spotlight operational wisdom.\n\nTopic: 60 SQL Interview Questions From Beginner to Advanced (2026)\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Analytics #Reporting #Databricks #CloudData #SAPHANA #Alteryx #SSRS\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#MySQL #AdvancedAnalytics #Snowflake #Oracle #DataWarehouse #CloudData #Redshift",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-03-30T05:41:54.035386+00:00"
+  "last_post_timestamp": "2026-03-30T08:10:03.772431+00:00"
 }
