@@ -354,6 +354,7 @@
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
     "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
+    "https://towardsdatascience.com/explainable-ai-in-production-a-neuro-symbolic-model-for-real-time-fraud-detection/",
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
@@ -462,6 +463,7 @@
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
+    "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
     "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
@@ -570,6 +572,7 @@
     "https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using",
     "https://www.kdnuggets.com/5-useful-diy-python-functions-for-error-handling",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks",
+    "https://www.kdnuggets.com/5-useful-python-scripts-for-effective-feature-selection",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis",
@@ -805,9 +808,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7444294862784524288",
-    "last_posted_at_utc": "2026-03-30T08:10:03.769592+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7444355802603307008",
+    "last_posted_at_utc": "2026-03-30T12:12:13.018722+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "Data drift: The silent killer of analytics",
@@ -1144,6 +1147,24 @@
         "date": "2026-03-30T08:10:03.769459+00:00",
         "hash_strict": "e9f1cab724e6",
         "hash_medium": "cff9d59bc9d9"
+      },
+      {
+        "title": "5 Useful Python Scripts for Effective Feature Selection",
+        "date": "2026-03-30T12:12:13.018060+00:00",
+        "hash_strict": "980bdd86ba26",
+        "hash_medium": "18ea07b55e07"
+      },
+      {
+        "title": "Why Data Scientists Should Care About Quantum Computing",
+        "date": "2026-03-30T12:12:13.018456+00:00",
+        "hash_strict": "fff94ecdbafe",
+        "hash_medium": "07e9ccf0629c"
+      },
+      {
+        "title": "Explainable AI in Production: A Neuro-Symbolic Model for Real-Time Fraud Detection",
+        "date": "2026-03-30T12:12:13.018591+00:00",
+        "hash_strict": "72b3947c9b93",
+        "hash_medium": "f20473543535"
       }
     ]
   }
