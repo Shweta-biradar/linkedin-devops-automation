@@ -1,11 +1,11 @@
 {
-  "total_posts": 229,
-  "posts_today": 2,
+  "total_posts": 230,
+  "posts_today": 3,
   "last_post_date": "2026-03-31",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 17,
+    "lessons": 18,
     "digest": 184,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -47,18 +47,10 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 2,
-    "www.dataquest.io": 11
+    "www.dataquest.io": 12
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-03-02",
-      "time": "2026-03-02T07:35:21.422681+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-02",
       "time": "2026-03-02T11:54:20.410421+00:00",
@@ -970,13 +962,21 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-03-31",
+      "time": "2026-03-31T12:08:40.848699+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 202,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nObservability advocates surface what teams measure and why.\n\nObservability insights:\n1. 60 SQL Interview Questions From Beginner to Advanced (2026)\nContext: ...\nPreparing for SQL interview questions? You're smart to practice. SQL shows up in many data job interview, and for good reason \u2014 one analysis of 200 data analyst job postings found that SQL was exp\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#SQL #Python #Statistics #SSAS #Dashboard #BusinessIntelligence #Snowflake",
-  "last_post_format": "digest",
+  "posts_created": 203,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nPlatform architects surface lessons from production.\n\nTopic: 60 SQL Interview Questions From Beginner to Advanced (2026)\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#DBT #SAPHANA #SSIS #Automation #Python #SSRS #Databricks\n\n\u2753 What would you add to this list?\n\n#SSIS #Automation #MySQL #Python #Insights #BigQuery #Oracle",
+  "last_post_format": "lessons",
   "last_post_sources": [
     "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-03-31T07:54:21.755751+00:00"
+  "last_post_timestamp": "2026-03-31T12:08:40.849582+00:00"
 }
