@@ -1,12 +1,12 @@
 {
-  "total_posts": 228,
-  "posts_today": 1,
+  "total_posts": 229,
+  "posts_today": 2,
   "last_post_date": "2026-03-31",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
     "lessons": 17,
-    "digest": 183,
+    "digest": 184,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -47,18 +47,10 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 2,
-    "www.dataquest.io": 10
+    "www.dataquest.io": 11
   },
   "errors": [],
   "daily_history": [
-    {
-      "date": "2026-03-02",
-      "time": "2026-03-02T05:05:53.828572+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-02",
       "time": "2026-03-02T07:35:21.422681+00:00",
@@ -970,15 +962,21 @@
         "towardsdatascience.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-03-31",
+      "time": "2026-03-31T07:54:21.754736+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 201,
-  "last_post_content": "\ud83d\udee1\ufe0f Security, compliance, and trust: the essentials.\nAI innovators map the future of intelligent systems.\n\nLeadership lessons:\n1. Securely connect Kafka client applications to your Amazon MSK Serverless cluster from different VPCs and AW\u2026\nContext: In this post, we show you how Kafka clients can use Zilla Plus to securely access your MSK Serverless clusters through Identity and Access Management (IAM) authentication over...\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/securely-connect-kafka-client-applications-to-your-amazon-msk-serverless-cluster-from-different-vpcs-and-aws-accounts/\n\n2. Snowflake Intelligence for Retail: Scaling Enterprise AI\nContext: Discover how Snowflake Intelligence helps retail and CPG companies scale enterprise AI, unify data and enable generative BI for faster insights and decisions.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai\n\n3. How to Lie with Statistics with your Robot Best Friend\nContext: What is p hacking, is it bad, and can you get ai to do it for you? The post How to Lie with Statistics with your Robot Best Friend appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#SSAS #Analytics #BigQuery #Qlik #AdvancedAnalytics #Airflow #Oracle",
+  "posts_created": 202,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nObservability advocates surface what teams measure and why.\n\nObservability insights:\n1. 60 SQL Interview Questions From Beginner to Advanced (2026)\nContext: ...\nPreparing for SQL interview questions? You're smart to practice. SQL shows up in many data job interview, and for good reason \u2014 one analysis of 200 data analyst job postings found that SQL was exp\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#SQL #Python #Statistics #SSAS #Dashboard #BusinessIntelligence #Snowflake",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "aws.amazon.com",
-    "towardsdatascience.com"
+    "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-03-31T05:26:37.953360+00:00"
+  "last_post_timestamp": "2026-03-31T07:54:21.755751+00:00"
 }
