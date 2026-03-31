@@ -31,6 +31,7 @@
     "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
     "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
     "https://aws.amazon.com/blogs/big-data/secure-apache-spark-writes-to-amazon-s3-on-amazon-emr-with-dynamic-aws-kms-encryption/",
+    "https://aws.amazon.com/blogs/big-data/securely-connect-kafka-client-applications-to-your-amazon-msk-serverless-cluster-from-different-vpcs-and-aws-accounts/",
     "https://aws.amazon.com/blogs/big-data/set-up-production-ready-monitoring-for-amazon-msk-using-cloudwatch-alarms/",
     "https://aws.amazon.com/blogs/big-data/simplifying-kafka-operations-with-amazon-msk-express-brokers/",
     "https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/",
@@ -376,6 +377,7 @@
     "https://towardsdatascience.com/how-to-effectively-review-claude-code-output/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
+    "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
     "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
@@ -629,6 +631,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/give-to-gain-women-in-tech-international-womens-day",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/how-data-ai-reshaping-careers",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence",
@@ -808,8 +811,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7444355802603307008",
-    "last_posted_at_utc": "2026-03-30T12:12:13.018722+00:00",
+    "last_post_id": "urn:li:share:7444616121896513536",
+    "last_posted_at_utc": "2026-03-31T05:26:37.950988+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -1165,6 +1168,24 @@
         "date": "2026-03-30T12:12:13.018591+00:00",
         "hash_strict": "72b3947c9b93",
         "hash_medium": "f20473543535"
+      },
+      {
+        "title": "Snowflake Intelligence for Retail: Scaling Enterprise AI",
+        "date": "2026-03-31T05:26:37.950777+00:00",
+        "hash_strict": "7de531f38f79",
+        "hash_medium": "7b6f2829fe6a"
+      },
+      {
+        "title": "How to Lie with Statistics with your Robot Best Friend",
+        "date": "2026-03-31T05:26:37.950876+00:00",
+        "hash_strict": "56b727fa3307",
+        "hash_medium": "cdaf5b282bbc"
+      },
+      {
+        "title": "Securely connect Kafka client applications to your Amazon MSK Serverless cluster from different VPCs and AWS accounts",
+        "date": "2026-03-31T05:26:37.950941+00:00",
+        "hash_strict": "3f8e48b8858f",
+        "hash_medium": "787e439ca571"
       }
     ]
   }
