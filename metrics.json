@@ -1,7 +1,7 @@
 {
   "total_posts": 230,
   "posts_today": 0,
-  "last_post_date": "2026-04-07",
+  "last_post_date": "2026-04-08",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
@@ -153,6 +153,11 @@
     {
       "date": "2026-04-07",
       "time": "2026-04-07T12:08:00.015112+00:00",
+      "error": "No post_id returned"
+    },
+    {
+      "date": "2026-04-08",
+      "time": "2026-04-08T05:30:06.062742+00:00",
       "error": "No post_id returned"
     }
   ],
