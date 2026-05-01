@@ -51,6 +51,7 @@ jobs:
           FORCE_FORMAT: hiring_pitch
           DRY_RUN: false
           ENABLE_AI_ENHANCE: true
+          MIN_POST_INTERVAL_HOURS: '0'
         run: |
           echo "🚀 Posting hiring pitch..."
           python post_data_analyst_news.py
@@ -67,6 +68,7 @@ jobs:
           FORCE_FORMAT: referral_request
           DRY_RUN: false
           ENABLE_AI_ENHANCE: true
+          MIN_POST_INTERVAL_HOURS: '0'
         run: |
           echo "🔍 Posting referral request..."
           python post_data_analyst_news.py
