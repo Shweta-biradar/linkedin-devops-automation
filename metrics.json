@@ -1,7 +1,7 @@
 {
   "total_posts": 230,
   "posts_today": 0,
-  "last_post_date": "2026-04-30",
+  "last_post_date": "2026-05-01",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
@@ -50,11 +50,6 @@
     "www.dataquest.io": 12
   },
   "errors": [
-    {
-      "date": "2026-04-14",
-      "time": "2026-04-14T08:12:33.404075+00:00",
-      "error": "No post_id returned"
-    },
     {
       "date": "2026-04-14",
       "time": "2026-04-14T12:14:52.420149+00:00",
@@ -298,6 +293,11 @@
     {
       "date": "2026-04-30",
       "time": "2026-04-30T13:04:46.122058+00:00",
+      "error": "No post_id returned"
+    },
+    {
+      "date": "2026-05-01",
+      "time": "2026-05-01T06:29:07.001483+00:00",
       "error": "No post_id returned"
     }
   ],
