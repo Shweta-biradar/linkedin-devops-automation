@@ -1,12 +1,12 @@
 {
-  "total_posts": 231,
-  "posts_today": 1,
+  "total_posts": 232,
+  "posts_today": 2,
   "last_post_date": "2026-05-01",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
     "lessons": 18,
-    "digest": 184,
+    "digest": 185,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 46,
+    "aws.amazon.com": 47,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,14 +40,14 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 167,
-    "www.snowflake.com": 68,
+    "towardsdatascience.com": 170,
+    "www.snowflake.com": 69,
     "kdnuggets.com": 43,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 2,
-    "www.dataquest.io": 12
+    "www.dataquest.io": 13
   },
   "errors": [
     {
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-03",
-      "time": "2026-03-03T05:06:01.751723+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "github.blog",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-03",
       "time": "2026-03-03T07:27:59.393418+00:00",
@@ -1221,13 +1208,29 @@
       "sources": [
         "growth_plan"
       ]
+    },
+    {
+      "date": "2026-05-01",
+      "time": "2026-05-01T12:13:51.594791+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "www.dataquest.io",
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 204,
-  "last_post_content": "Companies failing at the skills that take analysts from junior to senior share this common pattern:\n\nKey insights on the skills that take analysts from junior to senior:\n\n\u2022 Career milestone or challenge context\n\u2022 3-5 specific strategies that work\n\u2022 Common mistakes to avoid\n\u2022 Resources for getting started\n\nQuestions about transitioning to Data Analytics? Share them in the comments!\n\n#datavisualization #python #rstats #dataanalytics #ai",
-  "last_post_format": "career_advice",
+  "posts_created": 205,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nSecurity champions share what shapes the future of operations.\n\nGlobal tech trends:\n1. 4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers\nContext: How we replaced Python pipelines with dlt, dbt, and Trino \u2014 and cut delivery time from weeks to one day. The post 4 YAML Files Instead of PySpark: How We Let Analysts Build...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/\n\n2. PyTorch NaNs Are Silent Killers \u2014 So I Built a 3ms Hook to Catch Them at the Exact Layer\nContext: NaNs don\u2019t crash your training \u2014 they quietly destroy it. After losing hours to a silent failure in a ResNet training run, I built a lightweight detector that pinpoints the...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/\n\n3. Data Clean Rooms for Privacy-First Collaboration\nContext: Discover Snowflake Data Clean Rooms for privacy-first, multiparty collaboration. Explore Snowsight, Cortex and governed AI-driven insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration\n\n4. The Best ETL Tools in 2026: A Practical Guide with Code Examples\nContext: ...\nChoosing the right ETL tools is one of the most important, and often confusing, decisions when building a data stack. With dozens of overlapping options, it's not always clear which tools actually\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/\n\n5. How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python\nContext: How can you validate that your variables tell a consistent risk? The post How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/\n\n6. Unified observability in Amazon OpenSearch Service: metrics, traces, and AI agent debugging in a single int\u2026\nContext: Amazon OpenSearch Service now brings application monitoring, native Amazon Managed Service for Prometheus integration, and AI agent tracing together in OpenSearch UI's...\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://aws.amazon.\n\n#Reporting #MySQL #DBT #DataVisualization #Snowflake #Oracle #Analytics",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "growth_plan"
+    "aws.amazon.com",
+    "towardsdatascience.com",
+    "www.dataquest.io",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-01T10:37:10.138349+00:00"
+  "last_post_timestamp": "2026-05-01T12:13:51.595983+00:00"
 }

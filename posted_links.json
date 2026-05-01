@@ -36,6 +36,7 @@
     "https://aws.amazon.com/blogs/big-data/simplifying-kafka-operations-with-amazon-msk-express-brokers/",
     "https://aws.amazon.com/blogs/big-data/standardize-amazon-redshift-operations-using-templates/",
     "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
+    "https://aws.amazon.com/blogs/big-data/unified-observability-in-amazon-opensearch-service-metrics-traces-and-ai-agent-debugging-in-a-single-interface/",
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
@@ -309,6 +310,7 @@
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
     "https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/",
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
+    "https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/",
     "https://towardsdatascience.com/5-ways-for-variable-discretization/",
     "https://towardsdatascience.com/649627-2/",
     "https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/",
@@ -381,6 +383,7 @@
     "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
+    "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
@@ -415,6 +418,7 @@
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
+    "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/rope-clearly-explained/",
@@ -520,6 +524,7 @@
     "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
     "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
+    "https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
     "https://www.dataquest.io/blog/python-interview-questions-and-answers/",
     "https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/",
@@ -624,6 +629,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-snowsight",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
@@ -811,15 +817,51 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7455928295021338624",
-    "last_posted_at_utc": "2026-05-01T10:37:10.135819+00:00",
-    "last_format": "career_advice",
+    "last_post_id": "urn:li:share:7455952625705082880",
+    "last_posted_at_utc": "2026-05-01T12:13:51.593500+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
         "date": "2026-05-01T10:37:10.135544+00:00",
         "hash_strict": "aa5c3a2e10dc",
         "hash_medium": "5abffab25c24"
+      },
+      {
+        "title": "4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers",
+        "date": "2026-05-01T12:13:51.593264+00:00",
+        "hash_strict": "a6144722f9fc",
+        "hash_medium": "2a9c9db846d0"
+      },
+      {
+        "title": "The Best ETL Tools in 2026: A Practical Guide with Code Examples",
+        "date": "2026-05-01T12:13:51.593347+00:00",
+        "hash_strict": "d7cd5bec8a1f",
+        "hash_medium": "418e6bc0f730"
+      },
+      {
+        "title": "Data Clean Rooms for Privacy-First Collaboration",
+        "date": "2026-05-01T12:13:51.593387+00:00",
+        "hash_strict": "ea1ffe5f1278",
+        "hash_medium": "64b0b1f6a73c"
+      },
+      {
+        "title": "Unified observability in Amazon OpenSearch Service: metrics, traces, and AI agent debugging in a single interface",
+        "date": "2026-05-01T12:13:51.593423+00:00",
+        "hash_strict": "7a42f29ca75f",
+        "hash_medium": "107d4d581022"
+      },
+      {
+        "title": "How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python",
+        "date": "2026-05-01T12:13:51.593450+00:00",
+        "hash_strict": "3e2043f8fa67",
+        "hash_medium": "5dd1a2abc913"
+      },
+      {
+        "title": "PyTorch NaNs Are Silent Killers \u2014 So I Built a 3ms Hook to Catch Them at the Exact Layer",
+        "date": "2026-05-01T12:13:51.593472+00:00",
+        "hash_strict": "d00e772b90b3",
+        "hash_medium": "bd8c19bce38b"
       }
     ]
   }
