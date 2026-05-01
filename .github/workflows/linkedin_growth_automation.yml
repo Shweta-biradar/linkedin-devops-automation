@@ -458,7 +458,7 @@ jobs:
         DRY_RUN: "${{ github.event.inputs.dry_run || 'false' }}"
         MAX_ITEMS: "5"
         MAX_JITTER_SECONDS: "180"
-        MIN_POST_INTERVAL_HOURS: "0"
+        MIN_POST_INTERVAL_HOURS: "4"
         BYPASS_RATE_LIMITS: "${{ github.event.inputs.bypass_rate_limits || 'true' }}"
         COOLDOWN_ON_ERROR_MINUTES: "30"
         
