@@ -1,6 +1,6 @@
 {
-  "total_posts": 230,
-  "posts_today": 0,
+  "total_posts": 231,
+  "posts_today": 1,
   "last_post_date": "2026-05-01",
   "formats_used": {
     "case_study": 11,
@@ -10,7 +10,7 @@
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
-    "career_advice": 1,
+    "career_advice": 2,
     "controversial_takes": 1
   },
   "sources_used": {
@@ -32,7 +32,7 @@
     "www.mend.io": 1,
     "unit42.paloaltonetworks.com": 1,
     "www.hashicorp.com": 5,
-    "growth_plan": 10,
+    "growth_plan": 11,
     "snyk.io": 1,
     "netflixtechblog.medium.com": 1,
     "github.blog": 25,
@@ -302,14 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-02",
-      "time": "2026-03-02T11:54:20.410421+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com"
-      ]
-    },
     {
       "date": "2026-03-03",
       "time": "2026-03-03T05:06:01.751723+00:00",
@@ -1221,13 +1213,21 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-05-01",
+      "time": "2026-05-01T10:37:10.137158+00:00",
+      "format": "career_advice",
+      "sources": [
+        "growth_plan"
+      ]
     }
   ],
-  "posts_created": 203,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nPlatform architects surface lessons from production.\n\nTopic: 60 SQL Interview Questions From Beginner to Advanced (2026)\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#DBT #SAPHANA #SSIS #Automation #Python #SSRS #Databricks\n\n\u2753 What would you add to this list?\n\n#SSIS #Automation #MySQL #Python #Insights #BigQuery #Oracle",
-  "last_post_format": "lessons",
+  "posts_created": 204,
+  "last_post_content": "Companies failing at the skills that take analysts from junior to senior share this common pattern:\n\nKey insights on the skills that take analysts from junior to senior:\n\n\u2022 Career milestone or challenge context\n\u2022 3-5 specific strategies that work\n\u2022 Common mistakes to avoid\n\u2022 Resources for getting started\n\nQuestions about transitioning to Data Analytics? Share them in the comments!\n\n#datavisualization #python #rstats #dataanalytics #ai",
+  "last_post_format": "career_advice",
   "last_post_sources": [
-    "www.dataquest.io"
+    "growth_plan"
   ],
-  "last_post_timestamp": "2026-03-31T12:08:40.849582+00:00"
+  "last_post_timestamp": "2026-05-01T10:37:10.138349+00:00"
 }
