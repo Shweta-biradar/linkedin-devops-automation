@@ -321,6 +321,7 @@
     "https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/",
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/",
+    "https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/",
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
@@ -353,6 +354,7 @@
     "https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/",
     "https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/",
     "https://towardsdatascience.com/context-engineering-as-your-competitive-edge/",
+    "https://towardsdatascience.com/correlation-doesnt-mean-causation-but-what-does-it-mean/",
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
     "https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/",
@@ -421,6 +423,7 @@
     "https://towardsdatascience.com/production-ready-llm-agents-a-comprehensive-framework-for-offline-evaluation/",
     "https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
+    "https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
@@ -440,6 +443,7 @@
     "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
     "https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
+    "https://towardsdatascience.com/system-design-series-apache-flink-from-10000-feet-and-building-a-flink-powered-recommendation-engine/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
     "https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/",
@@ -457,6 +461,7 @@
     "https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/",
     "https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/",
     "https://towardsdatascience.com/the-new-experience-of-coding-with-ai/",
+    "https://towardsdatascience.com/the-next-frontier-of-ai-in-production-is-chaos-engineering/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
@@ -477,6 +482,7 @@
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
+    "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/",
     "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
@@ -829,9 +835,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456254047524872192",
-    "last_posted_at_utc": "2026-05-02T08:11:35.647985+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7456313453683810304",
+    "last_posted_at_utc": "2026-05-02T12:07:39.167428+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -946,6 +952,42 @@
         "date": "2026-05-02T08:11:35.647913+00:00",
         "hash_strict": "ef575558c273",
         "hash_medium": "5c69110daa2d"
+      },
+      {
+        "title": "Correlation Doesn\u2019t Mean Causation! But What Does It Mean?",
+        "date": "2026-05-02T12:07:39.167114+00:00",
+        "hash_strict": "ecba2e396efc",
+        "hash_medium": "b26bcedf148f"
+      },
+      {
+        "title": "The Next Frontier of AI in Production Is Chaos Engineering",
+        "date": "2026-05-02T12:07:39.167218+00:00",
+        "hash_strict": "6062302649c0",
+        "hash_medium": "120698676ad3"
+      },
+      {
+        "title": "Why Powerful Machine Learning Is Deceptively Easy",
+        "date": "2026-05-02T12:07:39.167262+00:00",
+        "hash_strict": "3edb9887df54",
+        "hash_medium": "aee0c451379e"
+      },
+      {
+        "title": "Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings",
+        "date": "2026-05-02T12:07:39.167308+00:00",
+        "hash_strict": "db0dbf7faea8",
+        "hash_medium": "f35191bb4557"
+      },
+      {
+        "title": "System Design Series: Apache Flink from 10,000 Feet, and Building a Flink-powered Recommendation Engine",
+        "date": "2026-05-02T12:07:39.167354+00:00",
+        "hash_strict": "87eac59bd4d5",
+        "hash_medium": "0537fce00dfe"
+      },
+      {
+        "title": "A Gentle Introduction to Stochastic Programming",
+        "date": "2026-05-02T12:07:39.167404+00:00",
+        "hash_strict": "a54fa9ff050e",
+        "hash_medium": "0f944ca55f48"
       }
     ]
   }

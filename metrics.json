@@ -1,10 +1,10 @@
 {
-  "total_posts": 234,
-  "posts_today": 2,
+  "total_posts": 235,
+  "posts_today": 3,
   "last_post_date": "2026-05-02",
   "formats_used": {
     "case_study": 11,
-    "deep_dive": 7,
+    "deep_dive": 8,
     "lessons": 19,
     "digest": 186,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 170,
+    "towardsdatascience.com": 176,
     "www.snowflake.com": 72,
     "kdnuggets.com": 47,
     "techcrunch.com": 6,
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-04",
-      "time": "2026-03-04T04:57:27.528184+00:00",
-      "format": "digest",
-      "sources": [
-        "github.blog",
-        "towardsdatascience.com",
-        "www.snowflake.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-04",
       "time": "2026-03-04T07:13:07.123404+00:00",
@@ -1228,14 +1215,26 @@
         "www.snowflake.com",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T12:07:39.169057+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 207,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nCloud pioneers highlight key developments for practitioners.\n\nKey developments:\n1. Datometry for Snowflake: Accelerate Teradata Migration\nContext: Announcing Datometry for Snowflake in Public Preview. Move Teradata workloads to Snowflake in weeks with minimal rewrites, low risk and near-zero disruption.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration\n\n2. Snowflake Intelligence Partner Solutions Bring AI Edge to Industries\nContext: Explore how Snowflake Intelligence partner solutions help teams get grounded, natural-language answers across enterprise data with industry-ready AI agents.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-partner-solutions\n\n3. Local Whisper Audio Transcription\nContext: Learn how to eranscribe audio locally using Faster\u2011Whisper and Python, with an emphasis on privacy\u2011first and CPU/GPU\u2011ready.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/local-whisper-audio-transcription\n\n4. Snowflake Kafka Connector V4\nContext: Experience up to 10 GB/s throughput and 50% cost savings with Snowflake Kafka Connector V4. Move ingestion logic server-side for better performance.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-kafka-connector-v4-ga\n\n5. 5 Powerful Python Decorators to Build Clean AI Code\nContext: This article outlines five particularly useful Python decorators that, based on developers' experience, haven proven themselves effective to make AI code cleaner.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-to-build-clean-ai-code\n\n6. The \u201cRobust\u201d Data Scientist: Winning with Messy Data and Pingouin\nContext: This article uncovers the craftsmanship of using robust statistics in data science processes: illustrating what to do when data fail tests due to not meeting standard assumptions.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?\n\n#BigQuery #MLOps #SSIS #Databricks #Statistics #SSRS #Automation",
-  "last_post_format": "digest",
+  "posts_created": 208,
+  "last_post_content": "\u26a1 Focused learning for teams.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Topic: Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings\n\nWhat it's about:\nStructure is all you need The post Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings appeared first on Towards Data Science .\n\nWhy it matters: practical signal for building reliable systems.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Production systems teach you things documentation never will\n\nWhat production experience changed how you design systems?\n\n#AdvancedAnalytics #Looker #DBT #BITools #PostgreSQL #Snowflake #SSAS\n\n\u2753 What\u2019s your experience with this topic?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/\n\n#Databricks #DataWarehouse #DataAnalyst #Automation #Snowflake #BusinessIntelligence #Looker",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "www.snowflake.com",
-    "kdnuggets.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-02T08:11:35.653702+00:00"
+  "last_post_timestamp": "2026-05-02T12:07:39.170458+00:00"
 }
