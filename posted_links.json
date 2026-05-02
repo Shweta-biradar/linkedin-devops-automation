@@ -1,6 +1,8 @@
 {
   "posted_links": [
     "",
+    "https://aws.amazon.com/blogs/big-data/a-guide-to-airflow-worker-pool-optimization-in-amazon-mwaa/",
+    "https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/",
     "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
     "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
@@ -41,6 +43,9 @@
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
+    "https://aws.amazon.com/blogs/database/building-agentic-ai-for-amazon-rds-for-sql-server-with-strands-and-agentcore/",
+    "https://aws.amazon.com/blogs/database/create-monitoring-dashboard-for-amazon-rds-for-db2/",
+    "https://aws.amazon.com/blogs/database/features-and-workflows-with-amazon-timestream-for-influxdb-3/",
     "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/",
     "https://aws.amazon.com/blogs/mt/search-and-discover-governance-controls-with-control-catalog-in-aws-control-tower/",
     "https://blog.checkpoint.com/company-and-culture/check-point-celebrates-2025-with-top-analyst-and-research-lab-recognitions/",
@@ -599,6 +604,7 @@
     "https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes",
     "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
+    "https://www.kdnuggets.com/open-weight-text-to-speach-with-voxtral-tts",
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
     "https://www.kdnuggets.com/postgres-vs-mysql-vs-sqlite-comparing-sql-performance-across-engines",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
@@ -817,9 +823,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7455952625705082880",
-    "last_posted_at_utc": "2026-05-01T12:13:51.593500+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7456220355792224256",
+    "last_posted_at_utc": "2026-05-02T05:57:42.902620+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -862,6 +868,42 @@
         "date": "2026-05-01T12:13:51.593472+00:00",
         "hash_strict": "d00e772b90b3",
         "hash_medium": "bd8c19bce38b"
+      },
+      {
+        "title": "Building agentic AI for Amazon RDS for SQL Server with Strands and AgentCore",
+        "date": "2026-05-02T05:57:42.902393+00:00",
+        "hash_strict": "183bd61bddc8",
+        "hash_medium": "ae4eb90dfa34"
+      },
+      {
+        "title": "A guide to Airflow worker pool optimization in Amazon MWAA",
+        "date": "2026-05-02T05:57:42.902482+00:00",
+        "hash_strict": "fc97875f4dbb",
+        "hash_medium": "bdb69002ad31"
+      },
+      {
+        "title": "Features and workflows with Amazon Timestream for InfluxDB 3",
+        "date": "2026-05-02T05:57:42.902530+00:00",
+        "hash_strict": "fa7ea9b53a59",
+        "hash_medium": "cd52578dbf03"
+      },
+      {
+        "title": "A guide to capacity planning for Airflow worker pool in Amazon MWAA",
+        "date": "2026-05-02T05:57:42.902557+00:00",
+        "hash_strict": "fc97875f4dbb",
+        "hash_medium": "1c8804bf6bdc"
+      },
+      {
+        "title": "Create monitoring dashboard for Amazon RDS for Db2",
+        "date": "2026-05-02T05:57:42.902580+00:00",
+        "hash_strict": "9addf9a4a52a",
+        "hash_medium": "28d18b6a459d"
+      },
+      {
+        "title": "Open Weight Text-to-Speach with Voxtral TTS",
+        "date": "2026-05-02T05:57:42.902600+00:00",
+        "hash_strict": "a9d61851a128",
+        "hash_medium": "121452f6a3c5"
       }
     ]
   }

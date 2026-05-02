@@ -1,11 +1,11 @@
 {
-  "total_posts": 232,
-  "posts_today": 2,
-  "last_post_date": "2026-05-01",
+  "total_posts": 233,
+  "posts_today": 1,
+  "last_post_date": "2026-05-02",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
-    "lessons": 18,
+    "lessons": 19,
     "digest": 185,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 47,
+    "aws.amazon.com": 52,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -42,7 +42,7 @@
     "martinfowler.com": 2,
     "towardsdatascience.com": 170,
     "www.snowflake.com": 69,
-    "kdnuggets.com": 43,
+    "kdnuggets.com": 44,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -302,17 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-03",
-      "time": "2026-03-03T07:27:59.393418+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-03",
       "time": "2026-03-03T11:55:34.987996+00:00",
@@ -1221,16 +1210,27 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T05:57:42.903906+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 205,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nSecurity champions share what shapes the future of operations.\n\nGlobal tech trends:\n1. 4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers\nContext: How we replaced Python pipelines with dlt, dbt, and Trino \u2014 and cut delivery time from weeks to one day. The post 4 YAML Files Instead of PySpark: How We Let Analysts Build...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/\n\n2. PyTorch NaNs Are Silent Killers \u2014 So I Built a 3ms Hook to Catch Them at the Exact Layer\nContext: NaNs don\u2019t crash your training \u2014 they quietly destroy it. After losing hours to a silent failure in a ResNet training run, I built a lightweight detector that pinpoints the...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/\n\n3. Data Clean Rooms for Privacy-First Collaboration\nContext: Discover Snowflake Data Clean Rooms for privacy-first, multiparty collaboration. Explore Snowsight, Cortex and governed AI-driven insights.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration\n\n4. The Best ETL Tools in 2026: A Practical Guide with Code Examples\nContext: ...\nChoosing the right ETL tools is one of the most important, and often confusing, decisions when building a data stack. With dozens of overlapping options, it's not always clear which tools actually\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/\n\n5. How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python\nContext: How can you validate that your variables tell a consistent risk? The post How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python appeared...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/\n\n6. Unified observability in Amazon OpenSearch Service: metrics, traces, and AI agent debugging in a single int\u2026\nContext: Amazon OpenSearch Service now brings application monitoring, native Amazon Managed Service for Prometheus integration, and AI agent tracing together in OpenSearch UI's...\nImpact: improves visibility, debugging speed, and reliability.\n\ud83d\udd17 https://aws.amazon.\n\n#Reporting #MySQL #DBT #DataVisualization #Snowflake #Oracle #Analytics",
-  "last_post_format": "digest",
+  "posts_created": 206,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Building agentic AI for Amazon RDS for SQL Server with Strands and AgentCore\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#SSIS #DataVisualization #Tableau #PowerBI #Databricks #Analytics #CloudData\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#DataWarehouse #Tableau #Looker #MLOps #Oracle #DataVisualization #MySQL",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com",
-    "towardsdatascience.com",
-    "www.dataquest.io",
-    "www.snowflake.com"
+    "kdnuggets.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-01T12:13:51.595983+00:00"
+  "last_post_timestamp": "2026-05-02T05:57:42.905083+00:00"
 }
