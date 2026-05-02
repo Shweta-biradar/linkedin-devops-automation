@@ -580,6 +580,7 @@
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents",
+    "https://www.kdnuggets.com/5-powerful-python-decorators-to-build-clean-ai-code",
     "https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications",
     "https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using",
     "https://www.kdnuggets.com/5-useful-diy-python-functions-for-error-handling",
@@ -603,6 +604,7 @@
     "https://www.kdnuggets.com/getting-started-with-python-async-programming",
     "https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes",
     "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
+    "https://www.kdnuggets.com/local-whisper-audio-transcription",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/open-weight-text-to-speach-with-voxtral-tts",
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
@@ -611,6 +613,7 @@
     "https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
+    "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
     "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
     "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
     "https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms",
@@ -638,6 +641,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
@@ -661,6 +665,8 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-partner-solutions",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-kafka-connector-v4-ga",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-ventures-backs-bedrock-data",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
@@ -823,9 +829,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456220355792224256",
-    "last_posted_at_utc": "2026-05-02T05:57:42.902620+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7456254047524872192",
+    "last_posted_at_utc": "2026-05-02T08:11:35.647985+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -904,6 +910,42 @@
         "date": "2026-05-02T05:57:42.902600+00:00",
         "hash_strict": "a9d61851a128",
         "hash_medium": "121452f6a3c5"
+      },
+      {
+        "title": "Snowflake Intelligence Partner Solutions Bring AI Edge to Industries",
+        "date": "2026-05-02T08:11:35.647682+00:00",
+        "hash_strict": "cf38f2245785",
+        "hash_medium": "538b9f478649"
+      },
+      {
+        "title": "Local Whisper Audio Transcription",
+        "date": "2026-05-02T08:11:35.647756+00:00",
+        "hash_strict": "4621b224556e",
+        "hash_medium": "6f15a9e6f950"
+      },
+      {
+        "title": "The \u201cRobust\u201d Data Scientist: Winning with Messy Data and Pingouin",
+        "date": "2026-05-02T08:11:35.647799+00:00",
+        "hash_strict": "17162bc34f44",
+        "hash_medium": "4832d26893a1"
+      },
+      {
+        "title": "Snowflake Kafka Connector V4",
+        "date": "2026-05-02T08:11:35.647846+00:00",
+        "hash_strict": "2554899fb9be",
+        "hash_medium": "2caded2a1221"
+      },
+      {
+        "title": "Datometry for Snowflake: Accelerate Teradata Migration",
+        "date": "2026-05-02T08:11:35.647879+00:00",
+        "hash_strict": "103cba89e378",
+        "hash_medium": "0baf4867fbb2"
+      },
+      {
+        "title": "5 Powerful Python Decorators to Build Clean AI Code",
+        "date": "2026-05-02T08:11:35.647913+00:00",
+        "hash_strict": "ef575558c273",
+        "hash_medium": "5c69110daa2d"
       }
     ]
   }

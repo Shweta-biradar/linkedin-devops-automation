@@ -1,12 +1,12 @@
 {
-  "total_posts": 233,
-  "posts_today": 1,
+  "total_posts": 234,
+  "posts_today": 2,
   "last_post_date": "2026-05-02",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 7,
     "lessons": 19,
-    "digest": 185,
+    "digest": 186,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -41,8 +41,8 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 170,
-    "www.snowflake.com": 69,
-    "kdnuggets.com": 44,
+    "www.snowflake.com": 72,
+    "kdnuggets.com": 47,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -302,14 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-03",
-      "time": "2026-03-03T11:55:34.987996+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com"
-      ]
-    },
     {
       "date": "2026-03-04",
       "time": "2026-03-04T04:57:27.528184+00:00",
@@ -1223,14 +1215,27 @@
         "aws.amazon.com",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T08:11:35.649346+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "kdnuggets.com",
+        "kdnuggets.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 206,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Building agentic AI for Amazon RDS for SQL Server with Strands and AgentCore\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#SSIS #DataVisualization #Tableau #PowerBI #Databricks #Analytics #CloudData\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#DataWarehouse #Tableau #Looker #MLOps #Oracle #DataVisualization #MySQL",
-  "last_post_format": "lessons",
+  "posts_created": 207,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nCloud pioneers highlight key developments for practitioners.\n\nKey developments:\n1. Datometry for Snowflake: Accelerate Teradata Migration\nContext: Announcing Datometry for Snowflake in Public Preview. Move Teradata workloads to Snowflake in weeks with minimal rewrites, low risk and near-zero disruption.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration\n\n2. Snowflake Intelligence Partner Solutions Bring AI Edge to Industries\nContext: Explore how Snowflake Intelligence partner solutions help teams get grounded, natural-language answers across enterprise data with industry-ready AI agents.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-partner-solutions\n\n3. Local Whisper Audio Transcription\nContext: Learn how to eranscribe audio locally using Faster\u2011Whisper and Python, with an emphasis on privacy\u2011first and CPU/GPU\u2011ready.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/local-whisper-audio-transcription\n\n4. Snowflake Kafka Connector V4\nContext: Experience up to 10 GB/s throughput and 50% cost savings with Snowflake Kafka Connector V4. Move ingestion logic server-side for better performance.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-kafka-connector-v4-ga\n\n5. 5 Powerful Python Decorators to Build Clean AI Code\nContext: This article outlines five particularly useful Python decorators that, based on developers' experience, haven proven themselves effective to make AI code cleaner.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/5-powerful-python-decorators-to-build-clean-ai-code\n\n6. The \u201cRobust\u201d Data Scientist: Winning with Messy Data and Pingouin\nContext: This article uncovers the craftsmanship of using robust statistics in data science processes: illustrating what to do when data fail tests due to not meeting standard assumptions.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?\n\n#BigQuery #MLOps #SSIS #Databricks #Statistics #SSRS #Automation",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
-    "aws.amazon.com"
+    "www.snowflake.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-05-02T05:57:42.905083+00:00"
+  "last_post_timestamp": "2026-05-02T08:11:35.653702+00:00"
 }
