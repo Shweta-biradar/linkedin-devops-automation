@@ -1,12 +1,12 @@
 {
-  "total_posts": 237,
-  "posts_today": 2,
+  "total_posts": 238,
+  "posts_today": 3,
   "last_post_date": "2026-05-03",
   "formats_used": {
     "case_study": 11,
     "deep_dive": 10,
     "lessons": 19,
-    "digest": 186,
+    "digest": 187,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 183,
+    "towardsdatascience.com": 184,
     "www.snowflake.com": 73,
     "kdnuggets.com": 47,
     "techcrunch.com": 6,
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-05",
-      "time": "2026-03-05T05:01:58.332788+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "blog.jetbrains.com",
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "www.bleepingcomputer.com"
-      ]
-    },
     {
       "date": "2026-03-05",
       "time": "2026-03-05T07:26:14.381735+00:00",
@@ -1226,14 +1213,21 @@
         "www.snowflake.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-03",
+      "time": "2026-05-03T12:06:00.098383+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 210,
-  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udd0e Deep dive: Agentic AI in Business: From Pilots to Operations\n\nSee how retail, manufacturing, and other industries turn agentic AI from pilots into operations with measurable business impact.\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nHow do you keep learning while managing operational load?\n\n#Oracle #Dashboard #Analytics #SSRS #DataAnalyst #SSIS #CloudData\n\n\u2753 What would you add to this deep dive?\n\n#Snowflake #Airflow #Oracle #SSIS #DataVisualization #Analytics #AdvancedAnalytics",
-  "last_post_format": "deep_dive",
+  "posts_created": 211,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSignal vs noise:\n1. 4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers\nContext: How we replaced Python pipelines with dlt, dbt, and Trino \u2014 and cut delivery time from weeks to one day. The post 4 YAML Files Instead of PySpark: How We Let Analysts Build...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#Databricks #DataVisualization #Analytics #SQL #SSRS #SAPHANA #ETL",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-03T08:20:22.891686+00:00"
+  "last_post_timestamp": "2026-05-03T12:06:00.099643+00:00"
 }

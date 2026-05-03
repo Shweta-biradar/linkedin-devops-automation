@@ -843,9 +843,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456618646979760128",
-    "last_posted_at_utc": "2026-05-03T08:20:22.889004+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7456675426057359360",
+    "last_posted_at_utc": "2026-05-03T12:06:00.096855+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1044,6 +1044,12 @@
         "date": "2026-05-03T08:20:22.888953+00:00",
         "hash_strict": "caff86e533b7",
         "hash_medium": "e861bdcb8e8a"
+      },
+      {
+        "title": "4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers",
+        "date": "2026-05-03T12:06:00.096777+00:00",
+        "hash_strict": "a6144722f9fc",
+        "hash_medium": "2a9c9db846d0"
       }
     ]
   }
