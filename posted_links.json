@@ -361,6 +361,7 @@
     "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
+    "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
     "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
@@ -368,11 +369,14 @@
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
+    "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/",
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
+    "https://towardsdatascience.com/ghost-a-database-for-our-times/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
+    "https://towardsdatascience.com/how-a-2021-quantization-algorithm-quietly-outperforms-its-2026-successor/",
     "https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/",
     "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
     "https://towardsdatascience.com/how-gpus-communicate/",
@@ -385,6 +389,7 @@
     "https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/",
     "https://towardsdatascience.com/how-to-effectively-review-claude-code-output/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
+    "https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
     "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
@@ -478,6 +483,7 @@
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
+    "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
@@ -835,8 +841,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456313453683810304",
-    "last_posted_at_utc": "2026-05-02T12:07:39.167428+00:00",
+    "last_post_id": "urn:li:share:7456588281862885376",
+    "last_posted_at_utc": "2026-05-03T06:19:43.810454+00:00",
     "last_format": "deep_dive",
     "topic_titles": [
       {
@@ -988,6 +994,42 @@
         "date": "2026-05-02T12:07:39.167404+00:00",
         "hash_strict": "a54fa9ff050e",
         "hash_medium": "0f944ca55f48"
+      },
+      {
+        "title": "How a 2021 Quantization Algorithm Quietly Outperforms Its 2026 Successor",
+        "date": "2026-05-03T06:19:43.810237+00:00",
+        "hash_strict": "bbbe9d333a8c",
+        "hash_medium": "1f82d537cc9f"
+      },
+      {
+        "title": "Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding",
+        "date": "2026-05-03T06:19:43.810326+00:00",
+        "hash_strict": "a66557e36fe8",
+        "hash_medium": "59502bc03a57"
+      },
+      {
+        "title": "Which Regularizer Should You Actually Use? Lessons from 134,400 Simulations",
+        "date": "2026-05-03T06:19:43.810358+00:00",
+        "hash_strict": "d1e623cb4a8d",
+        "hash_medium": "3feb4a923000"
+      },
+      {
+        "title": "How to Get Hired in the AI Era",
+        "date": "2026-05-03T06:19:43.810384+00:00",
+        "hash_strict": "68dc281706e8",
+        "hash_medium": "997f54091d9a"
+      },
+      {
+        "title": "Ghost: A Database for Our\u00a0Times?",
+        "date": "2026-05-03T06:19:43.810406+00:00",
+        "hash_strict": "deb2e6a5c1fa",
+        "hash_medium": "88bd17e90ac8"
+      },
+      {
+        "title": "Ensembles of Ensembles of Ensembles: A Guide to Stacking",
+        "date": "2026-05-03T06:19:43.810430+00:00",
+        "hash_strict": "c3f03e35ce18",
+        "hash_medium": "31e2ad112922"
       }
     ]
   }

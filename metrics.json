@@ -1,10 +1,10 @@
 {
-  "total_posts": 235,
-  "posts_today": 3,
-  "last_post_date": "2026-05-02",
+  "total_posts": 236,
+  "posts_today": 1,
+  "last_post_date": "2026-05-03",
   "formats_used": {
     "case_study": 11,
-    "deep_dive": 8,
+    "deep_dive": 9,
     "lessons": 19,
     "digest": 186,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 176,
+    "towardsdatascience.com": 182,
     "www.snowflake.com": 72,
     "kdnuggets.com": 47,
     "techcrunch.com": 6,
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-04",
-      "time": "2026-03-04T07:13:07.123404+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-04",
       "time": "2026-03-04T11:53:20.096031+00:00",
@@ -1228,13 +1215,26 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-03",
+      "time": "2026-05-03T06:19:43.811880+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 208,
-  "last_post_content": "\u26a1 Focused learning for teams.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Topic: Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings\n\nWhat it's about:\nStructure is all you need The post Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings appeared first on Towards Data Science .\n\nWhy it matters: practical signal for building reliable systems.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Production systems teach you things documentation never will\n\nWhat production experience changed how you design systems?\n\n#AdvancedAnalytics #Looker #DBT #BITools #PostgreSQL #Snowflake #SSAS\n\n\u2753 What\u2019s your experience with this topic?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/\n\n#Databricks #DataWarehouse #DataAnalyst #Automation #Snowflake #BusinessIntelligence #Looker",
+  "posts_created": 209,
+  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nPlatform architects surface deep insights.\n\n\ud83c\udfaf Which Regularizer Should You Actually Use? Lessons from 134,400 Simulations\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: A practitioner's decision framework for Ridge, Lasso, and ElasticNet based on three quantities you can compute before fitting a model The post Which Regularizer Should You...\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: Automate the boring stuff so humans can focus on the interesting problems\n\nWhich operational practices have scaled best for your team?\n\n#Reporting #Qlik #Analytics #MLOps #PostgreSQL #Automation #Alteryx\n\n\u2753 What\u2019s your experience with this topic?\n\n#CloudData #SSRS #Automation #Oracle #BITools #AdvancedAnalytics #Looker",
   "last_post_format": "deep_dive",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-02T12:07:39.170458+00:00"
+  "last_post_timestamp": "2026-05-03T06:19:43.813078+00:00"
 }
