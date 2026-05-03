@@ -1,10 +1,10 @@
 {
-  "total_posts": 236,
-  "posts_today": 1,
+  "total_posts": 237,
+  "posts_today": 2,
   "last_post_date": "2026-05-03",
   "formats_used": {
     "case_study": 11,
-    "deep_dive": 9,
+    "deep_dive": 10,
     "lessons": 19,
     "digest": 186,
     "lessons_learned": 2,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 182,
-    "www.snowflake.com": 72,
+    "towardsdatascience.com": 183,
+    "www.snowflake.com": 73,
     "kdnuggets.com": 47,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -302,17 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-04",
-      "time": "2026-03-04T11:53:20.096031+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-05",
       "time": "2026-03-05T05:01:58.332788+00:00",
@@ -1228,13 +1217,23 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-03",
+      "time": "2026-05-03T08:20:22.890428+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "www.snowflake.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 209,
-  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nPlatform architects surface deep insights.\n\n\ud83c\udfaf Which Regularizer Should You Actually Use? Lessons from 134,400 Simulations\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: A practitioner's decision framework for Ridge, Lasso, and ElasticNet based on three quantities you can compute before fitting a model The post Which Regularizer Should You...\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: Automate the boring stuff so humans can focus on the interesting problems\n\nWhich operational practices have scaled best for your team?\n\n#Reporting #Qlik #Analytics #MLOps #PostgreSQL #Automation #Alteryx\n\n\u2753 What\u2019s your experience with this topic?\n\n#CloudData #SSRS #Automation #Oracle #BITools #AdvancedAnalytics #Looker",
+  "posts_created": 210,
+  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udd0e Deep dive: Agentic AI in Business: From Pilots to Operations\n\nSee how retail, manufacturing, and other industries turn agentic AI from pilots into operations with measurable business impact.\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nHow do you keep learning while managing operational load?\n\n#Oracle #Dashboard #Analytics #SSRS #DataAnalyst #SSIS #CloudData\n\n\u2753 What would you add to this deep dive?\n\n#Snowflake #Airflow #Oracle #SSIS #DataVisualization #Analytics #AdvancedAnalytics",
   "last_post_format": "deep_dive",
   "last_post_sources": [
+    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-03T06:19:43.813078+00:00"
+  "last_post_timestamp": "2026-05-03T08:20:22.891686+00:00"
 }

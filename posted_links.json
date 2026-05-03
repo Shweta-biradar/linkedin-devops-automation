@@ -325,6 +325,7 @@
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
+    "https://towardsdatascience.com/agentic-ai-how-to-save-on-tokens/",
     "https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/",
     "https://towardsdatascience.com/agentic-rag-vs-classic-rag-from-a-pipeline-to-a-control-loop/",
     "https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/",
@@ -636,6 +637,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agent-context-layer-trustworthy-data-agents",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-business-operations0",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
@@ -841,8 +843,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456588281862885376",
-    "last_posted_at_utc": "2026-05-03T06:19:43.810454+00:00",
+    "last_post_id": "urn:li:share:7456618646979760128",
+    "last_posted_at_utc": "2026-05-03T08:20:22.889004+00:00",
     "last_format": "deep_dive",
     "topic_titles": [
       {
@@ -1030,6 +1032,18 @@
         "date": "2026-05-03T06:19:43.810430+00:00",
         "hash_strict": "c3f03e35ce18",
         "hash_medium": "31e2ad112922"
+      },
+      {
+        "title": "Agentic AI in Business: From Pilots to Operations",
+        "date": "2026-05-03T08:20:22.888860+00:00",
+        "hash_strict": "a3bd61094904",
+        "hash_medium": "3750d96e0d8f"
+      },
+      {
+        "title": "Agentic AI: How to Save on\u00a0Tokens",
+        "date": "2026-05-03T08:20:22.888953+00:00",
+        "hash_strict": "caff86e533b7",
+        "hash_medium": "e861bdcb8e8a"
       }
     ]
   }
