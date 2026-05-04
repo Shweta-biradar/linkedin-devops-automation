@@ -1,11 +1,11 @@
 {
-  "total_posts": 240,
-  "posts_today": 2,
+  "total_posts": 241,
+  "posts_today": 3,
   "last_post_date": "2026-05-04",
   "formats_used": {
     "case_study": 12,
     "deep_dive": 11,
-    "lessons": 19,
+    "lessons": 20,
     "digest": 187,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 186,
+    "towardsdatascience.com": 187,
     "www.snowflake.com": 73,
     "kdnuggets.com": 47,
     "techcrunch.com": 6,
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-06T04:59:02.947045+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "github.blog",
-        "kdnuggets.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-06",
       "time": "2026-03-06T07:15:22.404345+00:00",
@@ -1212,13 +1199,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-04",
+      "time": "2026-05-04T13:07:04.329403+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 213,
-  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Focus: A guide to capacity planning for Airflow worker pool in Amazon MWAA\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: In our previous post, A guide to Airflow worker pool optimization in Amazon MWAA, we explored when adding workers to your Amazon Managed Workflows for Apache Airflow (Amazon...\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: System evolution requires continuous learning and adaptation\n\nWhat would you do differently if you started over today?\n\n#CloudData #Alteryx #BITools #ETL #Looker #Qlik #Automation\n\n\u2753 How would you apply this insight?\n\n\ud83d\udcd6 https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/\n\n#AdvancedAnalytics #SAPHANA #Looker #DataWarehouse #Insights #ETL #SSIS",
-  "last_post_format": "deep_dive",
+  "posts_created": 214,
+  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: How AI Tools Generate Technical Debt in IoT Systems \u2014 and What to Do About It\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Python #Airflow #PostgreSQL #PowerBI #Redshift #BusinessIntelligence #Statistics\n\n\u2753 What would you add to this list?\n\n#SQL #DataAnalyst #SSRS #MLOps #PostgreSQL #Looker #BusinessIntelligence",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-04T09:04:16.181471+00:00"
+  "last_post_timestamp": "2026-05-04T13:07:04.330581+00:00"
 }

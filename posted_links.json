@@ -380,6 +380,7 @@
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
     "https://towardsdatascience.com/how-a-2021-quantization-algorithm-quietly-outperforms-its-2026-successor/",
     "https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/",
+    "https://towardsdatascience.com/how-ai-tools-generate-technical-debt-in-iot-systems-and-what-to-do-about-it/",
     "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
@@ -845,9 +846,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456992079530045440",
-    "last_posted_at_utc": "2026-05-04T09:04:16.178932+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7457053182960091136",
+    "last_posted_at_utc": "2026-05-04T13:07:04.327900+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1070,6 +1071,12 @@
         "date": "2026-05-04T09:04:16.178831+00:00",
         "hash_strict": "fc97875f4dbb",
         "hash_medium": "1c8804bf6bdc"
+      },
+      {
+        "title": "How AI Tools Generate Technical Debt in IoT Systems \u2014 and What to Do About It",
+        "date": "2026-05-04T13:07:04.327792+00:00",
+        "hash_strict": "919f9e4060b8",
+        "hash_medium": "46d79931adf8"
       }
     ]
   }
