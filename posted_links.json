@@ -845,9 +845,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456953334789492737",
-    "last_posted_at_utc": "2026-05-04T06:30:18.689919+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7456992079530045440",
+    "last_posted_at_utc": "2026-05-04T09:04:16.178932+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1064,6 +1064,12 @@
         "date": "2026-05-04T06:30:18.689862+00:00",
         "hash_strict": "b35761cc9593",
         "hash_medium": "05db0d3c9135"
+      },
+      {
+        "title": "A guide to capacity planning for Airflow worker pool in Amazon MWAA",
+        "date": "2026-05-04T09:04:16.178831+00:00",
+        "hash_strict": "fc97875f4dbb",
+        "hash_medium": "1c8804bf6bdc"
       }
     ]
   }

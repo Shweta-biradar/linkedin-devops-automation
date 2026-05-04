@@ -1,10 +1,10 @@
 {
-  "total_posts": 239,
-  "posts_today": 1,
+  "total_posts": 240,
+  "posts_today": 2,
   "last_post_date": "2026-05-04",
   "formats_used": {
     "case_study": 12,
-    "deep_dive": 10,
+    "deep_dive": 11,
     "lessons": 19,
     "digest": 187,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 52,
+    "aws.amazon.com": 53,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-05",
-      "time": "2026-03-05T11:56:02.605785+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-06",
       "time": "2026-03-06T04:59:02.947045+00:00",
@@ -1217,13 +1204,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-04",
+      "time": "2026-05-04T09:04:16.180290+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 212,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\u23f1\ufe0f Timeline: Inference Scaling (Test-Time Compute): Why Reasoning Models Raise Your Compute Bill\n\n\u2192 Challenge: Why reasoning models dramatically increase token usage, latency, and infrastructure costs in production systems The post Inference Scaling (Test-Time Compute): Why Reasoning...\n\u2192 Learning: improves infrastructure reliability and consistency.\n\nCore principles:\n\u2022 Self-service capabilities reduce both toil and tickets\n\u2022 Platform teams succeed by treating developers as customers\n\u2022 Continuous improvement through measurement\n\nHow do you balance standardization with team autonomy?\n\n#Insights #Qlik #DBT #Looker #Alteryx #Snowflake #Airflow\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DataWarehouse #Dashboard #SQL #Databricks",
-  "last_post_format": "case_study",
+  "posts_created": 213,
+  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Focus: A guide to capacity planning for Airflow worker pool in Amazon MWAA\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: In our previous post, A guide to Airflow worker pool optimization in Amazon MWAA, we explored when adding workers to your Amazon Managed Workflows for Apache Airflow (Amazon...\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: System evolution requires continuous learning and adaptation\n\nWhat would you do differently if you started over today?\n\n#CloudData #Alteryx #BITools #ETL #Looker #Qlik #Automation\n\n\u2753 How would you apply this insight?\n\n\ud83d\udcd6 https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/\n\n#AdvancedAnalytics #SAPHANA #Looker #DataWarehouse #Insights #ETL #SSIS",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-04T06:30:18.694652+00:00"
+  "last_post_timestamp": "2026-05-04T09:04:16.181471+00:00"
 }
