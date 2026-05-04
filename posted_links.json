@@ -358,6 +358,7 @@
     "https://towardsdatascience.com/correlation-doesnt-mean-causation-but-what-does-it-mean/",
     "https://towardsdatascience.com/creating-a-data-pipeline-to-monitor-local-crime-trends/",
     "https://towardsdatascience.com/creating-an-etch-a-sketch-app-using-python-turtle/",
+    "https://towardsdatascience.com/cspnet-paper-walkthrough-just-better-no-tradeoff/",
     "https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/",
     "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
@@ -406,6 +407,7 @@
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
+    "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
     "https://towardsdatascience.com/introducing-gemini-embeddings-2-preview/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
@@ -843,9 +845,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7456675426057359360",
-    "last_posted_at_utc": "2026-05-03T12:06:00.096855+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7456953334789492737",
+    "last_posted_at_utc": "2026-05-04T06:30:18.689919+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1050,6 +1052,18 @@
         "date": "2026-05-03T12:06:00.096777+00:00",
         "hash_strict": "a6144722f9fc",
         "hash_medium": "2a9c9db846d0"
+      },
+      {
+        "title": "CSPNet Paper Walkthrough: Just Better, No Tradeoffs",
+        "date": "2026-05-04T06:30:18.689778+00:00",
+        "hash_strict": "65417d13703e",
+        "hash_medium": "0452584e8417"
+      },
+      {
+        "title": "Inference Scaling (Test-Time Compute): Why Reasoning Models Raise Your Compute Bill",
+        "date": "2026-05-04T06:30:18.689862+00:00",
+        "hash_strict": "b35761cc9593",
+        "hash_medium": "05db0d3c9135"
       }
     ]
   }

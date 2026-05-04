@@ -1,9 +1,9 @@
 {
-  "total_posts": 238,
-  "posts_today": 3,
-  "last_post_date": "2026-05-03",
+  "total_posts": 239,
+  "posts_today": 1,
+  "last_post_date": "2026-05-04",
   "formats_used": {
-    "case_study": 11,
+    "case_study": 12,
     "deep_dive": 10,
     "lessons": 19,
     "digest": 187,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 184,
+    "towardsdatascience.com": 186,
     "www.snowflake.com": 73,
     "kdnuggets.com": 47,
     "techcrunch.com": 6,
@@ -302,19 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-05",
-      "time": "2026-03-05T07:26:14.381735+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-05",
       "time": "2026-03-05T11:56:02.605785+00:00",
@@ -1221,13 +1208,22 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-04",
+      "time": "2026-05-04T06:30:18.691432+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 211,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nSignal vs noise:\n1. 4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers\nContext: How we replaced Python pipelines with dlt, dbt, and Trino \u2014 and cut delivery time from weeks to one day. The post 4 YAML Files Instead of PySpark: How We Let Analysts Build...\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#Databricks #DataVisualization #Analytics #SQL #SSRS #SAPHANA #ETL",
-  "last_post_format": "digest",
+  "posts_created": 212,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\u23f1\ufe0f Timeline: Inference Scaling (Test-Time Compute): Why Reasoning Models Raise Your Compute Bill\n\n\u2192 Challenge: Why reasoning models dramatically increase token usage, latency, and infrastructure costs in production systems The post Inference Scaling (Test-Time Compute): Why Reasoning...\n\u2192 Learning: improves infrastructure reliability and consistency.\n\nCore principles:\n\u2022 Self-service capabilities reduce both toil and tickets\n\u2022 Platform teams succeed by treating developers as customers\n\u2022 Continuous improvement through measurement\n\nHow do you balance standardization with team autonomy?\n\n#Insights #Qlik #DBT #Looker #Alteryx #Snowflake #Airflow\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DataWarehouse #Dashboard #SQL #Databricks",
+  "last_post_format": "case_study",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-03T12:06:00.099643+00:00"
+  "last_post_timestamp": "2026-05-04T06:30:18.694652+00:00"
 }
