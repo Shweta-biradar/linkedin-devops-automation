@@ -698,6 +698,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/tensorstax-acquisition-agentic-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/unifying-enterprise-ai-lifecycle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/universal-ai-catalog-data-governance",
+    "https://www.udacity.com/blog/why-product-discovery-matters-more-than-ever-in-the-age-of-ai/",
     "https://www.welivesecurity.com/en/eset-research/revisiting-cve-2025-50165-critical-flaw-windows-imaging-component/",
     "https://www.welivesecurity.com/en/scams/brush-online-fraud-what-are-brushing-scams-how-do-i-stay-safe/",
     "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-december-2025/"
@@ -851,9 +852,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7457309011592368129",
-    "last_posted_at_utc": "2026-05-05T06:03:38.607630+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7457346634184835072",
+    "last_posted_at_utc": "2026-05-05T08:33:08.549807+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1112,6 +1113,12 @@
         "date": "2026-05-05T06:03:38.607604+00:00",
         "hash_strict": "57624f021e1c",
         "hash_medium": "920ff130ce01"
+      },
+      {
+        "title": "Why product discovery matters more than ever in the age of AI",
+        "date": "2026-05-05T08:33:08.549723+00:00",
+        "hash_strict": "957acdbaa071",
+        "hash_medium": "16fe60f1f216"
       }
     ]
   }
