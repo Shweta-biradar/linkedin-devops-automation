@@ -1,12 +1,12 @@
 {
-  "total_posts": 243,
-  "posts_today": 2,
+  "total_posts": 244,
+  "posts_today": 3,
   "last_post_date": "2026-05-05",
   "formats_used": {
     "case_study": 12,
     "deep_dive": 11,
     "lessons": 21,
-    "digest": 188,
+    "digest": 189,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 190,
+    "towardsdatascience.com": 191,
     "www.snowflake.com": 73,
     "kdnuggets.com": 49,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-07",
-      "time": "2026-03-07T04:50:14.297454+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-07",
       "time": "2026-03-07T07:06:31.947198+00:00",
@@ -1211,13 +1198,21 @@
       "sources": [
         "www.udacity.com"
       ]
+    },
+    {
+      "date": "2026-05-05",
+      "time": "2026-05-05T12:48:14.073126+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 216,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nAutomation architects drive efficiency and scale across industries.\n\nAutomation strategies:\n1. Why product discovery matters more than ever in the age of AI\nContext: ...\nA product team uses an AI coding assistant to turn a rough concept into a working prototype in a single afternoon. What used to take two sprints now takes two hours. The demo looks great. Stakehol\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.udacity.com/blog/why-product-discovery-matters-more-than-ever-in-the-age-of-ai/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#Statistics #ETL #BusinessIntelligence #Qlik #Tableau #SSRS #SSAS",
+  "posts_created": 217,
+  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nAI innovators map the future of intelligent systems.\n\nThis week's standouts:\n1. Surviving High Uncertainty in Logistics with MARL\nContext: Part 2. Building scale-invariant agents that seamlessly change contexts The post Surviving High Uncertainty in Logistics with MARL appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#DBT #Tableau #SSAS #Databricks #MySQL #Analytics #Dashboard",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.udacity.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-05T08:33:08.552024+00:00"
+  "last_post_timestamp": "2026-05-05T12:48:14.074282+00:00"
 }

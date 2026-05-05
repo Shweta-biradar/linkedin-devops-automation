@@ -455,6 +455,7 @@
     "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
     "https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
+    "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
     "https://towardsdatascience.com/system-design-series-apache-flink-from-10000-feet-and-building-a-flink-powered-recommendation-engine/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
@@ -852,8 +853,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7457346634184835072",
-    "last_posted_at_utc": "2026-05-05T08:33:08.549807+00:00",
+    "last_post_id": "urn:li:share:7457410830024826882",
+    "last_posted_at_utc": "2026-05-05T12:48:14.071531+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -1119,6 +1120,12 @@
         "date": "2026-05-05T08:33:08.549723+00:00",
         "hash_strict": "957acdbaa071",
         "hash_medium": "16fe60f1f216"
+      },
+      {
+        "title": "Surviving High Uncertainty in Logistics with\u00a0MARL",
+        "date": "2026-05-05T12:48:14.071433+00:00",
+        "hash_strict": "f1afa18b7144",
+        "hash_medium": "b84be3b402b4"
       }
     ]
   }
