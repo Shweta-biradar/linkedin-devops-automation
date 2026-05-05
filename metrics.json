@@ -1,11 +1,11 @@
 {
-  "total_posts": 241,
-  "posts_today": 3,
-  "last_post_date": "2026-05-04",
+  "total_posts": 242,
+  "posts_today": 1,
+  "last_post_date": "2026-05-05",
   "formats_used": {
     "case_study": 12,
     "deep_dive": 11,
-    "lessons": 20,
+    "lessons": 21,
     "digest": 187,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 187,
+    "towardsdatascience.com": 190,
     "www.snowflake.com": 73,
-    "kdnuggets.com": 47,
+    "kdnuggets.com": 49,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -302,15 +302,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-06T07:15:22.404345+00:00",
-      "format": "digest",
-      "sources": [
-        "github.blog",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-06",
       "time": "2026-03-06T11:52:03.463827+00:00",
@@ -1207,13 +1198,26 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-05",
+      "time": "2026-05-05T06:03:38.609078+00:00",
+      "format": "lessons",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 214,
-  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: How AI Tools Generate Technical Debt in IoT Systems \u2014 and What to Do About It\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Python #Airflow #PostgreSQL #PowerBI #Redshift #BusinessIntelligence #Statistics\n\n\u2753 What would you add to this list?\n\n#SQL #DataAnalyst #SSRS #MLOps #PostgreSQL #Looker #BusinessIntelligence",
+  "posts_created": 215,
+  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Single Agent vs Multi-Agent: When to Build a Multi-Agent System\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Dashboard #Statistics #SQL #Snowflake #SAPHANA #CloudData #Analytics\n\n\u2753 How do you apply these lessons?\n\n#DataVisualization #Redshift #DataAnalyst #Insights #AdvancedAnalytics #BigQuery #SSIS",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-05-04T13:07:04.330581+00:00"
+  "last_post_timestamp": "2026-05-05T06:03:38.610316+00:00"
 }

@@ -387,6 +387,7 @@
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
     "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
     "https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/",
+    "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
     "https://towardsdatascience.com/how-to-create-production-ready-code-with-claude-code/",
     "https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/",
@@ -428,6 +429,7 @@
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
+    "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
     "https://towardsdatascience.com/production-ready-llm-agents-a-comprehensive-framework-for-offline-evaluation/",
     "https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/",
@@ -445,6 +447,7 @@
     "https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/",
     "https://towardsdatascience.com/self-hosting-your-first-llm/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
+    "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
     "https://towardsdatascience.com/solving-the-human-training-data-problem/",
     "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
@@ -619,6 +622,7 @@
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/getting-started-with-python-async-programming",
     "https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes",
+    "https://www.kdnuggets.com/how-to-deploy-your-first-app-on-fastapi-cloud",
     "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
     "https://www.kdnuggets.com/local-whisper-audio-transcription",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
@@ -626,6 +630,7 @@
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
     "https://www.kdnuggets.com/postgres-vs-mysql-vs-sqlite-comparing-sql-performance-across-engines",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
+    "https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation",
     "https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
@@ -846,8 +851,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7457053182960091136",
-    "last_posted_at_utc": "2026-05-04T13:07:04.327900+00:00",
+    "last_post_id": "urn:li:share:7457309011592368129",
+    "last_posted_at_utc": "2026-05-05T06:03:38.607630+00:00",
     "last_format": "lessons",
     "topic_titles": [
       {
@@ -1077,6 +1082,36 @@
         "date": "2026-05-04T13:07:04.327792+00:00",
         "hash_strict": "919f9e4060b8",
         "hash_medium": "46d79931adf8"
+      },
+      {
+        "title": "Testing SQL Like a Software Engineer: Unit Testing, CI/CD, and Data Quality Automation",
+        "date": "2026-05-05T06:03:38.607337+00:00",
+        "hash_strict": "175a9df63eaa",
+        "hash_medium": "6a05c9954847"
+      },
+      {
+        "title": "How to Build an Efficient Knowledge Base for AI Models",
+        "date": "2026-05-05T06:03:38.607476+00:00",
+        "hash_strict": "18e6580b191a",
+        "hash_medium": "0001c7ffd4c2"
+      },
+      {
+        "title": "Single Agent vs Multi-Agent: When to Build a Multi-Agent System",
+        "date": "2026-05-05T06:03:38.607535+00:00",
+        "hash_strict": "d4192fb52aa6",
+        "hash_medium": "31d4d2afb1ef"
+      },
+      {
+        "title": "How to Deploy Your First App on FastAPI Cloud",
+        "date": "2026-05-05T06:03:38.607576+00:00",
+        "hash_strict": "04ea2464db5a",
+        "hash_medium": "0d401bf62d69"
+      },
+      {
+        "title": "Playing Connect Four with Deep Q-Learning",
+        "date": "2026-05-05T06:03:38.607604+00:00",
+        "hash_strict": "57624f021e1c",
+        "hash_medium": "920ff130ce01"
       }
     ]
   }
