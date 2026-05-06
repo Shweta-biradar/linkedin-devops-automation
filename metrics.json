@@ -1,11 +1,11 @@
 {
-  "total_posts": 245,
-  "posts_today": 1,
+  "total_posts": 246,
+  "posts_today": 2,
   "last_post_date": "2026-05-06",
   "formats_used": {
     "case_study": 13,
     "deep_dive": 11,
-    "lessons": 21,
+    "lessons": 22,
     "digest": 189,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 53,
+    "aws.amazon.com": 56,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-07",
-      "time": "2026-03-07T11:42:33.218948+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-08",
       "time": "2026-03-08T05:00:03.513510+00:00",
@@ -1208,14 +1200,23 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-06",
+      "time": "2026-05-06T09:15:54.492074+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 218,
-  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: AI Transformation and Governance Inside Snowflake\u2019s Ecosystem\n\nThe story: Explore how Snowflake is approaching AI transformation as a governance challenge, using its partner ecosystem to deliver faster enterprise outcomes.\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Operational simplicity beats architectural elegance every time\n\u2192 Step 2: System evolution requires continuous learning and adaptation\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you balance technical debt with new feature development?\n\n#Dashboard #ETL #Looker #SSRS #BITools #Tableau #Insights\n\n\u2753 Have you seen similar patterns?\n\nFull story: https://www.snowflake.com/content/snowflake-site/global/en/blog/inside-the-boardroom-ecosystem-operating-system\n\n#Insights #AdvancedAnalytics #Dashboard #MySQL #Python #SQL #Reporting",
-  "last_post_format": "case_study",
+  "posts_created": 219,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nAnalytics experts reveal what sticks.\n\nTopic: How Amazon DocumentDB on AWS Graviton4 R8g instances delivers 63% better Sysbench benchmark results\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nShare your hard-won wisdom below.\n\n#Cloud #CloudArchitecture #CloudNative #Insights #Snowflake #Dashboard #Databricks\n\n\u2753 What would you add to this list?\n\n#Cloud #CloudArchitecture #CloudNative #PostgreSQL #Snowflake #ETL #DataVisualization",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.snowflake.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-06T06:18:37.452602+00:00"
+  "last_post_timestamp": "2026-05-06T09:15:54.493309+00:00"
 }
