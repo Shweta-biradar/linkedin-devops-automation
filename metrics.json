@@ -1,11 +1,11 @@
 {
-  "total_posts": 246,
-  "posts_today": 2,
+  "total_posts": 247,
+  "posts_today": 3,
   "last_post_date": "2026-05-06",
   "formats_used": {
     "case_study": 13,
     "deep_dive": 11,
-    "lessons": 22,
+    "lessons": 23,
     "digest": 189,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 194,
+    "towardsdatascience.com": 195,
     "www.snowflake.com": 75,
-    "kdnuggets.com": 49,
+    "kdnuggets.com": 50,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
@@ -303,18 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-08",
-      "time": "2026-03-08T05:00:03.513510+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-08",
       "time": "2026-03-08T07:09:58.123739+00:00",
@@ -1210,13 +1198,23 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-06",
+      "time": "2026-05-06T13:12:20.310125+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 219,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nAnalytics experts reveal what sticks.\n\nTopic: How Amazon DocumentDB on AWS Graviton4 R8g instances delivers 63% better Sysbench benchmark results\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nShare your hard-won wisdom below.\n\n#Cloud #CloudArchitecture #CloudNative #Insights #Snowflake #Dashboard #Databricks\n\n\u2753 What would you add to this list?\n\n#Cloud #CloudArchitecture #CloudNative #PostgreSQL #Snowflake #ETL #DataVisualization",
+  "posts_created": 220,
+  "last_post_content": "\ud83d\udca1 What production taught us.\nStrategic thinkers highlight recurring patterns.\n\nTopic: 7 OpenCode Plugins That Make AI Coding More Powerful\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#Alteryx #Airflow #Looker #Dashboard #SSRS #Redshift #SSIS\n\n\u2753 Which lesson resonates most with your team?\n\n#BigQuery #Snowflake #Redshift #ETL #PostgreSQL #Python #MLOps",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-05-06T09:15:54.493309+00:00"
+  "last_post_timestamp": "2026-05-06T13:12:20.311394+00:00"
 }

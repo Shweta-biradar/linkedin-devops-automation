@@ -423,6 +423,7 @@
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
+    "https://towardsdatascience.com/metric-presentation-101/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
@@ -616,6 +617,7 @@
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis",
     "https://www.kdnuggets.com/7-essential-openclaw-skills-you-need-right-now",
+    "https://www.kdnuggets.com/7-opencode-plugins-that-make-ai-coding-more-powerful",
     "https://www.kdnuggets.com/7-python-eda-tricks-to-find-and-fix-data-issues",
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
     "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
@@ -861,8 +863,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7457719784252559362",
-    "last_posted_at_utc": "2026-05-06T09:15:54.490321+00:00",
+    "last_post_id": "urn:li:share:7457779283860574208",
+    "last_posted_at_utc": "2026-05-06T13:12:20.308194+00:00",
     "last_format": "lessons",
     "topic_titles": [
       {
@@ -1182,6 +1184,18 @@
         "date": "2026-05-06T09:15:54.490281+00:00",
         "hash_strict": "08af02ac44a8",
         "hash_medium": "277c01ba0bcf"
+      },
+      {
+        "title": "Deconstruct Any Metric with a Few Simple \u2018What\u2019 Questions",
+        "date": "2026-05-06T13:12:20.308034+00:00",
+        "hash_strict": "e098744bc759",
+        "hash_medium": "6d19efab36b7"
+      },
+      {
+        "title": "7 OpenCode Plugins That Make AI Coding More Powerful",
+        "date": "2026-05-06T13:12:20.308146+00:00",
+        "hash_strict": "789b92065f1a",
+        "hash_medium": "30855f5f5305"
       }
     ]
   }
