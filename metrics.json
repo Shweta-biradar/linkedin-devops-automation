@@ -1,9 +1,9 @@
 {
-  "total_posts": 244,
-  "posts_today": 3,
-  "last_post_date": "2026-05-05",
+  "total_posts": 245,
+  "posts_today": 1,
+  "last_post_date": "2026-05-06",
   "formats_used": {
-    "case_study": 12,
+    "case_study": 13,
     "deep_dive": 11,
     "lessons": 21,
     "digest": 189,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 191,
-    "www.snowflake.com": 73,
+    "towardsdatascience.com": 194,
+    "www.snowflake.com": 75,
     "kdnuggets.com": 49,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-07",
-      "time": "2026-03-07T07:06:31.947198+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-07",
       "time": "2026-03-07T11:42:33.218948+00:00",
@@ -1206,13 +1196,26 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-06",
+      "time": "2026-05-06T06:18:37.451420+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 217,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nAI innovators map the future of intelligent systems.\n\nThis week's standouts:\n1. Surviving High Uncertainty in Logistics with MARL\nContext: Part 2. Building scale-invariant agents that seamlessly change contexts The post Surviving High Uncertainty in Logistics with MARL appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#DBT #Tableau #SSAS #Databricks #MySQL #Analytics #Dashboard",
-  "last_post_format": "digest",
+  "posts_created": 218,
+  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: AI Transformation and Governance Inside Snowflake\u2019s Ecosystem\n\nThe story: Explore how Snowflake is approaching AI transformation as a governance challenge, using its partner ecosystem to deliver faster enterprise outcomes.\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Operational simplicity beats architectural elegance every time\n\u2192 Step 2: System evolution requires continuous learning and adaptation\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you balance technical debt with new feature development?\n\n#Dashboard #ETL #Looker #SSRS #BITools #Tableau #Insights\n\n\u2753 Have you seen similar patterns?\n\nFull story: https://www.snowflake.com/content/snowflake-site/global/en/blog/inside-the-boardroom-ecosystem-operating-system\n\n#Insights #AdvancedAnalytics #Dashboard #MySQL #Python #SQL #Reporting",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-05T12:48:14.074282+00:00"
+  "last_post_timestamp": "2026-05-06T06:18:37.452602+00:00"
 }

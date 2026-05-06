@@ -361,6 +361,7 @@
     "https://towardsdatascience.com/cspnet-paper-walkthrough-just-better-no-tradeoff/",
     "https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/",
     "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
+    "https://towardsdatascience.com/discrete-time-to-event-modeling-predicting-when-something-will-happen/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
@@ -397,6 +398,7 @@
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
     "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
+    "https://towardsdatascience.com/how-to-make-claude-code-validate-its-own-work/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
@@ -438,6 +440,7 @@
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
+    "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/rope-clearly-explained/",
@@ -670,6 +673,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/give-to-gain-women-in-tech-international-womens-day",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/how-data-ai-reshaping-careers",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/inside-the-boardroom-ecosystem-operating-system",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
@@ -690,6 +694,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-partner-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-kafka-connector-v4-ga",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-openflow-cortex-code-integration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-ventures-backs-bedrock-data",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
@@ -853,9 +858,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7457410830024826882",
-    "last_posted_at_utc": "2026-05-05T12:48:14.071531+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7457675168975577088",
+    "last_posted_at_utc": "2026-05-06T06:18:37.449954+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1126,6 +1131,36 @@
         "date": "2026-05-05T12:48:14.071433+00:00",
         "hash_strict": "f1afa18b7144",
         "hash_medium": "b84be3b402b4"
+      },
+      {
+        "title": "Snowflake Openflow & Cortex Code: AI-Driven Data Integration",
+        "date": "2026-05-06T06:18:37.449669+00:00",
+        "hash_strict": "bed6f491d292",
+        "hash_medium": "f19f53ccc5b9"
+      },
+      {
+        "title": "AI Transformation and Governance Inside Snowflake\u2019s Ecosystem",
+        "date": "2026-05-06T06:18:37.449744+00:00",
+        "hash_strict": "cb8f3b9cabeb",
+        "hash_medium": "a4936ad9a05d"
+      },
+      {
+        "title": "RAG Hallucinates \u2014 I Built a Self-Healing Layer That Fixes It in Real Time",
+        "date": "2026-05-06T06:18:37.449808+00:00",
+        "hash_strict": "213f4d80d2cd",
+        "hash_medium": "2c89db66c839"
+      },
+      {
+        "title": "How to Make Claude Code Validate its own Work",
+        "date": "2026-05-06T06:18:37.449869+00:00",
+        "hash_strict": "f7f6bf859905",
+        "hash_medium": "a20f80c90869"
+      },
+      {
+        "title": "Discrete Time-To-Event Modeling \u2013 Predicting When Something Will Happen",
+        "date": "2026-05-06T06:18:37.449917+00:00",
+        "hash_strict": "6115c666121a",
+        "hash_medium": "6354b06ef312"
       }
     ]
   }
