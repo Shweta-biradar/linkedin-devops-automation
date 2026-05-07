@@ -14,6 +14,7 @@
     "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/",
+    "https://aws.amazon.com/blogs/big-data/build-streaming-applications-on-amazon-managed-service-for-apache-flink-with-ai-assisted-guidance/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/designing-centralized-and-distributed-network-connectivity-patterns-for-amazon-opensearch-serverless-part-1/",
@@ -340,6 +341,7 @@
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/",
     "https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/",
+    "https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/",
     "https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
@@ -486,6 +488,7 @@
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/",
+    "https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/",
     "https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/",
     "https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/",
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
@@ -501,6 +504,7 @@
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
+    "https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
     "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/",
@@ -566,6 +570,7 @@
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
+    "https://www.getdbt.com/blog/the-dbt-developer-agent-is-now-in-preview",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
     "https://www.infoq.com/articles/evolution-backend-streaming-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -700,6 +705,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-partner-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-kafka-connector-v4-ga",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-openflow-cortex-code-integration",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-veeva-agentic-ai-life-sciences",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-ventures-backs-bedrock-data",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
@@ -863,9 +869,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7457779283860574208",
-    "last_posted_at_utc": "2026-05-06T13:12:20.308194+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7458039635911528451",
+    "last_posted_at_utc": "2026-05-07T06:26:53.076442+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1196,6 +1202,42 @@
         "date": "2026-05-06T13:12:20.308146+00:00",
         "hash_strict": "789b92065f1a",
         "hash_medium": "30855f5f5305"
+      },
+      {
+        "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
+        "date": "2026-05-07T06:26:53.076129+00:00",
+        "hash_strict": "aedd1d84c8ba",
+        "hash_medium": "3f7c79d2066f"
+      },
+      {
+        "title": "The dbt Developer Agent is now in Preview: the coding agent for analytics engineering",
+        "date": "2026-05-07T06:26:53.076202+00:00",
+        "hash_strict": "f7d60e958ce6",
+        "hash_medium": "b1c6ba1e7c9b"
+      },
+      {
+        "title": "Build streaming applications on Amazon Managed Service for Apache Flink with AI-assisted guidance",
+        "date": "2026-05-07T06:26:53.076261+00:00",
+        "hash_strict": "c7d57832e178",
+        "hash_medium": "79cd8b5291fb"
+      },
+      {
+        "title": "Beyond Lists: Using Python Deque for Real-Time Sliding\u00a0Windows",
+        "date": "2026-05-07T06:26:53.076296+00:00",
+        "hash_strict": "5a48cb8daee8",
+        "hash_medium": "21245ada6e25"
+      },
+      {
+        "title": "Why I Don\u2019t Trust LLMs to Decide When the Weather Changed",
+        "date": "2026-05-07T06:26:53.076375+00:00",
+        "hash_strict": "bf933b0a9fe6",
+        "hash_medium": "bae60b00519c"
+      },
+      {
+        "title": "Timer-XL: A Long-Context Foundation Model for Time-Series Forecasting",
+        "date": "2026-05-07T06:26:53.076411+00:00",
+        "hash_strict": "8e8dee4cf046",
+        "hash_medium": "7a5826c875ca"
       }
     ]
   }

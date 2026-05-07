@@ -1,9 +1,9 @@
 {
-  "total_posts": 247,
-  "posts_today": 3,
-  "last_post_date": "2026-05-06",
+  "total_posts": 248,
+  "posts_today": 1,
+  "last_post_date": "2026-05-07",
   "formats_used": {
-    "case_study": 13,
+    "case_study": 14,
     "deep_dive": 11,
     "lessons": 23,
     "digest": 189,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 56,
+    "aws.amazon.com": 57,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 195,
-    "www.snowflake.com": 75,
+    "towardsdatascience.com": 198,
+    "www.snowflake.com": 76,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
-    "www.dbt.com": 2,
+    "www.dbt.com": 3,
     "www.dataquest.io": 13,
     "www.udacity.com": 1
   },
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-08",
-      "time": "2026-03-08T07:09:58.123739+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-08",
       "time": "2026-03-08T11:45:35.766180+00:00",
@@ -1207,14 +1199,29 @@
         "towardsdatascience.com",
         "kdnuggets.com"
       ]
+    },
+    {
+      "date": "2026-05-07",
+      "time": "2026-05-07T06:26:53.077835+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.snowflake.com",
+        "www.dbt.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 220,
-  "last_post_content": "\ud83d\udca1 What production taught us.\nStrategic thinkers highlight recurring patterns.\n\nTopic: 7 OpenCode Plugins That Make AI Coding More Powerful\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#Alteryx #Airflow #Looker #Dashboard #SSRS #Redshift #SSIS\n\n\u2753 Which lesson resonates most with your team?\n\n#BigQuery #Snowflake #Redshift #ETL #PostgreSQL #Python #MLOps",
-  "last_post_format": "lessons",
+  "posts_created": 221,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Why I Don\u2019t Trust LLMs to Decide When the Weather Changed\n\n\ud83d\udcca Data: A physicist's approach to building production-grade agents The post Why I Don\u2019t Trust LLMs to Decide When the Weather Changed appeared first on Towards Data Science .\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Pipeline as code prevents configuration drift and bus factor issues\n\u2611\ufe0f Deployment frequency correlates with stability when done right\n\u2611\ufe0f Track results and optimize\n\nWhich testing strategy gives you the most confidence?\n\n#CloudData #DataAnalyst #ETL #Reporting #BITools #Automation #Databricks\n\n\u2753 Would this work in your environment?\n\nFull story: https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/\n\n#BITools #Oracle #SSRS #Redshift #Qlik #MySQL #Reporting",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com"
+    "www.dbt.com",
+    "aws.amazon.com",
+    "www.snowflake.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-06T13:12:20.311394+00:00"
+  "last_post_timestamp": "2026-05-07T06:26:53.078988+00:00"
 }
