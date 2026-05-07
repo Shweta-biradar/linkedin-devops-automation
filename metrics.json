@@ -1,11 +1,11 @@
 {
-  "total_posts": 248,
-  "posts_today": 1,
+  "total_posts": 249,
+  "posts_today": 2,
   "last_post_date": "2026-05-07",
   "formats_used": {
     "case_study": 14,
     "deep_dive": 11,
-    "lessons": 23,
+    "lessons": 24,
     "digest": 189,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 198,
+    "towardsdatascience.com": 199,
     "www.snowflake.com": 76,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-08",
-      "time": "2026-03-08T11:45:35.766180+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-09",
       "time": "2026-03-09T05:12:51.952897+00:00",
@@ -1212,16 +1204,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-07",
+      "time": "2026-05-07T09:14:19.549761+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 221,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Why I Don\u2019t Trust LLMs to Decide When the Weather Changed\n\n\ud83d\udcca Data: A physicist's approach to building production-grade agents The post Why I Don\u2019t Trust LLMs to Decide When the Weather Changed appeared first on Towards Data Science .\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Pipeline as code prevents configuration drift and bus factor issues\n\u2611\ufe0f Deployment frequency correlates with stability when done right\n\u2611\ufe0f Track results and optimize\n\nWhich testing strategy gives you the most confidence?\n\n#CloudData #DataAnalyst #ETL #Reporting #BITools #Automation #Databricks\n\n\u2753 Would this work in your environment?\n\nFull story: https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/\n\n#BITools #Oracle #SSRS #Redshift #Qlik #MySQL #Reporting",
-  "last_post_format": "case_study",
+  "posts_created": 222,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nPlatform architects surface lessons from production.\n\nTopic: When the Uncertainty Is Bigger Than the Shock: Scenario Modelling for English Local Elections\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n3\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nShare your hard-won wisdom below.\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Looker #AdvancedAnalytics #Qlik #SSAS\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SAPHANA #Redshift #MySQL #Looker",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "www.dbt.com",
-    "aws.amazon.com",
-    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-07T06:26:53.078988+00:00"
+  "last_post_timestamp": "2026-05-07T09:14:19.550955+00:00"
 }

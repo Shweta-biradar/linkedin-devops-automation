@@ -501,6 +501,7 @@
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
+    "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
@@ -869,9 +870,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458039635911528451",
-    "last_posted_at_utc": "2026-05-07T06:26:53.076442+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7458081773458022400",
+    "last_posted_at_utc": "2026-05-07T09:14:19.548052+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1238,6 +1239,12 @@
         "date": "2026-05-07T06:26:53.076411+00:00",
         "hash_strict": "8e8dee4cf046",
         "hash_medium": "7a5826c875ca"
+      },
+      {
+        "title": "When the Uncertainty Is Bigger Than the Shock: Scenario Modelling for English Local Elections",
+        "date": "2026-05-07T09:14:19.547926+00:00",
+        "hash_strict": "7663c38c8ade",
+        "hash_medium": "710bc01c1166"
       }
     ]
   }
