@@ -414,6 +414,7 @@
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
+    "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
@@ -870,9 +871,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458081773458022400",
-    "last_posted_at_utc": "2026-05-07T09:14:19.548052+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7458142349957783553",
+    "last_posted_at_utc": "2026-05-07T13:15:02.138614+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1245,6 +1246,12 @@
         "date": "2026-05-07T09:14:19.547926+00:00",
         "hash_strict": "7663c38c8ade",
         "hash_medium": "710bc01c1166"
+      },
+      {
+        "title": "I Rewrote a Real Data Workflow in Polars. Pandas Didn\u2019t Stand a Chance.",
+        "date": "2026-05-07T13:15:02.138526+00:00",
+        "hash_strict": "542acb3b71df",
+        "hash_medium": "ece6710db0f2"
       }
     ]
   }
