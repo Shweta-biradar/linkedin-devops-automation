@@ -389,6 +389,7 @@
     "https://towardsdatascience.com/how-ai-tools-generate-technical-debt-in-iot-systems-and-what-to-do-about-it/",
     "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
     "https://towardsdatascience.com/how-gpus-communicate/",
+    "https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
     "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
@@ -478,6 +479,7 @@
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
+    "https://towardsdatascience.com/the-joy-of-typing/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-5/",
@@ -713,8 +715,10 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-ddi",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-testgorilla",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startups-building-ai-snowflake",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/tensorstax-acquisition-agentic-ai",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-data-foundation-ai-healthcare-government",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/unifying-enterprise-ai-lifecycle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/universal-ai-catalog-data-governance",
     "https://www.udacity.com/blog/why-product-discovery-matters-more-than-ever-in-the-age-of-ai/",
@@ -871,9 +875,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458142349957783553",
-    "last_posted_at_utc": "2026-05-07T13:15:02.138614+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7458390425305776128",
+    "last_posted_at_utc": "2026-05-08T05:40:47.959211+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1252,6 +1256,30 @@
         "date": "2026-05-07T13:15:02.138526+00:00",
         "hash_strict": "542acb3b71df",
         "hash_medium": "ece6710db0f2"
+      },
+      {
+        "title": "Snowflake Startup Spotlight: TestGorilla",
+        "date": "2026-05-08T05:40:47.958967+00:00",
+        "hash_strict": "2e560485c305",
+        "hash_medium": "48a351425201"
+      },
+      {
+        "title": "The Joy of Typing",
+        "date": "2026-05-08T05:40:47.959054+00:00",
+        "hash_strict": "e71482794500",
+        "hash_medium": "b8ecdbcad769"
+      },
+      {
+        "title": "How Major Reasoning Models Converge to the Same \u201cBrain\u201d as They Model Reality Increasingly Better",
+        "date": "2026-05-08T05:40:47.959112+00:00",
+        "hash_strict": "1b6845ce2a32",
+        "hash_medium": "f8b9ec81768b"
+      },
+      {
+        "title": "Trusted Data Foundations for AI in Healthcare and Government",
+        "date": "2026-05-08T05:40:47.959174+00:00",
+        "hash_strict": "ffd054279226",
+        "hash_medium": "ffe9e688914e"
       }
     ]
   }
