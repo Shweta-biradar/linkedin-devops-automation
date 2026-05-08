@@ -1,9 +1,9 @@
 {
-  "total_posts": 251,
-  "posts_today": 1,
+  "total_posts": 252,
+  "posts_today": 2,
   "last_post_date": "2026-05-08",
   "formats_used": {
-    "case_study": 15,
+    "case_study": 16,
     "deep_dive": 11,
     "lessons": 24,
     "digest": 190,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 57,
+    "aws.amazon.com": 61,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-09",
-      "time": "2026-03-09T11:57:16.135860+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-10",
       "time": "2026-03-10T04:58:48.604907+00:00",
@@ -1212,14 +1204,24 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-05-08",
+      "time": "2026-05-08T08:10:20.836346+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 224,
-  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nCloud pioneers highlight key developments for practitioners.\n\nGlobal tech trends:\n1. How Major Reasoning Models Converge to the Same \u201cBrain\u201d as They Model Reality Increasingly Better\nContext: Because there's only one reality to model! The post How Major Reasoning Models Converge to the Same \u201cBrain\u201d as They Model Reality Increasingly Better appeared first on Towards...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/\n\n2. Snowflake Startup Spotlight: TestGorilla\nContext: Learn how TestGorilla aims to help recruiters find job candidates and candidates showcase their skills with a combination of research, data and AI at scale.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-testgorilla\n\n3. The Joy of Typing\nContext: A practical guide to modern type annotations in Python for data science The post The Joy of Typing appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-joy-of-typing/\n\n4. Trusted Data Foundations for AI in Healthcare and Government\nContext: Learn why healthcare and government AI wins depend on trusted data foundations, governance frameworks and accessible data.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-data-foundation-ai-healthcare-government\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#MySQL #Qlik #Looker #Redshift #PowerBI #ETL #SAPHANA",
-  "last_post_format": "digest",
+  "posts_created": 225,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Valkey turns two\n\n\ud83d\udcca Data: Two years ago, Valkey emerged as a community-driven response to the need for a truly open, vendor-neutral alternative to Redis.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nWhat production experience changed how you design systems?\n\n#Airflow #Automation #Looker #Alteryx #Reporting #SAPHANA #Qlik\n\n\u2753 What\u2019s the gap between this and your reality?\n\n#DataWarehouse #Databricks #Snowflake #Airflow #PowerBI #SAPHANA #BusinessIntelligence",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "www.snowflake.com",
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-08T05:40:47.961976+00:00"
+  "last_post_timestamp": "2026-05-08T08:10:20.837503+00:00"
 }
