@@ -1,10 +1,10 @@
 {
-  "total_posts": 252,
-  "posts_today": 2,
+  "total_posts": 253,
+  "posts_today": 3,
   "last_post_date": "2026-05-08",
   "formats_used": {
     "case_study": 16,
-    "deep_dive": 11,
+    "deep_dive": 12,
     "lessons": 24,
     "digest": 190,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 202,
+    "towardsdatascience.com": 203,
     "www.snowflake.com": 78,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-10",
-      "time": "2026-03-10T04:58:48.604907+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "www.bleepingcomputer.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-10",
       "time": "2026-03-10T07:17:05.422136+00:00",
@@ -1215,13 +1202,21 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-08",
+      "time": "2026-05-08T12:53:06.011128+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 225,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Valkey turns two\n\n\ud83d\udcca Data: Two years ago, Valkey emerged as a community-driven response to the need for a truly open, vendor-neutral alternative to Redis.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nWhat production experience changed how you design systems?\n\n#Airflow #Automation #Looker #Alteryx #Reporting #SAPHANA #Qlik\n\n\u2753 What\u2019s the gap between this and your reality?\n\n#DataWarehouse #Databricks #Snowflake #Airflow #PowerBI #SAPHANA #BusinessIntelligence",
-  "last_post_format": "case_study",
+  "posts_created": 226,
+  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nIndustry leaders break down complex challenges.\n\n\ud83d\udd0e Focus: Unified Agentic Memory Across Harnesses Using Hooks\n\nHow hook implementation gives Claude Code, Codex, and Cursor persistent memory via Neo4j, without locking you into any one of them.\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nWhat would you do differently if you started over today?\n\n#Redshift #Dashboard #PostgreSQL #SSRS #Python #DataWarehouse #Looker\n\n\u2753 How would you apply this insight?\n\n#DataWarehouse #SSRS #Statistics #Airflow #PowerBI #PostgreSQL #DataVisualization",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-08T08:10:20.837503+00:00"
+  "last_post_timestamp": "2026-05-08T12:53:06.012357+00:00"
 }

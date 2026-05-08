@@ -500,6 +500,7 @@
     "https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/",
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
     "https://towardsdatascience.com/understanding-the-host-and-device-paradigm/",
+    "https://towardsdatascience.com/unified-agentic-memory-across-harnesses-using-hooks/",
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
@@ -879,9 +880,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458428061097603072",
-    "last_posted_at_utc": "2026-05-08T08:10:20.834750+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7458499218052157440",
+    "last_posted_at_utc": "2026-05-08T12:53:06.009219+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1308,6 +1309,12 @@
         "date": "2026-05-08T08:10:20.834706+00:00",
         "hash_strict": "3cf030ae804b",
         "hash_medium": "0d9995dc7492"
+      },
+      {
+        "title": "Unified Agentic Memory Across Harnesses Using Hooks",
+        "date": "2026-05-08T12:53:06.009113+00:00",
+        "hash_strict": "090a8531640c",
+        "hash_medium": "300d4c1540d0"
       }
     ]
   }
