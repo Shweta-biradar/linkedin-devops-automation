@@ -1,12 +1,12 @@
 {
-  "total_posts": 254,
-  "posts_today": 1,
+  "total_posts": 255,
+  "posts_today": 2,
   "last_post_date": "2026-05-09",
   "formats_used": {
     "case_study": 16,
     "deep_dive": 12,
     "lessons": 25,
-    "digest": 190,
+    "digest": 191,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 204,
+    "towardsdatascience.com": 205,
     "www.snowflake.com": 78,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-10",
-      "time": "2026-03-10T11:57:05.929160+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-11",
       "time": "2026-03-11T05:00:36.649716+00:00",
@@ -1214,15 +1205,21 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-09",
+      "time": "2026-05-09T08:17:30.947964+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 227,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nPlatform architects surface lessons from production.\n\nTopic: How to consolidate cross-Region S3 data into OpenSearch\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nShare your hard-won wisdom below.\n\n#DataAnalyst #Redshift #BITools #Snowflake #BusinessIntelligence #Airflow #SSIS\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Snowflake #Oracle #Insights #Reporting #BusinessIntelligence #SQL #Analytics",
-  "last_post_format": "lessons",
+  "posts_created": 228,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nAutomation strategies:\n1. From Data Scientist to AI Architect\nContext: The end of model-centric thinking in data science The post From Data Scientist to AI Architect appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/from-data-scientist-to-ai-architect/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#MLOps #ETL #DBT #SSRS #Airflow #SSAS #SAPHANA",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "www.dataquest.io",
-    "towardsdatascience.com",
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-09T06:06:45.810255+00:00"
+  "last_post_timestamp": "2026-05-09T08:17:30.948890+00:00"
 }

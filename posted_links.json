@@ -386,6 +386,7 @@
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/",
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
+    "https://towardsdatascience.com/from-data-scientist-to-ai-architect/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
@@ -886,9 +887,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458759347859398657",
-    "last_posted_at_utc": "2026-05-09T06:06:45.807349+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7458792252920860672",
+    "last_posted_at_utc": "2026-05-09T08:17:30.946526+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1357,6 +1358,12 @@
         "date": "2026-05-09T06:06:45.807309+00:00",
         "hash_strict": "c5a4e5dc480b",
         "hash_medium": "c60fa492e4a6"
+      },
+      {
+        "title": "From Data Scientist to AI Architect",
+        "date": "2026-05-09T08:17:30.946434+00:00",
+        "hash_strict": "1d12985001c5",
+        "hash_medium": "6c76b9e16cda"
       }
     ]
   }
