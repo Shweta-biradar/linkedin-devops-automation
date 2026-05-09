@@ -18,9 +18,11 @@
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/designing-centralized-and-distributed-network-connectivity-patterns-for-amazon-opensearch-serverless-part-1/",
+    "https://aws.amazon.com/blogs/big-data/enable-real-time-mainframe-analytics-with-precisely-connect-and-amazon-s3/",
     "https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/filter-catalog-assets-using-custom-metadata-search-filters-in-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/how-to-consolidate-cross-region-s3-data-into-opensearch/",
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
     "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
@@ -52,6 +54,7 @@
     "https://aws.amazon.com/blogs/database/features-and-workflows-with-amazon-timestream-for-influxdb-3/",
     "https://aws.amazon.com/blogs/database/how-amazon-documentdb-on-aws-graviton4-r8g-instances-delivers-63-better-sysbench-benchmark-results/",
     "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/",
+    "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
     "https://aws.amazon.com/blogs/database/valkey-turns-two/",
     "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/",
@@ -508,6 +511,7 @@
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
+    "https://towardsdatascience.com/when-customers-churn-at-renewal-was-it-the-price-or-the-project/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
@@ -568,9 +572,11 @@
     "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-december-2025/",
     "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
+    "https://www.dataquest.io/blog/best-python-courses/",
     "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
     "https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
+    "https://www.dataquest.io/blog/power-bi-tutorial/",
     "https://www.dataquest.io/blog/python-interview-questions-and-answers/",
     "https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/",
     "https://www.docker.com/blog/2025-recap-the-year-software-development-changed-shape/",
@@ -880,9 +886,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458499218052157440",
-    "last_posted_at_utc": "2026-05-08T12:53:06.009219+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7458759347859398657",
+    "last_posted_at_utc": "2026-05-09T06:06:45.807349+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1315,6 +1321,42 @@
         "date": "2026-05-08T12:53:06.009113+00:00",
         "hash_strict": "090a8531640c",
         "hash_medium": "300d4c1540d0"
+      },
+      {
+        "title": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
+        "date": "2026-05-09T06:06:45.807003+00:00",
+        "hash_strict": "69f25733d305",
+        "hash_medium": "6681fd408fec"
+      },
+      {
+        "title": "Power BI Tutorial: Create Your First Dashboard",
+        "date": "2026-05-09T06:06:45.807115+00:00",
+        "hash_strict": "7d750f26bd40",
+        "hash_medium": "4d639bec1a5b"
+      },
+      {
+        "title": "Enable real-time mainframe analytics with Precisely Connect and Amazon S3",
+        "date": "2026-05-09T06:06:45.807184+00:00",
+        "hash_strict": "4503193f3ad4",
+        "hash_medium": "e3d8a23a6590"
+      },
+      {
+        "title": "Best Python Courses in 2026 \u2014 From Foundations to Career-Ready Skills",
+        "date": "2026-05-09T06:06:45.807227+00:00",
+        "hash_strict": "058fa1dad460",
+        "hash_medium": "1aaeb651777a"
+      },
+      {
+        "title": "How to consolidate cross-Region S3 data into OpenSearch",
+        "date": "2026-05-09T06:06:45.807271+00:00",
+        "hash_strict": "9f4be0ca5792",
+        "hash_medium": "e41145f0e0e3"
+      },
+      {
+        "title": "When Customers Churn at Renewal: Was It the Price or the Project?",
+        "date": "2026-05-09T06:06:45.807309+00:00",
+        "hash_strict": "c5a4e5dc480b",
+        "hash_medium": "c60fa492e4a6"
       }
     ]
   }

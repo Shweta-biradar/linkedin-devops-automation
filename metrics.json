@@ -1,11 +1,11 @@
 {
-  "total_posts": 253,
-  "posts_today": 3,
-  "last_post_date": "2026-05-08",
+  "total_posts": 254,
+  "posts_today": 1,
+  "last_post_date": "2026-05-09",
   "formats_used": {
     "case_study": 16,
     "deep_dive": 12,
-    "lessons": 24,
+    "lessons": 25,
     "digest": 190,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 61,
+    "aws.amazon.com": 64,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,14 +40,14 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 203,
+    "towardsdatascience.com": 204,
     "www.snowflake.com": 78,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 4,
     "www.dbt.com": 3,
-    "www.dataquest.io": 13,
+    "www.dataquest.io": 15,
     "www.udacity.com": 1
   },
   "errors": [
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-10",
-      "time": "2026-03-10T07:17:05.422136+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-10",
       "time": "2026-03-10T11:57:05.929160+00:00",
@@ -1210,13 +1201,28 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-09",
+      "time": "2026-05-09T06:06:45.809045+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 226,
-  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nIndustry leaders break down complex challenges.\n\n\ud83d\udd0e Focus: Unified Agentic Memory Across Harnesses Using Hooks\n\nHow hook implementation gives Claude Code, Codex, and Cursor persistent memory via Neo4j, without locking you into any one of them.\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nWhat would you do differently if you started over today?\n\n#Redshift #Dashboard #PostgreSQL #SSRS #Python #DataWarehouse #Looker\n\n\u2753 How would you apply this insight?\n\n#DataWarehouse #SSRS #Statistics #Airflow #PowerBI #PostgreSQL #DataVisualization",
-  "last_post_format": "deep_dive",
+  "posts_created": 227,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nPlatform architects surface lessons from production.\n\nTopic: How to consolidate cross-Region S3 data into OpenSearch\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nShare your hard-won wisdom below.\n\n#DataAnalyst #Redshift #BITools #Snowflake #BusinessIntelligence #Airflow #SSIS\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Snowflake #Oracle #Insights #Reporting #BusinessIntelligence #SQL #Analytics",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.dataquest.io",
+    "towardsdatascience.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-08T12:53:06.012357+00:00"
+  "last_post_timestamp": "2026-05-09T06:06:45.810255+00:00"
 }
