@@ -889,9 +889,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7459126697712414720",
-    "last_posted_at_utc": "2026-05-10T06:26:28.812341+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7459157431089147904",
+    "last_posted_at_utc": "2026-05-10T08:28:36.240039+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1384,6 +1384,12 @@
         "date": "2026-05-10T06:26:28.812265+00:00",
         "hash_strict": "2bd1c9350060",
         "hash_medium": "85ad1f60ebc4"
+      },
+      {
+        "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
+        "date": "2026-05-10T08:28:36.239947+00:00",
+        "hash_strict": "aedd1d84c8ba",
+        "hash_medium": "3f7c79d2066f"
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
-  "total_posts": 257,
-  "posts_today": 1,
+  "total_posts": 258,
+  "posts_today": 2,
   "last_post_date": "2026-05-10",
   "formats_used": {
-    "case_study": 16,
+    "case_study": 17,
     "deep_dive": 12,
     "lessons": 26,
     "digest": 192,
@@ -41,7 +41,7 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 207,
-    "www.snowflake.com": 79,
+    "www.snowflake.com": 80,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,18 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-11",
-      "time": "2026-03-11T11:57:04.701485+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "kdnuggets.com",
-        "github.blog",
-        "towardsdatascience.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-12",
       "time": "2026-03-12T05:07:46.770374+00:00",
@@ -1204,13 +1192,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-10",
+      "time": "2026-05-10T08:28:36.241912+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 230,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nAnalytics experts reveal what sticks.\n\nTopic: The Must-Know Topics for an LLM Engineer\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Tableau #Airflow #CloudData #Reporting #DataAnalyst #BITools #DataWarehouse\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Snowflake #MLOps #Airflow #Automation #DataWarehouse #Redshift #BITools",
-  "last_post_format": "lessons",
+  "posts_created": 231,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udd0d Breakdown: Snowflake and Veeva Unlock Agentic AI in Life Sciences\n\n\ud83d\udcca Data: See how Snowflake and Veeva connect Vault data to power secure analytics, agentic AI, and cross-functional insights across life sciences.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Production systems teach you things documentation never will\n\u2192 Step 2: System evolution requires continuous learning and adaptation\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#Automation #SSIS #BITools #MySQL #BigQuery #ETL #DBT\n\n\u2753 How would you adapt this for your team?\n\nFull story: https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-veeva-agentic-ai-life-sciences\n\n#BusinessIntelligence #Python #Redshift #DataVisualization #ETL #Tableau #SSIS",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-10T06:26:28.815143+00:00"
+  "last_post_timestamp": "2026-05-10T08:28:36.243153+00:00"
 }
