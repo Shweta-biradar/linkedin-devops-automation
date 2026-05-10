@@ -457,6 +457,7 @@
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
     "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
+    "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/rope-clearly-explained/",
@@ -493,6 +494,7 @@
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-5/",
     "https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/",
     "https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/",
+    "https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/",
     "https://towardsdatascience.com/the-new-experience-of-coding-with-ai/",
     "https://towardsdatascience.com/the-next-frontier-of-ai-in-production-is-chaos-engineering/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
@@ -887,9 +889,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7458850713746722816",
-    "last_posted_at_utc": "2026-05-09T12:09:49.086429+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7459126697712414720",
+    "last_posted_at_utc": "2026-05-10T06:26:28.812341+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1370,6 +1372,18 @@
         "date": "2026-05-09T12:09:49.086310+00:00",
         "hash_strict": "aedd1d84c8ba",
         "hash_medium": "3f7c79d2066f"
+      },
+      {
+        "title": "RAG Is Blind to Time \u2014 I Built a Temporal Layer to Fix It in Production",
+        "date": "2026-05-10T06:26:28.812156+00:00",
+        "hash_strict": "cff11c63465f",
+        "hash_medium": "275963188286"
+      },
+      {
+        "title": "The Must-Know Topics for an LLM\u00a0Engineer",
+        "date": "2026-05-10T06:26:28.812265+00:00",
+        "hash_strict": "2bd1c9350060",
+        "hash_medium": "85ad1f60ebc4"
       }
     ]
   }

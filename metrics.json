@@ -1,11 +1,11 @@
 {
-  "total_posts": 256,
-  "posts_today": 3,
-  "last_post_date": "2026-05-09",
+  "total_posts": 257,
+  "posts_today": 1,
+  "last_post_date": "2026-05-10",
   "formats_used": {
     "case_study": 16,
     "deep_dive": 12,
-    "lessons": 25,
+    "lessons": 26,
     "digest": 192,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 205,
+    "towardsdatascience.com": 207,
     "www.snowflake.com": 79,
     "kdnuggets.com": 50,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-11",
-      "time": "2026-03-11T07:29:26.211480+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-11",
       "time": "2026-03-11T11:57:04.701485+00:00",
@@ -1208,13 +1195,22 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-05-10",
+      "time": "2026-05-10T06:26:28.813976+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 229,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nCloud pioneers highlight key developments for practitioners.\n\nGlobal tech trends:\n1. Snowflake and Veeva Unlock Agentic AI in Life Sciences\nContext: See how Snowflake and Veeva connect Vault data to power secure analytics, agentic AI, and cross-functional insights across life sciences.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-veeva-agentic-ai-life-sciences\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#Python #Dashboard #MLOps #Airflow #CloudData #Databricks #ETL",
-  "last_post_format": "digest",
+  "posts_created": 230,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nAnalytics experts reveal what sticks.\n\nTopic: The Must-Know Topics for an LLM Engineer\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Tableau #Airflow #CloudData #Reporting #DataAnalyst #BITools #DataWarehouse\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Snowflake #MLOps #Airflow #Automation #DataWarehouse #Redshift #BITools",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "www.snowflake.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-09T12:09:49.089408+00:00"
+  "last_post_timestamp": "2026-05-10T06:26:28.815143+00:00"
 }
