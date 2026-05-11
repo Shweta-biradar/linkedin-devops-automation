@@ -346,6 +346,7 @@
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
+    "https://towardsdatascience.com/batch-or-stream-the-ethernal-data-processing-dilemma/",
     "https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/",
     "https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/",
     "https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/",
@@ -433,6 +434,7 @@
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-1-the-geometric-intuition/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
+    "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/metric-presentation-101/",
@@ -889,8 +891,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7459213437978451968",
-    "last_posted_at_utc": "2026-05-10T12:11:09.505869+00:00",
+    "last_post_id": "urn:li:share:7459496636822581248",
+    "last_posted_at_utc": "2026-05-11T06:56:29.689712+00:00",
     "last_format": "case_study",
     "topic_titles": [
       {
@@ -1396,6 +1398,18 @@
         "date": "2026-05-10T12:11:09.505760+00:00",
         "hash_strict": "aedd1d84c8ba",
         "hash_medium": "3f7c79d2066f"
+      },
+      {
+        "title": "LLM Summarizers Skip the Identification Step",
+        "date": "2026-05-11T06:56:29.689504+00:00",
+        "hash_strict": "b00e127a5308",
+        "hash_medium": "93a4020944af"
+      },
+      {
+        "title": "Batch or Stream? The Eternal Data Processing Dilemma",
+        "date": "2026-05-11T06:56:29.689648+00:00",
+        "hash_strict": "c5231c1f6d72",
+        "hash_medium": "55e4753fed39"
       }
     ]
   }
