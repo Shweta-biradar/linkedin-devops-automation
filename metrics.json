@@ -1,11 +1,11 @@
 {
-  "total_posts": 260,
-  "posts_today": 1,
+  "total_posts": 261,
+  "posts_today": 2,
   "last_post_date": "2026-05-11",
   "formats_used": {
     "case_study": 19,
     "deep_dive": 12,
-    "lessons": 26,
+    "lessons": 27,
     "digest": 192,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 64,
+    "aws.amazon.com": 65,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-12",
-      "time": "2026-03-12T11:52:24.631574+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-13",
       "time": "2026-03-13T05:02:49.403685+00:00",
@@ -1191,13 +1181,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-11",
+      "time": "2026-05-11T10:09:35.637490+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 233,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: Batch or Stream? The Eternal Data Processing Dilemma\n\nThe story: \"Should we process our data in batches or in real-time?\" It's not batch vs. stream: it's \"when does the answer matter?\" The post Batch or Stream? The Eternal Data Processing...\n\nThe insight: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Production systems teach you things documentation never will\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Continuous improvement through measurement\n\nWhat would you do differently if you started over today?\n\n#Dashboard #Alteryx #SAPHANA #CloudData #ETL #MySQL #SSRS\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/batch-or-stream-the-ethernal-data-processing-dilemma/\n\n#SAPHANA #Alteryx #Analytics #Tableau #PowerBI #BusinessIntelligence #SSRS",
-  "last_post_format": "case_study",
+  "posts_created": 234,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Enable real-time mainframe analytics with Precisely Connect and Amazon S3\n\n1\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n2\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Looker #Automation #Tableau #Qlik\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Alteryx #Statistics #Redshift #Dashboard",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-11T06:56:29.692484+00:00"
+  "last_post_timestamp": "2026-05-11T10:09:35.638698+00:00"
 }
