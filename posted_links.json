@@ -538,6 +538,7 @@
     "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
     "https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/",
+    "https://towardsdatascience.com/your-first-webassembly-program-and-web-app-written-tested-and-deployed-entirely-in-the-web-browser/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
@@ -646,6 +647,7 @@
     "https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-effective-feature-selection",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation",
+    "https://www.kdnuggets.com/5-useful-python-scripts-for-time-series-analysis",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis",
     "https://www.kdnuggets.com/7-essential-openclaw-skills-you-need-right-now",
@@ -900,8 +902,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7459895004799336448",
-    "last_posted_at_utc": "2026-05-12T09:19:27.474472+00:00",
+    "last_post_id": "urn:li:share:7459956191306371072",
+    "last_posted_at_utc": "2026-05-12T13:22:35.469104+00:00",
     "last_format": "deep_dive",
     "topic_titles": [
       {
@@ -1479,6 +1481,18 @@
         "date": "2026-05-12T09:19:27.474375+00:00",
         "hash_strict": "1b0106ca79f9",
         "hash_medium": "6ce64198a406"
+      },
+      {
+        "title": "5 Useful Python Scripts for Time Series Analysis",
+        "date": "2026-05-12T13:22:35.468926+00:00",
+        "hash_strict": "980bdd86ba26",
+        "hash_medium": "18ea07b55e07"
+      },
+      {
+        "title": "Your First WebAssembly Program and Web App (Written, Tested, and Deployed Entirely in the Web Browser)",
+        "date": "2026-05-12T13:22:35.469035+00:00",
+        "hash_strict": "cf81a3ecc084",
+        "hash_medium": "fd136c124d6e"
       }
     ]
   }
