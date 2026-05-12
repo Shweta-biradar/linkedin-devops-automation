@@ -22,9 +22,12 @@
     "https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/filter-catalog-assets-using-custom-metadata-search-filters-in-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/how-to-build-a-cross-region-resilience-for-amazon-opensearch-service-with-amazon-msk/",
     "https://aws.amazon.com/blogs/big-data/how-to-consolidate-cross-region-s3-data-into-opensearch/",
+    "https://aws.amazon.com/blogs/big-data/how-to-use-streamlined-permissions-for-amazon-s3-tables-and-iceberg-materialized-views/",
     "https://aws.amazon.com/blogs/big-data/how-zalando-innovates-their-fast-serving-layer-by-migrating-to-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/implement-a-data-mesh-pattern-with-amazon-sagemaker-catalog-without-making-changes-to-your-applications/",
+    "https://aws.amazon.com/blogs/big-data/improve-dynamodb-analytics-with-aws-glue-zero-etl-schema-and-partition-controls/",
     "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
     "https://aws.amazon.com/blogs/big-data/introducing-enhancements-to-amazon-emr-managed-scaling/",
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
@@ -401,6 +404,7 @@
     "https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
+    "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
     "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
     "https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/",
     "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
@@ -432,6 +436,7 @@
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
+    "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
     "https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-1-the-geometric-intuition/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
     "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
@@ -456,6 +461,7 @@
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
     "https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
+    "https://towardsdatascience.com/pyspark-for-beginners-mastering-the-basics/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
     "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
@@ -656,6 +662,7 @@
     "https://www.kdnuggets.com/from-messy-to-clean-8-python-tricks-for-effortless-data-preprocessing",
     "https://www.kdnuggets.com/getting-started-with-python-async-programming",
     "https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes",
+    "https://www.kdnuggets.com/how-to-build-vector-search-from-scratch-in-python",
     "https://www.kdnuggets.com/how-to-deploy-your-first-app-on-fastapi-cloud",
     "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
     "https://www.kdnuggets.com/local-whisper-audio-transcription",
@@ -717,6 +724,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-2026-predictions-webinar-recap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/roi-generative-agentic-ai",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-zero-copy-integration-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
@@ -891,9 +899,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7459545233853435904",
-    "last_posted_at_utc": "2026-05-11T10:09:35.635899+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7459851694806519808",
+    "last_posted_at_utc": "2026-05-12T06:27:21.540698+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1416,6 +1424,54 @@
         "date": "2026-05-11T10:09:35.635803+00:00",
         "hash_strict": "4503193f3ad4",
         "hash_medium": "e3d8a23a6590"
+      },
+      {
+        "title": "SAP and Snowflake Unleash a New Era of Enterprise AI with Zero-Copy Integration",
+        "date": "2026-05-11T14:06:16.987642+00:00",
+        "hash_strict": "45419c6c4463",
+        "hash_medium": "68bcf30054dc"
+      },
+      {
+        "title": "PySpark for Beginners: Mastering the\u00a0Basics",
+        "date": "2026-05-11T14:06:16.987792+00:00",
+        "hash_strict": "f3648b6a79ce",
+        "hash_medium": "d05f0f8ea2f2"
+      },
+      {
+        "title": "Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls",
+        "date": "2026-05-12T06:27:21.540234+00:00",
+        "hash_strict": "c1fa52e378a1",
+        "hash_medium": "e1954f48fe42"
+      },
+      {
+        "title": "Learning Word Vectors for Sentiment Analysis: A Python Reproduction",
+        "date": "2026-05-12T06:27:21.540365+00:00",
+        "hash_strict": "862354307e6f",
+        "hash_medium": "f06c589b5e62"
+      },
+      {
+        "title": "How to use streamlined permissions for Amazon S3 Tables and Iceberg materialized views",
+        "date": "2026-05-12T06:27:21.540446+00:00",
+        "hash_strict": "0f6c3a7c56d2",
+        "hash_medium": "44c8a3f38b0a"
+      },
+      {
+        "title": "How to Build Vector Search From Scratch in Python",
+        "date": "2026-05-12T06:27:21.540521+00:00",
+        "hash_strict": "18e6580b191a",
+        "hash_medium": "ce62c6e2ba7f"
+      },
+      {
+        "title": "How to build a cross-Region resilience for Amazon OpenSearch Service with Amazon MSK",
+        "date": "2026-05-12T06:27:21.540593+00:00",
+        "hash_strict": "18e6580b191a",
+        "hash_medium": "1faed1cf8176"
+      },
+      {
+        "title": "How to Build a Claude Code-Powered Knowledge Base",
+        "date": "2026-05-12T06:27:21.540659+00:00",
+        "hash_strict": "18e6580b191a",
+        "hash_medium": "b6667b8625b1"
       }
     ]
   }
