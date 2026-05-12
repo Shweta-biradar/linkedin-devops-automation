@@ -1,10 +1,10 @@
 {
-  "total_posts": 263,
-  "posts_today": 1,
+  "total_posts": 264,
+  "posts_today": 2,
   "last_post_date": "2026-05-12",
   "formats_used": {
     "case_study": 19,
-    "deep_dive": 13,
+    "deep_dive": 14,
     "lessons": 28,
     "digest": 192,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 212,
+    "towardsdatascience.com": 213,
     "www.snowflake.com": 82,
     "kdnuggets.com": 51,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-13",
-      "time": "2026-03-13T11:55:01.254855+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-14",
       "time": "2026-03-14T05:00:58.884167+00:00",
@@ -1185,15 +1177,21 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-12",
+      "time": "2026-05-12T09:19:27.476265+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 236,
-  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Topic: How to Build a Claude Code-Powered Knowledge Base\n\nWhat it's about:\nPerform efficient data retrieval of personal knowledge The post How to Build a Claude Code-Powered Knowledge Base appeared first on Towards Data Science .\n\nWhy it matters: practical signal for building reliable systems.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Deployment frequency correlates with stability when done right\n\u2022 Progressive delivery beats blue-green for complex systems\n\u2022 CI/CD observability matters as much as application observability\n\nHow do you handle deployment rollbacks at scale?\n\n#BusinessIntelligence #SSRS #Tableau #AdvancedAnalytics #Looker #SSIS #Oracle\n\n\u2753 Which takeaway resonates most for your team?\n\n#SAPHANA #CloudData #DataWarehouse #Qlik #BITools #Snowflake #AdvancedAnalytics",
+  "posts_created": 237,
+  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udccc Using Transformers to Forecast Incredibly Rare Solar Flares\n\nKey points:\n\u2022 How ML can change for rare events The post Using Transformers to Forecast Incredibly Rare Solar Flares appeared first on Towards Data Science .\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Production systems teach you things documentation never will\n\u2022 Operational simplicity beats architectural elegance every time\n\nHow do you keep learning while managing operational load?\n\n#Reporting #MySQL #DBT #Statistics #Tableau #BusinessIntelligence #DataWarehouse\n\n\u2753 What\u2019s your experience with this topic?\n\n#Oracle #Qlik #AdvancedAnalytics #BusinessIntelligence #SAPHANA #DBT #Redshift",
   "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com",
-    "kdnuggets.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-12T06:27:21.543334+00:00"
+  "last_post_timestamp": "2026-05-12T09:19:27.477428+00:00"
 }
