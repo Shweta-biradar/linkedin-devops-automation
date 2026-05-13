@@ -58,6 +58,7 @@
     "https://aws.amazon.com/blogs/database/create-monitoring-dashboard-for-amazon-rds-for-db2/",
     "https://aws.amazon.com/blogs/database/enhanced-search-for-amazon-elasticache/",
     "https://aws.amazon.com/blogs/database/features-and-workflows-with-amazon-timestream-for-influxdb-3/",
+    "https://aws.amazon.com/blogs/database/filter-transform-and-load-your-dynamodb-table-exports-using-aws-glue/",
     "https://aws.amazon.com/blogs/database/how-amazon-documentdb-on-aws-graviton4-r8g-instances-delivers-63-better-sysbench-benchmark-results/",
     "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/",
     "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/",
@@ -398,6 +399,7 @@
     "https://towardsdatascience.com/from-data-scientist-to-ai-architect/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
+    "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/ghost-a-database-for-our-times/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
@@ -429,6 +431,7 @@
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
+    "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
@@ -465,6 +468,7 @@
     "https://towardsdatascience.com/production-ready-llm-agents-a-comprehensive-framework-for-offline-evaluation/",
     "https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
+    "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-intelligence/",
     "https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/pyspark-for-beginners-mastering-the-basics/",
@@ -697,6 +701,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-business-operations0",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agent-backup-protection",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
@@ -908,9 +913,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460217757725532160",
-    "last_posted_at_utc": "2026-05-13T06:41:57.837592+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7460259653139030016",
+    "last_posted_at_utc": "2026-05-13T09:28:26.431962+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1535,6 +1540,36 @@
         "date": "2026-05-13T06:41:57.837554+00:00",
         "hash_strict": "05b13dd2ca99",
         "hash_medium": "746e6f3ed7e4"
+      },
+      {
+        "title": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
+        "date": "2026-05-13T09:28:26.431515+00:00",
+        "hash_strict": "3e8cd52d6c26",
+        "hash_medium": "ade5f91f720d"
+      },
+      {
+        "title": "Proxy-Pointer Framework for Structure-Aware Enterprise Document Intelligence",
+        "date": "2026-05-13T09:28:26.431650+00:00",
+        "hash_strict": "69f9bb818e67",
+        "hash_medium": "73934c0e9efc"
+      },
+      {
+        "title": "From Vibe Coding to Spec-Driven Development",
+        "date": "2026-05-13T09:28:26.431738+00:00",
+        "hash_strict": "76395a90f56e",
+        "hash_medium": "a3d354a3d386"
+      },
+      {
+        "title": "AI agent backup protection for enterprise data",
+        "date": "2026-05-13T09:28:26.431824+00:00",
+        "hash_strict": "27c0cdf5a6b2",
+        "hash_medium": "7c9131c19481"
+      },
+      {
+        "title": "Hybrid Search and Re-Ranking in Production RAG",
+        "date": "2026-05-13T09:28:26.431895+00:00",
+        "hash_strict": "2e6663e9b127",
+        "hash_medium": "c2e175d8b4aa"
       }
     ]
   }

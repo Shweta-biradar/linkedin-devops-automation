@@ -1,11 +1,11 @@
 {
-  "total_posts": 266,
-  "posts_today": 1,
+  "total_posts": 267,
+  "posts_today": 2,
   "last_post_date": "2026-05-13",
   "formats_used": {
     "case_study": 20,
     "deep_dive": 15,
-    "lessons": 28,
+    "lessons": 29,
     "digest": 192,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 72,
+    "aws.amazon.com": 73,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 214,
-    "www.snowflake.com": 83,
+    "towardsdatascience.com": 217,
+    "www.snowflake.com": 84,
     "kdnuggets.com": 52,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-14",
-      "time": "2026-03-14T11:48:46.296770+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-03-15",
       "time": "2026-03-15T05:19:51.656807+00:00",
@@ -1185,15 +1177,27 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-13",
+      "time": "2026-05-13T09:28:26.433782+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "www.snowflake.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 239,
-  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udccc Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication\n\nThe situation:\n\u21b3 In this post, we show you how to migrate from an Amazon RDS for PostgreSQL to Amazon Aurora PostgreSQL-Compatible Edition using seeded logical replication.\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nCore principles:\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nWhat production experience changed how you design systems?\n\n#Looker #DataWarehouse #DataVisualization #SSIS #BITools #Snowflake #Qlik\n\n\u2753 Would this work in your environment?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/\n\n#Oracle #DataAnalyst #SSIS #BigQuery #Databricks #PowerBI #Snowflake",
-  "last_post_format": "case_study",
+  "posts_created": 240,
+  "last_post_content": "\u26a1 Career-changing lessons.\nStrategic thinkers highlight recurring patterns.\n\nTopic: AI agent backup protection for enterprise data\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: strengthens security posture and reduces risk..\n\nShare your hard-won wisdom below.\n\n#MySQL #Airflow #SSIS #Insights #Python #Alteryx #Oracle\n\n\u2753 How do you apply these lessons?\n\n#DBT #DataAnalyst #Databricks #Tableau #Python #PostgreSQL #Insights",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "powerbi.microsoft.com",
-    "www.snowflake.com",
-    "aws.amazon.com"
+    "towardsdatascience.com",
+    "aws.amazon.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-13T06:41:57.840672+00:00"
+  "last_post_timestamp": "2026-05-13T09:28:26.434928+00:00"
 }
