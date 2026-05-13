@@ -1,9 +1,9 @@
 {
-  "total_posts": 265,
-  "posts_today": 3,
-  "last_post_date": "2026-05-12",
+  "total_posts": 266,
+  "posts_today": 1,
+  "last_post_date": "2026-05-13",
   "formats_used": {
-    "case_study": 19,
+    "case_study": 20,
     "deep_dive": 15,
     "lessons": 28,
     "digest": 192,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 68,
+    "aws.amazon.com": 72,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -41,11 +41,11 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 214,
-    "www.snowflake.com": 82,
+    "www.snowflake.com": 83,
     "kdnuggets.com": 52,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 4,
+    "powerbi.microsoft.com": 5,
     "www.dbt.com": 3,
     "www.dataquest.io": 15,
     "www.udacity.com": 1
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-14",
-      "time": "2026-03-14T07:12:55.206780+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-14",
       "time": "2026-03-14T11:48:46.296770+00:00",
@@ -1181,14 +1172,28 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-13",
+      "time": "2026-05-13T06:41:57.839517+00:00",
+      "format": "case_study",
+      "sources": [
+        "powerbi.microsoft.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 238,
-  "last_post_content": "\u26a1 Focused learning for teams.\nStrategic thinkers analyze what really matters.\n\n\ud83d\udd0e Deep dive: 5 Useful Python Scripts for Time Series Analysis\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: Time series data is common across finance, operations, engineering, and research. These five Python scripts cover the analysis tasks that come up repeatedly.\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: Production systems teach you things documentation never will\n\nHow do you keep learning while managing operational load?\n\n#CloudData #SSRS #Alteryx #DataAnalyst #ETL #Reporting #Looker\n\n\u2753 Which takeaway resonates most for your team?\n\n#Databricks #Airflow #Tableau #BITools #MLOps #ETL #DataVisualization",
-  "last_post_format": "deep_dive",
+  "posts_created": 239,
+  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udccc Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication\n\nThe situation:\n\u21b3 In this post, we show you how to migrate from an Amazon RDS for PostgreSQL to Amazon Aurora PostgreSQL-Compatible Edition using seeded logical replication.\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nCore principles:\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nWhat production experience changed how you design systems?\n\n#Looker #DataWarehouse #DataVisualization #SSIS #BITools #Snowflake #Qlik\n\n\u2753 Would this work in your environment?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/\n\n#Oracle #DataAnalyst #SSIS #BigQuery #Databricks #PowerBI #Snowflake",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com"
+    "powerbi.microsoft.com",
+    "www.snowflake.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-12T13:22:35.473698+00:00"
+  "last_post_timestamp": "2026-05-13T06:41:57.840672+00:00"
 }
