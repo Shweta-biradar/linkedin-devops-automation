@@ -1,11 +1,11 @@
 {
-  "total_posts": 267,
-  "posts_today": 2,
+  "total_posts": 268,
+  "posts_today": 3,
   "last_post_date": "2026-05-13",
   "formats_used": {
     "case_study": 20,
     "deep_dive": 15,
-    "lessons": 29,
+    "lessons": 30,
     "digest": 192,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 217,
+    "towardsdatascience.com": 219,
     "www.snowflake.com": 84,
     "kdnuggets.com": 52,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-15",
-      "time": "2026-03-15T05:19:51.656807+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-15",
       "time": "2026-03-15T07:29:21.942350+00:00",
@@ -1189,15 +1176,22 @@
         "www.snowflake.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-13",
+      "time": "2026-05-13T13:37:35.023548+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 240,
-  "last_post_content": "\u26a1 Career-changing lessons.\nStrategic thinkers highlight recurring patterns.\n\nTopic: AI agent backup protection for enterprise data\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: strengthens security posture and reduces risk..\n\nShare your hard-won wisdom below.\n\n#MySQL #Airflow #SSIS #Insights #Python #Alteryx #Oracle\n\n\u2753 How do you apply these lessons?\n\n#DBT #DataAnalyst #Databricks #Tableau #Python #PostgreSQL #Insights",
+  "posts_created": 241,
+  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nPlatform architects surface lessons from production.\n\nTopic: Building an Evaluation Harness for Production AI Agents: A 12-Metric Framework From 100+ Deployments\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat's a lesson that changed how you work?\n\n#Analytics #Reporting #Python #SSIS #BITools #Redshift #CloudData\n\n\u2753 How do you apply these lessons?\n\n#SSRS #BITools #DataVisualization #SAPHANA #Oracle #Insights #AdvancedAnalytics",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "aws.amazon.com",
-    "www.snowflake.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-13T09:28:26.434928+00:00"
+  "last_post_timestamp": "2026-05-13T13:37:35.024655+00:00"
 }

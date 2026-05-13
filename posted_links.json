@@ -367,6 +367,7 @@
     "https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/",
     "https://towardsdatascience.com/building-a-production-grade-multi-node-training-pipeline-with-pytorch-ddp/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
+    "https://towardsdatascience.com/building-an-evaluation-harness-for-production-ai-agents-a-12-metric-framework-from-100-deployments/",
     "https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/",
     "https://towardsdatascience.com/building-human-in-the-loop-agentic-workflows/",
     "https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/",
@@ -532,6 +533,7 @@
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
+    "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
     "https://towardsdatascience.com/when-customers-churn-at-renewal-was-it-the-price-or-the-project/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
@@ -913,8 +915,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460259653139030016",
-    "last_posted_at_utc": "2026-05-13T09:28:26.431962+00:00",
+    "last_post_id": "urn:li:share:7460322352032157696",
+    "last_posted_at_utc": "2026-05-13T13:37:35.021838+00:00",
     "last_format": "lessons",
     "topic_titles": [
       {
@@ -1570,6 +1572,18 @@
         "date": "2026-05-13T09:28:26.431895+00:00",
         "hash_strict": "2e6663e9b127",
         "hash_medium": "c2e175d8b4aa"
+      },
+      {
+        "title": "What\u2019s the Best Way to Brainwash an LLM?",
+        "date": "2026-05-13T13:37:35.021666+00:00",
+        "hash_strict": "38816c4185d2",
+        "hash_medium": "15ace940e214"
+      },
+      {
+        "title": "Building an Evaluation Harness for Production AI Agents: A 12-Metric Framework From 100+ Deployments",
+        "date": "2026-05-13T13:37:35.021778+00:00",
+        "hash_strict": "35f8bbc5cc40",
+        "hash_medium": "f4fd686db97c"
       }
     ]
   }
