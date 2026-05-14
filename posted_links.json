@@ -430,6 +430,7 @@
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
+    "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
@@ -919,9 +920,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460619545549127680",
-    "last_posted_at_utc": "2026-05-14T09:18:31.442267+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7460679252083130369",
+    "last_posted_at_utc": "2026-05-14T13:15:46.599376+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1618,6 +1619,12 @@
         "date": "2026-05-14T09:18:31.442152+00:00",
         "hash_strict": "c1fa52e378a1",
         "hash_medium": "e1954f48fe42"
+      },
+      {
+        "title": "How to Write Robust Code with Claude Code",
+        "date": "2026-05-14T13:15:46.599261+00:00",
+        "hash_strict": "0c555b64c766",
+        "hash_medium": "7009c78b565d"
       }
     ]
   }

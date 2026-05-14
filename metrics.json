@@ -1,11 +1,11 @@
 {
-  "total_posts": 270,
-  "posts_today": 2,
+  "total_posts": 271,
+  "posts_today": 3,
   "last_post_date": "2026-05-14",
   "formats_used": {
     "case_study": 20,
     "deep_dive": 15,
-    "lessons": 30,
+    "lessons": 31,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 221,
+    "towardsdatascience.com": 222,
     "www.snowflake.com": 86,
     "kdnuggets.com": 52,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-16",
-      "time": "2026-03-16T05:30:38.181362+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-16",
       "time": "2026-03-16T07:55:19.527200+00:00",
@@ -1188,13 +1178,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-14",
+      "time": "2026-05-14T13:15:46.601345+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 243,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nEngineering visionaries spotlight what matters most this week.\n\nWhat caught our attention:\n1. Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls\nContext: In this post, you learn how to replicate Amazon DynamoDB data to Apache Iceberg tables in Amazon S3 through a zero-ETL integration.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/improve-dynamodb-analytics-with-aws-glue-zero-etl-schema-and-partition-controls/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#Cloud #CloudArchitecture #CloudNative #Analytics #DBT #Automation #SSRS",
-  "last_post_format": "digest",
+  "posts_created": 244,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: How to Write Robust Code with Claude Code\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Automation #Snowflake #Tableau #MLOps #Looker #Analytics #DataAnalyst\n\n\u2753 What would you add to this list?\n\n#Databricks #Insights #DataAnalyst #Dashboard #BITools #SSAS #BusinessIntelligence",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-14T09:18:31.446871+00:00"
+  "last_post_timestamp": "2026-05-14T13:15:46.602503+00:00"
 }
