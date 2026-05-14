@@ -393,6 +393,7 @@
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/explainable-ai-in-production-a-neuro-symbolic-model-for-real-time-fraud-detection/",
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
+    "https://towardsdatascience.com/exploring-patterns-of-survival-from-the-titanic-dataset/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/",
@@ -434,6 +435,7 @@
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
     "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
+    "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
@@ -721,6 +723,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-governance-in-healthcare-trustworthy-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/declarative-snowflake-pipelines-dcm-projects-cortex-code",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
@@ -739,6 +742,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/public-sector-data-informed-snowflake-intelligence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-2026-predictions-webinar-recap",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-customer-analytics-customer-360",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/roi-generative-agentic-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-zero-copy-integration-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
@@ -915,9 +919,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460322352032157696",
-    "last_posted_at_utc": "2026-05-13T13:37:35.021838+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7460579335255543808",
+    "last_posted_at_utc": "2026-05-14T06:38:44.616151+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1584,6 +1588,30 @@
         "date": "2026-05-13T13:37:35.021778+00:00",
         "hash_strict": "35f8bbc5cc40",
         "hash_medium": "f4fd686db97c"
+      },
+      {
+        "title": "Retail Customer Analytics: Modern Customer 360",
+        "date": "2026-05-14T06:38:44.615794+00:00",
+        "hash_strict": "137e399ce0d3",
+        "hash_medium": "3e7bad85b822"
+      },
+      {
+        "title": "Snowflake DCM Projects: Declarative Pipelines with Cortex Code",
+        "date": "2026-05-14T06:38:44.615911+00:00",
+        "hash_strict": "03f330bbecfc",
+        "hash_medium": "c0cc7d926e89"
+      },
+      {
+        "title": "Exploring Patterns of Survival from the Titanic Dataset",
+        "date": "2026-05-14T06:38:44.615994+00:00",
+        "hash_strict": "ee1a78d2c2b4",
+        "hash_medium": "0122ff057e3e"
+      },
+      {
+        "title": "I Built the Same B2B Document Extractor Twice: Rules vs. LLM",
+        "date": "2026-05-14T06:38:44.616072+00:00",
+        "hash_strict": "a7a716056c75",
+        "hash_medium": "9022fe3f8df7"
       }
     ]
   }
