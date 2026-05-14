@@ -1,12 +1,12 @@
 {
-  "total_posts": 269,
-  "posts_today": 1,
+  "total_posts": 270,
+  "posts_today": 2,
   "last_post_date": "2026-05-14",
   "formats_used": {
     "case_study": 20,
     "deep_dive": 15,
     "lessons": 30,
-    "digest": 193,
+    "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 73,
+    "aws.amazon.com": 74,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-15",
-      "time": "2026-03-15T11:49:59.107245+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-03-16",
       "time": "2026-03-16T05:30:38.181362+00:00",
@@ -1188,14 +1180,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-14",
+      "time": "2026-05-14T09:18:31.445675+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 242,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nWhat caught our attention:\n1. Retail Customer Analytics: Modern Customer 360\nContext: Explore how a modern customer 360 uses retail customer analytics, AI and real-time personalization to help brands win cautious consumers.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-customer-analytics-customer-360\n\n2. I Built the Same B2B Document Extractor Twice: Rules vs. LLM\nContext: A practical comparison between rule-based PDF extraction using pytesseract and an LLM-based approach with Ollama and LLaMA 3, based on a realistic B2B order scenario.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/\n\n3. Exploring Patterns of Survival from the Titanic Dataset\nContext: A beginner's tutorial on exploratory data analysis using Pandas, Matplolib, and Seaborn The post Exploring Patterns of Survival from the Titanic Dataset appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/exploring-patterns-of-survival-from-the-titanic-dataset/\n\n4. Snowflake DCM Projects: Declarative Pipelines with Cortex Code\nContext: Learn how to use Cortex Code's DCM skill to scaffold, test and deploy declarative Snowflake infrastructure changes \u2014 no more ALTER TABLE guesswork.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/declarative-snowflake-pipelines-dcm-projects-cortex-code\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nHow is your organization responding to these signals?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Oracle #DataVisualization #Alteryx #Tableau",
+  "posts_created": 243,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nEngineering visionaries spotlight what matters most this week.\n\nWhat caught our attention:\n1. Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls\nContext: In this post, you learn how to replicate Amazon DynamoDB data to Apache Iceberg tables in Amazon S3 through a zero-ETL integration.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/improve-dynamodb-analytics-with-aws-glue-zero-etl-schema-and-partition-controls/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#Cloud #CloudArchitecture #CloudNative #Analytics #DBT #Automation #SSRS",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.snowflake.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-14T06:38:44.619037+00:00"
+  "last_post_timestamp": "2026-05-14T09:18:31.446871+00:00"
 }
