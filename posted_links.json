@@ -34,6 +34,7 @@
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
+    "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
     "https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/",
@@ -439,6 +440,7 @@
     "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
+    "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
@@ -505,6 +507,7 @@
     "https://towardsdatascience.com/the-basics-of-vibe-engineering/",
     "https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/",
     "https://towardsdatascience.com/the-complete-guide-to-ai-implementation-for-chief-data-ai-officers-in-2026/",
+    "https://towardsdatascience.com/the-counterintuitive-networking-decisions-behind-openais-131000-gpu-training-fabric/",
     "https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/",
     "https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/",
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
@@ -518,6 +521,7 @@
     "https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/",
     "https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/",
     "https://towardsdatascience.com/the-new-experience-of-coding-with-ai/",
+    "https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/",
     "https://towardsdatascience.com/the-next-frontier-of-ai-in-production-is-chaos-engineering/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
@@ -693,6 +697,7 @@
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
     "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
+    "https://www.kdnuggets.com/time-series-feature-engineering-with-python-itertools",
     "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
     "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
     "https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms",
@@ -718,6 +723,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-fpa-real-time-insight",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-snowsight",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
@@ -920,9 +926,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460679252083130369",
-    "last_posted_at_utc": "2026-05-14T13:15:46.599376+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7460944561314353152",
+    "last_posted_at_utc": "2026-05-15T06:50:01.332303+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1625,6 +1631,42 @@
         "date": "2026-05-14T13:15:46.599261+00:00",
         "hash_strict": "0c555b64c766",
         "hash_medium": "7009c78b565d"
+      },
+      {
+        "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
+        "date": "2026-05-15T06:50:01.331879+00:00",
+        "hash_strict": "b4d8ecaab9d8",
+        "hash_medium": "58787bdb575d"
+      },
+      {
+        "title": "Cortex Code for FP&A: Faster Insight",
+        "date": "2026-05-15T06:50:01.331992+00:00",
+        "hash_strict": "94614fae8b59",
+        "hash_medium": "61713e95323d"
+      },
+      {
+        "title": "The Counterintuitive Networking Decisions Behind OpenAI\u2019s 131,000-GPU Training Fabric",
+        "date": "2026-05-15T06:50:01.332085+00:00",
+        "hash_strict": "be7d544cbe41",
+        "hash_medium": "c495e9ed037e"
+      },
+      {
+        "title": "The Next AI Bottleneck Isn\u2019t the Model: It\u2019s the Inference System",
+        "date": "2026-05-15T06:50:01.332151+00:00",
+        "hash_strict": "d99fa2805fc3",
+        "hash_medium": "fdd00ddb7db0"
+      },
+      {
+        "title": "Time-Series Feature Engineering with Python Itertools",
+        "date": "2026-05-15T06:50:01.332206+00:00",
+        "hash_strict": "2dd218c6ee48",
+        "hash_medium": "9be7d916c7a6"
+      },
+      {
+        "title": "I Let CodeSpeak Take Over My Repository",
+        "date": "2026-05-15T06:50:01.332255+00:00",
+        "hash_strict": "f9b54d93fdb5",
+        "hash_medium": "7e33d8a6d955"
       }
     ]
   }

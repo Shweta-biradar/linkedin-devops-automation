@@ -1,9 +1,9 @@
 {
-  "total_posts": 271,
-  "posts_today": 3,
-  "last_post_date": "2026-05-14",
+  "total_posts": 272,
+  "posts_today": 1,
+  "last_post_date": "2026-05-15",
   "formats_used": {
-    "case_study": 20,
+    "case_study": 21,
     "deep_dive": 15,
     "lessons": 31,
     "digest": 194,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 74,
+    "aws.amazon.com": 75,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 222,
-    "www.snowflake.com": 86,
-    "kdnuggets.com": 52,
+    "towardsdatascience.com": 225,
+    "www.snowflake.com": 87,
+    "kdnuggets.com": 53,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-16",
-      "time": "2026-03-16T07:55:19.527200+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-16",
       "time": "2026-03-16T12:05:53.226282+00:00",
@@ -1186,13 +1178,29 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "time": "2026-05-15T06:50:01.335607+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 244,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: How to Write Robust Code with Claude Code\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Automation #Snowflake #Tableau #MLOps #Looker #Analytics #DataAnalyst\n\n\u2753 What would you add to this list?\n\n#Databricks #Insights #DataAnalyst #Dashboard #BITools #SSAS #BusinessIntelligence",
-  "last_post_format": "lessons",
+  "posts_created": 245,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: The Next AI Bottleneck Isn\u2019t the Model: It\u2019s the Inference System\n\nThe story: Enterprise AI systems are entering a phase where inference design matters as much as model capability itself. The post The Next AI Bottleneck Isn\u2019t the Model: It\u2019s the...\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Production systems teach you things documentation never will\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#Reporting #Automation #MLOps #BusinessIntelligence #Looker #Dashboard #Tableau\n\n\u2753 What\u2019s the gap between this and your reality?\n\nDetails here: https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/\n\n#DBT #Dashboard #BigQuery #DataWarehouse #BITools #Qlik #BusinessIntelligence",
+  "last_post_format": "case_study",
   "last_post_sources": [
+    "kdnuggets.com",
+    "www.snowflake.com",
+    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-14T13:15:46.602503+00:00"
+  "last_post_timestamp": "2026-05-15T06:50:01.336791+00:00"
 }
