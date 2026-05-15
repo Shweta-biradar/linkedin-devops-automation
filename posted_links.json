@@ -496,6 +496,7 @@
     "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
+    "https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/",
     "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
     "https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
@@ -655,6 +656,7 @@
     "https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
     "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
+    "https://www.kdnuggets.com/5-must-know-python-concepts",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents",
@@ -927,52 +929,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460984735192883200",
-    "last_posted_at_utc": "2026-05-15T09:29:39.691574+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7461041476542640128",
+    "last_posted_at_utc": "2026-05-15T13:15:07.653904+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "The skills that take analysts from junior to senior",
-        "date": "2026-05-01T10:37:10.135544+00:00",
-        "hash_strict": "aa5c3a2e10dc",
-        "hash_medium": "5abffab25c24"
-      },
-      {
-        "title": "4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers",
-        "date": "2026-05-01T12:13:51.593264+00:00",
-        "hash_strict": "a6144722f9fc",
-        "hash_medium": "2a9c9db846d0"
-      },
-      {
-        "title": "The Best ETL Tools in 2026: A Practical Guide with Code Examples",
-        "date": "2026-05-01T12:13:51.593347+00:00",
-        "hash_strict": "d7cd5bec8a1f",
-        "hash_medium": "418e6bc0f730"
-      },
-      {
-        "title": "Data Clean Rooms for Privacy-First Collaboration",
-        "date": "2026-05-01T12:13:51.593387+00:00",
-        "hash_strict": "ea1ffe5f1278",
-        "hash_medium": "64b0b1f6a73c"
-      },
-      {
-        "title": "Unified observability in Amazon OpenSearch Service: metrics, traces, and AI agent debugging in a single interface",
-        "date": "2026-05-01T12:13:51.593423+00:00",
-        "hash_strict": "7a42f29ca75f",
-        "hash_medium": "107d4d581022"
-      },
-      {
-        "title": "How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python",
-        "date": "2026-05-01T12:13:51.593450+00:00",
-        "hash_strict": "3e2043f8fa67",
-        "hash_medium": "5dd1a2abc913"
-      },
-      {
-        "title": "PyTorch NaNs Are Silent Killers \u2014 So I Built a 3ms Hook to Catch Them at the Exact Layer",
-        "date": "2026-05-01T12:13:51.593472+00:00",
-        "hash_strict": "d00e772b90b3",
-        "hash_medium": "bd8c19bce38b"
-      },
       {
         "title": "Building agentic AI for Amazon RDS for SQL Server with Strands and AgentCore",
         "date": "2026-05-02T05:57:42.902393+00:00",
@@ -1674,6 +1634,18 @@
         "date": "2026-05-15T09:29:39.691489+00:00",
         "hash_strict": "b7da1c8e3c8d",
         "hash_medium": "70a874d15193"
+      },
+      {
+        "title": "5 Must-Know Python Concepts",
+        "date": "2026-05-15T13:15:07.653677+00:00",
+        "hash_strict": "d6a615047885",
+        "hash_medium": "b454c34b9890"
+      },
+      {
+        "title": "Stop Evaluating LLMs with \u201cVibe Checks\u201d",
+        "date": "2026-05-15T13:15:07.653809+00:00",
+        "hash_strict": "4cc9ac9b590c",
+        "hash_medium": "96d5140912e5"
       }
     ]
   }
