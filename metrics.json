@@ -1,10 +1,10 @@
 {
-  "total_posts": 272,
-  "posts_today": 1,
+  "total_posts": 273,
+  "posts_today": 2,
   "last_post_date": "2026-05-15",
   "formats_used": {
     "case_study": 21,
-    "deep_dive": 15,
+    "deep_dive": 16,
     "lessons": 31,
     "digest": 194,
     "lessons_learned": 2,
@@ -41,7 +41,7 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 225,
-    "www.snowflake.com": 87,
+    "www.snowflake.com": 88,
     "kdnuggets.com": 53,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-16",
-      "time": "2026-03-16T12:05:53.226282+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-17",
       "time": "2026-03-17T05:11:55.039838+00:00",
@@ -1191,16 +1182,21 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "time": "2026-05-15T09:29:39.693472+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 245,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: The Next AI Bottleneck Isn\u2019t the Model: It\u2019s the Inference System\n\nThe story: Enterprise AI systems are entering a phase where inference design matters as much as model capability itself. The post The Next AI Bottleneck Isn\u2019t the Model: It\u2019s the...\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Production systems teach you things documentation never will\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#Reporting #Automation #MLOps #BusinessIntelligence #Looker #Dashboard #Tableau\n\n\u2753 What\u2019s the gap between this and your reality?\n\nDetails here: https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/\n\n#DBT #Dashboard #BigQuery #DataWarehouse #BITools #Qlik #BusinessIntelligence",
-  "last_post_format": "case_study",
+  "posts_created": 246,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: Semantic Layer in Financial Services AI Risk\n\nAI in financial services depends on a reliable semantic layer. Learn why inconsistent definitions create risk, drift and governance gaps.\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nWhat would you do differently if you started over today?\n\n#BITools #Snowflake #ETL #Dashboard #BusinessIntelligence #SSIS #BigQuery\n\n\u2753 What\u2019s your experience with this topic?\n\n#MySQL #BigQuery #Tableau #Statistics #DataAnalyst #AdvancedAnalytics #DBT",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "kdnuggets.com",
-    "www.snowflake.com",
-    "aws.amazon.com",
-    "towardsdatascience.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-15T06:50:01.336791+00:00"
+  "last_post_timestamp": "2026-05-15T09:29:39.694643+00:00"
 }

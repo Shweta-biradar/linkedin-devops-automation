@@ -753,6 +753,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/roi-generative-agentic-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-zero-copy-integration-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-layer-ai-risk-finance",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
@@ -926,9 +927,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7460944561314353152",
-    "last_posted_at_utc": "2026-05-15T06:50:01.332303+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7460984735192883200",
+    "last_posted_at_utc": "2026-05-15T09:29:39.691574+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "The skills that take analysts from junior to senior",
@@ -1667,6 +1668,12 @@
         "date": "2026-05-15T06:50:01.332255+00:00",
         "hash_strict": "f9b54d93fdb5",
         "hash_medium": "7e33d8a6d955"
+      },
+      {
+        "title": "Semantic Layer in Financial Services AI Risk",
+        "date": "2026-05-15T09:29:39.691489+00:00",
+        "hash_strict": "b7da1c8e3c8d",
+        "hash_medium": "70a874d15193"
       }
     ]
   }
