@@ -1,9 +1,9 @@
 {
-  "total_posts": 274,
-  "posts_today": 3,
-  "last_post_date": "2026-05-15",
+  "total_posts": 275,
+  "posts_today": 1,
+  "last_post_date": "2026-05-16",
   "formats_used": {
-    "case_study": 22,
+    "case_study": 23,
     "deep_dive": 16,
     "lessons": 31,
     "digest": 194,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 75,
+    "aws.amazon.com": 79,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 226,
+    "towardsdatascience.com": 228,
     "www.snowflake.com": 88,
     "kdnuggets.com": 54,
     "techcrunch.com": 6,
@@ -303,18 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-17",
-      "time": "2026-03-17T07:38:33.204642+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "github.blog",
-        "towardsdatascience.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-17",
       "time": "2026-03-17T12:02:15.474413+00:00",
@@ -1186,14 +1174,27 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-16",
+      "time": "2026-05-16T06:15:16.313707+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 247,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\u23f1\ufe0f Timeline: 5 Must-Know Python Concepts\n\n\u2192 Challenge: In this article, we will explore five fundamental concepts that every Python developer should have in their toolkit.\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Production systems teach you things documentation never will\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nWhat would you do differently if you started over today?\n\n#PowerBI #PostgreSQL #SAPHANA #ETL #Snowflake #SSAS #DataVisualization\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://www.kdnuggets.com/5-must-know-python-concepts\n\n#SAPHANA #MLOps #SQL #MySQL #Looker #SSRS #Redshift",
+  "posts_created": 248,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: Why My Coding Assistant Started Replying in Korean When I Typed Chinese\n\nThe story: From a Chinese prompt to a Korean response: an embedding-space investigation into how code vocabulary reshapes language The post Why My Coding Assistant Started Replying in...\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Operational simplicity beats architectural elegance every time\n\u2192 Step 2: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat production experience changed how you design systems?\n\n#PostgreSQL #Databricks #Automation #Qlik #Oracle #SAPHANA #Snowflake\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/\n\n#Statistics #DataAnalyst #CloudData #DataWarehouse #SAPHANA #DataVisualization #Analytics",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "kdnuggets.com",
+    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-15T13:15:07.658292+00:00"
+  "last_post_timestamp": "2026-05-16T06:15:16.314902+00:00"
 }
