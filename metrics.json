@@ -1,10 +1,10 @@
 {
-  "total_posts": 275,
-  "posts_today": 1,
+  "total_posts": 276,
+  "posts_today": 2,
   "last_post_date": "2026-05-16",
   "formats_used": {
     "case_study": 23,
-    "deep_dive": 16,
+    "deep_dive": 17,
     "lessons": 31,
     "digest": 194,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 228,
+    "towardsdatascience.com": 230,
     "www.snowflake.com": 88,
     "kdnuggets.com": 54,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-17",
-      "time": "2026-03-17T12:02:15.474413+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-18",
       "time": "2026-03-18T05:16:32.450695+00:00",
@@ -1187,14 +1178,22 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-16",
+      "time": "2026-05-16T08:26:25.328643+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 248,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: Why My Coding Assistant Started Replying in Korean When I Typed Chinese\n\nThe story: From a Chinese prompt to a Korean response: an embedding-space investigation into how code vocabulary reshapes language The post Why My Coding Assistant Started Replying in...\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Operational simplicity beats architectural elegance every time\n\u2192 Step 2: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat production experience changed how you design systems?\n\n#PostgreSQL #Databricks #Automation #Qlik #Oracle #SAPHANA #Snowflake\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/\n\n#Statistics #DataAnalyst #CloudData #DataWarehouse #SAPHANA #DataVisualization #Analytics",
-  "last_post_format": "case_study",
+  "posts_created": 249,
+  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Deep dive: From Raw Data to Risk\u00a0Classes\n\nA practical guide to categorization in credit scoring The post From Raw Data to Risk Classes appeared first on Towards Data Science .\n\n\ud83d\udca1 The best architectures optimize for change, not just current requirements\n\nWhat production experience changed how you design systems?\n\n#Snowflake #Dashboard #SSAS #ETL #Databricks #Airflow #BigQuery\n\n\u2753 Which takeaway resonates most for your team?\n\n#DataVisualization #Automation #AdvancedAnalytics #MySQL #Dashboard #Tableau #Python",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-16T06:15:16.314902+00:00"
+  "last_post_timestamp": "2026-05-16T08:26:25.329831+00:00"
 }

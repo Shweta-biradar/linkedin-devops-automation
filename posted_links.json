@@ -406,6 +406,7 @@
     "https://towardsdatascience.com/from-data-scientist-to-ai-architect/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
+    "https://towardsdatascience.com/from-raw-data-to-risk-classes/",
     "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/ghost-a-database-for-our-times/",
@@ -415,6 +416,7 @@
     "https://towardsdatascience.com/how-ai-tools-generate-technical-debt-in-iot-systems-and-what-to-do-about-it/",
     "https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/",
     "https://towardsdatascience.com/how-gpus-communicate/",
+    "https://towardsdatascience.com/how-i-continually-improve-my-claude-code/",
     "https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
@@ -935,46 +937,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7461298204249075713",
-    "last_posted_at_utc": "2026-05-16T06:15:16.311778+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7461331209369833472",
+    "last_posted_at_utc": "2026-05-16T08:26:25.326549+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Snowflake Intelligence Partner Solutions Bring AI Edge to Industries",
-        "date": "2026-05-02T08:11:35.647682+00:00",
-        "hash_strict": "cf38f2245785",
-        "hash_medium": "538b9f478649"
-      },
-      {
-        "title": "Local Whisper Audio Transcription",
-        "date": "2026-05-02T08:11:35.647756+00:00",
-        "hash_strict": "4621b224556e",
-        "hash_medium": "6f15a9e6f950"
-      },
-      {
-        "title": "The \u201cRobust\u201d Data Scientist: Winning with Messy Data and Pingouin",
-        "date": "2026-05-02T08:11:35.647799+00:00",
-        "hash_strict": "17162bc34f44",
-        "hash_medium": "4832d26893a1"
-      },
-      {
-        "title": "Snowflake Kafka Connector V4",
-        "date": "2026-05-02T08:11:35.647846+00:00",
-        "hash_strict": "2554899fb9be",
-        "hash_medium": "2caded2a1221"
-      },
-      {
-        "title": "Datometry for Snowflake: Accelerate Teradata Migration",
-        "date": "2026-05-02T08:11:35.647879+00:00",
-        "hash_strict": "103cba89e378",
-        "hash_medium": "0baf4867fbb2"
-      },
-      {
-        "title": "5 Powerful Python Decorators to Build Clean AI Code",
-        "date": "2026-05-02T08:11:35.647913+00:00",
-        "hash_strict": "ef575558c273",
-        "hash_medium": "5c69110daa2d"
-      },
       {
         "title": "Correlation Doesn\u2019t Mean Causation! But What Does It Mean?",
         "date": "2026-05-02T12:07:39.167114+00:00",
@@ -1652,6 +1618,18 @@
         "date": "2026-05-16T06:15:16.311727+00:00",
         "hash_strict": "ed884476e3cf",
         "hash_medium": "ba4a245042ae"
+      },
+      {
+        "title": "How I Continually Improve My Claude Code",
+        "date": "2026-05-16T08:26:25.326260+00:00",
+        "hash_strict": "4b146f212120",
+        "hash_medium": "2c1ec7af7882"
+      },
+      {
+        "title": "From Raw Data to Risk\u00a0Classes",
+        "date": "2026-05-16T08:26:25.326412+00:00",
+        "hash_strict": "28fde9dd4ef3",
+        "hash_medium": "65cc8949c683"
       }
     ]
   }
