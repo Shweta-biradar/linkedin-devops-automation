@@ -1,11 +1,11 @@
 {
-  "total_posts": 276,
-  "posts_today": 2,
+  "total_posts": 277,
+  "posts_today": 3,
   "last_post_date": "2026-05-16",
   "formats_used": {
     "case_study": 23,
     "deep_dive": 17,
-    "lessons": 31,
+    "lessons": 32,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 79,
+    "aws.amazon.com": 80,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-18",
-      "time": "2026-03-18T05:16:32.450695+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "www.snowflake.com",
-        "blog.jetbrains.com",
-        "www.bleepingcomputer.com",
-        "thenewstack.io",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-18",
       "time": "2026-03-18T07:36:33.866309+00:00",
@@ -1187,13 +1174,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-16",
+      "time": "2026-05-16T12:15:12.531756+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 249,
-  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Deep dive: From Raw Data to Risk\u00a0Classes\n\nA practical guide to categorization in credit scoring The post From Raw Data to Risk Classes appeared first on Towards Data Science .\n\n\ud83d\udca1 The best architectures optimize for change, not just current requirements\n\nWhat production experience changed how you design systems?\n\n#Snowflake #Dashboard #SSAS #ETL #Databricks #Airflow #BigQuery\n\n\u2753 Which takeaway resonates most for your team?\n\n#DataVisualization #Automation #AdvancedAnalytics #MySQL #Dashboard #Tableau #Python",
-  "last_post_format": "deep_dive",
+  "posts_created": 250,
+  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Redshift #Reporting #Airflow #CloudData #Insights #DataVisualization #BusinessIntelligence\n\n\u2753 What would you add to this list?\n\n#Automation #Qlik #SAPHANA #Snowflake #MLOps #Alteryx #DataWarehouse",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-16T08:26:25.329831+00:00"
+  "last_post_timestamp": "2026-05-16T12:15:12.532902+00:00"
 }

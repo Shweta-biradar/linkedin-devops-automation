@@ -70,6 +70,7 @@
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
     "https://aws.amazon.com/blogs/database/upgrade-strategies-for-amazon-rds-for-mysql-8-0-to-8-4/",
     "https://aws.amazon.com/blogs/database/valkey-turns-two/",
+    "https://aws.amazon.com/blogs/database/zero-downtime-dynamodb-construct-migration-from-table-to-tablev2-with-cdk-orphan/",
     "https://aws.amazon.com/blogs/devops/aws-cloudformation-2025-year-in-review/",
     "https://aws.amazon.com/blogs/mt/search-and-discover-governance-controls-with-control-catalog-in-aws-control-tower/",
     "https://blog.checkpoint.com/company-and-culture/check-point-celebrates-2025-with-top-analyst-and-research-lab-recognitions/",
@@ -937,46 +938,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7461331209369833472",
-    "last_posted_at_utc": "2026-05-16T08:26:25.326549+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7461388785344204800",
+    "last_posted_at_utc": "2026-05-16T12:15:12.529826+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Correlation Doesn\u2019t Mean Causation! But What Does It Mean?",
-        "date": "2026-05-02T12:07:39.167114+00:00",
-        "hash_strict": "ecba2e396efc",
-        "hash_medium": "b26bcedf148f"
-      },
-      {
-        "title": "The Next Frontier of AI in Production Is Chaos Engineering",
-        "date": "2026-05-02T12:07:39.167218+00:00",
-        "hash_strict": "6062302649c0",
-        "hash_medium": "120698676ad3"
-      },
-      {
-        "title": "Why Powerful Machine Learning Is Deceptively Easy",
-        "date": "2026-05-02T12:07:39.167262+00:00",
-        "hash_strict": "3edb9887df54",
-        "hash_medium": "aee0c451379e"
-      },
-      {
-        "title": "Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings",
-        "date": "2026-05-02T12:07:39.167308+00:00",
-        "hash_strict": "db0dbf7faea8",
-        "hash_medium": "f35191bb4557"
-      },
-      {
-        "title": "System Design Series: Apache Flink from 10,000 Feet, and Building a Flink-powered Recommendation Engine",
-        "date": "2026-05-02T12:07:39.167354+00:00",
-        "hash_strict": "87eac59bd4d5",
-        "hash_medium": "0537fce00dfe"
-      },
-      {
-        "title": "A Gentle Introduction to Stochastic Programming",
-        "date": "2026-05-02T12:07:39.167404+00:00",
-        "hash_strict": "a54fa9ff050e",
-        "hash_medium": "0f944ca55f48"
-      },
       {
         "title": "How a 2021 Quantization Algorithm Quietly Outperforms Its 2026 Successor",
         "date": "2026-05-03T06:19:43.810237+00:00",
@@ -1630,6 +1595,12 @@
         "date": "2026-05-16T08:26:25.326412+00:00",
         "hash_strict": "28fde9dd4ef3",
         "hash_medium": "65cc8949c683"
+      },
+      {
+        "title": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan",
+        "date": "2026-05-16T12:15:12.529731+00:00",
+        "hash_strict": "d023ab7399bb",
+        "hash_medium": "1f937a4c9062"
       }
     ]
   }
