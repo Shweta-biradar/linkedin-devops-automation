@@ -940,22 +940,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7461666097860198401",
-    "last_posted_at_utc": "2026-05-17T06:37:08.991278+00:00",
+    "last_post_id": "urn:li:share:7461696471298650112",
+    "last_posted_at_utc": "2026-05-17T08:37:50.553802+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Agentic AI in Business: From Pilots to Operations",
-        "date": "2026-05-03T08:20:22.888860+00:00",
-        "hash_strict": "a3bd61094904",
-        "hash_medium": "3750d96e0d8f"
-      },
-      {
-        "title": "Agentic AI: How to Save on\u00a0Tokens",
-        "date": "2026-05-03T08:20:22.888953+00:00",
-        "hash_strict": "caff86e533b7",
-        "hash_medium": "e861bdcb8e8a"
-      },
       {
         "title": "4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers",
         "date": "2026-05-03T12:06:00.096777+00:00",
@@ -1579,6 +1567,12 @@
         "date": "2026-05-17T06:37:08.991136+00:00",
         "hash_strict": "ecb38ae02d76",
         "hash_medium": "41ccce16a4d0"
+      },
+      {
+        "title": "Upgrade strategies for Amazon RDS for MySQL 8.0 to 8.4",
+        "date": "2026-05-17T08:37:50.553701+00:00",
+        "hash_strict": "ec1c01154151",
+        "hash_medium": "06f0da2796de"
       }
     ]
   }
