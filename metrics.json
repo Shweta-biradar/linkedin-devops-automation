@@ -1,11 +1,11 @@
 {
-  "total_posts": 277,
-  "posts_today": 3,
-  "last_post_date": "2026-05-16",
+  "total_posts": 278,
+  "posts_today": 1,
+  "last_post_date": "2026-05-17",
   "formats_used": {
     "case_study": 23,
     "deep_dive": 17,
-    "lessons": 32,
+    "lessons": 33,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 230,
+    "towardsdatascience.com": 232,
     "www.snowflake.com": 88,
     "kdnuggets.com": 54,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-18",
-      "time": "2026-03-18T07:36:33.866309+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "www.snowflake.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-18",
       "time": "2026-03-18T12:04:44.394777+00:00",
@@ -1182,13 +1169,22 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-17",
+      "time": "2026-05-17T06:37:08.993061+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 250,
-  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Redshift #Reporting #Airflow #CloudData #Insights #DataVisualization #BusinessIntelligence\n\n\u2753 What would you add to this list?\n\n#Automation #Qlik #SAPHANA #Snowflake #MLOps #Alteryx #DataWarehouse",
+  "posts_created": 251,
+  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nStrategic thinkers highlight recurring patterns.\n\nTopic: From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Airflow #CloudData #DataAnalyst #SQL #BusinessIntelligence #Automation #Insights\n\n\u2753 How do you apply these lessons?\n\n#Insights #Redshift #ETL #AdvancedAnalytics #SSAS #Analytics #DataWarehouse",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-16T12:15:12.532902+00:00"
+  "last_post_timestamp": "2026-05-17T06:37:08.995054+00:00"
 }

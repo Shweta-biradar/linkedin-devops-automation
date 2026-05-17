@@ -404,6 +404,7 @@
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/",
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
+    "https://towardsdatascience.com/from-data-analyst-to-data-engineer-my-12-month-self-study-roadmap/",
     "https://towardsdatascience.com/from-data-scientist-to-ai-architect/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
@@ -492,6 +493,7 @@
     "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
+    "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
     "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
@@ -938,46 +940,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7461388785344204800",
-    "last_posted_at_utc": "2026-05-16T12:15:12.529826+00:00",
+    "last_post_id": "urn:li:share:7461666097860198401",
+    "last_posted_at_utc": "2026-05-17T06:37:08.991278+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "How a 2021 Quantization Algorithm Quietly Outperforms Its 2026 Successor",
-        "date": "2026-05-03T06:19:43.810237+00:00",
-        "hash_strict": "bbbe9d333a8c",
-        "hash_medium": "1f82d537cc9f"
-      },
-      {
-        "title": "Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding",
-        "date": "2026-05-03T06:19:43.810326+00:00",
-        "hash_strict": "a66557e36fe8",
-        "hash_medium": "59502bc03a57"
-      },
-      {
-        "title": "Which Regularizer Should You Actually Use? Lessons from 134,400 Simulations",
-        "date": "2026-05-03T06:19:43.810358+00:00",
-        "hash_strict": "d1e623cb4a8d",
-        "hash_medium": "3feb4a923000"
-      },
-      {
-        "title": "How to Get Hired in the AI Era",
-        "date": "2026-05-03T06:19:43.810384+00:00",
-        "hash_strict": "68dc281706e8",
-        "hash_medium": "997f54091d9a"
-      },
-      {
-        "title": "Ghost: A Database for Our\u00a0Times?",
-        "date": "2026-05-03T06:19:43.810406+00:00",
-        "hash_strict": "deb2e6a5c1fa",
-        "hash_medium": "88bd17e90ac8"
-      },
-      {
-        "title": "Ensembles of Ensembles of Ensembles: A Guide to Stacking",
-        "date": "2026-05-03T06:19:43.810430+00:00",
-        "hash_strict": "c3f03e35ce18",
-        "hash_medium": "31e2ad112922"
-      },
       {
         "title": "Agentic AI in Business: From Pilots to Operations",
         "date": "2026-05-03T08:20:22.888860+00:00",
@@ -1601,6 +1567,18 @@
         "date": "2026-05-16T12:15:12.529731+00:00",
         "hash_strict": "d023ab7399bb",
         "hash_medium": "1f937a4c9062"
+      },
+      {
+        "title": "From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap",
+        "date": "2026-05-17T06:37:08.991006+00:00",
+        "hash_strict": "2b8889a73a30",
+        "hash_medium": "ed27f0175ae9"
+      },
+      {
+        "title": "Recursive Language Models: An All-in-One Deep Dive",
+        "date": "2026-05-17T06:37:08.991136+00:00",
+        "hash_strict": "ecb38ae02d76",
+        "hash_medium": "41ccce16a4d0"
       }
     ]
   }
