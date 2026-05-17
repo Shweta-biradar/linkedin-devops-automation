@@ -1,9 +1,9 @@
 {
-  "total_posts": 279,
-  "posts_today": 2,
+  "total_posts": 280,
+  "posts_today": 3,
   "last_post_date": "2026-05-17",
   "formats_used": {
-    "case_study": 23,
+    "case_study": 24,
     "deep_dive": 17,
     "lessons": 34,
     "digest": 194,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 81,
+    "aws.amazon.com": 82,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-19",
-      "time": "2026-03-19T05:12:19.046702+00:00",
-      "format": "digest",
-      "sources": [
-        "powerbi.microsoft.com",
-        "aws.amazon.com",
-        "www.snowflake.com",
-        "techcrunch.com",
-        "towardsdatascience.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-03-19",
       "time": "2026-03-19T07:33:59.919854+00:00",
@@ -1176,13 +1163,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-17",
+      "time": "2026-05-17T12:12:53.631446+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 252,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nPlatform architects surface lessons from production.\n\nTopic: Upgrade strategies for Amazon RDS for MySQL 8.0 to 8.4\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#PostgreSQL #Statistics #SQL #BigQuery #SSAS #Airflow #DataVisualization\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#DataWarehouse #Insights #DBT #Reporting #Redshift #Alteryx #MySQL",
-  "last_post_format": "lessons",
+  "posts_created": 253,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udcda Case: Optimize Amazon S3 Tables queries with Amazon Redshift\n\nThe story: This is the third post in our S3 Tables and Amazon Redshift series. The first post covered getting started with querying Apache Iceberg tables, and the second post walked...\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Cloud-native patterns work best when you embrace failure\n\u2611\ufe0f Multi-cloud means multi-complexity - go deep before going wide\n\u2611\ufe0f Track results and optimize\n\nWhat multi-cloud challenges have you solved?\n\n#DataVisualization #CloudData #SSRS #Analytics #SSAS #Python #SQL\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/\n\n#Python #Looker #Reporting #BITools #Oracle #Databricks #DataAnalyst",
+  "last_post_format": "case_study",
   "last_post_sources": [
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-17T08:37:50.556949+00:00"
+  "last_post_timestamp": "2026-05-17T12:12:53.632632+00:00"
 }
