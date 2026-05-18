@@ -436,6 +436,7 @@
     "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
     "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
     "https://towardsdatascience.com/how-to-make-claude-code-validate-its-own-work/",
+    "https://towardsdatascience.com/how-to-maximize-openais-codex/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
@@ -565,6 +566,7 @@
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
     "https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/",
     "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/",
+    "https://towardsdatascience.com/why-your-ai-demo-will-die-in-production/",
     "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
@@ -629,7 +631,9 @@
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
+    "https://www.getdbt.com/blog/how-nasdaq-built-a-governed-intelligence-layer-with-dbt-and-databricks",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
+    "https://www.getdbt.com/blog/ship-smarter-agents-in-production-with-dbt-agent-skills",
     "https://www.getdbt.com/blog/the-dbt-developer-agent-is-now-in-preview",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
@@ -942,16 +946,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462091894064517120",
-    "last_posted_at_utc": "2026-05-18T10:49:06.701024+00:00",
+    "last_post_id": "urn:li:share:7462150802938220544",
+    "last_posted_at_utc": "2026-05-18T14:43:11.705749+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "How AI Tools Generate Technical Debt in IoT Systems \u2014 and What to Do About It",
-        "date": "2026-05-04T13:07:04.327792+00:00",
-        "hash_strict": "919f9e4060b8",
-        "hash_medium": "46d79931adf8"
-      },
       {
         "title": "Testing SQL Like a Software Engineer: Unit Testing, CI/CD, and Data Quality Automation",
         "date": "2026-05-05T06:03:38.607337+00:00",
@@ -1575,6 +1573,30 @@
         "date": "2026-05-18T10:49:06.700927+00:00",
         "hash_strict": "b4d8ecaab9d8",
         "hash_medium": "58787bdb575d"
+      },
+      {
+        "title": "How NASDAQ built a governed intelligence layer with dbt and Databricks",
+        "date": "2026-05-18T14:43:11.705473+00:00",
+        "hash_strict": "c6893ea4c9cc",
+        "hash_medium": "c30e7a95e336"
+      },
+      {
+        "title": "Ship smarter agents in production with dbt Agent Skills",
+        "date": "2026-05-18T14:43:11.705598+00:00",
+        "hash_strict": "13f6ceb53180",
+        "hash_medium": "fd50386efb70"
+      },
+      {
+        "title": "How to Maximize OpenAI\u2019s Codex",
+        "date": "2026-05-18T14:43:11.705666+00:00",
+        "hash_strict": "bbaad3909811",
+        "hash_medium": "aeba70ab472b"
+      },
+      {
+        "title": "Why Your AI Demo Will Die in Production",
+        "date": "2026-05-18T14:43:11.705711+00:00",
+        "hash_strict": "46bcef79b0e7",
+        "hash_medium": "4d6da3cc37f5"
       }
     ]
   }

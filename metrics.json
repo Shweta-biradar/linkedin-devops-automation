@@ -1,11 +1,11 @@
 {
-  "total_posts": 282,
-  "posts_today": 2,
+  "total_posts": 283,
+  "posts_today": 3,
   "last_post_date": "2026-05-18",
   "formats_used": {
     "case_study": 24,
     "deep_dive": 18,
-    "lessons": 35,
+    "lessons": 36,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 234,
+    "towardsdatascience.com": 236,
     "www.snowflake.com": 88,
     "kdnuggets.com": 54,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
-    "www.dbt.com": 3,
+    "www.dbt.com": 5,
     "www.dataquest.io": 15,
     "www.udacity.com": 1
   },
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-20",
-      "time": "2026-03-20T05:07:05.032543+00:00",
-      "format": "digest",
-      "sources": [
-        "blog.jetbrains.com",
-        "thenewstack.io",
-        "kdnuggets.com",
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-20",
       "time": "2026-03-20T07:32:08.457764+00:00",
@@ -1169,13 +1156,25 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-18",
+      "time": "2026-05-18T14:43:11.709382+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.dbt.com",
+        "www.dbt.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 255,
-  "last_post_content": "\u26a1 Career-changing lessons.\nAnalytics experts reveal what sticks.\n\nTopic: Optimize Amazon S3 Tables queries with Amazon Redshift\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#DBT #Analytics #AdvancedAnalytics #SAPHANA #Alteryx #Airflow #Snowflake\n\n\u2753 What would you add to this list?\n\n#PostgreSQL #Looker #DataWarehouse #SQL #Databricks #ETL #BITools",
+  "posts_created": 256,
+  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nStrategic thinkers highlight recurring patterns.\n\nTopic: How NASDAQ built a governed intelligence layer with dbt and Databricks\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#ETL #Redshift #Automation #Analytics #Airflow #DBT #BITools\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#SSIS #ETL #CloudData #DataWarehouse #SQL #PowerBI #Oracle",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com",
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-05-18T10:49:06.703889+00:00"
+  "last_post_timestamp": "2026-05-18T14:43:11.710569+00:00"
 }
