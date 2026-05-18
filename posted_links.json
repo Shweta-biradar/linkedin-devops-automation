@@ -942,16 +942,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462037769742303232",
-    "last_posted_at_utc": "2026-05-18T07:14:02.482161+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7462091894064517120",
+    "last_posted_at_utc": "2026-05-18T10:49:06.701024+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "A guide to capacity planning for Airflow worker pool in Amazon MWAA",
-        "date": "2026-05-04T09:04:16.178831+00:00",
-        "hash_strict": "fc97875f4dbb",
-        "hash_medium": "1c8804bf6bdc"
-      },
       {
         "title": "How AI Tools Generate Technical Debt in IoT Systems \u2014 and What to Do About It",
         "date": "2026-05-04T13:07:04.327792+00:00",
@@ -1575,6 +1569,12 @@
         "date": "2026-05-18T07:14:02.482110+00:00",
         "hash_strict": "e71318c03c30",
         "hash_medium": "0c980fcfcd3b"
+      },
+      {
+        "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
+        "date": "2026-05-18T10:49:06.700927+00:00",
+        "hash_strict": "b4d8ecaab9d8",
+        "hash_medium": "58787bdb575d"
       }
     ]
   }

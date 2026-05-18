@@ -1,11 +1,11 @@
 {
-  "total_posts": 281,
-  "posts_today": 1,
+  "total_posts": 282,
+  "posts_today": 2,
   "last_post_date": "2026-05-18",
   "formats_used": {
     "case_study": 24,
     "deep_dive": 18,
-    "lessons": 34,
+    "lessons": 35,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 82,
+    "aws.amazon.com": 83,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-19",
-      "time": "2026-03-19T11:56:56.441716+00:00",
-      "format": "digest",
-      "sources": [
-        "stackoverflow.blog"
-      ]
-    },
     {
       "date": "2026-03-20",
       "time": "2026-03-20T05:07:05.032543+00:00",
@@ -1169,13 +1161,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-18",
+      "time": "2026-05-18T10:49:06.702758+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 254,
-  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nCloud pioneers spotlight critical lessons.\n\n\ud83c\udfaf LLM Evals Are Based on Vibes \u2014 I Built the Missing Layer That Decides What Ships\n\nWhat it's about:\nMost LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into...\n\nWhy it matters: improves visibility, debugging speed, and reliability.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Alert on symptoms, not causes - let humans do root cause analysis\n\u2022 Metrics without context are just numbers - add business meaning\n\u2022 Cardinality explosion will kill your monitoring budget\n\nWhat observability blind spots have surprised you?\n\n#Alteryx #SAPHANA #Statistics #MLOps #BITools #SSAS #ETL\n\n\u2753 What would you add to this deep dive?\n\n#CloudData #Snowflake #PostgreSQL #MySQL #ETL #Reporting #DataWarehouse",
-  "last_post_format": "deep_dive",
+  "posts_created": 255,
+  "last_post_content": "\u26a1 Career-changing lessons.\nAnalytics experts reveal what sticks.\n\nTopic: Optimize Amazon S3 Tables queries with Amazon Redshift\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#DBT #Analytics #AdvancedAnalytics #SAPHANA #Alteryx #Airflow #Snowflake\n\n\u2753 What would you add to this list?\n\n#PostgreSQL #Looker #DataWarehouse #SQL #Databricks #ETL #BITools",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-18T07:14:02.485305+00:00"
+  "last_post_timestamp": "2026-05-18T10:49:06.703889+00:00"
 }
