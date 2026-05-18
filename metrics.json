@@ -1,10 +1,10 @@
 {
-  "total_posts": 280,
-  "posts_today": 3,
-  "last_post_date": "2026-05-17",
+  "total_posts": 281,
+  "posts_today": 1,
+  "last_post_date": "2026-05-18",
   "formats_used": {
     "case_study": 24,
-    "deep_dive": 17,
+    "deep_dive": 18,
     "lessons": 34,
     "digest": 194,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 232,
+    "towardsdatascience.com": 234,
     "www.snowflake.com": 88,
     "kdnuggets.com": 54,
     "techcrunch.com": 6,
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-19",
-      "time": "2026-03-19T07:33:59.919854+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-19",
       "time": "2026-03-19T11:56:56.441716+00:00",
@@ -1171,13 +1160,22 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-18",
+      "time": "2026-05-18T07:14:02.484128+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 253,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udcda Case: Optimize Amazon S3 Tables queries with Amazon Redshift\n\nThe story: This is the third post in our S3 Tables and Amazon Redshift series. The first post covered getting started with querying Apache Iceberg tables, and the second post walked...\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Cloud-native patterns work best when you embrace failure\n\u2611\ufe0f Multi-cloud means multi-complexity - go deep before going wide\n\u2611\ufe0f Track results and optimize\n\nWhat multi-cloud challenges have you solved?\n\n#DataVisualization #CloudData #SSRS #Analytics #SSAS #Python #SQL\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/\n\n#Python #Looker #Reporting #BITools #Oracle #Databricks #DataAnalyst",
-  "last_post_format": "case_study",
+  "posts_created": 254,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nCloud pioneers spotlight critical lessons.\n\n\ud83c\udfaf LLM Evals Are Based on Vibes \u2014 I Built the Missing Layer That Decides What Ships\n\nWhat it's about:\nMost LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into...\n\nWhy it matters: improves visibility, debugging speed, and reliability.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Alert on symptoms, not causes - let humans do root cause analysis\n\u2022 Metrics without context are just numbers - add business meaning\n\u2022 Cardinality explosion will kill your monitoring budget\n\nWhat observability blind spots have surprised you?\n\n#Alteryx #SAPHANA #Statistics #MLOps #BITools #SSAS #ETL\n\n\u2753 What would you add to this deep dive?\n\n#CloudData #Snowflake #PostgreSQL #MySQL #ETL #Reporting #DataWarehouse",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-17T12:12:53.632632+00:00"
+  "last_post_timestamp": "2026-05-18T07:14:02.485305+00:00"
 }

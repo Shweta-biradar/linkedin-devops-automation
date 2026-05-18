@@ -461,6 +461,7 @@
     "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
     "https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-1-the-geometric-intuition/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
+    "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
     "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
@@ -475,6 +476,7 @@
     "https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/",
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
+    "https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
     "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
@@ -940,22 +942,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7461750590482616320",
-    "last_posted_at_utc": "2026-05-17T12:12:53.629457+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7462037769742303232",
+    "last_posted_at_utc": "2026-05-18T07:14:02.482161+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "CSPNet Paper Walkthrough: Just Better, No Tradeoffs",
-        "date": "2026-05-04T06:30:18.689778+00:00",
-        "hash_strict": "65417d13703e",
-        "hash_medium": "0452584e8417"
-      },
-      {
-        "title": "Inference Scaling (Test-Time Compute): Why Reasoning Models Raise Your Compute Bill",
-        "date": "2026-05-04T06:30:18.689862+00:00",
-        "hash_strict": "b35761cc9593",
-        "hash_medium": "05db0d3c9135"
-      },
       {
         "title": "A guide to capacity planning for Airflow worker pool in Amazon MWAA",
         "date": "2026-05-04T09:04:16.178831+00:00",
@@ -1573,6 +1563,18 @@
         "date": "2026-05-17T12:12:53.629355+00:00",
         "hash_strict": "b4d8ecaab9d8",
         "hash_medium": "58787bdb575d"
+      },
+      {
+        "title": "LLM Evals Are Based on Vibes \u2014 I Built the Missing Layer That Decides What Ships",
+        "date": "2026-05-18T07:14:02.481973+00:00",
+        "hash_strict": "a61ac9efe44a",
+        "hash_medium": "3d357d455b03"
+      },
+      {
+        "title": "Pandas Isn\u2019t Going Anywhere: Why It\u2019s Still My Go-To for Data Wrangling",
+        "date": "2026-05-18T07:14:02.482110+00:00",
+        "hash_strict": "e71318c03c30",
+        "hash_medium": "0c980fcfcd3b"
       }
     ]
   }
