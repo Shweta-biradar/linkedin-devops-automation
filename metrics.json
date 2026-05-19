@@ -1,11 +1,11 @@
 {
-  "total_posts": 285,
-  "posts_today": 2,
+  "total_posts": 286,
+  "posts_today": 3,
   "last_post_date": "2026-05-19",
   "formats_used": {
     "case_study": 25,
     "deep_dive": 18,
-    "lessons": 37,
+    "lessons": 38,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 238,
+    "towardsdatascience.com": 239,
     "www.snowflake.com": 88,
-    "kdnuggets.com": 55,
+    "kdnuggets.com": 56,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-21",
-      "time": "2026-03-21T04:55:43.320698+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-21",
       "time": "2026-03-21T07:09:50.215730+00:00",
@@ -1164,13 +1151,23 @@
       "sources": [
         "www.dbt.com"
       ]
+    },
+    {
+      "date": "2026-05-19",
+      "time": "2026-05-19T14:12:18.644009+00:00",
+      "format": "lessons",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 258,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nCloud pioneers spotlight operational wisdom.\n\nTopic: AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat's a lesson that changed how you work?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Snowflake #AdvancedAnalytics #Oracle #BITools\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Redshift #Analytics #SAPHANA #DataAnalyst",
+  "posts_created": 259,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nCloud pioneers spotlight operational wisdom.\n\nTopic: Top 10 Python Libraries for Data Engineering in 2026\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nShare your hard-won wisdom below.\n\n#Insights #BITools #DataVisualization #MLOps #Statistics #Alteryx #AdvancedAnalytics\n\n\u2753 What would you add to this list?\n\n#SSAS #Oracle #SAPHANA #CloudData #PostgreSQL #MySQL #Snowflake",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "www.dbt.com"
+    "towardsdatascience.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-05-19T10:14:43.832836+00:00"
+  "last_post_timestamp": "2026-05-19T14:12:18.645196+00:00"
 }

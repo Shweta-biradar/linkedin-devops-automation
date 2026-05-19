@@ -491,6 +491,7 @@
     "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-comparison/",
     "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-intelligence/",
     "https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/",
+    "https://towardsdatascience.com/proxy-pointer-rag-solving-entity-and-relationship-sprawl-in-large-knowledge-graphs/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
     "https://towardsdatascience.com/pyspark-for-beginners-mastering-the-basics/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
@@ -723,6 +724,7 @@
     "https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore",
     "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
     "https://www.kdnuggets.com/time-series-feature-engineering-with-python-itertools",
+    "https://www.kdnuggets.com/top-10-python-libraries-for-data-engineering-in-2026",
     "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
     "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
     "https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms",
@@ -952,16 +954,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462445629634674688",
-    "last_posted_at_utc": "2026-05-19T10:14:43.829533+00:00",
+    "last_post_id": "urn:li:share:7462505418653736960",
+    "last_posted_at_utc": "2026-05-19T14:12:18.641942+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Surviving High Uncertainty in Logistics with\u00a0MARL",
-        "date": "2026-05-05T12:48:14.071433+00:00",
-        "hash_strict": "f1afa18b7144",
-        "hash_medium": "b84be3b402b4"
-      },
       {
         "title": "Snowflake Openflow & Cortex Code: AI-Driven Data Integration",
         "date": "2026-05-06T06:18:37.449669+00:00",
@@ -1609,6 +1605,18 @@
         "date": "2026-05-19T10:14:43.829407+00:00",
         "hash_strict": "4fdf862e08c5",
         "hash_medium": "fe3df794c390"
+      },
+      {
+        "title": "Top 10 Python Libraries for Data Engineering in 2026",
+        "date": "2026-05-19T14:12:18.641729+00:00",
+        "hash_strict": "1ed399fd4ec0",
+        "hash_medium": "0010fa9aaec9"
+      },
+      {
+        "title": "Proxy-Pointer RAG: Solving Entity and Relationship Sprawl in Large Knowledge Graphs",
+        "date": "2026-05-19T14:12:18.641851+00:00",
+        "hash_strict": "84fb14d49893",
+        "hash_medium": "097fe164341b"
       }
     ]
   }
