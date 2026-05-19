@@ -1,11 +1,11 @@
 {
-  "total_posts": 284,
-  "posts_today": 1,
+  "total_posts": 285,
+  "posts_today": 2,
   "last_post_date": "2026-05-19",
   "formats_used": {
     "case_study": 25,
     "deep_dive": 18,
-    "lessons": 36,
+    "lessons": 37,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -46,7 +46,7 @@
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
-    "www.dbt.com": 6,
+    "www.dbt.com": 7,
     "www.dataquest.io": 15,
     "www.udacity.com": 1
   },
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-20",
-      "time": "2026-03-20T11:52:53.975498+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-21",
       "time": "2026-03-21T04:55:43.320698+00:00",
@@ -1167,16 +1156,21 @@
         "towardsdatascience.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-19",
+      "time": "2026-05-19T10:14:43.831651+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 257,
-  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udd0d Breakdown: The Hidden Skill Gap: Why Knowing SQL + Python Isn\u2019t Enough Anymore\n\n\ud83d\udcca Data: This article is about the gap between what candidates prepare for and what companies actually need right now.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#DataAnalyst #DataWarehouse #Python #Reporting #Statistics #Insights #AdvancedAnalytics\n\n\u2753 How would you adapt this for your team?\n\n\ud83d\udcda Key resource: https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore\n\n#DataWarehouse #ETL #SSAS #BigQuery #Insights #SQL #Qlik",
-  "last_post_format": "case_study",
+  "posts_created": 258,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nCloud pioneers spotlight operational wisdom.\n\nTopic: AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat's a lesson that changed how you work?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Snowflake #AdvancedAnalytics #Oracle #BITools\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Redshift #Analytics #SAPHANA #DataAnalyst",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "www.dbt.com",
-    "kdnuggets.com",
-    "towardsdatascience.com",
-    "aws.amazon.com"
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-05-19T07:04:14.877486+00:00"
+  "last_post_timestamp": "2026-05-19T10:14:43.832836+00:00"
 }
