@@ -1,9 +1,9 @@
 {
-  "total_posts": 283,
-  "posts_today": 3,
-  "last_post_date": "2026-05-18",
+  "total_posts": 284,
+  "posts_today": 1,
+  "last_post_date": "2026-05-19",
   "formats_used": {
-    "case_study": 24,
+    "case_study": 25,
     "deep_dive": 18,
     "lessons": 36,
     "digest": 194,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 83,
+    "aws.amazon.com": 85,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 236,
+    "towardsdatascience.com": 238,
     "www.snowflake.com": 88,
-    "kdnuggets.com": 54,
+    "kdnuggets.com": 55,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
-    "www.dbt.com": 5,
+    "www.dbt.com": 6,
     "www.dataquest.io": 15,
     "www.udacity.com": 1
   },
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-20",
-      "time": "2026-03-20T07:32:08.457764+00:00",
-      "format": "digest",
-      "sources": [
-        "www.bleepingcomputer.com",
-        "github.blog",
-        "towardsdatascience.com",
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "github.blog"
-      ]
-    },
     {
       "date": "2026-03-20",
       "time": "2026-03-20T11:52:53.975498+00:00",
@@ -1167,14 +1154,29 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-19",
+      "time": "2026-05-19T07:04:14.876402+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.dbt.com",
+        "kdnuggets.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 256,
-  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nStrategic thinkers highlight recurring patterns.\n\nTopic: How NASDAQ built a governed intelligence layer with dbt and Databricks\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#ETL #Redshift #Automation #Analytics #Airflow #DBT #BITools\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#SSIS #ETL #CloudData #DataWarehouse #SQL #PowerBI #Oracle",
-  "last_post_format": "lessons",
+  "posts_created": 257,
+  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udd0d Breakdown: The Hidden Skill Gap: Why Knowing SQL + Python Isn\u2019t Enough Anymore\n\n\ud83d\udcca Data: This article is about the gap between what candidates prepare for and what companies actually need right now.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#DataAnalyst #DataWarehouse #Python #Reporting #Statistics #Insights #AdvancedAnalytics\n\n\u2753 How would you adapt this for your team?\n\n\ud83d\udcda Key resource: https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore\n\n#DataWarehouse #ETL #SSAS #BigQuery #Insights #SQL #Qlik",
+  "last_post_format": "case_study",
   "last_post_sources": [
+    "www.dbt.com",
+    "kdnuggets.com",
     "towardsdatascience.com",
-    "www.dbt.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-18T14:43:11.710569+00:00"
+  "last_post_timestamp": "2026-05-19T07:04:14.877486+00:00"
 }

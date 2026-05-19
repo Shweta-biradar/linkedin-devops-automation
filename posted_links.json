@@ -23,6 +23,7 @@
     "https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/filter-catalog-assets-using-custom-metadata-search-filters-in-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/how-smartsheet-built-real-time-dynamic-filtering-on-apache-flink-reducing-40k-month-in-messaging-costs/",
     "https://aws.amazon.com/blogs/big-data/how-to-build-a-cross-region-resilience-for-amazon-opensearch-service-with-amazon-msk/",
     "https://aws.amazon.com/blogs/big-data/how-to-consolidate-cross-region-s3-data-into-opensearch/",
     "https://aws.amazon.com/blogs/big-data/how-to-use-streamlined-permissions-for-amazon-s3-tables-and-iceberg-materialized-views/",
@@ -34,6 +35,7 @@
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
+    "https://aws.amazon.com/blogs/big-data/opensearch-agent-skills-bring-built-in-intelligence-to-your-agentic-ide/",
     "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
@@ -473,6 +475,7 @@
     "https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
+    "https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/",
     "https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/",
     "https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/",
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
@@ -505,6 +508,7 @@
     "https://towardsdatascience.com/self-hosting-your-first-llm/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
+    "https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/",
     "https://towardsdatascience.com/solving-the-human-training-data-problem/",
     "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
@@ -630,6 +634,7 @@
     "https://www.docker.com/blog/docker-hardened-images-security-independently-validated-by-srlabs/",
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
+    "https://www.getdbt.com/blog/ai-assisted-analytics-engineering-docusign-s-framework-for-scaling-dbt-unit-testing",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
     "https://www.getdbt.com/blog/how-nasdaq-built-a-governed-intelligence-layer-with-dbt-and-databricks",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
@@ -715,6 +720,7 @@
     "https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
+    "https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore",
     "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
     "https://www.kdnuggets.com/time-series-feature-engineering-with-python-itertools",
     "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
@@ -946,40 +952,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462150802938220544",
-    "last_posted_at_utc": "2026-05-18T14:43:11.705749+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7462397692925800448",
+    "last_posted_at_utc": "2026-05-19T07:04:14.874723+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Testing SQL Like a Software Engineer: Unit Testing, CI/CD, and Data Quality Automation",
-        "date": "2026-05-05T06:03:38.607337+00:00",
-        "hash_strict": "175a9df63eaa",
-        "hash_medium": "6a05c9954847"
-      },
-      {
-        "title": "How to Build an Efficient Knowledge Base for AI Models",
-        "date": "2026-05-05T06:03:38.607476+00:00",
-        "hash_strict": "18e6580b191a",
-        "hash_medium": "0001c7ffd4c2"
-      },
-      {
-        "title": "Single Agent vs Multi-Agent: When to Build a Multi-Agent System",
-        "date": "2026-05-05T06:03:38.607535+00:00",
-        "hash_strict": "d4192fb52aa6",
-        "hash_medium": "31d4d2afb1ef"
-      },
-      {
-        "title": "How to Deploy Your First App on FastAPI Cloud",
-        "date": "2026-05-05T06:03:38.607576+00:00",
-        "hash_strict": "04ea2464db5a",
-        "hash_medium": "0d401bf62d69"
-      },
-      {
-        "title": "Playing Connect Four with Deep Q-Learning",
-        "date": "2026-05-05T06:03:38.607604+00:00",
-        "hash_strict": "57624f021e1c",
-        "hash_medium": "920ff130ce01"
-      },
       {
         "title": "Why product discovery matters more than ever in the age of AI",
         "date": "2026-05-05T08:33:08.549723+00:00",
@@ -1597,6 +1573,42 @@
         "date": "2026-05-18T14:43:11.705711+00:00",
         "hash_strict": "46bcef79b0e7",
         "hash_medium": "4d6da3cc37f5"
+      },
+      {
+        "title": "AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing",
+        "date": "2026-05-19T07:04:14.874359+00:00",
+        "hash_strict": "4fdf862e08c5",
+        "hash_medium": "fe3df794c390"
+      },
+      {
+        "title": "The Hidden Skill Gap: Why Knowing SQL + Python Isn\u2019t Enough Anymore",
+        "date": "2026-05-19T07:04:14.874450+00:00",
+        "hash_strict": "744e98d4cfd9",
+        "hash_medium": "88aded83ac59"
+      },
+      {
+        "title": "OpenSearch Agent Skills bring built-in intelligence to your agentic IDE",
+        "date": "2026-05-19T07:04:14.874498+00:00",
+        "hash_strict": "6f51c085b1de",
+        "hash_medium": "8894d9010320"
+      },
+      {
+        "title": "One Flexible Tool Beats a Hundred Dedicated Ones",
+        "date": "2026-05-19T07:04:14.874540+00:00",
+        "hash_strict": "c74d2e9637d9",
+        "hash_medium": "d63336922f54"
+      },
+      {
+        "title": "Six Choices Every AI Engineer Has to Make (and Nobody Teaches)",
+        "date": "2026-05-19T07:04:14.874580+00:00",
+        "hash_strict": "c5c4c75d3d88",
+        "hash_medium": "e67d13290cdf"
+      },
+      {
+        "title": "How Smartsheet built Real-time Dynamic Filtering on Apache Flink reducing $40K/month in messaging costs",
+        "date": "2026-05-19T07:04:14.874645+00:00",
+        "hash_strict": "77e5b77cc862",
+        "hash_medium": "1f37d9bb4d87"
       }
     ]
   }
