@@ -57,19 +57,24 @@
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
     "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/",
     "https://aws.amazon.com/blogs/database/announcing-aggregations-on-amazon-elasticache/",
+    "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
     "https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-8-0-to-8-4-with-prechecks-blue-green-and-rollback/",
     "https://aws.amazon.com/blogs/database/building-agentic-ai-for-amazon-rds-for-sql-server-with-strands-and-agentcore/",
+    "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/",
     "https://aws.amazon.com/blogs/database/connect-to-amazon-rds-for-db2-from-your-laptop/",
     "https://aws.amazon.com/blogs/database/create-monitoring-dashboard-for-amazon-rds-for-db2/",
+    "https://aws.amazon.com/blogs/database/deploying-amazon-rds-for-db2-using-terraform/",
     "https://aws.amazon.com/blogs/database/enhanced-search-for-amazon-elasticache/",
     "https://aws.amazon.com/blogs/database/features-and-workflows-with-amazon-timestream-for-influxdb-3/",
     "https://aws.amazon.com/blogs/database/filter-transform-and-load-your-dynamodb-table-exports-using-aws-glue/",
     "https://aws.amazon.com/blogs/database/getting-started-with-change-data-capture-in-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/how-amazon-documentdb-on-aws-graviton4-r8g-instances-delivers-63-better-sysbench-benchmark-results/",
     "https://aws.amazon.com/blogs/database/how-hoteltrader-cut-inter-az-cost-95-and-latency-by-49-with-valkey-glide-on-amazon-elasticache/",
+    "https://aws.amazon.com/blogs/database/improving-generative-ai-accuracy-with-vector-and-graph-search-hybrid-queries/",
     "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/",
     "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/",
+    "https://aws.amazon.com/blogs/database/nine-entertainments-journey-achieving-98-cost-savings-with-amazon-elasticache-serverless-for-valkey/",
     "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
     "https://aws.amazon.com/blogs/database/upgrade-strategies-for-amazon-rds-for-mysql-8-0-to-8-4/",
@@ -461,6 +466,7 @@
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
     "https://towardsdatascience.com/introducing-gemini-embeddings-2-preview/",
+    "https://towardsdatascience.com/introduction-to-lean-for-programmers/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
@@ -960,28 +966,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462760067256401920",
-    "last_posted_at_utc": "2026-05-20T07:04:11.588089+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7462805032355274752",
+    "last_posted_at_utc": "2026-05-20T10:02:52.182316+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Troubleshoot Amazon RDS for Oracle to Amazon Redshift DMS migrations with AWS DevOps Agent",
-        "date": "2026-05-06T09:15:54.490127+00:00",
-        "hash_strict": "b2eb82a8d447",
-        "hash_medium": "6948c90dd1e6"
-      },
-      {
-        "title": "How Amazon DocumentDB on AWS Graviton4 R8g instances delivers 63% better Sysbench benchmark results",
-        "date": "2026-05-06T09:15:54.490228+00:00",
-        "hash_strict": "b0915e42a943",
-        "hash_medium": "291880f199e7"
-      },
-      {
-        "title": "Connect to Amazon RDS for Db2 from your laptop",
-        "date": "2026-05-06T09:15:54.490281+00:00",
-        "hash_strict": "08af02ac44a8",
-        "hash_medium": "277c01ba0bcf"
-      },
       {
         "title": "Deconstruct Any Metric with a Few Simple \u2018What\u2019 Questions",
         "date": "2026-05-06T13:12:20.308034+00:00",
@@ -1629,6 +1617,42 @@
         "date": "2026-05-20T07:04:11.588050+00:00",
         "hash_strict": "0f45b3cd1777",
         "hash_medium": "761afde043d0"
+      },
+      {
+        "title": "Automated JDBC query caching with the AWS Advanced JDBC Wrapper",
+        "date": "2026-05-20T10:02:52.181899+00:00",
+        "hash_strict": "c0cdbdeffb9c",
+        "hash_medium": "6da2e359bfaf"
+      },
+      {
+        "title": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
+        "date": "2026-05-20T10:02:52.181985+00:00",
+        "hash_strict": "d935a4a5b6bb",
+        "hash_medium": "c2c70e9bd623"
+      },
+      {
+        "title": "Deploying Amazon RDS for Db2 using Terraform",
+        "date": "2026-05-20T10:02:52.182097+00:00",
+        "hash_strict": "6a1a4897aac6",
+        "hash_medium": "4a033e1befc6"
+      },
+      {
+        "title": "Nine Entertainment\u2019s journey: Achieving 98% cost savings with Amazon ElastiCache Serverless for Valkey",
+        "date": "2026-05-20T10:02:52.182172+00:00",
+        "hash_strict": "12e8ce841c93",
+        "hash_medium": "2c0dca33bcb9"
+      },
+      {
+        "title": "Improving generative AI accuracy with vector and graph search hybrid queries",
+        "date": "2026-05-20T10:02:52.182232+00:00",
+        "hash_strict": "6a4f3fb38d71",
+        "hash_medium": "f7f044a09503"
+      },
+      {
+        "title": "Introduction to Lean for Programmers",
+        "date": "2026-05-20T10:02:52.182276+00:00",
+        "hash_strict": "d69afb594a41",
+        "hash_medium": "6a2d5e9b83f5"
       }
     ]
   }

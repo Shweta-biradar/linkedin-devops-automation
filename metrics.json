@@ -1,9 +1,9 @@
 {
-  "total_posts": 287,
-  "posts_today": 1,
+  "total_posts": 288,
+  "posts_today": 2,
   "last_post_date": "2026-05-20",
   "formats_used": {
-    "case_study": 25,
+    "case_study": 26,
     "deep_dive": 19,
     "lessons": 38,
     "digest": 194,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 87,
+    "aws.amazon.com": 92,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 240,
+    "towardsdatascience.com": 241,
     "www.snowflake.com": 90,
     "kdnuggets.com": 56,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-21",
-      "time": "2026-03-21T11:46:54.008987+00:00",
-      "format": "digest",
-      "sources": [
-        "powerbi.microsoft.com"
-      ]
-    },
     {
       "date": "2026-03-22",
       "time": "2026-03-22T05:09:08.860724+00:00",
@@ -1163,16 +1155,27 @@
         "www.dbt.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-20",
+      "time": "2026-05-20T10:02:52.184226+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 260,
-  "last_post_content": "\ud83c\udf93 Going deeper on what matters.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Focus: Multimodal Analytics: Decode Video, Audio and Images\n\nLearn how multimodal analytics with Snowflake Cortex AI turns video, audio, images and documents into structured insights for faster decisions.\n\n\ud83d\udca1 The best architectures optimize for change, not just current requirements\n\nHow do you keep learning while managing operational load?\n\n#Dashboard #Airflow #Snowflake #DataAnalyst #BITools #SSAS #SQL\n\n\u2753 How would you apply this insight?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Tableau #DataVisualization #ETL #Databricks",
-  "last_post_format": "deep_dive",
+  "posts_created": 261,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nPlatform architects surface key case studies.\n\n\ud83d\udccc Introduction to Lean for Programmers\n\nThe situation:\n\u21b3 The syntax and semantics of mathematics The post Introduction to Lean for Programmers appeared first on Towards Data Science .\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Operational simplicity beats architectural elegance every time\n\u2611\ufe0f Track results and optimize\n\nHow do you keep learning while managing operational load?\n\n#Python #Databricks #SAPHANA #Airflow #Analytics #Statistics #BusinessIntelligence\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/introduction-to-lean-for-programmers/\n\n#SSIS #Analytics #Redshift #PowerBI #AdvancedAnalytics #SSRS #CloudData",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "aws.amazon.com",
-    "www.snowflake.com",
     "towardsdatascience.com",
-    "www.dbt.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-20T07:04:11.591152+00:00"
+  "last_post_timestamp": "2026-05-20T10:02:52.185383+00:00"
 }
