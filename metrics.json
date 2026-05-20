@@ -1,10 +1,10 @@
 {
-  "total_posts": 286,
-  "posts_today": 3,
-  "last_post_date": "2026-05-19",
+  "total_posts": 287,
+  "posts_today": 1,
+  "last_post_date": "2026-05-20",
   "formats_used": {
     "case_study": 25,
-    "deep_dive": 18,
+    "deep_dive": 19,
     "lessons": 38,
     "digest": 194,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 85,
+    "aws.amazon.com": 87,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 239,
-    "www.snowflake.com": 88,
+    "towardsdatascience.com": 240,
+    "www.snowflake.com": 90,
     "kdnuggets.com": 56,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
-    "www.dbt.com": 7,
+    "www.dbt.com": 8,
     "www.dataquest.io": 15,
     "www.udacity.com": 1
   },
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-21",
-      "time": "2026-03-21T07:09:50.215730+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-21",
       "time": "2026-03-21T11:46:54.008987+00:00",
@@ -1160,14 +1150,29 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-20",
+      "time": "2026-05-20T07:04:11.590009+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "www.dbt.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 259,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nCloud pioneers spotlight operational wisdom.\n\nTopic: Top 10 Python Libraries for Data Engineering in 2026\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nShare your hard-won wisdom below.\n\n#Insights #BITools #DataVisualization #MLOps #Statistics #Alteryx #AdvancedAnalytics\n\n\u2753 What would you add to this list?\n\n#SSAS #Oracle #SAPHANA #CloudData #PostgreSQL #MySQL #Snowflake",
-  "last_post_format": "lessons",
+  "posts_created": 260,
+  "last_post_content": "\ud83c\udf93 Going deeper on what matters.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udd0e Focus: Multimodal Analytics: Decode Video, Audio and Images\n\nLearn how multimodal analytics with Snowflake Cortex AI turns video, audio, images and documents into structured insights for faster decisions.\n\n\ud83d\udca1 The best architectures optimize for change, not just current requirements\n\nHow do you keep learning while managing operational load?\n\n#Dashboard #Airflow #Snowflake #DataAnalyst #BITools #SSAS #SQL\n\n\u2753 How would you apply this insight?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Tableau #DataVisualization #ETL #Databricks",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
+    "aws.amazon.com",
+    "www.snowflake.com",
     "towardsdatascience.com",
-    "kdnuggets.com"
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-05-19T14:12:18.645196+00:00"
+  "last_post_timestamp": "2026-05-20T07:04:11.591152+00:00"
 }

@@ -3,6 +3,7 @@
     "",
     "https://aws.amazon.com/blogs/big-data/a-guide-to-airflow-worker-pool-optimization-in-amazon-mwaa/",
     "https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/",
+    "https://aws.amazon.com/blogs/big-data/a-systematic-approach-to-benchmarking-sql-processing-engines-on-aws/",
     "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
     "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
@@ -34,6 +35,7 @@
     "https://aws.amazon.com/blogs/big-data/introducing-enhancements-to-amazon-emr-managed-scaling/",
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
+    "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/opensearch-agent-skills-bring-built-in-intelligence-to-your-agentic-ide/",
     "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/",
@@ -415,6 +417,7 @@
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/ghost-a-database-for-our-times/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
+    "https://towardsdatascience.com/grounding-llms-with-fresh-web-data-to-reduce-hallucinations/",
     "https://towardsdatascience.com/how-a-2021-quantization-algorithm-quietly-outperforms-its-2026-successor/",
     "https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/",
     "https://towardsdatascience.com/how-ai-tools-generate-technical-debt-in-iot-systems-and-what-to-do-about-it/",
@@ -636,6 +639,7 @@
     "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
     "https://www.getdbt.com/blog/ai-assisted-analytics-engineering-docusign-s-framework-for-scaling-dbt-unit-testing",
+    "https://www.getdbt.com/blog/ai-ready-data-in-practice-what-dbt-semantic-layer-and-dbt-s-mcp-server-and-agent-skills-do-for",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
     "https://www.getdbt.com/blog/how-nasdaq-built-a-governed-intelligence-layer-with-dbt-and-databricks",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
@@ -757,6 +761,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-governance-in-healthcare-trustworthy-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/dbt-fusion-available-snowflake",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/declarative-snowflake-pipelines-dcm-projects-cortex-code",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
@@ -768,6 +773,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/multimodal-analytics-ai-video-audio-images",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/next-gen-data-engineering-snowflake-features",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/observe-acquisition-ai-powered-observability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle",
@@ -954,40 +960,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462505418653736960",
-    "last_posted_at_utc": "2026-05-19T14:12:18.641942+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7462760067256401920",
+    "last_posted_at_utc": "2026-05-20T07:04:11.588089+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Snowflake Openflow & Cortex Code: AI-Driven Data Integration",
-        "date": "2026-05-06T06:18:37.449669+00:00",
-        "hash_strict": "bed6f491d292",
-        "hash_medium": "f19f53ccc5b9"
-      },
-      {
-        "title": "AI Transformation and Governance Inside Snowflake\u2019s Ecosystem",
-        "date": "2026-05-06T06:18:37.449744+00:00",
-        "hash_strict": "cb8f3b9cabeb",
-        "hash_medium": "a4936ad9a05d"
-      },
-      {
-        "title": "RAG Hallucinates \u2014 I Built a Self-Healing Layer That Fixes It in Real Time",
-        "date": "2026-05-06T06:18:37.449808+00:00",
-        "hash_strict": "213f4d80d2cd",
-        "hash_medium": "2c89db66c839"
-      },
-      {
-        "title": "How to Make Claude Code Validate its own Work",
-        "date": "2026-05-06T06:18:37.449869+00:00",
-        "hash_strict": "f7f6bf859905",
-        "hash_medium": "a20f80c90869"
-      },
-      {
-        "title": "Discrete Time-To-Event Modeling \u2013 Predicting When Something Will Happen",
-        "date": "2026-05-06T06:18:37.449917+00:00",
-        "hash_strict": "6115c666121a",
-        "hash_medium": "6354b06ef312"
-      },
       {
         "title": "Troubleshoot Amazon RDS for Oracle to Amazon Redshift DMS migrations with AWS DevOps Agent",
         "date": "2026-05-06T09:15:54.490127+00:00",
@@ -1617,6 +1593,42 @@
         "date": "2026-05-19T14:12:18.641851+00:00",
         "hash_strict": "84fb14d49893",
         "hash_medium": "097fe164341b"
+      },
+      {
+        "title": "Meet Amazon Redshift RG \u2013 AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
+        "date": "2026-05-20T07:04:11.587734+00:00",
+        "hash_strict": "bb0ba7162070",
+        "hash_medium": "d2bbd6e2cbdb"
+      },
+      {
+        "title": "Multimodal Analytics: Decode Video, Audio and Images",
+        "date": "2026-05-20T07:04:11.587877+00:00",
+        "hash_strict": "90dc053a25c6",
+        "hash_medium": "d9b00c880380"
+      },
+      {
+        "title": "A systematic approach to benchmarking SQL processing engines on AWS",
+        "date": "2026-05-20T07:04:11.587923+00:00",
+        "hash_strict": "dbeea2bea74d",
+        "hash_medium": "2af6be264c7a"
+      },
+      {
+        "title": "dbt Fusion Is Now Available on Snowflake",
+        "date": "2026-05-20T07:04:11.587965+00:00",
+        "hash_strict": "50da2a96101e",
+        "hash_medium": "cdc4a101e9d5"
+      },
+      {
+        "title": "AI-ready data in practice: What dbt Semantic Layer and dbt's MCP server and agent skills do for your team",
+        "date": "2026-05-20T07:04:11.588003+00:00",
+        "hash_strict": "bf8e7103bb04",
+        "hash_medium": "e6fd8998dc41"
+      },
+      {
+        "title": "Grounding LLMs with Fresh Web Data to Reduce Hallucinations",
+        "date": "2026-05-20T07:04:11.588050+00:00",
+        "hash_strict": "0f45b3cd1777",
+        "hash_medium": "761afde043d0"
       }
     ]
   }
