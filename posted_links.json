@@ -417,6 +417,7 @@
     "https://towardsdatascience.com/from-data-scientist-to-ai-architect/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
+    "https://towardsdatascience.com/from-possible-to-probable-ai-models/",
     "https://towardsdatascience.com/from-raw-data-to-risk-classes/",
     "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
@@ -449,6 +450,7 @@
     "https://towardsdatascience.com/how-to-maximize-openais-codex/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
+    "https://towardsdatascience.com/how-to-safely-run-coding-agents/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
     "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
@@ -727,6 +729,7 @@
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
     "https://www.kdnuggets.com/postgres-vs-mysql-vs-sqlite-comparing-sql-performance-across-engines",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
+    "https://www.kdnuggets.com/sql-window-functions-beyond-basics-solving-real-business-problems",
     "https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation",
     "https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
@@ -966,22 +969,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462805032355274752",
-    "last_posted_at_utc": "2026-05-20T10:02:52.182316+00:00",
+    "last_post_id": "urn:li:share:7462865669953314816",
+    "last_posted_at_utc": "2026-05-20T14:03:49.698232+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Deconstruct Any Metric with a Few Simple \u2018What\u2019 Questions",
-        "date": "2026-05-06T13:12:20.308034+00:00",
-        "hash_strict": "e098744bc759",
-        "hash_medium": "6d19efab36b7"
-      },
-      {
-        "title": "7 OpenCode Plugins That Make AI Coding More Powerful",
-        "date": "2026-05-06T13:12:20.308146+00:00",
-        "hash_strict": "789b92065f1a",
-        "hash_medium": "30855f5f5305"
-      },
       {
         "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
         "date": "2026-05-07T06:26:53.076129+00:00",
@@ -1653,6 +1644,24 @@
         "date": "2026-05-20T10:02:52.182276+00:00",
         "hash_strict": "d69afb594a41",
         "hash_medium": "6a2d5e9b83f5"
+      },
+      {
+        "title": "SQL Window Functions Beyond Basics: Solving Real Business Problems",
+        "date": "2026-05-20T14:03:49.697913+00:00",
+        "hash_strict": "92bea9d093dc",
+        "hash_medium": "a583a4b45c3f"
+      },
+      {
+        "title": "From Possible to Probable AI Models",
+        "date": "2026-05-20T14:03:49.698050+00:00",
+        "hash_strict": "1eb4afc654ed",
+        "hash_medium": "d9fd99dc1373"
+      },
+      {
+        "title": "How to Safely Run Coding Agents",
+        "date": "2026-05-20T14:03:49.698142+00:00",
+        "hash_strict": "8bbf40bbcc61",
+        "hash_medium": "3265207671c3"
       }
     ]
   }

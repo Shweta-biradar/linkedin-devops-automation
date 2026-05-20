@@ -1,9 +1,9 @@
 {
-  "total_posts": 288,
-  "posts_today": 2,
+  "total_posts": 289,
+  "posts_today": 3,
   "last_post_date": "2026-05-20",
   "formats_used": {
-    "case_study": 26,
+    "case_study": 27,
     "deep_dive": 19,
     "lessons": 38,
     "digest": 194,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 241,
+    "towardsdatascience.com": 243,
     "www.snowflake.com": 90,
-    "kdnuggets.com": 56,
+    "kdnuggets.com": 57,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 5,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-22",
-      "time": "2026-03-22T05:09:08.860724+00:00",
-      "format": "digest",
-      "sources": [
-        "thenewstack.io",
-        "towardsdatascience.com",
-        "thenewstack.io"
-      ]
-    },
     {
       "date": "2026-03-22",
       "time": "2026-03-22T07:16:51.580256+00:00",
@@ -1168,14 +1158,24 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-20",
+      "time": "2026-05-20T14:03:49.700044+00:00",
+      "format": "case_study",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 261,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nPlatform architects surface key case studies.\n\n\ud83d\udccc Introduction to Lean for Programmers\n\nThe situation:\n\u21b3 The syntax and semantics of mathematics The post Introduction to Lean for Programmers appeared first on Towards Data Science .\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Operational simplicity beats architectural elegance every time\n\u2611\ufe0f Track results and optimize\n\nHow do you keep learning while managing operational load?\n\n#Python #Databricks #SAPHANA #Airflow #Analytics #Statistics #BusinessIntelligence\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/introduction-to-lean-for-programmers/\n\n#SSIS #Analytics #Redshift #PowerBI #AdvancedAnalytics #SSRS #CloudData",
+  "posts_created": 262,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nCloud pioneers share implementation lessons.\n\n\u23f1\ufe0f Timeline: How to Safely Run Coding Agents\n\n\u2192 Challenge: Apply coding agents to your domain in a safe manner The post How to Safely Run Coding Agents appeared first on Towards Data Science .\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Continuous improvement through measurement\n\nWhat would you do differently if you started over today?\n\n#Reporting #DataVisualization #ETL #Airflow #SSAS #Qlik #DBT\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/how-to-safely-run-coding-agents/\n\n#PostgreSQL #SSAS #PowerBI #SSRS #DataAnalyst #SSIS #Automation",
   "last_post_format": "case_study",
   "last_post_sources": [
     "towardsdatascience.com",
-    "aws.amazon.com"
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-05-20T10:02:52.185383+00:00"
+  "last_post_timestamp": "2026-05-20T14:03:49.701086+00:00"
 }
