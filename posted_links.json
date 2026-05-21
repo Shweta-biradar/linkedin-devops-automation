@@ -113,6 +113,7 @@
     "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
     "https://blog.qualys.com/category/product-tech",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
     "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
     "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
@@ -488,6 +489,7 @@
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/",
     "https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/",
+    "https://towardsdatascience.com/optimizing-ai-agent-planning-with-operations-research-and-data-science/",
     "https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/",
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
@@ -636,6 +638,7 @@
     "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
     "https://www.dataquest.io/blog/best-python-courses/",
+    "https://www.dataquest.io/blog/best-sql-courses/",
     "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
     "https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
@@ -648,7 +651,9 @@
     "https://www.docker.com/blog/from-the-captains-chair-igor-aleksandrov/",
     "https://www.getdbt.com/blog/ai-assisted-analytics-engineering-docusign-s-framework-for-scaling-dbt-unit-testing",
     "https://www.getdbt.com/blog/ai-ready-data-in-practice-what-dbt-semantic-layer-and-dbt-s-mcp-server-and-agent-skills-do-for",
+    "https://www.getdbt.com/blog/are-you-ready-for-the-dbt-fusion-engine",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
+    "https://www.getdbt.com/blog/get-dbt-certified-stay-certified-stay-ahead",
     "https://www.getdbt.com/blog/how-nasdaq-built-a-governed-intelligence-layer-with-dbt-and-databricks",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
     "https://www.getdbt.com/blog/ship-smarter-agents-in-production-with-dbt-agent-skills",
@@ -711,6 +716,7 @@
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
     "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
     "https://www.kdnuggets.com/analytics-patterns-every-data-scientist-should-master",
+    "https://www.kdnuggets.com/anonymizing-production-data-for-data-science-with-mimesis",
     "https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive",
     "https://www.kdnuggets.com/building-practical-mlops-for-a-personal-ml-project",
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
@@ -969,46 +975,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7462865669953314816",
-    "last_posted_at_utc": "2026-05-20T14:03:49.698232+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7463123334734528512",
+    "last_posted_at_utc": "2026-05-21T07:07:41.356921+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
-        "date": "2026-05-07T06:26:53.076129+00:00",
-        "hash_strict": "aedd1d84c8ba",
-        "hash_medium": "3f7c79d2066f"
-      },
-      {
-        "title": "The dbt Developer Agent is now in Preview: the coding agent for analytics engineering",
-        "date": "2026-05-07T06:26:53.076202+00:00",
-        "hash_strict": "f7d60e958ce6",
-        "hash_medium": "b1c6ba1e7c9b"
-      },
-      {
-        "title": "Build streaming applications on Amazon Managed Service for Apache Flink with AI-assisted guidance",
-        "date": "2026-05-07T06:26:53.076261+00:00",
-        "hash_strict": "c7d57832e178",
-        "hash_medium": "79cd8b5291fb"
-      },
-      {
-        "title": "Beyond Lists: Using Python Deque for Real-Time Sliding\u00a0Windows",
-        "date": "2026-05-07T06:26:53.076296+00:00",
-        "hash_strict": "5a48cb8daee8",
-        "hash_medium": "21245ada6e25"
-      },
-      {
-        "title": "Why I Don\u2019t Trust LLMs to Decide When the Weather Changed",
-        "date": "2026-05-07T06:26:53.076375+00:00",
-        "hash_strict": "bf933b0a9fe6",
-        "hash_medium": "bae60b00519c"
-      },
-      {
-        "title": "Timer-XL: A Long-Context Foundation Model for Time-Series Forecasting",
-        "date": "2026-05-07T06:26:53.076411+00:00",
-        "hash_strict": "8e8dee4cf046",
-        "hash_medium": "7a5826c875ca"
-      },
       {
         "title": "When the Uncertainty Is Bigger Than the Shock: Scenario Modelling for English Local Elections",
         "date": "2026-05-07T09:14:19.547926+00:00",
@@ -1662,6 +1632,42 @@
         "date": "2026-05-20T14:03:49.698142+00:00",
         "hash_strict": "8bbf40bbcc61",
         "hash_medium": "3265207671c3"
+      },
+      {
+        "title": "Power BI May 2026 Feature Summary",
+        "date": "2026-05-21T07:07:41.356542+00:00",
+        "hash_strict": "72e4ec1c0800",
+        "hash_medium": "f37492db6b9c"
+      },
+      {
+        "title": "Best SQL Courses in 2026 (Ranked and Compared )",
+        "date": "2026-05-21T07:07:41.356671+00:00",
+        "hash_strict": "da2ca4f23abc",
+        "hash_medium": "04cd6aded13c"
+      },
+      {
+        "title": "Optimizing AI Agent Planning with Operations Research and Data Science",
+        "date": "2026-05-21T07:07:41.356742+00:00",
+        "hash_strict": "daaad1e8e9ff",
+        "hash_medium": "7c0c6702dd74"
+      },
+      {
+        "title": "Anonymizing Production Data for Data Science with Mimesis",
+        "date": "2026-05-21T07:07:41.356799+00:00",
+        "hash_strict": "08bc23eeda48",
+        "hash_medium": "29db4363d2c1"
+      },
+      {
+        "title": "Get dbt certified. Stay certified. Stay ahead.",
+        "date": "2026-05-21T07:07:41.356841+00:00",
+        "hash_strict": "cfbaeafae47e",
+        "hash_medium": "43d35839c55c"
+      },
+      {
+        "title": "Are you ready for the dbt Fusion engine?",
+        "date": "2026-05-21T07:07:41.356882+00:00",
+        "hash_strict": "229e4d61be5a",
+        "hash_medium": "acd110d8a033"
       }
     ]
   }

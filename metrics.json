@@ -1,11 +1,11 @@
 {
-  "total_posts": 289,
-  "posts_today": 3,
-  "last_post_date": "2026-05-20",
+  "total_posts": 290,
+  "posts_today": 1,
+  "last_post_date": "2026-05-21",
   "formats_used": {
     "case_study": 27,
     "deep_dive": 19,
-    "lessons": 38,
+    "lessons": 39,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,14 +40,14 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 243,
+    "towardsdatascience.com": 244,
     "www.snowflake.com": 90,
-    "kdnuggets.com": 57,
+    "kdnuggets.com": 58,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 5,
-    "www.dbt.com": 8,
-    "www.dataquest.io": 15,
+    "powerbi.microsoft.com": 6,
+    "www.dbt.com": 10,
+    "www.dataquest.io": 16,
     "www.udacity.com": 1
   },
   "errors": [
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-22",
-      "time": "2026-03-22T07:16:51.580256+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-22",
       "time": "2026-03-22T11:48:02.987765+00:00",
@@ -1168,14 +1160,30 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-21",
+      "time": "2026-05-21T07:07:41.358955+00:00",
+      "format": "lessons",
+      "sources": [
+        "powerbi.microsoft.com",
+        "www.dataquest.io",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "www.dbt.com",
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 262,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nCloud pioneers share implementation lessons.\n\n\u23f1\ufe0f Timeline: How to Safely Run Coding Agents\n\n\u2192 Challenge: Apply coding agents to your domain in a safe manner The post How to Safely Run Coding Agents appeared first on Towards Data Science .\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Continuous improvement through measurement\n\nWhat would you do differently if you started over today?\n\n#Reporting #DataVisualization #ETL #Airflow #SSAS #Qlik #DBT\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/how-to-safely-run-coding-agents/\n\n#PostgreSQL #SSAS #PowerBI #SSRS #DataAnalyst #SSIS #Automation",
-  "last_post_format": "case_study",
+  "posts_created": 263,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Power BI May 2026 Feature Summary\n\n1\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n2\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n3\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #PostgreSQL #Oracle #Tableau #Python\n\n\u2753 Which lesson resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SSAS #DataVisualization #Analytics #Qlik",
+  "last_post_format": "lessons",
   "last_post_sources": [
+    "kdnuggets.com",
+    "www.dataquest.io",
+    "powerbi.microsoft.com",
     "towardsdatascience.com",
-    "kdnuggets.com"
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-05-20T14:03:49.701086+00:00"
+  "last_post_timestamp": "2026-05-21T07:07:41.360142+00:00"
 }
