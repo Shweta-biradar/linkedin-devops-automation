@@ -112,6 +112,7 @@
     "https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/",
     "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
     "https://blog.qualys.com/category/product-tech",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
@@ -389,6 +390,7 @@
     "https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
+    "https://towardsdatascience.com/can-llms-replace-survey-respondents/",
     "https://towardsdatascience.com/causal-inference-is-eating-machine-learning/",
     "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
     "https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/",
@@ -975,16 +977,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463123334734528512",
-    "last_posted_at_utc": "2026-05-21T07:07:41.356921+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7463169468043534337",
+    "last_posted_at_utc": "2026-05-21T10:11:00.343738+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "When the Uncertainty Is Bigger Than the Shock: Scenario Modelling for English Local Elections",
-        "date": "2026-05-07T09:14:19.547926+00:00",
-        "hash_strict": "7663c38c8ade",
-        "hash_medium": "710bc01c1166"
-      },
       {
         "title": "I Rewrote a Real Data Workflow in Polars. Pandas Didn\u2019t Stand a Chance.",
         "date": "2026-05-07T13:15:02.138526+00:00",
@@ -1668,6 +1664,18 @@
         "date": "2026-05-21T07:07:41.356882+00:00",
         "hash_strict": "229e4d61be5a",
         "hash_medium": "acd110d8a033"
+      },
+      {
+        "title": "New Power Query experience in Power BI Desktop (Preview)",
+        "date": "2026-05-21T10:11:00.343518+00:00",
+        "hash_strict": "7f4e5daf2609",
+        "hash_medium": "7ed7456b7df1"
+      },
+      {
+        "title": "Can LLMs Replace Survey Respondents?",
+        "date": "2026-05-21T10:11:00.343652+00:00",
+        "hash_strict": "f66aa4800c3d",
+        "hash_medium": "1ed1e3fba1d1"
       }
     ]
   }

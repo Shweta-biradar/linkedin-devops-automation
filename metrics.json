@@ -1,10 +1,10 @@
 {
-  "total_posts": 290,
-  "posts_today": 1,
+  "total_posts": 291,
+  "posts_today": 2,
   "last_post_date": "2026-05-21",
   "formats_used": {
     "case_study": 27,
-    "deep_dive": 19,
+    "deep_dive": 20,
     "lessons": 39,
     "digest": 194,
     "lessons_learned": 2,
@@ -40,12 +40,12 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 244,
+    "towardsdatascience.com": 245,
     "www.snowflake.com": 90,
     "kdnuggets.com": 58,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 6,
+    "powerbi.microsoft.com": 7,
     "www.dbt.com": 10,
     "www.dataquest.io": 16,
     "www.udacity.com": 1
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-22",
-      "time": "2026-03-22T11:48:02.987765+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-23",
       "time": "2026-03-23T04:45:30.979093+00:00",
@@ -1173,17 +1165,23 @@
         "www.dbt.com",
         "www.dbt.com"
       ]
+    },
+    {
+      "date": "2026-05-21",
+      "time": "2026-05-21T10:11:00.345820+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "powerbi.microsoft.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 263,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Power BI May 2026 Feature Summary\n\n1\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n2\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n3\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #PostgreSQL #Oracle #Tableau #Python\n\n\u2753 Which lesson resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SSAS #DataVisualization #Analytics #Qlik",
-  "last_post_format": "lessons",
+  "posts_created": 264,
+  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nIndustry leaders break down complex challenges.\n\n\ud83d\udd0e Topic: Can LLMs Replace Survey Respondents?\n\nKey points:\n\u2022 How unlearning fixes mode collapse in synthetic survey replies The post Can LLMs Replace Survey Respondents? appeared first on Towards Data Science .\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 System evolution requires continuous learning and adaptation\n\nWhich operational practices have scaled best for your team?\n\n#DBT #Databricks #SSAS #Alteryx #Airflow #SAPHANA #Dashboard\n\n\u2753 How would you apply this insight?\n\nLearn more \u2192 https://towardsdatascience.com/can-llms-replace-survey-respondents/\n\n#Snowflake #SSIS #DBT #SSAS #Analytics #ETL #DataWarehouse",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "kdnuggets.com",
-    "www.dataquest.io",
-    "powerbi.microsoft.com",
     "towardsdatascience.com",
-    "www.dbt.com"
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-05-21T07:07:41.360142+00:00"
+  "last_post_timestamp": "2026-05-21T10:11:00.348385+00:00"
 }
