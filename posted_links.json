@@ -555,6 +555,7 @@
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
+    "https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/",
     "https://towardsdatascience.com/the-joy-of-typing/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/",
@@ -987,16 +988,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463528503829995520",
-    "last_posted_at_utc": "2026-05-22T09:57:41.141856+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7463585259557847040",
+    "last_posted_at_utc": "2026-05-22T13:43:12.844293+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Unified Agentic Memory Across Harnesses Using Hooks",
-        "date": "2026-05-08T12:53:06.009113+00:00",
-        "hash_strict": "090a8531640c",
-        "hash_medium": "300d4c1540d0"
-      },
       {
         "title": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
         "date": "2026-05-09T06:06:45.807003+00:00",
@@ -1692,6 +1687,12 @@
         "date": "2026-05-22T09:57:41.141795+00:00",
         "hash_strict": "78bed5bc9fb3",
         "hash_medium": "2a8327a0927f"
+      },
+      {
+        "title": "The Hidden Bottleneck in Quantum Machine Learning: Getting Data into a Quantum Computer",
+        "date": "2026-05-22T13:43:12.844198+00:00",
+        "hash_strict": "80e6c927a8b4",
+        "hash_medium": "37c9717f2c9b"
       }
     ]
   }

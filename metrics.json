@@ -1,9 +1,9 @@
 {
-  "total_posts": 294,
-  "posts_today": 2,
+  "total_posts": 295,
+  "posts_today": 3,
   "last_post_date": "2026-05-22",
   "formats_used": {
-    "case_study": 27,
+    "case_study": 28,
     "deep_dive": 20,
     "lessons": 42,
     "digest": 194,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 249,
+    "towardsdatascience.com": 250,
     "www.snowflake.com": 92,
     "kdnuggets.com": 58,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-23",
-      "time": "2026-03-23T12:03:10.964423+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-24",
       "time": "2026-03-24T05:13:42.835240+00:00",
@@ -1179,13 +1171,21 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-22",
+      "time": "2026-05-22T13:43:12.846290+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 267,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nStrategic thinkers highlight recurring patterns.\n\nTopic: Amazon Aurora MySQL 8.4 is now generally available\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Alteryx #Automation #CloudData #SSRS #DataAnalyst #Statistics #PowerBI\n\n\u2753 What would you add to this list?\n\n#Python #Reporting #Alteryx #CloudData #Snowflake #AdvancedAnalytics #Analytics",
-  "last_post_format": "lessons",
+  "posts_created": 268,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udcda Case: The Hidden Bottleneck in Quantum Machine Learning: Getting Data into a Quantum Computer\n\nThe story: Quantum Machine Learning promises access to exponentially large representational spaces, but before any computation can happen, classical data must first be embedded into...\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Production systems teach you things documentation never will\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat production experience changed how you design systems?\n\n#DBT #BusinessIntelligence #Snowflake #Alteryx #SSIS #Reporting #Redshift\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/\n\n#BusinessIntelligence #SQL #AdvancedAnalytics #PostgreSQL #BITools #PowerBI #Qlik",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-22T09:57:41.145120+00:00"
+  "last_post_timestamp": "2026-05-22T13:43:12.847481+00:00"
 }
