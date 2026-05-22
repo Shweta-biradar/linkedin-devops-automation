@@ -1,11 +1,11 @@
 {
-  "total_posts": 292,
-  "posts_today": 3,
-  "last_post_date": "2026-05-21",
+  "total_posts": 293,
+  "posts_today": 1,
+  "last_post_date": "2026-05-22",
   "formats_used": {
     "case_study": 27,
     "deep_dive": 20,
-    "lessons": 40,
+    "lessons": 41,
     "digest": 194,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 92,
+    "aws.amazon.com": 93,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,12 +40,12 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 247,
-    "www.snowflake.com": 91,
+    "towardsdatascience.com": 249,
+    "www.snowflake.com": 92,
     "kdnuggets.com": 58,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 7,
+    "powerbi.microsoft.com": 8,
     "www.dbt.com": 10,
     "www.dataquest.io": 16,
     "www.udacity.com": 1
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-23",
-      "time": "2026-03-23T05:23:47.359681+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "www.dbt.com"
-      ]
-    },
     {
       "date": "2026-03-23",
       "time": "2026-03-23T07:48:10.255698+00:00",
@@ -1176,14 +1166,28 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-22",
+      "time": "2026-05-22T07:04:17.653567+00:00",
+      "format": "lessons",
+      "sources": [
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "powerbi.microsoft.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 265,
-  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nPlatform architects surface lessons from production.\n\nTopic: Prompt Engineering Isn\u2019t Enough \u2014 I Built a Control Layer That Works in Production\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: reduces incident risk and improves MTTR..\n\nShare your hard-won wisdom below.\n\n#SAPHANA #MLOps #Redshift #PostgreSQL #Automation #Databricks #Python\n\n\u2753 How do you apply these lessons?\n\n#Insights #SSRS #Dashboard #CloudData #Tableau #Alteryx #MySQL",
+  "posts_created": 266,
+  "last_post_content": "\u26a1 Career-changing lessons.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: 3 Claude Skills Every Data Scientist Needs in 2026\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Looker #Reporting #DataWarehouse #Automation #SSIS #SSRS #Snowflake\n\n\u2753 How do you apply these lessons?\n\n#AdvancedAnalytics #Reporting #Dashboard #Databricks #Analytics #SQL #PostgreSQL",
   "last_post_format": "lessons",
   "last_post_sources": [
+    "powerbi.microsoft.com",
     "towardsdatascience.com",
+    "aws.amazon.com",
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-21T14:21:32.989652+00:00"
+  "last_post_timestamp": "2026-05-22T07:04:17.654760+00:00"
 }

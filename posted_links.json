@@ -9,6 +9,7 @@
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
     "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "https://aws.amazon.com/blogs/big-data/automate-deployment-of-data-and-ai-applications-with-amazon-sagemaker-unified-studio-ci-cd-cli/",
     "https://aws.amazon.com/blogs/big-data/automating-data-classification-in-amazon-sagemaker-catalog-using-an-ai-agent/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-amazon-redshift-lambda-user-defined-functions/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
@@ -115,6 +116,7 @@
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
     "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
     "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
@@ -352,6 +354,7 @@
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
     "https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/",
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
+    "https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/",
     "https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/",
     "https://towardsdatascience.com/5-ways-for-variable-discretization/",
     "https://towardsdatascience.com/649627-2/",
@@ -481,6 +484,7 @@
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
     "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
     "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
+    "https://towardsdatascience.com/llm-themes-are-not-observations/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/metric-presentation-101/",
@@ -759,6 +763,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agent-context-layer-trustworthy-data-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-business-operations0",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-financial-services-nasdaq-evestment",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agent-backup-protection",
@@ -980,34 +985,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463232519212240896",
-    "last_posted_at_utc": "2026-05-21T14:21:32.986457+00:00",
+    "last_post_id": "urn:li:share:7463484868346294272",
+    "last_posted_at_utc": "2026-05-22T07:04:17.651540+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Snowflake Startup Spotlight: TestGorilla",
-        "date": "2026-05-08T05:40:47.958967+00:00",
-        "hash_strict": "2e560485c305",
-        "hash_medium": "48a351425201"
-      },
-      {
-        "title": "The Joy of Typing",
-        "date": "2026-05-08T05:40:47.959054+00:00",
-        "hash_strict": "e71482794500",
-        "hash_medium": "b8ecdbcad769"
-      },
-      {
-        "title": "How Major Reasoning Models Converge to the Same \u201cBrain\u201d as They Model Reality Increasingly Better",
-        "date": "2026-05-08T05:40:47.959112+00:00",
-        "hash_strict": "1b6845ce2a32",
-        "hash_medium": "f8b9ec81768b"
-      },
-      {
-        "title": "Trusted Data Foundations for AI in Healthcare and Government",
-        "date": "2026-05-08T05:40:47.959174+00:00",
-        "hash_strict": "ffd054279226",
-        "hash_medium": "ffe9e688914e"
-      },
       {
         "title": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
         "date": "2026-05-08T08:10:20.834450+00:00",
@@ -1691,6 +1672,36 @@
         "date": "2026-05-21T14:21:32.986403+00:00",
         "hash_strict": "93fcf5c8d6d8",
         "hash_medium": "9fe99d49adff"
+      },
+      {
+        "title": "Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights",
+        "date": "2026-05-22T07:04:17.651202+00:00",
+        "hash_strict": "a3bd61094904",
+        "hash_medium": "0e85024ccf6f"
+      },
+      {
+        "title": "Automate deployment of data and AI applications with Amazon SageMaker Unified Studio CI/CD CLI",
+        "date": "2026-05-22T07:04:17.651344+00:00",
+        "hash_strict": "2ca9ed35ac2a",
+        "hash_medium": "b94b26423810"
+      },
+      {
+        "title": "Power BI Tenant Migration: Trade-offs, risks, and realities",
+        "date": "2026-05-22T07:04:17.651412+00:00",
+        "hash_strict": "e7a8dde83329",
+        "hash_medium": "2e4f01f698f0"
+      },
+      {
+        "title": "3 Claude Skills Every Data Scientist Needs in 2026",
+        "date": "2026-05-22T07:04:17.651458+00:00",
+        "hash_strict": "f0b9716868d1",
+        "hash_medium": "50f932ca6206"
+      },
+      {
+        "title": "LLM Themes Are Not Observations",
+        "date": "2026-05-22T07:04:17.651501+00:00",
+        "hash_strict": "b27d0406016c",
+        "hash_medium": "62b03d70dea8"
       }
     ]
   }
