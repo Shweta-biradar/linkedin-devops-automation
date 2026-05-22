@@ -57,6 +57,7 @@
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
     "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/",
+    "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/",
     "https://aws.amazon.com/blogs/database/announcing-aggregations-on-amazon-elasticache/",
     "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
@@ -73,6 +74,7 @@
     "https://aws.amazon.com/blogs/database/how-amazon-documentdb-on-aws-graviton4-r8g-instances-delivers-63-better-sysbench-benchmark-results/",
     "https://aws.amazon.com/blogs/database/how-hoteltrader-cut-inter-az-cost-95-and-latency-by-49-with-valkey-glide-on-amazon-elasticache/",
     "https://aws.amazon.com/blogs/database/improving-generative-ai-accuracy-with-vector-and-graph-search-hybrid-queries/",
+    "https://aws.amazon.com/blogs/database/knowing-when-new-open-source-database-engine-versions-release-on-amazon-aurora-and-amazon-rds/",
     "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/",
     "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/nine-entertainments-journey-achieving-98-cost-savings-with-amazon-elasticache-serverless-for-valkey/",
@@ -985,34 +987,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463484868346294272",
-    "last_posted_at_utc": "2026-05-22T07:04:17.651540+00:00",
+    "last_post_id": "urn:li:share:7463528503829995520",
+    "last_posted_at_utc": "2026-05-22T09:57:41.141856+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
-        "date": "2026-05-08T08:10:20.834450+00:00",
-        "hash_strict": "8dff8db1623a",
-        "hash_medium": "0390c54fc64a"
-      },
-      {
-        "title": "Announcing aggregations on Amazon ElastiCache",
-        "date": "2026-05-08T08:10:20.834582+00:00",
-        "hash_strict": "46d90fbcb148",
-        "hash_medium": "6fa616a758dd"
-      },
-      {
-        "title": "Valkey turns two",
-        "date": "2026-05-08T08:10:20.834653+00:00",
-        "hash_strict": "9b2387ff4712",
-        "hash_medium": "9b2387ff4712"
-      },
-      {
-        "title": "Full-text, exact-match, range, and hybrid search on Amazon ElastiCache",
-        "date": "2026-05-08T08:10:20.834706+00:00",
-        "hash_strict": "3cf030ae804b",
-        "hash_medium": "0d9995dc7492"
-      },
       {
         "title": "Unified Agentic Memory Across Harnesses Using Hooks",
         "date": "2026-05-08T12:53:06.009113+00:00",
@@ -1702,6 +1680,18 @@
         "date": "2026-05-22T07:04:17.651501+00:00",
         "hash_strict": "b27d0406016c",
         "hash_medium": "62b03d70dea8"
+      },
+      {
+        "title": "Amazon Aurora MySQL 8.4 is now generally available",
+        "date": "2026-05-22T09:57:41.141669+00:00",
+        "hash_strict": "37e10d65f899",
+        "hash_medium": "54b62c82409f"
+      },
+      {
+        "title": "Knowing when new open source database engine versions release on Amazon Aurora and Amazon RDS",
+        "date": "2026-05-22T09:57:41.141795+00:00",
+        "hash_strict": "78bed5bc9fb3",
+        "hash_medium": "2a8327a0927f"
       }
     ]
   }
