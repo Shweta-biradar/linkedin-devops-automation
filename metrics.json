@@ -1,10 +1,10 @@
 {
-  "total_posts": 297,
-  "posts_today": 2,
+  "total_posts": 298,
+  "posts_today": 3,
   "last_post_date": "2026-05-23",
   "formats_used": {
     "case_study": 28,
-    "deep_dive": 21,
+    "deep_dive": 22,
     "lessons": 42,
     "digest": 195,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 96,
+    "aws.amazon.com": 99,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-24",
-      "time": "2026-03-24T12:04:20.995325+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-25",
       "time": "2026-03-25T05:15:19.770044+00:00",
@@ -1175,13 +1167,23 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-05-23",
+      "time": "2026-05-23T12:11:57.231586+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 270,
-  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nSRE leaders share reliability wins and lessons.\n\nEssential reads:\n1. Power BI May 2026 Feature Summary\nContext: Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #PostgreSQL #DBT #Alteryx #Snowflake",
-  "last_post_format": "digest",
+  "posts_created": 271,
+  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Deep dive: Best practices for Amazon DynamoDB Global Tables \u2013 Part 1: Operational readiness\n\nKey points:\n\u2022 This is Part 1 of a series on best practices for DynamoDB global tables. In this post, we focus on preparation: understanding how replication works, what your resilience...\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 System evolution requires continuous learning and adaptation\n\nHow do you balance technical debt with new feature development?\n\n#Snowflake #Airflow #Reporting #Analytics #PowerBI #BusinessIntelligence #DataVisualization\n\n\u2753 Which takeaway resonates most for your team?\n\n#SSIS #Looker #Alteryx #Statistics #Insights #Tableau #MLOps",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "powerbi.microsoft.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-23T08:37:09.796944+00:00"
+  "last_post_timestamp": "2026-05-23T12:11:57.232817+00:00"
 }

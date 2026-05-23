@@ -62,6 +62,9 @@
     "https://aws.amazon.com/blogs/database/announcing-aggregations-on-amazon-elasticache/",
     "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
+    "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/",
+    "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-2-failover-strategies/",
+    "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-3-validating-regional-resilience-with-aws-fault-injection-service/",
     "https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-8-0-to-8-4-with-prechecks-blue-green-and-rollback/",
     "https://aws.amazon.com/blogs/database/building-agentic-ai-for-amazon-rds-for-sql-server-with-strands-and-agentcore/",
     "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/",
@@ -990,16 +993,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463870627419148288",
-    "last_posted_at_utc": "2026-05-23T08:37:09.793742+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7463924681230823424",
+    "last_posted_at_utc": "2026-05-23T12:11:57.229533+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
-        "date": "2026-05-09T12:09:49.086310+00:00",
-        "hash_strict": "aedd1d84c8ba",
-        "hash_medium": "3f7c79d2066f"
-      },
       {
         "title": "RAG Is Blind to Time \u2014 I Built a Temporal Layer to Fix It in Production",
         "date": "2026-05-10T06:26:28.812156+00:00",
@@ -1671,6 +1668,24 @@
         "date": "2026-05-23T08:37:09.793596+00:00",
         "hash_strict": "72e4ec1c0800",
         "hash_medium": "f37492db6b9c"
+      },
+      {
+        "title": "Best practices for Amazon DynamoDB Global Tables \u2013 Part 3: Validating regional resilience with AWS Fault Injection Service",
+        "date": "2026-05-23T12:11:57.229265+00:00",
+        "hash_strict": "b08ddd12a80b",
+        "hash_medium": "2354306f74bd"
+      },
+      {
+        "title": "Best practices for Amazon DynamoDB Global Tables \u2013 Part 2: Failover strategies",
+        "date": "2026-05-23T12:11:57.229405+00:00",
+        "hash_strict": "b08ddd12a80b",
+        "hash_medium": "2354306f74bd"
+      },
+      {
+        "title": "Best practices for Amazon DynamoDB Global Tables \u2013 Part 1: Operational readiness",
+        "date": "2026-05-23T12:11:57.229481+00:00",
+        "hash_strict": "b08ddd12a80b",
+        "hash_medium": "2354306f74bd"
       }
     ]
   }
