@@ -25,6 +25,7 @@
     "https://aws.amazon.com/blogs/big-data/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/",
     "https://aws.amazon.com/blogs/big-data/federate-access-to-amazon-sagemaker-unified-studio-with-aws-iam-identity-center-and-ping-identity/",
     "https://aws.amazon.com/blogs/big-data/filter-catalog-assets-using-custom-metadata-search-filters-in-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/how-amazon-is-moving-to-integrate-catalogs-to-improve-data-discovery-with-amazon-sagemaker/",
     "https://aws.amazon.com/blogs/big-data/how-smartsheet-built-real-time-dynamic-filtering-on-apache-flink-reducing-40k-month-in-messaging-costs/",
     "https://aws.amazon.com/blogs/big-data/how-to-build-a-cross-region-resilience-for-amazon-opensearch-service-with-amazon-msk/",
     "https://aws.amazon.com/blogs/big-data/how-to-consolidate-cross-region-s3-data-into-opensearch/",
@@ -410,6 +411,7 @@
     "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
     "https://towardsdatascience.com/discrete-time-to-event-modeling-predicting-when-something-will-happen/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
+    "https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
@@ -988,46 +990,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463585259557847040",
-    "last_posted_at_utc": "2026-05-22T13:43:12.844293+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7463837175210647552",
+    "last_posted_at_utc": "2026-05-23T06:24:14.138285+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
-        "date": "2026-05-09T06:06:45.807003+00:00",
-        "hash_strict": "69f25733d305",
-        "hash_medium": "6681fd408fec"
-      },
-      {
-        "title": "Power BI Tutorial: Create Your First Dashboard",
-        "date": "2026-05-09T06:06:45.807115+00:00",
-        "hash_strict": "7d750f26bd40",
-        "hash_medium": "4d639bec1a5b"
-      },
-      {
-        "title": "Enable real-time mainframe analytics with Precisely Connect and Amazon S3",
-        "date": "2026-05-09T06:06:45.807184+00:00",
-        "hash_strict": "4503193f3ad4",
-        "hash_medium": "e3d8a23a6590"
-      },
-      {
-        "title": "Best Python Courses in 2026 \u2014 From Foundations to Career-Ready Skills",
-        "date": "2026-05-09T06:06:45.807227+00:00",
-        "hash_strict": "058fa1dad460",
-        "hash_medium": "1aaeb651777a"
-      },
-      {
-        "title": "How to consolidate cross-Region S3 data into OpenSearch",
-        "date": "2026-05-09T06:06:45.807271+00:00",
-        "hash_strict": "9f4be0ca5792",
-        "hash_medium": "e41145f0e0e3"
-      },
-      {
-        "title": "When Customers Churn at Renewal: Was It the Price or the Project?",
-        "date": "2026-05-09T06:06:45.807309+00:00",
-        "hash_strict": "c5a4e5dc480b",
-        "hash_medium": "c60fa492e4a6"
-      },
       {
         "title": "From Data Scientist to AI Architect",
         "date": "2026-05-09T08:17:30.946434+00:00",
@@ -1693,6 +1659,18 @@
         "date": "2026-05-22T13:43:12.844198+00:00",
         "hash_strict": "80e6c927a8b4",
         "hash_medium": "37c9717f2c9b"
+      },
+      {
+        "title": "How Amazon is moving to integrate catalogs to improve data discovery with Amazon SageMaker",
+        "date": "2026-05-23T06:24:14.138095+00:00",
+        "hash_strict": "c591127585eb",
+        "hash_medium": "965eed593d54"
+      },
+      {
+        "title": "Enterprise Document Intelligence: A Series on Building RAG Brick by Brick, from Minimal to Corpus scale",
+        "date": "2026-05-23T06:24:14.138227+00:00",
+        "hash_strict": "20bdc4e55569",
+        "hash_medium": "386bc20c8902"
       }
     ]
   }
