@@ -1,12 +1,12 @@
 {
-  "total_posts": 296,
-  "posts_today": 1,
+  "total_posts": 297,
+  "posts_today": 2,
   "last_post_date": "2026-05-23",
   "formats_used": {
     "case_study": 28,
     "deep_dive": 21,
     "lessons": 42,
-    "digest": 194,
+    "digest": 195,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -45,7 +45,7 @@
     "kdnuggets.com": 58,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 8,
+    "powerbi.microsoft.com": 9,
     "www.dbt.com": 10,
     "www.dataquest.io": 16,
     "www.udacity.com": 1
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-24",
-      "time": "2026-03-24T07:39:33.106922+00:00",
-      "format": "digest",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-24",
       "time": "2026-03-24T12:04:20.995325+00:00",
@@ -1175,14 +1167,21 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-23",
+      "time": "2026-05-23T08:37:09.795765+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 269,
-  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nAnalytics experts reveal the patterns behind success.\n\n\ud83d\udccc How Amazon is moving to integrate catalogs to improve data discovery with Amazon SageMaker\n\nEnterprises face challenges when teams create data assets outside of central data catalogs. It adds overhead for discovery, and limits collaboration.\n\n\ud83d\udca1 Cardinality explosion will kill your monitoring budget\n\nHow do you prevent alert fatigue in your team?\n\n#MySQL #Databricks #Redshift #CloudData #Tableau #DataWarehouse #SAPHANA\n\n\u2753 How would you apply this insight?\n\n#BITools #Tableau #Reporting #SQL #BusinessIntelligence #PowerBI #CloudData",
-  "last_post_format": "deep_dive",
+  "posts_created": 270,
+  "last_post_content": "\ud83d\udcc8 Observability and metrics: actionable insights.\nSRE leaders share reliability wins and lessons.\n\nEssential reads:\n1. Power BI May 2026 Feature Summary\nContext: Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat\u2019s your take on these developments?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #PostgreSQL #DBT #Alteryx #Snowflake",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "aws.amazon.com"
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-05-23T06:24:14.141568+00:00"
+  "last_post_timestamp": "2026-05-23T08:37:09.796944+00:00"
 }
