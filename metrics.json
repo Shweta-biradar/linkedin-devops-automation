@@ -1,12 +1,12 @@
 {
-  "total_posts": 300,
-  "posts_today": 2,
+  "total_posts": 301,
+  "posts_today": 3,
   "last_post_date": "2026-05-24",
   "formats_used": {
     "case_study": 29,
     "deep_dive": 23,
     "lessons": 42,
-    "digest": 195,
+    "digest": 196,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -45,7 +45,7 @@
     "kdnuggets.com": 58,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 10,
+    "powerbi.microsoft.com": 11,
     "www.dbt.com": 10,
     "www.dataquest.io": 16,
     "www.udacity.com": 1
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-25",
-      "time": "2026-03-25T12:03:48.173443+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com",
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-26",
       "time": "2026-03-26T04:24:11.613809+00:00",
@@ -1172,13 +1161,21 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-05-24",
+      "time": "2026-05-24T12:42:01.378025+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 273,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nPlatform architects surface key case studies.\n\n\u23f1\ufe0f Timeline: Power BI May 2026 Feature Summary\n\n\u2192 Challenge: Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\n\u2192 Learning: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Deployment frequency correlates with stability when done right\n\u2611\ufe0f Pipeline as code prevents configuration drift and bus factor issues\n\u2611\ufe0f Track results and optimize\n\nWhat pipeline failures taught you the most?\n\n#AdvancedAnalytics #Analytics #Automation #DataVisualization #Databricks #SSRS #Statistics\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174\n\n#PowerBI #BusinessIntelligence #DataAnalytics #ETL #SSAS #Looker #Analytics",
-  "last_post_format": "case_study",
+  "posts_created": 274,
+  "last_post_content": "\ud83e\uddbe Automation strategies for modern teams.\nAI innovators map the future of intelligent systems.\n\nWhat caught our attention:\n1. Power BI May 2026 Feature Summary\nContext: Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Statistics #SSIS #SQL #BigQuery",
+  "last_post_format": "digest",
   "last_post_sources": [
     "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-05-24T09:08:36.861979+00:00"
+  "last_post_timestamp": "2026-05-24T12:42:01.379189+00:00"
 }
