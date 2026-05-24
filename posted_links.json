@@ -387,6 +387,7 @@
     "https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/",
     "https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/",
     "https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/",
+    "https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
@@ -432,8 +433,10 @@
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
     "https://towardsdatascience.com/from-possible-to-probable-ai-models/",
+    "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
     "https://towardsdatascience.com/from-raw-data-to-risk-classes/",
     "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
+    "https://towardsdatascience.com/fun-with-histograms-and-densities/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/ghost-a-database-for-our-times/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
@@ -993,22 +996,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7463924681230823424",
-    "last_posted_at_utc": "2026-05-23T12:11:57.229533+00:00",
+    "last_post_id": "urn:li:share:7464206975296385024",
+    "last_posted_at_utc": "2026-05-24T06:53:41.428489+00:00",
     "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "RAG Is Blind to Time \u2014 I Built a Temporal Layer to Fix It in Production",
-        "date": "2026-05-10T06:26:28.812156+00:00",
-        "hash_strict": "cff11c63465f",
-        "hash_medium": "275963188286"
-      },
-      {
-        "title": "The Must-Know Topics for an LLM\u00a0Engineer",
-        "date": "2026-05-10T06:26:28.812265+00:00",
-        "hash_strict": "2bd1c9350060",
-        "hash_medium": "85ad1f60ebc4"
-      },
       {
         "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
         "date": "2026-05-10T08:28:36.239947+00:00",
@@ -1686,6 +1677,24 @@
         "date": "2026-05-23T12:11:57.229481+00:00",
         "hash_strict": "b08ddd12a80b",
         "hash_medium": "2354306f74bd"
+      },
+      {
+        "title": "From Prototype to Profit: Solving the Agentic Token-Burn Problem",
+        "date": "2026-05-24T06:53:41.428201+00:00",
+        "hash_strict": "c579361b84b3",
+        "hash_medium": "b825ee59d3d9"
+      },
+      {
+        "title": "Beyond the Scroll: How Social Media Algorithms Shape Your Reality",
+        "date": "2026-05-24T06:53:41.428354+00:00",
+        "hash_strict": "2f999e266bd4",
+        "hash_medium": "c663c0bb95e4"
+      },
+      {
+        "title": "How to Mathematically Choose the Optimal Bins for Your Histogram",
+        "date": "2026-05-24T06:53:41.428433+00:00",
+        "hash_strict": "b7f7a0d4fb4e",
+        "hash_medium": "43d6d4156b25"
       }
     ]
   }
