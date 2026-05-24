@@ -996,16 +996,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464206975296385024",
-    "last_posted_at_utc": "2026-05-24T06:53:41.428489+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7464240929743261696",
+    "last_posted_at_utc": "2026-05-24T09:08:36.858721+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
-        "date": "2026-05-10T08:28:36.239947+00:00",
-        "hash_strict": "aedd1d84c8ba",
-        "hash_medium": "3f7c79d2066f"
-      },
       {
         "title": "Snowflake and Veeva Unlock Agentic AI in Life Sciences",
         "date": "2026-05-10T12:11:09.505760+00:00",
@@ -1695,6 +1689,12 @@
         "date": "2026-05-24T06:53:41.428433+00:00",
         "hash_strict": "b7f7a0d4fb4e",
         "hash_medium": "43d6d4156b25"
+      },
+      {
+        "title": "Power BI May 2026 Feature Summary",
+        "date": "2026-05-24T09:08:36.858534+00:00",
+        "hash_strict": "72e4ec1c0800",
+        "hash_medium": "f37492db6b9c"
       }
     ]
   }
