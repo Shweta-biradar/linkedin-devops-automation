@@ -1,12 +1,12 @@
 {
-  "total_posts": 302,
-  "posts_today": 1,
+  "total_posts": 303,
+  "posts_today": 2,
   "last_post_date": "2026-05-25",
   "formats_used": {
     "case_study": 30,
     "deep_dive": 23,
     "lessons": 42,
-    "digest": 196,
+    "digest": 197,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -41,7 +41,7 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 256,
-    "www.snowflake.com": 92,
+    "www.snowflake.com": 93,
     "kdnuggets.com": 58,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-26",
-      "time": "2026-03-26T05:23:44.008052+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-26",
       "time": "2026-03-26T07:43:52.838061+00:00",
@@ -1167,13 +1159,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-25",
+      "time": "2026-05-25T10:58:38.006838+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 275,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nCloud pioneers share implementation lessons.\n\n\ud83d\udd0d Breakdown: The Ultimate Beginners\u2019 Guide to Building an AI Agent in Python\n\n\ud83d\udcca Data: Simple step-by-step tutorial to building an AI agent in Python The post The Ultimate Beginners\u2019 Guide to Building an AI Agent in Python appeared first on Towards Data Science .\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: CI/CD observability matters as much as application observability\n\u2192 Step 2: Feature flags decouple deployment risk from feature risk\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you handle deployment rollbacks at scale?\n\n#Redshift #Oracle #Reporting #BITools #Insights #Airflow #Dashboard\n\n\u2753 How would you adapt this for your team?\n\nSource: https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/\n\n#Snowflake #CloudData #SSRS #SSAS #ETL #DataAnalyst #SSIS",
-  "last_post_format": "case_study",
+  "posts_created": 276,
+  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTech strategists decode the next wave of transformation.\n\nSecurity signals:\n1. Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights\nContext: Discover how Nasdaq eVestment uses agentic AI, Snowflake Cortex and trusted institutional data to help asset managers accelerate prospecting, improve win rates and drive faster...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-financial-services-nasdaq-evestment\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?\n\n#Automation #AdvancedAnalytics #Qlik #SSAS #Databricks #MLOps #BusinessIntelligence",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-05-25T08:08:03.883905+00:00"
+  "last_post_timestamp": "2026-05-25T10:58:38.008039+00:00"
 }

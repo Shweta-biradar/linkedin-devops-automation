@@ -998,16 +998,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464588080159547392",
-    "last_posted_at_utc": "2026-05-25T08:08:03.880826+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7464631005224591360",
+    "last_posted_at_utc": "2026-05-25T10:58:38.004774+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Enable real-time mainframe analytics with Precisely Connect and Amazon S3",
-        "date": "2026-05-11T10:09:35.635803+00:00",
-        "hash_strict": "4503193f3ad4",
-        "hash_medium": "e3d8a23a6590"
-      },
       {
         "title": "SAP and Snowflake Unleash a New Era of Enterprise AI with Zero-Copy Integration",
         "date": "2026-05-11T14:06:16.987642+00:00",
@@ -1697,6 +1691,12 @@
         "date": "2026-05-25T08:08:03.880729+00:00",
         "hash_strict": "8b8e6483b307",
         "hash_medium": "b6ba7e84337a"
+      },
+      {
+        "title": "Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights",
+        "date": "2026-05-25T10:58:38.004664+00:00",
+        "hash_strict": "a3bd61094904",
+        "hash_medium": "0e85024ccf6f"
       }
     ]
   }
