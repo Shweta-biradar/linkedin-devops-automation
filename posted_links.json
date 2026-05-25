@@ -436,6 +436,7 @@
     "https://towardsdatascience.com/from-possible-to-probable-ai-models/",
     "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
     "https://towardsdatascience.com/from-raw-data-to-risk-classes/",
+    "https://towardsdatascience.com/from-tf-idf-to-transformers-implementing-four-generations-of-semantic-search/",
     "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "https://towardsdatascience.com/fun-with-histograms-and-densities/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
@@ -486,6 +487,7 @@
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
     "https://towardsdatascience.com/introducing-gemini-embeddings-2-preview/",
+    "https://towardsdatascience.com/introducing-the-agent-toolkit-for-amazon-web-services/",
     "https://towardsdatascience.com/introduction-to-lean-for-programmers/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
@@ -717,6 +719,7 @@
     "https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
     "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
+    "https://www.kdnuggets.com/5-more-must-know-python-concepts",
     "https://www.kdnuggets.com/5-must-know-python-concepts",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
@@ -998,22 +1001,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464631005224591360",
-    "last_posted_at_utc": "2026-05-25T10:58:38.004774+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7464682675942100992",
+    "last_posted_at_utc": "2026-05-25T14:23:57.229987+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "SAP and Snowflake Unleash a New Era of Enterprise AI with Zero-Copy Integration",
-        "date": "2026-05-11T14:06:16.987642+00:00",
-        "hash_strict": "45419c6c4463",
-        "hash_medium": "68bcf30054dc"
-      },
-      {
-        "title": "PySpark for Beginners: Mastering the\u00a0Basics",
-        "date": "2026-05-11T14:06:16.987792+00:00",
-        "hash_strict": "f3648b6a79ce",
-        "hash_medium": "d05f0f8ea2f2"
-      },
       {
         "title": "Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls",
         "date": "2026-05-12T06:27:21.540234+00:00",
@@ -1697,6 +1688,24 @@
         "date": "2026-05-25T10:58:38.004664+00:00",
         "hash_strict": "a3bd61094904",
         "hash_medium": "0e85024ccf6f"
+      },
+      {
+        "title": "From TF-IDF to Transformers: Implementing Four Generations of Semantic Search",
+        "date": "2026-05-25T14:23:57.229691+00:00",
+        "hash_strict": "29eba0906a3c",
+        "hash_medium": "092b2e194f07"
+      },
+      {
+        "title": "5 More Must-Know Python Concepts",
+        "date": "2026-05-25T14:23:57.229819+00:00",
+        "hash_strict": "a3beb3bfb565",
+        "hash_medium": "2836818931a4"
+      },
+      {
+        "title": "Introducing the Agent Toolkit for Amazon Web\u00a0Services",
+        "date": "2026-05-25T14:23:57.229903+00:00",
+        "hash_strict": "4e0c146ebac9",
+        "hash_medium": "5c62da03dc16"
       }
     ]
   }

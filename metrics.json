@@ -1,9 +1,9 @@
 {
-  "total_posts": 303,
-  "posts_today": 2,
+  "total_posts": 304,
+  "posts_today": 3,
   "last_post_date": "2026-05-25",
   "formats_used": {
-    "case_study": 30,
+    "case_study": 31,
     "deep_dive": 23,
     "lessons": 42,
     "digest": 197,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 256,
+    "towardsdatascience.com": 258,
     "www.snowflake.com": 93,
-    "kdnuggets.com": 58,
+    "kdnuggets.com": 59,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-26",
-      "time": "2026-03-26T07:43:52.838061+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-26",
       "time": "2026-03-26T12:08:49.304308+00:00",
@@ -1167,13 +1159,24 @@
       "sources": [
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-05-25",
+      "time": "2026-05-25T14:23:57.231966+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 276,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nTech strategists decode the next wave of transformation.\n\nSecurity signals:\n1. Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights\nContext: Discover how Nasdaq eVestment uses agentic AI, Snowflake Cortex and trusted institutional data to help asset managers accelerate prospecting, improve win rates and drive faster...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-financial-services-nasdaq-evestment\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?\n\n#Automation #AdvancedAnalytics #Qlik #SSAS #Databricks #MLOps #BusinessIntelligence",
-  "last_post_format": "digest",
+  "posts_created": 277,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Introducing the Agent Toolkit for Amazon Web\u00a0Services\n\n\ud83d\udcca Data: It\u2019s like having your own personal expert AWS solutions architect and data engineer rolled into one. The post Introducing the Agent Toolkit for Amazon Web Services appeared...\n\ud83c\udfaf Impact: helps you optimize cloud reliability and cost.\n\nHow to apply this:\n\u2192 Step 1: Multi-cloud means multi-complexity - go deep before going wide\n\u2192 Step 2: Managed services reduce toil but increase vendor coupling\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat cloud costs caught you off guard?\n\n#Looker #DBT #Python #BITools #PostgreSQL #Snowflake #Insights\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/introducing-the-agent-toolkit-for-amazon-web-services/\n\n#Automation #MLOps #Tableau #Qlik #Redshift #SAPHANA #PostgreSQL",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "www.snowflake.com"
+    "kdnuggets.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-25T10:58:38.008039+00:00"
+  "last_post_timestamp": "2026-05-25T14:23:57.233138+00:00"
 }
