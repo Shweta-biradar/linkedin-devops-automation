@@ -387,6 +387,7 @@
     "https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/",
     "https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/",
     "https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/",
+    "https://towardsdatascience.com/beyond-the-model-why-data-scientists-must-embrace-apis-and-api-documentation/",
     "https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
@@ -576,6 +577,7 @@
     "https://towardsdatascience.com/the-next-frontier-of-ai-in-production-is-chaos-engineering/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
+    "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/",
     "https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/",
@@ -996,22 +998,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464294636279205888",
-    "last_posted_at_utc": "2026-05-24T12:42:01.375968+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7464588080159547392",
+    "last_posted_at_utc": "2026-05-25T08:08:03.880826+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "LLM Summarizers Skip the Identification Step",
-        "date": "2026-05-11T06:56:29.689504+00:00",
-        "hash_strict": "b00e127a5308",
-        "hash_medium": "93a4020944af"
-      },
-      {
-        "title": "Batch or Stream? The Eternal Data Processing Dilemma",
-        "date": "2026-05-11T06:56:29.689648+00:00",
-        "hash_strict": "c5231c1f6d72",
-        "hash_medium": "55e4753fed39"
-      },
       {
         "title": "Enable real-time mainframe analytics with Precisely Connect and Amazon S3",
         "date": "2026-05-11T10:09:35.635803+00:00",
@@ -1695,6 +1685,18 @@
         "date": "2026-05-24T12:42:01.375860+00:00",
         "hash_strict": "72e4ec1c0800",
         "hash_medium": "f37492db6b9c"
+      },
+      {
+        "title": "The Ultimate Beginners\u2019 Guide to Building an AI Agent in Python",
+        "date": "2026-05-25T08:08:03.880578+00:00",
+        "hash_strict": "2c15584acb36",
+        "hash_medium": "f6b62fad0514"
+      },
+      {
+        "title": "Beyond the Model: Why Data Scientists Must Embrace APIs and API Documentation",
+        "date": "2026-05-25T08:08:03.880729+00:00",
+        "hash_strict": "8b8e6483b307",
+        "hash_medium": "b6ba7e84337a"
       }
     ]
   }
