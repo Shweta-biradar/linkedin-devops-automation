@@ -1,9 +1,9 @@
 {
-  "total_posts": 304,
-  "posts_today": 3,
-  "last_post_date": "2026-05-25",
+  "total_posts": 305,
+  "posts_today": 1,
+  "last_post_date": "2026-05-26",
   "formats_used": {
-    "case_study": 31,
+    "case_study": 32,
     "deep_dive": 23,
     "lessons": 42,
     "digest": 197,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 258,
+    "towardsdatascience.com": 260,
     "www.snowflake.com": 93,
     "kdnuggets.com": 59,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-26",
-      "time": "2026-03-26T12:08:49.304308+00:00",
-      "format": "digest",
-      "sources": [
-        "www.dbt.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-27",
       "time": "2026-03-27T05:26:43.894834+00:00",
@@ -1169,14 +1159,22 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-26",
+      "time": "2026-05-26T07:02:29.214398+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 277,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Introducing the Agent Toolkit for Amazon Web\u00a0Services\n\n\ud83d\udcca Data: It\u2019s like having your own personal expert AWS solutions architect and data engineer rolled into one. The post Introducing the Agent Toolkit for Amazon Web Services appeared...\n\ud83c\udfaf Impact: helps you optimize cloud reliability and cost.\n\nHow to apply this:\n\u2192 Step 1: Multi-cloud means multi-complexity - go deep before going wide\n\u2192 Step 2: Managed services reduce toil but increase vendor coupling\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat cloud costs caught you off guard?\n\n#Looker #DBT #Python #BITools #PostgreSQL #Snowflake #Insights\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/introducing-the-agent-toolkit-for-amazon-web-services/\n\n#Automation #MLOps #Tableau #Qlik #Redshift #SAPHANA #PostgreSQL",
+  "posts_created": 278,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Can AI Write Your\u00a0Code?\n\n\u2192 Challenge: What a recent study on ChatGPT, Python, R, and Stata tells us about AI-assisted coding for causal inference The post Can AI Write Your Code? appeared first on Towards Data...\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Operational simplicity beats architectural elegance every time\n\u2192 Step 2: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you balance technical debt with new feature development?\n\n#Python #SAPHANA #PowerBI #CloudData #Snowflake #BITools #SQL\n\n\u2753 How would you adapt this for your team?\n\nFull story: https://towardsdatascience.com/can-ai-write-your-code/\n\n#Looker #Alteryx #Qlik #SSAS #CloudData #Tableau #ETL",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "kdnuggets.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-25T14:23:57.233138+00:00"
+  "last_post_timestamp": "2026-05-26T07:02:29.216864+00:00"
 }

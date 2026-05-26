@@ -402,6 +402,7 @@
     "https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/",
     "https://towardsdatascience.com/building-systems-that-survive-real-life/",
     "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
+    "https://towardsdatascience.com/can-ai-write-your-code/",
     "https://towardsdatascience.com/can-llms-replace-survey-respondents/",
     "https://towardsdatascience.com/causal-inference-is-eating-machine-learning/",
     "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
@@ -477,6 +478,7 @@
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
     "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
+    "https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/",
     "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
@@ -1001,46 +1003,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464682675942100992",
-    "last_posted_at_utc": "2026-05-25T14:23:57.229987+00:00",
+    "last_post_id": "urn:li:share:7464933964638658560",
+    "last_posted_at_utc": "2026-05-26T07:02:29.212375+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls",
-        "date": "2026-05-12T06:27:21.540234+00:00",
-        "hash_strict": "c1fa52e378a1",
-        "hash_medium": "e1954f48fe42"
-      },
-      {
-        "title": "Learning Word Vectors for Sentiment Analysis: A Python Reproduction",
-        "date": "2026-05-12T06:27:21.540365+00:00",
-        "hash_strict": "862354307e6f",
-        "hash_medium": "f06c589b5e62"
-      },
-      {
-        "title": "How to use streamlined permissions for Amazon S3 Tables and Iceberg materialized views",
-        "date": "2026-05-12T06:27:21.540446+00:00",
-        "hash_strict": "0f6c3a7c56d2",
-        "hash_medium": "44c8a3f38b0a"
-      },
-      {
-        "title": "How to Build Vector Search From Scratch in Python",
-        "date": "2026-05-12T06:27:21.540521+00:00",
-        "hash_strict": "18e6580b191a",
-        "hash_medium": "ce62c6e2ba7f"
-      },
-      {
-        "title": "How to build a cross-Region resilience for Amazon OpenSearch Service with Amazon MSK",
-        "date": "2026-05-12T06:27:21.540593+00:00",
-        "hash_strict": "18e6580b191a",
-        "hash_medium": "1faed1cf8176"
-      },
-      {
-        "title": "How to Build a Claude Code-Powered Knowledge Base",
-        "date": "2026-05-12T06:27:21.540659+00:00",
-        "hash_strict": "18e6580b191a",
-        "hash_medium": "b6667b8625b1"
-      },
       {
         "title": "Using Transformers to Forecast Incredibly Rare Solar Flares",
         "date": "2026-05-12T09:19:27.474375+00:00",
@@ -1706,6 +1672,18 @@
         "date": "2026-05-25T14:23:57.229903+00:00",
         "hash_strict": "4e0c146ebac9",
         "hash_medium": "5c62da03dc16"
+      },
+      {
+        "title": "Can AI Write Your\u00a0Code?",
+        "date": "2026-05-26T07:02:29.212161+00:00",
+        "hash_strict": "1445204efa30",
+        "hash_medium": "a9664f55dc76"
+      },
+      {
+        "title": "I Built My First ETL Pipeline as a Complete Beginner. Here\u2019s How.",
+        "date": "2026-05-26T07:02:29.212278+00:00",
+        "hash_strict": "ae79c6323c76",
+        "hash_medium": "5bd7df18072d"
       }
     ]
   }
