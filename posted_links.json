@@ -1003,16 +1003,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464933964638658560",
-    "last_posted_at_utc": "2026-05-26T07:02:29.212375+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7464987479612334081",
+    "last_posted_at_utc": "2026-05-26T10:35:08.085274+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Using Transformers to Forecast Incredibly Rare Solar Flares",
-        "date": "2026-05-12T09:19:27.474375+00:00",
-        "hash_strict": "1b0106ca79f9",
-        "hash_medium": "6ce64198a406"
-      },
       {
         "title": "5 Useful Python Scripts for Time Series Analysis",
         "date": "2026-05-12T13:22:35.468926+00:00",
@@ -1684,6 +1678,12 @@
         "date": "2026-05-26T07:02:29.212278+00:00",
         "hash_strict": "ae79c6323c76",
         "hash_medium": "5bd7df18072d"
+      },
+      {
+        "title": "Can AI Write Your\u00a0Code?",
+        "date": "2026-05-26T10:35:08.085155+00:00",
+        "hash_strict": "1445204efa30",
+        "hash_medium": "a9664f55dc76"
       }
     ]
   }

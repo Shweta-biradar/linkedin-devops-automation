@@ -1,11 +1,11 @@
 {
-  "total_posts": 305,
-  "posts_today": 1,
+  "total_posts": 306,
+  "posts_today": 2,
   "last_post_date": "2026-05-26",
   "formats_used": {
     "case_study": 32,
     "deep_dive": 23,
-    "lessons": 42,
+    "lessons": 43,
     "digest": 197,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 260,
+    "towardsdatascience.com": 261,
     "www.snowflake.com": 93,
     "kdnuggets.com": 59,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-27",
-      "time": "2026-03-27T05:26:43.894834+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "kdnuggets.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-03-27",
       "time": "2026-03-27T07:43:58.578198+00:00",
@@ -1168,13 +1155,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-26",
+      "time": "2026-05-26T10:35:08.087026+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 278,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Can AI Write Your\u00a0Code?\n\n\u2192 Challenge: What a recent study on ChatGPT, Python, R, and Stata tells us about AI-assisted coding for causal inference The post Can AI Write Your Code? appeared first on Towards Data...\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Operational simplicity beats architectural elegance every time\n\u2192 Step 2: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you balance technical debt with new feature development?\n\n#Python #SAPHANA #PowerBI #CloudData #Snowflake #BITools #SQL\n\n\u2753 How would you adapt this for your team?\n\nFull story: https://towardsdatascience.com/can-ai-write-your-code/\n\n#Looker #Alteryx #Qlik #SSAS #CloudData #Tableau #ETL",
-  "last_post_format": "case_study",
+  "posts_created": 279,
+  "last_post_content": "\u26a1 Career-changing lessons.\nAnalytics experts reveal what sticks.\n\nTopic: Can AI Write Your Code?\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#BusinessIntelligence #SQL #Statistics #BITools #DataVisualization #Looker #Insights\n\n\u2753 What would you add to this list?\n\n#BITools #Airflow #Databricks #Insights #DBT #Reporting #MLOps",
+  "last_post_format": "lessons",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-26T07:02:29.216864+00:00"
+  "last_post_timestamp": "2026-05-26T10:35:08.088100+00:00"
 }
