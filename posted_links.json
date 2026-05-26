@@ -552,6 +552,7 @@
     "https://towardsdatascience.com/stop-confusing-loc-and-iloc-in-pandas-the-rule-everyone-misses/",
     "https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/",
     "https://towardsdatascience.com/stop-tuning-hyperparameters-start-tuning-your-problem/",
+    "https://towardsdatascience.com/stop-using-llms-like-giant-problem-solvers/",
     "https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
     "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
@@ -770,9 +771,11 @@
     "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
     "https://www.kdnuggets.com/time-series-feature-engineering-with-python-itertools",
     "https://www.kdnuggets.com/top-10-python-libraries-for-data-engineering-in-2026",
+    "https://www.kdnuggets.com/top-7-python-libraries-for-large-scale-data-processing",
     "https://www.kdnuggets.com/top-7-python-libraries-for-progress-bars",
     "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
     "https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms",
+    "https://www.kdnuggets.com/visual-debugging-tools-for-machine-learning-workflows",
     "https://www.kdnuggets.com/working-with-billion-row-datasets-in-python-using-vaex",
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
@@ -1003,22 +1006,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7464987479612334081",
-    "last_posted_at_utc": "2026-05-26T10:35:08.085274+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7465043167541714945",
+    "last_posted_at_utc": "2026-05-26T14:16:25.143775+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "5 Useful Python Scripts for Time Series Analysis",
-        "date": "2026-05-12T13:22:35.468926+00:00",
-        "hash_strict": "980bdd86ba26",
-        "hash_medium": "18ea07b55e07"
-      },
-      {
-        "title": "Your First WebAssembly Program and Web App (Written, Tested, and Deployed Entirely in the Web Browser)",
-        "date": "2026-05-12T13:22:35.469035+00:00",
-        "hash_strict": "cf81a3ecc084",
-        "hash_medium": "fd136c124d6e"
-      },
       {
         "title": "Power BI May 2026 Feature Summary",
         "date": "2026-05-13T06:41:57.837260+00:00",
@@ -1684,6 +1675,24 @@
         "date": "2026-05-26T10:35:08.085155+00:00",
         "hash_strict": "1445204efa30",
         "hash_medium": "a9664f55dc76"
+      },
+      {
+        "title": "Stop Using LLMs Like Giant Problem\u00a0Solvers",
+        "date": "2026-05-26T14:16:25.143504+00:00",
+        "hash_strict": "3d412202f416",
+        "hash_medium": "3dd7a1b120d1"
+      },
+      {
+        "title": "Visual Debugging Tools for Machine Learning Workflows",
+        "date": "2026-05-26T14:16:25.143611+00:00",
+        "hash_strict": "66601d0c0b15",
+        "hash_medium": "66fb07b96433"
+      },
+      {
+        "title": "Top 7 Python Libraries for Large-Scale Data Processing",
+        "date": "2026-05-26T14:16:25.143696+00:00",
+        "hash_strict": "c729e9e746e0",
+        "hash_medium": "6ae027059c80"
       }
     ]
   }

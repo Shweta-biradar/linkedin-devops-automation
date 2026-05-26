@@ -1,10 +1,10 @@
 {
-  "total_posts": 306,
-  "posts_today": 2,
+  "total_posts": 307,
+  "posts_today": 3,
   "last_post_date": "2026-05-26",
   "formats_used": {
     "case_study": 32,
-    "deep_dive": 23,
+    "deep_dive": 24,
     "lessons": 43,
     "digest": 197,
     "lessons_learned": 2,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 261,
+    "towardsdatascience.com": 262,
     "www.snowflake.com": 93,
-    "kdnuggets.com": 59,
+    "kdnuggets.com": 61,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-27",
-      "time": "2026-03-27T07:43:58.578198+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-03-27",
       "time": "2026-03-27T12:04:03.482998+00:00",
@@ -1163,13 +1155,24 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-26",
+      "time": "2026-05-26T14:16:25.145772+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "kdnuggets.com"
+      ]
     }
   ],
-  "posts_created": 279,
-  "last_post_content": "\u26a1 Career-changing lessons.\nAnalytics experts reveal what sticks.\n\nTopic: Can AI Write Your Code?\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#BusinessIntelligence #SQL #Statistics #BITools #DataVisualization #Looker #Insights\n\n\u2753 What would you add to this list?\n\n#BITools #Airflow #Databricks #Insights #DBT #Reporting #MLOps",
-  "last_post_format": "lessons",
+  "posts_created": 280,
+  "last_post_content": "\u26a1 Focused learning for teams.\nIndustry leaders break down complex challenges.\n\n\ud83c\udfaf Stop Using LLMs Like Giant Problem\u00a0Solvers\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: How I turned 100 messy pdfs into structured insights by building a deterministic loop around agents The post Stop Using LLMs Like Giant Problem Solvers appeared first on...\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: Deployment frequency correlates with stability when done right\n\nHow do you balance deployment speed with safety?\n\n#MLOps #Reporting #Redshift #Databricks #Qlik #SQL #DataVisualization\n\n\u2753 Which takeaway resonates most for your team?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/stop-using-llms-like-giant-problem-solvers/\n\n#Alteryx #SQL #Tableau #Automation #DataVisualization #Analytics #SSRS",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-05-26T10:35:08.088100+00:00"
+  "last_post_timestamp": "2026-05-26T14:16:25.146982+00:00"
 }
