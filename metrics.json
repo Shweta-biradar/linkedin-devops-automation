@@ -1,12 +1,12 @@
 {
-  "total_posts": 309,
-  "posts_today": 2,
+  "total_posts": 310,
+  "posts_today": 3,
   "last_post_date": "2026-05-27",
   "formats_used": {
     "case_study": 32,
     "deep_dive": 24,
     "lessons": 44,
-    "digest": 198,
+    "digest": 199,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 265,
+    "towardsdatascience.com": 266,
     "www.snowflake.com": 93,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-28",
-      "time": "2026-03-28T07:30:12.970829+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-28",
       "time": "2026-03-28T11:51:39.370161+00:00",
@@ -1165,13 +1157,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-27",
+      "time": "2026-05-27T14:38:47.620034+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 282,
-  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nTech strategists decode the next wave of transformation.\n\nPlatform wins:\n1. Can AI Write Your Code?\nContext: What a recent study on ChatGPT, Python, R, and Stata tells us about AI-assisted coding for causal inference The post Can AI Write Your Code? appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/can-ai-write-your-code/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?\n\n#ETL #SQL #SAPHANA #PostgreSQL #Automation #BITools #MySQL",
+  "posts_created": 283,
+  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nStrategic highlights:\n1. They Requested It. I Built It. Nobody Ever Used It.\nContext: Why good data work gets ignored after delivery. The post They Requested It. I Built It. Nobody Ever Used It. appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?\n\n#Automation #BusinessIntelligence #SSIS #DataVisualization #Statistics #Looker #Alteryx",
   "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-27T10:38:23.058375+00:00"
+  "last_post_timestamp": "2026-05-27T14:38:47.621178+00:00"
 }

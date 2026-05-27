@@ -586,6 +586,7 @@
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
+    "https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/",
     "https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/",
     "https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/",
     "https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/",
@@ -1009,22 +1010,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7465350685220339712",
-    "last_posted_at_utc": "2026-05-27T10:38:23.055289+00:00",
+    "last_post_id": "urn:li:share:7465411186004598784",
+    "last_posted_at_utc": "2026-05-27T14:38:47.618062+00:00",
     "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "What\u2019s the Best Way to Brainwash an LLM?",
-        "date": "2026-05-13T13:37:35.021666+00:00",
-        "hash_strict": "38816c4185d2",
-        "hash_medium": "15ace940e214"
-      },
-      {
-        "title": "Building an Evaluation Harness for Production AI Agents: A 12-Metric Framework From 100+ Deployments",
-        "date": "2026-05-13T13:37:35.021778+00:00",
-        "hash_strict": "35f8bbc5cc40",
-        "hash_medium": "f4fd686db97c"
-      },
       {
         "title": "Retail Customer Analytics: Modern Customer 360",
         "date": "2026-05-14T06:38:44.615794+00:00",
@@ -1654,6 +1643,12 @@
         "date": "2026-05-27T10:38:23.055154+00:00",
         "hash_strict": "1445204efa30",
         "hash_medium": "a9664f55dc76"
+      },
+      {
+        "title": "They Requested It. I Built It. Nobody Ever Used It.",
+        "date": "2026-05-27T14:38:47.617945+00:00",
+        "hash_strict": "9b4373c35987",
+        "hash_medium": "3ad8c2caec02"
       }
     ]
   }
