@@ -9,6 +9,7 @@
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
     "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/",
     "https://aws.amazon.com/blogs/big-data/automate-deployment-of-data-and-ai-applications-with-amazon-sagemaker-unified-studio-ci-cd-cli/",
     "https://aws.amazon.com/blogs/big-data/automating-data-classification-in-amazon-sagemaker-catalog-using-an-ai-agent/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-amazon-redshift-lambda-user-defined-functions/",
@@ -560,6 +561,7 @@
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
     "https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/",
+    "https://towardsdatascience.com/the-ai-model-confidence-trap/",
     "https://towardsdatascience.com/the-basics-of-vibe-engineering/",
     "https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/",
     "https://towardsdatascience.com/the-complete-guide-to-ai-implementation-for-chief-data-ai-officers-in-2026/",
@@ -595,6 +597,7 @@
     "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
+    "https://towardsdatascience.com/what-is-a-data-agent/",
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
@@ -1006,46 +1009,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7465043167541714945",
-    "last_posted_at_utc": "2026-05-26T14:16:25.143775+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7465308480552263680",
+    "last_posted_at_utc": "2026-05-27T07:50:40.665732+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Power BI May 2026 Feature Summary",
-        "date": "2026-05-13T06:41:57.837260+00:00",
-        "hash_strict": "72e4ec1c0800",
-        "hash_medium": "f37492db6b9c"
-      },
-      {
-        "title": "Amazon Aurora DSQL connections: Drivers, strings, and best practices",
-        "date": "2026-05-13T06:41:57.837374+00:00",
-        "hash_strict": "07a4d612b0fb",
-        "hash_medium": "36c9283f1806"
-      },
-      {
-        "title": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication",
-        "date": "2026-05-13T06:41:57.837437+00:00",
-        "hash_strict": "f5b2e4aeba63",
-        "hash_medium": "2d7b82f15999"
-      },
-      {
-        "title": "Data Governance in Healthcare for Trustworthy AI",
-        "date": "2026-05-13T06:41:57.837479+00:00",
-        "hash_strict": "b3e8ff029797",
-        "hash_medium": "8e7ef7c22088"
-      },
-      {
-        "title": "Streamlined monitoring and debugging for Amazon EMR on EC2",
-        "date": "2026-05-13T06:41:57.837516+00:00",
-        "hash_strict": "4a7d0ca28c41",
-        "hash_medium": "fd628dcc10e1"
-      },
-      {
-        "title": "Detect and resolve HBase inconsistencies faster with AI on Amazon EMR",
-        "date": "2026-05-13T06:41:57.837554+00:00",
-        "hash_strict": "05b13dd2ca99",
-        "hash_medium": "746e6f3ed7e4"
-      },
       {
         "title": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
         "date": "2026-05-13T09:28:26.431515+00:00",
@@ -1693,6 +1660,24 @@
         "date": "2026-05-26T14:16:25.143696+00:00",
         "hash_strict": "c729e9e746e0",
         "hash_medium": "6ae027059c80"
+      },
+      {
+        "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
+        "date": "2026-05-27T07:50:40.665489+00:00",
+        "hash_strict": "1bb13fc975d3",
+        "hash_medium": "a3812ed1b515"
+      },
+      {
+        "title": "What Is a Data\u00a0Agent?",
+        "date": "2026-05-27T07:50:40.665607+00:00",
+        "hash_strict": "f13387804adb",
+        "hash_medium": "bada2a951f3d"
+      },
+      {
+        "title": "The AI Model Confidence Trap",
+        "date": "2026-05-27T07:50:40.665690+00:00",
+        "hash_strict": "2c51d93a27aa",
+        "hash_medium": "e45bac576889"
       }
     ]
   }
