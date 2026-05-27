@@ -1,12 +1,12 @@
 {
-  "total_posts": 308,
-  "posts_today": 1,
+  "total_posts": 309,
+  "posts_today": 2,
   "last_post_date": "2026-05-27",
   "formats_used": {
     "case_study": 32,
     "deep_dive": 24,
     "lessons": 44,
-    "digest": 197,
+    "digest": 198,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 264,
+    "towardsdatascience.com": 265,
     "www.snowflake.com": 93,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-28",
-      "time": "2026-03-28T05:13:27.292957+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "www.dataquest.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-28",
       "time": "2026-03-28T07:30:12.970829+00:00",
@@ -1167,14 +1157,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-27",
+      "time": "2026-05-27T10:38:23.057219+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 281,
-  "last_post_content": "\u26a1 Career-changing lessons.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Automate data discovery and centralized management with AWS Glue Data Catalog\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nWhat would you add to this list?\n\n#Cloud #CloudArchitecture #CloudNative #MySQL #BigQuery #SSIS #DataAnalyst\n\n\u2753 Which lesson resonates most with your team?\n\n#Cloud #CloudArchitecture #CloudNative #BusinessIntelligence #Reporting #Alteryx #DataAnalyst",
-  "last_post_format": "lessons",
+  "posts_created": 282,
+  "last_post_content": "\ud83e\udde9 Architecture patterns for scale and resilience.\nTech strategists decode the next wave of transformation.\n\nPlatform wins:\n1. Can AI Write Your Code?\nContext: What a recent study on ChatGPT, Python, R, and Stata tells us about AI-assisted coding for causal inference The post Can AI Write Your Code? appeared first on Towards Data...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/can-ai-write-your-code/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?\n\n#ETL #SQL #SAPHANA #PostgreSQL #Automation #BITools #MySQL",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-27T07:50:40.670238+00:00"
+  "last_post_timestamp": "2026-05-27T10:38:23.058375+00:00"
 }

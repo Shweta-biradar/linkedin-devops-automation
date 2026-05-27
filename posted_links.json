@@ -1009,40 +1009,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7465308480552263680",
-    "last_posted_at_utc": "2026-05-27T07:50:40.665732+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7465350685220339712",
+    "last_posted_at_utc": "2026-05-27T10:38:23.055289+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
-        "date": "2026-05-13T09:28:26.431515+00:00",
-        "hash_strict": "3e8cd52d6c26",
-        "hash_medium": "ade5f91f720d"
-      },
-      {
-        "title": "Proxy-Pointer Framework for Structure-Aware Enterprise Document Intelligence",
-        "date": "2026-05-13T09:28:26.431650+00:00",
-        "hash_strict": "69f9bb818e67",
-        "hash_medium": "73934c0e9efc"
-      },
-      {
-        "title": "From Vibe Coding to Spec-Driven Development",
-        "date": "2026-05-13T09:28:26.431738+00:00",
-        "hash_strict": "76395a90f56e",
-        "hash_medium": "a3d354a3d386"
-      },
-      {
-        "title": "AI agent backup protection for enterprise data",
-        "date": "2026-05-13T09:28:26.431824+00:00",
-        "hash_strict": "27c0cdf5a6b2",
-        "hash_medium": "7c9131c19481"
-      },
-      {
-        "title": "Hybrid Search and Re-Ranking in Production RAG",
-        "date": "2026-05-13T09:28:26.431895+00:00",
-        "hash_strict": "2e6663e9b127",
-        "hash_medium": "c2e175d8b4aa"
-      },
       {
         "title": "What\u2019s the Best Way to Brainwash an LLM?",
         "date": "2026-05-13T13:37:35.021666+00:00",
@@ -1678,6 +1648,12 @@
         "date": "2026-05-27T07:50:40.665690+00:00",
         "hash_strict": "2c51d93a27aa",
         "hash_medium": "e45bac576889"
+      },
+      {
+        "title": "Can AI Write Your\u00a0Code?",
+        "date": "2026-05-27T10:38:23.055154+00:00",
+        "hash_strict": "1445204efa30",
+        "hash_medium": "a9664f55dc76"
       }
     ]
   }
