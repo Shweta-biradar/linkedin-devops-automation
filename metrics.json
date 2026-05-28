@@ -1,11 +1,11 @@
 {
-  "total_posts": 311,
-  "posts_today": 1,
+  "total_posts": 312,
+  "posts_today": 2,
   "last_post_date": "2026-05-28",
   "formats_used": {
     "case_study": 33,
     "deep_dive": 24,
-    "lessons": 44,
+    "lessons": 45,
     "digest": 199,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 267,
+    "towardsdatascience.com": 268,
     "www.snowflake.com": 93,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-29",
-      "time": "2026-03-29T05:26:12.584969+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-29",
       "time": "2026-03-29T07:35:06.108301+00:00",
@@ -1170,14 +1161,21 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-28",
+      "time": "2026-05-28T10:40:39.839162+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 284,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Guide your Amazon Aurora MySQL migration with Kiro powers\n\n\u2192 Challenge: Today, we announce the Amazon Aurora MySQL power for Kiro. The power connects Kiro\u2019s AI agent to Aurora MySQL and pairs live database access with curated best-practice guidance.\n\u2192 Learning: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f Operational simplicity beats architectural elegance every time\n\u2611\ufe0f Track results and optimize\n\nHow do you keep learning while managing operational load?\n\n#Alteryx #MySQL #SSAS #Oracle #Qlik #Automation #BigQuery\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/\n\n#PostgreSQL #SAPHANA #SSIS #BusinessIntelligence #Tableau #MySQL #BigQuery",
-  "last_post_format": "case_study",
+  "posts_created": 285,
+  "last_post_content": "\ud83d\udca1 What production taught us.\nAnalytics experts reveal what sticks.\n\nTopic: How to Effectively Run Many Claude Code Sessions in Parallel\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#ETL #PostgreSQL #Statistics #SQL #Databricks #BigQuery #DataWarehouse\n\n\u2753 Which lesson resonates most with your team?\n\n#Oracle #PostgreSQL #Tableau #Automation #Python #PowerBI #Reporting",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-28T07:09:13.102987+00:00"
+  "last_post_timestamp": "2026-05-28T10:40:39.840369+00:00"
 }
