@@ -1,11 +1,11 @@
 {
-  "total_posts": 312,
-  "posts_today": 2,
+  "total_posts": 313,
+  "posts_today": 3,
   "last_post_date": "2026-05-28",
   "formats_used": {
     "case_study": 33,
     "deep_dive": 24,
-    "lessons": 45,
+    "lessons": 46,
     "digest": 199,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 268,
+    "towardsdatascience.com": 270,
     "www.snowflake.com": 93,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-29",
-      "time": "2026-03-29T07:35:06.108301+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-03-29",
       "time": "2026-03-29T11:52:20.056495+00:00",
@@ -1169,13 +1161,22 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-28",
+      "time": "2026-05-28T14:49:46.454432+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 285,
-  "last_post_content": "\ud83d\udca1 What production taught us.\nAnalytics experts reveal what sticks.\n\nTopic: How to Effectively Run Many Claude Code Sessions in Parallel\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#ETL #PostgreSQL #Statistics #SQL #Databricks #BigQuery #DataWarehouse\n\n\u2753 Which lesson resonates most with your team?\n\n#Oracle #PostgreSQL #Tableau #Automation #Python #PowerBI #Reporting",
+  "posts_created": 286,
+  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Why AI Still Can\u2019t Solve Your Real Mathematical Optimization Problem\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Airflow #BusinessIntelligence #Snowflake #Dashboard #Databricks #SSRS #Python\n\n\u2753 How do you apply these lessons?\n\n#Analytics #AdvancedAnalytics #SSIS #Reporting #SSAS #BusinessIntelligence #Looker",
   "last_post_format": "lessons",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-28T10:40:39.840369+00:00"
+  "last_post_timestamp": "2026-05-28T14:49:46.455571+00:00"
 }

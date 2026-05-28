@@ -421,6 +421,7 @@
     "https://towardsdatascience.com/cspnet-paper-walkthrough-just-better-no-tradeoff/",
     "https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/",
     "https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/",
+    "https://towardsdatascience.com/diffujudge-av-a-diffusion-inspired-framework-for-calibrated-av-video-evaluation/",
     "https://towardsdatascience.com/discrete-time-to-event-modeling-predicting-when-something-will-happen/",
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/",
@@ -614,6 +615,7 @@
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
+    "https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
     "https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/",
@@ -1017,16 +1019,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7465713646732578818",
-    "last_posted_at_utc": "2026-05-28T10:40:39.837075+00:00",
+    "last_post_id": "urn:li:share:7465776337434103809",
+    "last_posted_at_utc": "2026-05-28T14:49:46.452605+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "How to Write Robust Code with Claude Code",
-        "date": "2026-05-14T13:15:46.599261+00:00",
-        "hash_strict": "0c555b64c766",
-        "hash_medium": "7009c78b565d"
-      },
       {
         "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
         "date": "2026-05-15T06:50:01.331879+00:00",
@@ -1668,6 +1664,18 @@
         "date": "2026-05-28T10:40:39.836962+00:00",
         "hash_strict": "7df6fb6ca913",
         "hash_medium": "41f21c4aed85"
+      },
+      {
+        "title": "Why AI Still Can\u2019t Solve Your Real Mathematical Optimization Problem",
+        "date": "2026-05-28T14:49:46.452379+00:00",
+        "hash_strict": "1d3152aeb579",
+        "hash_medium": "53d07af637b3"
+      },
+      {
+        "title": "DiffuJudge-AV: A Diffusion-Inspired Framework for Calibrated AV Video Evaluation",
+        "date": "2026-05-28T14:49:46.452515+00:00",
+        "hash_strict": "d2b5856fe4ad",
+        "hash_medium": "810e48bde103"
       }
     ]
   }
