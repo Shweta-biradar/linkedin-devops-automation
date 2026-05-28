@@ -1,9 +1,9 @@
 {
-  "total_posts": 310,
-  "posts_today": 3,
-  "last_post_date": "2026-05-27",
+  "total_posts": 311,
+  "posts_today": 1,
+  "last_post_date": "2026-05-28",
   "formats_used": {
-    "case_study": 32,
+    "case_study": 33,
     "deep_dive": 24,
     "lessons": 44,
     "digest": 199,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 100,
+    "aws.amazon.com": 105,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 266,
+    "towardsdatascience.com": 267,
     "www.snowflake.com": 93,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-28",
-      "time": "2026-03-28T11:51:39.370161+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-29",
       "time": "2026-03-29T05:26:12.584969+00:00",
@@ -1165,13 +1157,27 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-28",
+      "time": "2026-05-28T07:09:13.101942+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 283,
-  "last_post_content": "\ud83e\udde0 Leadership lessons from the field.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nStrategic highlights:\n1. They Requested It. I Built It. Nobody Ever Used It.\nContext: Why good data work gets ignored after delivery. The post They Requested It. I Built It. Nobody Ever Used It. appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat did we miss?\n\n#Automation #BusinessIntelligence #SSIS #DataVisualization #Statistics #Looker #Alteryx",
-  "last_post_format": "digest",
+  "posts_created": 284,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Guide your Amazon Aurora MySQL migration with Kiro powers\n\n\u2192 Challenge: Today, we announce the Amazon Aurora MySQL power for Kiro. The power connects Kiro\u2019s AI agent to Aurora MySQL and pairs live database access with curated best-practice guidance.\n\u2192 Learning: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f Operational simplicity beats architectural elegance every time\n\u2611\ufe0f Track results and optimize\n\nHow do you keep learning while managing operational load?\n\n#Alteryx #MySQL #SSAS #Oracle #Qlik #Automation #BigQuery\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/\n\n#PostgreSQL #SAPHANA #SSIS #BusinessIntelligence #Tableau #MySQL #BigQuery",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-27T14:38:47.621178+00:00"
+  "last_post_timestamp": "2026-05-28T07:09:13.102987+00:00"
 }
