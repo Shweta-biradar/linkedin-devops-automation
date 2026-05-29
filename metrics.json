@@ -1,9 +1,9 @@
 {
-  "total_posts": 313,
-  "posts_today": 3,
-  "last_post_date": "2026-05-28",
+  "total_posts": 314,
+  "posts_today": 1,
+  "last_post_date": "2026-05-29",
   "formats_used": {
-    "case_study": 33,
+    "case_study": 34,
     "deep_dive": 24,
     "lessons": 46,
     "digest": 199,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 270,
-    "www.snowflake.com": 93,
+    "towardsdatascience.com": 272,
+    "www.snowflake.com": 95,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-29",
-      "time": "2026-03-29T11:52:20.056495+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-03-30",
       "time": "2026-03-30T05:41:54.034430+00:00",
@@ -1170,13 +1162,25 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-29",
+      "time": "2026-05-29T07:10:35.908838+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 286,
-  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Why AI Still Can\u2019t Solve Your Real Mathematical Optimization Problem\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Airflow #BusinessIntelligence #Snowflake #Dashboard #Databricks #SSRS #Python\n\n\u2753 How do you apply these lessons?\n\n#Analytics #AdvancedAnalytics #SSIS #Reporting #SSAS #BusinessIntelligence #Looker",
-  "last_post_format": "lessons",
+  "posts_created": 287,
+  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udd0d Breakdown: EmoNet: Speaker-Aware Transformers for Emotion Recognition \u2014 and What I\u2019d Build Differently in 2026\n\n\ud83d\udcca Data: A retrospective on my MS thesis, the leaderboard it placed on, and the LLM shift that has reshaped the field since. The post EmoNet: Speaker-Aware Transformers for Emotion...\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Pipeline as code prevents configuration drift and bus factor issues\n\u2192 Step 2: Feature flags decouple deployment risk from feature risk\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you handle deployment rollbacks at scale?\n\n#Python #MySQL #Looker #SSAS #Redshift #BITools #Databricks\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcda Key resource: https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/\n\n#PowerBI #BusinessIntelligence #PostgreSQL #BigQuery #Qlik #ETL #SQL",
+  "last_post_format": "case_study",
   "last_post_sources": [
+    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-28T14:49:46.455571+00:00"
+  "last_post_timestamp": "2026-05-29T07:10:35.910038+00:00"
 }

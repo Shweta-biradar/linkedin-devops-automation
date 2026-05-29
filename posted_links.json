@@ -426,6 +426,7 @@
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
+    "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
     "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
@@ -580,6 +581,7 @@
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
     "https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/",
+    "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
     "https://towardsdatascience.com/the-joy-of-typing/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/",
@@ -823,6 +825,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/declarative-snowflake-pipelines-dcm-projects-cortex-code",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/finance-variance-analysis-workflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/give-to-gain-women-in-tech-international-womens-day",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/gsa-agreement-ai-driven-government",
@@ -842,6 +845,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-2026-predictions-webinar-recap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-customer-analytics-customer-360",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-like-for-like-growth-ai-data-trends-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/roi-generative-agentic-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-zero-copy-integration-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/scale-enterprise-agents",
@@ -1019,46 +1023,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7465776337434103809",
-    "last_posted_at_utc": "2026-05-28T14:49:46.452605+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7466023169766920192",
+    "last_posted_at_utc": "2026-05-29T07:10:35.906823+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
-        "date": "2026-05-15T06:50:01.331879+00:00",
-        "hash_strict": "b4d8ecaab9d8",
-        "hash_medium": "58787bdb575d"
-      },
-      {
-        "title": "Cortex Code for FP&A: Faster Insight",
-        "date": "2026-05-15T06:50:01.331992+00:00",
-        "hash_strict": "94614fae8b59",
-        "hash_medium": "61713e95323d"
-      },
-      {
-        "title": "The Counterintuitive Networking Decisions Behind OpenAI\u2019s 131,000-GPU Training Fabric",
-        "date": "2026-05-15T06:50:01.332085+00:00",
-        "hash_strict": "be7d544cbe41",
-        "hash_medium": "c495e9ed037e"
-      },
-      {
-        "title": "The Next AI Bottleneck Isn\u2019t the Model: It\u2019s the Inference System",
-        "date": "2026-05-15T06:50:01.332151+00:00",
-        "hash_strict": "d99fa2805fc3",
-        "hash_medium": "fdd00ddb7db0"
-      },
-      {
-        "title": "Time-Series Feature Engineering with Python Itertools",
-        "date": "2026-05-15T06:50:01.332206+00:00",
-        "hash_strict": "2dd218c6ee48",
-        "hash_medium": "9be7d916c7a6"
-      },
-      {
-        "title": "I Let CodeSpeak Take Over My Repository",
-        "date": "2026-05-15T06:50:01.332255+00:00",
-        "hash_strict": "f9b54d93fdb5",
-        "hash_medium": "7e33d8a6d955"
-      },
       {
         "title": "Semantic Layer in Financial Services AI Risk",
         "date": "2026-05-15T09:29:39.691489+00:00",
@@ -1676,6 +1644,30 @@
         "date": "2026-05-28T14:49:46.452515+00:00",
         "hash_strict": "d2b5856fe4ad",
         "hash_medium": "810e48bde103"
+      },
+      {
+        "title": "Retail Predictive Analytics for Like-for-Like Growth",
+        "date": "2026-05-29T07:10:35.906517+00:00",
+        "hash_strict": "e14bc4413210",
+        "hash_medium": "ec8d3eb7a440"
+      },
+      {
+        "title": "How We Used Cortex Code to Turn Finance Variance Analysis into a Live, Intelligent Workflow",
+        "date": "2026-05-29T07:10:35.906615+00:00",
+        "hash_strict": "c8fd942355ca",
+        "hash_medium": "0ecd5bf8ee21"
+      },
+      {
+        "title": "The Infrastructure Behind Making Local LLM Agents Actually Useful",
+        "date": "2026-05-29T07:10:35.906696+00:00",
+        "hash_strict": "65f5c1142643",
+        "hash_medium": "7eea426ec156"
+      },
+      {
+        "title": "EmoNet: Speaker-Aware Transformers for Emotion Recognition \u2014 and What I\u2019d Build Differently in 2026",
+        "date": "2026-05-29T07:10:35.906760+00:00",
+        "hash_strict": "4381b9155ceb",
+        "hash_medium": "e2afd31b9f84"
       }
     ]
   }
