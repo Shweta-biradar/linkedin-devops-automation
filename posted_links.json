@@ -1023,16 +1023,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466023169766920192",
-    "last_posted_at_utc": "2026-05-29T07:10:35.906823+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7466073346385043458",
+    "last_posted_at_utc": "2026-05-29T10:29:58.932496+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Semantic Layer in Financial Services AI Risk",
-        "date": "2026-05-15T09:29:39.691489+00:00",
-        "hash_strict": "b7da1c8e3c8d",
-        "hash_medium": "70a874d15193"
-      },
       {
         "title": "5 Must-Know Python Concepts",
         "date": "2026-05-15T13:15:07.653677+00:00",
@@ -1668,6 +1662,12 @@
         "date": "2026-05-29T07:10:35.906760+00:00",
         "hash_strict": "4381b9155ceb",
         "hash_medium": "e2afd31b9f84"
+      },
+      {
+        "title": "Can AI Write Your\u00a0Code?",
+        "date": "2026-05-29T10:29:58.932380+00:00",
+        "hash_strict": "1445204efa30",
+        "hash_medium": "a9664f55dc76"
       }
     ]
   }

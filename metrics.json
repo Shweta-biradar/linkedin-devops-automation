@@ -1,11 +1,11 @@
 {
-  "total_posts": 314,
-  "posts_today": 1,
+  "total_posts": 315,
+  "posts_today": 2,
   "last_post_date": "2026-05-29",
   "formats_used": {
     "case_study": 34,
     "deep_dive": 24,
-    "lessons": 46,
+    "lessons": 47,
     "digest": 199,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 272,
+    "towardsdatascience.com": 273,
     "www.snowflake.com": 95,
     "kdnuggets.com": 61,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-30",
-      "time": "2026-03-30T05:41:54.034430+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-30",
       "time": "2026-03-30T08:10:03.771421+00:00",
@@ -1173,14 +1164,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-29",
+      "time": "2026-05-29T10:29:58.934474+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 287,
-  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udd0d Breakdown: EmoNet: Speaker-Aware Transformers for Emotion Recognition \u2014 and What I\u2019d Build Differently in 2026\n\n\ud83d\udcca Data: A retrospective on my MS thesis, the leaderboard it placed on, and the LLM shift that has reshaped the field since. The post EmoNet: Speaker-Aware Transformers for Emotion...\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Pipeline as code prevents configuration drift and bus factor issues\n\u2192 Step 2: Feature flags decouple deployment risk from feature risk\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you handle deployment rollbacks at scale?\n\n#Python #MySQL #Looker #SSAS #Redshift #BITools #Databricks\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcda Key resource: https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/\n\n#PowerBI #BusinessIntelligence #PostgreSQL #BigQuery #Qlik #ETL #SQL",
-  "last_post_format": "case_study",
+  "posts_created": 288,
+  "last_post_content": "\ud83d\udca1 What production taught us.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Can AI Write Your Code?\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#DataWarehouse #SAPHANA #Automation #SSIS #Insights #DBT #Alteryx\n\n\u2753 What would you add to this list?\n\n#PowerBI #BusinessIntelligence #DBT #Redshift #BITools #BigQuery #Tableau",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-29T07:10:35.910038+00:00"
+  "last_post_timestamp": "2026-05-29T10:29:58.935699+00:00"
 }
