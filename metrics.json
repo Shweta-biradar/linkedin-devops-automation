@@ -1,11 +1,11 @@
 {
-  "total_posts": 315,
-  "posts_today": 2,
+  "total_posts": 316,
+  "posts_today": 3,
   "last_post_date": "2026-05-29",
   "formats_used": {
     "case_study": 34,
     "deep_dive": 24,
-    "lessons": 47,
+    "lessons": 48,
     "digest": 199,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 273,
+    "towardsdatascience.com": 275,
     "www.snowflake.com": 95,
-    "kdnuggets.com": 61,
+    "kdnuggets.com": 62,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-30",
-      "time": "2026-03-30T08:10:03.771421+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-30",
       "time": "2026-03-30T12:12:13.023455+00:00",
@@ -1172,13 +1164,24 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-29",
+      "time": "2026-05-29T14:19:52.268793+00:00",
+      "format": "lessons",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 288,
-  "last_post_content": "\ud83d\udca1 What production taught us.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Can AI Write Your Code?\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#DataWarehouse #SAPHANA #Automation #SSIS #Insights #DBT #Alteryx\n\n\u2753 What would you add to this list?\n\n#PowerBI #BusinessIntelligence #DBT #Redshift #BITools #BigQuery #Tableau",
+  "posts_created": 289,
+  "last_post_content": "\ud83d\udca1 What production taught us.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: The \u2018Entry-Level\u2019 Gatekeeper: Auditing Job Descriptions with Textstat\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#Statistics #Insights #SQL #DataVisualization #Alteryx #BusinessIntelligence #AdvancedAnalytics\n\n\u2753 What would you add to this list?\n\n#MySQL #DBT #PostgreSQL #Reporting #Airflow #Statistics #Insights",
   "last_post_format": "lessons",
   "last_post_sources": [
+    "kdnuggets.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-29T10:29:58.935699+00:00"
+  "last_post_timestamp": "2026-05-29T14:19:52.270014+00:00"
 }

@@ -432,8 +432,10 @@
     "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/explainable-ai-in-production-a-neuro-symbolic-model-for-real-time-fraud-detection/",
+    "https://towardsdatascience.com/explaining-lineage-in-dax/",
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
     "https://towardsdatascience.com/exploring-patterns-of-survival-from-the-titanic-dataset/",
+    "https://towardsdatascience.com/five-questions-about-chronos-2-the-time-series-foundation-model/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/",
@@ -781,6 +783,7 @@
     "https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation",
     "https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore",
     "https://www.kdnuggets.com/the-complete-hugging-face-primer-for-2026",
+    "https://www.kdnuggets.com/the-entry-level-gatekeeper-auditing-job-descriptions-with-textstat",
     "https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards",
     "https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore",
     "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
@@ -1023,22 +1026,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466073346385043458",
-    "last_posted_at_utc": "2026-05-29T10:29:58.932496+00:00",
+    "last_post_id": "urn:li:share:7466131199904755713",
+    "last_posted_at_utc": "2026-05-29T14:19:52.266752+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "5 Must-Know Python Concepts",
-        "date": "2026-05-15T13:15:07.653677+00:00",
-        "hash_strict": "d6a615047885",
-        "hash_medium": "b454c34b9890"
-      },
-      {
-        "title": "Stop Evaluating LLMs with \u201cVibe Checks\u201d",
-        "date": "2026-05-15T13:15:07.653809+00:00",
-        "hash_strict": "4cc9ac9b590c",
-        "hash_medium": "96d5140912e5"
-      },
       {
         "title": "Upgrade strategies for Amazon RDS for MySQL 8.0 to 8.4",
         "date": "2026-05-16T06:15:16.311360+00:00",
@@ -1668,6 +1659,24 @@
         "date": "2026-05-29T10:29:58.932380+00:00",
         "hash_strict": "1445204efa30",
         "hash_medium": "a9664f55dc76"
+      },
+      {
+        "title": "The \u2018Entry-Level\u2019 Gatekeeper: Auditing Job Descriptions with Textstat",
+        "date": "2026-05-29T14:19:52.266492+00:00",
+        "hash_strict": "23120bfc0260",
+        "hash_medium": "d9f4a93e1533"
+      },
+      {
+        "title": "Five Questions About Chronos-2, the Time Series Foundation Model",
+        "date": "2026-05-29T14:19:52.266618+00:00",
+        "hash_strict": "867b6de1f759",
+        "hash_medium": "7d861606de94"
+      },
+      {
+        "title": "Explaining Lineage in DAX",
+        "date": "2026-05-29T14:19:52.266703+00:00",
+        "hash_strict": "b9684cb757ce",
+        "hash_medium": "6ea516586c14"
       }
     ]
   }
