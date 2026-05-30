@@ -1,11 +1,11 @@
 {
-  "total_posts": 317,
-  "posts_today": 1,
+  "total_posts": 318,
+  "posts_today": 2,
   "last_post_date": "2026-05-30",
   "formats_used": {
     "case_study": 34,
     "deep_dive": 24,
-    "lessons": 48,
+    "lessons": 49,
     "digest": 200,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 105,
+    "aws.amazon.com": 106,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-31",
-      "time": "2026-03-31T05:26:37.952404+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-03-31",
       "time": "2026-03-31T07:54:21.754736+00:00",
@@ -1175,14 +1165,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-30",
+      "time": "2026-05-30T09:03:05.682004+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 290,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nAI innovators map the future of intelligent systems.\n\nEssential reads:\n1. Python Function Calling: How to Give LLMs Access to Real-World Tools\nContext: ...\nYou've probably noticed that LLMs are remarkably good at reasoning \u2014 but on their own, they can't check today's weather, query your database, or look up a customer record. They generate text. Func\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/python-function-calling/\n\n2. RAG Is Burning Money \u2014 I Built a Cost Control Layer to Fix It\nContext: Most RAG systems are optimized for answer quality, not cost\u2014and that blind spot gets expensive fast. In this article, I break down a production-ready cost control layer...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/\n\n3. Baseline Enterprise RAG, From PDF to Highlighted Answer\nContext: ...\nEnterprise Document Intelligence [Vol. 1 #1] The smallest version of RAG that actually works, on a real PDF, with grounded answers and the source lines highlighted. The post Baseline Enterprise RA\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/\n\n4. Why Gradient Descent Became Stochastic\nContext: A step-by-step journey from calculus-based optimization to Stochastic Gradient Descent The post Why Gradient Descent Became Stochastic appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-gradient-descent-became-stochastic/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?\n\n#PowerBI #Reporting #ETL #MySQL #DBT #Python #SSRS",
-  "last_post_format": "digest",
+  "posts_created": 291,
+  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nStrategic thinkers highlight recurring patterns.\n\nTopic: How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nShare your hard-won wisdom below.\n\n#Statistics #SQL #MLOps #Reporting #PostgreSQL #BigQuery #Dashboard\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Airflow #BITools #Python #Reporting #Looker #PostgreSQL #Oracle",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "www.dataquest.io",
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-30T06:38:27.937595+00:00"
+  "last_post_timestamp": "2026-05-30T09:03:05.683215+00:00"
 }
