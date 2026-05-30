@@ -1030,16 +1030,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466413868458643457",
-    "last_posted_at_utc": "2026-05-30T09:03:05.679989+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7466470619061161984",
+    "last_posted_at_utc": "2026-05-30T12:48:36.083960+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan",
-        "date": "2026-05-16T12:15:12.529731+00:00",
-        "hash_strict": "d023ab7399bb",
-        "hash_medium": "1f937a4c9062"
-      },
       {
         "title": "From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap",
         "date": "2026-05-17T06:37:08.991006+00:00",
@@ -1663,6 +1657,12 @@
         "date": "2026-05-30T09:03:05.679883+00:00",
         "hash_strict": "1df57a2f294a",
         "hash_medium": "9eac1f8247e3"
+      },
+      {
+        "title": "Stop Using LLMs Like Giant Problem\u00a0Solvers",
+        "date": "2026-05-30T12:48:36.083859+00:00",
+        "hash_strict": "3d412202f416",
+        "hash_medium": "3dd7a1b120d1"
       }
     ]
   }

@@ -1,10 +1,10 @@
 {
-  "total_posts": 318,
-  "posts_today": 2,
+  "total_posts": 319,
+  "posts_today": 3,
   "last_post_date": "2026-05-30",
   "formats_used": {
     "case_study": 34,
-    "deep_dive": 24,
+    "deep_dive": 25,
     "lessons": 49,
     "digest": 200,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 278,
+    "towardsdatascience.com": 279,
     "www.snowflake.com": 95,
     "kdnuggets.com": 62,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-31",
-      "time": "2026-03-31T07:54:21.754736+00:00",
-      "format": "digest",
-      "sources": [
-        "www.dataquest.io"
-      ]
-    },
     {
       "date": "2026-03-31",
       "time": "2026-03-31T12:08:40.848699+00:00",
@@ -1173,13 +1165,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-30",
+      "time": "2026-05-30T12:48:36.086013+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 291,
-  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nStrategic thinkers highlight recurring patterns.\n\nTopic: How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nShare your hard-won wisdom below.\n\n#Statistics #SQL #MLOps #Reporting #PostgreSQL #BigQuery #Dashboard\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Airflow #BITools #Python #Reporting #Looker #PostgreSQL #Oracle",
-  "last_post_format": "lessons",
+  "posts_created": 292,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: Stop Using LLMs Like Giant Problem\u00a0Solvers\n\nKey points:\n\u2022 How I turned 100 messy pdfs into structured insights by building a deterministic loop around agents The post Stop Using LLMs Like Giant Problem Solvers appeared first on...\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Pipeline as code prevents configuration drift and bus factor issues\n\u2022 Progressive delivery beats blue-green for complex systems\n\nWhat CI/CD bottleneck slows your team down most?\n\n#DataWarehouse #Alteryx #PostgreSQL #BITools #Airflow #Tableau #Redshift\n\n\u2753 How would you apply this insight?\n\n#MLOps #Redshift #BusinessIntelligence #SQL #DBT #ETL #Airflow",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-30T09:03:05.683215+00:00"
+  "last_post_timestamp": "2026-05-30T12:48:36.087209+00:00"
 }
