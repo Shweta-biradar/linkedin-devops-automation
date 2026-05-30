@@ -1,12 +1,12 @@
 {
-  "total_posts": 316,
-  "posts_today": 3,
-  "last_post_date": "2026-05-29",
+  "total_posts": 317,
+  "posts_today": 1,
+  "last_post_date": "2026-05-30",
   "formats_used": {
     "case_study": 34,
     "deep_dive": 24,
     "lessons": 48,
-    "digest": 199,
+    "digest": 200,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,14 +40,14 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 275,
+    "towardsdatascience.com": 278,
     "www.snowflake.com": 95,
     "kdnuggets.com": 62,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
     "www.dbt.com": 10,
-    "www.dataquest.io": 16,
+    "www.dataquest.io": 17,
     "www.udacity.com": 1
   },
   "errors": [
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-03-30",
-      "time": "2026-03-30T12:12:13.023455+00:00",
-      "format": "digest",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-03-31",
       "time": "2026-03-31T05:26:37.952404+00:00",
@@ -1174,14 +1164,25 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-30",
+      "time": "2026-05-30T06:38:27.936410+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 289,
-  "last_post_content": "\ud83d\udca1 What production taught us.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: The \u2018Entry-Level\u2019 Gatekeeper: Auditing Job Descriptions with Textstat\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#Statistics #Insights #SQL #DataVisualization #Alteryx #BusinessIntelligence #AdvancedAnalytics\n\n\u2753 What would you add to this list?\n\n#MySQL #DBT #PostgreSQL #Reporting #Airflow #Statistics #Insights",
-  "last_post_format": "lessons",
+  "posts_created": 290,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nAI innovators map the future of intelligent systems.\n\nEssential reads:\n1. Python Function Calling: How to Give LLMs Access to Real-World Tools\nContext: ...\nYou've probably noticed that LLMs are remarkably good at reasoning \u2014 but on their own, they can't check today's weather, query your database, or look up a customer record. They generate text. Func\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/python-function-calling/\n\n2. RAG Is Burning Money \u2014 I Built a Cost Control Layer to Fix It\nContext: Most RAG systems are optimized for answer quality, not cost\u2014and that blind spot gets expensive fast. In this article, I break down a production-ready cost control layer...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/\n\n3. Baseline Enterprise RAG, From PDF to Highlighted Answer\nContext: ...\nEnterprise Document Intelligence [Vol. 1 #1] The smallest version of RAG that actually works, on a real PDF, with grounded answers and the source lines highlighted. The post Baseline Enterprise RA\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/\n\n4. Why Gradient Descent Became Stochastic\nContext: A step-by-step journey from calculus-based optimization to Stochastic Gradient Descent The post Why Gradient Descent Became Stochastic appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-gradient-descent-became-stochastic/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?\n\n#PowerBI #Reporting #ETL #MySQL #DBT #Python #SSRS",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
+    "www.dataquest.io",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-29T14:19:52.270014+00:00"
+  "last_post_timestamp": "2026-05-30T06:38:27.937595+00:00"
 }

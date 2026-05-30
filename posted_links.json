@@ -387,6 +387,7 @@
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
+    "https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/",
     "https://towardsdatascience.com/batch-or-stream-the-ethernal-data-processing-dilemma/",
     "https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/",
     "https://towardsdatascience.com/benders-decomposition-101/",
@@ -546,6 +547,7 @@
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
     "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
     "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
+    "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
@@ -622,6 +624,7 @@
     "https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
+    "https://towardsdatascience.com/why-gradient-descent-became-stochastic/",
     "https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
@@ -686,6 +689,7 @@
     "https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
     "https://www.dataquest.io/blog/power-bi-tutorial/",
+    "https://www.dataquest.io/blog/python-function-calling/",
     "https://www.dataquest.io/blog/python-interview-questions-and-answers/",
     "https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/",
     "https://www.docker.com/blog/2025-recap-the-year-software-development-changed-shape/",
@@ -1026,46 +1030,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466131199904755713",
-    "last_posted_at_utc": "2026-05-29T14:19:52.266752+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7466377470636658688",
+    "last_posted_at_utc": "2026-05-30T06:38:27.934458+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Upgrade strategies for Amazon RDS for MySQL 8.0 to 8.4",
-        "date": "2026-05-16T06:15:16.311360+00:00",
-        "hash_strict": "ec1c01154151",
-        "hash_medium": "06f0da2796de"
-      },
-      {
-        "title": "Best practices for upgrading Amazon RDS for MySQL 8.0 to 8.4 with prechecks, Blue/Green, and rollback",
-        "date": "2026-05-16T06:15:16.311452+00:00",
-        "hash_strict": "b08ddd12a80b",
-        "hash_medium": "9652e2ef543b"
-      },
-      {
-        "title": "Getting started with Change Data Capture in Amazon Aurora DSQL",
-        "date": "2026-05-16T06:15:16.311552+00:00",
-        "hash_strict": "595f3ef27074",
-        "hash_medium": "1d3c0ee6b1f3"
-      },
-      {
-        "title": "Why My Coding Assistant Started Replying in Korean When I Typed Chinese",
-        "date": "2026-05-16T06:15:16.311624+00:00",
-        "hash_strict": "7ebf416131c5",
-        "hash_medium": "545ae1577daf"
-      },
-      {
-        "title": "How HotelTrader cut inter-AZ cost 95% and latency by 49% with Valkey GLIDE on Amazon ElastiCache",
-        "date": "2026-05-16T06:15:16.311676+00:00",
-        "hash_strict": "ef0e4df5171b",
-        "hash_medium": "6f215e7da917"
-      },
-      {
-        "title": "Proxy-Pointer RAG \u2014 Structure-Aware Document Comparison at Enterprise Scale",
-        "date": "2026-05-16T06:15:16.311727+00:00",
-        "hash_strict": "ed884476e3cf",
-        "hash_medium": "ba4a245042ae"
-      },
       {
         "title": "How I Continually Improve My Claude Code",
         "date": "2026-05-16T08:26:25.326260+00:00",
@@ -1677,6 +1645,30 @@
         "date": "2026-05-29T14:19:52.266703+00:00",
         "hash_strict": "b9684cb757ce",
         "hash_medium": "6ea516586c14"
+      },
+      {
+        "title": "Python Function Calling: How to Give LLMs Access to Real-World Tools",
+        "date": "2026-05-30T06:38:27.934154+00:00",
+        "hash_strict": "b72eb8ca5530",
+        "hash_medium": "73fa234ac4a6"
+      },
+      {
+        "title": "Why Gradient Descent Became Stochastic",
+        "date": "2026-05-30T06:38:27.934270+00:00",
+        "hash_strict": "19378b50a979",
+        "hash_medium": "45dabd40b5ae"
+      },
+      {
+        "title": "RAG Is Burning Money \u2014 I Built a Cost Control Layer to Fix It",
+        "date": "2026-05-30T06:38:27.934347+00:00",
+        "hash_strict": "fdb46bb1cd77",
+        "hash_medium": "ac7f8337f16e"
+      },
+      {
+        "title": "Baseline Enterprise RAG, From PDF to Highlighted Answer",
+        "date": "2026-05-30T06:38:27.934415+00:00",
+        "hash_strict": "673db43b083c",
+        "hash_medium": "4bc13ce0d1a5"
       }
     ]
   }
