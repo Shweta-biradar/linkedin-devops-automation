@@ -1,9 +1,9 @@
 {
-  "total_posts": 320,
-  "posts_today": 1,
+  "total_posts": 321,
+  "posts_today": 2,
   "last_post_date": "2026-05-31",
   "formats_used": {
-    "case_study": 34,
+    "case_study": 35,
     "deep_dive": 25,
     "lessons": 50,
     "digest": 200,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 106,
+    "aws.amazon.com": 107,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-01",
-      "time": "2026-05-01T10:37:10.137158+00:00",
-      "format": "career_advice",
-      "sources": [
-        "growth_plan"
-      ]
-    },
     {
       "date": "2026-05-01",
       "time": "2026-05-01T12:13:51.594791+00:00",
@@ -1175,13 +1167,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-05-31",
+      "time": "2026-05-31T09:32:39.748034+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 293,
-  "last_post_content": "\u26a1 Career-changing lessons.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#ETL #Insights #DataAnalyst #BigQuery #SSIS #Alteryx #SQL\n\n\u2753 How do you apply these lessons?\n\n#BigQuery #Analytics #Python #ETL #CloudData #Airflow #Qlik",
-  "last_post_format": "lessons",
+  "posts_created": 294,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nStrategic thinkers analyze production outcomes.\n\n\u23f1\ufe0f Timeline: Guide your Amazon Aurora MySQL migration with Kiro powers\n\n\u2192 Challenge: Today, we announce the Amazon Aurora MySQL power for Kiro. The power connects Kiro\u2019s AI agent to Aurora MySQL and pairs live database access with curated best-practice guidance.\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nHow do you balance technical debt with new feature development?\n\n#Analytics #BigQuery #AdvancedAnalytics #Snowflake #DBT #Redshift #BITools\n\n\u2753 How would you adapt this for your team?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/\n\n#ETL #Oracle #Analytics #SSIS #AdvancedAnalytics #Insights #Looker",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-31T07:13:18.100467+00:00"
+  "last_post_timestamp": "2026-05-31T09:32:39.749199+00:00"
 }

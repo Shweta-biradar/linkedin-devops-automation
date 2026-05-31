@@ -1033,16 +1033,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466748625784573952",
-    "last_posted_at_utc": "2026-05-31T07:13:18.097151+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7466783697069977600",
+    "last_posted_at_utc": "2026-05-31T09:32:39.746140+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Upgrade strategies for Amazon RDS for MySQL 8.0 to 8.4",
-        "date": "2026-05-17T08:37:50.553701+00:00",
-        "hash_strict": "ec1c01154151",
-        "hash_medium": "06f0da2796de"
-      },
       {
         "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
         "date": "2026-05-17T12:12:53.629355+00:00",
@@ -1672,6 +1666,12 @@
         "date": "2026-05-31T07:13:18.097084+00:00",
         "hash_strict": "13d1a1a2c3cd",
         "hash_medium": "e92f0b57b855"
+      },
+      {
+        "title": "Guide your Amazon Aurora MySQL migration with Kiro powers",
+        "date": "2026-05-31T09:32:39.746028+00:00",
+        "hash_strict": "2d309b1c14d1",
+        "hash_medium": "933585570d6d"
       }
     ]
   }
