@@ -427,6 +427,7 @@
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
+    "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
     "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
@@ -515,6 +516,7 @@
     "https://towardsdatascience.com/llm-themes-are-not-observations/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
+    "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
     "https://towardsdatascience.com/metric-presentation-101/",
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/",
@@ -545,6 +547,7 @@
     "https://towardsdatascience.com/pyspark-for-beginners-mastering-the-basics/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
+    "https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/",
     "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
     "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
     "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
@@ -1030,22 +1033,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466470619061161984",
-    "last_posted_at_utc": "2026-05-30T12:48:36.083960+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7466748625784573952",
+    "last_posted_at_utc": "2026-05-31T07:13:18.097151+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap",
-        "date": "2026-05-17T06:37:08.991006+00:00",
-        "hash_strict": "2b8889a73a30",
-        "hash_medium": "ed27f0175ae9"
-      },
-      {
-        "title": "Recursive Language Models: An All-in-One Deep Dive",
-        "date": "2026-05-17T06:37:08.991136+00:00",
-        "hash_strict": "ecb38ae02d76",
-        "hash_medium": "41ccce16a4d0"
-      },
       {
         "title": "Upgrade strategies for Amazon RDS for MySQL 8.0 to 8.4",
         "date": "2026-05-17T08:37:50.553701+00:00",
@@ -1663,6 +1654,24 @@
         "date": "2026-05-30T12:48:36.083859+00:00",
         "hash_strict": "3d412202f416",
         "hash_medium": "3dd7a1b120d1"
+      },
+      {
+        "title": "Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About",
+        "date": "2026-05-31T07:13:18.096900+00:00",
+        "hash_strict": "6976a89ea193",
+        "hash_medium": "7ee1af1c607b"
+      },
+      {
+        "title": "Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet?",
+        "date": "2026-05-31T07:13:18.097021+00:00",
+        "hash_strict": "ecde3a8b7ddf",
+        "hash_medium": "fc376de85075"
+      },
+      {
+        "title": "Embeddings Aren\u2019t Magic: The Predictable Failure Modes of RAG Retrieval",
+        "date": "2026-05-31T07:13:18.097084+00:00",
+        "hash_strict": "13d1a1a2c3cd",
+        "hash_medium": "e92f0b57b855"
       }
     ]
   }
