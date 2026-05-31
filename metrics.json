@@ -1,10 +1,10 @@
 {
-  "total_posts": 321,
-  "posts_today": 2,
+  "total_posts": 322,
+  "posts_today": 3,
   "last_post_date": "2026-05-31",
   "formats_used": {
     "case_study": 35,
-    "deep_dive": 25,
+    "deep_dive": 26,
     "lessons": 50,
     "digest": 200,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 107,
+    "aws.amazon.com": 108,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-01",
-      "time": "2026-05-01T12:13:51.594791+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com",
-        "www.dataquest.io",
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-02",
       "time": "2026-05-02T05:57:42.903906+00:00",
@@ -1175,13 +1162,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-05-31",
+      "time": "2026-05-31T12:57:35.445339+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 294,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nStrategic thinkers analyze production outcomes.\n\n\u23f1\ufe0f Timeline: Guide your Amazon Aurora MySQL migration with Kiro powers\n\n\u2192 Challenge: Today, we announce the Amazon Aurora MySQL power for Kiro. The power connects Kiro\u2019s AI agent to Aurora MySQL and pairs live database access with curated best-practice guidance.\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nHow do you balance technical debt with new feature development?\n\n#Analytics #BigQuery #AdvancedAnalytics #Snowflake #DBT #Redshift #BITools\n\n\u2753 How would you adapt this for your team?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/\n\n#ETL #Oracle #Analytics #SSIS #AdvancedAnalytics #Insights #Looker",
-  "last_post_format": "case_study",
+  "posts_created": 295,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions\n\nWhat it's about:\nIn this post, we walk through how Zynga adopted Amazon Redshift federated permissions and AWS IAM Identity Center to enforce consistent, tiered data access across provisioned...\n\nWhy it matters: helps you optimize cloud reliability and cost.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Security tooling integration matters more than individual tools\n\u2022 Compliance auditing should be continuous, not annual\n\u2022 Threat modeling beats penetration testing every time\n\nHow do you handle secrets at scale?\n\n#MySQL #Tableau #Reporting #Automation #SAPHANA #BigQuery #Python\n\n\u2753 What would you add to this deep dive?\n\n#SSIS #MLOps #Statistics #Alteryx #DBT #Qlik #BusinessIntelligence",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-05-31T09:32:39.749199+00:00"
+  "last_post_timestamp": "2026-05-31T12:57:35.446531+00:00"
 }

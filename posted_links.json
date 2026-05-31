@@ -1033,16 +1033,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466783697069977600",
-    "last_posted_at_utc": "2026-05-31T09:32:39.746140+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7466835269002944512",
+    "last_posted_at_utc": "2026-05-31T12:57:35.443473+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
-        "date": "2026-05-17T12:12:53.629355+00:00",
-        "hash_strict": "b4d8ecaab9d8",
-        "hash_medium": "58787bdb575d"
-      },
       {
         "title": "LLM Evals Are Based on Vibes \u2014 I Built the Missing Layer That Decides What Ships",
         "date": "2026-05-18T07:14:02.481973+00:00",
@@ -1672,6 +1666,12 @@
         "date": "2026-05-31T09:32:39.746028+00:00",
         "hash_strict": "2d309b1c14d1",
         "hash_medium": "933585570d6d"
+      },
+      {
+        "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
+        "date": "2026-05-31T12:57:35.443322+00:00",
+        "hash_strict": "1df57a2f294a",
+        "hash_medium": "9eac1f8247e3"
       }
     ]
   }
