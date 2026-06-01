@@ -1,11 +1,11 @@
 {
-  "total_posts": 323,
-  "posts_today": 1,
+  "total_posts": 324,
+  "posts_today": 2,
   "last_post_date": "2026-06-01",
   "formats_used": {
     "case_study": 36,
     "deep_dive": 26,
-    "lessons": 50,
+    "lessons": 51,
     "digest": 200,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 285,
+    "towardsdatascience.com": 286,
     "www.snowflake.com": 95,
-    "kdnuggets.com": 62,
+    "kdnuggets.com": 63,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-02",
-      "time": "2026-05-02T08:11:35.649346+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "kdnuggets.com",
-        "kdnuggets.com",
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-05-02",
       "time": "2026-05-02T12:07:39.169057+00:00",
@@ -1167,13 +1154,23 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-01",
+      "time": "2026-06-01T12:19:12.630866+00:00",
+      "format": "lessons",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 296,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\u23f1\ufe0f Timeline: Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs\n\n\u2192 Challenge: ...\nStructure-guided NER optimization for enterprise GraphRAG systems The post Proxy-Pointer RAG: Eliminating Wasteful Entity &#038; Relations Extraction in Knowledge Graphs appeared first on Towards Data Science .\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 2: System evolution requires continuous learning and adaptation\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat production experience changed how you design systems?\n\n#ETL #SSAS #Snowflake #PostgreSQL #Reporting #BITools #BusinessIntelligence\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/\n\n#Statistics #SSAS #Analytics #DataWarehouse #Redshift #DataAnalyst #MySQL",
-  "last_post_format": "case_study",
+  "posts_created": 297,
+  "last_post_content": "\u26a1 Career-changing lessons.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Escaping the Valley of Choice in BI\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Qlik #SSAS #PostgreSQL #ETL\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Reporting #CloudData #Snowflake #SSRS",
+  "last_post_format": "lessons",
   "last_post_sources": [
+    "kdnuggets.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-01T09:02:11.021113+00:00"
+  "last_post_timestamp": "2026-06-01T12:19:12.632037+00:00"
 }

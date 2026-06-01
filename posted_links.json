@@ -431,6 +431,7 @@
     "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
+    "https://towardsdatascience.com/escaping-the-valley-of-choice-in-bi-how-agentic-bi-will-kill-data-analysts/",
     "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
     "https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/",
     "https://towardsdatascience.com/explainable-ai-in-production-a-neuro-symbolic-model-for-real-time-fraud-detection/",
@@ -751,6 +752,7 @@
     "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
     "https://www.kdnuggets.com/5-more-must-know-python-concepts",
     "https://www.kdnuggets.com/5-must-know-python-concepts",
+    "https://www.kdnuggets.com/5-must-know-python-concepts-for-data-scientists",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents",
@@ -1036,16 +1038,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467138414727823360",
-    "last_posted_at_utc": "2026-06-01T09:02:11.018110+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7467187998284214273",
+    "last_posted_at_utc": "2026-06-01T12:19:12.628778+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
-        "date": "2026-05-18T10:49:06.700927+00:00",
-        "hash_strict": "b4d8ecaab9d8",
-        "hash_medium": "58787bdb575d"
-      },
       {
         "title": "How NASDAQ built a governed intelligence layer with dbt and Databricks",
         "date": "2026-05-18T14:43:11.705473+00:00",
@@ -1681,6 +1677,18 @@
         "date": "2026-06-01T09:02:11.018065+00:00",
         "hash_strict": "884bd76982c7",
         "hash_medium": "a0bed8fa6901"
+      },
+      {
+        "title": "5 Must-Know Python Concepts for Data Scientists",
+        "date": "2026-06-01T12:19:12.628580+00:00",
+        "hash_strict": "d6a615047885",
+        "hash_medium": "cbe9b3ba3b99"
+      },
+      {
+        "title": "Escaping the Valley of Choice in BI",
+        "date": "2026-06-01T12:19:12.628716+00:00",
+        "hash_strict": "9aab22ebfa02",
+        "hash_medium": "5c95441051cf"
       }
     ]
   }
