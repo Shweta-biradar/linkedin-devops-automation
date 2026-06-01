@@ -430,6 +430,7 @@
     "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
     "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
+    "https://towardsdatascience.com/ensuring-data-integrity-with-cryptographic-hashing-and-the-ethereum-blockchain/",
     "https://towardsdatascience.com/escaping-the-prototype-mirage-why-enterprise-ai-stalls/",
     "https://towardsdatascience.com/escaping-the-valley-of-choice-in-bi-how-agentic-bi-will-kill-data-analysts/",
     "https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/",
@@ -507,6 +508,7 @@
     "https://towardsdatascience.com/introduction-to-lean-for-programmers/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
+    "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/",
     "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
@@ -707,11 +709,14 @@
     "https://www.getdbt.com/blog/ai-ready-data-in-practice-what-dbt-semantic-layer-and-dbt-s-mcp-server-and-agent-skills-do-for",
     "https://www.getdbt.com/blog/are-you-ready-for-the-dbt-fusion-engine",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
+    "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means",
+    "https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
     "https://www.getdbt.com/blog/get-dbt-certified-stay-certified-stay-ahead",
     "https://www.getdbt.com/blog/how-nasdaq-built-a-governed-intelligence-layer-with-dbt-and-databricks",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
     "https://www.getdbt.com/blog/ship-smarter-agents-in-production-with-dbt-agent-skills",
     "https://www.getdbt.com/blog/the-dbt-developer-agent-is-now-in-preview",
+    "https://www.getdbt.com/blog/what-we-announced-at-snowflake-summit-and-why-it-matters",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
     "https://www.infoq.com/articles/evolution-backend-streaming-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1038,34 +1043,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467187998284214273",
-    "last_posted_at_utc": "2026-06-01T12:19:12.628778+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7467259369014083584",
+    "last_posted_at_utc": "2026-06-01T17:02:48.811208+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "How NASDAQ built a governed intelligence layer with dbt and Databricks",
-        "date": "2026-05-18T14:43:11.705473+00:00",
-        "hash_strict": "c6893ea4c9cc",
-        "hash_medium": "c30e7a95e336"
-      },
-      {
-        "title": "Ship smarter agents in production with dbt Agent Skills",
-        "date": "2026-05-18T14:43:11.705598+00:00",
-        "hash_strict": "13f6ceb53180",
-        "hash_medium": "fd50386efb70"
-      },
-      {
-        "title": "How to Maximize OpenAI\u2019s Codex",
-        "date": "2026-05-18T14:43:11.705666+00:00",
-        "hash_strict": "bbaad3909811",
-        "hash_medium": "aeba70ab472b"
-      },
-      {
-        "title": "Why Your AI Demo Will Die in Production",
-        "date": "2026-05-18T14:43:11.705711+00:00",
-        "hash_strict": "46bcef79b0e7",
-        "hash_medium": "4d6da3cc37f5"
-      },
       {
         "title": "AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing",
         "date": "2026-05-19T07:04:14.874359+00:00",
@@ -1689,6 +1670,36 @@
         "date": "2026-06-01T12:19:12.628716+00:00",
         "hash_strict": "9aab22ebfa02",
         "hash_medium": "5c95441051cf"
+      },
+      {
+        "title": "What we announced at Snowflake Summit and why it matters",
+        "date": "2026-06-01T17:02:48.810824+00:00",
+        "hash_strict": "05f2d23f0f76",
+        "hash_medium": "c21e72acf5f7"
+      },
+      {
+        "title": "Fivetran + dbt Labs Complete Merger to Create the Data Infrastructure for Trusted AI Agents",
+        "date": "2026-06-01T17:02:48.810935+00:00",
+        "hash_strict": "f5370b2b5746",
+        "hash_medium": "634fc116a30c"
+      },
+      {
+        "title": "Fivetran and dbt are one company now. Here's what that means.",
+        "date": "2026-06-01T17:02:48.811007+00:00",
+        "hash_strict": "935f5b4c5bc4",
+        "hash_medium": "dfc6b2f4f6ba"
+      },
+      {
+        "title": "Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain",
+        "date": "2026-06-01T17:02:48.811071+00:00",
+        "hash_strict": "a9a810b85d0f",
+        "hash_medium": "5a1dba1fa801"
+      },
+      {
+        "title": "It\u2019s the Lessons We Learned Along the Way. Or, Is It?",
+        "date": "2026-06-01T17:02:48.811138+00:00",
+        "hash_strict": "4d0d9e902995",
+        "hash_medium": "a3795167d94c"
       }
     ]
   }

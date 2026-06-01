@@ -1,12 +1,12 @@
 {
-  "total_posts": 324,
-  "posts_today": 2,
+  "total_posts": 325,
+  "posts_today": 3,
   "last_post_date": "2026-06-01",
   "formats_used": {
     "case_study": 36,
     "deep_dive": 26,
     "lessons": 51,
-    "digest": 200,
+    "digest": 201,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 286,
+    "towardsdatascience.com": 288,
     "www.snowflake.com": 95,
     "kdnuggets.com": 63,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
-    "www.dbt.com": 10,
+    "www.dbt.com": 13,
     "www.dataquest.io": 17,
     "www.udacity.com": 1
   },
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-02",
-      "time": "2026-05-02T12:07:39.169057+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-03",
       "time": "2026-05-03T06:19:43.811880+00:00",
@@ -1163,14 +1150,26 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-01",
+      "time": "2026-06-01T17:02:48.813192+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dbt.com",
+        "www.dbt.com",
+        "www.dbt.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 297,
-  "last_post_content": "\u26a1 Career-changing lessons.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Escaping the Valley of Choice in BI\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Qlik #SSAS #PostgreSQL #ETL\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Reporting #CloudData #Snowflake #SSRS",
-  "last_post_format": "lessons",
+  "posts_created": 298,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain\nContext: Applying blockchain primitives to dataset versioning, provenance, and integrity assurance The post Ensuring Data Integrity with Cryptographic Hashing and the Ethereum...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/ensuring-data-integrity-with-cryptographic-hashing-and-the-ethereum-blockchain/\n\n2. Fivetran and dbt are one company now. Here's what that means.\nContext: Fivetran and dbt Labs are officially one company to deliver data infrastructure for agents you trust.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means\n\n3. Fivetran + dbt Labs Complete Merger to Create the Data Infrastructure for Trusted AI Agents\nContext: Fivetran and dbt Labs are now one company, focused on building the data foundation for the agentic AI era.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents\n\n4. It\u2019s the Lessons We Learned Along the Way. Or, Is It?\nContext: Research projects in the age of AI The post It\u2019s the Lessons We Learned Along the Way. Or, Is It? appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/\n\n5. What we announced at Snowflake Summit and why it matters\nContext: dbt State, dbt Wizard, dbt Core v2.0, and the Fivetran merger\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/what-we-announced-at-snowflake-summit-and-why-it-matters\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?\n\n#SSRS #DataWarehouse #Insights #PostgreSQL #Python #Redshift #CloudData",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "kdnuggets.com",
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-06-01T12:19:12.632037+00:00"
+  "last_post_timestamp": "2026-06-01T17:02:48.814358+00:00"
 }
