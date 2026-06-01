@@ -541,6 +541,7 @@
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
     "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-comparison/",
     "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-intelligence/",
+    "https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/",
     "https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/",
     "https://towardsdatascience.com/proxy-pointer-rag-solving-entity-and-relationship-sprawl-in-large-knowledge-graphs/",
     "https://towardsdatascience.com/pydantic-performance-4-tips-on-how-to-validate-large-amounts-of-data-efficiently/",
@@ -554,6 +555,7 @@
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
+    "https://towardsdatascience.com/rerankers-arent-magic-either-when-the-cross-encoder-layer-is-worth-the-cost-enterprise-document-intelligence-vol-1-2bis/",
     "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
@@ -563,6 +565,7 @@
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
     "https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/",
+    "https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference/",
     "https://towardsdatascience.com/solving-the-human-training-data-problem/",
     "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
@@ -1033,22 +1036,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7466835269002944512",
-    "last_posted_at_utc": "2026-05-31T12:57:35.443473+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7467138414727823360",
+    "last_posted_at_utc": "2026-06-01T09:02:11.018110+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "LLM Evals Are Based on Vibes \u2014 I Built the Missing Layer That Decides What Ships",
-        "date": "2026-05-18T07:14:02.481973+00:00",
-        "hash_strict": "a61ac9efe44a",
-        "hash_medium": "3d357d455b03"
-      },
-      {
-        "title": "Pandas Isn\u2019t Going Anywhere: Why It\u2019s Still My Go-To for Data Wrangling",
-        "date": "2026-05-18T07:14:02.482110+00:00",
-        "hash_strict": "e71318c03c30",
-        "hash_medium": "0c980fcfcd3b"
-      },
       {
         "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
         "date": "2026-05-18T10:49:06.700927+00:00",
@@ -1672,6 +1663,24 @@
         "date": "2026-05-31T12:57:35.443322+00:00",
         "hash_strict": "1df57a2f294a",
         "hash_medium": "9eac1f8247e3"
+      },
+      {
+        "title": "Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs",
+        "date": "2026-06-01T09:02:11.017877+00:00",
+        "hash_strict": "d6d6de8ad10f",
+        "hash_medium": "1a75d1f81f24"
+      },
+      {
+        "title": "Rerankers Aren\u2019t Magic Either: When the Cross-Encoder Layer Is Worth the Cost",
+        "date": "2026-06-01T09:02:11.018001+00:00",
+        "hash_strict": "6c8a6267b77c",
+        "hash_medium": "7394acb9adcb"
+      },
+      {
+        "title": "Solving a Murder Mystery Using Bayesian Inference",
+        "date": "2026-06-01T09:02:11.018065+00:00",
+        "hash_strict": "884bd76982c7",
+        "hash_medium": "a0bed8fa6901"
       }
     ]
   }

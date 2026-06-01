@@ -1,9 +1,9 @@
 {
-  "total_posts": 322,
-  "posts_today": 3,
-  "last_post_date": "2026-05-31",
+  "total_posts": 323,
+  "posts_today": 1,
+  "last_post_date": "2026-06-01",
   "formats_used": {
-    "case_study": 35,
+    "case_study": 36,
     "deep_dive": 26,
     "lessons": 50,
     "digest": 200,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 282,
+    "towardsdatascience.com": 285,
     "www.snowflake.com": 95,
     "kdnuggets.com": 62,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-02",
-      "time": "2026-05-02T05:57:42.903906+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-05-02",
       "time": "2026-05-02T08:11:35.649346+00:00",
@@ -1170,13 +1157,23 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-01",
+      "time": "2026-06-01T09:02:11.019962+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 295,
-  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions\n\nWhat it's about:\nIn this post, we walk through how Zynga adopted Amazon Redshift federated permissions and AWS IAM Identity Center to enforce consistent, tiered data access across provisioned...\n\nWhy it matters: helps you optimize cloud reliability and cost.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Security tooling integration matters more than individual tools\n\u2022 Compliance auditing should be continuous, not annual\n\u2022 Threat modeling beats penetration testing every time\n\nHow do you handle secrets at scale?\n\n#MySQL #Tableau #Reporting #Automation #SAPHANA #BigQuery #Python\n\n\u2753 What would you add to this deep dive?\n\n#SSIS #MLOps #Statistics #Alteryx #DBT #Qlik #BusinessIntelligence",
-  "last_post_format": "deep_dive",
+  "posts_created": 296,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\u23f1\ufe0f Timeline: Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs\n\n\u2192 Challenge: ...\nStructure-guided NER optimization for enterprise GraphRAG systems The post Proxy-Pointer RAG: Eliminating Wasteful Entity &#038; Relations Extraction in Knowledge Graphs appeared first on Towards Data Science .\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 2: System evolution requires continuous learning and adaptation\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat production experience changed how you design systems?\n\n#ETL #SSAS #Snowflake #PostgreSQL #Reporting #BITools #BusinessIntelligence\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/\n\n#Statistics #SSAS #Analytics #DataWarehouse #Redshift #DataAnalyst #MySQL",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-05-31T12:57:35.446531+00:00"
+  "last_post_timestamp": "2026-06-01T09:02:11.021113+00:00"
 }
