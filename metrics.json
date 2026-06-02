@@ -1,10 +1,10 @@
 {
-  "total_posts": 325,
-  "posts_today": 3,
-  "last_post_date": "2026-06-01",
+  "total_posts": 326,
+  "posts_today": 1,
+  "last_post_date": "2026-06-02",
   "formats_used": {
     "case_study": 36,
-    "deep_dive": 26,
+    "deep_dive": 27,
     "lessons": 51,
     "digest": 201,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 108,
+    "aws.amazon.com": 109,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 288,
-    "www.snowflake.com": 95,
+    "towardsdatascience.com": 290,
+    "www.snowflake.com": 96,
     "kdnuggets.com": 63,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-03",
-      "time": "2026-05-03T06:19:43.811880+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-03",
       "time": "2026-05-03T08:20:22.890428+00:00",
@@ -1162,14 +1149,26 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "time": "2026-06-02T08:16:38.770004+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 298,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nObservability insights:\n1. Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain\nContext: Applying blockchain primitives to dataset versioning, provenance, and integrity assurance The post Ensuring Data Integrity with Cryptographic Hashing and the Ethereum...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/ensuring-data-integrity-with-cryptographic-hashing-and-the-ethereum-blockchain/\n\n2. Fivetran and dbt are one company now. Here's what that means.\nContext: Fivetran and dbt Labs are officially one company to deliver data infrastructure for agents you trust.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means\n\n3. Fivetran + dbt Labs Complete Merger to Create the Data Infrastructure for Trusted AI Agents\nContext: Fivetran and dbt Labs are now one company, focused on building the data foundation for the agentic AI era.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents\n\n4. It\u2019s the Lessons We Learned Along the Way. Or, Is It?\nContext: Research projects in the age of AI The post It\u2019s the Lessons We Learned Along the Way. Or, Is It? appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/\n\n5. What we announced at Snowflake Summit and why it matters\nContext: dbt State, dbt Wizard, dbt Core v2.0, and the Fivetran merger\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/what-we-announced-at-snowflake-summit-and-why-it-matters\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?\n\n#SSRS #DataWarehouse #Insights #PostgreSQL #Python #Redshift #CloudData",
-  "last_post_format": "digest",
+  "posts_created": 299,
+  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nCloud pioneers spotlight critical lessons.\n\n\ud83c\udfaf Meet the Snowflake 2026 Data Drivers Award Winners\n\nWhat it's about:\nDiscover the individuals and organizations being recognized for using the Snowflake AI Data Cloud to innovate, revolutionize and grow.\n\nWhy it matters: helps you optimize cloud reliability and cost.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Cloud-native patterns work best when you embrace failure\n\u2022 Cloud costs optimize themselves when architecture drives decisions\n\u2022 Multi-cloud means multi-complexity - go deep before going wide\n\nHow do you balance managed services vs control?\n\n#Qlik #PowerBI #Python #Dashboard #BITools #Statistics #Reporting\n\n\u2753 How would you apply this insight?\n\n\ud83d\udcda Key resource: https://www.snowflake.com/content/snowflake-site/global/en/blog/data-drivers-awards-2026\n\n#BusinessIntelligence #Statistics #Insights #BITools #Oracle #CloudData #AdvancedAnalytics",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.dbt.com"
+    "www.snowflake.com",
+    "aws.amazon.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-01T17:02:48.814358+00:00"
+  "last_post_timestamp": "2026-06-02T08:16:38.771098+00:00"
 }

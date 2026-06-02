@@ -18,6 +18,7 @@
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/",
     "https://aws.amazon.com/blogs/big-data/build-streaming-applications-on-amazon-managed-service-for-apache-flink-with-ai-assisted-guidance/",
+    "https://aws.amazon.com/blogs/big-data/capture-data-lineage-of-amazon-emr-spark-jobs-into-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/designing-centralized-and-distributed-network-connectivity-patterns-for-amazon-opensearch-serverless-part-1/",
@@ -472,6 +473,7 @@
     "https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/",
     "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
+    "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
     "https://towardsdatascience.com/how-to-create-production-ready-code-with-claude-code/",
     "https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/",
     "https://towardsdatascience.com/how-to-effectively-review-claude-code-output/",
@@ -555,6 +557,7 @@
     "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
     "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
     "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
+    "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
     "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
@@ -839,6 +842,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-drivers-awards-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-governance-in-healthcare-trustworthy-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/dbt-fusion-available-snowflake",
@@ -1043,46 +1047,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467259369014083584",
-    "last_posted_at_utc": "2026-06-01T17:02:48.811208+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7467489342282813440",
+    "last_posted_at_utc": "2026-06-02T08:16:38.768097+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing",
-        "date": "2026-05-19T07:04:14.874359+00:00",
-        "hash_strict": "4fdf862e08c5",
-        "hash_medium": "fe3df794c390"
-      },
-      {
-        "title": "The Hidden Skill Gap: Why Knowing SQL + Python Isn\u2019t Enough Anymore",
-        "date": "2026-05-19T07:04:14.874450+00:00",
-        "hash_strict": "744e98d4cfd9",
-        "hash_medium": "88aded83ac59"
-      },
-      {
-        "title": "OpenSearch Agent Skills bring built-in intelligence to your agentic IDE",
-        "date": "2026-05-19T07:04:14.874498+00:00",
-        "hash_strict": "6f51c085b1de",
-        "hash_medium": "8894d9010320"
-      },
-      {
-        "title": "One Flexible Tool Beats a Hundred Dedicated Ones",
-        "date": "2026-05-19T07:04:14.874540+00:00",
-        "hash_strict": "c74d2e9637d9",
-        "hash_medium": "d63336922f54"
-      },
-      {
-        "title": "Six Choices Every AI Engineer Has to Make (and Nobody Teaches)",
-        "date": "2026-05-19T07:04:14.874580+00:00",
-        "hash_strict": "c5c4c75d3d88",
-        "hash_medium": "e67d13290cdf"
-      },
-      {
-        "title": "How Smartsheet built Real-time Dynamic Filtering on Apache Flink reducing $40K/month in messaging costs",
-        "date": "2026-05-19T07:04:14.874645+00:00",
-        "hash_strict": "77e5b77cc862",
-        "hash_medium": "1f37d9bb4d87"
-      },
       {
         "title": "AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing",
         "date": "2026-05-19T10:14:43.829407+00:00",
@@ -1700,6 +1668,30 @@
         "date": "2026-06-01T17:02:48.811138+00:00",
         "hash_strict": "4d0d9e902995",
         "hash_medium": "a3795167d94c"
+      },
+      {
+        "title": "Meet the Snowflake 2026 Data Drivers Award Winners",
+        "date": "2026-06-02T08:16:38.767679+00:00",
+        "hash_strict": "9b58d2a8da9d",
+        "hash_medium": "1c944e4eedf0"
+      },
+      {
+        "title": "Capture data lineage of Amazon EMR spark jobs into Amazon SageMaker Unified Studio",
+        "date": "2026-06-02T08:16:38.767795+00:00",
+        "hash_strict": "90ff602af638",
+        "hash_medium": "75d5ffc0119d"
+      },
+      {
+        "title": "RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem",
+        "date": "2026-06-02T08:16:38.767908+00:00",
+        "hash_strict": "9f7e825693c3",
+        "hash_medium": "3b76209fa3d8"
+      },
+      {
+        "title": "How to Combine Claude Code and Codex for Maximum Coding Power",
+        "date": "2026-06-02T08:16:38.768007+00:00",
+        "hash_strict": "101e4c8fc93f",
+        "hash_medium": "0c0874a5f752"
       }
     ]
   }
