@@ -1,12 +1,12 @@
 {
-  "total_posts": 326,
-  "posts_today": 1,
+  "total_posts": 327,
+  "posts_today": 2,
   "last_post_date": "2026-06-02",
   "formats_used": {
     "case_study": 36,
     "deep_dive": 27,
     "lessons": 51,
-    "digest": 201,
+    "digest": 202,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -47,7 +47,7 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
     "www.dbt.com": 13,
-    "www.dataquest.io": 17,
+    "www.dataquest.io": 18,
     "www.udacity.com": 1
   },
   "errors": [
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-03",
-      "time": "2026-05-03T08:20:22.890428+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "www.snowflake.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-03",
       "time": "2026-05-03T12:06:00.098383+00:00",
@@ -1160,15 +1151,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "time": "2026-06-02T11:06:48.007938+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 299,
-  "last_post_content": "\ud83d\udd2c Deep dive: one concept worth your time.\nCloud pioneers spotlight critical lessons.\n\n\ud83c\udfaf Meet the Snowflake 2026 Data Drivers Award Winners\n\nWhat it's about:\nDiscover the individuals and organizations being recognized for using the Snowflake AI Data Cloud to innovate, revolutionize and grow.\n\nWhy it matters: helps you optimize cloud reliability and cost.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Cloud-native patterns work best when you embrace failure\n\u2022 Cloud costs optimize themselves when architecture drives decisions\n\u2022 Multi-cloud means multi-complexity - go deep before going wide\n\nHow do you balance managed services vs control?\n\n#Qlik #PowerBI #Python #Dashboard #BITools #Statistics #Reporting\n\n\u2753 How would you apply this insight?\n\n\ud83d\udcda Key resource: https://www.snowflake.com/content/snowflake-site/global/en/blog/data-drivers-awards-2026\n\n#BusinessIntelligence #Statistics #Insights #BITools #Oracle #CloudData #AdvancedAnalytics",
-  "last_post_format": "deep_dive",
+  "posts_created": 300,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nLeadership lessons:\n1. Python Function Calling: How to Give LLMs Access to Real-World Tools\nContext: ...\nYou've probably noticed that LLMs are remarkably good at reasoning \u2014 but on their own, they can't check today's weather, query your database, or look up a customer record. They generate text. Func\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/python-function-calling/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#DBT #SSIS #BigQuery #CloudData #Looker #Insights #SSRS",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "aws.amazon.com",
-    "towardsdatascience.com"
+    "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-06-02T08:16:38.771098+00:00"
+  "last_post_timestamp": "2026-06-02T11:06:48.008849+00:00"
 }

@@ -1047,16 +1047,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467489342282813440",
-    "last_posted_at_utc": "2026-06-02T08:16:38.768097+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7467532163517706241",
+    "last_posted_at_utc": "2026-06-02T11:06:48.006337+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "AI-assisted analytics engineering: Docusign\u2019s framework for scaling dbt unit testing",
-        "date": "2026-05-19T10:14:43.829407+00:00",
-        "hash_strict": "4fdf862e08c5",
-        "hash_medium": "fe3df794c390"
-      },
       {
         "title": "Top 10 Python Libraries for Data Engineering in 2026",
         "date": "2026-05-19T14:12:18.641729+00:00",
@@ -1692,6 +1686,12 @@
         "date": "2026-06-02T08:16:38.768007+00:00",
         "hash_strict": "101e4c8fc93f",
         "hash_medium": "0c0874a5f752"
+      },
+      {
+        "title": "Python Function Calling: How to Give LLMs Access to Real-World Tools",
+        "date": "2026-06-02T11:06:48.006247+00:00",
+        "hash_strict": "b72eb8ca5530",
+        "hash_medium": "73fa234ac4a6"
       }
     ]
   }
