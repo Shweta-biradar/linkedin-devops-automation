@@ -1,9 +1,9 @@
 {
-  "total_posts": 327,
-  "posts_today": 2,
+  "total_posts": 328,
+  "posts_today": 3,
   "last_post_date": "2026-06-02",
   "formats_used": {
-    "case_study": 36,
+    "case_study": 37,
     "deep_dive": 27,
     "lessons": 51,
     "digest": 202,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 290,
-    "www.snowflake.com": 96,
-    "kdnuggets.com": 63,
+    "towardsdatascience.com": 291,
+    "www.snowflake.com": 100,
+    "kdnuggets.com": 64,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 11,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-03",
-      "time": "2026-05-03T12:06:00.098383+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-04",
       "time": "2026-05-04T06:30:18.691432+00:00",
@@ -1159,13 +1151,28 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "time": "2026-06-02T15:39:48.598436+00:00",
+      "format": "case_study",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 300,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nLeadership lessons:\n1. Python Function Calling: How to Give LLMs Access to Real-World Tools\nContext: ...\nYou've probably noticed that LLMs are remarkably good at reasoning \u2014 but on their own, they can't check today's weather, query your database, or look up a customer record. They generate text. Func\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.dataquest.io/blog/python-function-calling/\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#DBT #SSIS #BigQuery #CloudData #Looker #Insights #SSRS",
-  "last_post_format": "digest",
+  "posts_created": 301,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nCloud pioneers share implementation lessons.\n\n\ud83d\udccc Celebrating the 2026 Snowflake Partner Award Winners\n\nThe situation:\n\u21b3 Discover top partners in the Snowflake ecosystem being recognized for innovation, delivering measurable customer value and demonstrating true excellence in their fields.\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhich operational practices have scaled best for your team?\n\n#Analytics #CloudData #SSRS #Statistics #ETL #PowerBI #Dashboard\n\n\u2753 Would this work in your environment?\n\nFull story: https://www.snowflake.com/content/snowflake-site/global/en/blog/2026-summit-partner-awards\n\n#Snowflake #Redshift #Automation #Oracle #Reporting #DataAnalyst #AdvancedAnalytics",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "www.dataquest.io"
+    "kdnuggets.com",
+    "towardsdatascience.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-06-02T11:06:48.008849+00:00"
+  "last_post_timestamp": "2026-06-02T15:39:48.599774+00:00"
 }

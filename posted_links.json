@@ -451,6 +451,7 @@
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
     "https://towardsdatascience.com/from-possible-to-probable-ai-models/",
     "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
+    "https://towardsdatascience.com/from-raw-census-data-to-powerful-insights-exploring-income-patterns-with-pandas-matplotlib-seaborn/",
     "https://towardsdatascience.com/from-raw-data-to-risk-classes/",
     "https://towardsdatascience.com/from-tf-idf-to-transformers-implementing-four-generations-of-semantic-search/",
     "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
@@ -754,6 +755,7 @@
     "https://www.infoq.com/presentations/devops-product-engineers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/hierarchical-team/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/llm-ai-africa/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "https://www.kdnuggets.com/10-github-repositories-for-modern-database-systems-and-tools",
     "https://www.kdnuggets.com/10-github-repositories-to-master-openclaw",
     "https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
@@ -818,6 +820,7 @@
     "https://www.mend.io/blog/mend-leadership-update-the-next-phase-of-growth/",
     "https://www.pagerduty.com/blog/ai/scaling-ai-operations-beyond-the-pilot-phase/",
     "https://www.rapid7.com/blog/post/metasploit-wrap-up-12-19-2025",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/2026-summit-partner-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agent-context-layer-trustworthy-data-agents",
@@ -853,6 +856,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/give-to-gain-women-in-tech-international-womens-day",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/gsa-agreement-ai-driven-government",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/horizon-context-governed-context",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/how-data-ai-reshaping-careers",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/inside-the-boardroom-ecosystem-operating-system",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai",
@@ -877,6 +881,8 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-cowork-personal-work-agent",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-for-ai-enterprise-ai-platform",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-actionable-data-insights-manufacturers",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-intelligence-partner-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-kafka-connector-v4-ga",
@@ -1047,22 +1053,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467532163517706241",
-    "last_posted_at_utc": "2026-06-02T11:06:48.006337+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7467600868172021760",
+    "last_posted_at_utc": "2026-06-02T15:39:48.596172+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Top 10 Python Libraries for Data Engineering in 2026",
-        "date": "2026-05-19T14:12:18.641729+00:00",
-        "hash_strict": "1ed399fd4ec0",
-        "hash_medium": "0010fa9aaec9"
-      },
-      {
-        "title": "Proxy-Pointer RAG: Solving Entity and Relationship Sprawl in Large Knowledge Graphs",
-        "date": "2026-05-19T14:12:18.641851+00:00",
-        "hash_strict": "84fb14d49893",
-        "hash_medium": "097fe164341b"
-      },
       {
         "title": "Meet Amazon Redshift RG \u2013 AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
         "date": "2026-05-20T07:04:11.587734+00:00",
@@ -1692,6 +1686,42 @@
         "date": "2026-06-02T11:06:48.006247+00:00",
         "hash_strict": "b72eb8ca5530",
         "hash_medium": "73fa234ac4a6"
+      },
+      {
+        "title": "10 GitHub Repositories for Modern Database Systems and Tools",
+        "date": "2026-06-02T15:39:48.595801+00:00",
+        "hash_strict": "041f65002609",
+        "hash_medium": "2a3ccea83508"
+      },
+      {
+        "title": "Exploring Income Patterns with Python Pandas, Matplotlib, and Seaborn",
+        "date": "2026-06-02T15:39:48.595899+00:00",
+        "hash_strict": "8592e58b5720",
+        "hash_medium": "9a19884eee87"
+      },
+      {
+        "title": "Celebrating the 2026 Snowflake Partner Award Winners",
+        "date": "2026-06-02T15:39:48.595971+00:00",
+        "hash_strict": "73d0307fab5f",
+        "hash_medium": "e4d03b60685b"
+      },
+      {
+        "title": "Snowflake CoWork: The Personal Work Agent for Every Knowledge Worker",
+        "date": "2026-06-02T15:39:48.596032+00:00",
+        "hash_strict": "80f1289f6bab",
+        "hash_medium": "d35ca14e8738"
+      },
+      {
+        "title": "Snowflake Horizon Context: The Governed Context Layer for AI, BI and Apps",
+        "date": "2026-06-02T15:39:48.596088+00:00",
+        "hash_strict": "036333f5199a",
+        "hash_medium": "91c3386d1ec5"
+      },
+      {
+        "title": "Snowflake for AI: Put Enterprise AI to Work",
+        "date": "2026-06-02T15:39:48.596132+00:00",
+        "hash_strict": "ad9111c221ee",
+        "hash_medium": "b2fb45dcb650"
       }
     ]
   }
