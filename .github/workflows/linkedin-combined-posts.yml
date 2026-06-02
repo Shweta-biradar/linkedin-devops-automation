@@ -7,13 +7,13 @@ name: LinkedIn Combined Posts - Hiring & Referrals (Three Times Daily)
 on:
   schedule:
     # 9:00 AM UTC every day (Morning - 03:30 IST)
-    - cron: '0 9 * * *'
+   # - cron: '0 9 * * *'
     # 12:00 PM UTC every day (Midday - 05:30 IST)
-    - cron: '0 12 * * *'
+   # - cron: '0 12 * * *'
     # 6:00 PM UTC every day (Evening - 11:30 IST)
-    - cron: '0 18 * * *'
+   # - cron: '0 18 * * *'
     # Optional quick-check schedule (every 15 min) for initial validation. Remove once confirmed.
-    - cron: '*/15 * * * *'
+   # - cron: '*/15 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
