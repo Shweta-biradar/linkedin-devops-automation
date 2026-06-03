@@ -1,9 +1,9 @@
 {
-  "total_posts": 328,
-  "posts_today": 3,
-  "last_post_date": "2026-06-02",
+  "total_posts": 329,
+  "posts_today": 1,
+  "last_post_date": "2026-06-03",
   "formats_used": {
-    "case_study": 37,
+    "case_study": 38,
     "deep_dive": 27,
     "lessons": 51,
     "digest": 202,
@@ -41,12 +41,12 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 291,
-    "www.snowflake.com": 100,
+    "www.snowflake.com": 103,
     "kdnuggets.com": 64,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 11,
-    "www.dbt.com": 13,
+    "powerbi.microsoft.com": 13,
+    "www.dbt.com": 14,
     "www.dataquest.io": 18,
     "www.udacity.com": 1
   },
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-04",
-      "time": "2026-05-04T06:30:18.691432+00:00",
-      "format": "case_study",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-04",
       "time": "2026-05-04T09:04:16.180290+00:00",
@@ -1164,15 +1155,28 @@
         "www.snowflake.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "time": "2026-06-03T08:36:22.736877+00:00",
+      "format": "case_study",
+      "sources": [
+        "powerbi.microsoft.com",
+        "www.dbt.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "powerbi.microsoft.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 301,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nCloud pioneers share implementation lessons.\n\n\ud83d\udccc Celebrating the 2026 Snowflake Partner Award Winners\n\nThe situation:\n\u21b3 Discover top partners in the Snowflake ecosystem being recognized for innovation, delivering measurable customer value and demonstrating true excellence in their fields.\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhich operational practices have scaled best for your team?\n\n#Analytics #CloudData #SSRS #Statistics #ETL #PowerBI #Dashboard\n\n\u2753 Would this work in your environment?\n\nFull story: https://www.snowflake.com/content/snowflake-site/global/en/blog/2026-summit-partner-awards\n\n#Snowflake #Redshift #Automation #Oracle #Reporting #DataAnalyst #AdvancedAnalytics",
+  "posts_created": 302,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udd0d Breakdown: Building in the Agentic Era with Power BI and Fabric\n\n\ud83d\udcca Data: Microsoft Build 2026 marks a major shift in how developers build data experiences with AI agents. Today we're announcing two capabilities that bring agentic analytics to the...\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Feature flags decouple deployment risk from feature risk\n\u2192 Step 2: Progressive delivery beats blue-green for complex systems\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat CI/CD bottleneck slows your team down most?\n\n#Looker #Insights #Automation #DataWarehouse #Qlik #SSIS #AdvancedAnalytics\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754\n\n#PowerBI #BusinessIntelligence #DataAnalytics #MySQL #SSAS #Oracle #SSRS",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "kdnuggets.com",
-    "towardsdatascience.com",
+    "powerbi.microsoft.com",
+    "www.dbt.com",
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-06-02T15:39:48.599774+00:00"
+  "last_post_timestamp": "2026-06-03T08:36:22.738051+00:00"
 }

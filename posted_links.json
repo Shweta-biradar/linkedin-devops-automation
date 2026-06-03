@@ -126,6 +126,8 @@
     "https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/",
     "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
     "https://blog.qualys.com/category/product-tech",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
@@ -713,6 +715,7 @@
     "https://www.getdbt.com/blog/ai-ready-data-in-practice-what-dbt-semantic-layer-and-dbt-s-mcp-server-and-agent-skills-do-for",
     "https://www.getdbt.com/blog/are-you-ready-for-the-dbt-fusion-engine",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
+    "https://www.getdbt.com/blog/dbt-labs-named-snowflake-data-integration-product-partner-of-the-year",
     "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means",
     "https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
     "https://www.getdbt.com/blog/get-dbt-certified-stay-certified-stay-ahead",
@@ -844,6 +847,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-snowsight",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-clean-rooms-multiparty-collaboration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-collaboration-team-usa-milano-2026",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-development-simple-as-prompt",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-drivers-awards-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-governance-in-healthcare-trustworthy-ai",
@@ -861,6 +865,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/inside-the-boardroom-ecosystem-operating-system",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/interoperable-lakehouse-architecture",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/multimodal-analytics-ai-video-audio-images",
@@ -880,6 +885,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-layer-ai-risk-finance",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-ai-coding-agent-modern-data-stack",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-cowork-personal-work-agent",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-for-ai-enterprise-ai-platform",
@@ -1053,46 +1059,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467600868172021760",
-    "last_posted_at_utc": "2026-06-02T15:39:48.596172+00:00",
+    "last_post_id": "urn:li:share:7467856696414101504",
+    "last_posted_at_utc": "2026-06-03T08:36:22.734755+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Meet Amazon Redshift RG \u2013 AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
-        "date": "2026-05-20T07:04:11.587734+00:00",
-        "hash_strict": "bb0ba7162070",
-        "hash_medium": "d2bbd6e2cbdb"
-      },
-      {
-        "title": "Multimodal Analytics: Decode Video, Audio and Images",
-        "date": "2026-05-20T07:04:11.587877+00:00",
-        "hash_strict": "90dc053a25c6",
-        "hash_medium": "d9b00c880380"
-      },
-      {
-        "title": "A systematic approach to benchmarking SQL processing engines on AWS",
-        "date": "2026-05-20T07:04:11.587923+00:00",
-        "hash_strict": "dbeea2bea74d",
-        "hash_medium": "2af6be264c7a"
-      },
-      {
-        "title": "dbt Fusion Is Now Available on Snowflake",
-        "date": "2026-05-20T07:04:11.587965+00:00",
-        "hash_strict": "50da2a96101e",
-        "hash_medium": "cdc4a101e9d5"
-      },
-      {
-        "title": "AI-ready data in practice: What dbt Semantic Layer and dbt's MCP server and agent skills do for your team",
-        "date": "2026-05-20T07:04:11.588003+00:00",
-        "hash_strict": "bf8e7103bb04",
-        "hash_medium": "e6fd8998dc41"
-      },
-      {
-        "title": "Grounding LLMs with Fresh Web Data to Reduce Hallucinations",
-        "date": "2026-05-20T07:04:11.588050+00:00",
-        "hash_strict": "0f45b3cd1777",
-        "hash_medium": "761afde043d0"
-      },
       {
         "title": "Automated JDBC query caching with the AWS Advanced JDBC Wrapper",
         "date": "2026-05-20T10:02:52.181899+00:00",
@@ -1722,6 +1692,42 @@
         "date": "2026-06-02T15:39:48.596132+00:00",
         "hash_strict": "ad9111c221ee",
         "hash_medium": "b2fb45dcb650"
+      },
+      {
+        "title": "Building in the Agentic Era with Power BI and Fabric",
+        "date": "2026-06-03T08:36:22.734308+00:00",
+        "hash_strict": "6dfe59f3a9e1",
+        "hash_medium": "bc287277b17f"
+      },
+      {
+        "title": "dbt Labs Named Snowflake Data Integration Product Partner of the Year",
+        "date": "2026-06-03T08:36:22.734462+00:00",
+        "hash_strict": "d959e5f12722",
+        "hash_medium": "670e0863b78e"
+      },
+      {
+        "title": "Snowflake CoCo: AI Coding Agent for the Modern Data Stack",
+        "date": "2026-06-03T08:36:22.734560+00:00",
+        "hash_strict": "dd4bf4c9586f",
+        "hash_medium": "2007c81795ab"
+      },
+      {
+        "title": "The Interoperable Lakehouse: Agency Over Your Data",
+        "date": "2026-06-03T08:36:22.734626+00:00",
+        "hash_strict": "e5594a46c6fd",
+        "hash_medium": "9b6c3188dd4a"
+      },
+      {
+        "title": "DAX User-Defined Functions (Generally Available)",
+        "date": "2026-06-03T08:36:22.734674+00:00",
+        "hash_strict": "c9a2e1265200",
+        "hash_medium": "b5adb41662ed"
+      },
+      {
+        "title": "Connect AI to Your Data: Simplify the Entire Development Lifecycle",
+        "date": "2026-06-03T08:36:22.734714+00:00",
+        "hash_strict": "4a75db3bbeee",
+        "hash_medium": "c9408808586f"
       }
     ]
   }
