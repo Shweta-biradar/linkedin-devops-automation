@@ -1,9 +1,9 @@
 {
-  "total_posts": 329,
-  "posts_today": 1,
+  "total_posts": 330,
+  "posts_today": 2,
   "last_post_date": "2026-06-03",
   "formats_used": {
-    "case_study": 38,
+    "case_study": 39,
     "deep_dive": 27,
     "lessons": 51,
     "digest": 202,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 291,
-    "www.snowflake.com": 103,
+    "towardsdatascience.com": 294,
+    "www.snowflake.com": 104,
     "kdnuggets.com": 64,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-04",
-      "time": "2026-05-04T09:04:16.180290+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-04",
       "time": "2026-05-04T13:07:04.329403+00:00",
@@ -1168,15 +1160,25 @@
         "powerbi.microsoft.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "time": "2026-06-03T11:27:37.648126+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 302,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udd0d Breakdown: Building in the Agentic Era with Power BI and Fabric\n\n\ud83d\udcca Data: Microsoft Build 2026 marks a major shift in how developers build data experiences with AI agents. Today we're announcing two capabilities that bring agentic analytics to the...\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Feature flags decouple deployment risk from feature risk\n\u2192 Step 2: Progressive delivery beats blue-green for complex systems\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat CI/CD bottleneck slows your team down most?\n\n#Looker #Insights #Automation #DataWarehouse #Qlik #SSIS #AdvancedAnalytics\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754\n\n#PowerBI #BusinessIntelligence #DataAnalytics #MySQL #SSAS #Oracle #SSRS",
+  "posts_created": 303,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: From Regex to Vision Models: Which RAG Technique Fits Which Problem\n\nThe story: ...\nEnterprise Document Intelligence [Vol.1 #4] - A diagnostic across PDFs and questions, and a map of the techniques the rest of the series will cover The post From Regex to Vision Models: Which RAG Technique Fits Which Problem appeared first on Towards Data Science .\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Track results and optimize\n\nWhat production experience changed how you design systems?\n\n#CloudData #Alteryx #DBT #PowerBI #BusinessIntelligence #ETL #Automation\n\n\u2753 Would this work in your environment?\n\nLearn more \u2192 https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/\n\n#DataAnalyst #Tableau #Statistics #BigQuery #Databricks #Analytics #CloudData",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "powerbi.microsoft.com",
-    "www.dbt.com",
+    "towardsdatascience.com",
     "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-06-03T08:36:22.738051+00:00"
+  "last_post_timestamp": "2026-06-03T11:27:37.649314+00:00"
 }

@@ -416,6 +416,7 @@
     "https://towardsdatascience.com/can-llms-replace-survey-respondents/",
     "https://towardsdatascience.com/causal-inference-is-eating-machine-learning/",
     "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
+    "https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/",
     "https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/",
     "https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/",
     "https://towardsdatascience.com/context-engineering-as-your-competitive-edge/",
@@ -449,12 +450,14 @@
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
     "https://towardsdatascience.com/from-data-analyst-to-data-engineer-my-12-month-self-study-roadmap/",
     "https://towardsdatascience.com/from-data-scientist-to-ai-architect/",
+    "https://towardsdatascience.com/from-local-app-to-public-website-in-minutes/",
     "https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/",
     "https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/",
     "https://towardsdatascience.com/from-possible-to-probable-ai-models/",
     "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
     "https://towardsdatascience.com/from-raw-census-data-to-powerful-insights-exploring-income-patterns-with-pandas-matplotlib-seaborn/",
     "https://towardsdatascience.com/from-raw-data-to-risk-classes/",
+    "https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/",
     "https://towardsdatascience.com/from-tf-idf-to-transformers-implementing-four-generations-of-semantic-search/",
     "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "https://towardsdatascience.com/fun-with-histograms-and-densities/",
@@ -826,6 +829,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/2026-summit-partner-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/adaptive-compute-performance",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agent-context-layer-trustworthy-data-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-business-operations0",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-financial-services-nasdaq-evestment",
@@ -1059,46 +1063,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467856696414101504",
-    "last_posted_at_utc": "2026-06-03T08:36:22.734755+00:00",
+    "last_post_id": "urn:li:share:7467899792443191296",
+    "last_posted_at_utc": "2026-06-03T11:27:37.646030+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Automated JDBC query caching with the AWS Advanced JDBC Wrapper",
-        "date": "2026-05-20T10:02:52.181899+00:00",
-        "hash_strict": "c0cdbdeffb9c",
-        "hash_medium": "6da2e359bfaf"
-      },
-      {
-        "title": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
-        "date": "2026-05-20T10:02:52.181985+00:00",
-        "hash_strict": "d935a4a5b6bb",
-        "hash_medium": "c2c70e9bd623"
-      },
-      {
-        "title": "Deploying Amazon RDS for Db2 using Terraform",
-        "date": "2026-05-20T10:02:52.182097+00:00",
-        "hash_strict": "6a1a4897aac6",
-        "hash_medium": "4a033e1befc6"
-      },
-      {
-        "title": "Nine Entertainment\u2019s journey: Achieving 98% cost savings with Amazon ElastiCache Serverless for Valkey",
-        "date": "2026-05-20T10:02:52.182172+00:00",
-        "hash_strict": "12e8ce841c93",
-        "hash_medium": "2c0dca33bcb9"
-      },
-      {
-        "title": "Improving generative AI accuracy with vector and graph search hybrid queries",
-        "date": "2026-05-20T10:02:52.182232+00:00",
-        "hash_strict": "6a4f3fb38d71",
-        "hash_medium": "f7f044a09503"
-      },
-      {
-        "title": "Introduction to Lean for Programmers",
-        "date": "2026-05-20T10:02:52.182276+00:00",
-        "hash_strict": "d69afb594a41",
-        "hash_medium": "6a2d5e9b83f5"
-      },
       {
         "title": "SQL Window Functions Beyond Basics: Solving Real Business Problems",
         "date": "2026-05-20T14:03:49.697913+00:00",
@@ -1728,6 +1696,30 @@
         "date": "2026-06-03T08:36:22.734714+00:00",
         "hash_strict": "4a75db3bbeee",
         "hash_medium": "c9408808586f"
+      },
+      {
+        "title": "From Regex to Vision Models: Which RAG Technique Fits Which Problem",
+        "date": "2026-06-03T11:27:37.645708+00:00",
+        "hash_strict": "57d80c15d130",
+        "hash_medium": "c28a427fc881"
+      },
+      {
+        "title": "Code Is Cheap. Engineering Judgement Is Now the Scarce\u00a0Resource",
+        "date": "2026-06-03T11:27:37.645848+00:00",
+        "hash_strict": "1788223e85fd",
+        "hash_medium": "545f59b732d3"
+      },
+      {
+        "title": "From Local App to Public Website in\u00a0Minutes",
+        "date": "2026-06-03T11:27:37.645929+00:00",
+        "hash_strict": "804c7226cd36",
+        "hash_medium": "47bbae804807"
+      },
+      {
+        "title": "Adaptive Compute Delivers High Performance That Evolves with Your Workloads",
+        "date": "2026-06-03T11:27:37.645981+00:00",
+        "hash_strict": "1530bea2cb93",
+        "hash_medium": "b4483fb0792a"
       }
     ]
   }
