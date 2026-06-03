@@ -1,11 +1,11 @@
 {
-  "total_posts": 330,
-  "posts_today": 2,
+  "total_posts": 331,
+  "posts_today": 3,
   "last_post_date": "2026-06-03",
   "formats_used": {
     "case_study": 39,
     "deep_dive": 27,
-    "lessons": 51,
+    "lessons": 52,
     "digest": 202,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 294,
+    "towardsdatascience.com": 297,
     "www.snowflake.com": 104,
-    "kdnuggets.com": 64,
+    "kdnuggets.com": 65,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 13,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-04",
-      "time": "2026-05-04T13:07:04.329403+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-05",
       "time": "2026-05-05T06:03:38.609078+00:00",
@@ -1171,14 +1163,25 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "time": "2026-06-03T16:01:01.436293+00:00",
+      "format": "lessons",
+      "sources": [
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 303,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: From Regex to Vision Models: Which RAG Technique Fits Which Problem\n\nThe story: ...\nEnterprise Document Intelligence [Vol.1 #4] - A diagnostic across PDFs and questions, and a map of the techniques the rest of the series will cover The post From Regex to Vision Models: Which RAG Technique Fits Which Problem appeared first on Towards Data Science .\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Track results and optimize\n\nWhat production experience changed how you design systems?\n\n#CloudData #Alteryx #DBT #PowerBI #BusinessIntelligence #ETL #Automation\n\n\u2753 Would this work in your environment?\n\nLearn more \u2192 https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/\n\n#DataAnalyst #Tableau #Statistics #BigQuery #Databricks #Analytics #CloudData",
-  "last_post_format": "case_study",
+  "posts_created": 304,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Why AI Is NOT Stealing Your Job\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Airflow #Looker #DataWarehouse #Analytics #SSIS #DataVisualization #Qlik\n\n\u2753 How do you apply these lessons?\n\n#Oracle #SAPHANA #DataWarehouse #Redshift #MySQL #BITools #Reporting",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.snowflake.com"
+    "kdnuggets.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-03T11:27:37.649314+00:00"
+  "last_post_timestamp": "2026-06-03T16:01:01.437394+00:00"
 }

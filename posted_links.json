@@ -500,6 +500,7 @@
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
     "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
+    "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
     "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
     "https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/",
     "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
@@ -629,6 +630,7 @@
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
+    "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-is-a-data-agent/",
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
@@ -639,6 +641,7 @@
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
+    "https://towardsdatascience.com/why-ai-is-not-stealing-your-job/",
     "https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
@@ -801,6 +804,7 @@
     "https://www.kdnuggets.com/how-to-build-vector-search-from-scratch-in-python",
     "https://www.kdnuggets.com/how-to-deploy-your-first-app-on-fastapi-cloud",
     "https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner",
+    "https://www.kdnuggets.com/how-to-write-to-files-in-python-a-beginners-guide",
     "https://www.kdnuggets.com/local-whisper-audio-transcription",
     "https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide",
     "https://www.kdnuggets.com/open-weight-text-to-speach-with-voxtral-tts",
@@ -1063,28 +1067,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467899792443191296",
-    "last_posted_at_utc": "2026-06-03T11:27:37.646030+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7467968595210383366",
+    "last_posted_at_utc": "2026-06-03T16:01:01.434490+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "SQL Window Functions Beyond Basics: Solving Real Business Problems",
-        "date": "2026-05-20T14:03:49.697913+00:00",
-        "hash_strict": "92bea9d093dc",
-        "hash_medium": "a583a4b45c3f"
-      },
-      {
-        "title": "From Possible to Probable AI Models",
-        "date": "2026-05-20T14:03:49.698050+00:00",
-        "hash_strict": "1eb4afc654ed",
-        "hash_medium": "d9fd99dc1373"
-      },
-      {
-        "title": "How to Safely Run Coding Agents",
-        "date": "2026-05-20T14:03:49.698142+00:00",
-        "hash_strict": "8bbf40bbcc61",
-        "hash_medium": "3265207671c3"
-      },
       {
         "title": "Power BI May 2026 Feature Summary",
         "date": "2026-05-21T07:07:41.356542+00:00",
@@ -1720,6 +1706,30 @@
         "date": "2026-06-03T11:27:37.645981+00:00",
         "hash_strict": "1530bea2cb93",
         "hash_medium": "b4483fb0792a"
+      },
+      {
+        "title": "How to Write to Files in Python: A Beginner\u2019s Guide",
+        "date": "2026-06-03T16:01:01.434135+00:00",
+        "hash_strict": "0c555b64c766",
+        "hash_medium": "75213f3996e6"
+      },
+      {
+        "title": "I Built a C++ Backend So My GPU Would Stop Eating Air",
+        "date": "2026-06-03T16:01:01.434257+00:00",
+        "hash_strict": "f9a2a488214c",
+        "hash_medium": "1467f59c3e09"
+      },
+      {
+        "title": "What AI Agents Should Never Do on Their Own",
+        "date": "2026-06-03T16:01:01.434342+00:00",
+        "hash_strict": "a1c56486fcd5",
+        "hash_medium": "0a33bdb300f6"
+      },
+      {
+        "title": "Why AI Is NOT Stealing Your\u00a0Job",
+        "date": "2026-06-03T16:01:01.434418+00:00",
+        "hash_strict": "511b13f782c7",
+        "hash_medium": "a0a95989e55f"
       }
     ]
   }
