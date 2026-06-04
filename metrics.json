@@ -1,11 +1,11 @@
 {
-  "total_posts": 332,
-  "posts_today": 1,
+  "total_posts": 333,
+  "posts_today": 2,
   "last_post_date": "2026-06-04",
   "formats_used": {
     "case_study": 39,
     "deep_dive": 27,
-    "lessons": 52,
+    "lessons": 53,
     "digest": 203,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 114,
+    "aws.amazon.com": 115,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 297,
+    "towardsdatascience.com": 298,
     "www.snowflake.com": 104,
     "kdnuggets.com": 65,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 14,
-    "www.dbt.com": 14,
+    "www.dbt.com": 15,
     "www.dataquest.io": 18,
     "www.udacity.com": 1
   },
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-05",
-      "time": "2026-05-05T08:33:08.551111+00:00",
-      "format": "digest",
-      "sources": [
-        "www.udacity.com"
-      ]
-    },
     {
       "date": "2026-05-05",
       "time": "2026-05-05T12:48:14.073126+00:00",
@@ -1175,14 +1167,25 @@
         "aws.amazon.com",
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-06-04",
+      "time": "2026-06-04T10:26:56.389678+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 305,
-  "last_post_content": "\ud83e\udd16 AI and automation: practical impacts.\nSRE leaders share reliability wins and lessons.\n\nIndustry pulse:\n1. Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (SP-GiST,\u2026\nContext: In this post, the third in the series, we dive into three extension-based index types: SP-GiST, btree_gin, and btree_gist. These are available in Amazon Aurora...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-sp-gist-btree_gin-and-btree_gist/\n\n2. Implementing real-time change data capture with Debezium for Amazon Aurora PostgreSQL and Amazon RDS for Po\u2026\nContext: In this post, we demonstrate how to implement a production-ready CDC solution by using Amazon Aurora for PostgreSQL, Debezium connectors, and Amazon Managed Streaming for...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/implementing-real-time-change-data-capture-with-debezium-for-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?",
-  "last_post_format": "digest",
+  "posts_created": 306,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nPlatform architects surface lessons from production.\n\nTopic: I Spent May Evaluating Different Engines for OCR\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Automation #Dashboard #ETL #DBT #Databricks #BigQuery #Looker\n\n\u2753 Which lesson resonates most with your team?\n\n#Dashboard #PowerBI #BusinessIntelligence #SSRS #Databricks #Oracle #BigQuery",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "powerbi.microsoft.com",
+    "www.dbt.com",
+    "towardsdatascience.com",
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-04T08:08:01.053255+00:00"
+  "last_post_timestamp": "2026-06-04T10:26:56.390847+00:00"
 }

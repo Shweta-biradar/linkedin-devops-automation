@@ -49,6 +49,7 @@
     "https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/",
     "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
     "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
+    "https://aws.amazon.com/blogs/big-data/schedule-notebook-runs-in-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/secure-apache-spark-writes-to-amazon-s3-on-amazon-emr-with-dynamic-aws-kms-encryption/",
     "https://aws.amazon.com/blogs/big-data/securely-connect-kafka-client-applications-to-your-amazon-msk-serverless-cluster-from-different-vpcs-and-aws-accounts/",
     "https://aws.amazon.com/blogs/big-data/set-up-production-ready-monitoring-for-amazon-msk-using-cloudwatch-alarms/",
@@ -515,6 +516,7 @@
     "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
+    "https://towardsdatascience.com/i-spent-may-evaluating-different-engines-for-ocr/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
@@ -726,6 +728,7 @@
     "https://www.getdbt.com/blog/ai-assisted-analytics-engineering-docusign-s-framework-for-scaling-dbt-unit-testing",
     "https://www.getdbt.com/blog/ai-ready-data-in-practice-what-dbt-semantic-layer-and-dbt-s-mcp-server-and-agent-skills-do-for",
     "https://www.getdbt.com/blog/are-you-ready-for-the-dbt-fusion-engine",
+    "https://www.getdbt.com/blog/data-stack-trusted-ai",
     "https://www.getdbt.com/blog/data-transformations-for-machine-learning",
     "https://www.getdbt.com/blog/dbt-labs-named-snowflake-data-integration-product-partner-of-the-year",
     "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means",
@@ -1073,22 +1076,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7468211947021332482",
-    "last_posted_at_utc": "2026-06-04T08:08:01.049535+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7468246907421630467",
+    "last_posted_at_utc": "2026-06-04T10:26:56.387636+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "New Power Query experience in Power BI Desktop (Preview)",
-        "date": "2026-05-21T10:11:00.343518+00:00",
-        "hash_strict": "7f4e5daf2609",
-        "hash_medium": "7ed7456b7df1"
-      },
-      {
-        "title": "Can LLMs Replace Survey Respondents?",
-        "date": "2026-05-21T10:11:00.343652+00:00",
-        "hash_strict": "f66aa4800c3d",
-        "hash_medium": "1ed1e3fba1d1"
-      },
       {
         "title": "Breaking Down Data Silos: A New Path to Making AI-Driven Government a Reality",
         "date": "2026-05-21T14:21:32.986186+00:00",
@@ -1736,6 +1727,24 @@
         "date": "2026-06-04T08:08:01.049457+00:00",
         "hash_strict": "60ddd8e52662",
         "hash_medium": "757b6fc3d055"
+      },
+      {
+        "title": "Schedule notebook runs in Amazon SageMaker Unified Studio",
+        "date": "2026-06-04T10:26:56.387396+00:00",
+        "hash_strict": "004a7cf5e88d",
+        "hash_medium": "ad858e7fc569"
+      },
+      {
+        "title": "I Spent May Evaluating Different Engines for\u00a0OCR",
+        "date": "2026-06-04T10:26:56.387503+00:00",
+        "hash_strict": "3230ad363047",
+        "hash_medium": "363e316ec5f2"
+      },
+      {
+        "title": "Building a data stack for trusted AI",
+        "date": "2026-06-04T10:26:56.387577+00:00",
+        "hash_strict": "21dab24ea6fc",
+        "hash_medium": "9a108665b6e9"
       }
     ]
   }
