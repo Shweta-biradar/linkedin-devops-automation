@@ -453,6 +453,7 @@
     "https://towardsdatascience.com/five-questions-about-chronos-2-the-time-series-foundation-model/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
+    "https://towardsdatascience.com/fpn-paper-walkthrough-leveraging-the-internal-pyramid/",
     "https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/",
     "https://towardsdatascience.com/from-dashboards-to-decisions-rethinking-data-analytics-in-the-age-of-ai/",
     "https://towardsdatascience.com/from-data-analyst-to-data-engineer-my-12-month-self-study-roadmap/",
@@ -524,6 +525,7 @@
     "https://towardsdatascience.com/introducing-the-agent-toolkit-for-amazon-web-services/",
     "https://towardsdatascience.com/introduction-to-lean-for-programmers/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
+    "https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
@@ -797,6 +799,7 @@
     "https://www.kdnuggets.com/7-essential-openclaw-skills-you-need-right-now",
     "https://www.kdnuggets.com/7-opencode-plugins-that-make-ai-coding-more-powerful",
     "https://www.kdnuggets.com/7-python-eda-tricks-to-find-and-fix-data-issues",
+    "https://www.kdnuggets.com/7-steps-to-mastering-time-series-analysis-with-python",
     "https://www.kdnuggets.com/7-under-the-radar-python-libraries-for-scalable-feature-engineering",
     "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
     "https://www.kdnuggets.com/analytics-patterns-every-data-scientist-should-master",
@@ -1076,9 +1079,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7468246907421630467",
-    "last_posted_at_utc": "2026-06-04T10:26:56.387636+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7468304619484364800",
+    "last_posted_at_utc": "2026-06-04T14:16:15.946306+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "Breaking Down Data Silos: A New Path to Making AI-Driven Government a Reality",
@@ -1745,6 +1748,24 @@
         "date": "2026-06-04T10:26:56.387577+00:00",
         "hash_strict": "21dab24ea6fc",
         "hash_medium": "9a108665b6e9"
+      },
+      {
+        "title": "7 Steps to Mastering Time Series Analysis with Python",
+        "date": "2026-06-04T14:16:15.946059+00:00",
+        "hash_strict": "af57fbabfa18",
+        "hash_medium": "c24b197c4bab"
+      },
+      {
+        "title": "FPN Paper Walkthrough: Leveraging the Internal\u00a0Pyramid",
+        "date": "2026-06-04T14:16:15.946160+00:00",
+        "hash_strict": "686350b6ad5d",
+        "hash_medium": "26c5b636ad69"
+      },
+      {
+        "title": "Is an Online Master\u2019s Degree in AI a Good Idea?",
+        "date": "2026-06-04T14:16:15.946249+00:00",
+        "hash_strict": "79b1e756563d",
+        "hash_medium": "a374e0b3ca5c"
       }
     ]
   }
