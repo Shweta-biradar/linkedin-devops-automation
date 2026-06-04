@@ -60,6 +60,7 @@
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
+    "https://aws.amazon.com/blogs/database/accelerating-developer-productivity-in-the-agentic-ai-era-with-amazon-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/ai-native-full-stack-web-apps-with-vercel-and-aws-databases/",
     "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/",
     "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/",
@@ -82,10 +83,14 @@
     "https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/",
     "https://aws.amazon.com/blogs/database/how-amazon-documentdb-on-aws-graviton4-r8g-instances-delivers-63-better-sysbench-benchmark-results/",
     "https://aws.amazon.com/blogs/database/how-hoteltrader-cut-inter-az-cost-95-and-latency-by-49-with-valkey-glide-on-amazon-elasticache/",
+    "https://aws.amazon.com/blogs/database/implementing-real-time-change-data-capture-with-debezium-for-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/",
     "https://aws.amazon.com/blogs/database/improving-generative-ai-accuracy-with-vector-and-graph-search-hybrid-queries/",
+    "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-bloom-pg_trgm-and-pg_bigm/",
+    "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-sp-gist-btree_gin-and-btree_gist/",
     "https://aws.amazon.com/blogs/database/knowing-when-new-open-source-database-engine-versions-release-on-amazon-aurora-and-amazon-rds/",
     "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/",
     "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/",
+    "https://aws.amazon.com/blogs/database/migrating-data-from-oracle-to-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/nine-entertainments-journey-achieving-98-cost-savings-with-amazon-elasticache-serverless-for-valkey/",
     "https://aws.amazon.com/blogs/database/optimize-costs-in-amazon-aurora/",
     "https://aws.amazon.com/blogs/database/preserving-custom-domain-names-for-amazon-rds-for-db2/",
@@ -127,6 +132,7 @@
     "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
     "https://blog.qualys.com/category/product-tech",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
@@ -1067,46 +1073,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7467968595210383366",
-    "last_posted_at_utc": "2026-06-03T16:01:01.434490+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7468211947021332482",
+    "last_posted_at_utc": "2026-06-04T08:08:01.049535+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Power BI May 2026 Feature Summary",
-        "date": "2026-05-21T07:07:41.356542+00:00",
-        "hash_strict": "72e4ec1c0800",
-        "hash_medium": "f37492db6b9c"
-      },
-      {
-        "title": "Best SQL Courses in 2026 (Ranked and Compared )",
-        "date": "2026-05-21T07:07:41.356671+00:00",
-        "hash_strict": "da2ca4f23abc",
-        "hash_medium": "04cd6aded13c"
-      },
-      {
-        "title": "Optimizing AI Agent Planning with Operations Research and Data Science",
-        "date": "2026-05-21T07:07:41.356742+00:00",
-        "hash_strict": "daaad1e8e9ff",
-        "hash_medium": "7c0c6702dd74"
-      },
-      {
-        "title": "Anonymizing Production Data for Data Science with Mimesis",
-        "date": "2026-05-21T07:07:41.356799+00:00",
-        "hash_strict": "08bc23eeda48",
-        "hash_medium": "29db4363d2c1"
-      },
-      {
-        "title": "Get dbt certified. Stay certified. Stay ahead.",
-        "date": "2026-05-21T07:07:41.356841+00:00",
-        "hash_strict": "cfbaeafae47e",
-        "hash_medium": "43d35839c55c"
-      },
-      {
-        "title": "Are you ready for the dbt Fusion engine?",
-        "date": "2026-05-21T07:07:41.356882+00:00",
-        "hash_strict": "229e4d61be5a",
-        "hash_medium": "acd110d8a033"
-      },
       {
         "title": "New Power Query experience in Power BI Desktop (Preview)",
         "date": "2026-05-21T10:11:00.343518+00:00",
@@ -1730,6 +1700,42 @@
         "date": "2026-06-03T16:01:01.434418+00:00",
         "hash_strict": "511b13f782c7",
         "hash_medium": "a0a95989e55f"
+      },
+      {
+        "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (SP-GiST, Btree_Gin and Btree_Gist)",
+        "date": "2026-06-04T08:08:01.049066+00:00",
+        "hash_strict": "5b4811eda2f4",
+        "hash_medium": "0a04e0b105fe"
+      },
+      {
+        "title": "Implementing real-time change data capture with Debezium for Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL",
+        "date": "2026-06-04T08:08:01.049187+00:00",
+        "hash_strict": "cdcde8756b94",
+        "hash_medium": "d3746d0d9933"
+      },
+      {
+        "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (Bloom, pg_trgm, and pg_bigm)",
+        "date": "2026-06-04T08:08:01.049259+00:00",
+        "hash_strict": "5b4811eda2f4",
+        "hash_medium": "0a04e0b105fe"
+      },
+      {
+        "title": "Accelerating developer productivity in the agentic AI era with Amazon Aurora PostgreSQL",
+        "date": "2026-06-04T08:08:01.049330+00:00",
+        "hash_strict": "6870cc3a2b4d",
+        "hash_medium": "6101c2d43b2f"
+      },
+      {
+        "title": "Migrating data from Oracle to Amazon Aurora DSQL",
+        "date": "2026-06-04T08:08:01.049396+00:00",
+        "hash_strict": "8dff8db1623a",
+        "hash_medium": "87a5035de29b"
+      },
+      {
+        "title": "Copilot in web modeling (Preview)",
+        "date": "2026-06-04T08:08:01.049457+00:00",
+        "hash_strict": "60ddd8e52662",
+        "hash_medium": "757b6fc3d055"
       }
     ]
   }
