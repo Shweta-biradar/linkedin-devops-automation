@@ -1,9 +1,9 @@
 {
-  "total_posts": 334,
-  "posts_today": 3,
-  "last_post_date": "2026-06-04",
+  "total_posts": 335,
+  "posts_today": 1,
+  "last_post_date": "2026-06-05",
   "formats_used": {
-    "case_study": 39,
+    "case_study": 40,
     "deep_dive": 27,
     "lessons": 53,
     "digest": 204,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 115,
+    "aws.amazon.com": 118,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 300,
-    "www.snowflake.com": 104,
+    "towardsdatascience.com": 302,
+    "www.snowflake.com": 105,
     "kdnuggets.com": 66,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,18 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-06",
-      "time": "2026-05-06T06:18:37.451420+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-06",
       "time": "2026-05-06T09:15:54.492074+00:00",
@@ -1179,14 +1167,28 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-05",
+      "time": "2026-06-05T07:55:01.915947+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 307,
-  "last_post_content": "\ud83d\udcca Data-driven insights for engineering teams.\nTop teams separate signal from noise in modern infrastructure. Insights below.\n\nKey developments:\n1. 7 Steps to Mastering Time Series Analysis with Python\nContext: This article breaks down 7 key steps to help you analyze and forecast time series data with Python.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.kdnuggets.com/7-steps-to-mastering-time-series-analysis-with-python\n\n2. FPN Paper Walkthrough: Leveraging the Internal Pyramid\nContext: Understanding how FPN allows deep learning models detecting small objects and how to implement it from scratch The post FPN Paper Walkthrough: Leveraging the Internal Pyramid...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/fpn-paper-walkthrough-leveraging-the-internal-pyramid/\n\n3. Is an Online Master\u2019s Degree in AI a Good Idea?\nContext: A look at the real-world value of online graduate AI programs, combining hard data with firsthand experience of a big tech machine learning engineer The post Is an Online...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?\n\n#SAPHANA #Airflow #Alteryx #PowerBI #SQL #Insights #DataAnalyst",
-  "last_post_format": "digest",
+  "posts_created": 308,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: Accelerate SQL development with SageMaker Data Agent in Query Editor\n\nThe story: In this post, you learn how to use Data Agent in Query Editor to explore data, build multi-step analyses, recover from errors, and summarize results using a public education...\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Feature flags decouple deployment risk from feature risk\n\u2611\ufe0f Pipeline as code prevents configuration drift and bus factor issues\n\u2611\ufe0f Track results and optimize\n\nHow do you handle deployment rollbacks at scale?\n\n#DataVisualization #SQL #SSIS #Analytics #Python #Automation #MLOps\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://aws.amazon.com/blogs/big-data/accelerate-sql-development-with-sagemaker-data-agent-in-query-editor/\n\n#SSAS #SSIS #DataAnalyst #DBT #DataWarehouse #Databricks #BigQuery",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "kdnuggets.com",
+    "aws.amazon.com",
+    "www.snowflake.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-04T14:16:15.951029+00:00"
+  "last_post_timestamp": "2026-06-05T07:55:01.917304+00:00"
 }

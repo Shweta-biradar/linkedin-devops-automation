@@ -4,6 +4,7 @@
     "https://aws.amazon.com/blogs/big-data/a-guide-to-airflow-worker-pool-optimization-in-amazon-mwaa/",
     "https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/",
     "https://aws.amazon.com/blogs/big-data/a-systematic-approach-to-benchmarking-sql-processing-engines-on-aws/",
+    "https://aws.amazon.com/blogs/big-data/accelerate-sql-development-with-sagemaker-data-agent-in-query-editor/",
     "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
     "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
@@ -17,6 +18,7 @@
     "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/",
+    "https://aws.amazon.com/blogs/big-data/build-governance-dashboards-for-amazon-sagemaker-catalog-with-amazon-quick/",
     "https://aws.amazon.com/blogs/big-data/build-streaming-applications-on-amazon-managed-service-for-apache-flink-with-ai-assisted-guidance/",
     "https://aws.amazon.com/blogs/big-data/capture-data-lineage-of-amazon-emr-spark-jobs-into-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
@@ -47,6 +49,7 @@
     "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
     "https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/",
+    "https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/",
     "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
     "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
     "https://aws.amazon.com/blogs/big-data/schedule-notebook-runs-in-amazon-sagemaker-unified-studio/",
@@ -451,6 +454,7 @@
     "https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/",
     "https://towardsdatascience.com/exploring-patterns-of-survival-from-the-titanic-dataset/",
     "https://towardsdatascience.com/five-questions-about-chronos-2-the-time-series-foundation-model/",
+    "https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/",
     "https://towardsdatascience.com/follow-the-ai-footpaths/",
     "https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/",
     "https://towardsdatascience.com/fpn-paper-walkthrough-leveraging-the-internal-pyramid/",
@@ -500,6 +504,7 @@
     "https://towardsdatascience.com/how-to-make-claude-code-validate-its-own-work/",
     "https://towardsdatascience.com/how-to-maximize-openais-codex/",
     "https://towardsdatascience.com/how-to-measure-ai-value/",
+    "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
     "https://towardsdatascience.com/how-to-safely-run-coding-agents/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
@@ -891,6 +896,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/multimodal-analytics-ai-video-audio-images",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/next-gen-data-engineering-snowflake-features",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/observe-acquisition-ai-powered-observability",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/openai-snowflake-business-native-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/openflow-connector-oracle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/pliable-ai-analytics-smbs",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/production-ml-workflows",
@@ -1079,58 +1085,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7468304619484364800",
-    "last_posted_at_utc": "2026-06-04T14:16:15.946306+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7468571066894831616",
+    "last_posted_at_utc": "2026-06-05T07:55:01.913449+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Breaking Down Data Silos: A New Path to Making AI-Driven Government a Reality",
-        "date": "2026-05-21T14:21:32.986186+00:00",
-        "hash_strict": "8a1c120ce927",
-        "hash_medium": "d068fe65e85b"
-      },
-      {
-        "title": "Benders\u2019 Decomposition 101: How to Crack Open a Stochastic Program That\u2019s Too Big to Swallow Whole",
-        "date": "2026-05-21T14:21:32.986317+00:00",
-        "hash_strict": "822d7ce3a003",
-        "hash_medium": "9afdcacc3213"
-      },
-      {
-        "title": "Prompt Engineering Isn\u2019t Enough \u2014 I Built a Control Layer That Works in Production",
-        "date": "2026-05-21T14:21:32.986403+00:00",
-        "hash_strict": "93fcf5c8d6d8",
-        "hash_medium": "9fe99d49adff"
-      },
-      {
-        "title": "Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights",
-        "date": "2026-05-22T07:04:17.651202+00:00",
-        "hash_strict": "a3bd61094904",
-        "hash_medium": "0e85024ccf6f"
-      },
-      {
-        "title": "Automate deployment of data and AI applications with Amazon SageMaker Unified Studio CI/CD CLI",
-        "date": "2026-05-22T07:04:17.651344+00:00",
-        "hash_strict": "2ca9ed35ac2a",
-        "hash_medium": "b94b26423810"
-      },
-      {
-        "title": "Power BI Tenant Migration: Trade-offs, risks, and realities",
-        "date": "2026-05-22T07:04:17.651412+00:00",
-        "hash_strict": "e7a8dde83329",
-        "hash_medium": "2e4f01f698f0"
-      },
-      {
-        "title": "3 Claude Skills Every Data Scientist Needs in 2026",
-        "date": "2026-05-22T07:04:17.651458+00:00",
-        "hash_strict": "f0b9716868d1",
-        "hash_medium": "50f932ca6206"
-      },
-      {
-        "title": "LLM Themes Are Not Observations",
-        "date": "2026-05-22T07:04:17.651501+00:00",
-        "hash_strict": "b27d0406016c",
-        "hash_medium": "62b03d70dea8"
-      },
       {
         "title": "Amazon Aurora MySQL 8.4 is now generally available",
         "date": "2026-05-22T09:57:41.141669+00:00",
@@ -1766,6 +1724,42 @@
         "date": "2026-06-04T14:16:15.946249+00:00",
         "hash_strict": "79b1e756563d",
         "hash_medium": "a374e0b3ca5c"
+      },
+      {
+        "title": "Query Amazon Redshift using natural language with Kiro",
+        "date": "2026-06-05T07:55:01.912837+00:00",
+        "hash_strict": "543284dfada9",
+        "hash_medium": "b81fb22e543e"
+      },
+      {
+        "title": "Build governance dashboards for Amazon SageMaker Catalog with Amazon Quick",
+        "date": "2026-06-05T07:55:01.912985+00:00",
+        "hash_strict": "02ec3266f082",
+        "hash_medium": "bd9d6e5bcaec"
+      },
+      {
+        "title": "Accelerate SQL development with SageMaker Data Agent in Query Editor",
+        "date": "2026-06-05T07:55:01.913126+00:00",
+        "hash_strict": "be7f65de52f7",
+        "hash_medium": "262679c02cc8"
+      },
+      {
+        "title": "OpenAI and Snowflake: The Future of Business-Native AI",
+        "date": "2026-06-05T07:55:01.913212+00:00",
+        "hash_strict": "0976fd03621a",
+        "hash_medium": "86f563c2717d"
+      },
+      {
+        "title": "Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model",
+        "date": "2026-06-05T07:55:01.913309+00:00",
+        "hash_strict": "ff9e5c201b5f",
+        "hash_medium": "fcfba60570c3"
+      },
+      {
+        "title": "How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI",
+        "date": "2026-06-05T07:55:01.913382+00:00",
+        "hash_strict": "314f5d0546c5",
+        "hash_medium": "333dc9f9e09f"
       }
     ]
   }
