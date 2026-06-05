@@ -400,6 +400,7 @@
     "https://towardsdatascience.com/aliasing-in-audio-easily-explained-from-wagon-wheels-to-waveforms/",
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
+    "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/",
     "https://towardsdatascience.com/batch-or-stream-the-ethernal-data-processing-dilemma/",
@@ -498,6 +499,7 @@
     "https://towardsdatascience.com/how-to-effectively-review-claude-code-output/",
     "https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/",
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
+    "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
     "https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
@@ -1088,16 +1090,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7468611106911985664",
-    "last_posted_at_utc": "2026-06-05T10:34:08.211940+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7468664631654428673",
+    "last_posted_at_utc": "2026-06-05T14:06:50.021509+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "The Hidden Bottleneck in Quantum Machine Learning: Getting Data into a Quantum Computer",
-        "date": "2026-05-22T13:43:12.844198+00:00",
-        "hash_strict": "80e6c927a8b4",
-        "hash_medium": "37c9717f2c9b"
-      },
       {
         "title": "How Amazon is moving to integrate catalogs to improve data discovery with Amazon SageMaker",
         "date": "2026-05-23T06:24:14.138095+00:00",
@@ -1769,6 +1765,18 @@
         "date": "2026-06-05T10:34:08.211879+00:00",
         "hash_strict": "a6dbe400af79",
         "hash_medium": "795d3e322876"
+      },
+      {
+        "title": "How to Fine-Tune an SLM for Emotion Recognition",
+        "date": "2026-06-05T14:06:50.021317+00:00",
+        "hash_strict": "dbc63cdecd87",
+        "hash_medium": "cfeac70256c8"
+      },
+      {
+        "title": "Automate Writing Your LLM Prompts",
+        "date": "2026-06-05T14:06:50.021440+00:00",
+        "hash_strict": "078a43510b1a",
+        "hash_medium": "19500fcf60cf"
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
-  "total_posts": 336,
-  "posts_today": 2,
+  "total_posts": 337,
+  "posts_today": 3,
   "last_post_date": "2026-06-05",
   "formats_used": {
-    "case_study": 40,
+    "case_study": 41,
     "deep_dive": 27,
     "lessons": 53,
     "digest": 205,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 303,
+    "towardsdatascience.com": 305,
     "www.snowflake.com": 106,
     "kdnuggets.com": 66,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-06",
-      "time": "2026-05-06T13:12:20.310125+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-05-07",
       "time": "2026-05-07T06:26:53.077835+00:00",
@@ -1180,15 +1171,22 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-05",
+      "time": "2026-06-05T14:06:50.023519+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 309,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nAutomation architects drive efficiency and scale across industries.\n\nSignal vs noise:\n1. Unlock license mobility with Bring Your Own Media on fully managed Amazon RDS for SQL Server\nContext: In this post, you learn how to upload your SQL Server installation media to Amazon Simple Storage Service (Amazon S3) and launch a BYOM instance.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/unlock-license-mobility-with-bring-your-own-media-on-fully-managed-amazon-rds-for-sql-server/\n\n2. LGND AI is the 2026 Snowflake Startup Challenge winner\nContext: Learn how LGND is working to make Earth imagery queryable and expand its use in AI, agents, apps and more.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-challenge-2026-winner\n\n3. Small Data, Big Maps: Training Geospatial ML Models When Samples Are Scarce\nContext: When images, mosaics, and data cubes exist in abundance, but field labels are expensive, rare, and imperfect. The post Small Data, Big Maps: Training Geospatial ML Models When...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/small-data-big-maps-training-geospatial-ml-models-when-samples-are-scarce/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Qlik #Oracle #SSAS #Dashboard",
-  "last_post_format": "digest",
+  "posts_created": 310,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\ud83d\udd0d Breakdown: How to Fine-Tune an SLM for Emotion Recognition\n\n\ud83d\udcca Data: Python tutorial for fine-tuning a Mistral Small 3.1 on an imbalanced training set to classify 15 emotions in social media communication The post How to Fine-Tune an SLM for...\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f Track results and optimize\n\nHow do you balance technical debt with new feature development?\n\n#MySQL #PostgreSQL #SSIS #Airflow #Insights #Analytics #BigQuery\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/\n\n#AdvancedAnalytics #MLOps #DataWarehouse #SQL #Tableau #Dashboard #SAPHANA",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "www.snowflake.com",
-    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-05T10:34:08.215006+00:00"
+  "last_post_timestamp": "2026-06-05T14:06:50.024845+00:00"
 }
