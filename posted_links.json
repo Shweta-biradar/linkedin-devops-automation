@@ -100,6 +100,7 @@
     "https://aws.amazon.com/blogs/database/preserving-custom-domain-names-for-amazon-rds-for-db2/",
     "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
+    "https://aws.amazon.com/blogs/database/unlock-license-mobility-with-bring-your-own-media-on-fully-managed-amazon-rds-for-sql-server/",
     "https://aws.amazon.com/blogs/database/upgrade-strategies-for-amazon-rds-for-mysql-8-0-to-8-4/",
     "https://aws.amazon.com/blogs/database/valkey-turns-two/",
     "https://aws.amazon.com/blogs/database/zero-downtime-dynamodb-construct-migration-from-table-to-tablev2-with-cdk-orphan/",
@@ -593,6 +594,7 @@
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
     "https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/",
+    "https://towardsdatascience.com/small-data-big-maps-training-geospatial-ml-models-when-samples-are-scarce/",
     "https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference/",
     "https://towardsdatascience.com/solving-the-human-training-data-problem/",
     "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
@@ -922,6 +924,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-veeva-agentic-ai-life-sciences",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-ventures-backs-bedrock-data",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-challenge-2026-winner",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-ddi",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-streamkap",
@@ -1085,22 +1088,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7468571066894831616",
-    "last_posted_at_utc": "2026-06-05T07:55:01.913449+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7468611106911985664",
+    "last_posted_at_utc": "2026-06-05T10:34:08.211940+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Amazon Aurora MySQL 8.4 is now generally available",
-        "date": "2026-05-22T09:57:41.141669+00:00",
-        "hash_strict": "37e10d65f899",
-        "hash_medium": "54b62c82409f"
-      },
-      {
-        "title": "Knowing when new open source database engine versions release on Amazon Aurora and Amazon RDS",
-        "date": "2026-05-22T09:57:41.141795+00:00",
-        "hash_strict": "78bed5bc9fb3",
-        "hash_medium": "2a8327a0927f"
-      },
       {
         "title": "The Hidden Bottleneck in Quantum Machine Learning: Getting Data into a Quantum Computer",
         "date": "2026-05-22T13:43:12.844198+00:00",
@@ -1760,6 +1751,24 @@
         "date": "2026-06-05T07:55:01.913382+00:00",
         "hash_strict": "314f5d0546c5",
         "hash_medium": "333dc9f9e09f"
+      },
+      {
+        "title": "Unlock license mobility with Bring Your Own Media on fully managed Amazon RDS for SQL Server",
+        "date": "2026-06-05T10:34:08.211677+00:00",
+        "hash_strict": "9a2d156e1ea6",
+        "hash_medium": "4a790f2c9767"
+      },
+      {
+        "title": "Small Data, Big Maps: Training Geospatial ML Models When Samples Are Scarce",
+        "date": "2026-06-05T10:34:08.211793+00:00",
+        "hash_strict": "a5df4b828375",
+        "hash_medium": "d8e6b0102598"
+      },
+      {
+        "title": "LGND AI is the 2026 Snowflake Startup Challenge winner",
+        "date": "2026-06-05T10:34:08.211879+00:00",
+        "hash_strict": "a6dbe400af79",
+        "hash_medium": "795d3e322876"
       }
     ]
   }

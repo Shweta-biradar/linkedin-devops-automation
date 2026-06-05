@@ -1,12 +1,12 @@
 {
-  "total_posts": 335,
-  "posts_today": 1,
+  "total_posts": 336,
+  "posts_today": 2,
   "last_post_date": "2026-06-05",
   "formats_used": {
     "case_study": 40,
     "deep_dive": 27,
     "lessons": 53,
-    "digest": 204,
+    "digest": 205,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 118,
+    "aws.amazon.com": 119,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 302,
-    "www.snowflake.com": 105,
+    "towardsdatascience.com": 303,
+    "www.snowflake.com": 106,
     "kdnuggets.com": 66,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-06",
-      "time": "2026-05-06T09:15:54.492074+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-06",
       "time": "2026-05-06T13:12:20.310125+00:00",
@@ -1180,15 +1170,25 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-05",
+      "time": "2026-06-05T10:34:08.213934+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 308,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: Accelerate SQL development with SageMaker Data Agent in Query Editor\n\nThe story: In this post, you learn how to use Data Agent in Query Editor to explore data, build multi-step analyses, recover from errors, and summarize results using a public education...\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Feature flags decouple deployment risk from feature risk\n\u2611\ufe0f Pipeline as code prevents configuration drift and bus factor issues\n\u2611\ufe0f Track results and optimize\n\nHow do you handle deployment rollbacks at scale?\n\n#DataVisualization #SQL #SSIS #Analytics #Python #Automation #MLOps\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://aws.amazon.com/blogs/big-data/accelerate-sql-development-with-sagemaker-data-agent-in-query-editor/\n\n#SSAS #SSIS #DataAnalyst #DBT #DataWarehouse #Databricks #BigQuery",
-  "last_post_format": "case_study",
+  "posts_created": 309,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nAutomation architects drive efficiency and scale across industries.\n\nSignal vs noise:\n1. Unlock license mobility with Bring Your Own Media on fully managed Amazon RDS for SQL Server\nContext: In this post, you learn how to upload your SQL Server installation media to Amazon Simple Storage Service (Amazon S3) and launch a BYOM instance.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/unlock-license-mobility-with-bring-your-own-media-on-fully-managed-amazon-rds-for-sql-server/\n\n2. LGND AI is the 2026 Snowflake Startup Challenge winner\nContext: Learn how LGND is working to make Earth imagery queryable and expand its use in AI, agents, apps and more.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-challenge-2026-winner\n\n3. Small Data, Big Maps: Training Geospatial ML Models When Samples Are Scarce\nContext: When images, mosaics, and data cubes exist in abundance, but field labels are expensive, rare, and imperfect. The post Small Data, Big Maps: Training Geospatial ML Models When...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/small-data-big-maps-training-geospatial-ml-models-when-samples-are-scarce/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhat did we miss?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Qlik #Oracle #SSAS #Dashboard",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com",
     "www.snowflake.com",
+    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-05T07:55:01.917304+00:00"
+  "last_post_timestamp": "2026-06-05T10:34:08.215006+00:00"
 }
