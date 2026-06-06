@@ -551,6 +551,7 @@
     "https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/",
     "https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/",
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
+    "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
     "https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
@@ -621,6 +622,7 @@
     "https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/",
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
+    "https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-policy-vs-off-policy/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
     "https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/",
     "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
@@ -936,6 +938,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-data-foundation-ai-healthcare-government",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/unifying-enterprise-ai-lifecycle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/universal-ai-catalog-data-governance",
+    "https://www.udacity.com/blog/how-to-build-an-ai-agent-step-by-step-with-python/",
     "https://www.udacity.com/blog/why-product-discovery-matters-more-than-ever-in-the-age-of-ai/",
     "https://www.welivesecurity.com/en/eset-research/revisiting-cve-2025-50165-critical-flaw-windows-imaging-component/",
     "https://www.welivesecurity.com/en/scams/brush-online-fraud-what-are-brushing-scams-how-do-i-stay-safe/",
@@ -1090,22 +1093,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7468664631654428673",
-    "last_posted_at_utc": "2026-06-05T14:06:50.021509+00:00",
+    "last_post_id": "urn:li:share:7468916062319837184",
+    "last_posted_at_utc": "2026-06-06T06:45:55.217467+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "How Amazon is moving to integrate catalogs to improve data discovery with Amazon SageMaker",
-        "date": "2026-05-23T06:24:14.138095+00:00",
-        "hash_strict": "c591127585eb",
-        "hash_medium": "965eed593d54"
-      },
-      {
-        "title": "Enterprise Document Intelligence: A Series on Building RAG Brick by Brick, from Minimal to Corpus scale",
-        "date": "2026-05-23T06:24:14.138227+00:00",
-        "hash_strict": "20bdc4e55569",
-        "hash_medium": "386bc20c8902"
-      },
       {
         "title": "Power BI May 2026 Feature Summary",
         "date": "2026-05-23T08:37:09.793596+00:00",
@@ -1777,6 +1768,24 @@
         "date": "2026-06-05T14:06:50.021440+00:00",
         "hash_strict": "078a43510b1a",
         "hash_medium": "19500fcf60cf"
+      },
+      {
+        "title": "My AI Couldn\u2019t See My Files \u2014 I Built a Zero-Dependency MCP Server",
+        "date": "2026-06-06T06:45:55.217195+00:00",
+        "hash_strict": "6656e3063bf9",
+        "hash_medium": "b22620e3b000"
+      },
+      {
+        "title": "How to Build an AI Agent: Step-by-Step with Python",
+        "date": "2026-06-06T06:45:55.217336+00:00",
+        "hash_strict": "18e6580b191a",
+        "hash_medium": "3e7c7ebac999"
+      },
+      {
+        "title": "The Fundamental Choice in Reinforcement Learning: On\u2011Policy vs. Off\u2011Policy",
+        "date": "2026-06-06T06:45:55.217411+00:00",
+        "hash_strict": "b61778eca1e8",
+        "hash_medium": "8fa23de2d0d6"
       }
     ]
   }

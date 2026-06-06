@@ -1,9 +1,9 @@
 {
-  "total_posts": 337,
-  "posts_today": 3,
-  "last_post_date": "2026-06-05",
+  "total_posts": 338,
+  "posts_today": 1,
+  "last_post_date": "2026-06-06",
   "formats_used": {
-    "case_study": 41,
+    "case_study": 42,
     "deep_dive": 27,
     "lessons": 53,
     "digest": 205,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 305,
+    "towardsdatascience.com": 307,
     "www.snowflake.com": 106,
     "kdnuggets.com": 66,
     "techcrunch.com": 6,
@@ -48,7 +48,7 @@
     "powerbi.microsoft.com": 14,
     "www.dbt.com": 15,
     "www.dataquest.io": 18,
-    "www.udacity.com": 1
+    "www.udacity.com": 2
   },
   "errors": [
     {
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-07",
-      "time": "2026-05-07T06:26:53.077835+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.snowflake.com",
-        "www.dbt.com",
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-07",
       "time": "2026-05-07T09:14:19.549761+00:00",
@@ -1180,13 +1167,24 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-06",
+      "time": "2026-06-06T06:45:55.219807+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "www.udacity.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 310,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\ud83d\udd0d Breakdown: How to Fine-Tune an SLM for Emotion Recognition\n\n\ud83d\udcca Data: Python tutorial for fine-tuning a Mistral Small 3.1 on an imbalanced training set to classify 15 emotions in social media communication The post How to Fine-Tune an SLM for...\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f Track results and optimize\n\nHow do you balance technical debt with new feature development?\n\n#MySQL #PostgreSQL #SSIS #Airflow #Insights #Analytics #BigQuery\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/\n\n#AdvancedAnalytics #MLOps #DataWarehouse #SQL #Tableau #Dashboard #SAPHANA",
+  "posts_created": 311,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: How to Build an AI Agent: Step-by-Step with Python\n\nThe story: ...\nYou write a Python script that calls an LLM. You give it a system prompt, feed in a user question, and get a response back. It looks like an agent. It sounds like an agent. Then someone asks it to check whether an order shipped, and it confidently makes up a tracking number. Most tutorials [&#8230;]\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Deployment frequency correlates with stability when done right\n\u2611\ufe0f CI/CD observability matters as much as application observability\n\u2611\ufe0f Track results and optimize\n\nWhat pipeline failures taught you the most?\n\n#Databricks #BusinessIntelligence #DataAnalyst #ETL #BigQuery #Reporting #Insights\n\n\u2753 How would you adapt this for your team?\n\n\ud83d\udd17 https://www.udacity.com/blog/how-to-build-an-ai-agent-step-by-step-with-python/\n\n#Automation #BusinessIntelligence #Oracle #Python #SQL #Looker #Reporting",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "www.udacity.com"
   ],
-  "last_post_timestamp": "2026-06-05T14:06:50.024845+00:00"
+  "last_post_timestamp": "2026-06-06T06:45:55.221023+00:00"
 }
