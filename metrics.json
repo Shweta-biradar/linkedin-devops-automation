@@ -1,9 +1,9 @@
 {
-  "total_posts": 341,
-  "posts_today": 1,
+  "total_posts": 342,
+  "posts_today": 2,
   "last_post_date": "2026-06-07",
   "formats_used": {
-    "case_study": 42,
+    "case_study": 43,
     "deep_dive": 27,
     "lessons": 56,
     "digest": 205,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 121,
+    "aws.amazon.com": 122,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-08",
-      "time": "2026-05-08T08:10:20.836346+00:00",
-      "format": "case_study",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-08",
       "time": "2026-05-08T12:53:06.011128+00:00",
@@ -1175,13 +1164,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-07",
+      "time": "2026-06-07T09:47:47.370291+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 314,
-  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: Who Will Win the 2026 Soccer World Cup?\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#SSAS #Reporting #SAPHANA #Tableau #PowerBI #Looker #Alteryx\n\n\u2753 Which lesson resonates most with your team?\n\n#BITools #ETL #Automation #Airflow #AdvancedAnalytics #DataVisualization #Tableau",
-  "last_post_format": "lessons",
+  "posts_created": 315,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nPlatform architects surface key case studies.\n\n\u23f1\ufe0f Timeline: Query Amazon Redshift using natural language with Kiro\n\n\u2192 Challenge: In this post, you learn how to set up Kiro with the Amazon Redshift MCP server to query your data warehouse using natural language.\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Production systems teach you things documentation never will\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhich operational practices have scaled best for your team?\n\n#AdvancedAnalytics #BusinessIntelligence #SSAS #BITools #Reporting #Airflow #CloudData\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/\n\n#Oracle #CloudData #Qlik #SSRS #PostgreSQL #BusinessIntelligence #Alteryx",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-07T07:42:37.326939+00:00"
+  "last_post_timestamp": "2026-06-07T09:47:47.371475+00:00"
 }
