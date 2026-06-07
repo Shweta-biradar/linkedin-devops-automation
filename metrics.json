@@ -1,11 +1,11 @@
 {
-  "total_posts": 340,
-  "posts_today": 3,
-  "last_post_date": "2026-06-06",
+  "total_posts": 341,
+  "posts_today": 1,
+  "last_post_date": "2026-06-07",
   "formats_used": {
     "case_study": 42,
     "deep_dive": 27,
-    "lessons": 55,
+    "lessons": 56,
     "digest": 205,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 307,
+    "towardsdatascience.com": 309,
     "www.snowflake.com": 106,
     "kdnuggets.com": 66,
     "techcrunch.com": 6,
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-08",
-      "time": "2026-05-08T05:40:47.960738+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-05-08",
       "time": "2026-05-08T08:10:20.836346+00:00",
@@ -1177,13 +1166,22 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-07",
+      "time": "2026-06-07T07:42:37.325730+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 313,
-  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: Query Amazon Redshift using natural language with Kiro\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#MySQL #Statistics #Reporting #SAPHANA #BigQuery #Oracle #SSAS\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Qlik #Python #CloudData #DataAnalyst #DataVisualization #Analytics #Statistics",
+  "posts_created": 314,
+  "last_post_content": "\ud83d\ude80 The breakthroughs that mattered.\nAnalytics experts reveal what sticks.\n\nTopic: Who Will Win the 2026 Soccer World Cup?\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#SSAS #Reporting #SAPHANA #Tableau #PowerBI #Looker #Alteryx\n\n\u2753 Which lesson resonates most with your team?\n\n#BITools #ETL #Automation #Airflow #AdvancedAnalytics #DataVisualization #Tableau",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-06T12:51:46.157316+00:00"
+  "last_post_timestamp": "2026-06-07T07:42:37.326939+00:00"
 }

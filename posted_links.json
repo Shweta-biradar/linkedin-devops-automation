@@ -553,6 +553,7 @@
     "https://towardsdatascience.com/multi-attribute-decision-matrices-done-right/",
     "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
     "https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/",
+    "https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/",
@@ -662,6 +663,7 @@
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
+    "https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/",
     "https://towardsdatascience.com/why-ai-is-not-stealing-your-job/",
     "https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/",
     "https://towardsdatascience.com/why-care-about-promp-caching-in-llms/",
@@ -1093,28 +1095,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7469008131235250178",
-    "last_posted_at_utc": "2026-06-06T12:51:46.154116+00:00",
+    "last_post_id": "urn:li:share:7469292719740190720",
+    "last_posted_at_utc": "2026-06-07T07:42:37.323766+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "From Prototype to Profit: Solving the Agentic Token-Burn Problem",
-        "date": "2026-05-24T06:53:41.428201+00:00",
-        "hash_strict": "c579361b84b3",
-        "hash_medium": "b825ee59d3d9"
-      },
-      {
-        "title": "Beyond the Scroll: How Social Media Algorithms Shape Your Reality",
-        "date": "2026-05-24T06:53:41.428354+00:00",
-        "hash_strict": "2f999e266bd4",
-        "hash_medium": "c663c0bb95e4"
-      },
-      {
-        "title": "How to Mathematically Choose the Optimal Bins for Your Histogram",
-        "date": "2026-05-24T06:53:41.428433+00:00",
-        "hash_strict": "b7f7a0d4fb4e",
-        "hash_medium": "43d6d4156b25"
-      },
       {
         "title": "Power BI May 2026 Feature Summary",
         "date": "2026-05-24T09:08:36.858534+00:00",
@@ -1774,6 +1758,18 @@
         "date": "2026-06-06T12:51:46.154007+00:00",
         "hash_strict": "543284dfada9",
         "hash_medium": "b81fb22e543e"
+      },
+      {
+        "title": "My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist\u2019s Honest Account of Discovering Diffrax",
+        "date": "2026-06-07T07:42:37.323510+00:00",
+        "hash_strict": "8173eb4d7df0",
+        "hash_medium": "afa086d46529"
+      },
+      {
+        "title": "Who Will Win the 2026 Soccer World Cup?",
+        "date": "2026-06-07T07:42:37.323656+00:00",
+        "hash_strict": "f01fd3b2b14d",
+        "hash_medium": "341ab6653f1e"
       }
     ]
   }
