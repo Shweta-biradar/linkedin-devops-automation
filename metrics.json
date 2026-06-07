@@ -1,9 +1,9 @@
 {
-  "total_posts": 342,
-  "posts_today": 2,
+  "total_posts": 343,
+  "posts_today": 3,
   "last_post_date": "2026-06-07",
   "formats_used": {
-    "case_study": 43,
+    "case_study": 44,
     "deep_dive": 27,
     "lessons": 56,
     "digest": 205,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 122,
+    "aws.amazon.com": 123,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-08",
-      "time": "2026-05-08T12:53:06.011128+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-09",
       "time": "2026-05-09T06:06:45.809045+00:00",
@@ -1172,13 +1164,21 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-07",
+      "time": "2026-06-07T13:00:29.443694+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 315,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nPlatform architects surface key case studies.\n\n\u23f1\ufe0f Timeline: Query Amazon Redshift using natural language with Kiro\n\n\u2192 Challenge: In this post, you learn how to set up Kiro with the Amazon Redshift MCP server to query your data warehouse using natural language.\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Production systems teach you things documentation never will\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhich operational practices have scaled best for your team?\n\n#AdvancedAnalytics #BusinessIntelligence #SSAS #BITools #Reporting #Airflow #CloudData\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/\n\n#Oracle #CloudData #Qlik #SSRS #PostgreSQL #BusinessIntelligence #Alteryx",
+  "posts_created": 316,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udcda Case: Query Amazon Redshift using natural language with Kiro\n\nThe story: In this post, you learn how to set up Kiro with the Amazon Redshift MCP server to query your data warehouse using natural language.\n\nThe insight: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#BITools #Looker #DBT #Dashboard #Insights #DataAnalyst #Alteryx\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udcda Key resource: https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/\n\n#Dashboard #Python #SAPHANA #PostgreSQL #Qlik #Automation #Looker",
   "last_post_format": "case_study",
   "last_post_sources": [
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-07T09:47:47.371475+00:00"
+  "last_post_timestamp": "2026-06-07T13:00:29.444844+00:00"
 }

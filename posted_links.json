@@ -1095,16 +1095,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7469324218870976512",
-    "last_posted_at_utc": "2026-06-07T09:47:47.368072+00:00",
+    "last_post_id": "urn:li:share:7469372713933938689",
+    "last_posted_at_utc": "2026-06-07T13:00:29.441579+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Power BI May 2026 Feature Summary",
-        "date": "2026-05-24T12:42:01.375860+00:00",
-        "hash_strict": "72e4ec1c0800",
-        "hash_medium": "f37492db6b9c"
-      },
       {
         "title": "The Ultimate Beginners\u2019 Guide to Building an AI Agent in Python",
         "date": "2026-05-25T08:08:03.880578+00:00",
@@ -1768,6 +1762,12 @@
       {
         "title": "Query Amazon Redshift using natural language with Kiro",
         "date": "2026-06-07T09:47:47.367970+00:00",
+        "hash_strict": "543284dfada9",
+        "hash_medium": "b81fb22e543e"
+      },
+      {
+        "title": "Query Amazon Redshift using natural language with Kiro",
+        "date": "2026-06-07T13:00:29.441473+00:00",
         "hash_strict": "543284dfada9",
         "hash_medium": "b81fb22e543e"
       }
