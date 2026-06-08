@@ -596,6 +596,7 @@
     "https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/",
     "https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/",
     "https://towardsdatascience.com/self-hosting-your-first-llm/",
+    "https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/",
     "https://towardsdatascience.com/silicon-darwinism-why-scarcity-is-the-source-of-true-intelligence/",
     "https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/",
     "https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/",
@@ -638,6 +639,7 @@
     "https://towardsdatascience.com/the-new-experience-of-coding-with-ai/",
     "https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/",
     "https://towardsdatascience.com/the-next-frontier-of-ai-in-production-is-chaos-engineering/",
+    "https://towardsdatascience.com/the-polynomial-that-fixed-30-years-of-cloth-simulation/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
@@ -797,6 +799,7 @@
     "https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success",
     "https://www.kdnuggets.com/5-more-must-know-python-concepts",
     "https://www.kdnuggets.com/5-must-know-python-concepts",
+    "https://www.kdnuggets.com/5-must-know-python-concepts-for-ai-engineers",
     "https://www.kdnuggets.com/5-must-know-python-concepts-for-data-scientists",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
@@ -1097,28 +1100,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7469711892660375552",
-    "last_posted_at_utc": "2026-06-08T11:28:15.931660+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7469764795471429633",
+    "last_posted_at_utc": "2026-06-08T14:58:28.990831+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "From TF-IDF to Transformers: Implementing Four Generations of Semantic Search",
-        "date": "2026-05-25T14:23:57.229691+00:00",
-        "hash_strict": "29eba0906a3c",
-        "hash_medium": "092b2e194f07"
-      },
-      {
-        "title": "5 More Must-Know Python Concepts",
-        "date": "2026-05-25T14:23:57.229819+00:00",
-        "hash_strict": "a3beb3bfb565",
-        "hash_medium": "2836818931a4"
-      },
-      {
-        "title": "Introducing the Agent Toolkit for Amazon Web\u00a0Services",
-        "date": "2026-05-25T14:23:57.229903+00:00",
-        "hash_strict": "4e0c146ebac9",
-        "hash_medium": "5c62da03dc16"
-      },
       {
         "title": "Can AI Write Your\u00a0Code?",
         "date": "2026-05-26T07:02:29.212161+00:00",
@@ -1772,6 +1757,24 @@
         "date": "2026-06-08T11:28:15.931539+00:00",
         "hash_strict": "543284dfada9",
         "hash_medium": "b81fb22e543e"
+      },
+      {
+        "title": "The Polynomial That Fixed 30 Years of Cloth Simulation",
+        "date": "2026-06-08T14:58:28.990541+00:00",
+        "hash_strict": "86929bfea269",
+        "hash_medium": "2bb8eabf115a"
+      },
+      {
+        "title": "5 Must-Know Python Concepts for AI Engineers",
+        "date": "2026-06-08T14:58:28.990664+00:00",
+        "hash_strict": "d6a615047885",
+        "hash_medium": "cbe9b3ba3b99"
+      },
+      {
+        "title": "Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks",
+        "date": "2026-06-08T14:58:28.990753+00:00",
+        "hash_strict": "c33b0d748f6b",
+        "hash_medium": "4de929077c90"
       }
     ]
   }

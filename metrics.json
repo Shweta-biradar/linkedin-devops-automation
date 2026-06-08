@@ -1,10 +1,10 @@
 {
-  "total_posts": 345,
-  "posts_today": 2,
+  "total_posts": 346,
+  "posts_today": 3,
   "last_post_date": "2026-06-08",
   "formats_used": {
     "case_study": 45,
-    "deep_dive": 27,
+    "deep_dive": 28,
     "lessons": 57,
     "digest": 205,
     "lessons_learned": 2,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 311,
+    "towardsdatascience.com": 313,
     "www.snowflake.com": 106,
-    "kdnuggets.com": 66,
+    "kdnuggets.com": 67,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 14,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-09",
-      "time": "2026-05-09T12:09:49.088184+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-05-10",
       "time": "2026-05-10T06:26:28.813976+00:00",
@@ -1168,13 +1160,24 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-08",
+      "time": "2026-06-08T14:58:28.994329+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 318,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nStrategic thinkers analyze production outcomes.\n\n\u23f1\ufe0f Timeline: Query Amazon Redshift using natural language with Kiro\n\n\u2192 Challenge: In this post, you learn how to set up Kiro with the Amazon Redshift MCP server to query your data warehouse using natural language.\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you balance technical debt with new feature development?\n\n#Alteryx #Oracle #BigQuery #CloudData #SQL #MySQL #Automation\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udca1 Dive deeper into this topic: https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/\n\n#Alteryx #MLOps #DataVisualization #Python #BITools #Analytics #BusinessIntelligence",
-  "last_post_format": "case_study",
+  "posts_created": 319,
+  "last_post_content": "\u26a1 Focused learning for teams.\nPlatform architects surface deep insights.\n\n\ud83c\udfaf 5 Must-Know Python Concepts for AI Engineers\n\nIn this article, we will explore five critical Python concepts that every AI engineer must know to build scalable, secure, and robust systems.\n\n\ud83d\udca1 Deployment frequency correlates with stability when done right\n\nWhich testing strategy gives you the most confidence?\n\n#SSAS #Python #DBT #BITools #CloudData #Looker #SSIS\n\n\u2753 What would you add to this deep dive?\n\n#SQL #Snowflake #Databricks #Redshift #DataAnalyst #Oracle #Tableau",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-06-08T11:28:15.934809+00:00"
+  "last_post_timestamp": "2026-06-08T14:58:28.995424+00:00"
 }
