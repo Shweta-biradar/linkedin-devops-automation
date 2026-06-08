@@ -1097,16 +1097,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7469667140300615680",
-    "last_posted_at_utc": "2026-06-08T08:30:26.238207+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7469711892660375552",
+    "last_posted_at_utc": "2026-06-08T11:28:15.931660+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights",
-        "date": "2026-05-25T10:58:38.004664+00:00",
-        "hash_strict": "a3bd61094904",
-        "hash_medium": "0e85024ccf6f"
-      },
       {
         "title": "From TF-IDF to Transformers: Implementing Four Generations of Semantic Search",
         "date": "2026-05-25T14:23:57.229691+00:00",
@@ -1772,6 +1766,12 @@
         "date": "2026-06-08T08:30:26.238112+00:00",
         "hash_strict": "bb55ba2da6cf",
         "hash_medium": "9995b626dc9f"
+      },
+      {
+        "title": "Query Amazon Redshift using natural language with Kiro",
+        "date": "2026-06-08T11:28:15.931539+00:00",
+        "hash_strict": "543284dfada9",
+        "hash_medium": "b81fb22e543e"
       }
     ]
   }

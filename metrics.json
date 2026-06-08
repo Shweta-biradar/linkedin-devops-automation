@@ -1,9 +1,9 @@
 {
-  "total_posts": 344,
-  "posts_today": 1,
+  "total_posts": 345,
+  "posts_today": 2,
   "last_post_date": "2026-06-08",
   "formats_used": {
-    "case_study": 44,
+    "case_study": 45,
     "deep_dive": 27,
     "lessons": 57,
     "digest": 205,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 123,
+    "aws.amazon.com": 124,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-09",
-      "time": "2026-05-09T08:17:30.947964+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-09",
       "time": "2026-05-09T12:09:49.088184+00:00",
@@ -1168,13 +1160,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-08",
+      "time": "2026-06-08T11:28:15.933661+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 317,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nAnalytics experts reveal what sticks.\n\nTopic: Building a Multi-Agent System in Python\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#PowerBI #Alteryx #PostgreSQL #SSRS #ETL #SAPHANA #Insights\n\n\u2753 What would you add to this list?\n\n#PostgreSQL #Automation #SAPHANA #Oracle #CloudData #Databricks #BITools",
-  "last_post_format": "lessons",
+  "posts_created": 318,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nStrategic thinkers analyze production outcomes.\n\n\u23f1\ufe0f Timeline: Query Amazon Redshift using natural language with Kiro\n\n\u2192 Challenge: In this post, you learn how to set up Kiro with the Amazon Redshift MCP server to query your data warehouse using natural language.\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you balance technical debt with new feature development?\n\n#Alteryx #Oracle #BigQuery #CloudData #SQL #MySQL #Automation\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udca1 Dive deeper into this topic: https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/\n\n#Alteryx #MLOps #DataVisualization #Python #BITools #Analytics #BusinessIntelligence",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-08T08:30:26.241471+00:00"
+  "last_post_timestamp": "2026-06-08T11:28:15.934809+00:00"
 }
