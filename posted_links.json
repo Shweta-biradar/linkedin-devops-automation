@@ -415,6 +415,7 @@
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-a-like-for-like-solution-for-stores-in-power-bi/",
+    "https://towardsdatascience.com/building-a-multi-agent-system-in-python/",
     "https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/",
     "https://towardsdatascience.com/building-a-production-grade-multi-node-training-pipeline-with-pytorch-ddp/",
     "https://towardsdatascience.com/building-an-ai-agent-to-detect-and-handle-anomalies-in-time-series-data/",
@@ -652,6 +653,7 @@
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
+    "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
     "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-is-a-data-agent/",
@@ -1095,22 +1097,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7469372713933938689",
-    "last_posted_at_utc": "2026-06-07T13:00:29.441579+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7469667140300615680",
+    "last_posted_at_utc": "2026-06-08T08:30:26.238207+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "The Ultimate Beginners\u2019 Guide to Building an AI Agent in Python",
-        "date": "2026-05-25T08:08:03.880578+00:00",
-        "hash_strict": "2c15584acb36",
-        "hash_medium": "f6b62fad0514"
-      },
-      {
-        "title": "Beyond the Model: Why Data Scientists Must Embrace APIs and API Documentation",
-        "date": "2026-05-25T08:08:03.880729+00:00",
-        "hash_strict": "8b8e6483b307",
-        "hash_medium": "b6ba7e84337a"
-      },
       {
         "title": "Agentic AI in Financial Services: How Nasdaq eVestment Drives Faster Investment Insights",
         "date": "2026-05-25T10:58:38.004664+00:00",
@@ -1770,6 +1760,18 @@
         "date": "2026-06-07T13:00:29.441473+00:00",
         "hash_strict": "543284dfada9",
         "hash_medium": "b81fb22e543e"
+      },
+      {
+        "title": "Building a Multi-Agent System in Python",
+        "date": "2026-06-08T08:30:26.237943+00:00",
+        "hash_strict": "6470f9e32193",
+        "hash_medium": "9f1e4c9f5dfa"
+      },
+      {
+        "title": "We Should Train AI to Betray Its Users",
+        "date": "2026-06-08T08:30:26.238112+00:00",
+        "hash_strict": "bb55ba2da6cf",
+        "hash_medium": "9995b626dc9f"
       }
     ]
   }
