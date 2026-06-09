@@ -43,6 +43,7 @@
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/",
+    "https://aws.amazon.com/blogs/big-data/migrate-jms-applications-to-amazon-mq-for-rabbitmq-with-minimal-changes/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/opensearch-agent-skills-bring-built-in-intelligence-to-your-agentic-ide/",
     "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/",
@@ -61,6 +62,7 @@
     "https://aws.amazon.com/blogs/big-data/streamline-your-amazon-redshift-maintenance-event-notifications-with-amazon-simple-notification-service/",
     "https://aws.amazon.com/blogs/big-data/streamlined-monitoring-and-debugging-for-amazon-emr-on-ec2/",
     "https://aws.amazon.com/blogs/big-data/unified-observability-in-amazon-opensearch-service-metrics-traces-and-ai-agent-debugging-in-a-single-interface/",
+    "https://aws.amazon.com/blogs/big-data/unlock-cost-savings-with-incremental-snapshot-billing-for-amazon-redshift-serverless-and-amazon-redshift-rg/",
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
@@ -136,6 +138,7 @@
     "https://blog.jetbrains.com/teamcity/2026/02/beyond-the-build-log/",
     "https://blog.jetbrains.com/teamcity/2026/03/first-jenkins-teamcity-migration/",
     "https://blog.qualys.com/category/product-tech",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/AI-Powered-Power-BI-reporting-From-design-to-deployment-with/ba-p/5190703",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
@@ -502,6 +505,7 @@
     "https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/",
     "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
     "https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/",
+    "https://towardsdatascience.com/how-to-keep-quantum-information-alive-for-machine-learning/",
     "https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/",
     "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
     "https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/",
@@ -529,6 +533,7 @@
     "https://towardsdatascience.com/i-spent-may-evaluating-different-engines-for-ocr/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
+    "https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
     "https://towardsdatascience.com/introducing-gemini-embeddings-2-preview/",
     "https://towardsdatascience.com/introducing-the-agent-toolkit-for-amazon-web-services/",
@@ -892,6 +897,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/dbt-fusion-available-snowflake",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/declarative-snowflake-pipelines-dcm-projects-cortex-code",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/deploy-snowpark-python-snowflake-coco",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/finance-variance-analysis-workflow",
@@ -1100,22 +1106,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7469764795471429633",
-    "last_posted_at_utc": "2026-06-08T14:58:28.990831+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7470008226005086208",
+    "last_posted_at_utc": "2026-06-09T07:05:47.350922+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Can AI Write Your\u00a0Code?",
-        "date": "2026-05-26T07:02:29.212161+00:00",
-        "hash_strict": "1445204efa30",
-        "hash_medium": "a9664f55dc76"
-      },
-      {
-        "title": "I Built My First ETL Pipeline as a Complete Beginner. Here\u2019s How.",
-        "date": "2026-05-26T07:02:29.212278+00:00",
-        "hash_strict": "ae79c6323c76",
-        "hash_medium": "5bd7df18072d"
-      },
       {
         "title": "Can AI Write Your\u00a0Code?",
         "date": "2026-05-26T10:35:08.085155+00:00",
@@ -1775,6 +1769,42 @@
         "date": "2026-06-08T14:58:28.990753+00:00",
         "hash_strict": "c33b0d748f6b",
         "hash_medium": "4de929077c90"
+      },
+      {
+        "title": "AI-Powered Power BI reporting: From design to deployment with agent skills (Preview)",
+        "date": "2026-06-09T07:05:47.350530+00:00",
+        "hash_strict": "de77b74b1ab4",
+        "hash_medium": "c3101308cb6b"
+      },
+      {
+        "title": "Deploy Snowpark Python via Snowflake CoCo",
+        "date": "2026-06-09T07:05:47.350659+00:00",
+        "hash_strict": "5265aae4005a",
+        "hash_medium": "ea3b4ebb7929"
+      },
+      {
+        "title": "Unlock cost savings with incremental snapshot billing for Amazon Redshift Serverless and Amazon Redshift RG",
+        "date": "2026-06-09T07:05:47.350732+00:00",
+        "hash_strict": "8da05817b2f3",
+        "hash_medium": "756caf589a9f"
+      },
+      {
+        "title": "Increase Recommendation Systems\u2019 Precision with LLMs, Using Python",
+        "date": "2026-06-09T07:05:47.350784+00:00",
+        "hash_strict": "8dd4c5383bc3",
+        "hash_medium": "c310fcb46ba3"
+      },
+      {
+        "title": "Migrate JMS applications to Amazon MQ for RabbitMQ with minimal changes",
+        "date": "2026-06-09T07:05:47.350835+00:00",
+        "hash_strict": "10ac27c2a1bb",
+        "hash_medium": "b50c06608f92"
+      },
+      {
+        "title": "How to Keep Quantum Information Alive for Machine Learning",
+        "date": "2026-06-09T07:05:47.350880+00:00",
+        "hash_strict": "3b07bdff0f82",
+        "hash_medium": "1a32bf9887b4"
       }
     ]
   }
