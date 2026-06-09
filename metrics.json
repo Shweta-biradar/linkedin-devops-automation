@@ -1,11 +1,11 @@
 {
-  "total_posts": 347,
-  "posts_today": 1,
+  "total_posts": 348,
+  "posts_today": 2,
   "last_post_date": "2026-06-09",
   "formats_used": {
     "case_study": 46,
     "deep_dive": 28,
-    "lessons": 57,
+    "lessons": 58,
     "digest": 205,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 315,
+    "towardsdatascience.com": 317,
     "www.snowflake.com": 107,
     "kdnuggets.com": 67,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 15,
-    "www.dbt.com": 15,
+    "www.dbt.com": 16,
     "www.dataquest.io": 18,
     "www.udacity.com": 2
   },
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-10",
-      "time": "2026-05-10T08:28:36.241912+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-05-10",
       "time": "2026-05-10T12:11:09.507661+00:00",
@@ -1174,16 +1166,24 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-09",
+      "time": "2026-06-09T10:11:45.909552+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 320,
-  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nCloud pioneers share implementation lessons.\n\n\ud83d\udcda Case: AI-Powered Power BI reporting: From design to deployment with agent skills (Preview)\n\nThe story: AI powered Power BI reporting skills is a collection of multiple skills that enables AI agents to automate report creation, from designing pages to publishing to Fabric.\n\nThe insight: improves delivery speed without sacrificing safety.\n\nCore principles:\n\u2022 Pipeline as code prevents configuration drift and bus factor issues\n\u2022 Progressive delivery beats blue-green for complex systems\n\u2022 Continuous improvement through measurement\n\nWhich testing strategy gives you the most confidence?\n\n#SSIS #Python #Snowflake #SAPHANA #Statistics #ETL #Airflow\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcda Key resource: https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/AI-Powered-Power-BI-reporting-From-design-to-deployment-with/ba-p/5190703\n\n#PowerBI #BusinessIntelligence #DataAnalytics #MLOps #CloudData #Insights #DataAnalyst",
-  "last_post_format": "case_study",
+  "posts_created": 321,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: 4 New Techniques to Maximize Claude Code\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Alteryx #DBT #SSRS #Python #PowerBI #SSAS #PostgreSQL\n\n\u2753 How do you apply these lessons?\n\n#DataWarehouse #Alteryx #AdvancedAnalytics #SSRS #PostgreSQL #Looker #Oracle",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "powerbi.microsoft.com",
-    "www.snowflake.com",
-    "towardsdatascience.com",
-    "aws.amazon.com"
+    "www.dbt.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-09T07:05:47.353909+00:00"
+  "last_post_timestamp": "2026-06-09T10:11:45.912152+00:00"
 }

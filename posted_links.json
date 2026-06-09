@@ -384,6 +384,7 @@
     "https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/",
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
     "https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/",
+    "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
     "https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/",
     "https://towardsdatascience.com/5-ways-for-variable-discretization/",
     "https://towardsdatascience.com/649627-2/",
@@ -430,6 +431,7 @@
     "https://towardsdatascience.com/can-ai-solve-failures-in-your-supply-chain/",
     "https://towardsdatascience.com/can-ai-write-your-code/",
     "https://towardsdatascience.com/can-llms-replace-survey-respondents/",
+    "https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/",
     "https://towardsdatascience.com/causal-inference-is-eating-machine-learning/",
     "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/",
     "https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/",
@@ -763,6 +765,7 @@
     "https://www.getdbt.com/blog/ship-smarter-agents-in-production-with-dbt-agent-skills",
     "https://www.getdbt.com/blog/the-dbt-developer-agent-is-now-in-preview",
     "https://www.getdbt.com/blog/what-we-announced-at-snowflake-summit-and-why-it-matters",
+    "https://www.getdbt.com/blog/your-ai-isn-t-broken-your-data-model-is",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
     "https://www.hashicorp.com/blog/new-year-new-cloud-strategy-5-shifts-cloud-leaders-will-be-making-in-2026",
     "https://www.infoq.com/articles/evolution-backend-streaming-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1106,9 +1109,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470008226005086208",
-    "last_posted_at_utc": "2026-06-09T07:05:47.350922+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7470055028456607744",
+    "last_posted_at_utc": "2026-06-09T10:11:45.907524+00:00",
+    "last_format": "lessons",
     "topic_titles": [
       {
         "title": "Can AI Write Your\u00a0Code?",
@@ -1805,6 +1808,24 @@
         "date": "2026-06-09T07:05:47.350880+00:00",
         "hash_strict": "3b07bdff0f82",
         "hash_medium": "1a32bf9887b4"
+      },
+      {
+        "title": "Can Machine Learning Predict the World Cup?",
+        "date": "2026-06-09T10:11:45.907270+00:00",
+        "hash_strict": "6873a2e97949",
+        "hash_medium": "7cd1149cca57"
+      },
+      {
+        "title": "4 New Techniques to Maximize Claude Code",
+        "date": "2026-06-09T10:11:45.907392+00:00",
+        "hash_strict": "6643ec873673",
+        "hash_medium": "1169b4a0000f"
+      },
+      {
+        "title": "Your AI isn't broken. Your data model is.",
+        "date": "2026-06-09T10:11:45.907470+00:00",
+        "hash_strict": "7a00cbd0a315",
+        "hash_medium": "8f6490e7dfc5"
       }
     ]
   }
