@@ -544,6 +544,7 @@
     "https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
+    "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/",
     "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
@@ -632,6 +633,7 @@
     "https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/",
     "https://towardsdatascience.com/the-death-of-the-everything-prompt-googles-move-toward-structured-ai/",
     "https://towardsdatascience.com/the-evolving-role-of-the-ml-engineer/",
+    "https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-full-breakdown/",
     "https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-policy-vs-off-policy/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
     "https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/",
@@ -1109,16 +1111,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470055028456607744",
-    "last_posted_at_utc": "2026-06-09T10:11:45.907524+00:00",
+    "last_post_id": "urn:li:share:7470112241833414656",
+    "last_posted_at_utc": "2026-06-09T13:59:06.587547+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Can AI Write Your\u00a0Code?",
-        "date": "2026-05-26T10:35:08.085155+00:00",
-        "hash_strict": "1445204efa30",
-        "hash_medium": "a9664f55dc76"
-      },
       {
         "title": "Stop Using LLMs Like Giant Problem\u00a0Solvers",
         "date": "2026-05-26T14:16:25.143504+00:00",
@@ -1826,6 +1822,18 @@
         "date": "2026-06-09T10:11:45.907470+00:00",
         "hash_strict": "7a00cbd0a315",
         "hash_medium": "8f6490e7dfc5"
+      },
+      {
+        "title": "The Exact ML Project I\u2019d Build to Get Hired in 2026",
+        "date": "2026-06-09T13:59:06.587316+00:00",
+        "hash_strict": "610f4b09c0bc",
+        "hash_medium": "1ae6b94e220b"
+      },
+      {
+        "title": "Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines",
+        "date": "2026-06-09T13:59:06.587453+00:00",
+        "hash_strict": "cae0b2a4f28d",
+        "hash_medium": "844a4a05fca0"
       }
     ]
   }

@@ -1,11 +1,11 @@
 {
-  "total_posts": 348,
-  "posts_today": 2,
+  "total_posts": 349,
+  "posts_today": 3,
   "last_post_date": "2026-06-09",
   "formats_used": {
     "case_study": 46,
     "deep_dive": 28,
-    "lessons": 58,
+    "lessons": 59,
     "digest": 205,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 317,
+    "towardsdatascience.com": 319,
     "www.snowflake.com": 107,
     "kdnuggets.com": 67,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-10",
-      "time": "2026-05-10T12:11:09.507661+00:00",
-      "format": "case_study",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-05-11",
       "time": "2026-05-11T06:56:29.691412+00:00",
@@ -1176,14 +1168,22 @@
         "towardsdatascience.com",
         "www.dbt.com"
       ]
+    },
+    {
+      "date": "2026-06-09",
+      "time": "2026-06-09T13:59:06.589636+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 321,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: 4 New Techniques to Maximize Claude Code\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat's a lesson that changed how you work?\n\n#Alteryx #DBT #SSRS #Python #PowerBI #SSAS #PostgreSQL\n\n\u2753 How do you apply these lessons?\n\n#DataWarehouse #Alteryx #AdvancedAnalytics #SSRS #PostgreSQL #Looker #Oracle",
+  "posts_created": 322,
+  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nAnalytics experts reveal what sticks.\n\nTopic: The Exact ML Project I\u2019d Build to Get Hired in 2026\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#SSAS #SAPHANA #SSRS #Tableau #SSIS #BITools #Looker\n\n\u2753 What would you add to this list?\n\n#Python #DataVisualization #Redshift #Tableau #DataWarehouse #Statistics #Looker",
   "last_post_format": "lessons",
   "last_post_sources": [
-    "www.dbt.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-09T10:11:45.912152+00:00"
+  "last_post_timestamp": "2026-06-09T13:59:06.590837+00:00"
 }
