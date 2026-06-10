@@ -1,10 +1,10 @@
 {
-  "total_posts": 349,
-  "posts_today": 3,
-  "last_post_date": "2026-06-09",
+  "total_posts": 350,
+  "posts_today": 1,
+  "last_post_date": "2026-06-10",
   "formats_used": {
     "case_study": 46,
-    "deep_dive": 28,
+    "deep_dive": 29,
     "lessons": 59,
     "digest": 205,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 126,
+    "aws.amazon.com": 129,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -42,12 +42,12 @@
     "martinfowler.com": 2,
     "towardsdatascience.com": 319,
     "www.snowflake.com": 107,
-    "kdnuggets.com": 67,
+    "kdnuggets.com": 68,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 15,
+    "powerbi.microsoft.com": 16,
     "www.dbt.com": 16,
-    "www.dataquest.io": 18,
+    "www.dataquest.io": 19,
     "www.udacity.com": 2
   },
   "errors": [
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-11",
-      "time": "2026-05-11T06:56:29.691412+00:00",
-      "format": "case_study",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-11",
       "time": "2026-05-11T10:09:35.637490+00:00",
@@ -1177,13 +1168,29 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-10",
+      "time": "2026-06-10T07:55:17.643378+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com",
+        "powerbi.microsoft.com",
+        "kdnuggets.com",
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 322,
-  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nAnalytics experts reveal what sticks.\n\nTopic: The Exact ML Project I\u2019d Build to Get Hired in 2026\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#SSAS #SAPHANA #SSRS #Tableau #SSIS #BITools #Looker\n\n\u2753 What would you add to this list?\n\n#Python #DataVisualization #Redshift #Tableau #DataWarehouse #Statistics #Looker",
-  "last_post_format": "lessons",
+  "posts_created": 323,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nCloud pioneers spotlight critical lessons.\n\n\ud83c\udfaf Announcing general availability of Apache Spark 4.0 on Amazon EMR\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: With this general availability announcement, Spark 4.0 is now supported across Amazon EMR Serverless, Amazon EMR on EC2, and Amazon EMR on EKS deployment options.\n2\ufe0f\u20e3 Why it matters: improves delivery speed without sacrificing safety.\n3\ufe0f\u20e3 Key insight: Multi-cloud means multi-complexity - go deep before going wide\n\nWhich cloud services create the most operational overhead?\n\n#Snowflake #DataAnalyst #PowerBI #Looker #MLOps #Insights #PostgreSQL\n\n\u2753 What would you add to this deep dive?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DBT #SSAS #MLOps #Analytics",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.dataquest.io",
+    "kdnuggets.com",
+    "aws.amazon.com",
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-06-09T13:59:06.590837+00:00"
+  "last_post_timestamp": "2026-06-10T07:55:17.644586+00:00"
 }

@@ -10,11 +10,13 @@
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
     "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
+    "https://aws.amazon.com/blogs/big-data/announcing-general-availability-of-apache-spark-4-0-on-amazon-emr/",
     "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/",
     "https://aws.amazon.com/blogs/big-data/automate-deployment-of-data-and-ai-applications-with-amazon-sagemaker-unified-studio-ci-cd-cli/",
     "https://aws.amazon.com/blogs/big-data/automating-data-classification-in-amazon-sagemaker-catalog-using-an-ai-agent/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-amazon-redshift-lambda-user-defined-functions/",
     "https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-amazon-opensearch-service-domains/",
+    "https://aws.amazon.com/blogs/big-data/beyond-json-blobs-implementing-the-variant-data-type-in-apache-iceberg-v3/",
     "https://aws.amazon.com/blogs/big-data/build-a-data-pipeline-from-google-search-console-to-amazon-redshift-using-aws-glue/",
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/",
@@ -63,6 +65,7 @@
     "https://aws.amazon.com/blogs/big-data/streamlined-monitoring-and-debugging-for-amazon-emr-on-ec2/",
     "https://aws.amazon.com/blogs/big-data/unified-observability-in-amazon-opensearch-service-metrics-traces-and-ai-agent-debugging-in-a-single-interface/",
     "https://aws.amazon.com/blogs/big-data/unlock-cost-savings-with-incremental-snapshot-billing-for-amazon-redshift-serverless-and-amazon-redshift-rg/",
+    "https://aws.amazon.com/blogs/big-data/upgrade-pyspark-from-spark-3-5-to-spark-4-0-with-aws-spark-upgrade-agent/",
     "https://aws.amazon.com/blogs/big-data/use-amazon-msk-connect-and-iceberg-kafka-connect-to-build-a-real-time-data-lake/",
     "https://aws.amazon.com/blogs/big-data/using-amazon-sagemaker-unified-studio-identity-center-idc-and-iam-based-domains-together/",
     "https://aws.amazon.com/blogs/big-data/zero-etl-integrations-with-amazon-opensearch-service/",
@@ -143,6 +146,7 @@
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-June-2026-Feature-Summary/ba-p/5193264",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
@@ -742,6 +746,7 @@
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
     "https://www.dataquest.io/blog/best-python-courses/",
     "https://www.dataquest.io/blog/best-sql-courses/",
+    "https://www.dataquest.io/blog/build-a-food-ordering-app-with-python/",
     "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
     "https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
@@ -803,6 +808,7 @@
     "https://www.infoq.com/presentations/hierarchical-team/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.infoq.com/presentations/llm-ai-africa/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "https://www.kdnuggets.com/10-github-repositories-for-modern-database-systems-and-tools",
+    "https://www.kdnuggets.com/10-github-repositories-for-web-development-in-python",
     "https://www.kdnuggets.com/10-github-repositories-to-master-openclaw",
     "https://www.kdnuggets.com/10-python-libraries-every-llm-engineer-should-know",
     "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
@@ -1111,46 +1117,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470112241833414656",
-    "last_posted_at_utc": "2026-06-09T13:59:06.587547+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7470383070349680640",
+    "last_posted_at_utc": "2026-06-10T07:55:17.641291+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Stop Using LLMs Like Giant Problem\u00a0Solvers",
-        "date": "2026-05-26T14:16:25.143504+00:00",
-        "hash_strict": "3d412202f416",
-        "hash_medium": "3dd7a1b120d1"
-      },
-      {
-        "title": "Visual Debugging Tools for Machine Learning Workflows",
-        "date": "2026-05-26T14:16:25.143611+00:00",
-        "hash_strict": "66601d0c0b15",
-        "hash_medium": "66fb07b96433"
-      },
-      {
-        "title": "Top 7 Python Libraries for Large-Scale Data Processing",
-        "date": "2026-05-26T14:16:25.143696+00:00",
-        "hash_strict": "c729e9e746e0",
-        "hash_medium": "6ae027059c80"
-      },
-      {
-        "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
-        "date": "2026-05-27T07:50:40.665489+00:00",
-        "hash_strict": "1bb13fc975d3",
-        "hash_medium": "a3812ed1b515"
-      },
-      {
-        "title": "What Is a Data\u00a0Agent?",
-        "date": "2026-05-27T07:50:40.665607+00:00",
-        "hash_strict": "f13387804adb",
-        "hash_medium": "bada2a951f3d"
-      },
-      {
-        "title": "The AI Model Confidence Trap",
-        "date": "2026-05-27T07:50:40.665690+00:00",
-        "hash_strict": "2c51d93a27aa",
-        "hash_medium": "e45bac576889"
-      },
       {
         "title": "Can AI Write Your\u00a0Code?",
         "date": "2026-05-27T10:38:23.055154+00:00",
@@ -1834,6 +1804,42 @@
         "date": "2026-06-09T13:59:06.587453+00:00",
         "hash_strict": "cae0b2a4f28d",
         "hash_medium": "844a4a05fca0"
+      },
+      {
+        "title": "Announcing general availability of Apache Spark 4.0 on Amazon EMR",
+        "date": "2026-06-10T07:55:17.640831+00:00",
+        "hash_strict": "6f9c20852f90",
+        "hash_medium": "56197ba86302"
+      },
+      {
+        "title": "Power BI June 2026 Feature Summary",
+        "date": "2026-06-10T07:55:17.640997+00:00",
+        "hash_strict": "c86eea29f7a7",
+        "hash_medium": "c724f31d6b35"
+      },
+      {
+        "title": "10 GitHub Repositories for Web Development in Python",
+        "date": "2026-06-10T07:55:17.641072+00:00",
+        "hash_strict": "041f65002609",
+        "hash_medium": "c4faf4249772"
+      },
+      {
+        "title": "Project Tutorial: Build a Food Ordering App with Python",
+        "date": "2026-06-10T07:55:17.641127+00:00",
+        "hash_strict": "2bfc86c0b756",
+        "hash_medium": "72d3a535d662"
+      },
+      {
+        "title": "Beyond JSON blobs: Implementing the VARIANT data type in Apache Iceberg V3",
+        "date": "2026-06-10T07:55:17.641181+00:00",
+        "hash_strict": "4cb5def929b6",
+        "hash_medium": "0b97bc34d146"
+      },
+      {
+        "title": "Upgrade PySpark from Spark 3.5 to Spark 4.0 with AWS Spark Upgrade Agent",
+        "date": "2026-06-10T07:55:17.641236+00:00",
+        "hash_strict": "b62901cbff39",
+        "hash_medium": "6d0409987980"
       }
     ]
   }
