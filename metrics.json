@@ -1,9 +1,9 @@
 {
-  "total_posts": 350,
-  "posts_today": 1,
+  "total_posts": 351,
+  "posts_today": 2,
   "last_post_date": "2026-06-10",
   "formats_used": {
-    "case_study": 46,
+    "case_study": 47,
     "deep_dive": 29,
     "lessons": 59,
     "digest": 205,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 129,
+    "aws.amazon.com": 131,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 319,
+    "towardsdatascience.com": 321,
     "www.snowflake.com": 107,
     "kdnuggets.com": 68,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-11",
-      "time": "2026-05-11T10:09:35.637490+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-11",
       "time": "2026-05-11T14:06:16.989581+00:00",
@@ -1181,16 +1173,25 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-10",
+      "time": "2026-06-10T10:42:08.812756+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 323,
-  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nCloud pioneers spotlight critical lessons.\n\n\ud83c\udfaf Announcing general availability of Apache Spark 4.0 on Amazon EMR\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: With this general availability announcement, Spark 4.0 is now supported across Amazon EMR Serverless, Amazon EMR on EC2, and Amazon EMR on EKS deployment options.\n2\ufe0f\u20e3 Why it matters: improves delivery speed without sacrificing safety.\n3\ufe0f\u20e3 Key insight: Multi-cloud means multi-complexity - go deep before going wide\n\nWhich cloud services create the most operational overhead?\n\n#Snowflake #DataAnalyst #PowerBI #Looker #MLOps #Insights #PostgreSQL\n\n\u2753 What would you add to this deep dive?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DBT #SSAS #MLOps #Analytics",
-  "last_post_format": "deep_dive",
+  "posts_created": 324,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Build stateful streaming applications with Apache Spark 4.0 on Amazon EMR Serverless\n\n\ud83d\udcca Data: In this post, we demonstrate how to build a production-ready IoT device monitoring system using Spark 4.0\u2019s transformWithState API on Amazon EMR Serverless.\n\ud83c\udfaf Impact: improves visibility, debugging speed, and reliability.\n\nAction checklist:\n\u2611\ufe0f Cardinality explosion will kill your monitoring budget\n\u2611\ufe0f Alert on symptoms, not causes - let humans do root cause analysis\n\u2611\ufe0f Track results and optimize\n\nHow do you prevent alert fatigue in your team?\n\n#BigQuery #SAPHANA #Snowflake #Oracle #Python #BITools #DataVisualization\n\n\u2753 Would this work in your environment?\n\nFull story: https://aws.amazon.com/blogs/big-data/build-stateful-streaming-applications-with-apache-spark-4-0-on-amazon-emr-serverless/\n\n#Reporting #Dashboard #SSRS #BigQuery #Analytics #MySQL #Qlik",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "www.dataquest.io",
-    "kdnuggets.com",
     "aws.amazon.com",
-    "powerbi.microsoft.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-10T07:55:17.644586+00:00"
+  "last_post_timestamp": "2026-06-10T10:42:08.813945+00:00"
 }

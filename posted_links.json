@@ -11,6 +11,7 @@
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-service-101-t-shirt-size-your-domain-for-e-commerce-search/",
     "https://aws.amazon.com/blogs/big-data/amazon-redshift-dc2-migration-approach-with-a-customer-case-study/",
     "https://aws.amazon.com/blogs/big-data/announcing-general-availability-of-apache-spark-4-0-on-amazon-emr/",
+    "https://aws.amazon.com/blogs/big-data/announcing-spark-connect-on-amazon-emr-serverless-interactive-pyspark-development-anywhere/",
     "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/",
     "https://aws.amazon.com/blogs/big-data/automate-deployment-of-data-and-ai-applications-with-amazon-sagemaker-unified-studio-ci-cd-cli/",
     "https://aws.amazon.com/blogs/big-data/automating-data-classification-in-amazon-sagemaker-catalog-using-an-ai-agent/",
@@ -21,6 +22,7 @@
     "https://aws.amazon.com/blogs/big-data/build-a-trusted-foundation-for-data-and-ai-using-alation-and-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/build-aws-glue-data-quality-pipeline-using-terraform/",
     "https://aws.amazon.com/blogs/big-data/build-governance-dashboards-for-amazon-sagemaker-catalog-with-amazon-quick/",
+    "https://aws.amazon.com/blogs/big-data/build-stateful-streaming-applications-with-apache-spark-4-0-on-amazon-emr-serverless/",
     "https://aws.amazon.com/blogs/big-data/build-streaming-applications-on-amazon-managed-service-for-apache-flink-with-ai-assisted-guidance/",
     "https://aws.amazon.com/blogs/big-data/capture-data-lineage-of-amazon-emr-spark-jobs-into-amazon-sagemaker-unified-studio/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
@@ -387,6 +389,7 @@
     "https://thenewstack.io/with-auto-browse-google-chrome-can-now-surf-the-web-for-you/",
     "https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/",
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
+    "https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/",
     "https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/",
     "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
     "https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/",
@@ -640,6 +643,7 @@
     "https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-full-breakdown/",
     "https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-policy-vs-off-policy/",
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
+    "https://towardsdatascience.com/the-hardware-that-makes-ai-possible/",
     "https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/",
     "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
     "https://towardsdatascience.com/the-joy-of-typing/",
@@ -1117,16 +1121,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470383070349680640",
-    "last_posted_at_utc": "2026-06-10T07:55:17.641291+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7470425062026887169",
+    "last_posted_at_utc": "2026-06-10T10:42:08.810561+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Can AI Write Your\u00a0Code?",
-        "date": "2026-05-27T10:38:23.055154+00:00",
-        "hash_strict": "1445204efa30",
-        "hash_medium": "a9664f55dc76"
-      },
       {
         "title": "They Requested It. I Built It. Nobody Ever Used It.",
         "date": "2026-05-27T14:38:47.617945+00:00",
@@ -1840,6 +1838,30 @@
         "date": "2026-06-10T07:55:17.641236+00:00",
         "hash_strict": "b62901cbff39",
         "hash_medium": "6d0409987980"
+      },
+      {
+        "title": "10 Common RAG Mistakes We Keep Seeing in Production",
+        "date": "2026-06-10T10:42:08.810238+00:00",
+        "hash_strict": "78185f619974",
+        "hash_medium": "f5c40dc399ac"
+      },
+      {
+        "title": "Announcing Spark Connect on Amazon EMR Serverless: Interactive PySpark development, anywhere",
+        "date": "2026-06-10T10:42:08.810356+00:00",
+        "hash_strict": "e018669f2f8c",
+        "hash_medium": "ed8215f2b5ee"
+      },
+      {
+        "title": "Build stateful streaming applications with Apache Spark 4.0 on Amazon EMR Serverless",
+        "date": "2026-06-10T10:42:08.810429+00:00",
+        "hash_strict": "caf395f9db60",
+        "hash_medium": "95a7e88e9112"
+      },
+      {
+        "title": "The Hardware That Makes AI Possible",
+        "date": "2026-06-10T10:42:08.810498+00:00",
+        "hash_strict": "df3c42ea323f",
+        "hash_medium": "868c39a4706a"
       }
     ]
   }
