@@ -76,6 +76,8 @@
     "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/",
     "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/",
     "https://aws.amazon.com/blogs/database/announcing-aggregations-on-amazon-elasticache/",
+    "https://aws.amazon.com/blogs/database/announcing-amazon-rds-for-db2-12-1-with-additional-community-edition/",
+    "https://aws.amazon.com/blogs/database/automate-oracle-pl-sql-to-postgresql-migration-with-amazon-bedrock-and-strands-agents/",
     "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/",
@@ -84,6 +86,8 @@
     "https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-8-0-to-8-4-with-prechecks-blue-green-and-rollback/",
     "https://aws.amazon.com/blogs/database/building-agentic-ai-for-amazon-rds-for-sql-server-with-strands-and-agentcore/",
     "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/",
+    "https://aws.amazon.com/blogs/database/building-python-applications-with-sqlalchemy-and-aurora-dsql/",
+    "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/connect-to-amazon-rds-for-db2-from-your-laptop/",
     "https://aws.amazon.com/blogs/database/create-monitoring-dashboard-for-amazon-rds-for-db2/",
     "https://aws.amazon.com/blogs/database/deploying-amazon-rds-for-db2-using-terraform/",
@@ -104,6 +108,8 @@
     "https://aws.amazon.com/blogs/database/migrating-data-from-oracle-to-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/nine-entertainments-journey-achieving-98-cost-savings-with-amazon-elasticache-serverless-for-valkey/",
     "https://aws.amazon.com/blogs/database/optimize-costs-in-amazon-aurora/",
+    "https://aws.amazon.com/blogs/database/oracle-databaseaws-decoded-determining-the-right-fit-for-your-oracle-workloads/",
+    "https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/preserving-custom-domain-names-for-amazon-rds-for-db2/",
     "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
@@ -1121,9 +1127,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470425062026887169",
-    "last_posted_at_utc": "2026-06-10T10:42:08.810561+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7470484088588681216",
+    "last_posted_at_utc": "2026-06-10T14:36:41.832531+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
       {
         "title": "They Requested It. I Built It. Nobody Ever Used It.",
@@ -1862,6 +1868,42 @@
         "date": "2026-06-10T10:42:08.810498+00:00",
         "hash_strict": "df3c42ea323f",
         "hash_medium": "868c39a4706a"
+      },
+      {
+        "title": "Automate Oracle PL/SQL to PostgreSQL migration with Amazon Bedrock and Strands Agents",
+        "date": "2026-06-10T14:36:41.832088+00:00",
+        "hash_strict": "15dcaa4cf46c",
+        "hash_medium": "50072a687173"
+      },
+      {
+        "title": "Pagination patterns in Amazon Aurora DSQL",
+        "date": "2026-06-10T14:36:41.832238+00:00",
+        "hash_strict": "848034168549",
+        "hash_medium": "584afa410674"
+      },
+      {
+        "title": "Building Python applications with SQLAlchemy and Aurora DSQL",
+        "date": "2026-06-10T14:36:41.832295+00:00",
+        "hash_strict": "f5e8f5647df0",
+        "hash_medium": "d7edb99e57b0"
+      },
+      {
+        "title": "Building type-safe applications with Drizzle ORM in Aurora DSQL",
+        "date": "2026-06-10T14:36:41.832341+00:00",
+        "hash_strict": "f855d817b3c3",
+        "hash_medium": "8383c6701bf5"
+      },
+      {
+        "title": "Oracle Database@AWS decoded: Determining the right fit for your Oracle workloads",
+        "date": "2026-06-10T14:36:41.832389+00:00",
+        "hash_strict": "ebef94d731f1",
+        "hash_medium": "07684f87c41b"
+      },
+      {
+        "title": "Announcing Amazon RDS for Db2 12.1 with additional community edition",
+        "date": "2026-06-10T14:36:41.832469+00:00",
+        "hash_strict": "061022224b6e",
+        "hash_medium": "d07bf1b2e7a9"
       }
     ]
   }
