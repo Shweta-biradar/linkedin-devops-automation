@@ -1,10 +1,10 @@
 {
-  "total_posts": 352,
-  "posts_today": 3,
-  "last_post_date": "2026-06-10",
+  "total_posts": 353,
+  "posts_today": 1,
+  "last_post_date": "2026-06-11",
   "formats_used": {
     "case_study": 47,
-    "deep_dive": 30,
+    "deep_dive": 31,
     "lessons": 59,
     "digest": 205,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 137,
+    "aws.amazon.com": 139,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 321,
-    "www.snowflake.com": 107,
-    "kdnuggets.com": 68,
+    "towardsdatascience.com": 322,
+    "www.snowflake.com": 109,
+    "kdnuggets.com": 69,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 16,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-12",
-      "time": "2026-05-12T06:27:21.542278+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "aws.amazon.com",
-        "kdnuggets.com",
-        "aws.amazon.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-12",
       "time": "2026-05-12T09:19:27.476265+00:00",
@@ -1188,13 +1175,29 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-11",
+      "time": "2026-06-11T08:22:21.143085+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "www.snowflake.com",
+        "kdnuggets.com",
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 325,
-  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: Pagination patterns in Amazon Aurora DSQL\n\nIn this post, you learn three pagination techniques for Aurora DSQL: OFFSET/LIMIT, cursor-based (keyset), and temporal. You implement keyset pagination in SQL and Python, build...\n\n\ud83d\udca1 Deployment frequency correlates with stability when done right\n\nWhich testing strategy gives you the most confidence?\n\n#DataVisualization #SSRS #DataAnalyst #BigQuery #SSAS #Statistics #Oracle\n\n\u2753 What would you add to this deep dive?\n\nContinue reading: https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/\n\n#BigQuery #SAPHANA #DataAnalyst #Automation #Looker #Alteryx #Airflow",
+  "posts_created": 326,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udd0e Focus: Hybrid Tables Just Got Up to 8x Faster\n\nKey points:\n\u2022 Snowflake Hybrid Tables now attain up to 8x higher throughput, 10x faster batch performance and up to 40% cost savings (based on internal benchmarks) with no code changes...\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 System evolution requires continuous learning and adaptation\n\nWhich operational practices have scaled best for your team?\n\n#SQL #Automation #SSIS #CloudData #Reporting #Qlik #Redshift\n\n\u2753 How would you apply this insight?\n\n#AdvancedAnalytics #MLOps #DataWarehouse #PostgreSQL #MySQL #Dashboard #Analytics",
   "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com",
+    "www.snowflake.com",
+    "aws.amazon.com",
+    "kdnuggets.com"
   ],
-  "last_post_timestamp": "2026-06-10T14:36:41.835777+00:00"
+  "last_post_timestamp": "2026-06-11T08:22:21.144310+00:00"
 }

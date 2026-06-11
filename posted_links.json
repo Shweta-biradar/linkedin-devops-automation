@@ -25,6 +25,7 @@
     "https://aws.amazon.com/blogs/big-data/build-stateful-streaming-applications-with-apache-spark-4-0-on-amazon-emr-serverless/",
     "https://aws.amazon.com/blogs/big-data/build-streaming-applications-on-amazon-managed-service-for-apache-flink-with-ai-assisted-guidance/",
     "https://aws.amazon.com/blogs/big-data/capture-data-lineage-of-amazon-emr-spark-jobs-into-amazon-sagemaker-unified-studio/",
+    "https://aws.amazon.com/blogs/big-data/choosing-the-right-workflow-orchestration-service-for-your-use-case-amazon-mwaa-and-aws-step-functions/",
     "https://aws.amazon.com/blogs/big-data/common-streaming-data-enrichment-patterns-in-amazon-kinesis-data-analytics-for-apache-flink/",
     "https://aws.amazon.com/blogs/big-data/create-a-customizable-cross-company-log-lake-part-ii-build-and-add-amazon-bedrock/",
     "https://aws.amazon.com/blogs/big-data/designing-centralized-and-distributed-network-connectivity-patterns-for-amazon-opensearch-serverless-part-1/",
@@ -55,6 +56,7 @@
     "https://aws.amazon.com/blogs/big-data/optimizing-flinks-join-operations-on-amazon-emr-with-alluxio/",
     "https://aws.amazon.com/blogs/big-data/orchestrate-end-to-end-scalable-etl-pipeline-with-amazon-sagemaker-workflows/",
     "https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/",
+    "https://aws.amazon.com/blogs/big-data/real-time-cdc-from-aurora-postgresql-to-amazon-s3-tables-using-debezium-and-firehose/",
     "https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/",
     "https://aws.amazon.com/blogs/big-data/reducing-costs-for-shuffle-heavy-apache-spark-workloads-with-serverless-storage-for-amazon-emr-serverless/",
     "https://aws.amazon.com/blogs/big-data/schedule-notebook-runs-in-amazon-sagemaker-unified-studio/",
@@ -586,6 +588,7 @@
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
+    "https://towardsdatascience.com/physical-ai-what-it-is-and-what-it-is-not/",
     "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
     "https://towardsdatascience.com/point-to-point-and-collective-operations/",
     "https://towardsdatascience.com/predicting-solar-flares/",
@@ -839,6 +842,7 @@
     "https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation",
     "https://www.kdnuggets.com/5-useful-python-scripts-for-time-series-analysis",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-file-tasks",
+    "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-pdf-tasks",
     "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis",
     "https://www.kdnuggets.com/7-essential-openclaw-skills-you-need-right-now",
     "https://www.kdnuggets.com/7-opencode-plugins-that-make-ai-coding-more-powerful",
@@ -902,6 +906,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-ready-enterprise-data-platform",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-shopping-consumer-goods-roadmap",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-smart-pipelines-whats-new",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/aira-agentic-investment-ai-telecom-automation",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
@@ -927,6 +932,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/gsa-agreement-ai-driven-government",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/horizon-context-governed-context",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/how-data-ai-reshaping-careers",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/hybrid-tables-performance-improvements",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/inside-the-boardroom-ecosystem-operating-system",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
@@ -1127,52 +1133,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470484088588681216",
-    "last_posted_at_utc": "2026-06-10T14:36:41.832531+00:00",
+    "last_post_id": "urn:li:share:7470752269580427264",
+    "last_posted_at_utc": "2026-06-11T08:22:21.140862+00:00",
     "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "They Requested It. I Built It. Nobody Ever Used It.",
-        "date": "2026-05-27T14:38:47.617945+00:00",
-        "hash_strict": "9b4373c35987",
-        "hash_medium": "3ad8c2caec02"
-      },
-      {
-        "title": "Guide your Amazon Aurora MySQL migration with Kiro powers",
-        "date": "2026-05-28T07:09:13.099707+00:00",
-        "hash_strict": "2d309b1c14d1",
-        "hash_medium": "933585570d6d"
-      },
-      {
-        "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
-        "date": "2026-05-28T07:09:13.099833+00:00",
-        "hash_strict": "1df57a2f294a",
-        "hash_medium": "9eac1f8247e3"
-      },
-      {
-        "title": "AI-native, full-stack web apps with Vercel and AWS Databases",
-        "date": "2026-05-28T07:09:13.099942+00:00",
-        "hash_strict": "874879da9d87",
-        "hash_medium": "e66b2e63b530"
-      },
-      {
-        "title": "Optimize costs in Amazon Aurora",
-        "date": "2026-05-28T07:09:13.100027+00:00",
-        "hash_strict": "36683dbc420f",
-        "hash_medium": "c2ea434205fb"
-      },
-      {
-        "title": "Preserving custom domain names for Amazon RDS for Db2",
-        "date": "2026-05-28T07:09:13.100089+00:00",
-        "hash_strict": "f38c01b55e58",
-        "hash_medium": "d5dad55f8967"
-      },
-      {
-        "title": "Learning From Pairwise Preferences: An Introduction to the Bradley Terry\u00a0Model",
-        "date": "2026-05-28T07:09:13.100131+00:00",
-        "hash_strict": "fb2df807ee58",
-        "hash_medium": "c273cc66f3b2"
-      },
       {
         "title": "How to Effectively Run Many Claude Code Sessions in Parallel",
         "date": "2026-05-28T10:40:39.836962+00:00",
@@ -1904,6 +1868,42 @@
         "date": "2026-06-10T14:36:41.832469+00:00",
         "hash_strict": "061022224b6e",
         "hash_medium": "d07bf1b2e7a9"
+      },
+      {
+        "title": "Real-time CDC from Aurora PostgreSQL to Amazon S3 Tables using Debezium and Firehose",
+        "date": "2026-06-11T08:22:21.140393+00:00",
+        "hash_strict": "5db6f278787a",
+        "hash_medium": "b13f8f90396d"
+      },
+      {
+        "title": "Hybrid Tables Just Got Up to 8x Faster",
+        "date": "2026-06-11T08:22:21.140522+00:00",
+        "hash_strict": "b03bf2655618",
+        "hash_medium": "70519448a1c3"
+      },
+      {
+        "title": "AI Data Engineering: New Smart Pipelines in Snowflake",
+        "date": "2026-06-11T08:22:21.140590+00:00",
+        "hash_strict": "193689572c87",
+        "hash_medium": "4cc920f2bc4b"
+      },
+      {
+        "title": "5 Useful Python Scripts to Automate Boring PDF Tasks",
+        "date": "2026-06-11T08:22:21.140655+00:00",
+        "hash_strict": "980bdd86ba26",
+        "hash_medium": "4c44c03beca8"
+      },
+      {
+        "title": "Choosing the right workflow orchestration service for your use case: Amazon MWAA and AWS Step Functions",
+        "date": "2026-06-11T08:22:21.140725+00:00",
+        "hash_strict": "5119cb567fbf",
+        "hash_medium": "4c610852d44d"
+      },
+      {
+        "title": "Physical AI: What It Is and What It Is Not",
+        "date": "2026-06-11T08:22:21.140799+00:00",
+        "hash_strict": "0d082b5418c6",
+        "hash_medium": "57d895cee8cd"
       }
     ]
   }
