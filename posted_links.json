@@ -583,6 +583,7 @@
     "https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/",
     "https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
+    "https://towardsdatascience.com/nucs-vs-choco/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/",
     "https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/",
@@ -695,6 +696,7 @@
     "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
     "https://towardsdatascience.com/when-customers-churn-at-renewal-was-it-the-price-or-the-project/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
+    "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
     "https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/",
@@ -1137,22 +1139,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470794788557086720",
-    "last_posted_at_utc": "2026-06-11T11:11:18.530559+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7470853900879949824",
+    "last_posted_at_utc": "2026-06-11T15:06:11.959783+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Why AI Still Can\u2019t Solve Your Real Mathematical Optimization Problem",
-        "date": "2026-05-28T14:49:46.452379+00:00",
-        "hash_strict": "1d3152aeb579",
-        "hash_medium": "53d07af637b3"
-      },
-      {
-        "title": "DiffuJudge-AV: A Diffusion-Inspired Framework for Calibrated AV Video Evaluation",
-        "date": "2026-05-28T14:49:46.452515+00:00",
-        "hash_strict": "d2b5856fe4ad",
-        "hash_medium": "810e48bde103"
-      },
       {
         "title": "Retail Predictive Analytics for Like-for-Like Growth",
         "date": "2026-05-29T07:10:35.906517+00:00",
@@ -1926,6 +1916,18 @@
         "date": "2026-06-11T11:11:18.530525+00:00",
         "hash_strict": "9cbcc06d6748",
         "hash_medium": "7421c4f009d8"
+      },
+      {
+        "title": "NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran",
+        "date": "2026-06-11T15:06:11.959596+00:00",
+        "hash_strict": "668949dfe823",
+        "hash_medium": "51ca0882e03e"
+      },
+      {
+        "title": "When GPU Utilization Lies: The Hidden Systems Problem Slowing Modern AI",
+        "date": "2026-06-11T15:06:11.959729+00:00",
+        "hash_strict": "4246e261f821",
+        "hash_medium": "331f5aa159f5"
       }
     ]
   }
