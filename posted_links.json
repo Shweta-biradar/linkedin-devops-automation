@@ -423,9 +423,11 @@
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/",
     "https://towardsdatascience.com/batch-or-stream-the-ethernal-data-processing-dilemma/",
+    "https://towardsdatascience.com/bayesian-networks-and-markov-networks-an-intuitive-guide-to-structured-uncertainty/",
     "https://towardsdatascience.com/bayesian-thinking-for-people-who-hated-statistics/",
     "https://towardsdatascience.com/benders-decomposition-101/",
     "https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/",
+    "https://towardsdatascience.com/beyond-extract_text-the-two-layers-of-a-pdf-that-drive-rag-quality/",
     "https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/",
     "https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/",
     "https://towardsdatascience.com/beyond-the-model-why-data-scientists-must-embrace-apis-and-api-documentation/",
@@ -531,8 +533,10 @@
     "https://towardsdatascience.com/how-to-measure-ai-value/",
     "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
     "https://towardsdatascience.com/how-to-personalize-claude-code/",
+    "https://towardsdatascience.com/how-to-refactor-code-with-claude-code/",
     "https://towardsdatascience.com/how-to-safely-run-coding-agents/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
+    "https://towardsdatascience.com/how-to-train-a-scoring-model-in-the-age-of-artificial-intelligence/",
     "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
@@ -1133,16 +1137,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470752269580427264",
-    "last_posted_at_utc": "2026-06-11T08:22:21.140862+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7470794788557086720",
+    "last_posted_at_utc": "2026-06-11T11:11:18.530559+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "How to Effectively Run Many Claude Code Sessions in Parallel",
-        "date": "2026-05-28T10:40:39.836962+00:00",
-        "hash_strict": "7df6fb6ca913",
-        "hash_medium": "41f21c4aed85"
-      },
       {
         "title": "Why AI Still Can\u2019t Solve Your Real Mathematical Optimization Problem",
         "date": "2026-05-28T14:49:46.452379+00:00",
@@ -1904,6 +1902,30 @@
         "date": "2026-06-11T08:22:21.140799+00:00",
         "hash_strict": "0d082b5418c6",
         "hash_medium": "57d895cee8cd"
+      },
+      {
+        "title": "How to Train a Scoring Model in the Age of Artificial Intelligence",
+        "date": "2026-06-11T11:11:18.530322+00:00",
+        "hash_strict": "f799604b9f32",
+        "hash_medium": "005131c34811"
+      },
+      {
+        "title": "Beyond extract_text: The Two Layers of a PDF That Drive RAG Quality",
+        "date": "2026-06-11T11:11:18.530420+00:00",
+        "hash_strict": "cbea02bce2fd",
+        "hash_medium": "61727dfb6475"
+      },
+      {
+        "title": "Bayesian Networks and Markov Networks: An Intuitive Guide to Structured Uncertainty",
+        "date": "2026-06-11T11:11:18.530482+00:00",
+        "hash_strict": "4b51c2e218a2",
+        "hash_medium": "46c8d7f2a0ec"
+      },
+      {
+        "title": "How to Refactor Code with Claude Code",
+        "date": "2026-06-11T11:11:18.530525+00:00",
+        "hash_strict": "9cbcc06d6748",
+        "hash_medium": "7421c4f009d8"
       }
     ]
   }
