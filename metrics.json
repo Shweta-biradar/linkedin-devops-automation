@@ -1,12 +1,12 @@
 {
-  "total_posts": 357,
-  "posts_today": 2,
+  "total_posts": 358,
+  "posts_today": 3,
   "last_post_date": "2026-06-12",
   "formats_used": {
     "case_study": 48,
     "deep_dive": 33,
     "lessons": 59,
-    "digest": 206,
+    "digest": 207,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 331,
+    "towardsdatascience.com": 333,
     "www.snowflake.com": 111,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-13",
-      "time": "2026-05-13T13:37:35.023548+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-14",
       "time": "2026-05-14T06:38:44.617923+00:00",
@@ -1189,13 +1180,22 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "time": "2026-06-12T14:19:25.207843+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 330,
-  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nStrategic thinkers analyze what really matters.\n\n\ud83d\udccc Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: ...\nEnterprise Document Intelligence [Vol.1 #5B] - One PDF in, a relational set of DataFrames out: lines, pages, TOC, images, cross-references, captions, spans, and a parsing summary The post Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs appeared first on Towards Data Science .\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: System evolution requires continuous learning and adaptation\n\nWhich operational practices have scaled best for your team?\n\n#SAPHANA #SSRS #Airflow #Databricks #CloudData #BusinessIntelligence #DBT\n\n\u2753 Which takeaway resonates most for your team?\n\n#Reporting #Alteryx #MySQL #Looker #Analytics #PostgreSQL #Snowflake",
-  "last_post_format": "deep_dive",
+  "posts_created": 331,
+  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nAnalytics experts curate the signals that drive innovation.\n\nLeadership lessons:\n1. Is Language Visual? An Experiment with Chinese Characters\nContext: A story about a broken printer, visual inductive bias, and why the race endedin a tie. The post Is Language Visual? An Experiment with Chinese Characters appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/is-language-visual-an-experiment-with-chinese-characters-2/\n\n2. I Thought Data Engineering Was Just Writing Scripts. I Was Wrong.\nContext: I tried to make my ETL pipeline production-ready. Three things broke. Each one taught me something scripting alone never could.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?\n\n#Oracle #Analytics #Python #CloudData #Reporting #Databricks #SAPHANA",
+  "last_post_format": "digest",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-12T10:49:51.010721+00:00"
+  "last_post_timestamp": "2026-06-12T14:19:25.209054+00:00"
 }

@@ -557,6 +557,7 @@
     "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
     "https://towardsdatascience.com/i-spent-may-evaluating-different-engines-for-ocr/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
+    "https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
@@ -565,6 +566,7 @@
     "https://towardsdatascience.com/introduction-to-lean-for-programmers/",
     "https://towardsdatascience.com/iron-triangles-powerful-tools-for-analyzing-trade-offs-in-ai-product-development/",
     "https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/",
+    "https://towardsdatascience.com/is-language-visual-an-experiment-with-chinese-characters-2/",
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
     "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
@@ -1148,9 +1150,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471151776440692736",
-    "last_posted_at_utc": "2026-06-12T10:49:51.007244+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7471204516416094208",
+    "last_posted_at_utc": "2026-06-12T14:19:25.205552+00:00",
+    "last_format": "digest",
     "topic_titles": [
       {
         "title": "The \u2018Entry-Level\u2019 Gatekeeper: Auditing Job Descriptions with Textstat",
@@ -1961,6 +1963,18 @@
         "date": "2026-06-12T10:49:51.007174+00:00",
         "hash_strict": "24587ec5566c",
         "hash_medium": "1d1b35dfed21"
+      },
+      {
+        "title": "I Thought Data Engineering Was Just Writing Scripts. I Was Wrong.",
+        "date": "2026-06-12T14:19:25.205346+00:00",
+        "hash_strict": "58a5473358c8",
+        "hash_medium": "f1ca49d37114"
+      },
+      {
+        "title": "Is Language Visual? An Experiment with Chinese Characters",
+        "date": "2026-06-12T14:19:25.205474+00:00",
+        "hash_strict": "d5375ccfc331",
+        "hash_medium": "977da3e6394f"
       }
     ]
   }
