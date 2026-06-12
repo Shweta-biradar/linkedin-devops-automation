@@ -1,10 +1,10 @@
 {
-  "total_posts": 356,
-  "posts_today": 1,
+  "total_posts": 357,
+  "posts_today": 2,
   "last_post_date": "2026-06-12",
   "formats_used": {
     "case_study": 48,
-    "deep_dive": 32,
+    "deep_dive": 33,
     "lessons": 59,
     "digest": 206,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 328,
+    "towardsdatascience.com": 331,
     "www.snowflake.com": 111,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
@@ -303,18 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-13",
-      "time": "2026-05-13T09:28:26.433782+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "www.snowflake.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-13",
       "time": "2026-05-13T13:37:35.023548+00:00",
@@ -1191,15 +1179,23 @@
         "www.snowflake.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "time": "2026-06-12T10:49:51.009553+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 329,
-  "last_post_content": "\ud83c\udf93 Going deeper on what matters.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Topic: Provision Oracle Database@AWS resources using Terraform\n\nKey points:\n\u2022 In this post, we show you how to provision key components of the Oracle Database@AWS offering, including the ODB network, Oracle Exadata infrastructure, Exadata VM clusters and...\n\u2022 helps you run clusters more reliably and efficiently.\n\nWhat this means:\n\u2022 Infrastructure as code is about repeatability, not just automation\n\u2022 Cloud-native patterns work best when you embrace failure\n\nHow do you handle cross-region complexity?\n\n#Statistics #BigQuery #DBT #Analytics #PostgreSQL #Dashboard #Qlik\n\n\u2753 How would you apply this insight?\n\n#Cloud #CloudArchitecture #CloudNative #SAPHANA #Automation #DataWarehouse #BITools",
+  "posts_created": 330,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nStrategic thinkers analyze what really matters.\n\n\ud83d\udccc Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: ...\nEnterprise Document Intelligence [Vol.1 #5B] - One PDF in, a relational set of DataFrames out: lines, pages, TOC, images, cross-references, captions, spans, and a parsing summary The post Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs appeared first on Towards Data Science .\n2\ufe0f\u20e3 Why it matters: practical signal for building reliable systems.\n3\ufe0f\u20e3 Key insight: System evolution requires continuous learning and adaptation\n\nWhich operational practices have scaled best for your team?\n\n#SAPHANA #SSRS #Airflow #Databricks #CloudData #BusinessIntelligence #DBT\n\n\u2753 Which takeaway resonates most for your team?\n\n#Reporting #Alteryx #MySQL #Looker #Analytics #PostgreSQL #Snowflake",
   "last_post_format": "deep_dive",
   "last_post_sources": [
-    "www.dataquest.io",
-    "www.snowflake.com",
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-12T08:11:10.955999+00:00"
+  "last_post_timestamp": "2026-06-12T10:49:51.010721+00:00"
 }
