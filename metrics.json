@@ -1,10 +1,10 @@
 {
-  "total_posts": 355,
-  "posts_today": 3,
-  "last_post_date": "2026-06-11",
+  "total_posts": 356,
+  "posts_today": 1,
+  "last_post_date": "2026-06-12",
   "formats_used": {
     "case_study": 48,
-    "deep_dive": 31,
+    "deep_dive": 32,
     "lessons": 59,
     "digest": 206,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 139,
+    "aws.amazon.com": 142,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -41,13 +41,13 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 328,
-    "www.snowflake.com": 109,
+    "www.snowflake.com": 111,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 16,
     "www.dbt.com": 16,
-    "www.dataquest.io": 19,
+    "www.dataquest.io": 20,
     "www.udacity.com": 2
   },
   "errors": [
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-13",
-      "time": "2026-05-13T06:41:57.839517+00:00",
-      "format": "case_study",
-      "sources": [
-        "powerbi.microsoft.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-13",
       "time": "2026-05-13T09:28:26.433782+00:00",
@@ -1191,13 +1178,28 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "time": "2026-06-12T08:11:10.954918+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com",
+        "www.dataquest.io",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 328,
-  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udccc NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran\n\nThe situation:\n\u21b3 An in-depth performance test comparing Nucs and Choco The post NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran appeared first on Towards Data Science .\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nCore principles:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nWhich operational practices have scaled best for your team?\n\n#DBT #Analytics #BITools #Insights #SSRS #DataVisualization #Snowflake\n\n\u2753 How would you adapt this for your team?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/nucs-vs-choco/\n\n#Statistics #Python #Alteryx #ETL #Dashboard #BigQuery #Insights",
-  "last_post_format": "case_study",
+  "posts_created": 329,
+  "last_post_content": "\ud83c\udf93 Going deeper on what matters.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Topic: Provision Oracle Database@AWS resources using Terraform\n\nKey points:\n\u2022 In this post, we show you how to provision key components of the Oracle Database@AWS offering, including the ODB network, Oracle Exadata infrastructure, Exadata VM clusters and...\n\u2022 helps you run clusters more reliably and efficiently.\n\nWhat this means:\n\u2022 Infrastructure as code is about repeatability, not just automation\n\u2022 Cloud-native patterns work best when you embrace failure\n\nHow do you handle cross-region complexity?\n\n#Statistics #BigQuery #DBT #Analytics #PostgreSQL #Dashboard #Qlik\n\n\u2753 How would you apply this insight?\n\n#Cloud #CloudArchitecture #CloudNative #SAPHANA #Automation #DataWarehouse #BITools",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.dataquest.io",
+    "www.snowflake.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-11T15:06:11.963227+00:00"
+  "last_post_timestamp": "2026-06-12T08:11:10.955999+00:00"
 }

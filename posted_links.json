@@ -79,6 +79,7 @@
     "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/",
     "https://aws.amazon.com/blogs/database/announcing-aggregations-on-amazon-elasticache/",
     "https://aws.amazon.com/blogs/database/announcing-amazon-rds-for-db2-12-1-with-additional-community-edition/",
+    "https://aws.amazon.com/blogs/database/automate-amazon-aurora-postgresql-major-or-minor-version-upgrade-using-aws-systems-manager-and-amazon-ec2/",
     "https://aws.amazon.com/blogs/database/automate-oracle-pl-sql-to-postgresql-migration-with-amazon-bedrock-and-strands-agents/",
     "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
@@ -100,6 +101,7 @@
     "https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/",
     "https://aws.amazon.com/blogs/database/how-amazon-documentdb-on-aws-graviton4-r8g-instances-delivers-63-better-sysbench-benchmark-results/",
     "https://aws.amazon.com/blogs/database/how-hoteltrader-cut-inter-az-cost-95-and-latency-by-49-with-valkey-glide-on-amazon-elasticache/",
+    "https://aws.amazon.com/blogs/database/how-to-migrate-from-oracle-to-amazon-aurora-postgresql-using-aws-cloudformation-part-1/",
     "https://aws.amazon.com/blogs/database/implementing-real-time-change-data-capture-with-debezium-for-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/",
     "https://aws.amazon.com/blogs/database/improving-generative-ai-accuracy-with-vector-and-graph-search-hybrid-queries/",
     "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-bloom-pg_trgm-and-pg_bigm/",
@@ -113,6 +115,7 @@
     "https://aws.amazon.com/blogs/database/oracle-databaseaws-decoded-determining-the-right-fit-for-your-oracle-workloads/",
     "https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/preserving-custom-domain-names-for-amazon-rds-for-db2/",
+    "https://aws.amazon.com/blogs/database/provision-oracle-databaseaws-resources-using-terraform/",
     "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
     "https://aws.amazon.com/blogs/database/unlock-license-mobility-with-bring-your-own-media-on-fully-managed-amazon-rds-for-sql-server/",
@@ -763,6 +766,7 @@
     "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-december-2025/",
     "https://www.crowdstrike.com/en-us/blog/streamline-security-operations-falcon-for-it-automations/",
     "https://www.crowdstrike.com/en-us/blog/warp-panda-cloud-threats/",
+    "https://www.dataquest.io/blog/best-data-analytics-courses/",
     "https://www.dataquest.io/blog/best-python-courses/",
     "https://www.dataquest.io/blog/best-sql-courses/",
     "https://www.dataquest.io/blog/build-a-food-ordering-app-with-python/",
@@ -907,6 +911,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agent-backup-protection",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-in-healthcare-snowflake-summit-takeaways",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-interoperability-healthcare",
@@ -933,6 +938,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ecommerce-data-democratization",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/enterprise-grade-ai-data-sharing",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/finance-variance-analysis-workflow",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-ai-roi-agentic",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/financial-services-data-ai-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/give-to-gain-women-in-tech-international-womens-day",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/gsa-agreement-ai-driven-government",
@@ -1139,34 +1145,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7470853900879949824",
-    "last_posted_at_utc": "2026-06-11T15:06:11.959783+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7471111846461259776",
+    "last_posted_at_utc": "2026-06-12T08:11:10.952948+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Retail Predictive Analytics for Like-for-Like Growth",
-        "date": "2026-05-29T07:10:35.906517+00:00",
-        "hash_strict": "e14bc4413210",
-        "hash_medium": "ec8d3eb7a440"
-      },
-      {
-        "title": "How We Used Cortex Code to Turn Finance Variance Analysis into a Live, Intelligent Workflow",
-        "date": "2026-05-29T07:10:35.906615+00:00",
-        "hash_strict": "c8fd942355ca",
-        "hash_medium": "0ecd5bf8ee21"
-      },
-      {
-        "title": "The Infrastructure Behind Making Local LLM Agents Actually Useful",
-        "date": "2026-05-29T07:10:35.906696+00:00",
-        "hash_strict": "65f5c1142643",
-        "hash_medium": "7eea426ec156"
-      },
-      {
-        "title": "EmoNet: Speaker-Aware Transformers for Emotion Recognition \u2014 and What I\u2019d Build Differently in 2026",
-        "date": "2026-05-29T07:10:35.906760+00:00",
-        "hash_strict": "4381b9155ceb",
-        "hash_medium": "e2afd31b9f84"
-      },
       {
         "title": "Can AI Write Your\u00a0Code?",
         "date": "2026-05-29T10:29:58.932380+00:00",
@@ -1928,6 +1910,42 @@
         "date": "2026-06-11T15:06:11.959729+00:00",
         "hash_strict": "4246e261f821",
         "hash_medium": "331f5aa159f5"
+      },
+      {
+        "title": "How to migrate from Oracle to Amazon Aurora PostgreSQL using AWS CloudFormation (Part 1)",
+        "date": "2026-06-12T08:11:10.952464+00:00",
+        "hash_strict": "a72876bdd1f2",
+        "hash_medium": "f92012afa649"
+      },
+      {
+        "title": "Best Data Analytics Courses in 2026",
+        "date": "2026-06-12T08:11:10.952588+00:00",
+        "hash_strict": "32940bf32921",
+        "hash_medium": "b756ca6aed89"
+      },
+      {
+        "title": "Automate Amazon Aurora PostgreSQL major or minor version upgrade using AWS Systems Manager and Amazon EC2",
+        "date": "2026-06-12T08:11:10.952666+00:00",
+        "hash_strict": "b79c652db8a3",
+        "hash_medium": "da5023d90f49"
+      },
+      {
+        "title": "Provision Oracle Database@AWS resources using Terraform",
+        "date": "2026-06-12T08:11:10.952762+00:00",
+        "hash_strict": "03568c565b62",
+        "hash_medium": "e3cdc0108889"
+      },
+      {
+        "title": "Financial Services AI: ROI, Agentic and Governance",
+        "date": "2026-06-12T08:11:10.952844+00:00",
+        "hash_strict": "ab700ba2f464",
+        "hash_medium": "1b5842083b61"
+      },
+      {
+        "title": "AI Agents in Healthcare: 3 Snowflake Summit Takeaways",
+        "date": "2026-06-12T08:11:10.952903+00:00",
+        "hash_strict": "eefe62fd1774",
+        "hash_medium": "59e00afb9774"
       }
     ]
   }
