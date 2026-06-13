@@ -411,6 +411,7 @@
     "https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/",
     "https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/",
     "https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/",
+    "https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/",
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
@@ -929,6 +930,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/aira-agentic-investment-ai-telecom-automation",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-iceberg-v3-support",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/apache-polaris-top-level-project",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-pipelines-for-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/building-reliable-applications",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-cli-expands-support",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-code-fpa-real-time-insight",
@@ -1156,16 +1158,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471459928348569600",
-    "last_posted_at_utc": "2026-06-13T07:14:20.208266+00:00",
+    "last_post_id": "urn:li:share:7471497866591522816",
+    "last_posted_at_utc": "2026-06-13T09:45:05.321390+00:00",
     "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
-        "date": "2026-05-30T09:03:05.679883+00:00",
-        "hash_strict": "1df57a2f294a",
-        "hash_medium": "9eac1f8247e3"
-      },
       {
         "title": "Stop Using LLMs Like Giant Problem\u00a0Solvers",
         "date": "2026-05-30T12:48:36.083859+00:00",
@@ -1975,6 +1971,18 @@
         "date": "2026-06-13T07:14:20.208215+00:00",
         "hash_strict": "7dd9b0fcc304",
         "hash_medium": "342b183740a0"
+      },
+      {
+        "title": "A Harness for Every Task: Putting a Team of Claudes on One Job",
+        "date": "2026-06-13T09:45:05.321183+00:00",
+        "hash_strict": "1fdb16d2516b",
+        "hash_medium": "451f380dd144"
+      },
+      {
+        "title": "Navigating AI Shifts in Modern Data Engineering",
+        "date": "2026-06-13T09:45:05.321314+00:00",
+        "hash_strict": "0c33aa9bc91d",
+        "hash_medium": "0b746bc8302f"
       }
     ]
   }

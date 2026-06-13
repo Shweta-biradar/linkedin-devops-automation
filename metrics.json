@@ -1,12 +1,12 @@
 {
-  "total_posts": 359,
-  "posts_today": 1,
+  "total_posts": 360,
+  "posts_today": 2,
   "last_post_date": "2026-06-13",
   "formats_used": {
     "case_study": 48,
     "deep_dive": 33,
     "lessons": 59,
-    "digest": 208,
+    "digest": 209,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 335,
-    "www.snowflake.com": 112,
+    "towardsdatascience.com": 336,
+    "www.snowflake.com": 113,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-14",
-      "time": "2026-05-14T09:18:31.445675+00:00",
-      "format": "digest",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-14",
       "time": "2026-05-14T13:15:46.601345+00:00",
@@ -1191,16 +1183,23 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-13",
+      "time": "2026-06-13T09:45:05.323627+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 332,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nObservability advocates surface what teams measure and why.\n\nPlatform wins:\n1. Why Decade-Old Residual Connections Still Power All of AI (And Why That\u2019s a Problem)\nContext: For nearly a decade, this part of neural networks barely changed. DeepSeek is trying to reinvent it. The post Why Decade-Old Residual Connections Still Power All of AI (And Why...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/\n\n2. Prompt chaining explained: how to build reasoning pipelines in Python\nContext: ...\nImagine asking a friend who has never baked anything to produce a multi-layered cake. No recipe. No step-by-step instructions. Just: &#8220;Make me a three-tier cake with buttercream frosting and\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.udacity.com/blog/prompt-chaining-explained-how-to-build-reasoning-pipelines-in-python/\n\n3. When PyMuPDF Can\u2019t See the Table: Parse PDFs for RAG with Azure Layout\nContext: ...\nEnterprise Document Intelligence [Vol.1 #5bis] - The same relational tables. Native table cells. OCR for scanned pages and images. Captions and headings without regex. The post When PyMuPDF Can\u2019t\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/\n\n4. Access Amazon S3 data files directly using AWS Lake Formation permissions\nContext: In this post, we demonstrate reading from and writing to Lake Formation-managed S3 locations using Apache Spark jobs from EMR.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/access-amazon-s3-data-files-directly-using-aws-lake-formation-permissions/\n\n5. Snowflake Ventures Invests in Jedify to Advance Enterprise AI\nContext: Snowflake Ventures invests in Jedify, an autonomous context graph that automates semantic lifecycle management to give enterprise AI agents the governed business context they...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/jedify-context-graphs-enterprise-ai-agents\n\n6. LangChain agents tutorial: build a multi-step workflow in Python\nContext: ...\nA chatbot that answers questions from a knowledge base sounds impressive in a demo. Then someone asks it a question that requires checking two sources, comparing the results, and deciding whether\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.udacity.\n\n#Statistics #DataWarehouse #MLOps #BITools #SSIS #SQL #Insights",
+  "posts_created": 333,
+  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nCollaboration wins:\n1. Navigating AI Shifts in Modern Data Engineering\nContext: Discover how modern data engineering is shifting to meet AI demands. Learn to build resilient, declarative data pipelines and scale with coding agents.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/building-pipelines-for-ai\n\n2. A Harness for Every Task: Putting a Team of Claudes on One Job\nContext: Claude can now write its own harness on the fly, custom-built for the task at hand. The post A Harness for Every Task: Putting a Team of Claudes on One Job appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?\n\n#MySQL #Looker #SSIS #PowerBI #Qlik #SSRS #Redshift",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.udacity.com",
     "www.snowflake.com",
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-13T07:14:20.211742+00:00"
+  "last_post_timestamp": "2026-06-13T09:45:05.324866+00:00"
 }
