@@ -1,12 +1,12 @@
 {
-  "total_posts": 358,
-  "posts_today": 3,
-  "last_post_date": "2026-06-12",
+  "total_posts": 359,
+  "posts_today": 1,
+  "last_post_date": "2026-06-13",
   "formats_used": {
     "case_study": 48,
     "deep_dive": 33,
     "lessons": 59,
-    "digest": 207,
+    "digest": 208,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 142,
+    "aws.amazon.com": 143,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,15 +40,15 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 333,
-    "www.snowflake.com": 111,
+    "towardsdatascience.com": 335,
+    "www.snowflake.com": 112,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 16,
     "www.dbt.com": 16,
     "www.dataquest.io": 20,
-    "www.udacity.com": 2
+    "www.udacity.com": 4
   },
   "errors": [
     {
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-14",
-      "time": "2026-05-14T06:38:44.617923+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com",
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-14",
       "time": "2026-05-14T09:18:31.445675+00:00",
@@ -1189,13 +1178,29 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-13",
+      "time": "2026-06-13T07:14:20.210571+00:00",
+      "format": "digest",
+      "sources": [
+        "www.udacity.com",
+        "www.udacity.com",
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 331,
-  "last_post_content": "\ud83d\udee0\ufe0f What high-perf teams are watching this week.\nAnalytics experts curate the signals that drive innovation.\n\nLeadership lessons:\n1. Is Language Visual? An Experiment with Chinese Characters\nContext: A story about a broken printer, visual inductive bias, and why the race endedin a tie. The post Is Language Visual? An Experiment with Chinese Characters appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/is-language-visual-an-experiment-with-chinese-characters-2/\n\n2. I Thought Data Engineering Was Just Writing Scripts. I Was Wrong.\nContext: I tried to make my ETL pipeline production-ready. Three things broke. Each one taught me something scripting alone never could.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?\n\n#Oracle #Analytics #Python #CloudData #Reporting #Databricks #SAPHANA",
+  "posts_created": 332,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nObservability advocates surface what teams measure and why.\n\nPlatform wins:\n1. Why Decade-Old Residual Connections Still Power All of AI (And Why That\u2019s a Problem)\nContext: For nearly a decade, this part of neural networks barely changed. DeepSeek is trying to reinvent it. The post Why Decade-Old Residual Connections Still Power All of AI (And Why...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/\n\n2. Prompt chaining explained: how to build reasoning pipelines in Python\nContext: ...\nImagine asking a friend who has never baked anything to produce a multi-layered cake. No recipe. No step-by-step instructions. Just: &#8220;Make me a three-tier cake with buttercream frosting and\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.udacity.com/blog/prompt-chaining-explained-how-to-build-reasoning-pipelines-in-python/\n\n3. When PyMuPDF Can\u2019t See the Table: Parse PDFs for RAG with Azure Layout\nContext: ...\nEnterprise Document Intelligence [Vol.1 #5bis] - The same relational tables. Native table cells. OCR for scanned pages and images. Captions and headings without regex. The post When PyMuPDF Can\u2019t\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/\n\n4. Access Amazon S3 data files directly using AWS Lake Formation permissions\nContext: In this post, we demonstrate reading from and writing to Lake Formation-managed S3 locations using Apache Spark jobs from EMR.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/access-amazon-s3-data-files-directly-using-aws-lake-formation-permissions/\n\n5. Snowflake Ventures Invests in Jedify to Advance Enterprise AI\nContext: Snowflake Ventures invests in Jedify, an autonomous context graph that automates semantic lifecycle management to give enterprise AI agents the governed business context they...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/jedify-context-graphs-enterprise-ai-agents\n\n6. LangChain agents tutorial: build a multi-step workflow in Python\nContext: ...\nA chatbot that answers questions from a knowledge base sounds impressive in a demo. Then someone asks it a question that requires checking two sources, comparing the results, and deciding whether\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.udacity.\n\n#Statistics #DataWarehouse #MLOps #BITools #SSIS #SQL #Insights",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "www.udacity.com",
+    "www.snowflake.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-12T14:19:25.209054+00:00"
+  "last_post_timestamp": "2026-06-13T07:14:20.211742+00:00"
 }

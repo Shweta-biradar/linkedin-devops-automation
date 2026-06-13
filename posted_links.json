@@ -5,6 +5,7 @@
     "https://aws.amazon.com/blogs/big-data/a-guide-to-capacity-planning-for-airflow-worker-pool-in-amazon-mwaa/",
     "https://aws.amazon.com/blogs/big-data/a-systematic-approach-to-benchmarking-sql-processing-engines-on-aws/",
     "https://aws.amazon.com/blogs/big-data/accelerate-sql-development-with-sagemaker-data-agent-in-query-editor/",
+    "https://aws.amazon.com/blogs/big-data/access-amazon-s3-data-files-directly-using-aws-lake-formation-permissions/",
     "https://aws.amazon.com/blogs/big-data/amazon-athena-adds-1-minute-reservations-and-new-capacity-control-features/",
     "https://aws.amazon.com/blogs/big-data/amazon-managed-service-for-apache-flink-application-lifecycle-management-with-terraform/",
     "https://aws.amazon.com/blogs/big-data/amazon-opensearch-ingestion-service-101-set-cloudwatch-alarms-for-key-metrics/",
@@ -705,6 +706,7 @@
     "https://towardsdatascience.com/when-customers-churn-at-renewal-was-it-the-price-or-the-project/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
+    "https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
     "https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/",
@@ -718,6 +720,7 @@
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
     "https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/",
     "https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/",
+    "https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/",
     "https://towardsdatascience.com/why-your-ai-demo-will-die-in-production/",
     "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
@@ -954,6 +957,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligence-retail-enterprise-ai",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/intelligent-infrastructure-ai-opco-mwc-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/interoperable-lakehouse-architecture",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/jedify-context-graphs-enterprise-ai-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/manufacturing-predictions-data-estate-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/media-entertainment-unified-intelligence",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/multimodal-analytics-ai-video-audio-images",
@@ -996,6 +1000,8 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/unifying-enterprise-ai-lifecycle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/universal-ai-catalog-data-governance",
     "https://www.udacity.com/blog/how-to-build-an-ai-agent-step-by-step-with-python/",
+    "https://www.udacity.com/blog/langchain-agents-tutorial-build-a-multi-step-workflow-in-python/",
+    "https://www.udacity.com/blog/prompt-chaining-explained-how-to-build-reasoning-pipelines-in-python/",
     "https://www.udacity.com/blog/why-product-discovery-matters-more-than-ever-in-the-age-of-ai/",
     "https://www.welivesecurity.com/en/eset-research/revisiting-cve-2025-50165-critical-flaw-windows-imaging-component/",
     "https://www.welivesecurity.com/en/scams/brush-online-fraud-what-are-brushing-scams-how-do-i-stay-safe/",
@@ -1150,52 +1156,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471204516416094208",
-    "last_posted_at_utc": "2026-06-12T14:19:25.205552+00:00",
+    "last_post_id": "urn:li:share:7471459928348569600",
+    "last_posted_at_utc": "2026-06-13T07:14:20.208266+00:00",
     "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "The \u2018Entry-Level\u2019 Gatekeeper: Auditing Job Descriptions with Textstat",
-        "date": "2026-05-29T14:19:52.266492+00:00",
-        "hash_strict": "23120bfc0260",
-        "hash_medium": "d9f4a93e1533"
-      },
-      {
-        "title": "Five Questions About Chronos-2, the Time Series Foundation Model",
-        "date": "2026-05-29T14:19:52.266618+00:00",
-        "hash_strict": "867b6de1f759",
-        "hash_medium": "7d861606de94"
-      },
-      {
-        "title": "Explaining Lineage in DAX",
-        "date": "2026-05-29T14:19:52.266703+00:00",
-        "hash_strict": "b9684cb757ce",
-        "hash_medium": "6ea516586c14"
-      },
-      {
-        "title": "Python Function Calling: How to Give LLMs Access to Real-World Tools",
-        "date": "2026-05-30T06:38:27.934154+00:00",
-        "hash_strict": "b72eb8ca5530",
-        "hash_medium": "73fa234ac4a6"
-      },
-      {
-        "title": "Why Gradient Descent Became Stochastic",
-        "date": "2026-05-30T06:38:27.934270+00:00",
-        "hash_strict": "19378b50a979",
-        "hash_medium": "45dabd40b5ae"
-      },
-      {
-        "title": "RAG Is Burning Money \u2014 I Built a Cost Control Layer to Fix It",
-        "date": "2026-05-30T06:38:27.934347+00:00",
-        "hash_strict": "fdb46bb1cd77",
-        "hash_medium": "ac7f8337f16e"
-      },
-      {
-        "title": "Baseline Enterprise RAG, From PDF to Highlighted Answer",
-        "date": "2026-05-30T06:38:27.934415+00:00",
-        "hash_strict": "673db43b083c",
-        "hash_medium": "4bc13ce0d1a5"
-      },
       {
         "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
         "date": "2026-05-30T09:03:05.679883+00:00",
@@ -1975,6 +1939,42 @@
         "date": "2026-06-12T14:19:25.205474+00:00",
         "hash_strict": "d5375ccfc331",
         "hash_medium": "977da3e6394f"
+      },
+      {
+        "title": "Prompt chaining explained: how to build reasoning pipelines in Python",
+        "date": "2026-06-13T07:14:20.207779+00:00",
+        "hash_strict": "d64b90806ee9",
+        "hash_medium": "543341c5df11"
+      },
+      {
+        "title": "LangChain agents tutorial: build a multi-step workflow in Python",
+        "date": "2026-06-13T07:14:20.207907+00:00",
+        "hash_strict": "5fe02c34db8d",
+        "hash_medium": "e5931f546a63"
+      },
+      {
+        "title": "Snowflake Ventures Invests in Jedify to Advance Enterprise AI",
+        "date": "2026-06-13T07:14:20.207985+00:00",
+        "hash_strict": "1abe5aa1c600",
+        "hash_medium": "1a0fe0fc525d"
+      },
+      {
+        "title": "Access Amazon S3 data files directly using AWS Lake Formation permissions",
+        "date": "2026-06-13T07:14:20.208052+00:00",
+        "hash_strict": "66d5154f6e91",
+        "hash_medium": "5581dcc01f00"
+      },
+      {
+        "title": "Why Decade-Old Residual Connections Still Power All of AI (And Why That\u2019s a Problem)",
+        "date": "2026-06-13T07:14:20.208128+00:00",
+        "hash_strict": "fc45796c1e0a",
+        "hash_medium": "73ce72f3141a"
+      },
+      {
+        "title": "When PyMuPDF Can\u2019t See the Table: Parse PDFs for RAG with Azure Layout",
+        "date": "2026-06-13T07:14:20.208215+00:00",
+        "hash_strict": "7dd9b0fcc304",
+        "hash_medium": "342b183740a0"
       }
     ]
   }
