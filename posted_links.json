@@ -84,6 +84,7 @@
     "https://aws.amazon.com/blogs/database/automate-oracle-pl-sql-to-postgresql-migration-with-amazon-bedrock-and-strands-agents/",
     "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
+    "https://aws.amazon.com/blogs/database/avoid-shared-database-accounts-with-federated-iam-authentication/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-2-failover-strategies/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-3-validating-regional-resilience-with-aws-fault-injection-service/",
@@ -640,6 +641,7 @@
     "https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/",
     "https://towardsdatascience.com/small-data-big-maps-training-geospatial-ml-models-when-samples-are-scarce/",
     "https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference/",
+    "https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/",
     "https://towardsdatascience.com/solving-the-human-training-data-problem/",
     "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
     "https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/",
@@ -1158,16 +1160,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471497866591522816",
-    "last_posted_at_utc": "2026-06-13T09:45:05.321390+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7471548020208349184",
+    "last_posted_at_utc": "2026-06-13T13:04:22.878733+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Stop Using LLMs Like Giant Problem\u00a0Solvers",
-        "date": "2026-05-30T12:48:36.083859+00:00",
-        "hash_strict": "3d412202f416",
-        "hash_medium": "3dd7a1b120d1"
-      },
       {
         "title": "Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About",
         "date": "2026-05-31T07:13:18.096900+00:00",
@@ -1983,6 +1979,18 @@
         "date": "2026-06-13T09:45:05.321314+00:00",
         "hash_strict": "0c33aa9bc91d",
         "hash_medium": "0b746bc8302f"
+      },
+      {
+        "title": "Avoid shared database accounts with federated IAM authentication",
+        "date": "2026-06-13T13:04:22.878536+00:00",
+        "hash_strict": "9ce4bac1864f",
+        "hash_medium": "6c249ff779a6"
+      },
+      {
+        "title": "Solving the 3Blue1Brown String Probability Problem (Without AI)",
+        "date": "2026-06-13T13:04:22.878658+00:00",
+        "hash_strict": "eebf98336ea3",
+        "hash_medium": "6b528a77f82d"
       }
     ]
   }

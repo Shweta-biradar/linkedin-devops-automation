@@ -1,11 +1,11 @@
 {
-  "total_posts": 360,
-  "posts_today": 2,
+  "total_posts": 361,
+  "posts_today": 3,
   "last_post_date": "2026-06-13",
   "formats_used": {
     "case_study": 48,
     "deep_dive": 33,
-    "lessons": 59,
+    "lessons": 60,
     "digest": 209,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 143,
+    "aws.amazon.com": 144,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 336,
+    "towardsdatascience.com": 337,
     "www.snowflake.com": 113,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-14",
-      "time": "2026-05-14T13:15:46.601345+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-15",
       "time": "2026-05-15T06:50:01.335607+00:00",
@@ -1192,14 +1184,23 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-13",
+      "time": "2026-06-13T13:04:22.881048+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 333,
-  "last_post_content": "\u2601\ufe0f Cloud-native breakthroughs to watch.\nCollaboration experts spotlight culture and process breakthroughs.\n\nCollaboration wins:\n1. Navigating AI Shifts in Modern Data Engineering\nContext: Discover how modern data engineering is shifting to meet AI demands. Learn to build resilient, declarative data pipelines and scale with coding agents.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/building-pipelines-for-ai\n\n2. A Harness for Every Task: Putting a Team of Claudes on One Job\nContext: Claude can now write its own harness on the fly, custom-built for the task at hand. The post A Harness for Every Task: Putting a Team of Claudes on One Job appeared first on...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich signal will shape your roadmap?\n\n#MySQL #Looker #SSIS #PowerBI #Qlik #SSRS #Redshift",
-  "last_post_format": "digest",
+  "posts_created": 334,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Solving the 3Blue1Brown String Probability Problem (Without AI)\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n3\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nShare your hard-won wisdom below.\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DataWarehouse #BITools #Tableau #Qlik\n\n\u2753 Which lesson resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #AdvancedAnalytics #Oracle #MySQL #Looker",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "www.snowflake.com",
+    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-13T09:45:05.324866+00:00"
+  "last_post_timestamp": "2026-06-13T13:04:22.882246+00:00"
 }
