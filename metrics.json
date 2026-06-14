@@ -1,9 +1,9 @@
 {
-  "total_posts": 363,
-  "posts_today": 2,
+  "total_posts": 364,
+  "posts_today": 3,
   "last_post_date": "2026-06-14",
   "formats_used": {
-    "case_study": 49,
+    "case_study": 50,
     "deep_dive": 34,
     "lessons": 60,
     "digest": 209,
@@ -47,7 +47,7 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 16,
     "www.dbt.com": 16,
-    "www.dataquest.io": 21,
+    "www.dataquest.io": 22,
     "www.udacity.com": 4
   },
   "errors": [
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-15",
-      "time": "2026-05-15T13:15:07.657135+00:00",
-      "format": "case_study",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-16",
       "time": "2026-05-16T06:15:16.313707+00:00",
@@ -1189,13 +1180,21 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "time": "2026-06-14T13:14:31.722795+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 336,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Best Data Analytics Courses in 2026\n\n\ud83d\udcca Data: ...\nFinding the best data analytics course is harder than it looks because data analytics covers a wide range of tools, roles, and learning goals. In this guide, we've reviewed 10 of the top data analytics courses in 2026 \u2014 from recognized beginner certificates and project-based paths to free official training for Tableau, Power BI, and [&#8230;]\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f Track results and optimize\n\nWhat production experience changed how you design systems?\n\n#Oracle #DataVisualization #Alteryx #PowerBI #Insights #Qlik #PostgreSQL\n\n\u2753 How would you adapt this for your team?\n\nSource: https://www.dataquest.io/blog/best-data-analytics-courses/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Redshift #BITools #Snowflake #Dashboard",
+  "posts_created": 337,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Best Data Analytics Courses in 2026\n\n\u2192 Challenge: ...\nFinding the best data analytics course is harder than it looks because data analytics covers a wide range of tools, roles, and learning goals. In this guide, we've reviewed 10 of the top data analytics courses in 2026 \u2014 from recognized beginner certificates and project-based paths to free official training for Tableau, Power BI, and [&#8230;]\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#Qlik #DataWarehouse #BigQuery #Alteryx #Databricks #MySQL #Statistics\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://www.dataquest.io/blog/best-data-analytics-courses/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Redshift #DataWarehouse #Insights #Tableau",
   "last_post_format": "case_study",
   "last_post_sources": [
     "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-06-14T10:04:44.689777+00:00"
+  "last_post_timestamp": "2026-06-14T13:14:31.723972+00:00"
 }

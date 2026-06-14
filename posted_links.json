@@ -1162,16 +1162,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471865200963371008",
-    "last_posted_at_utc": "2026-06-14T10:04:44.686239+00:00",
+    "last_post_id": "urn:li:share:7471912961662558209",
+    "last_posted_at_utc": "2026-06-14T13:14:31.720480+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
-        "date": "2026-05-31T12:57:35.443322+00:00",
-        "hash_strict": "1df57a2f294a",
-        "hash_medium": "9eac1f8247e3"
-      },
       {
         "title": "Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs",
         "date": "2026-06-01T09:02:11.017877+00:00",
@@ -1985,6 +1979,12 @@
       {
         "title": "Best Data Analytics Courses in 2026",
         "date": "2026-06-14T10:04:44.686120+00:00",
+        "hash_strict": "32940bf32921",
+        "hash_medium": "b756ca6aed89"
+      },
+      {
+        "title": "Best Data Analytics Courses in 2026",
+        "date": "2026-06-14T13:14:31.720342+00:00",
         "hash_strict": "32940bf32921",
         "hash_medium": "b756ca6aed89"
       }
