@@ -1162,16 +1162,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471834836299710464",
-    "last_posted_at_utc": "2026-06-14T08:04:05.161792+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7471865200963371008",
+    "last_posted_at_utc": "2026-06-14T10:04:44.686239+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Guide your Amazon Aurora MySQL migration with Kiro powers",
-        "date": "2026-05-31T09:32:39.746028+00:00",
-        "hash_strict": "2d309b1c14d1",
-        "hash_medium": "933585570d6d"
-      },
       {
         "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
         "date": "2026-05-31T12:57:35.443322+00:00",
@@ -1987,6 +1981,12 @@
         "date": "2026-06-14T08:04:05.161704+00:00",
         "hash_strict": "1c075dbd35a2",
         "hash_medium": "1fc5d3d7887b"
+      },
+      {
+        "title": "Best Data Analytics Courses in 2026",
+        "date": "2026-06-14T10:04:44.686120+00:00",
+        "hash_strict": "32940bf32921",
+        "hash_medium": "b756ca6aed89"
       }
     ]
   }

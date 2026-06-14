@@ -1,9 +1,9 @@
 {
-  "total_posts": 362,
-  "posts_today": 1,
+  "total_posts": 363,
+  "posts_today": 2,
   "last_post_date": "2026-06-14",
   "formats_used": {
-    "case_study": 48,
+    "case_study": 49,
     "deep_dive": 34,
     "lessons": 60,
     "digest": 209,
@@ -47,7 +47,7 @@
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 16,
     "www.dbt.com": 16,
-    "www.dataquest.io": 20,
+    "www.dataquest.io": 21,
     "www.udacity.com": 4
   },
   "errors": [
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-15",
-      "time": "2026-05-15T09:29:39.693472+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-05-15",
       "time": "2026-05-15T13:15:07.657135+00:00",
@@ -1189,13 +1181,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "time": "2026-06-14T10:04:44.688551+00:00",
+      "format": "case_study",
+      "sources": [
+        "www.dataquest.io"
+      ]
     }
   ],
-  "posts_created": 335,
-  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nIndustry leaders break down complex challenges.\n\n\ud83d\udd0e Topic: Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload\n\nKey points:\n\u2022 ...\nEnterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions, headings: cloud-grade structure, running on your own machine. No key, no per-page bill, nothing leaves the building The post Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload appeared first on Towards Data Science .\n\u2022 helps you optimize cloud reliability and cost.\n\nWhat this means:\n\u2022 Infrastructure as code is about repeatability, not just automation\n\u2022 Managed services reduce toil but increase vendor coupling\n\nHow do you handle cross-region complexity?\n\n#Airflow #Qlik #Oracle #DataVisualization #AdvancedAnalytics #DataAnalyst #Alteryx\n\n\u2753 Which takeaway resonates most for your team?\n\nRead more: https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/\n\n#Cloud #CloudArchitecture #CloudNative #Dashboard #Alteryx #AdvancedAnalytics #PowerBI",
-  "last_post_format": "deep_dive",
+  "posts_created": 336,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nAnalytics experts highlight real-world results.\n\n\ud83d\udd0d Breakdown: Best Data Analytics Courses in 2026\n\n\ud83d\udcca Data: ...\nFinding the best data analytics course is harder than it looks because data analytics covers a wide range of tools, roles, and learning goals. In this guide, we've reviewed 10 of the top data analytics courses in 2026 \u2014 from recognized beginner certificates and project-based paths to free official training for Tableau, Power BI, and [&#8230;]\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Automate the boring stuff so humans can focus on the interesting problems\n\u2611\ufe0f Track results and optimize\n\nWhat production experience changed how you design systems?\n\n#Oracle #DataVisualization #Alteryx #PowerBI #Insights #Qlik #PostgreSQL\n\n\u2753 How would you adapt this for your team?\n\nSource: https://www.dataquest.io/blog/best-data-analytics-courses/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Redshift #BITools #Snowflake #Dashboard",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "www.dataquest.io"
   ],
-  "last_post_timestamp": "2026-06-14T08:04:05.165275+00:00"
+  "last_post_timestamp": "2026-06-14T10:04:44.689777+00:00"
 }
