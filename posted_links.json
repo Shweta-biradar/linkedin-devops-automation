@@ -573,6 +573,7 @@
     "https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/",
     "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
     "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
+    "https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/",
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/",
     "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
@@ -601,6 +602,7 @@
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/",
+    "https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
     "https://towardsdatascience.com/physical-ai-what-it-is-and-what-it-is-not/",
     "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
@@ -1160,28 +1162,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471548020208349184",
-    "last_posted_at_utc": "2026-06-13T13:04:22.878733+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7471834836299710464",
+    "last_posted_at_utc": "2026-06-14T08:04:05.161792+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About",
-        "date": "2026-05-31T07:13:18.096900+00:00",
-        "hash_strict": "6976a89ea193",
-        "hash_medium": "7ee1af1c607b"
-      },
-      {
-        "title": "Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet?",
-        "date": "2026-05-31T07:13:18.097021+00:00",
-        "hash_strict": "ecde3a8b7ddf",
-        "hash_medium": "fc376de85075"
-      },
-      {
-        "title": "Embeddings Aren\u2019t Magic: The Predictable Failure Modes of RAG Retrieval",
-        "date": "2026-05-31T07:13:18.097084+00:00",
-        "hash_strict": "13d1a1a2c3cd",
-        "hash_medium": "e92f0b57b855"
-      },
       {
         "title": "Guide your Amazon Aurora MySQL migration with Kiro powers",
         "date": "2026-05-31T09:32:39.746028+00:00",
@@ -1991,6 +1975,18 @@
         "date": "2026-06-13T13:04:22.878658+00:00",
         "hash_strict": "eebf98336ea3",
         "hash_medium": "6b528a77f82d"
+      },
+      {
+        "title": "Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload",
+        "date": "2026-06-14T08:04:05.161581+00:00",
+        "hash_strict": "7bee7cef4739",
+        "hash_medium": "fafcc90b45f2"
+      },
+      {
+        "title": "Larger Context Windows Don\u2019t Fix RAG \u2014 So I Built a System That Does",
+        "date": "2026-06-14T08:04:05.161704+00:00",
+        "hash_strict": "1c075dbd35a2",
+        "hash_medium": "1fc5d3d7887b"
       }
     ]
   }

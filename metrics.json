@@ -1,10 +1,10 @@
 {
-  "total_posts": 361,
-  "posts_today": 3,
-  "last_post_date": "2026-06-13",
+  "total_posts": 362,
+  "posts_today": 1,
+  "last_post_date": "2026-06-14",
   "formats_used": {
     "case_study": 48,
-    "deep_dive": 33,
+    "deep_dive": 34,
     "lessons": 60,
     "digest": 209,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 337,
+    "towardsdatascience.com": 339,
     "www.snowflake.com": 113,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-15",
-      "time": "2026-05-15T06:50:01.335607+00:00",
-      "format": "case_study",
-      "sources": [
-        "aws.amazon.com",
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-15",
       "time": "2026-05-15T09:29:39.693472+00:00",
@@ -1193,14 +1180,22 @@
         "aws.amazon.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "time": "2026-06-14T08:04:05.164067+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 334,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Solving the 3Blue1Brown String Probability Problem (Without AI)\n\n1\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n2\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n3\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nShare your hard-won wisdom below.\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DataWarehouse #BITools #Tableau #Qlik\n\n\u2753 Which lesson resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #AdvancedAnalytics #Oracle #MySQL #Looker",
-  "last_post_format": "lessons",
+  "posts_created": 335,
+  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nIndustry leaders break down complex challenges.\n\n\ud83d\udd0e Topic: Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload\n\nKey points:\n\u2022 ...\nEnterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions, headings: cloud-grade structure, running on your own machine. No key, no per-page bill, nothing leaves the building The post Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload appeared first on Towards Data Science .\n\u2022 helps you optimize cloud reliability and cost.\n\nWhat this means:\n\u2022 Infrastructure as code is about repeatability, not just automation\n\u2022 Managed services reduce toil but increase vendor coupling\n\nHow do you handle cross-region complexity?\n\n#Airflow #Qlik #Oracle #DataVisualization #AdvancedAnalytics #DataAnalyst #Alteryx\n\n\u2753 Which takeaway resonates most for your team?\n\nRead more: https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/\n\n#Cloud #CloudArchitecture #CloudNative #Dashboard #Alteryx #AdvancedAnalytics #PowerBI",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "aws.amazon.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-13T13:04:22.882246+00:00"
+  "last_post_timestamp": "2026-06-14T08:04:05.165275+00:00"
 }
