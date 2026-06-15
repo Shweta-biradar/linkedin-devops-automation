@@ -688,6 +688,7 @@
     "https://towardsdatascience.com/the-polynomial-that-fixed-30-years-of-cloth-simulation/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
+    "https://towardsdatascience.com/the-system-always-knows/",
     "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
     "https://towardsdatascience.com/the-unbearable-lightness-of-coding/",
     "https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/",
@@ -1164,22 +1165,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472222807746080768",
-    "last_posted_at_utc": "2026-06-15T09:45:44.788769+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7472269336632766465",
+    "last_posted_at_utc": "2026-06-15T12:50:38.185022+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "5 Must-Know Python Concepts for Data Scientists",
-        "date": "2026-06-01T12:19:12.628580+00:00",
-        "hash_strict": "d6a615047885",
-        "hash_medium": "cbe9b3ba3b99"
-      },
-      {
-        "title": "Escaping the Valley of Choice in BI",
-        "date": "2026-06-01T12:19:12.628716+00:00",
-        "hash_strict": "9aab22ebfa02",
-        "hash_medium": "5c95441051cf"
-      },
       {
         "title": "What we announced at Snowflake Summit and why it matters",
         "date": "2026-06-01T17:02:48.810824+00:00",
@@ -1983,6 +1972,12 @@
         "date": "2026-06-15T09:45:44.788709+00:00",
         "hash_strict": "3f2c58fb15fa",
         "hash_medium": "286bb358b1d6"
+      },
+      {
+        "title": "The System Always Knows: Why Local Efficiency and System Performance Are Not the Same Problem",
+        "date": "2026-06-15T12:50:38.184814+00:00",
+        "hash_strict": "d66d8302ce6e",
+        "hash_medium": "db6326d27090"
       }
     ]
   }

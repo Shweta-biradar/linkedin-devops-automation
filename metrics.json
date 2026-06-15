@@ -1,9 +1,9 @@
 {
-  "total_posts": 365,
-  "posts_today": 1,
+  "total_posts": 366,
+  "posts_today": 2,
   "last_post_date": "2026-06-15",
   "formats_used": {
-    "case_study": 50,
+    "case_study": 51,
     "deep_dive": 34,
     "lessons": 60,
     "digest": 210,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 341,
+    "towardsdatascience.com": 342,
     "www.snowflake.com": 113,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-16",
-      "time": "2026-05-16T08:26:25.328643+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-16",
       "time": "2026-05-16T12:15:12.531756+00:00",
@@ -1184,13 +1175,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-15",
+      "time": "2026-06-15T12:50:38.188525+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 338,
-  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nSecurity champions share what shapes the future of operations.\n\nCollaboration wins:\n1. Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG\nContext: ...\nEnterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures The post Vision LLMs are PDF Parsers Too: Reading Charts and\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/\n\n2. 4 Lines You Should Include in Your Claude Skill\nContext: Without these, Claude will be confidently wrong. The post 4 Lines You Should Include in Your Claude Skill appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?\n\n#Automation #PostgreSQL #MySQL #Qlik #DataWarehouse #SSRS #Databricks",
-  "last_post_format": "digest",
+  "posts_created": 339,
+  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udccc The System Always Knows: Why Local Efficiency and System Performance Are Not the Same Problem\n\nThe situation:\n\u21b3 How local optimization in last\u2011mile delivery can quietly break the system The post The System Always Knows: Why Local Efficiency and System Performance Are Not the Same Problem...\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nCore principles:\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nWhat would you do differently if you started over today?\n\n#DataVisualization #Snowflake #DataAnalyst #SSIS #SQL #Tableau #BigQuery\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udd17 https://towardsdatascience.com/the-system-always-knows/\n\n#DataWarehouse #Alteryx #Dashboard #Python #DataAnalyst #Analytics #SAPHANA",
+  "last_post_format": "case_study",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-15T09:45:44.795433+00:00"
+  "last_post_timestamp": "2026-06-15T12:50:38.190078+00:00"
 }
