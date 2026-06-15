@@ -1,12 +1,12 @@
 {
-  "total_posts": 364,
-  "posts_today": 3,
-  "last_post_date": "2026-06-14",
+  "total_posts": 365,
+  "posts_today": 1,
+  "last_post_date": "2026-06-15",
   "formats_used": {
     "case_study": 50,
     "deep_dive": 34,
     "lessons": 60,
-    "digest": 209,
+    "digest": 210,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 339,
+    "towardsdatascience.com": 341,
     "www.snowflake.com": 113,
     "kdnuggets.com": 69,
     "techcrunch.com": 6,
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-16",
-      "time": "2026-05-16T06:15:16.313707+00:00",
-      "format": "case_study",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "aws.amazon.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-16",
       "time": "2026-05-16T08:26:25.328643+00:00",
@@ -1188,13 +1175,22 @@
       "sources": [
         "www.dataquest.io"
       ]
+    },
+    {
+      "date": "2026-06-15",
+      "time": "2026-06-15T09:45:44.794490+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 337,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Best Data Analytics Courses in 2026\n\n\u2192 Challenge: ...\nFinding the best data analytics course is harder than it looks because data analytics covers a wide range of tools, roles, and learning goals. In this guide, we've reviewed 10 of the top data analytics courses in 2026 \u2014 from recognized beginner certificates and project-based paths to free official training for Tableau, Power BI, and [&#8230;]\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 2: Operational simplicity beats architectural elegance every time\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#Qlik #DataWarehouse #BigQuery #Alteryx #Databricks #MySQL #Statistics\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://www.dataquest.io/blog/best-data-analytics-courses/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Redshift #DataWarehouse #Insights #Tableau",
-  "last_post_format": "case_study",
+  "posts_created": 338,
+  "last_post_content": "\ud83d\ude80 Signals shaping modern engineering.\nSecurity champions share what shapes the future of operations.\n\nCollaboration wins:\n1. Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG\nContext: ...\nEnterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures The post Vision LLMs are PDF Parsers Too: Reading Charts and\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/\n\n2. 4 Lines You Should Include in Your Claude Skill\nContext: Without these, Claude will be confidently wrong. The post 4 Lines You Should Include in Your Claude Skill appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich signal will shape your roadmap?\n\n#Automation #PostgreSQL #MySQL #Qlik #DataWarehouse #SSRS #Databricks",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "www.dataquest.io"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-14T13:14:31.723972+00:00"
+  "last_post_timestamp": "2026-06-15T09:45:44.795433+00:00"
 }

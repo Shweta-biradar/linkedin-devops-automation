@@ -404,6 +404,7 @@
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
     "https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/",
     "https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/",
+    "https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/",
     "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
     "https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/",
     "https://towardsdatascience.com/5-ways-for-variable-discretization/",
@@ -700,6 +701,7 @@
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
+    "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
     "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
     "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
@@ -1162,28 +1164,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7471912961662558209",
-    "last_posted_at_utc": "2026-06-14T13:14:31.720480+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7472222807746080768",
+    "last_posted_at_utc": "2026-06-15T09:45:44.788769+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs",
-        "date": "2026-06-01T09:02:11.017877+00:00",
-        "hash_strict": "d6d6de8ad10f",
-        "hash_medium": "1a75d1f81f24"
-      },
-      {
-        "title": "Rerankers Aren\u2019t Magic Either: When the Cross-Encoder Layer Is Worth the Cost",
-        "date": "2026-06-01T09:02:11.018001+00:00",
-        "hash_strict": "6c8a6267b77c",
-        "hash_medium": "7394acb9adcb"
-      },
-      {
-        "title": "Solving a Murder Mystery Using Bayesian Inference",
-        "date": "2026-06-01T09:02:11.018065+00:00",
-        "hash_strict": "884bd76982c7",
-        "hash_medium": "a0bed8fa6901"
-      },
       {
         "title": "5 Must-Know Python Concepts for Data Scientists",
         "date": "2026-06-01T12:19:12.628580+00:00",
@@ -1987,6 +1971,18 @@
         "date": "2026-06-14T13:14:31.720342+00:00",
         "hash_strict": "32940bf32921",
         "hash_medium": "b756ca6aed89"
+      },
+      {
+        "title": "Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG",
+        "date": "2026-06-15T09:45:44.788606+00:00",
+        "hash_strict": "6bee7382a304",
+        "hash_medium": "ecc1a463813e"
+      },
+      {
+        "title": "4 Lines You Should Include in Your Claude Skill",
+        "date": "2026-06-15T09:45:44.788709+00:00",
+        "hash_strict": "3f2c58fb15fa",
+        "hash_medium": "286bb358b1d6"
       }
     ]
   }
