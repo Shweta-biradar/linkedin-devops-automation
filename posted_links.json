@@ -160,6 +160,7 @@
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-June-2026-Feature-Summary/ba-p/5193264",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
@@ -550,6 +551,7 @@
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
     "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
     "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
+    "https://towardsdatascience.com/i-built-11-models-to-predict-the-2026-world-cup-they-crown-four-different-champions/",
     "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
     "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
     "https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/",
@@ -880,6 +882,7 @@
     "https://www.kdnuggets.com/anonymizing-production-data-for-data-science-with-mimesis",
     "https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive",
     "https://www.kdnuggets.com/building-practical-mlops-for-a-personal-ml-project",
+    "https://www.kdnuggets.com/building-time-series-machine-learning-models-with-sktime-in-python",
     "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
     "https://www.kdnuggets.com/claude-code-power-tips",
     "https://www.kdnuggets.com/datacamp/02/2026/learn-python-sql-and-powerbi-to-become-a-certified-data-analyst-for-free-this-week",
@@ -1165,8 +1168,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472269336632766465",
-    "last_posted_at_utc": "2026-06-15T12:50:38.185022+00:00",
+    "last_post_id": "urn:li:share:7472323917865463808",
+    "last_posted_at_utc": "2026-06-15T16:27:31.343534+00:00",
     "last_format": "case_study",
     "topic_titles": [
       {
@@ -1978,6 +1981,24 @@
         "date": "2026-06-15T12:50:38.184814+00:00",
         "hash_strict": "d66d8302ce6e",
         "hash_medium": "db6326d27090"
+      },
+      {
+        "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
+        "date": "2026-06-15T16:27:31.343302+00:00",
+        "hash_strict": "6ba9a9cadcce",
+        "hash_medium": "c36fcbbd71ba"
+      },
+      {
+        "title": "Building Time-Series Machine Learning Models with sktime in Python",
+        "date": "2026-06-15T16:27:31.343425+00:00",
+        "hash_strict": "77890bbb3b14",
+        "hash_medium": "bacb6dc42b73"
+      },
+      {
+        "title": "I Built 11 Models to Predict the 2026 World Cup. They Crown Four Different Champions.",
+        "date": "2026-06-15T16:27:31.343481+00:00",
+        "hash_strict": "e6c34f135867",
+        "hash_medium": "8a9053844eca"
       }
     ]
   }
