@@ -1170,16 +1170,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472576359626686465",
-    "last_posted_at_utc": "2026-06-16T09:10:38.140731+00:00",
+    "last_post_id": "urn:li:share:7472615047844990976",
+    "last_posted_at_utc": "2026-06-16T11:44:22.091251+00:00",
     "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Python Function Calling: How to Give LLMs Access to Real-World Tools",
-        "date": "2026-06-02T11:06:48.006247+00:00",
-        "hash_strict": "b72eb8ca5530",
-        "hash_medium": "73fa234ac4a6"
-      },
       {
         "title": "10 GitHub Repositories for Modern Database Systems and Tools",
         "date": "2026-06-02T15:39:48.595801+00:00",
@@ -1959,6 +1953,12 @@
         "date": "2026-06-16T09:10:38.140673+00:00",
         "hash_strict": "baa0a27466c0",
         "hash_medium": "5ed2e9a2e0c1"
+      },
+      {
+        "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
+        "date": "2026-06-16T11:44:22.091126+00:00",
+        "hash_strict": "6ba9a9cadcce",
+        "hash_medium": "c36fcbbd71ba"
       }
     ]
   }

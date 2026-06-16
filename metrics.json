@@ -1,12 +1,12 @@
 {
-  "total_posts": 368,
-  "posts_today": 1,
+  "total_posts": 369,
+  "posts_today": 2,
   "last_post_date": "2026-06-16",
   "formats_used": {
     "case_study": 52,
     "deep_dive": 34,
     "lessons": 60,
-    "digest": 211,
+    "digest": 212,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -45,7 +45,7 @@
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 18,
+    "powerbi.microsoft.com": 19,
     "www.dbt.com": 16,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-17",
-      "time": "2026-05-17T08:37:50.555765+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-17",
       "time": "2026-05-17T12:12:53.631446+00:00",
@@ -1185,14 +1177,21 @@
         "powerbi.microsoft.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-16",
+      "time": "2026-06-16T11:44:22.093498+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 341,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTech strategists decode the next wave of transformation.\n\nGlobal tech trends:\n1. What's New with Dynamic Tables \u2014 Faster Refresh\nContext: Dynamic Tables get faster refreshes, custom incrementalization with MERGE/INSERT, dbt support, Iceberg interoperability and Cortex AI Functions.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/whats-new-dynamic-tables-faster-flexible\n\n2. Simplified Oracle connectivity in Power BI (Preview)\nContext: Connecting Power BI to Oracle has historically meant extra provider installations and data gateway deployment \u2014 even for cloud-hosted databases.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?\n\n#CloudData #DataWarehouse #Insights #Dashboard #BusinessIntelligence #Tableau #ETL",
+  "posts_created": 342,
+  "last_post_content": "\ud83d\udd17 Collaboration and culture: team wins.\nTech strategists decode the next wave of transformation.\n\nWhat caught our attention:\n1. Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric\nContext: If you use connectors like Databricks, Snowflake, or BigQuery in Power BI or Fabric, there\u2019s an important change coming. Microsoft is moving from embedded ODBC drivers to ADBC,...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich trend resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SQL #CloudData #Snowflake #ETL",
   "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
     "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-06-16T09:10:38.143514+00:00"
+  "last_post_timestamp": "2026-06-16T11:44:22.094657+00:00"
 }
