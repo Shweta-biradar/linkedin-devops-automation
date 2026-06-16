@@ -166,6 +166,7 @@
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
     "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
     "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
@@ -1011,6 +1012,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-data-foundation-ai-healthcare-government",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/unifying-enterprise-ai-lifecycle",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/universal-ai-catalog-data-governance",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/whats-new-dynamic-tables-faster-flexible",
     "https://www.udacity.com/blog/how-to-build-an-ai-agent-step-by-step-with-python/",
     "https://www.udacity.com/blog/langchain-agents-tutorial-build-a-multi-step-workflow-in-python/",
     "https://www.udacity.com/blog/prompt-chaining-explained-how-to-build-reasoning-pipelines-in-python/",
@@ -1168,64 +1170,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472323917865463808",
-    "last_posted_at_utc": "2026-06-15T16:27:31.343534+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7472576359626686465",
+    "last_posted_at_utc": "2026-06-16T09:10:38.140731+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "What we announced at Snowflake Summit and why it matters",
-        "date": "2026-06-01T17:02:48.810824+00:00",
-        "hash_strict": "05f2d23f0f76",
-        "hash_medium": "c21e72acf5f7"
-      },
-      {
-        "title": "Fivetran + dbt Labs Complete Merger to Create the Data Infrastructure for Trusted AI Agents",
-        "date": "2026-06-01T17:02:48.810935+00:00",
-        "hash_strict": "f5370b2b5746",
-        "hash_medium": "634fc116a30c"
-      },
-      {
-        "title": "Fivetran and dbt are one company now. Here's what that means.",
-        "date": "2026-06-01T17:02:48.811007+00:00",
-        "hash_strict": "935f5b4c5bc4",
-        "hash_medium": "dfc6b2f4f6ba"
-      },
-      {
-        "title": "Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain",
-        "date": "2026-06-01T17:02:48.811071+00:00",
-        "hash_strict": "a9a810b85d0f",
-        "hash_medium": "5a1dba1fa801"
-      },
-      {
-        "title": "It\u2019s the Lessons We Learned Along the Way. Or, Is It?",
-        "date": "2026-06-01T17:02:48.811138+00:00",
-        "hash_strict": "4d0d9e902995",
-        "hash_medium": "a3795167d94c"
-      },
-      {
-        "title": "Meet the Snowflake 2026 Data Drivers Award Winners",
-        "date": "2026-06-02T08:16:38.767679+00:00",
-        "hash_strict": "9b58d2a8da9d",
-        "hash_medium": "1c944e4eedf0"
-      },
-      {
-        "title": "Capture data lineage of Amazon EMR spark jobs into Amazon SageMaker Unified Studio",
-        "date": "2026-06-02T08:16:38.767795+00:00",
-        "hash_strict": "90ff602af638",
-        "hash_medium": "75d5ffc0119d"
-      },
-      {
-        "title": "RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem",
-        "date": "2026-06-02T08:16:38.767908+00:00",
-        "hash_strict": "9f7e825693c3",
-        "hash_medium": "3b76209fa3d8"
-      },
-      {
-        "title": "How to Combine Claude Code and Codex for Maximum Coding Power",
-        "date": "2026-06-02T08:16:38.768007+00:00",
-        "hash_strict": "101e4c8fc93f",
-        "hash_medium": "0c0874a5f752"
-      },
       {
         "title": "Python Function Calling: How to Give LLMs Access to Real-World Tools",
         "date": "2026-06-02T11:06:48.006247+00:00",
@@ -1999,6 +1947,18 @@
         "date": "2026-06-15T16:27:31.343481+00:00",
         "hash_strict": "e6c34f135867",
         "hash_medium": "8a9053844eca"
+      },
+      {
+        "title": "Simplified Oracle connectivity in Power BI (Preview)",
+        "date": "2026-06-16T09:10:38.140563+00:00",
+        "hash_strict": "8fb8e067de10",
+        "hash_medium": "ba25b9b93609"
+      },
+      {
+        "title": "What's New with Dynamic Tables \u2014 Faster Refresh",
+        "date": "2026-06-16T09:10:38.140673+00:00",
+        "hash_strict": "baa0a27466c0",
+        "hash_medium": "5ed2e9a2e0c1"
       }
     ]
   }

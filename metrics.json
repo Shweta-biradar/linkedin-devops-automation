@@ -1,12 +1,12 @@
 {
-  "total_posts": 367,
-  "posts_today": 3,
-  "last_post_date": "2026-06-15",
+  "total_posts": 368,
+  "posts_today": 1,
+  "last_post_date": "2026-06-16",
   "formats_used": {
     "case_study": 52,
     "deep_dive": 34,
     "lessons": 60,
-    "digest": 210,
+    "digest": 211,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -41,11 +41,11 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 343,
-    "www.snowflake.com": 113,
+    "www.snowflake.com": 114,
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 17,
+    "powerbi.microsoft.com": 18,
     "www.dbt.com": 16,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-17",
-      "time": "2026-05-17T06:37:08.993061+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-17",
       "time": "2026-05-17T08:37:50.555765+00:00",
@@ -1185,15 +1176,23 @@
         "kdnuggets.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-16",
+      "time": "2026-06-16T09:10:38.142595+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com",
+        "www.snowflake.com"
+      ]
     }
   ],
-  "posts_created": 340,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nStrategic thinkers analyze production outcomes.\n\n\u23f1\ufe0f Timeline: I Built 11 Models to Predict the 2026 World Cup. They Crown Four Different Champions.\n\n\u2192 Challenge: A single model hands you a single answer and no sense of how much it hinges on the dozens of choices buried inside it. The post I Built 11 Models to Predict the 2026 World Cup.\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Production systems teach you things documentation never will\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nWhat would you do differently if you started over today?\n\n#BigQuery #SSRS #Automation #Statistics #SQL #Databricks #Alteryx\n\n\u2753 How would you adapt this for your team?\n\nSource: https://towardsdatascience.com/i-built-11-models-to-predict-the-2026-world-cup-they-crown-four-different-champions/\n\n#SQL #Python #Alteryx #Looker #Insights #DBT #Dashboard",
-  "last_post_format": "case_study",
+  "posts_created": 341,
+  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nTech strategists decode the next wave of transformation.\n\nGlobal tech trends:\n1. What's New with Dynamic Tables \u2014 Faster Refresh\nContext: Dynamic Tables get faster refreshes, custom incrementalization with MERGE/INSERT, dbt support, Iceberg interoperability and Cortex AI Functions.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/whats-new-dynamic-tables-faster-flexible\n\n2. Simplified Oracle connectivity in Power BI (Preview)\nContext: Connecting Power BI to Oracle has historically meant extra provider installations and data gateway deployment \u2014 even for cloud-hosted databases.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nHow is your organization responding to these signals?\n\n#CloudData #DataWarehouse #Insights #Dashboard #BusinessIntelligence #Tableau #ETL",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com",
+    "www.snowflake.com",
     "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-06-15T16:27:31.347004+00:00"
+  "last_post_timestamp": "2026-06-16T09:10:38.143514+00:00"
 }
