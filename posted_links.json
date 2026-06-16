@@ -584,6 +584,7 @@
     "https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-1-the-geometric-intuition/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
     "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
+    "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
     "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
     "https://towardsdatascience.com/llm-themes-are-not-observations/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
@@ -627,6 +628,7 @@
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
     "https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/",
+    "https://towardsdatascience.com/question-parsing-in-rag-structure-before-you-search/",
     "https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/",
     "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
     "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
@@ -637,6 +639,7 @@
     "https://towardsdatascience.com/rerankers-arent-magic-either-when-the-cross-encoder-layer-is-worth-the-cost-enterprise-document-intelligence-vol-1-2bis/",
     "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
+    "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
     "https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/",
     "https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/",
     "https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/",
@@ -923,6 +926,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/2026-summit-partner-awards",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/Operationalizing-ai-agents-financial-services",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/accelerating-redshift-modernization-confidence",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/adaptive-compute-generally-available",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/adaptive-compute-performance",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agent-context-layer-trustworthy-data-agents",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-business-operations0",
@@ -991,6 +995,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-layer-ai-risk-finance",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/semantic-view-autopilot",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowconvert-ai-new-features-feb-2026",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-apps-build-deploy-faster",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-ai-coding-agent-modern-data-stack",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-commitment-iceberg-interoperability",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-cowork-personal-work-agent",
@@ -1001,6 +1006,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-openflow-cortex-code-integration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-veeva-agentic-ai-life-sciences",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-ventures-backs-bedrock-data",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-well-architected-framework",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-2026-venture-leaders-insights",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-challenge-2026-winner",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-alquant",
@@ -1170,46 +1176,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472615047844990976",
-    "last_posted_at_utc": "2026-06-16T11:44:22.091251+00:00",
+    "last_post_id": "urn:li:share:7472681911023247361",
+    "last_posted_at_utc": "2026-06-16T16:10:03.635360+00:00",
     "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "10 GitHub Repositories for Modern Database Systems and Tools",
-        "date": "2026-06-02T15:39:48.595801+00:00",
-        "hash_strict": "041f65002609",
-        "hash_medium": "2a3ccea83508"
-      },
-      {
-        "title": "Exploring Income Patterns with Python Pandas, Matplotlib, and Seaborn",
-        "date": "2026-06-02T15:39:48.595899+00:00",
-        "hash_strict": "8592e58b5720",
-        "hash_medium": "9a19884eee87"
-      },
-      {
-        "title": "Celebrating the 2026 Snowflake Partner Award Winners",
-        "date": "2026-06-02T15:39:48.595971+00:00",
-        "hash_strict": "73d0307fab5f",
-        "hash_medium": "e4d03b60685b"
-      },
-      {
-        "title": "Snowflake CoWork: The Personal Work Agent for Every Knowledge Worker",
-        "date": "2026-06-02T15:39:48.596032+00:00",
-        "hash_strict": "80f1289f6bab",
-        "hash_medium": "d35ca14e8738"
-      },
-      {
-        "title": "Snowflake Horizon Context: The Governed Context Layer for AI, BI and Apps",
-        "date": "2026-06-02T15:39:48.596088+00:00",
-        "hash_strict": "036333f5199a",
-        "hash_medium": "91c3386d1ec5"
-      },
-      {
-        "title": "Snowflake for AI: Put Enterprise AI to Work",
-        "date": "2026-06-02T15:39:48.596132+00:00",
-        "hash_strict": "ad9111c221ee",
-        "hash_medium": "b2fb45dcb650"
-      },
       {
         "title": "Building in the Agentic Era with Power BI and Fabric",
         "date": "2026-06-03T08:36:22.734308+00:00",
@@ -1959,6 +1929,42 @@
         "date": "2026-06-16T11:44:22.091126+00:00",
         "hash_strict": "6ba9a9cadcce",
         "hash_medium": "c36fcbbd71ba"
+      },
+      {
+        "title": "Snowflake Well-Architected Framework: Build for the AI Era",
+        "date": "2026-06-16T16:10:03.634914+00:00",
+        "hash_strict": "9d374f24ae37",
+        "hash_medium": "dbfc7231fb60"
+      },
+      {
+        "title": "Build and Deploy Faster with Snowflake Apps",
+        "date": "2026-06-16T16:10:03.635047+00:00",
+        "hash_strict": "f4236b17792d",
+        "hash_medium": "815f7194e3f7"
+      },
+      {
+        "title": "Snowflake Adaptive Compute Is Now Generally Available",
+        "date": "2026-06-16T16:10:03.635121+00:00",
+        "hash_strict": "22124078deaf",
+        "hash_medium": "a6b6c0a54e91"
+      },
+      {
+        "title": "Run a Local LLM with OpenClaw on Your Mac Mini",
+        "date": "2026-06-16T16:10:03.635174+00:00",
+        "hash_strict": "85e758db2b72",
+        "hash_medium": "809dcad0ab87"
+      },
+      {
+        "title": "LLM Fallbacks Break Agent Pipelines \u2014 I Built the Missing Recovery Layer",
+        "date": "2026-06-16T16:10:03.635244+00:00",
+        "hash_strict": "eb1d65577997",
+        "hash_medium": "11d45f27d064"
+      },
+      {
+        "title": "RAG Questions Need Parsing Too: Turn the User\u2019s String Into Briefs for Retrieval and Generation",
+        "date": "2026-06-16T16:10:03.635304+00:00",
+        "hash_strict": "d89b787ca8b3",
+        "hash_medium": "d17f695b4d64"
       }
     ]
   }
