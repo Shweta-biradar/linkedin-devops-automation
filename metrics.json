@@ -1,11 +1,11 @@
 {
-  "total_posts": 372,
-  "posts_today": 2,
+  "total_posts": 373,
+  "posts_today": 3,
   "last_post_date": "2026-06-17",
   "formats_used": {
     "case_study": 53,
     "deep_dive": 34,
-    "lessons": 60,
+    "lessons": 61,
     "digest": 214,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 347,
+    "towardsdatascience.com": 349,
     "www.snowflake.com": 118,
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-18",
-      "time": "2026-05-18T14:43:11.709382+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.dbt.com",
-        "www.dbt.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-19",
       "time": "2026-05-19T07:04:14.876402+00:00",
@@ -1199,15 +1188,22 @@
         "towardsdatascience.com",
         "www.dbt.com"
       ]
+    },
+    {
+      "date": "2026-06-17",
+      "time": "2026-06-17T14:36:02.850257+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 345,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: Converting an RDS for SQL Server instance from license included to Bring Your Own Media (BYOM)\n\nThe story: Amazon RDS for SQL Server recently launched Bring Your Own Media (BYOM), so you can use your existing SQL Server licenses with fully managed RDS instances.\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 2: Production systems teach you things documentation never will\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#SQL #Oracle #DataVisualization #BusinessIntelligence #Alteryx #PowerBI #SSRS\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://aws.amazon.com/blogs/database/converting-an-rds-for-sql-server-instance-from-license-included-to-bring-your-own-media-byom/\n\n#PowerBI #Insights #Looker #SQL #SAPHANA #DataAnalyst #SSRS",
-  "last_post_format": "case_study",
+  "posts_created": 346,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nStrategic thinkers highlight recurring patterns.\n\nTopic: You Probably Don\u2019t Need an Agent Framework\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#SQL #SSRS #DataWarehouse #Oracle #SSIS #Airflow #PowerBI\n\n\u2753 Which lesson resonates most with your team?\n\n#Looker #SQL #Automation #Databricks #BITools #DBT #Analytics",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "aws.amazon.com",
-    "www.dbt.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-17T11:23:10.311372+00:00"
+  "last_post_timestamp": "2026-06-17T14:36:02.851452+00:00"
 }

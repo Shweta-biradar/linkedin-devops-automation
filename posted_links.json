@@ -721,6 +721,7 @@
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
     "https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/",
     "https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/",
+    "https://towardsdatascience.com/what-the-question-parser-extracts-from-a-user-string-keywords-scope-shape-decomposition-clarification/",
     "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
     "https://towardsdatascience.com/when-customers-churn-at-renewal-was-it-the-price-or-the-project/",
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
@@ -745,6 +746,7 @@
     "https://towardsdatascience.com/why-your-multi-agent-system-is-failing-escaping-the-17x-error-trap-of-the-bag-of-agents/",
     "https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/",
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
+    "https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/",
     "https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/",
     "https://towardsdatascience.com/your-first-webassembly-program-and-web-app-written-tested-and-deployed-entirely-in-the-web-browser/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
@@ -1188,34 +1190,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472972101319057408",
-    "last_posted_at_utc": "2026-06-17T11:23:10.307993+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7473020640275496960",
+    "last_posted_at_utc": "2026-06-17T14:36:02.845949+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "From Regex to Vision Models: Which RAG Technique Fits Which Problem",
-        "date": "2026-06-03T11:27:37.645708+00:00",
-        "hash_strict": "57d80c15d130",
-        "hash_medium": "c28a427fc881"
-      },
-      {
-        "title": "Code Is Cheap. Engineering Judgement Is Now the Scarce\u00a0Resource",
-        "date": "2026-06-03T11:27:37.645848+00:00",
-        "hash_strict": "1788223e85fd",
-        "hash_medium": "545f59b732d3"
-      },
-      {
-        "title": "From Local App to Public Website in\u00a0Minutes",
-        "date": "2026-06-03T11:27:37.645929+00:00",
-        "hash_strict": "804c7226cd36",
-        "hash_medium": "47bbae804807"
-      },
-      {
-        "title": "Adaptive Compute Delivers High Performance That Evolves with Your Workloads",
-        "date": "2026-06-03T11:27:37.645981+00:00",
-        "hash_strict": "1530bea2cb93",
-        "hash_medium": "b4483fb0792a"
-      },
       {
         "title": "How to Write to Files in Python: A Beginner\u2019s Guide",
         "date": "2026-06-03T16:01:01.434135+00:00",
@@ -2013,6 +1991,18 @@
         "date": "2026-06-17T11:23:10.307943+00:00",
         "hash_strict": "633e8c6c1e60",
         "hash_medium": "c8b63ee60bf8"
+      },
+      {
+        "title": "You Probably Don\u2019t Need an Agent Framework",
+        "date": "2026-06-17T14:36:02.845741+00:00",
+        "hash_strict": "faafdc12e6f7",
+        "hash_medium": "ef4e42771497"
+      },
+      {
+        "title": "What the Question Parser Extracts from a User String: Keywords, Scope, Shape, Decomposition, Clarification",
+        "date": "2026-06-17T14:36:02.845840+00:00",
+        "hash_strict": "13ca6a2b2552",
+        "hash_medium": "b846e18edf73"
       }
     ]
   }
