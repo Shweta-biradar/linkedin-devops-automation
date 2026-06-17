@@ -1,9 +1,9 @@
 {
-  "total_posts": 371,
-  "posts_today": 1,
+  "total_posts": 372,
+  "posts_today": 2,
   "last_post_date": "2026-06-17",
   "formats_used": {
-    "case_study": 52,
+    "case_study": 53,
     "deep_dive": 34,
     "lessons": 60,
     "digest": 214,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 146,
+    "aws.amazon.com": 147,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 346,
+    "towardsdatascience.com": 347,
     "www.snowflake.com": 118,
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 20,
-    "www.dbt.com": 18,
+    "www.dbt.com": 22,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
   },
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-18",
-      "time": "2026-05-18T10:49:06.702758+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-18",
       "time": "2026-05-18T14:43:11.709382+00:00",
@@ -1194,16 +1186,28 @@
         "www.dbt.com",
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-06-17",
+      "time": "2026-06-17T11:23:10.310155+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "www.dbt.com",
+        "www.dbt.com",
+        "www.dbt.com",
+        "towardsdatascience.com",
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 344,
-  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nAnalytics experts curate the signals that drive innovation.\n\nSecurity signals:\n1. Snowflake Postgres Unifies Your Apps, Analytics and AI\nContext: Snowflake Postgres now offers data mirroring and pg_lake integration \u2014 a native, pipeline-free way to sync OLTP and analytical data in near real time.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/postgres-data-mirroring\n\n2. Org apps with audiences for Power BI and Fabric (Generally Available)\nContext: Announcing general availability of org apps in Power BI and Fabric, including one of the most requested capabilities: audiences.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326\n\n3. Modernize Amazon Redshift: RA3 to RG Migration best practices\nContext: In this post, you learn how to migrate Amazon Redshift RA3 clusters to Graviton-based RG instances. We compare the Elastic Resize, Classic Resize, and Snapshot/Restore...\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/\n\n4. Context engineering is the new analytics engineering skill: a practical guide for dbt users\nContext: Analytics engineers are already doing context engineering. Here's how your dbt project becomes context for AI.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/context-engineering-is-the-new-analytics-engineering-skill-a-practical-guide-for-dbt-users\n\n5. AI-assisted data development with Kiro and SageMaker Unified Studio\nContext: With the AWS Toolkit for Visual Studio Code, you can connect Kiro, VS Code, or Cursor directly to Amazon SageMaker Unified Studio.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/ai-assisted-data-development-with-kiro-and-sagemaker-unified-studio/\n\n6. Building the agentic data stack: A practical dbt guide for the AI era\nContext: AI builds data infrastructure fast. Here's how to make your dbt project ready to support agents without it falling over.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.getdbt.com/blog/building-the-agentic-data-stack-a-practical-dbt-guide-for-the-ai-era\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Airflow #Insights #Alteryx #DataWarehouse",
-  "last_post_format": "digest",
+  "posts_created": 345,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: Converting an RDS for SQL Server instance from license included to Bring Your Own Media (BYOM)\n\nThe story: Amazon RDS for SQL Server recently launched Bring Your Own Media (BYOM), so you can use your existing SQL Server licenses with fully managed RDS instances.\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 2: Production systems teach you things documentation never will\n\u2192 Step 3: Measure impact and iterate based on results\n\nHow do you keep learning while managing operational load?\n\n#SQL #Oracle #DataVisualization #BusinessIntelligence #Alteryx #PowerBI #SSRS\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udca1 Dive deeper into this topic: https://aws.amazon.com/blogs/database/converting-an-rds-for-sql-server-instance-from-license-included-to-bring-your-own-media-byom/\n\n#PowerBI #Insights #Looker #SQL #SAPHANA #DataAnalyst #SSRS",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "powerbi.microsoft.com",
     "aws.amazon.com",
-    "www.snowflake.com",
-    "www.dbt.com"
+    "www.dbt.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-17T08:44:09.930439+00:00"
+  "last_post_timestamp": "2026-06-17T11:23:10.311372+00:00"
 }

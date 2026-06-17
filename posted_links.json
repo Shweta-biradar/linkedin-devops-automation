@@ -96,6 +96,7 @@
     "https://aws.amazon.com/blogs/database/building-python-applications-with-sqlalchemy-and-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/connect-to-amazon-rds-for-db2-from-your-laptop/",
+    "https://aws.amazon.com/blogs/database/converting-an-rds-for-sql-server-instance-from-license-included-to-bring-your-own-media-byom/",
     "https://aws.amazon.com/blogs/database/create-monitoring-dashboard-for-amazon-rds-for-db2/",
     "https://aws.amazon.com/blogs/database/deploying-amazon-rds-for-db2-using-terraform/",
     "https://aws.amazon.com/blogs/database/enhanced-search-for-amazon-elasticache/",
@@ -479,6 +480,7 @@
     "https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/",
     "https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/",
     "https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/",
+    "https://towardsdatascience.com/drilling-into-ais-financial-sustainability/",
     "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
     "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
     "https://towardsdatascience.com/ensembles-of-ensembles-of-ensembles/",
@@ -817,10 +819,14 @@
     "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means",
     "https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
     "https://www.getdbt.com/blog/get-dbt-certified-stay-certified-stay-ahead",
+    "https://www.getdbt.com/blog/how-dbt-makes-agentic-data-pipelines-trustworthy-the-transformation-layer-s-role-in-autonomous",
     "https://www.getdbt.com/blog/how-nasdaq-built-a-governed-intelligence-layer-with-dbt-and-databricks",
     "https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program",
     "https://www.getdbt.com/blog/ship-smarter-agents-in-production-with-dbt-agent-skills",
+    "https://www.getdbt.com/blog/start-fresh-don-t-lift-and-shift-a-dbt-migration-guide",
+    "https://www.getdbt.com/blog/the-analytics-engineer-in-2026-system-designer-governance-owner-ai-context-provider",
     "https://www.getdbt.com/blog/the-dbt-developer-agent-is-now-in-preview",
+    "https://www.getdbt.com/blog/the-trust-speed-paradox-governing-ai-accelerated-data-work",
     "https://www.getdbt.com/blog/what-we-announced-at-snowflake-summit-and-why-it-matters",
     "https://www.getdbt.com/blog/your-ai-isn-t-broken-your-data-model-is",
     "https://www.hashicorp.com/blog/infrastructure-as-demos-a-terraform-selling-platform-built-on-terraform",
@@ -1182,9 +1188,9 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7472932085742137344",
-    "last_posted_at_utc": "2026-06-17T08:44:09.926901+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7472972101319057408",
+    "last_posted_at_utc": "2026-06-17T11:23:10.307993+00:00",
+    "last_format": "case_study",
     "topic_titles": [
       {
         "title": "From Regex to Vision Models: Which RAG Technique Fits Which Problem",
@@ -1971,6 +1977,42 @@
         "date": "2026-06-17T08:44:09.926846+00:00",
         "hash_strict": "00689d9b6c7c",
         "hash_medium": "b1c406405aee"
+      },
+      {
+        "title": "Converting an RDS for SQL Server instance from license included to Bring Your Own Media (BYOM)",
+        "date": "2026-06-17T11:23:10.307424+00:00",
+        "hash_strict": "88ddb493dcac",
+        "hash_medium": "2572434b5e07"
+      },
+      {
+        "title": "How dbt makes agentic data pipelines trustworthy: the transformation layer's role in autonomous data systems",
+        "date": "2026-06-17T11:23:10.307544+00:00",
+        "hash_strict": "02721ae03c4d",
+        "hash_medium": "05df05da4229"
+      },
+      {
+        "title": "The analytics engineer in 2026: system designer, governance owner, AI context provider",
+        "date": "2026-06-17T11:23:10.307643+00:00",
+        "hash_strict": "889200b0a5ac",
+        "hash_medium": "0dc98582860b"
+      },
+      {
+        "title": "Start fresh, don't lift and shift: a dbt migration guide",
+        "date": "2026-06-17T11:23:10.307776+00:00",
+        "hash_strict": "db1bfdbe1399",
+        "hash_medium": "0f300497c899"
+      },
+      {
+        "title": "Drilling Into AI\u2019s Financial Sustainability",
+        "date": "2026-06-17T11:23:10.307876+00:00",
+        "hash_strict": "2e15dc1ebc64",
+        "hash_medium": "48c0dbe68a35"
+      },
+      {
+        "title": "The trust-speed paradox: Governing AI-accelerated data work",
+        "date": "2026-06-17T11:23:10.307943+00:00",
+        "hash_strict": "633e8c6c1e60",
+        "hash_medium": "c8b63ee60bf8"
       }
     ]
   }
