@@ -1,12 +1,12 @@
 {
-  "total_posts": 370,
-  "posts_today": 3,
-  "last_post_date": "2026-06-16",
+  "total_posts": 371,
+  "posts_today": 1,
+  "last_post_date": "2026-06-17",
   "formats_used": {
     "case_study": 52,
     "deep_dive": 34,
     "lessons": 60,
-    "digest": 213,
+    "digest": 214,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 144,
+    "aws.amazon.com": 146,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -41,12 +41,12 @@
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
     "towardsdatascience.com": 346,
-    "www.snowflake.com": 117,
+    "www.snowflake.com": 118,
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 19,
-    "www.dbt.com": 16,
+    "powerbi.microsoft.com": 20,
+    "www.dbt.com": 18,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
   },
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-18",
-      "time": "2026-05-18T07:14:02.484128+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-18",
       "time": "2026-05-18T10:49:06.702758+00:00",
@@ -1190,14 +1181,29 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-17",
+      "time": "2026-06-17T08:44:09.929212+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "www.dbt.com",
+        "www.dbt.com",
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 343,
-  "last_post_content": "\ud83d\udca1 Innovation in cloud-native and edge computing.\nEngineering visionaries spotlight what matters most this week.\n\nWhat caught our attention:\n1. Run a Local LLM with OpenClaw on Your Mac Mini\nContext: Tired of your monthly API bill? Follow this tested guide to set up a high-performance local LLM on your Mac Mini without the headaches.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/\n\n2. RAG Questions Need Parsing Too: Turn the User\u2019s String Into Briefs for Retrieval and Generation\nContext: ...\nEnterprise Document Intelligence [Vol.1 #6a] - Why a user question deserves the same parsing as the document, and how it splits into a retrieval brief and a generation brief before either runs The\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/question-parsing-in-rag-structure-before-you-search/\n\n3. Snowflake Well-Architected Framework: Build for the AI Era\nContext: Assess and optimize your Snowflake environment with the Well-Architected Framework: five pillars, automated CoCo assessments and Blueprint Manager guidance.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-well-architected-framework\n\n4. LLM Fallbacks Break Agent Pipelines \u2014 I Built the Missing Recovery Layer\nContext: LLM rate limits don't just interrupt agent pipelines\u2014they can silently corrupt structured outputs when fallback models receive incompatible payloads.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/\n\n5. Snowflake Adaptive Compute Is Now Generally Available\nContext: Snowflake Adaptive Compute is now GA on AWS. Automate warehouse management, boost throughput and achieve better price-performance for demanding AI and data workloads.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/adaptive-compute-generally-available\n\n6. Build and Deploy Faster with Snowflake Apps\nContext: Meet Snowflake Apps: build full-stack, AI-powered enterprise apps using the tools you love \u2014 Node.js, Vercel, Streamlit and more \u2014 and deploy in minutes with governance...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-apps-build-deploy-faster\n\n#CloudNative #DataOps #Observability #Platform #Infra #Kubernetes #DataAnalytics\n\nWhich signal will shape your roadmap?\n\n#SSIS #DataWarehouse #Python #Tableau #Reporting #MySQL #SSAS",
+  "posts_created": 344,
+  "last_post_content": "\ud83d\udd12 Security, scale, and innovation: the highlights.\nAnalytics experts curate the signals that drive innovation.\n\nSecurity signals:\n1. Snowflake Postgres Unifies Your Apps, Analytics and AI\nContext: Snowflake Postgres now offers data mirroring and pg_lake integration \u2014 a native, pipeline-free way to sync OLTP and analytical data in near real time.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/postgres-data-mirroring\n\n2. Org apps with audiences for Power BI and Fabric (Generally Available)\nContext: Announcing general availability of org apps in Power BI and Fabric, including one of the most requested capabilities: audiences.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326\n\n3. Modernize Amazon Redshift: RA3 to RG Migration best practices\nContext: In this post, you learn how to migrate Amazon Redshift RA3 clusters to Graviton-based RG instances. We compare the Elastic Resize, Classic Resize, and Snapshot/Restore...\nImpact: helps you run clusters more reliably and efficiently.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/\n\n4. Context engineering is the new analytics engineering skill: a practical guide for dbt users\nContext: Analytics engineers are already doing context engineering. Here's how your dbt project becomes context for AI.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/context-engineering-is-the-new-analytics-engineering-skill-a-practical-guide-for-dbt-users\n\n5. AI-assisted data development with Kiro and SageMaker Unified Studio\nContext: With the AWS Toolkit for Visual Studio Code, you can connect Kiro, VS Code, or Cursor directly to Amazon SageMaker Unified Studio.\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/big-data/ai-assisted-data-development-with-kiro-and-sagemaker-unified-studio/\n\n6. Building the agentic data stack: A practical dbt guide for the AI era\nContext: AI builds data infrastructure fast. Here's how to make your dbt project ready to support agents without it falling over.\nImpact: improves infrastructure reliability and consistency.\n\ud83d\udd17 https://www.getdbt.com/blog/building-the-agentic-data-stack-a-practical-dbt-guide-for-the-ai-era\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Airflow #Insights #Alteryx #DataWarehouse",
   "last_post_format": "digest",
   "last_post_sources": [
+    "powerbi.microsoft.com",
+    "aws.amazon.com",
     "www.snowflake.com",
-    "towardsdatascience.com"
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-06-16T16:10:03.638736+00:00"
+  "last_post_timestamp": "2026-06-17T08:44:09.930439+00:00"
 }
