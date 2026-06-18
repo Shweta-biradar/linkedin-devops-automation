@@ -1,12 +1,12 @@
 {
-  "total_posts": 375,
-  "posts_today": 2,
+  "total_posts": 376,
+  "posts_today": 3,
   "last_post_date": "2026-06-18",
   "formats_used": {
     "case_study": 53,
     "deep_dive": 34,
     "lessons": 62,
-    "digest": 215,
+    "digest": 216,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 147,
+    "aws.amazon.com": 149,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,8 +40,8 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 350,
-    "www.snowflake.com": 121,
+    "towardsdatascience.com": 353,
+    "www.snowflake.com": 122,
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-19",
-      "time": "2026-05-19T14:12:18.644009+00:00",
-      "format": "lessons",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-20",
       "time": "2026-05-20T07:04:11.590009+00:00",
@@ -1196,13 +1187,28 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-06-18",
+      "time": "2026-06-18T14:29:17.526118+00:00",
+      "format": "digest",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 348,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nSecurity champions share what shapes the future of operations.\n\nCollaboration wins:\n1. Power BI May 2026 Feature Summary\nContext: Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Insights #SAPHANA #Databricks #Airflow",
+  "posts_created": 349,
+  "last_post_content": "\ud83c\udf10 What matters for builders and operators.\nAnalytics experts curate the signals that drive innovation.\n\nKey developments:\n1. The Power and Pitfalls of Vector-Based Image Search\nContext: A hands-on guide to setting up image similarity search in Milvus, and why visual replication isn't always enough. The post The Power and Pitfalls of Vector-Based Image Search...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-power-and-pitfalls-of-vector-based-image-search/\n\n2. Deep dive into Amazon Aurora PostgreSQL lock analysis with CloudWatch Database Insights\nContext: In this post, we show you how to use Amazon CloudWatch Database Insights for lock analysis in Amazon Aurora PostgreSQL. You learn how to enable the feature, interpret lock tree...\nImpact: helps you optimize cloud reliability and cost.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/deep-dive-into-amazon-aurora-postgresql-lock-analysis-with-cloudwatch-database-insights/\n\n3. How to Effectively Align with Claude Code\nContext: Increase productivity with your LLMs The post How to Effectively Align with Claude Code appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-effectively-align-with-claude-code/\n\n4. PostgreSQL 18 on Amazon Aurora and Amazon RDS: Performance enhancements\nContext: This is Part 1 of a two-part series covering the key features in PostgreSQL 18. In this post, we focus on performance enhancements: skip scan optimization for multicolumn...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-performance-enhancements/\n\n5. Snowflake Launches Operations in Chile\nContext: Chile has great potential when it comes to Snowflake\u2019s mission: empowering every enterprise to achieve its full potential through data and AI.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-operations-in-chile\n\n6. Dispatching the Parsed RAG Question: Chunk Strategy, Model Tier, Activations, Audit\nContext: ...\nEnterprise Document Intelligence [Vol.1 #6c] - The decisions the parser makes on top of the user string, using the document\u2019s profile: dispatch, activations, full schema, three approaches to decid\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/dispatching-the-parsed-rag-question-chunk-strategy-model-tier-activations-audit/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhat\u2019s your take on these developments?\n\n#Insights #Automation #Qlik #Snowflake #SSAS #MLOps #PostgreSQL",
   "last_post_format": "digest",
   "last_post_sources": [
-    "powerbi.microsoft.com"
+    "towardsdatascience.com",
+    "aws.amazon.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-06-18T10:56:35.630158+00:00"
+  "last_post_timestamp": "2026-06-18T14:29:17.527279+00:00"
 }
