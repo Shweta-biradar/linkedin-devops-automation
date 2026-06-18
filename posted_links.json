@@ -171,6 +171,7 @@
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354",
     "https://engineering.fb.com/2025/12/19/data-infrastructure/drp-metas-root-cause-analysis-platform-at-scale/",
     "https://engineering.fb.com/2025/12/22/developer-tools/python-typing-survey-2025-code-quality-flexibility-typing-adoption/",
     "https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/",
@@ -698,6 +699,7 @@
     "https://towardsdatascience.com/the-next-frontier-of-ai-in-production-is-chaos-engineering/",
     "https://towardsdatascience.com/the-polynomial-that-fixed-30-years-of-cloth-simulation/",
     "https://towardsdatascience.com/the-proximity-of-the-inception-score-as-an-evaluation-criterion/",
+    "https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/",
     "https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/",
     "https://towardsdatascience.com/the-system-always-knows/",
     "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
@@ -945,9 +947,12 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-business-operations0",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ai-financial-services-nasdaq-evestment",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-control-plane",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-enterprise-snowflake-accenture",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-ml-snowflake-predictive-insights",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/agentic-resource-discovery-specification",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agent-backup-protection",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-efficiency",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-healthcare-leadership-questions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agents-in-healthcare-snowflake-summit-takeaways",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-governance-customer-trust",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-in-healthcare",
@@ -1190,70 +1195,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7473020640275496960",
-    "last_posted_at_utc": "2026-06-17T14:36:02.845949+00:00",
+    "last_post_id": "urn:li:share:7473290397742571520",
+    "last_posted_at_utc": "2026-06-18T08:27:58.042423+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "How to Write to Files in Python: A Beginner\u2019s Guide",
-        "date": "2026-06-03T16:01:01.434135+00:00",
-        "hash_strict": "0c555b64c766",
-        "hash_medium": "75213f3996e6"
-      },
-      {
-        "title": "I Built a C++ Backend So My GPU Would Stop Eating Air",
-        "date": "2026-06-03T16:01:01.434257+00:00",
-        "hash_strict": "f9a2a488214c",
-        "hash_medium": "1467f59c3e09"
-      },
-      {
-        "title": "What AI Agents Should Never Do on Their Own",
-        "date": "2026-06-03T16:01:01.434342+00:00",
-        "hash_strict": "a1c56486fcd5",
-        "hash_medium": "0a33bdb300f6"
-      },
-      {
-        "title": "Why AI Is NOT Stealing Your\u00a0Job",
-        "date": "2026-06-03T16:01:01.434418+00:00",
-        "hash_strict": "511b13f782c7",
-        "hash_medium": "a0a95989e55f"
-      },
-      {
-        "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (SP-GiST, Btree_Gin and Btree_Gist)",
-        "date": "2026-06-04T08:08:01.049066+00:00",
-        "hash_strict": "5b4811eda2f4",
-        "hash_medium": "0a04e0b105fe"
-      },
-      {
-        "title": "Implementing real-time change data capture with Debezium for Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL",
-        "date": "2026-06-04T08:08:01.049187+00:00",
-        "hash_strict": "cdcde8756b94",
-        "hash_medium": "d3746d0d9933"
-      },
-      {
-        "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (Bloom, pg_trgm, and pg_bigm)",
-        "date": "2026-06-04T08:08:01.049259+00:00",
-        "hash_strict": "5b4811eda2f4",
-        "hash_medium": "0a04e0b105fe"
-      },
-      {
-        "title": "Accelerating developer productivity in the agentic AI era with Amazon Aurora PostgreSQL",
-        "date": "2026-06-04T08:08:01.049330+00:00",
-        "hash_strict": "6870cc3a2b4d",
-        "hash_medium": "6101c2d43b2f"
-      },
-      {
-        "title": "Migrating data from Oracle to Amazon Aurora DSQL",
-        "date": "2026-06-04T08:08:01.049396+00:00",
-        "hash_strict": "8dff8db1623a",
-        "hash_medium": "87a5035de29b"
-      },
-      {
-        "title": "Copilot in web modeling (Preview)",
-        "date": "2026-06-04T08:08:01.049457+00:00",
-        "hash_strict": "60ddd8e52662",
-        "hash_medium": "757b6fc3d055"
-      },
       {
         "title": "Schedule notebook runs in Amazon SageMaker Unified Studio",
         "date": "2026-06-04T10:26:56.387396+00:00",
@@ -2003,6 +1948,36 @@
         "date": "2026-06-17T14:36:02.845840+00:00",
         "hash_strict": "13ca6a2b2552",
         "hash_medium": "b846e18edf73"
+      },
+      {
+        "title": "Workspace outbound access protection for Power BI reports (Preview)",
+        "date": "2026-06-18T08:27:58.042093+00:00",
+        "hash_strict": "d84b85c5b4ab",
+        "hash_medium": "20d5d46ec4e4"
+      },
+      {
+        "title": "Powering the Agentic Enterprise: Turning Enterprise Context into Governed Agentic Action",
+        "date": "2026-06-18T08:27:58.042230+00:00",
+        "hash_strict": "fc4b65a2c316",
+        "hash_medium": "8681a6b27b13"
+      },
+      {
+        "title": "Snowflake and the Agentic Resource Discovery Specification",
+        "date": "2026-06-18T08:27:58.042285+00:00",
+        "hash_strict": "3cf8e23bbf40",
+        "hash_medium": "c83e8d1fe715"
+      },
+      {
+        "title": "The Secret to Reproducible and Portable Optimization: ORPilot\u2019s Intermediate Representation (IR)",
+        "date": "2026-06-18T08:27:58.042329+00:00",
+        "hash_strict": "33e494b0e32f",
+        "hash_medium": "4680cf673504"
+      },
+      {
+        "title": "Agentic AI in Healthcare: 10 Questions for Leaders",
+        "date": "2026-06-18T08:27:58.042381+00:00",
+        "hash_strict": "a3bd61094904",
+        "hash_medium": "be6b82d3093a"
       }
     ]
   }
