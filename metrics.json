@@ -1,12 +1,12 @@
 {
-  "total_posts": 374,
-  "posts_today": 1,
+  "total_posts": 375,
+  "posts_today": 2,
   "last_post_date": "2026-06-18",
   "formats_used": {
     "case_study": 53,
     "deep_dive": 34,
     "lessons": 62,
-    "digest": 214,
+    "digest": 215,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -45,7 +45,7 @@
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 21,
+    "powerbi.microsoft.com": 22,
     "www.dbt.com": 22,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-19",
-      "time": "2026-05-19T10:14:43.831651+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.dbt.com"
-      ]
-    },
     {
       "date": "2026-05-19",
       "time": "2026-05-19T14:12:18.644009+00:00",
@@ -1196,15 +1188,21 @@
         "towardsdatascience.com",
         "www.snowflake.com"
       ]
+    },
+    {
+      "date": "2026-06-18",
+      "time": "2026-06-18T10:56:35.628943+00:00",
+      "format": "digest",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 347,
-  "last_post_content": "\ud83c\udf93 5 things we wish we knew sooner.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Agentic AI in Healthcare: 10 Questions for Leaders\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#BITools #Insights #Automation #Databricks #BigQuery #Redshift #Qlik\n\n\u2753 Which lesson resonates most with your team?\n\n#PowerBI #Looker #Python #Qlik #SSIS #BigQuery #SSRS",
-  "last_post_format": "lessons",
+  "posts_created": 348,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nSecurity champions share what shapes the future of operations.\n\nCollaboration wins:\n1. Power BI May 2026 Feature Summary\nContext: Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Insights #SAPHANA #Databricks #Airflow",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "www.snowflake.com",
-    "towardsdatascience.com",
     "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-06-18T08:27:58.045780+00:00"
+  "last_post_timestamp": "2026-06-18T10:56:35.630158+00:00"
 }

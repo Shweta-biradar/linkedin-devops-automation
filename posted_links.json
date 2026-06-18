@@ -1195,28 +1195,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7473290397742571520",
-    "last_posted_at_utc": "2026-06-18T08:27:58.042423+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7473327800754626560",
+    "last_posted_at_utc": "2026-06-18T10:56:35.626836+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "Schedule notebook runs in Amazon SageMaker Unified Studio",
-        "date": "2026-06-04T10:26:56.387396+00:00",
-        "hash_strict": "004a7cf5e88d",
-        "hash_medium": "ad858e7fc569"
-      },
-      {
-        "title": "I Spent May Evaluating Different Engines for\u00a0OCR",
-        "date": "2026-06-04T10:26:56.387503+00:00",
-        "hash_strict": "3230ad363047",
-        "hash_medium": "363e316ec5f2"
-      },
-      {
-        "title": "Building a data stack for trusted AI",
-        "date": "2026-06-04T10:26:56.387577+00:00",
-        "hash_strict": "21dab24ea6fc",
-        "hash_medium": "9a108665b6e9"
-      },
       {
         "title": "7 Steps to Mastering Time Series Analysis with Python",
         "date": "2026-06-04T14:16:15.946059+00:00",
@@ -1978,6 +1960,12 @@
         "date": "2026-06-18T08:27:58.042381+00:00",
         "hash_strict": "a3bd61094904",
         "hash_medium": "be6b82d3093a"
+      },
+      {
+        "title": "Power BI May 2026 Feature Summary",
+        "date": "2026-06-18T10:56:35.626698+00:00",
+        "hash_strict": "72e4ec1c0800",
+        "hash_medium": "f37492db6b9c"
       }
     ]
   }
