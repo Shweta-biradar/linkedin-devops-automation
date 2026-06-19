@@ -1,10 +1,10 @@
 {
-  "total_posts": 377,
-  "posts_today": 1,
+  "total_posts": 378,
+  "posts_today": 2,
   "last_post_date": "2026-06-19",
   "formats_used": {
     "case_study": 53,
-    "deep_dive": 35,
+    "deep_dive": 36,
     "lessons": 62,
     "digest": 216,
     "lessons_learned": 2,
@@ -45,7 +45,7 @@
     "kdnuggets.com": 70,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 22,
+    "powerbi.microsoft.com": 23,
     "www.dbt.com": 22,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
@@ -303,19 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-20",
-      "time": "2026-05-20T10:02:52.184226+00:00",
-      "format": "case_study",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-20",
       "time": "2026-05-20T14:03:49.700044+00:00",
@@ -1198,14 +1185,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-19",
+      "time": "2026-06-19T11:06:51.005391+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 350,
-  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udccc Real-Time Data Pipelines via Snowpipe Streaming | Snowflake\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: Discover how data engineers ship real-time data pipelines affordably using Snowpipe Streaming and Snowflake CoCo. Start streaming in minutes.\n2\ufe0f\u20e3 Why it matters: improves delivery speed without sacrificing safety.\n3\ufe0f\u20e3 Key insight: CI/CD observability matters as much as application observability\n\nWhat pipeline failures taught you the most?\n\n#SSRS #Analytics #Automation #Snowflake #BigQuery #AdvancedAnalytics #PowerBI\n\n\u2753 Which takeaway resonates most for your team?\n\n#Airflow #Automation #SSRS #Oracle #DataAnalyst #BusinessIntelligence #Qlik",
+  "posts_created": 351,
+  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Deep dive: Power BI May 2026 Feature Summary\n\nKey points:\n\u2022 Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Deployment frequency correlates with stability when done right\n\u2022 Pipeline as code prevents configuration drift and bus factor issues\n\nHow do you handle deployment rollbacks at scale?\n\n#AdvancedAnalytics #Insights #BITools #SAPHANA #DBT #MLOps #Oracle\n\n\u2753 What would you add to this deep dive?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SQL #DBT #Looker #Statistics",
   "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "www.snowflake.com"
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-06-19T08:55:58.449203+00:00"
+  "last_post_timestamp": "2026-06-19T11:06:51.006491+00:00"
 }
