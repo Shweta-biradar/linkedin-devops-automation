@@ -528,6 +528,7 @@
     "https://towardsdatascience.com/how-gpus-communicate/",
     "https://towardsdatascience.com/how-i-continually-improve-my-claude-code/",
     "https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/",
+    "https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
     "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
@@ -627,6 +628,7 @@
     "https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/",
     "https://towardsdatascience.com/prompt-engineering-isnt-enough-i-built-a-control-layer-that-works-in-production/",
     "https://towardsdatascience.com/prompt-fidelity-measuring-how-much-of-your-intent-an-ai-agent-actually-executes/",
+    "https://towardsdatascience.com/proteins-a-mosaic-pattern-to-rule-them-all/",
     "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-comparison/",
     "https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-intelligence/",
     "https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/",
@@ -671,6 +673,7 @@
     "https://towardsdatascience.com/stop-using-llms-like-giant-problem-solvers/",
     "https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/",
     "https://towardsdatascience.com/stop-writing-loops-in-pandas-do-this-instead/",
+    "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
     "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
     "https://towardsdatascience.com/system-design-series-apache-flink-from-10000-feet-and-building-a-flink-powered-recommendation-engine/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
@@ -1009,6 +1012,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/postgres-data-mirroring",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/production-ml-workflows",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/public-sector-data-informed-snowflake-intelligence",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/real-time-pipelines-snowpipe-streaming",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/replacing-debezium-with-openflow",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-2026-predictions-webinar-recap",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/retail-customer-analytics-customer-360",
@@ -1201,46 +1205,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7473381327602462720",
-    "last_posted_at_utc": "2026-06-18T14:29:17.524031+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7473659833745997824",
+    "last_posted_at_utc": "2026-06-19T08:55:58.445341+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Query Amazon Redshift using natural language with Kiro",
-        "date": "2026-06-05T07:55:01.912837+00:00",
-        "hash_strict": "543284dfada9",
-        "hash_medium": "b81fb22e543e"
-      },
-      {
-        "title": "Build governance dashboards for Amazon SageMaker Catalog with Amazon Quick",
-        "date": "2026-06-05T07:55:01.912985+00:00",
-        "hash_strict": "02ec3266f082",
-        "hash_medium": "bd9d6e5bcaec"
-      },
-      {
-        "title": "Accelerate SQL development with SageMaker Data Agent in Query Editor",
-        "date": "2026-06-05T07:55:01.913126+00:00",
-        "hash_strict": "be7f65de52f7",
-        "hash_medium": "262679c02cc8"
-      },
-      {
-        "title": "OpenAI and Snowflake: The Future of Business-Native AI",
-        "date": "2026-06-05T07:55:01.913212+00:00",
-        "hash_strict": "0976fd03621a",
-        "hash_medium": "86f563c2717d"
-      },
-      {
-        "title": "Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model",
-        "date": "2026-06-05T07:55:01.913309+00:00",
-        "hash_strict": "ff9e5c201b5f",
-        "hash_medium": "fcfba60570c3"
-      },
-      {
-        "title": "How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI",
-        "date": "2026-06-05T07:55:01.913382+00:00",
-        "hash_strict": "314f5d0546c5",
-        "hash_medium": "333dc9f9e09f"
-      },
       {
         "title": "Unlock license mobility with Bring Your Own Media on fully managed Amazon RDS for SQL Server",
         "date": "2026-06-05T10:34:08.211677+00:00",
@@ -1990,6 +1958,30 @@
         "date": "2026-06-18T14:29:17.523984+00:00",
         "hash_strict": "7df6fb6ca913",
         "hash_medium": "1bd9259a43cf"
+      },
+      {
+        "title": "Proteins: A Mosaic Pattern to Rule Them All?",
+        "date": "2026-06-19T08:55:58.445033+00:00",
+        "hash_strict": "622f788ef124",
+        "hash_medium": "ff5f38e8b5bc"
+      },
+      {
+        "title": "Real-Time Data Pipelines via Snowpipe Streaming | Snowflake",
+        "date": "2026-06-19T08:55:58.445166+00:00",
+        "hash_strict": "531c48e4d005",
+        "hash_medium": "cc53873ab190"
+      },
+      {
+        "title": "Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each",
+        "date": "2026-06-19T08:55:58.445220+00:00",
+        "hash_strict": "fcd68af01d66",
+        "hash_medium": "c82542e6b3c9"
+      },
+      {
+        "title": "How Powerful is Claude Fable (Mythos) 5 for Coding?",
+        "date": "2026-06-19T08:55:58.445271+00:00",
+        "hash_strict": "42f611005bbd",
+        "hash_medium": "be1dc51fa3c9"
       }
     ]
   }
