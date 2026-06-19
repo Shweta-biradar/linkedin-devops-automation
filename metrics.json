@@ -1,9 +1,9 @@
 {
-  "total_posts": 378,
-  "posts_today": 2,
+  "total_posts": 379,
+  "posts_today": 3,
   "last_post_date": "2026-06-19",
   "formats_used": {
-    "case_study": 53,
+    "case_study": 54,
     "deep_dive": 36,
     "lessons": 62,
     "digest": 216,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 149,
+    "aws.amazon.com": 150,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 356,
+    "towardsdatascience.com": 358,
     "www.snowflake.com": 123,
-    "kdnuggets.com": 70,
+    "kdnuggets.com": 72,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 23,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-20",
-      "time": "2026-05-20T14:03:49.700044+00:00",
-      "format": "case_study",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-21",
       "time": "2026-05-21T07:07:41.358955+00:00",
@@ -1193,13 +1183,27 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-06-19",
+      "time": "2026-06-19T14:25:57.963276+00:00",
+      "format": "case_study",
+      "sources": [
+        "kdnuggets.com",
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "kdnuggets.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 351,
-  "last_post_content": "\ud83d\udcd6 Unpacking a critical topic.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Deep dive: Power BI May 2026 Feature Summary\n\nKey points:\n\u2022 Author: Katie Murray, Senior Program Manager - Power BI continues to evolve with updates that make it easier to explore data, generate insights, and build more polished reports.\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Deployment frequency correlates with stability when done right\n\u2022 Pipeline as code prevents configuration drift and bus factor issues\n\nHow do you handle deployment rollbacks at scale?\n\n#AdvancedAnalytics #Insights #BITools #SAPHANA #DBT #MLOps #Oracle\n\n\u2753 What would you add to this deep dive?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SQL #DBT #Looker #Statistics",
-  "last_post_format": "deep_dive",
+  "posts_created": 352,
+  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udcda Case: Introducing Private Networking for Amazon MQ for RabbitMQ\n\nThe story: In this post, we explain how Private Networking for Amazon MQ for RabbitMQ works and walk through the setup process. Whether you\u2019re securing a private identity provider,...\n\nThe insight: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Automate the boring stuff so humans can focus on the interesting problems\n\u2022 Continuous improvement through measurement\n\nHow do you balance technical debt with new feature development?\n\n#Insights #Alteryx #CloudData #Analytics #MySQL #DataVisualization #DataAnalyst\n\n\u2753 What\u2019s the gap between this and your reality?\n\nDetails here: https://aws.amazon.com/blogs/big-data/introducing-private-networking-for-amazon-mq-for-rabbitmq/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #Insights #CloudData #SAPHANA #Databricks",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "powerbi.microsoft.com"
+    "kdnuggets.com",
+    "aws.amazon.com",
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-19T11:06:51.006491+00:00"
+  "last_post_timestamp": "2026-06-19T14:25:57.964532+00:00"
 }

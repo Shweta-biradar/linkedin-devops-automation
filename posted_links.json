@@ -47,6 +47,7 @@
     "https://aws.amazon.com/blogs/big-data/improve-dynamodb-analytics-with-aws-glue-zero-etl-schema-and-partition-controls/",
     "https://aws.amazon.com/blogs/big-data/improving-order-history-search-using-semantic-search-with-amazon-opensearch-service/",
     "https://aws.amazon.com/blogs/big-data/introducing-enhancements-to-amazon-emr-managed-scaling/",
+    "https://aws.amazon.com/blogs/big-data/introducing-private-networking-for-amazon-mq-for-rabbitmq/",
     "https://aws.amazon.com/blogs/big-data/kinesis-on-demand-advantage-saves-60-on-streaming-costs/",
     "https://aws.amazon.com/blogs/big-data/matching-your-ingestion-strategy-with-your-opensearch-query-patterns/",
     "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/",
@@ -519,6 +520,7 @@
     "https://towardsdatascience.com/fun-with-histograms-and-densities/",
     "https://towardsdatascience.com/generative-ai-discriminative-human/",
     "https://towardsdatascience.com/ghost-a-database-for-our-times/",
+    "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
     "https://towardsdatascience.com/graph-coloring-you-can-see-visual-intuition-with-python/",
     "https://towardsdatascience.com/grounding-llms-with-fresh-web-data-to-reduce-hallucinations/",
     "https://towardsdatascience.com/how-a-2021-quantization-algorithm-quietly-outperforms-its-2026-successor/",
@@ -619,6 +621,7 @@
     "https://towardsdatascience.com/optimizing-vector-search-why-you-should-flatten-structured-data/",
     "https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/",
     "https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/",
+    "https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/",
     "https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/",
     "https://towardsdatascience.com/physical-ai-what-it-is-and-what-it-is-not/",
     "https://towardsdatascience.com/playing-connect-four-with-deep-q-learning/",
@@ -926,6 +929,8 @@
     "https://www.kdnuggets.com/open-weight-text-to-speach-with-voxtral-tts",
     "https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory",
     "https://www.kdnuggets.com/postgres-vs-mysql-vs-sqlite-comparing-sql-performance-across-engines",
+    "https://www.kdnuggets.com/practical-sql-tricks-every-data-scientist-should-know",
+    "https://www.kdnuggets.com/python-dictionary-tips-and-tricks-you-should-always-remember",
     "https://www.kdnuggets.com/self-hosted-ai-complete-roadmap-for-beginners",
     "https://www.kdnuggets.com/sql-window-functions-beyond-basics-solving-real-business-problems",
     "https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation",
@@ -1205,22 +1210,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7473692769622847488",
-    "last_posted_at_utc": "2026-06-19T11:06:51.003432+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7473742878620549120",
+    "last_posted_at_utc": "2026-06-19T14:25:57.960885+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "How to Fine-Tune an SLM for Emotion Recognition",
-        "date": "2026-06-05T14:06:50.021317+00:00",
-        "hash_strict": "dbc63cdecd87",
-        "hash_medium": "cfeac70256c8"
-      },
-      {
-        "title": "Automate Writing Your LLM Prompts",
-        "date": "2026-06-05T14:06:50.021440+00:00",
-        "hash_strict": "078a43510b1a",
-        "hash_medium": "19500fcf60cf"
-      },
       {
         "title": "My AI Couldn\u2019t See My Files \u2014 I Built a Zero-Dependency MCP Server",
         "date": "2026-06-06T06:45:55.217195+00:00",
@@ -1970,6 +1963,36 @@
         "date": "2026-06-19T11:06:51.003341+00:00",
         "hash_strict": "72e4ec1c0800",
         "hash_medium": "f37492db6b9c"
+      },
+      {
+        "title": "Practical SQL Tricks Every Data Scientist Should Know",
+        "date": "2026-06-19T14:25:57.960557+00:00",
+        "hash_strict": "687593b7d049",
+        "hash_medium": "077c1478f7f4"
+      },
+      {
+        "title": "Introducing Private Networking for Amazon MQ for RabbitMQ",
+        "date": "2026-06-19T14:25:57.960684+00:00",
+        "hash_strict": "502c1b7bbc77",
+        "hash_medium": "50ced279d142"
+      },
+      {
+        "title": "GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU",
+        "date": "2026-06-19T14:25:57.960735+00:00",
+        "hash_strict": "bf58d4145632",
+        "hash_medium": "f82c16b79726"
+      },
+      {
+        "title": "Python Dictionary Tips and Tricks You Should Always Remember",
+        "date": "2026-06-19T14:25:57.960791+00:00",
+        "hash_strict": "c48612788812",
+        "hash_medium": "2ab0ea01a30e"
+      },
+      {
+        "title": "Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document",
+        "date": "2026-06-19T14:25:57.960837+00:00",
+        "hash_strict": "46c48afb5541",
+        "hash_medium": "8ac3af5fd24a"
       }
     ]
   }
