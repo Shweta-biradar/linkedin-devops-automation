@@ -603,6 +603,7 @@
     "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
     "https://towardsdatascience.com/llm-themes-are-not-observations/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
+    "https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
     "https://towardsdatascience.com/metric-presentation-101/",
@@ -1213,16 +1214,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474036469397995520",
-    "last_posted_at_utc": "2026-06-20T09:52:35.399207+00:00",
+    "last_post_id": "urn:li:share:7474085100238856192",
+    "last_posted_at_utc": "2026-06-20T13:05:49.906562+00:00",
     "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Query Amazon Redshift using natural language with Kiro",
-        "date": "2026-06-06T12:51:46.154007+00:00",
-        "hash_strict": "543284dfada9",
-        "hash_medium": "b81fb22e543e"
-      },
       {
         "title": "My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist\u2019s Honest Account of Discovering Diffrax",
         "date": "2026-06-07T07:42:37.323510+00:00",
@@ -1996,6 +1991,12 @@
         "date": "2026-06-20T09:52:35.399058+00:00",
         "hash_strict": "6ba9a9cadcce",
         "hash_medium": "c36fcbbd71ba"
+      },
+      {
+        "title": "Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement",
+        "date": "2026-06-20T13:05:49.906452+00:00",
+        "hash_strict": "8ecb5c7f9bf1",
+        "hash_medium": "85fb1161a643"
       }
     ]
   }

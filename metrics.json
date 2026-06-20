@@ -1,9 +1,9 @@
 {
-  "total_posts": 381,
-  "posts_today": 2,
+  "total_posts": 382,
+  "posts_today": 3,
   "last_post_date": "2026-06-20",
   "formats_used": {
-    "case_study": 55,
+    "case_study": 56,
     "deep_dive": 37,
     "lessons": 62,
     "digest": 216,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 361,
+    "towardsdatascience.com": 362,
     "www.snowflake.com": 123,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-21",
-      "time": "2026-05-21T14:21:32.988493+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.snowflake.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-22",
       "time": "2026-05-22T07:04:17.653567+00:00",
@@ -1191,13 +1181,21 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-06-20",
+      "time": "2026-06-20T13:05:49.908805+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 354,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric\n\nThe story: If you use connectors like Databricks, Snowflake, or BigQuery in Power BI or Fabric, there\u2019s an important change coming. Microsoft is moving from embedded ODBC drivers to ADBC,...\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Production systems teach you things documentation never will\n\u2192 Step 2: The best architectures optimize for change, not just current requirements\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhich operational practices have scaled best for your team?\n\n#Dashboard #Oracle #DBT #Snowflake #SSRS #MySQL #CloudData\n\n\u2753 Would this work in your environment?\n\nSource: https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167\n\n#PowerBI #BusinessIntelligence #DataAnalytics #BigQuery #Airflow #Oracle #Alteryx",
+  "posts_created": 355,
+  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udccc Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement\n\nThe situation:\n\u21b3 Five surfaces collapsed into one declarative layer. Here's the full story of Materialized Lake Views in Microsoft Fabric - from syntax to the new GA capabilities The post...\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Production systems teach you things documentation never will\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#BITools #PowerBI #Qlik #DBT #DataWarehouse #PostgreSQL #BigQuery\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcd6 https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/\n\n#Insights #PostgreSQL #Automation #BusinessIntelligence #Alteryx #ETL #BigQuery",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "powerbi.microsoft.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-20T09:52:35.402795+00:00"
+  "last_post_timestamp": "2026-06-20T13:05:49.910006+00:00"
 }
