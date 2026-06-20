@@ -452,6 +452,7 @@
     "https://towardsdatascience.com/bi-is-dead-long-live-bi/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
+    "https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/",
     "https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/",
     "https://towardsdatascience.com/building-a-like-for-like-solution-for-stores-in-power-bi/",
     "https://towardsdatascience.com/building-a-multi-agent-system-in-python/",
@@ -578,6 +579,7 @@
     "https://towardsdatascience.com/i-spent-may-evaluating-different-engines-for-ocr/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/",
+    "https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/",
     "https://towardsdatascience.com/implementing-the-snake-game-in-python/",
     "https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/",
     "https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/",
@@ -641,6 +643,7 @@
     "https://towardsdatascience.com/pyspark-for-beginners-beyond-the-basics/",
     "https://towardsdatascience.com/pyspark-for-beginners-mastering-the-basics/",
     "https://towardsdatascience.com/pyspark-for-pandas-users/",
+    "https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/",
     "https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/",
     "https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/",
     "https://towardsdatascience.com/question-parsing-in-rag-structure-before-you-search/",
@@ -1210,28 +1213,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7473742878620549120",
-    "last_posted_at_utc": "2026-06-19T14:25:57.960885+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7473996852569239553",
+    "last_posted_at_utc": "2026-06-20T07:15:09.992220+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "My AI Couldn\u2019t See My Files \u2014 I Built a Zero-Dependency MCP Server",
-        "date": "2026-06-06T06:45:55.217195+00:00",
-        "hash_strict": "6656e3063bf9",
-        "hash_medium": "b22620e3b000"
-      },
-      {
-        "title": "How to Build an AI Agent: Step-by-Step with Python",
-        "date": "2026-06-06T06:45:55.217336+00:00",
-        "hash_strict": "18e6580b191a",
-        "hash_medium": "3e7c7ebac999"
-      },
-      {
-        "title": "The Fundamental Choice in Reinforcement Learning: On\u2011Policy vs. Off\u2011Policy",
-        "date": "2026-06-06T06:45:55.217411+00:00",
-        "hash_strict": "b61778eca1e8",
-        "hash_medium": "8fa23de2d0d6"
-      },
       {
         "title": "Query Amazon Redshift using natural language with Kiro",
         "date": "2026-06-06T09:09:00.950183+00:00",
@@ -1993,6 +1978,24 @@
         "date": "2026-06-19T14:25:57.960837+00:00",
         "hash_strict": "46c48afb5541",
         "hash_medium": "8ac3af5fd24a"
+      },
+      {
+        "title": "I Tried to Schedule My ETL Pipeline. Here\u2019s What I Didn\u2019t Expect.",
+        "date": "2026-06-20T07:15:09.991939+00:00",
+        "hash_strict": "725f30cb2e71",
+        "hash_medium": "56fa709038c8"
+      },
+      {
+        "title": "Python 3.14 and its New JIT\u00a0Compiler",
+        "date": "2026-06-20T07:15:09.992090+00:00",
+        "hash_strict": "4adbbaeaaa4e",
+        "hash_medium": "a5f2c938ef32"
+      },
+      {
+        "title": "Building a Custom GStreamer Plugin for NVIDIA DeepStream",
+        "date": "2026-06-20T07:15:09.992168+00:00",
+        "hash_strict": "0dc5648dafb7",
+        "hash_medium": "1270c5dc6819"
       }
     ]
   }
