@@ -1,10 +1,10 @@
 {
-  "total_posts": 382,
-  "posts_today": 3,
-  "last_post_date": "2026-06-20",
+  "total_posts": 383,
+  "posts_today": 1,
+  "last_post_date": "2026-06-21",
   "formats_used": {
     "case_study": 56,
-    "deep_dive": 37,
+    "deep_dive": 38,
     "lessons": 62,
     "digest": 216,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 362,
+    "towardsdatascience.com": 363,
     "www.snowflake.com": 123,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
@@ -303,18 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-22",
-      "time": "2026-05-22T07:04:17.653567+00:00",
-      "format": "lessons",
-      "sources": [
-        "www.snowflake.com",
-        "aws.amazon.com",
-        "powerbi.microsoft.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-22",
       "time": "2026-05-22T09:57:41.143939+00:00",
@@ -1189,13 +1177,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-21",
+      "time": "2026-06-21T08:18:47.413046+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 355,
-  "last_post_content": "\ud83d\udd0d Breaking down what worked.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udccc Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement\n\nThe situation:\n\u21b3 Five surfaces collapsed into one declarative layer. Here's the full story of Materialized Lake Views in Microsoft Fabric - from syntax to the new GA capabilities The post...\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Production systems teach you things documentation never will\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#BITools #PowerBI #Qlik #DBT #DataWarehouse #PostgreSQL #BigQuery\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcd6 https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/\n\n#Insights #PostgreSQL #Automation #BusinessIntelligence #Alteryx #ETL #BigQuery",
-  "last_post_format": "case_study",
+  "posts_created": 356,
+  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udd0e Deep dive: Making a PDF\u2019s Images Searchable for RAG, Without Paying to Read Them All\n\n...\nEnterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered job The post Making a PDF\u2019s Images Searchable for RAG, Without Paying to Read Them All appeared first on Towards Data Science .\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nWhat production experience changed how you design systems?\n\n#Analytics #SAPHANA #DBT #Statistics #Tableau #Automation #BusinessIntelligence\n\n\u2753 What\u2019s your experience with this topic?\n\nRead more: https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/\n\n#DataAnalyst #Alteryx #DBT #Looker #Tableau #DataVisualization #Airflow",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-20T13:05:49.910006+00:00"
+  "last_post_timestamp": "2026-06-21T08:18:47.413984+00:00"
 }

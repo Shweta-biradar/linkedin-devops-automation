@@ -603,6 +603,7 @@
     "https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/",
     "https://towardsdatascience.com/llm-themes-are-not-observations/",
     "https://towardsdatascience.com/machine-learning-at-scale-managing-more-than-one-model-in-production/",
+    "https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/",
     "https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/",
     "https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/",
     "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
@@ -1214,22 +1215,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474085100238856192",
-    "last_posted_at_utc": "2026-06-20T13:05:49.906562+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7474375251347275776",
+    "last_posted_at_utc": "2026-06-21T08:18:47.411145+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist\u2019s Honest Account of Discovering Diffrax",
-        "date": "2026-06-07T07:42:37.323510+00:00",
-        "hash_strict": "8173eb4d7df0",
-        "hash_medium": "afa086d46529"
-      },
-      {
-        "title": "Who Will Win the 2026 Soccer World Cup?",
-        "date": "2026-06-07T07:42:37.323656+00:00",
-        "hash_strict": "f01fd3b2b14d",
-        "hash_medium": "341ab6653f1e"
-      },
       {
         "title": "Query Amazon Redshift using natural language with Kiro",
         "date": "2026-06-07T09:47:47.367970+00:00",
@@ -1997,6 +1986,12 @@
         "date": "2026-06-20T13:05:49.906452+00:00",
         "hash_strict": "8ecb5c7f9bf1",
         "hash_medium": "85fb1161a643"
+      },
+      {
+        "title": "Making a PDF\u2019s Images Searchable for RAG, Without Paying to Read Them All",
+        "date": "2026-06-21T08:18:47.411036+00:00",
+        "hash_strict": "b65405c7806b",
+        "hash_medium": "42c77a734b73"
       }
     ]
   }
