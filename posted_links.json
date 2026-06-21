@@ -734,6 +734,7 @@
     "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
     "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
     "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
+    "https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/",
     "https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/",
     "https://towardsdatascience.com/what-is-a-data-agent/",
     "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
@@ -1215,16 +1216,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474403403759198208",
-    "last_posted_at_utc": "2026-06-21T10:10:39.367844+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7474451921257263104",
+    "last_posted_at_utc": "2026-06-21T13:23:26.815997+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Query Amazon Redshift using natural language with Kiro",
-        "date": "2026-06-07T13:00:29.441473+00:00",
-        "hash_strict": "543284dfada9",
-        "hash_medium": "b81fb22e543e"
-      },
       {
         "title": "Building a Multi-Agent System in Python",
         "date": "2026-06-08T08:30:26.237943+00:00",
@@ -1992,6 +1987,12 @@
         "date": "2026-06-21T10:10:39.367724+00:00",
         "hash_strict": "6ba9a9cadcce",
         "hash_medium": "c36fcbbd71ba"
+      },
+      {
+        "title": "What Are the Possibilities to Build Date Tables in Self-Service Environments?",
+        "date": "2026-06-21T13:23:26.815888+00:00",
+        "hash_strict": "16f6d836c1fa",
+        "hash_medium": "7f9a71dd912c"
       }
     ]
   }

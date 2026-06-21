@@ -1,10 +1,10 @@
 {
-  "total_posts": 384,
-  "posts_today": 2,
+  "total_posts": 385,
+  "posts_today": 3,
   "last_post_date": "2026-06-21",
   "formats_used": {
     "case_study": 56,
-    "deep_dive": 38,
+    "deep_dive": 39,
     "lessons": 63,
     "digest": 216,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 363,
+    "towardsdatascience.com": 364,
     "www.snowflake.com": 123,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-22",
-      "time": "2026-05-22T13:43:12.846290+00:00",
-      "format": "case_study",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-23",
       "time": "2026-05-23T06:24:14.140359+00:00",
@@ -1184,13 +1176,21 @@
       "sources": [
         "powerbi.microsoft.com"
       ]
+    },
+    {
+      "date": "2026-06-21",
+      "time": "2026-06-21T13:23:26.819312+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 357,
-  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric\n\n1\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n2\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SAPHANA #SSRS #Databricks #SSIS\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SAPHANA #DataAnalyst #Dashboard #SSIS",
-  "last_post_format": "lessons",
+  "posts_created": 358,
+  "last_post_content": "\ud83d\udd0e In-depth analysis for practitioners.\nIndustry leaders break down complex challenges.\n\n\ud83d\udccc What Are the Possibilities to Build Date Tables in Self-Service Environments?\n\nKey points:\n\u2022 For years, I created date tables with DAX code whenever I didn\u2019t have a way to create them upstream of the data flow. Now I've realised there's another way to do it.\n\u2022 practical signal for building reliable systems.\n\nWhat this means:\n\u2022 Progressive delivery beats blue-green for complex systems\n\u2022 Pipeline as code prevents configuration drift and bus factor issues\n\nHow do you handle deployment rollbacks at scale?\n\n#DataAnalyst #SQL #Redshift #Airflow #Dashboard #Tableau #SSIS\n\n\u2753 What would you add to this deep dive?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SSRS #Reporting #Looker #SSIS",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "powerbi.microsoft.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-21T10:10:39.372890+00:00"
+  "last_post_timestamp": "2026-06-21T13:23:26.820444+00:00"
 }
