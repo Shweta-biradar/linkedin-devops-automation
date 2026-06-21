@@ -1,11 +1,11 @@
 {
-  "total_posts": 383,
-  "posts_today": 1,
+  "total_posts": 384,
+  "posts_today": 2,
   "last_post_date": "2026-06-21",
   "formats_used": {
     "case_study": 56,
     "deep_dive": 38,
-    "lessons": 62,
+    "lessons": 63,
     "digest": 216,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -45,7 +45,7 @@
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 24,
+    "powerbi.microsoft.com": 25,
     "www.dbt.com": 22,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-22",
-      "time": "2026-05-22T09:57:41.143939+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-22",
       "time": "2026-05-22T13:43:12.846290+00:00",
@@ -1185,13 +1176,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-21",
+      "time": "2026-06-21T10:10:39.371652+00:00",
+      "format": "lessons",
+      "sources": [
+        "powerbi.microsoft.com"
+      ]
     }
   ],
-  "posts_created": 356,
-  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nCloud pioneers spotlight critical lessons.\n\n\ud83d\udd0e Deep dive: Making a PDF\u2019s Images Searchable for RAG, Without Paying to Read Them All\n\n...\nEnterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered job The post Making a PDF\u2019s Images Searchable for RAG, Without Paying to Read Them All appeared first on Towards Data Science .\n\n\ud83d\udca1 Automate the boring stuff so humans can focus on the interesting problems\n\nWhat production experience changed how you design systems?\n\n#Analytics #SAPHANA #DBT #Statistics #Tableau #Automation #BusinessIntelligence\n\n\u2753 What\u2019s your experience with this topic?\n\nRead more: https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/\n\n#DataAnalyst #Alteryx #DBT #Looker #Tableau #DataVisualization #Airflow",
-  "last_post_format": "deep_dive",
+  "posts_created": 357,
+  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric\n\n1\ufe0f\u20e3 Start every project with the business question first, not the tool features.\n2\ufe0f\u20e3 Keep your data model clean: star schema, consistent granularity, reusable measures.\n3\ufe0f\u20e3 Tell a decision story with your dashboard so each chart supports one action.\n\nThe pattern: boosts analytics clarity and helps build a compelling BI project portfolio.\n\nWhat would you add to this list?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SAPHANA #SSRS #Databricks #SSIS\n\n\u2753 How do you apply these lessons?\n\n#PowerBI #BusinessIntelligence #DataAnalytics #SAPHANA #DataAnalyst #Dashboard #SSIS",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "powerbi.microsoft.com"
   ],
-  "last_post_timestamp": "2026-06-21T08:18:47.413984+00:00"
+  "last_post_timestamp": "2026-06-21T10:10:39.372890+00:00"
 }

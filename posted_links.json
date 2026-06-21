@@ -1215,16 +1215,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474375251347275776",
-    "last_posted_at_utc": "2026-06-21T08:18:47.411145+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7474403403759198208",
+    "last_posted_at_utc": "2026-06-21T10:10:39.367844+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Query Amazon Redshift using natural language with Kiro",
-        "date": "2026-06-07T09:47:47.367970+00:00",
-        "hash_strict": "543284dfada9",
-        "hash_medium": "b81fb22e543e"
-      },
       {
         "title": "Query Amazon Redshift using natural language with Kiro",
         "date": "2026-06-07T13:00:29.441473+00:00",
@@ -1992,6 +1986,12 @@
         "date": "2026-06-21T08:18:47.411036+00:00",
         "hash_strict": "b65405c7806b",
         "hash_medium": "42c77a734b73"
+      },
+      {
+        "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
+        "date": "2026-06-21T10:10:39.367724+00:00",
+        "hash_strict": "6ba9a9cadcce",
+        "hash_medium": "c36fcbbd71ba"
       }
     ]
   }
