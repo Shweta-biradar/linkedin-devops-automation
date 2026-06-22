@@ -1,10 +1,10 @@
 {
-  "total_posts": 386,
-  "posts_today": 1,
+  "total_posts": 387,
+  "posts_today": 2,
   "last_post_date": "2026-06-22",
   "formats_used": {
     "case_study": 56,
-    "deep_dive": 39,
+    "deep_dive": 40,
     "lessons": 64,
     "digest": 216,
     "lessons_learned": 2,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 366,
+    "towardsdatascience.com": 367,
     "www.snowflake.com": 123,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-23",
-      "time": "2026-05-23T08:37:09.795765+00:00",
-      "format": "digest",
-      "sources": [
-        "powerbi.microsoft.com"
-      ]
-    },
     {
       "date": "2026-05-23",
       "time": "2026-05-23T12:11:57.231586+00:00",
@@ -1184,13 +1176,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-22",
+      "time": "2026-06-22T12:34:37.678030+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 359,
-  "last_post_content": "\ud83d\udca1 What production taught us.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#Insights #BusinessIntelligence #SSAS #Redshift #DataAnalyst #BigQuery #Dashboard\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#DataWarehouse #SAPHANA #Tableau #Python #Airflow #CloudData #MLOps",
-  "last_post_format": "lessons",
+  "posts_created": 360,
+  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nStrategic thinkers analyze what really matters.\n\n\ud83d\udccc Neural Networks, Explained for Beginners: Start Here If They\u2019ve Confused You\n\nThe intuition behind neural networks and why they need activation functions. The post Neural Networks, Explained for Beginners: Start Here If They\u2019ve Confused You appeared...\n\n\ud83d\udca1 Production systems teach you things documentation never will\n\nWhat would you do differently if you started over today?\n\n#Qlik #CloudData #MLOps #SAPHANA #BigQuery #SSRS #ETL\n\n\u2753 What would you add to this deep dive?\n\n#SAPHANA #DataVisualization #DataWarehouse #Looker #SSIS #Oracle #SQL",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-22T09:31:10.337644+00:00"
+  "last_post_timestamp": "2026-06-22T12:34:37.679261+00:00"
 }

@@ -614,6 +614,7 @@
     "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
     "https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/",
     "https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/",
+    "https://towardsdatascience.com/neural-networks-explained-for-beginners-start-here-if-theyve-confused-you/",
     "https://towardsdatascience.com/not-all-recsys-problems-are-created-equal/",
     "https://towardsdatascience.com/nucs-vs-choco/",
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
@@ -1218,16 +1219,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474755855293308928",
-    "last_posted_at_utc": "2026-06-22T09:31:10.334265+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7474802022987288577",
+    "last_posted_at_utc": "2026-06-22T12:34:37.675781+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Query Amazon Redshift using natural language with Kiro",
-        "date": "2026-06-08T11:28:15.931539+00:00",
-        "hash_strict": "543284dfada9",
-        "hash_medium": "b81fb22e543e"
-      },
       {
         "title": "The Polynomial That Fixed 30 Years of Cloth Simulation",
         "date": "2026-06-08T14:58:28.990541+00:00",
@@ -1995,6 +1990,12 @@
         "date": "2026-06-22T09:31:10.334154+00:00",
         "hash_strict": "0a55668183dd",
         "hash_medium": "f1032bc5f58c"
+      },
+      {
+        "title": "Neural Networks, Explained for Beginners: Start Here If They\u2019ve Confused You",
+        "date": "2026-06-22T12:34:37.675610+00:00",
+        "hash_strict": "087d6868a7a2",
+        "hash_medium": "ccd8460ffdf5"
       }
     ]
   }
