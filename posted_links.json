@@ -561,6 +561,7 @@
     "https://towardsdatascience.com/how-to-safely-run-coding-agents/",
     "https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/",
     "https://towardsdatascience.com/how-to-train-a-scoring-model-in-the-age-of-artificial-intelligence/",
+    "https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/",
     "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/",
     "https://towardsdatascience.com/human-work-in-the-ai-world-how-to-remain-valuable/",
@@ -749,6 +750,7 @@
     "https://towardsdatascience.com/when-data-lies-finding-optimal-strategies-for-penalty-kicks-with-game-theory/",
     "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
     "https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/",
+    "https://towardsdatascience.com/when-rag-users-ask-vague-questions-clarify-once-learn-the-default/",
     "https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/",
     "https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/",
     "https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/",
@@ -850,6 +852,7 @@
     "https://www.getdbt.com/blog/start-fresh-don-t-lift-and-shift-a-dbt-migration-guide",
     "https://www.getdbt.com/blog/the-analytics-engineer-in-2026-system-designer-governance-owner-ai-context-provider",
     "https://www.getdbt.com/blog/the-dbt-developer-agent-is-now-in-preview",
+    "https://www.getdbt.com/blog/the-semantic-debt-crisis-no-one-is-talking-about",
     "https://www.getdbt.com/blog/the-trust-speed-paradox-governing-ai-accelerated-data-work",
     "https://www.getdbt.com/blog/what-we-announced-at-snowflake-summit-and-why-it-matters",
     "https://www.getdbt.com/blog/your-ai-isn-t-broken-your-data-model-is",
@@ -1219,28 +1222,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474802022987288577",
-    "last_posted_at_utc": "2026-06-22T12:34:37.675781+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7474856783937753088",
+    "last_posted_at_utc": "2026-06-22T16:12:13.830604+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "The Polynomial That Fixed 30 Years of Cloth Simulation",
-        "date": "2026-06-08T14:58:28.990541+00:00",
-        "hash_strict": "86929bfea269",
-        "hash_medium": "2bb8eabf115a"
-      },
-      {
-        "title": "5 Must-Know Python Concepts for AI Engineers",
-        "date": "2026-06-08T14:58:28.990664+00:00",
-        "hash_strict": "d6a615047885",
-        "hash_medium": "cbe9b3ba3b99"
-      },
-      {
-        "title": "Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks",
-        "date": "2026-06-08T14:58:28.990753+00:00",
-        "hash_strict": "c33b0d748f6b",
-        "hash_medium": "4de929077c90"
-      },
       {
         "title": "AI-Powered Power BI reporting: From design to deployment with agent skills (Preview)",
         "date": "2026-06-09T07:05:47.350530+00:00",
@@ -1996,6 +1981,24 @@
         "date": "2026-06-22T12:34:37.675610+00:00",
         "hash_strict": "087d6868a7a2",
         "hash_medium": "ccd8460ffdf5"
+      },
+      {
+        "title": "When RAG Users Ask Vague Questions: Clarify Once, Learn the Default",
+        "date": "2026-06-22T16:12:13.830344+00:00",
+        "hash_strict": "52154534c209",
+        "hash_medium": "e37a7770f413"
+      },
+      {
+        "title": "How to Use Claude Code in Your Browser",
+        "date": "2026-06-22T16:12:13.830463+00:00",
+        "hash_strict": "0f6c3a7c56d2",
+        "hash_medium": "22f1dc2cad71"
+      },
+      {
+        "title": "The semantic debt crisis no one is talking about",
+        "date": "2026-06-22T16:12:13.830552+00:00",
+        "hash_strict": "e3b469b6b5f7",
+        "hash_medium": "1a7b237d132b"
       }
     ]
   }

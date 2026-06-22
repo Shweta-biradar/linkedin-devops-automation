@@ -1,9 +1,9 @@
 {
-  "total_posts": 387,
-  "posts_today": 2,
+  "total_posts": 388,
+  "posts_today": 3,
   "last_post_date": "2026-06-22",
   "formats_used": {
-    "case_study": 56,
+    "case_study": 57,
     "deep_dive": 40,
     "lessons": 64,
     "digest": 216,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 367,
+    "towardsdatascience.com": 369,
     "www.snowflake.com": 123,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 25,
-    "www.dbt.com": 22,
+    "www.dbt.com": 23,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
   },
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-23",
-      "time": "2026-05-23T12:11:57.231586+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "aws.amazon.com",
-        "aws.amazon.com",
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-24",
       "time": "2026-05-24T06:53:41.430417+00:00",
@@ -1184,13 +1174,24 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-22",
+      "time": "2026-06-22T16:12:13.832700+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "www.dbt.com"
+      ]
     }
   ],
-  "posts_created": 360,
-  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nStrategic thinkers analyze what really matters.\n\n\ud83d\udccc Neural Networks, Explained for Beginners: Start Here If They\u2019ve Confused You\n\nThe intuition behind neural networks and why they need activation functions. The post Neural Networks, Explained for Beginners: Start Here If They\u2019ve Confused You appeared...\n\n\ud83d\udca1 Production systems teach you things documentation never will\n\nWhat would you do differently if you started over today?\n\n#Qlik #CloudData #MLOps #SAPHANA #BigQuery #SSRS #ETL\n\n\u2753 What would you add to this deep dive?\n\n#SAPHANA #DataVisualization #DataWarehouse #Looker #SSIS #Oracle #SQL",
-  "last_post_format": "deep_dive",
+  "posts_created": 361,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nCloud pioneers share implementation lessons.\n\n\ud83d\udd0d Breakdown: The semantic debt crisis no one is talking about\n\n\ud83d\udcca Data: Two teams. Same metric. Different numbers. That's semantic debt, and AI will make it impossible to ignore.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Production systems teach you things documentation never will\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Track results and optimize\n\nWhich operational practices have scaled best for your team?\n\n#BITools #MySQL #SSAS #Alteryx #SSRS #Analytics #MLOps\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udca1 Dive deeper into this topic: https://www.getdbt.com/blog/the-semantic-debt-crisis-no-one-is-talking-about\n\n#SSRS #Alteryx #Databricks #PostgreSQL #Python #Tableau #Qlik",
+  "last_post_format": "case_study",
   "last_post_sources": [
+    "www.dbt.com",
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-22T12:34:37.679261+00:00"
+  "last_post_timestamp": "2026-06-22T16:12:13.833887+00:00"
 }
