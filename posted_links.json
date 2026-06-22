@@ -655,6 +655,7 @@
     "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
     "https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/",
     "https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/",
+    "https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/",
     "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
     "https://towardsdatascience.com/rerankers-arent-magic-either-when-the-cross-encoder-layer-is-worth-the-cost-enterprise-document-intelligence-vol-1-2bis/",
     "https://towardsdatascience.com/rope-clearly-explained/",
@@ -723,6 +724,7 @@
     "https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/",
     "https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/",
     "https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/",
+    "https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/",
     "https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/",
     "https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/",
     "https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/",
@@ -1216,22 +1218,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7474451921257263104",
-    "last_posted_at_utc": "2026-06-21T13:23:26.815997+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7474755855293308928",
+    "last_posted_at_utc": "2026-06-22T09:31:10.334265+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Building a Multi-Agent System in Python",
-        "date": "2026-06-08T08:30:26.237943+00:00",
-        "hash_strict": "6470f9e32193",
-        "hash_medium": "9f1e4c9f5dfa"
-      },
-      {
-        "title": "We Should Train AI to Betray Its Users",
-        "date": "2026-06-08T08:30:26.238112+00:00",
-        "hash_strict": "bb55ba2da6cf",
-        "hash_medium": "9995b626dc9f"
-      },
       {
         "title": "Query Amazon Redshift using natural language with Kiro",
         "date": "2026-06-08T11:28:15.931539+00:00",
@@ -1993,6 +1983,18 @@
         "date": "2026-06-21T13:23:26.815888+00:00",
         "hash_strict": "16f6d836c1fa",
         "hash_medium": "7f9a71dd912c"
+      },
+      {
+        "title": "Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section",
+        "date": "2026-06-22T09:31:10.334047+00:00",
+        "hash_strict": "9a7272a43ea3",
+        "hash_medium": "578a90861d96"
+      },
+      {
+        "title": "Tool Calling, Explained: How AI Agents Decide What to Do Next",
+        "date": "2026-06-22T09:31:10.334154+00:00",
+        "hash_strict": "0a55668183dd",
+        "hash_medium": "f1032bc5f58c"
       }
     ]
   }
