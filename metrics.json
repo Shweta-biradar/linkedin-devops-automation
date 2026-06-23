@@ -1,9 +1,9 @@
 {
-  "total_posts": 388,
-  "posts_today": 3,
-  "last_post_date": "2026-06-22",
+  "total_posts": 389,
+  "posts_today": 1,
+  "last_post_date": "2026-06-23",
   "formats_used": {
-    "case_study": 57,
+    "case_study": 58,
     "deep_dive": 40,
     "lessons": 64,
     "digest": 216,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 150,
+    "aws.amazon.com": 153,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,12 +40,12 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 369,
-    "www.snowflake.com": 123,
+    "towardsdatascience.com": 370,
+    "www.snowflake.com": 124,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
-    "powerbi.microsoft.com": 25,
+    "powerbi.microsoft.com": 26,
     "www.dbt.com": 23,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-24",
-      "time": "2026-05-24T06:53:41.430417+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-24",
       "time": "2026-05-24T09:08:36.860757+00:00",
@@ -1184,14 +1174,29 @@
         "towardsdatascience.com",
         "www.dbt.com"
       ]
+    },
+    {
+      "date": "2026-06-23",
+      "time": "2026-06-23T07:07:19.697772+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com",
+        "www.snowflake.com",
+        "aws.amazon.com",
+        "powerbi.microsoft.com",
+        "towardsdatascience.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 361,
-  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nCloud pioneers share implementation lessons.\n\n\ud83d\udd0d Breakdown: The semantic debt crisis no one is talking about\n\n\ud83d\udcca Data: Two teams. Same metric. Different numbers. That's semantic debt, and AI will make it impossible to ignore.\n\ud83c\udfaf Impact: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Production systems teach you things documentation never will\n\u2611\ufe0f The best architectures optimize for change, not just current requirements\n\u2611\ufe0f Track results and optimize\n\nWhich operational practices have scaled best for your team?\n\n#BITools #MySQL #SSAS #Alteryx #SSRS #Analytics #MLOps\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83d\udca1 Dive deeper into this topic: https://www.getdbt.com/blog/the-semantic-debt-crisis-no-one-is-talking-about\n\n#SSRS #Alteryx #Databricks #PostgreSQL #Python #Tableau #Qlik",
+  "posts_created": 362,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\u23f1\ufe0f Timeline: Snowflake Postgres Powers Low-Latency ML Feature Serving\n\n\u2192 Challenge: Snowflake's ML team chose Snowflake Postgres to power their Online Feature Store \u2014 demonstrating 2.5x lower latency and 7x higher QPS than Databricks Lakebase in production...\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#DBT #Databricks #DataAnalyst #Python #SQL #Alteryx #SSRS\n\n\u2753 How would you adapt this for your team?\n\nLearn more \u2192 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-postgres-ml-online-feature-store\n\n#MLOps #Looker #MySQL #Automation #DataAnalyst #Statistics #PostgreSQL",
   "last_post_format": "case_study",
   "last_post_sources": [
-    "www.dbt.com",
-    "towardsdatascience.com"
+    "powerbi.microsoft.com",
+    "www.snowflake.com",
+    "towardsdatascience.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-22T16:12:13.833887+00:00"
+  "last_post_timestamp": "2026-06-23T07:07:19.698918+00:00"
 }
