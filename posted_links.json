@@ -1228,28 +1228,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475082043429765121",
-    "last_posted_at_utc": "2026-06-23T07:07:19.695783+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7475128488526675969",
+    "last_posted_at_utc": "2026-06-23T10:11:53.112462+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "Can Machine Learning Predict the World Cup?",
-        "date": "2026-06-09T10:11:45.907270+00:00",
-        "hash_strict": "6873a2e97949",
-        "hash_medium": "7cd1149cca57"
-      },
-      {
-        "title": "4 New Techniques to Maximize Claude Code",
-        "date": "2026-06-09T10:11:45.907392+00:00",
-        "hash_strict": "6643ec873673",
-        "hash_medium": "1169b4a0000f"
-      },
-      {
-        "title": "Your AI isn't broken. Your data model is.",
-        "date": "2026-06-09T10:11:45.907470+00:00",
-        "hash_strict": "7a00cbd0a315",
-        "hash_medium": "8f6490e7dfc5"
-      },
       {
         "title": "The Exact ML Project I\u2019d Build to Get Hired in 2026",
         "date": "2026-06-09T13:59:06.587316+00:00",
@@ -2005,6 +1987,12 @@
         "date": "2026-06-23T07:07:19.695732+00:00",
         "hash_strict": "60fbbc4ce56c",
         "hash_medium": "eaf56aeceb29"
+      },
+      {
+        "title": "Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent",
+        "date": "2026-06-23T10:11:53.112327+00:00",
+        "hash_strict": "8b3303c7fe51",
+        "hash_medium": "9bafb24d9961"
       }
     ]
   }

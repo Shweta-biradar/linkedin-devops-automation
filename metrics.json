@@ -1,10 +1,10 @@
 {
-  "total_posts": 389,
-  "posts_today": 1,
+  "total_posts": 390,
+  "posts_today": 2,
   "last_post_date": "2026-06-23",
   "formats_used": {
     "case_study": 58,
-    "deep_dive": 40,
+    "deep_dive": 41,
     "lessons": 64,
     "digest": 216,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 153,
+    "aws.amazon.com": 154,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-24",
-      "time": "2026-05-24T09:08:36.860757+00:00",
-      "format": "case_study",
-      "sources": [
-        "powerbi.microsoft.com"
-      ]
-    },
     {
       "date": "2026-05-24",
       "time": "2026-05-24T12:42:01.378025+00:00",
@@ -1187,16 +1179,21 @@
         "towardsdatascience.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-23",
+      "time": "2026-06-23T10:11:53.114813+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 362,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nCloud pioneers share implementation lessons.\n\n\u23f1\ufe0f Timeline: Snowflake Postgres Powers Low-Latency ML Feature Serving\n\n\u2192 Challenge: Snowflake's ML team chose Snowflake Postgres to power their Online Feature Store \u2014 demonstrating 2.5x lower latency and 7x higher QPS than Databricks Lakebase in production...\n\u2192 Learning: practical signal for building reliable systems.\n\nCore principles:\n\u2022 System evolution requires continuous learning and adaptation\n\u2022 Operational simplicity beats architectural elegance every time\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#DBT #Databricks #DataAnalyst #Python #SQL #Alteryx #SSRS\n\n\u2753 How would you adapt this for your team?\n\nLearn more \u2192 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-postgres-ml-online-feature-store\n\n#MLOps #Looker #MySQL #Automation #DataAnalyst #Statistics #PostgreSQL",
-  "last_post_format": "case_study",
+  "posts_created": 363,
+  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: Amazon SageMaker Data Agent launches three new capabilities in Amazon SageMaker Unified Studio notebooks: SQL analytics on Snowflake data sources, materialized view management,...\n2\ufe0f\u20e3 Why it matters: helps you optimize cloud reliability and cost.\n3\ufe0f\u20e3 Key insight: Managed services reduce toil but increase vendor coupling\n\nHow do you handle cross-region complexity?\n\n#Reporting #AdvancedAnalytics #BigQuery #Oracle #SSAS #DataWarehouse #PowerBI\n\n\u2753 What would you add to this deep dive?\n\n#Cloud #CloudArchitecture #CloudNative #Analytics #Python #Oracle #DBT",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "powerbi.microsoft.com",
-    "www.snowflake.com",
-    "towardsdatascience.com",
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-23T07:07:19.698918+00:00"
+  "last_post_timestamp": "2026-06-23T10:11:53.116056+00:00"
 }
