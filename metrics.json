@@ -1,12 +1,12 @@
 {
-  "total_posts": 390,
-  "posts_today": 2,
+  "total_posts": 391,
+  "posts_today": 3,
   "last_post_date": "2026-06-23",
   "formats_used": {
     "case_study": 58,
     "deep_dive": 41,
     "lessons": 64,
-    "digest": 216,
+    "digest": 217,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,13 +40,13 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 370,
-    "www.snowflake.com": 124,
+    "towardsdatascience.com": 372,
+    "www.snowflake.com": 125,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 26,
-    "www.dbt.com": 23,
+    "www.dbt.com": 24,
     "www.dataquest.io": 22,
     "www.udacity.com": 4
   },
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-24",
-      "time": "2026-05-24T12:42:01.378025+00:00",
-      "format": "digest",
-      "sources": [
-        "powerbi.microsoft.com"
-      ]
-    },
     {
       "date": "2026-05-25",
       "time": "2026-05-25T08:08:03.882769+00:00",
@@ -1187,13 +1179,26 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-23",
+      "time": "2026-06-23T13:59:50.906144+00:00",
+      "format": "digest",
+      "sources": [
+        "www.dbt.com",
+        "www.snowflake.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 363,
-  "last_post_content": "\ud83e\udde0 Exploring the why behind the what.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Focus: Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent\n\nHere's what matters:\n\n1\ufe0f\u20e3 The situation: Amazon SageMaker Data Agent launches three new capabilities in Amazon SageMaker Unified Studio notebooks: SQL analytics on Snowflake data sources, materialized view management,...\n2\ufe0f\u20e3 Why it matters: helps you optimize cloud reliability and cost.\n3\ufe0f\u20e3 Key insight: Managed services reduce toil but increase vendor coupling\n\nHow do you handle cross-region complexity?\n\n#Reporting #AdvancedAnalytics #BigQuery #Oracle #SSAS #DataWarehouse #PowerBI\n\n\u2753 What would you add to this deep dive?\n\n#Cloud #CloudArchitecture #CloudNative #Analytics #Python #Oracle #DBT",
-  "last_post_format": "deep_dive",
+  "posts_created": 364,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nIndustry leaders optimize stacks and debunk myths in the analytics trenches. Here\u2019s what matters.\n\nGlobal tech trends:\n1. The Era of No-Code AI: What You Need to Know\nContext: If you are a programmer and you don't feel \"special\" anymore, you are not alone The post The Era of No-Code AI: What You Need to Know appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/the-era-of-no-code-ai-what-you-need-to-know/\n\n2. What Fivetran + dbt Labs brought to Databricks Data + AI Summit (and what you can take home)\nContext: See what Fivetran + dbt Labs shared at Databricks Data + AI Summit: dbt Wizard, dbt State, and dbt Core v2.0, plus what's next.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.getdbt.com/blog/what-fivetran-dbt-labs-brought-to-databricks-data-ai-summit-and-what-you-can-take-home\n\n3. Snowflake and NVIDIA Bring Agentic AI to Life Sciences\nContext: Discover how Snowflake and the NVIDIA BioNeMo Agent Toolkit power agentic AI in life sciences with governed workflows, secure data access, and faster R&amp;D.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-nvidia-bionemo-agentic-ai-life-sciences\n\n4. Build Your Own Local AI Coding Agent with Gemma 4 and OpenCode\nContext: From installing Ollama to launching OpenCode with a local model, step by step. The post Build Your Own Local AI Coding Agent with Gemma 4 and OpenCode appeared first on Towards...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?\n\n#ETL #MySQL #Looker #DataWarehouse #SQL #Dashboard #Tableau",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com",
+    "www.snowflake.com",
+    "www.dbt.com"
   ],
-  "last_post_timestamp": "2026-06-23T10:11:53.116056+00:00"
+  "last_post_timestamp": "2026-06-23T13:59:50.907280+00:00"
 }
