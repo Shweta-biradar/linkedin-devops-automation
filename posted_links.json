@@ -1236,46 +1236,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475443698542170112",
-    "last_posted_at_utc": "2026-06-24T07:04:25.485306+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7475487701333344256",
+    "last_posted_at_utc": "2026-06-24T09:59:16.030887+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Announcing general availability of Apache Spark 4.0 on Amazon EMR",
-        "date": "2026-06-10T07:55:17.640831+00:00",
-        "hash_strict": "6f9c20852f90",
-        "hash_medium": "56197ba86302"
-      },
-      {
-        "title": "Power BI June 2026 Feature Summary",
-        "date": "2026-06-10T07:55:17.640997+00:00",
-        "hash_strict": "c86eea29f7a7",
-        "hash_medium": "c724f31d6b35"
-      },
-      {
-        "title": "10 GitHub Repositories for Web Development in Python",
-        "date": "2026-06-10T07:55:17.641072+00:00",
-        "hash_strict": "041f65002609",
-        "hash_medium": "c4faf4249772"
-      },
-      {
-        "title": "Project Tutorial: Build a Food Ordering App with Python",
-        "date": "2026-06-10T07:55:17.641127+00:00",
-        "hash_strict": "2bfc86c0b756",
-        "hash_medium": "72d3a535d662"
-      },
-      {
-        "title": "Beyond JSON blobs: Implementing the VARIANT data type in Apache Iceberg V3",
-        "date": "2026-06-10T07:55:17.641181+00:00",
-        "hash_strict": "4cb5def929b6",
-        "hash_medium": "0b97bc34d146"
-      },
-      {
-        "title": "Upgrade PySpark from Spark 3.5 to Spark 4.0 with AWS Spark Upgrade Agent",
-        "date": "2026-06-10T07:55:17.641236+00:00",
-        "hash_strict": "b62901cbff39",
-        "hash_medium": "6d0409987980"
-      },
       {
         "title": "10 Common RAG Mistakes We Keep Seeing in Production",
         "date": "2026-06-10T10:42:08.810238+00:00",
@@ -2037,6 +2001,12 @@
         "date": "2026-06-24T07:04:25.485247+00:00",
         "hash_strict": "72957870e8a5",
         "hash_medium": "5d1221c9ce77"
+      },
+      {
+        "title": "Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent",
+        "date": "2026-06-24T09:59:16.030796+00:00",
+        "hash_strict": "8b3303c7fe51",
+        "hash_medium": "9bafb24d9961"
       }
     ]
   }

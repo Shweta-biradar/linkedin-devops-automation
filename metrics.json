@@ -1,11 +1,11 @@
 {
-  "total_posts": 392,
-  "posts_today": 1,
+  "total_posts": 393,
+  "posts_today": 2,
   "last_post_date": "2026-06-24",
   "formats_used": {
     "case_study": 58,
     "deep_dive": 41,
-    "lessons": 64,
+    "lessons": 65,
     "digest": 218,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 154,
+    "aws.amazon.com": 155,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-25",
-      "time": "2026-05-25T10:58:38.006838+00:00",
-      "format": "digest",
-      "sources": [
-        "www.snowflake.com"
-      ]
-    },
     {
       "date": "2026-05-25",
       "time": "2026-05-25T14:23:57.231966+00:00",
@@ -1192,14 +1184,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "time": "2026-06-24T09:59:16.032476+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 365,
-  "last_post_content": "\ud83d\udea6 SRE and reliability: what\u2019s trending.\nCloud pioneers highlight key developments for practitioners.\n\nStrategic highlights:\n1. I Spent an Hour on a Data Preprocessing Task Before Asking Gemini\nContext: How Gemini solved my Pandas problem in seconds, and why data science fundamentals still matter to spot suboptimal solutions The post I Spent an Hour on a Data Preprocessing...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/\n\n2. How to Create Powerful Loops in Claude Code\nContext: Learn about the concept of loops to power your coding agents. The post How to Create Powerful Loops in Claude Code appeared first on Towards Data Science .\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/\n\n3. Retrieval Is Filtering, Not Search: A Mental Model for Enterprise RAG\nContext: ...\nEnterprise Document Intelligence [Vol.1 #7A] - Stop searching strings. Filter line_df and toc_df. Pick anchors small, expand context large The post Retrieval Is Filtering, Not Search: A Mental Mod\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/retrieval-is-filtering-not-search-a-mental-model-for-enterprise-rag/\n\n4. Microsoft Entra ID single sign-on for the Denodo connector in Power BI (Preview)\nContext: When you configure a Denodo data connection for Entra ID SSO, users querying a semantic model in DirectQuery mode are authenticated to Denodo with their own Microsoft Entra ID...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nHow is your organization responding to these signals?\n\n#MLOps #SAPHANA #PostgreSQL #SSIS #Databricks #DataVisualization #MySQL",
-  "last_post_format": "digest",
+  "posts_created": 366,
+  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nShare your hard-won wisdom below.\n\n#Cloud #CloudArchitecture #CloudNative #DataWarehouse #Dashboard #Python #BITools\n\n\u2753 Which lesson resonates most with your team?\n\n#Cloud #CloudArchitecture #CloudNative #Analytics #BITools #Insights #Statistics",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "powerbi.microsoft.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-24T07:04:25.490367+00:00"
+  "last_post_timestamp": "2026-06-24T09:59:16.033160+00:00"
 }
