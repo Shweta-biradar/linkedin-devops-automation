@@ -169,6 +169,7 @@
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
+    "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129",
     "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326",
@@ -546,6 +547,7 @@
     "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
     "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
+    "https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/",
     "https://towardsdatascience.com/how-to-create-production-ready-code-with-claude-code/",
     "https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/",
     "https://towardsdatascience.com/how-to-effectively-align-with-claude-code/",
@@ -583,6 +585,7 @@
     "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
+    "https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/",
     "https://towardsdatascience.com/i-spent-may-evaluating-different-engines-for-ocr/",
     "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
     "https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/",
@@ -666,6 +669,7 @@
     "https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/",
     "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
     "https://towardsdatascience.com/rerankers-arent-magic-either-when-the-cross-encoder-layer-is-worth-the-cost-enterprise-document-intelligence-vol-1-2bis/",
+    "https://towardsdatascience.com/retrieval-is-filtering-not-search-a-mental-model-for-enterprise-rag/",
     "https://towardsdatascience.com/rope-clearly-explained/",
     "https://towardsdatascience.com/routing-in-a-sparse-graph-a-distributed-q-learning-approach/",
     "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
@@ -1232,8 +1236,8 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475185857319161856",
-    "last_posted_at_utc": "2026-06-23T13:59:50.904086+00:00",
+    "last_post_id": "urn:li:share:7475443698542170112",
+    "last_posted_at_utc": "2026-06-24T07:04:25.485306+00:00",
     "last_format": "digest",
     "topic_titles": [
       {
@@ -2009,6 +2013,30 @@
         "date": "2026-06-23T13:59:50.904034+00:00",
         "hash_strict": "9045158f6ec2",
         "hash_medium": "a02dbbd11396"
+      },
+      {
+        "title": "Microsoft Entra ID single sign-on for the Denodo connector in Power BI (Preview)",
+        "date": "2026-06-24T07:04:25.484950+00:00",
+        "hash_strict": "7a6b0988a424",
+        "hash_medium": "882a182bc407"
+      },
+      {
+        "title": "Retrieval Is Filtering, Not Search: A Mental Model for Enterprise RAG",
+        "date": "2026-06-24T07:04:25.485054+00:00",
+        "hash_strict": "24476ed53fa8",
+        "hash_medium": "d8aa8e0f4948"
+      },
+      {
+        "title": "How to Create Powerful Loops in Claude Code",
+        "date": "2026-06-24T07:04:25.485179+00:00",
+        "hash_strict": "35f5863c211d",
+        "hash_medium": "620d394f729b"
+      },
+      {
+        "title": "I Spent an Hour on a Data Preprocessing Task Before Asking Gemini",
+        "date": "2026-06-24T07:04:25.485247+00:00",
+        "hash_strict": "72957870e8a5",
+        "hash_medium": "5d1221c9ce77"
       }
     ]
   }
