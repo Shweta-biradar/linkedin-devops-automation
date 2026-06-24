@@ -1,9 +1,9 @@
 {
-  "total_posts": 393,
-  "posts_today": 2,
+  "total_posts": 394,
+  "posts_today": 3,
   "last_post_date": "2026-06-24",
   "formats_used": {
-    "case_study": 58,
+    "case_study": 59,
     "deep_dive": 41,
     "lessons": 65,
     "digest": 218,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 375,
+    "towardsdatascience.com": 377,
     "www.snowflake.com": 125,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-25",
-      "time": "2026-05-25T14:23:57.231966+00:00",
-      "format": "case_study",
-      "sources": [
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-26",
       "time": "2026-05-26T07:02:29.214398+00:00",
@@ -1192,13 +1182,22 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "time": "2026-06-24T13:37:11.038681+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 366,
-  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent\n\n1\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nShare your hard-won wisdom below.\n\n#Cloud #CloudArchitecture #CloudNative #DataWarehouse #Dashboard #Python #BITools\n\n\u2753 Which lesson resonates most with your team?\n\n#Cloud #CloudArchitecture #CloudNative #Analytics #BITools #Insights #Statistics",
-  "last_post_format": "lessons",
+  "posts_created": 367,
+  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udcda Case: Anchor Detection for RAG: Parallel Detectors, Then One LLM Call at the End\n\nThe story: ...\nEnterprise Document Intelligence [Vol.1 #7B] - Retrieval is filtering on structured tables: keywords first, TOC second, embeddings last The post Anchor Detection for RAG: Parallel Detectors, Then One LLM Call at the End appeared first on Towards Data Science .\n\nThe insight: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: Production systems teach you things documentation never will\n\u2192 Step 2: The best architectures optimize for change, not just current requirements\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhich operational practices have scaled best for your team?\n\n#DataVisualization #SSIS #Python #Redshift #Tableau #Automation #Airflow\n\n\u2753 How would you adapt this for your team?\n\n\ud83d\udc49 https://towardsdatascience.com/anchor-detection-for-rag-parallel-detectors-then-one-llm-call-at-the-end/\n\n#Redshift #Snowflake #MLOps #Statistics #DataWarehouse #Tableau #AdvancedAnalytics",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-24T09:59:16.033160+00:00"
+  "last_post_timestamp": "2026-06-24T13:37:11.039960+00:00"
 }

@@ -441,6 +441,7 @@
     "https://towardsdatascience.com/aliasing-in-audio-easily-explained-from-wagon-wheels-to-waveforms/",
     "https://towardsdatascience.com/alpamayor1-large-causal-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
+    "https://towardsdatascience.com/anchor-detection-for-rag-parallel-detectors-then-one-llm-call-at-the-end/",
     "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
     "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/",
     "https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/",
@@ -771,6 +772,7 @@
     "https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/",
     "https://towardsdatascience.com/why-gradient-descent-became-stochastic/",
     "https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/",
+    "https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipeline-instead/",
     "https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/",
     "https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/",
     "https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/",
@@ -1236,34 +1238,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475487701333344256",
-    "last_posted_at_utc": "2026-06-24T09:59:16.030887+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7475542541673652224",
+    "last_posted_at_utc": "2026-06-24T13:37:11.036421+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "10 Common RAG Mistakes We Keep Seeing in Production",
-        "date": "2026-06-10T10:42:08.810238+00:00",
-        "hash_strict": "78185f619974",
-        "hash_medium": "f5c40dc399ac"
-      },
-      {
-        "title": "Announcing Spark Connect on Amazon EMR Serverless: Interactive PySpark development, anywhere",
-        "date": "2026-06-10T10:42:08.810356+00:00",
-        "hash_strict": "e018669f2f8c",
-        "hash_medium": "ed8215f2b5ee"
-      },
-      {
-        "title": "Build stateful streaming applications with Apache Spark 4.0 on Amazon EMR Serverless",
-        "date": "2026-06-10T10:42:08.810429+00:00",
-        "hash_strict": "caf395f9db60",
-        "hash_medium": "95a7e88e9112"
-      },
-      {
-        "title": "The Hardware That Makes AI Possible",
-        "date": "2026-06-10T10:42:08.810498+00:00",
-        "hash_strict": "df3c42ea323f",
-        "hash_medium": "868c39a4706a"
-      },
       {
         "title": "Automate Oracle PL/SQL to PostgreSQL migration with Amazon Bedrock and Strands Agents",
         "date": "2026-06-10T14:36:41.832088+00:00",
@@ -2007,6 +1985,18 @@
         "date": "2026-06-24T09:59:16.030796+00:00",
         "hash_strict": "8b3303c7fe51",
         "hash_medium": "9bafb24d9961"
+      },
+      {
+        "title": "Why I Stopped Using One Agent and Built a Multi-Agent Pipeline Instead",
+        "date": "2026-06-24T13:37:11.036240+00:00",
+        "hash_strict": "5ad2e95af532",
+        "hash_medium": "eed34281703f"
+      },
+      {
+        "title": "Anchor Detection for RAG: Parallel Detectors, Then One LLM Call at the End",
+        "date": "2026-06-24T13:37:11.036338+00:00",
+        "hash_strict": "704062dfb514",
+        "hash_medium": "987cd5afd526"
       }
     ]
   }
