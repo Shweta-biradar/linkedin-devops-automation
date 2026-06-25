@@ -1,12 +1,12 @@
 {
-  "total_posts": 396,
-  "posts_today": 2,
+  "total_posts": 397,
+  "posts_today": 3,
   "last_post_date": "2026-06-25",
   "formats_used": {
     "case_study": 59,
     "deep_dive": 41,
     "lessons": 67,
-    "digest": 218,
+    "digest": 219,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 380,
+    "towardsdatascience.com": 382,
     "www.snowflake.com": 125,
     "kdnuggets.com": 72,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-26",
-      "time": "2026-05-26T14:16:25.145772+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com",
-        "kdnuggets.com",
-        "kdnuggets.com"
-      ]
-    },
     {
       "date": "2026-05-27",
       "time": "2026-05-27T07:50:40.669091+00:00",
@@ -1194,13 +1184,22 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-25",
+      "time": "2026-06-25T13:35:49.885108+00:00",
+      "format": "digest",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 369,
-  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nCloud pioneers spotlight operational wisdom.\n\nTopic: Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent\n\n1\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: helps you optimize cloud reliability and cost..\n\nWhat's a lesson that changed how you work?\n\n#Cloud #CloudArchitecture #CloudNative #Snowflake #Tableau #DataWarehouse #Statistics\n\n\u2753 Which lesson resonates most with your team?\n\n#Cloud #CloudArchitecture #CloudNative #Airflow #SSIS #MLOps #DataAnalyst",
-  "last_post_format": "lessons",
+  "posts_created": 370,
+  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nCollaboration experts spotlight culture and process breakthroughs.\n\nWhat caught our attention:\n1. One Month Into Learning Data Engineering in Public: Here\u2019s What I Didn\u2019t Write About\nContext: A reflection on the first month of learning data engineering in public, and what actually kept me going. The post One Month Into Learning Data Engineering in Public: Here\u2019s...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/one-month-into-learning-data-engineering-in-public-heres-what-i-didnt-write-about/\n\n2. Letting an LLM Pick the Right RAG Page: The Arbiter Pattern at the End of Retrieval\nContext: ...\nEnterprise Document Intelligence [Vol.1 #7C] - One LLM call ranks the candidates with reasons. The output is one typed object your auditor can defend The post Letting an LLM Pick the Right RAG Pag\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?\n\n#BITools #SQL #Analytics #Statistics #Qlik #DataWarehouse #Reporting",
+  "last_post_format": "digest",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-25T09:54:30.899162+00:00"
+  "last_post_timestamp": "2026-06-25T13:35:49.886314+00:00"
 }

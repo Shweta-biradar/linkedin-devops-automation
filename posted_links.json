@@ -610,6 +610,7 @@
     "https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/",
     "https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/",
     "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
+    "https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/",
     "https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-1-the-geometric-intuition/",
     "https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/",
     "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
@@ -634,6 +635,7 @@
     "https://towardsdatascience.com/on-the-possibility-of-small-networks-for-physics-informed-learning/",
     "https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/",
     "https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/",
+    "https://towardsdatascience.com/one-month-into-learning-data-engineering-in-public-heres-what-i-didnt-write-about/",
     "https://towardsdatascience.com/optimizing-ai-agent-planning-with-operations-research-and-data-science/",
     "https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/",
     "https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/",
@@ -1243,34 +1245,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475848893176410113",
-    "last_posted_at_utc": "2026-06-25T09:54:30.895685+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7475904589066686464",
+    "last_posted_at_utc": "2026-06-25T13:35:49.882839+00:00",
+    "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "How to Train a Scoring Model in the Age of Artificial Intelligence",
-        "date": "2026-06-11T11:11:18.530322+00:00",
-        "hash_strict": "f799604b9f32",
-        "hash_medium": "005131c34811"
-      },
-      {
-        "title": "Beyond extract_text: The Two Layers of a PDF That Drive RAG Quality",
-        "date": "2026-06-11T11:11:18.530420+00:00",
-        "hash_strict": "cbea02bce2fd",
-        "hash_medium": "61727dfb6475"
-      },
-      {
-        "title": "Bayesian Networks and Markov Networks: An Intuitive Guide to Structured Uncertainty",
-        "date": "2026-06-11T11:11:18.530482+00:00",
-        "hash_strict": "4b51c2e218a2",
-        "hash_medium": "46c8d7f2a0ec"
-      },
-      {
-        "title": "How to Refactor Code with Claude Code",
-        "date": "2026-06-11T11:11:18.530525+00:00",
-        "hash_strict": "9cbcc06d6748",
-        "hash_medium": "7421c4f009d8"
-      },
       {
         "title": "NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran",
         "date": "2026-06-11T15:06:11.959596+00:00",
@@ -1966,6 +1944,18 @@
         "date": "2026-06-25T09:54:30.895549+00:00",
         "hash_strict": "8b3303c7fe51",
         "hash_medium": "9bafb24d9961"
+      },
+      {
+        "title": "One Month Into Learning Data Engineering in Public: Here\u2019s What I Didn\u2019t Write About",
+        "date": "2026-06-25T13:35:49.882637+00:00",
+        "hash_strict": "e10e43c997cb",
+        "hash_medium": "a5b105cefede"
+      },
+      {
+        "title": "Letting an LLM Pick the Right RAG Page: The Arbiter Pattern at the End of Retrieval",
+        "date": "2026-06-25T13:35:49.882780+00:00",
+        "hash_strict": "2ff13a3cedd8",
+        "hash_medium": "a57212d67b10"
       }
     ]
   }
