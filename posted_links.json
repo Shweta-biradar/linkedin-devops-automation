@@ -1243,46 +1243,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475805385803800576",
-    "last_posted_at_utc": "2026-06-25T07:01:37.959325+00:00",
+    "last_post_id": "urn:li:share:7475848893176410113",
+    "last_posted_at_utc": "2026-06-25T09:54:30.895685+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Real-time CDC from Aurora PostgreSQL to Amazon S3 Tables using Debezium and Firehose",
-        "date": "2026-06-11T08:22:21.140393+00:00",
-        "hash_strict": "5db6f278787a",
-        "hash_medium": "b13f8f90396d"
-      },
-      {
-        "title": "Hybrid Tables Just Got Up to 8x Faster",
-        "date": "2026-06-11T08:22:21.140522+00:00",
-        "hash_strict": "b03bf2655618",
-        "hash_medium": "70519448a1c3"
-      },
-      {
-        "title": "AI Data Engineering: New Smart Pipelines in Snowflake",
-        "date": "2026-06-11T08:22:21.140590+00:00",
-        "hash_strict": "193689572c87",
-        "hash_medium": "4cc920f2bc4b"
-      },
-      {
-        "title": "5 Useful Python Scripts to Automate Boring PDF Tasks",
-        "date": "2026-06-11T08:22:21.140655+00:00",
-        "hash_strict": "980bdd86ba26",
-        "hash_medium": "4c44c03beca8"
-      },
-      {
-        "title": "Choosing the right workflow orchestration service for your use case: Amazon MWAA and AWS Step Functions",
-        "date": "2026-06-11T08:22:21.140725+00:00",
-        "hash_strict": "5119cb567fbf",
-        "hash_medium": "4c610852d44d"
-      },
-      {
-        "title": "Physical AI: What It Is and What It Is Not",
-        "date": "2026-06-11T08:22:21.140799+00:00",
-        "hash_strict": "0d082b5418c6",
-        "hash_medium": "57d895cee8cd"
-      },
       {
         "title": "How to Train a Scoring Model in the Age of Artificial Intelligence",
         "date": "2026-06-11T11:11:18.530322+00:00",
@@ -1996,6 +1960,12 @@
         "date": "2026-06-25T07:01:37.959275+00:00",
         "hash_strict": "18e6580b191a",
         "hash_medium": "3820e6077f62"
+      },
+      {
+        "title": "Detecting fraud patterns across Snowflake and AWS using SageMaker Data Agent",
+        "date": "2026-06-25T09:54:30.895549+00:00",
+        "hash_strict": "8b3303c7fe51",
+        "hash_medium": "9bafb24d9961"
       }
     ]
   }
