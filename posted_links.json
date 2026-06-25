@@ -56,6 +56,7 @@
     "https://aws.amazon.com/blogs/big-data/migrate-jms-applications-to-amazon-mq-for-rabbitmq-with-minimal-changes/",
     "https://aws.amazon.com/blogs/big-data/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/",
     "https://aws.amazon.com/blogs/big-data/modernize-game-intelligence-with-generative-ai-on-amazon-redshift/",
+    "https://aws.amazon.com/blogs/big-data/multi-region-identity-based-access-to-amazon-redshift-and-s3-tables/",
     "https://aws.amazon.com/blogs/big-data/opensearch-agent-skills-bring-built-in-intelligence-to-your-agentic-ide/",
     "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/",
     "https://aws.amazon.com/blogs/big-data/optimize-hbase-reads-with-bucket-caching-on-amazon-emr/",
@@ -430,6 +431,7 @@
     "https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/",
     "https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/",
     "https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/",
+    "https://towardsdatascience.com/a-three-phase-factual-recall-circuit-in-gemma-2b-and-gemma-12b-it/",
     "https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/",
     "https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/",
     "https://towardsdatascience.com/agentic-ai-how-to-save-on-tokens/",
@@ -543,6 +545,7 @@
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
     "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
+    "https://towardsdatascience.com/how-to-build-a-credit-scoring-grid-from-a-logistic-regression-model/",
     "https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/",
     "https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/",
     "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
@@ -785,6 +788,7 @@
     "https://towardsdatascience.com/yolov2-yolo9000-paper-walkthrough-better-faster-stronger/",
     "https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/",
     "https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/",
+    "https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/",
     "https://towardsdatascience.com/your-first-webassembly-program-and-web-app-written-tested-and-deployed-entirely-in-the-web-browser/",
     "https://unit42.paloaltonetworks.com/cybersecurity-is-for-everyone/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-copilot-data-controls-to-all-storage-locations/",
@@ -837,6 +841,7 @@
     "https://www.dataquest.io/blog/best-sql-courses/",
     "https://www.dataquest.io/blog/build-a-food-ordering-app-with-python/",
     "https://www.dataquest.io/blog/build-a-rag-system-from-scratch/",
+    "https://www.dataquest.io/blog/data-scientist-roadmap-for-beginners/",
     "https://www.dataquest.io/blog/etl-tools-practical-guide-with-examples/",
     "https://www.dataquest.io/blog/power-bi-project-ideas-to-build-your-portfolio/",
     "https://www.dataquest.io/blog/power-bi-tutorial/",
@@ -1238,46 +1243,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475542541673652224",
-    "last_posted_at_utc": "2026-06-24T13:37:11.036421+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7475805385803800576",
+    "last_posted_at_utc": "2026-06-25T07:01:37.959325+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Automate Oracle PL/SQL to PostgreSQL migration with Amazon Bedrock and Strands Agents",
-        "date": "2026-06-10T14:36:41.832088+00:00",
-        "hash_strict": "15dcaa4cf46c",
-        "hash_medium": "50072a687173"
-      },
-      {
-        "title": "Pagination patterns in Amazon Aurora DSQL",
-        "date": "2026-06-10T14:36:41.832238+00:00",
-        "hash_strict": "848034168549",
-        "hash_medium": "584afa410674"
-      },
-      {
-        "title": "Building Python applications with SQLAlchemy and Aurora DSQL",
-        "date": "2026-06-10T14:36:41.832295+00:00",
-        "hash_strict": "f5e8f5647df0",
-        "hash_medium": "d7edb99e57b0"
-      },
-      {
-        "title": "Building type-safe applications with Drizzle ORM in Aurora DSQL",
-        "date": "2026-06-10T14:36:41.832341+00:00",
-        "hash_strict": "f855d817b3c3",
-        "hash_medium": "8383c6701bf5"
-      },
-      {
-        "title": "Oracle Database@AWS decoded: Determining the right fit for your Oracle workloads",
-        "date": "2026-06-10T14:36:41.832389+00:00",
-        "hash_strict": "ebef94d731f1",
-        "hash_medium": "07684f87c41b"
-      },
-      {
-        "title": "Announcing Amazon RDS for Db2 12.1 with additional community edition",
-        "date": "2026-06-10T14:36:41.832469+00:00",
-        "hash_strict": "061022224b6e",
-        "hash_medium": "d07bf1b2e7a9"
-      },
       {
         "title": "Real-time CDC from Aurora PostgreSQL to Amazon S3 Tables using Debezium and Firehose",
         "date": "2026-06-11T08:22:21.140393+00:00",
@@ -1997,6 +1966,36 @@
         "date": "2026-06-24T13:37:11.036338+00:00",
         "hash_strict": "704062dfb514",
         "hash_medium": "987cd5afd526"
+      },
+      {
+        "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
+        "date": "2026-06-25T07:01:37.958874+00:00",
+        "hash_strict": "18f5c4722504",
+        "hash_medium": "1ad3c0643770"
+      },
+      {
+        "title": "Multi-Region identity-based access to Amazon Redshift and S3 Tables",
+        "date": "2026-06-25T07:01:37.959008+00:00",
+        "hash_strict": "58892f02cb3a",
+        "hash_medium": "8002da1512c3"
+      },
+      {
+        "title": "Data Scientist Roadmap for Beginners (2026\u20132027)",
+        "date": "2026-06-25T07:01:37.959097+00:00",
+        "hash_strict": "9479de42984e",
+        "hash_medium": "0146848fc4a6"
+      },
+      {
+        "title": "A Three-Phase Factual Recall Circuit in Gemma-2B and Gemma-12B-IT",
+        "date": "2026-06-25T07:01:37.959194+00:00",
+        "hash_strict": "27938894c85e",
+        "hash_medium": "987d3de944c3"
+      },
+      {
+        "title": "How to Build a Credit Scoring Grid From a Logistic Regression Model",
+        "date": "2026-06-25T07:01:37.959275+00:00",
+        "hash_strict": "18e6580b191a",
+        "hash_medium": "3820e6077f62"
       }
     ]
   }
