@@ -548,6 +548,7 @@
     "https://towardsdatascience.com/how-i-continually-improve-my-claude-code/",
     "https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/",
     "https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/",
+    "https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/",
     "https://towardsdatascience.com/how-to-apply-agentic-coding-to-solve-problem/",
     "https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/",
     "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
@@ -1255,28 +1256,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476212847480569857",
-    "last_posted_at_utc": "2026-06-26T10:00:44.376749+00:00",
-    "last_format": "deep_dive",
+    "last_post_id": "urn:li:share:7476265655755792384",
+    "last_posted_at_utc": "2026-06-26T13:30:34.830431+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "PySpark for Beginners: Beyond the Basics",
-        "date": "2026-06-12T10:49:51.006976+00:00",
-        "hash_strict": "f3648b6a79ce",
-        "hash_medium": "ee7ebdf4ed21"
-      },
-      {
-        "title": "Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs",
-        "date": "2026-06-12T10:49:51.007098+00:00",
-        "hash_strict": "89b2bebcd5ed",
-        "hash_medium": "265b35c2e5c8"
-      },
-      {
-        "title": "BI Is Dead, Long Live\u00a0BI",
-        "date": "2026-06-12T10:49:51.007174+00:00",
-        "hash_strict": "24587ec5566c",
-        "hash_medium": "1d1b35dfed21"
-      },
       {
         "title": "I Thought Data Engineering Was Just Writing Scripts. I Was Wrong.",
         "date": "2026-06-12T14:19:25.205346+00:00",
@@ -1978,6 +1961,12 @@
         "date": "2026-06-26T10:00:44.376701+00:00",
         "hash_strict": "8c4faf8072a9",
         "hash_medium": "149914e13338"
+      },
+      {
+        "title": "How to Ace Data and ML Behavioural Interviews",
+        "date": "2026-06-26T13:30:34.830305+00:00",
+        "hash_strict": "fc5abccf5eab",
+        "hash_medium": "77db6d06076a"
       }
     ]
   }

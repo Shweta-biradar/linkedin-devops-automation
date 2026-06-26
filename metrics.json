@@ -1,9 +1,9 @@
 {
-  "total_posts": 399,
-  "posts_today": 2,
+  "total_posts": 400,
+  "posts_today": 3,
   "last_post_date": "2026-06-26",
   "formats_used": {
-    "case_study": 59,
+    "case_study": 60,
     "deep_dive": 42,
     "lessons": 67,
     "digest": 220,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 386,
+    "towardsdatascience.com": 387,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-27",
-      "time": "2026-05-27T14:38:47.620034+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-28",
       "time": "2026-05-28T07:09:13.101942+00:00",
@@ -1199,13 +1191,21 @@
         "aws.amazon.com",
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-26",
+      "time": "2026-06-26T13:30:34.833974+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 372,
-  "last_post_content": "\ud83c\udf93 Going deeper on what matters.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Topic: Build a Spring Boot REST API with Amazon Aurora DSQL\n\nWhat it's about:\nIn this post, you learn how to build a Spring Boot REST API that integrates with Aurora DSQL. You\u2019ll configure the Aurora DSQL JDBC Connector for IAM authentication, implement...\n\nWhy it matters: practical signal for building reliable systems.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Identity is the new perimeter - zero trust from day one\n\u2022 Security tooling integration matters more than individual tools\n\u2022 Threat modeling beats penetration testing every time\n\nWhich compliance requirements drive your architecture?\n\n#Looker #SSRS #BigQuery #DataVisualization #DataAnalyst #Automation #AdvancedAnalytics\n\n\u2753 How would you apply this insight?\n\nContinue reading: https://aws.amazon.com/blogs/database/build-a-spring-boot-rest-api-with-amazon-aurora-dsql/\n\n#Automation #PostgreSQL #Databricks #Statistics #DataWarehouse #Snowflake #SQL",
-  "last_post_format": "deep_dive",
+  "posts_created": 373,
+  "last_post_content": "\ud83d\udee0\ufe0f How teams solved it.\nIndustry leaders reveal what works (and what doesn't).\n\n\u23f1\ufe0f Timeline: How to Ace Data and ML Behavioural Interviews\n\n\u2192 Challenge: How to smash through data / ML behavioural interviews The post How to Ace Data and ML Behavioural Interviews appeared first on Towards Data Science .\n\u2192 Learning: practical signal for building reliable systems.\n\nHow to apply this:\n\u2192 Step 1: System evolution requires continuous learning and adaptation\n\u2192 Step 2: Automate the boring stuff so humans can focus on the interesting problems\n\u2192 Step 3: Measure impact and iterate based on results\n\nWhat would you do differently if you started over today?\n\n#BusinessIntelligence #Automation #Redshift #AdvancedAnalytics #BITools #SSRS #Tableau\n\n\u2753 Would this work in your environment?\n\n\ud83d\udcda Key resource: https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/\n\n#Airflow #Alteryx #MLOps #Databricks #SSRS #Reporting #AdvancedAnalytics",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-26T10:00:44.380004+00:00"
+  "last_post_timestamp": "2026-06-26T13:30:34.835135+00:00"
 }
