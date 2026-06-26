@@ -1,10 +1,10 @@
 {
-  "total_posts": 398,
-  "posts_today": 1,
+  "total_posts": 399,
+  "posts_today": 2,
   "last_post_date": "2026-06-26",
   "formats_used": {
     "case_study": 59,
-    "deep_dive": 41,
+    "deep_dive": 42,
     "lessons": 67,
     "digest": 220,
     "lessons_learned": 2,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 157,
+    "aws.amazon.com": 161,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-27",
-      "time": "2026-05-27T10:38:23.057219+00:00",
-      "format": "digest",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-27",
       "time": "2026-05-27T14:38:47.620034+00:00",
@@ -1196,15 +1188,24 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-26",
+      "time": "2026-06-26T10:00:44.378832+00:00",
+      "format": "deep_dive",
+      "sources": [
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com",
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 371,
-  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nAnalytics experts curate the signals that drive innovation.\n\nThis week's standouts:\n1. Scale Enterprise AI With Dataiku Cobuild on Snowflake\nContext: Learn how Dataiku Cobuild on Snowflake helps teams scale enterprise AI development with governance, visibility, and operational control.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/dataiku-cobuild-snowflake-ai-governance\n\n2. 5 Open Source Omni AI Models That Handle Text, Images, Audio, and Video\nContext: Take a practical look at multimodal, any-to-any systems for vision-language reasoning, speech interaction, document intelligence, real-time assistants, local deployment.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/5-open-source-omni-ai-models-that-handle-text-images-audio-and-video\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
-  "last_post_format": "digest",
+  "posts_created": 372,
+  "last_post_content": "\ud83c\udf93 Going deeper on what matters.\nPlatform architects surface deep insights.\n\n\ud83d\udd0e Topic: Build a Spring Boot REST API with Amazon Aurora DSQL\n\nWhat it's about:\nIn this post, you learn how to build a Spring Boot REST API that integrates with Aurora DSQL. You\u2019ll configure the Aurora DSQL JDBC Connector for IAM authentication, implement...\n\nWhy it matters: practical signal for building reliable systems.\n\nKey takeaway:\nThis aligns with patterns that work well:\n\u2022 Identity is the new perimeter - zero trust from day one\n\u2022 Security tooling integration matters more than individual tools\n\u2022 Threat modeling beats penetration testing every time\n\nWhich compliance requirements drive your architecture?\n\n#Looker #SSRS #BigQuery #DataVisualization #DataAnalyst #Automation #AdvancedAnalytics\n\n\u2753 How would you apply this insight?\n\nContinue reading: https://aws.amazon.com/blogs/database/build-a-spring-boot-rest-api-with-amazon-aurora-dsql/\n\n#Automation #PostgreSQL #Databricks #Statistics #DataWarehouse #Snowflake #SQL",
+  "last_post_format": "deep_dive",
   "last_post_sources": [
-    "towardsdatascience.com",
-    "kdnuggets.com",
-    "www.snowflake.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-26T07:10:12.847433+00:00"
+  "last_post_timestamp": "2026-06-26T10:00:44.380004+00:00"
 }

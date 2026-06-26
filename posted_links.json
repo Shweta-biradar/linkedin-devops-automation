@@ -91,15 +91,18 @@
     "https://aws.amazon.com/blogs/database/automate-oracle-pl-sql-to-postgresql-migration-with-amazon-bedrock-and-strands-agents/",
     "https://aws.amazon.com/blogs/database/automated-jdbc-query-caching-with-the-aws-advanced-jdbc-wrapper/",
     "https://aws.amazon.com/blogs/database/automatically-scale-storage-for-amazon-rds-multi-az-db-clusters-using-aws-lambda/",
+    "https://aws.amazon.com/blogs/database/automating-cross-account-refresh-for-amazon-rds-multi-az-db-clusters/",
     "https://aws.amazon.com/blogs/database/avoid-shared-database-accounts-with-federated-iam-authentication/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-2-failover-strategies/",
     "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-3-validating-regional-resilience-with-aws-fault-injection-service/",
     "https://aws.amazon.com/blogs/database/best-practices-for-upgrading-amazon-rds-for-mysql-8-0-to-8-4-with-prechecks-blue-green-and-rollback/",
+    "https://aws.amazon.com/blogs/database/build-a-spring-boot-rest-api-with-amazon-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/building-agentic-ai-for-amazon-rds-for-sql-server-with-strands-and-agentcore/",
     "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/",
     "https://aws.amazon.com/blogs/database/building-python-applications-with-sqlalchemy-and-aurora-dsql/",
     "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/",
+    "https://aws.amazon.com/blogs/database/centralized-traffic-inspection-for-oracle-databaseaws/",
     "https://aws.amazon.com/blogs/database/connect-to-amazon-rds-for-db2-from-your-laptop/",
     "https://aws.amazon.com/blogs/database/converting-an-rds-for-sql-server-instance-from-license-included-to-bring-your-own-media-byom/",
     "https://aws.amazon.com/blogs/database/create-monitoring-dashboard-for-amazon-rds-for-db2/",
@@ -129,6 +132,7 @@
     "https://aws.amazon.com/blogs/database/preserving-custom-domain-names-for-amazon-rds-for-db2/",
     "https://aws.amazon.com/blogs/database/provision-oracle-databaseaws-resources-using-terraform/",
     "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/",
+    "https://aws.amazon.com/blogs/database/running-pgvector-in-production-on-amazon-aurora-postgresql/",
     "https://aws.amazon.com/blogs/database/troubleshoot-amazon-rds-for-oracle-to-amazon-redshift-dms-migrations-with-aws-devops-agent/",
     "https://aws.amazon.com/blogs/database/unlock-license-mobility-with-bring-your-own-media-on-fully-managed-amazon-rds-for-sql-server/",
     "https://aws.amazon.com/blogs/database/upgrade-strategies-for-amazon-rds-for-mysql-8-0-to-8-4/",
@@ -1251,46 +1255,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476169933131759616",
-    "last_posted_at_utc": "2026-06-26T07:10:12.844108+00:00",
-    "last_format": "digest",
+    "last_post_id": "urn:li:share:7476212847480569857",
+    "last_posted_at_utc": "2026-06-26T10:00:44.376749+00:00",
+    "last_format": "deep_dive",
     "topic_titles": [
-      {
-        "title": "How to migrate from Oracle to Amazon Aurora PostgreSQL using AWS CloudFormation (Part 1)",
-        "date": "2026-06-12T08:11:10.952464+00:00",
-        "hash_strict": "a72876bdd1f2",
-        "hash_medium": "f92012afa649"
-      },
-      {
-        "title": "Best Data Analytics Courses in 2026",
-        "date": "2026-06-12T08:11:10.952588+00:00",
-        "hash_strict": "32940bf32921",
-        "hash_medium": "b756ca6aed89"
-      },
-      {
-        "title": "Automate Amazon Aurora PostgreSQL major or minor version upgrade using AWS Systems Manager and Amazon EC2",
-        "date": "2026-06-12T08:11:10.952666+00:00",
-        "hash_strict": "b79c652db8a3",
-        "hash_medium": "da5023d90f49"
-      },
-      {
-        "title": "Provision Oracle Database@AWS resources using Terraform",
-        "date": "2026-06-12T08:11:10.952762+00:00",
-        "hash_strict": "03568c565b62",
-        "hash_medium": "e3cdc0108889"
-      },
-      {
-        "title": "Financial Services AI: ROI, Agentic and Governance",
-        "date": "2026-06-12T08:11:10.952844+00:00",
-        "hash_strict": "ab700ba2f464",
-        "hash_medium": "1b5842083b61"
-      },
-      {
-        "title": "AI Agents in Healthcare: 3 Snowflake Summit Takeaways",
-        "date": "2026-06-12T08:11:10.952903+00:00",
-        "hash_strict": "eefe62fd1774",
-        "hash_medium": "59e00afb9774"
-      },
       {
         "title": "PySpark for Beginners: Beyond the Basics",
         "date": "2026-06-12T10:49:51.006976+00:00",
@@ -1986,6 +1954,30 @@
         "date": "2026-06-26T07:10:12.844040+00:00",
         "hash_strict": "1bc1be057a7d",
         "hash_medium": "2da1249e59bc"
+      },
+      {
+        "title": "Automating cross-account refresh for Amazon RDS Multi-AZ DB clusters",
+        "date": "2026-06-26T10:00:44.376452+00:00",
+        "hash_strict": "52e8e758a35d",
+        "hash_medium": "420264f61466"
+      },
+      {
+        "title": "Running pgvector in production on Amazon Aurora PostgreSQL",
+        "date": "2026-06-26T10:00:44.376549+00:00",
+        "hash_strict": "7606fc624921",
+        "hash_medium": "9af3322d15e9"
+      },
+      {
+        "title": "Centralized traffic inspection for Oracle Database@AWS",
+        "date": "2026-06-26T10:00:44.376635+00:00",
+        "hash_strict": "81f309d35218",
+        "hash_medium": "df934cb4f9a1"
+      },
+      {
+        "title": "Build a Spring Boot REST API with Amazon Aurora DSQL",
+        "date": "2026-06-26T10:00:44.376701+00:00",
+        "hash_strict": "8c4faf8072a9",
+        "hash_medium": "149914e13338"
       }
     ]
   }
