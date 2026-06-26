@@ -1,12 +1,12 @@
 {
-  "total_posts": 397,
-  "posts_today": 3,
-  "last_post_date": "2026-06-25",
+  "total_posts": 398,
+  "posts_today": 1,
+  "last_post_date": "2026-06-26",
   "formats_used": {
     "case_study": 59,
     "deep_dive": 41,
     "lessons": 67,
-    "digest": 219,
+    "digest": 220,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
     "industry_predictions": 3,
@@ -40,9 +40,9 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 382,
-    "www.snowflake.com": 125,
-    "kdnuggets.com": 72,
+    "towardsdatascience.com": 386,
+    "www.snowflake.com": 126,
+    "kdnuggets.com": 73,
     "techcrunch.com": 6,
     "stackoverflow.blog": 4,
     "powerbi.microsoft.com": 27,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-27",
-      "time": "2026-05-27T07:50:40.669091+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-27",
       "time": "2026-05-27T10:38:23.057219+00:00",
@@ -1193,13 +1183,28 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-26",
+      "time": "2026-06-26T07:10:12.846280+00:00",
+      "format": "digest",
+      "sources": [
+        "www.snowflake.com",
+        "kdnuggets.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 370,
-  "last_post_content": "\ud83c\udfaf Platform engineering: what stands out now.\nCollaboration experts spotlight culture and process breakthroughs.\n\nWhat caught our attention:\n1. One Month Into Learning Data Engineering in Public: Here\u2019s What I Didn\u2019t Write About\nContext: A reflection on the first month of learning data engineering in public, and what actually kept me going. The post One Month Into Learning Data Engineering in Public: Here\u2019s...\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/one-month-into-learning-data-engineering-in-public-heres-what-i-didnt-write-about/\n\n2. Letting an LLM Pick the Right RAG Page: The Arbiter Pattern at the End of Retrieval\nContext: ...\nEnterprise Document Intelligence [Vol.1 #7C] - One LLM call ranks the candidates with reasons. The output is one typed object your auditor can defend The post Letting an LLM Pick the Right RAG Pag\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/\n\n#DataAnalytics #Cloud #SRE #Platform #Security #Kubernetes #Engineering\n\nWhich trend resonates most with your team?\n\n#BITools #SQL #Analytics #Statistics #Qlik #DataWarehouse #Reporting",
+  "posts_created": 371,
+  "last_post_content": "\ud83d\udd0d Key trends in platform reliability.\nAnalytics experts curate the signals that drive innovation.\n\nThis week's standouts:\n1. Scale Enterprise AI With Dataiku Cobuild on Snowflake\nContext: Learn how Dataiku Cobuild on Snowflake helps teams scale enterprise AI development with governance, visibility, and operational control.\nImpact: practical signal for building reliable systems.\n\ud83d\udd17 https://www.snowflake.com/content/snowflake-site/global/en/blog/dataiku-cobuild-snowflake-ai-governance\n\n2. 5 Open Source Omni AI Models That Handle Text, Images, Audio, and Video\nContext: Take a practical look at multimodal, any-to-any systems for vision-language reasoning, speech interaction, document intelligence, real-time assistants, local deployment.\nImpact: improves delivery speed without sacrificing safety.\n\ud83d\udd17 https://www.kdnuggets.com/5-open-source-omni-ai-models-that-handle-text-images-audio-and-video\n\n#Infrastructure #DataAnalytics #Security #CloudNative #Kubernetes #Engineering #DataOps\n\nWhich trend resonates most with your team?",
   "last_post_format": "digest",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "kdnuggets.com",
+    "www.snowflake.com"
   ],
-  "last_post_timestamp": "2026-06-25T13:35:49.886314+00:00"
+  "last_post_timestamp": "2026-06-26T07:10:12.847433+00:00"
 }

@@ -419,6 +419,7 @@
     "https://thenewstack.io/with-gridgain-acquisition-mariadb-bets-on-in-memory-computing-and-apache-ignite/",
     "https://thenewstack.io/with-its-latest-phi-4-reasoning-model-microsoft-reckons-bigger-isnt-always-better/",
     "https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/",
+    "https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/",
     "https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/",
     "https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/",
     "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
@@ -457,6 +458,7 @@
     "https://towardsdatascience.com/beyond-prompt-caching-5-more-things-you-should-cache-in-rag-pipelines/",
     "https://towardsdatascience.com/beyond-the-model-why-data-scientists-must-embrace-apis-and-api-documentation/",
     "https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/",
+    "https://towardsdatascience.com/beyond-the-straight-line-choosing-between-ols-interaction-terms-and-tweedie-regression/",
     "https://towardsdatascience.com/bi-is-dead-long-live-bi/",
     "https://towardsdatascience.com/breaking-the-host-memory-bottleneck/",
     "https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/",
@@ -721,6 +723,7 @@
     "https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/",
     "https://towardsdatascience.com/the-hardware-that-makes-ai-possible/",
     "https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/",
+    "https://towardsdatascience.com/the-hot-path-belongs-to-gbdts-agents-own-the-cold-path-a-payment-fraud-benchmark/",
     "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
     "https://towardsdatascience.com/the-joy-of-typing/",
     "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/",
@@ -751,6 +754,7 @@
     "https://towardsdatascience.com/unified-agentic-memory-across-harnesses-using-hooks/",
     "https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/",
     "https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/",
+    "https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/",
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
     "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
     "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
@@ -922,6 +926,7 @@
     "https://www.kdnuggets.com/5-must-know-python-concepts-for-ai-engineers",
     "https://www.kdnuggets.com/5-must-know-python-concepts-for-data-scientists",
     "https://www.kdnuggets.com/5-open-source-image-editing-ai-models",
+    "https://www.kdnuggets.com/5-open-source-omni-ai-models-that-handle-text-images-audio-and-video",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines",
     "https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents",
     "https://www.kdnuggets.com/5-powerful-python-decorators-to-build-clean-ai-code",
@@ -1020,6 +1025,7 @@
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-driven-energy-solutions",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-drivers-awards-2026",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/data-governance-in-healthcare-trustworthy-ai",
+    "https://www.snowflake.com/content/snowflake-site/global/en/blog/dataiku-cobuild-snowflake-ai-governance",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/datometry-for-snowflake-teradata-migration",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/dbt-fusion-available-snowflake",
     "https://www.snowflake.com/content/snowflake-site/global/en/blog/declarative-snowflake-pipelines-dcm-projects-cortex-code",
@@ -1245,22 +1251,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7475904589066686464",
-    "last_posted_at_utc": "2026-06-25T13:35:49.882839+00:00",
+    "last_post_id": "urn:li:share:7476169933131759616",
+    "last_posted_at_utc": "2026-06-26T07:10:12.844108+00:00",
     "last_format": "digest",
     "topic_titles": [
-      {
-        "title": "NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran",
-        "date": "2026-06-11T15:06:11.959596+00:00",
-        "hash_strict": "668949dfe823",
-        "hash_medium": "51ca0882e03e"
-      },
-      {
-        "title": "When GPU Utilization Lies: The Hidden Systems Problem Slowing Modern AI",
-        "date": "2026-06-11T15:06:11.959729+00:00",
-        "hash_strict": "4246e261f821",
-        "hash_medium": "331f5aa159f5"
-      },
       {
         "title": "How to migrate from Oracle to Amazon Aurora PostgreSQL using AWS CloudFormation (Part 1)",
         "date": "2026-06-12T08:11:10.952464+00:00",
@@ -1956,6 +1950,42 @@
         "date": "2026-06-25T13:35:49.882780+00:00",
         "hash_strict": "2ff13a3cedd8",
         "hash_medium": "a57212d67b10"
+      },
+      {
+        "title": "Scale Enterprise AI With Dataiku Cobuild on Snowflake",
+        "date": "2026-06-26T07:10:12.843544+00:00",
+        "hash_strict": "644738f991fb",
+        "hash_medium": "ad7eea663995"
+      },
+      {
+        "title": "5 Open Source Omni AI Models That Handle Text, Images, Audio, and Video",
+        "date": "2026-06-26T07:10:12.843664+00:00",
+        "hash_strict": "83979514dd7d",
+        "hash_medium": "38c707296e1d"
+      },
+      {
+        "title": "Vector RAG Isn\u2019t Enough \u2014 I Built a Context Graph Layer for Multi-Agent Memory",
+        "date": "2026-06-26T07:10:12.843767+00:00",
+        "hash_strict": "5819d3739dc1",
+        "hash_medium": "b68ab456c145"
+      },
+      {
+        "title": "3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal",
+        "date": "2026-06-26T07:10:12.843879+00:00",
+        "hash_strict": "ae9cc3415e04",
+        "hash_medium": "ba2518c6f3b7"
+      },
+      {
+        "title": "The Hot Path Belongs to GBDTs, Agents Own the Cold Path: A Payment-Fraud Benchmark",
+        "date": "2026-06-26T07:10:12.843971+00:00",
+        "hash_strict": "0f051be9643e",
+        "hash_medium": "51bf896e0d2f"
+      },
+      {
+        "title": "Beyond the Straight Line: Choosing Between OLS, Interaction Terms, and Tweedie Regression",
+        "date": "2026-06-26T07:10:12.844040+00:00",
+        "hash_strict": "1bc1be057a7d",
+        "hash_medium": "2da1249e59bc"
       }
     ]
   }
