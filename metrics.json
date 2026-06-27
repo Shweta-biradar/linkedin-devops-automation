@@ -1,11 +1,11 @@
 {
-  "total_posts": 401,
-  "posts_today": 1,
+  "total_posts": 402,
+  "posts_today": 2,
   "last_post_date": "2026-06-27",
   "formats_used": {
     "case_study": 61,
     "deep_dive": 42,
-    "lessons": 67,
+    "lessons": 68,
     "digest": 220,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 390,
+    "towardsdatascience.com": 391,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-28",
-      "time": "2026-05-28T10:40:39.839162+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-28",
       "time": "2026-05-28T14:49:46.454432+00:00",
@@ -1196,13 +1188,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-27",
+      "time": "2026-06-27T09:14:47.792107+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 374,
-  "last_post_content": "\ud83d\udcda Lessons from the trenches.\nStrategic thinkers analyze production outcomes.\n\n\ud83d\udcda Case: Amplify the Expert: A Philosophy for Building Enterprise RAG\n\nThe story: ...\nEnterprise Document Intelligence [Vol.1 #M1] - The thesis behind every architectural choice in this series The post Amplify the Expert: A Philosophy for Building Enterprise RAG appeared first on Towards Data Science .\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f CI/CD observability matters as much as application observability\n\u2611\ufe0f Feature flags decouple deployment risk from feature risk\n\u2611\ufe0f Track results and optimize\n\nWhich testing strategy gives you the most confidence?\n\n#BusinessIntelligence #DBT #Snowflake #PostgreSQL #Insights #Redshift #Alteryx\n\n\u2753 Have you seen similar patterns?\n\nDetails here: https://towardsdatascience.com/amplify-the-expert-a-philosophy-for-building-enterprise-rag/\n\n#Alteryx #Airflow #Oracle #Snowflake #Python #DataAnalyst #Insights",
-  "last_post_format": "case_study",
+  "posts_created": 375,
+  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat would you add to this list?\n\n#SQL #Airflow #Oracle #PowerBI #DataWarehouse #DataVisualization #SSRS\n\n\u2753 Which lesson resonates most with your team?\n\n#Redshift #Reporting #PowerBI #SSAS #Databricks #Airflow #DataWarehouse",
+  "last_post_format": "lessons",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-27T06:45:38.204648+00:00"
+  "last_post_timestamp": "2026-06-27T09:14:47.793281+00:00"
 }

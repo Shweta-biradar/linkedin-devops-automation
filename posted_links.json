@@ -1259,46 +1259,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476526136219312128",
-    "last_posted_at_utc": "2026-06-27T06:45:38.202337+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7476563673503920128",
+    "last_posted_at_utc": "2026-06-27T09:14:47.788564+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Prompt chaining explained: how to build reasoning pipelines in Python",
-        "date": "2026-06-13T07:14:20.207779+00:00",
-        "hash_strict": "d64b90806ee9",
-        "hash_medium": "543341c5df11"
-      },
-      {
-        "title": "LangChain agents tutorial: build a multi-step workflow in Python",
-        "date": "2026-06-13T07:14:20.207907+00:00",
-        "hash_strict": "5fe02c34db8d",
-        "hash_medium": "e5931f546a63"
-      },
-      {
-        "title": "Snowflake Ventures Invests in Jedify to Advance Enterprise AI",
-        "date": "2026-06-13T07:14:20.207985+00:00",
-        "hash_strict": "1abe5aa1c600",
-        "hash_medium": "1a0fe0fc525d"
-      },
-      {
-        "title": "Access Amazon S3 data files directly using AWS Lake Formation permissions",
-        "date": "2026-06-13T07:14:20.208052+00:00",
-        "hash_strict": "66d5154f6e91",
-        "hash_medium": "5581dcc01f00"
-      },
-      {
-        "title": "Why Decade-Old Residual Connections Still Power All of AI (And Why That\u2019s a Problem)",
-        "date": "2026-06-13T07:14:20.208128+00:00",
-        "hash_strict": "fc45796c1e0a",
-        "hash_medium": "73ce72f3141a"
-      },
-      {
-        "title": "When PyMuPDF Can\u2019t See the Table: Parse PDFs for RAG with Azure Layout",
-        "date": "2026-06-13T07:14:20.208215+00:00",
-        "hash_strict": "7dd9b0fcc304",
-        "hash_medium": "342b183740a0"
-      },
       {
         "title": "A Harness for Every Task: Putting a Team of Claudes on One Job",
         "date": "2026-06-13T09:45:05.321183+00:00",
@@ -1976,6 +1940,12 @@
         "date": "2026-06-27T06:45:38.202299+00:00",
         "hash_strict": "c775db442bb9",
         "hash_medium": "6b8624145859"
+      },
+      {
+        "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
+        "date": "2026-06-27T09:14:47.788432+00:00",
+        "hash_strict": "18f5c4722504",
+        "hash_medium": "1ad3c0643770"
       }
     ]
   }
