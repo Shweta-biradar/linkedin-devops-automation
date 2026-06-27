@@ -1259,22 +1259,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476563673503920128",
-    "last_posted_at_utc": "2026-06-27T09:14:47.788564+00:00",
+    "last_post_id": "urn:li:share:7476618985925525504",
+    "last_posted_at_utc": "2026-06-27T12:54:35.330230+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "A Harness for Every Task: Putting a Team of Claudes on One Job",
-        "date": "2026-06-13T09:45:05.321183+00:00",
-        "hash_strict": "1fdb16d2516b",
-        "hash_medium": "451f380dd144"
-      },
-      {
-        "title": "Navigating AI Shifts in Modern Data Engineering",
-        "date": "2026-06-13T09:45:05.321314+00:00",
-        "hash_strict": "0c33aa9bc91d",
-        "hash_medium": "0b746bc8302f"
-      },
       {
         "title": "Avoid shared database accounts with federated IAM authentication",
         "date": "2026-06-13T13:04:22.878536+00:00",
@@ -1944,6 +1932,12 @@
       {
         "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
         "date": "2026-06-27T09:14:47.788432+00:00",
+        "hash_strict": "18f5c4722504",
+        "hash_medium": "1ad3c0643770"
+      },
+      {
+        "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
+        "date": "2026-06-27T12:54:35.330099+00:00",
         "hash_strict": "18f5c4722504",
         "hash_medium": "1ad3c0643770"
       }

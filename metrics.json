@@ -1,11 +1,11 @@
 {
-  "total_posts": 402,
-  "posts_today": 2,
+  "total_posts": 403,
+  "posts_today": 3,
   "last_post_date": "2026-06-27",
   "formats_used": {
     "case_study": 61,
     "deep_dive": 42,
-    "lessons": 68,
+    "lessons": 69,
     "digest": 220,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 391,
+    "towardsdatascience.com": 392,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,15 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-28",
-      "time": "2026-05-28T14:49:46.454432+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-29",
       "time": "2026-05-29T07:10:35.908838+00:00",
@@ -1196,13 +1187,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-27",
+      "time": "2026-06-27T12:54:35.333672+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 375,
-  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nIndustry leaders share what teams wish they knew earlier.\n\nTopic: Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable\n\n1\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n2\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat would you add to this list?\n\n#SQL #Airflow #Oracle #PowerBI #DataWarehouse #DataVisualization #SSRS\n\n\u2753 Which lesson resonates most with your team?\n\n#Redshift #Reporting #PowerBI #SSAS #Databricks #Airflow #DataWarehouse",
+  "posts_created": 376,
+  "last_post_content": "\ud83d\udcdd Lessons we learned the hard way.\nStrategic thinkers highlight recurring patterns.\n\nTopic: Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable\n\n1\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nShare your hard-won wisdom below.\n\n#Redshift #Oracle #DataAnalyst #Insights #SSAS #Qlik #DBT\n\n\u2753 What would you add to this list?\n\n#SAPHANA #Redshift #Snowflake #Airflow #Oracle #SSIS #Statistics",
   "last_post_format": "lessons",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-27T09:14:47.793281+00:00"
+  "last_post_timestamp": "2026-06-27T12:54:35.335116+00:00"
 }
