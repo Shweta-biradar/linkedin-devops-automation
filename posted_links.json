@@ -1260,16 +1260,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476933085712891905",
-    "last_posted_at_utc": "2026-06-28T09:42:42.543384+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7476981698774069248",
+    "last_posted_at_utc": "2026-06-28T12:55:52.787529+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Best Data Analytics Courses in 2026",
-        "date": "2026-06-14T10:04:44.686120+00:00",
-        "hash_strict": "32940bf32921",
-        "hash_medium": "b756ca6aed89"
-      },
       {
         "title": "Best Data Analytics Courses in 2026",
         "date": "2026-06-14T13:14:31.720342+00:00",
@@ -1927,6 +1921,12 @@
       {
         "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
         "date": "2026-06-28T09:42:42.543300+00:00",
+        "hash_strict": "18f5c4722504",
+        "hash_medium": "1ad3c0643770"
+      },
+      {
+        "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
+        "date": "2026-06-28T12:55:52.787393+00:00",
         "hash_strict": "18f5c4722504",
         "hash_medium": "1ad3c0643770"
       }

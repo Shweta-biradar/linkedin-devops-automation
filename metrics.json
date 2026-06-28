@@ -1,11 +1,11 @@
 {
-  "total_posts": 405,
-  "posts_today": 2,
+  "total_posts": 406,
+  "posts_today": 3,
   "last_post_date": "2026-06-28",
   "formats_used": {
     "case_study": 62,
     "deep_dive": 42,
-    "lessons": 70,
+    "lessons": 71,
     "digest": 220,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 394,
+    "towardsdatascience.com": 395,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-29",
-      "time": "2026-05-29T14:19:52.268793+00:00",
-      "format": "lessons",
-      "sources": [
-        "kdnuggets.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-30",
       "time": "2026-05-30T06:38:27.936410+00:00",
@@ -1192,13 +1182,21 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-28",
+      "time": "2026-06-28T12:55:52.789595+00:00",
+      "format": "lessons",
+      "sources": [
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 378,
-  "last_post_content": "\ud83d\udcca Case study: real-world lessons.\nAnalytics experts highlight real-world results.\n\n\u23f1\ufe0f Timeline: Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable\n\n\u2192 Challenge: A practical data engineering onboarding workflow for environment setup, automated testing, and AI-assisted development. The post Your First Task as a Data Engineer in a New...\n\u2192 Learning: improves delivery speed without sacrificing safety.\n\nCore principles:\n\u2022 Pipeline as code prevents configuration drift and bus factor issues\n\u2022 Deployment frequency correlates with stability when done right\n\u2022 Continuous improvement through measurement\n\nWhat pipeline failures taught you the most?\n\n#CloudData #Redshift #Dashboard #Alteryx #AdvancedAnalytics #BigQuery #DataAnalyst\n\n\u2753 What\u2019s the gap between this and your reality?\n\n\ud83e\udd1d Join the discussion: https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/\n\n#DataVisualization #PostgreSQL #Dashboard #MySQL #Automation #Looker #MLOps",
-  "last_post_format": "case_study",
+  "posts_created": 379,
+  "last_post_content": "\u26a1 Career-changing lessons.\nPlatform architects surface lessons from production.\n\nTopic: Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat would you add to this list?\n\n#BigQuery #Analytics #SSIS #SAPHANA #Oracle #CloudData #Insights\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Databricks #Dashboard #DataWarehouse #Automation #PostgreSQL #Analytics #SAPHANA",
+  "last_post_format": "lessons",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-28T09:42:42.546535+00:00"
+  "last_post_timestamp": "2026-06-28T12:55:52.790755+00:00"
 }
