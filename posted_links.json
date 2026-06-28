@@ -1260,22 +1260,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476902066796273664",
-    "last_posted_at_utc": "2026-06-28T07:39:27.020661+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7476933085712891905",
+    "last_posted_at_utc": "2026-06-28T09:42:42.543384+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload",
-        "date": "2026-06-14T08:04:05.161581+00:00",
-        "hash_strict": "7bee7cef4739",
-        "hash_medium": "fafcc90b45f2"
-      },
-      {
-        "title": "Larger Context Windows Don\u2019t Fix RAG \u2014 So I Built a System That Does",
-        "date": "2026-06-14T08:04:05.161704+00:00",
-        "hash_strict": "1c075dbd35a2",
-        "hash_medium": "1fc5d3d7887b"
-      },
       {
         "title": "Best Data Analytics Courses in 2026",
         "date": "2026-06-14T10:04:44.686120+00:00",
@@ -1935,6 +1923,12 @@
         "date": "2026-06-28T07:39:27.020533+00:00",
         "hash_strict": "d5e0d713d28c",
         "hash_medium": "2e96df5a8040"
+      },
+      {
+        "title": "Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable",
+        "date": "2026-06-28T09:42:42.543300+00:00",
+        "hash_strict": "18f5c4722504",
+        "hash_medium": "1ad3c0643770"
       }
     ]
   }
