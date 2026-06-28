@@ -765,6 +765,7 @@
     "https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/",
     "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
     "https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-evaluation/",
+    "https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/",
     "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
     "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
     "https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/",
@@ -1259,22 +1260,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476618985925525504",
-    "last_posted_at_utc": "2026-06-27T12:54:35.330230+00:00",
+    "last_post_id": "urn:li:share:7476902066796273664",
+    "last_posted_at_utc": "2026-06-28T07:39:27.020661+00:00",
     "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Avoid shared database accounts with federated IAM authentication",
-        "date": "2026-06-13T13:04:22.878536+00:00",
-        "hash_strict": "9ce4bac1864f",
-        "hash_medium": "6c249ff779a6"
-      },
-      {
-        "title": "Solving the 3Blue1Brown String Probability Problem (Without AI)",
-        "date": "2026-06-13T13:04:22.878658+00:00",
-        "hash_strict": "eebf98336ea3",
-        "hash_medium": "6b528a77f82d"
-      },
       {
         "title": "Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload",
         "date": "2026-06-14T08:04:05.161581+00:00",
@@ -1940,6 +1929,12 @@
         "date": "2026-06-27T12:54:35.330099+00:00",
         "hash_strict": "18f5c4722504",
         "hash_medium": "1ad3c0643770"
+      },
+      {
+        "title": "We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.",
+        "date": "2026-06-28T07:39:27.020533+00:00",
+        "hash_strict": "d5e0d713d28c",
+        "hash_medium": "2e96df5a8040"
       }
     ]
   }
