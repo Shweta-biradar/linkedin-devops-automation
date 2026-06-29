@@ -1262,22 +1262,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7477278471581220864",
-    "last_posted_at_utc": "2026-06-29T08:35:08.960927+00:00",
-    "last_format": "case_study",
+    "last_post_id": "urn:li:share:7477323682248556545",
+    "last_posted_at_utc": "2026-06-29T11:34:47.992330+00:00",
+    "last_format": "lessons",
     "topic_titles": [
-      {
-        "title": "Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG",
-        "date": "2026-06-15T09:45:44.788606+00:00",
-        "hash_strict": "6bee7382a304",
-        "hash_medium": "ecc1a463813e"
-      },
-      {
-        "title": "4 Lines You Should Include in Your Claude Skill",
-        "date": "2026-06-15T09:45:44.788709+00:00",
-        "hash_strict": "3f2c58fb15fa",
-        "hash_medium": "286bb358b1d6"
-      },
       {
         "title": "The System Always Knows: Why Local Efficiency and System Performance Are Not the Same Problem",
         "date": "2026-06-15T12:50:38.184814+00:00",
@@ -1937,6 +1925,12 @@
         "date": "2026-06-29T08:35:08.960860+00:00",
         "hash_strict": "72ef48d47e56",
         "hash_medium": "3f41c5fc8eb7"
+      },
+      {
+        "title": "Running pgvector in production on Amazon Aurora PostgreSQL",
+        "date": "2026-06-29T11:34:47.992236+00:00",
+        "hash_strict": "7606fc624921",
+        "hash_medium": "9af3322d15e9"
       }
     ]
   }

@@ -1,11 +1,11 @@
 {
-  "total_posts": 407,
-  "posts_today": 1,
+  "total_posts": 408,
+  "posts_today": 2,
   "last_post_date": "2026-06-29",
   "formats_used": {
     "case_study": 63,
     "deep_dive": 42,
-    "lessons": 71,
+    "lessons": 72,
     "digest": 220,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 161,
+    "aws.amazon.com": 162,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-30",
-      "time": "2026-05-30T09:03:05.682004+00:00",
-      "format": "lessons",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-30",
       "time": "2026-05-30T12:48:36.086013+00:00",
@@ -1188,13 +1180,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "time": "2026-06-29T11:34:47.994062+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 380,
-  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udcda Case: I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.\n\nThe story: A concrete bias\u2013variance lesson: why the smallest model had the best cross-validated fit, and how to know when to reach for the big hammer.\n\nThe insight: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Production systems teach you things documentation never will\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#Alteryx #DataAnalyst #Oracle #PostgreSQL #BigQuery #SQL #Snowflake\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/\n\n#MLOps #Python #Redshift #PostgreSQL #Insights #Alteryx #BigQuery",
-  "last_post_format": "case_study",
+  "posts_created": 381,
+  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nAnalytics experts reveal what sticks.\n\nTopic: Running pgvector in production on Amazon Aurora PostgreSQL\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#ETL #CloudData #Alteryx #DataAnalyst #Python #Analytics #Statistics\n\n\u2753 What would you add to this list?\n\n#SQL #Analytics #Snowflake #Insights #Dashboard #SSAS #Reporting",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-29T08:35:08.963939+00:00"
+  "last_post_timestamp": "2026-06-29T11:34:47.994959+00:00"
 }
