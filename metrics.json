@@ -1,9 +1,9 @@
 {
-  "total_posts": 406,
-  "posts_today": 3,
-  "last_post_date": "2026-06-28",
+  "total_posts": 407,
+  "posts_today": 1,
+  "last_post_date": "2026-06-29",
   "formats_used": {
-    "case_study": 62,
+    "case_study": 63,
     "deep_dive": 42,
     "lessons": 71,
     "digest": 220,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 395,
+    "towardsdatascience.com": 397,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,17 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-30",
-      "time": "2026-05-30T06:38:27.936410+00:00",
-      "format": "digest",
-      "sources": [
-        "www.dataquest.io",
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-30",
       "time": "2026-05-30T09:03:05.682004+00:00",
@@ -1190,13 +1179,22 @@
       "sources": [
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "time": "2026-06-29T08:35:08.962828+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 379,
-  "last_post_content": "\u26a1 Career-changing lessons.\nPlatform architects surface lessons from production.\n\nTopic: Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n3\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n\nThe pattern: improves delivery speed without sacrificing safety..\n\nWhat would you add to this list?\n\n#BigQuery #Analytics #SSIS #SAPHANA #Oracle #CloudData #Insights\n\n\u2753 What\u2019s a lesson that changed your approach?\n\n#Databricks #Dashboard #DataWarehouse #Automation #PostgreSQL #Analytics #SAPHANA",
-  "last_post_format": "lessons",
+  "posts_created": 380,
+  "last_post_content": "\u26a1 Impactful strategies in action.\nAnalytics experts highlight real-world results.\n\n\ud83d\udcda Case: I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.\n\nThe story: A concrete bias\u2013variance lesson: why the smallest model had the best cross-validated fit, and how to know when to reach for the big hammer.\n\nThe insight: practical signal for building reliable systems.\n\nCore principles:\n\u2022 Production systems teach you things documentation never will\n\u2022 The best architectures optimize for change, not just current requirements\n\u2022 Continuous improvement through measurement\n\nHow do you keep learning while managing operational load?\n\n#Alteryx #DataAnalyst #Oracle #PostgreSQL #BigQuery #SQL #Snowflake\n\n\u2753 Would this work in your environment?\n\n\ud83d\udca1 Dive deeper into this topic: https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/\n\n#MLOps #Python #Redshift #PostgreSQL #Insights #Alteryx #BigQuery",
+  "last_post_format": "case_study",
   "last_post_sources": [
     "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-28T12:55:52.790755+00:00"
+  "last_post_timestamp": "2026-06-29T08:35:08.963939+00:00"
 }

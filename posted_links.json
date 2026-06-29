@@ -596,6 +596,7 @@
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
     "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
+    "https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/",
     "https://towardsdatascience.com/i-quit-my-130000-ml-engineer-job-after-learning-4-lessons/",
     "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
     "https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/",
@@ -712,6 +713,7 @@
     "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
     "https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/",
     "https://towardsdatascience.com/system-design-series-apache-flink-from-10000-feet-and-building-a-flink-powered-recommendation-engine/",
+    "https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/",
     "https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/",
     "https://towardsdatascience.com/tds-newsletter-vibe-coding-is-great-until-its-not/",
     "https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/",
@@ -1260,16 +1262,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7476981698774069248",
-    "last_posted_at_utc": "2026-06-28T12:55:52.787529+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7477278471581220864",
+    "last_posted_at_utc": "2026-06-29T08:35:08.960927+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Best Data Analytics Courses in 2026",
-        "date": "2026-06-14T13:14:31.720342+00:00",
-        "hash_strict": "32940bf32921",
-        "hash_medium": "b756ca6aed89"
-      },
       {
         "title": "Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG",
         "date": "2026-06-15T09:45:44.788606+00:00",
@@ -1929,6 +1925,18 @@
         "date": "2026-06-28T12:55:52.787393+00:00",
         "hash_strict": "18f5c4722504",
         "hash_medium": "1ad3c0643770"
+      },
+      {
+        "title": "Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows",
+        "date": "2026-06-29T08:35:08.960755+00:00",
+        "hash_strict": "a2ac6df2752b",
+        "hash_medium": "7239c7ca547d"
+      },
+      {
+        "title": "I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.",
+        "date": "2026-06-29T08:35:08.960860+00:00",
+        "hash_strict": "72ef48d47e56",
+        "hash_medium": "3f41c5fc8eb7"
       }
     ]
   }
