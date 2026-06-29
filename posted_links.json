@@ -559,6 +559,7 @@
     "https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/",
     "https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/",
     "https://towardsdatascience.com/how-to-build-your-own-custom-llm-memory-layer-from-scratch/",
+    "https://towardsdatascience.com/how-to-choose-between-small-and-frontier-models/",
     "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
     "https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/",
     "https://towardsdatascience.com/how-to-create-production-ready-code-with-claude-code/",
@@ -593,6 +594,7 @@
     "https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/",
     "https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/",
     "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
+    "https://towardsdatascience.com/i-completed-five-years-in-analytics-consulting-5-lessons-that-changed-how-i-work/",
     "https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/",
     "https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/",
     "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
@@ -1262,16 +1264,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7477323682248556545",
-    "last_posted_at_utc": "2026-06-29T11:34:47.992330+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7477374825712472065",
+    "last_posted_at_utc": "2026-06-29T14:58:01.528297+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "The System Always Knows: Why Local Efficiency and System Performance Are Not the Same Problem",
-        "date": "2026-06-15T12:50:38.184814+00:00",
-        "hash_strict": "d66d8302ce6e",
-        "hash_medium": "db6326d27090"
-      },
       {
         "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
         "date": "2026-06-15T16:27:31.343302+00:00",
@@ -1931,6 +1927,18 @@
         "date": "2026-06-29T11:34:47.992236+00:00",
         "hash_strict": "7606fc624921",
         "hash_medium": "9af3322d15e9"
+      },
+      {
+        "title": "I Completed Five Years in Analytics Consulting: 5 Lessons That Changed How I Work",
+        "date": "2026-06-29T14:58:01.528062+00:00",
+        "hash_strict": "1e6a2a352257",
+        "hash_medium": "045333c82a2e"
+      },
+      {
+        "title": "How to Choose Between Small and Frontier Models",
+        "date": "2026-06-29T14:58:01.528223+00:00",
+        "hash_strict": "1ea39cf1becb",
+        "hash_medium": "d61745de4d25"
       }
     ]
   }

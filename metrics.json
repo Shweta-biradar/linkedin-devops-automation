@@ -1,9 +1,9 @@
 {
-  "total_posts": 408,
-  "posts_today": 2,
+  "total_posts": 409,
+  "posts_today": 3,
   "last_post_date": "2026-06-29",
   "formats_used": {
-    "case_study": 63,
+    "case_study": 64,
     "deep_dive": 42,
     "lessons": 72,
     "digest": 220,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 397,
+    "towardsdatascience.com": 399,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-30",
-      "time": "2026-05-30T12:48:36.086013+00:00",
-      "format": "deep_dive",
-      "sources": [
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-31",
       "time": "2026-05-31T07:13:18.099277+00:00",
@@ -1188,13 +1180,22 @@
       "sources": [
         "aws.amazon.com"
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "time": "2026-06-29T14:58:01.530380+00:00",
+      "format": "case_study",
+      "sources": [
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 381,
-  "last_post_content": "\ud83d\udd0d The costly mistakes (so you don't repeat them).\nAnalytics experts reveal what sticks.\n\nTopic: Running pgvector in production on Amazon Aurora PostgreSQL\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Automation beats heroics. Every manual step is a future incident.\n3\ufe0f\u20e3 Progressive rollouts save sleep. 1% \u2192 10% \u2192 100%.\n\nThe pattern: enhances system reliability and team productivity.\n\nShare your hard-won wisdom below.\n\n#ETL #CloudData #Alteryx #DataAnalyst #Python #Analytics #Statistics\n\n\u2753 What would you add to this list?\n\n#SQL #Analytics #Snowflake #Insights #Dashboard #SSAS #Reporting",
-  "last_post_format": "lessons",
+  "posts_created": 382,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: I Completed Five Years in Analytics Consulting: 5 Lessons That Changed How I Work\n\nThe story: The tools I use for analytics and reporting have changed more than I expected, yet my questions for any analytics project haven't moved much.\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Production systems teach you things documentation never will\n\u2611\ufe0f Operational simplicity beats architectural elegance every time\n\u2611\ufe0f Track results and optimize\n\nWhat production experience changed how you design systems?\n\n#DataVisualization #Oracle #ETL #Alteryx #PostgreSQL #SSRS #Statistics\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcd6 https://towardsdatascience.com/i-completed-five-years-in-analytics-consulting-5-lessons-that-changed-how-i-work/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DBT #DataVisualization #Alteryx #Databricks",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "aws.amazon.com"
+    "towardsdatascience.com"
   ],
-  "last_post_timestamp": "2026-06-29T11:34:47.994959+00:00"
+  "last_post_timestamp": "2026-06-29T14:58:01.531528+00:00"
 }
