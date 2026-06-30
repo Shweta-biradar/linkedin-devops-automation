@@ -1,11 +1,11 @@
 {
-  "total_posts": 409,
-  "posts_today": 3,
-  "last_post_date": "2026-06-29",
+  "total_posts": 410,
+  "posts_today": 1,
+  "last_post_date": "2026-06-30",
   "formats_used": {
     "case_study": 64,
     "deep_dive": 42,
-    "lessons": 72,
+    "lessons": 73,
     "digest": 220,
     "lessons_learned": 2,
     "technical_deep_dives": 3,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 162,
+    "aws.amazon.com": 163,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -40,7 +40,7 @@
     "blog.jetbrains.com": 25,
     "www.bleepingcomputer.com": 27,
     "martinfowler.com": 2,
-    "towardsdatascience.com": 399,
+    "towardsdatascience.com": 401,
     "www.snowflake.com": 126,
     "kdnuggets.com": 73,
     "techcrunch.com": 6,
@@ -303,16 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-31",
-      "time": "2026-05-31T07:13:18.099277+00:00",
-      "format": "lessons",
-      "sources": [
-        "towardsdatascience.com",
-        "towardsdatascience.com",
-        "towardsdatascience.com"
-      ]
-    },
     {
       "date": "2026-05-31",
       "time": "2026-05-31T09:32:39.748034+00:00",
@@ -1189,13 +1179,24 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-30",
+      "time": "2026-06-30T07:09:45.018085+00:00",
+      "format": "lessons",
+      "sources": [
+        "aws.amazon.com",
+        "towardsdatascience.com",
+        "towardsdatascience.com"
+      ]
     }
   ],
-  "posts_created": 382,
-  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nIndustry leaders reveal what works (and what doesn't).\n\n\ud83d\udcda Case: I Completed Five Years in Analytics Consulting: 5 Lessons That Changed How I Work\n\nThe story: The tools I use for analytics and reporting have changed more than I expected, yet my questions for any analytics project haven't moved much.\n\nThe insight: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Production systems teach you things documentation never will\n\u2611\ufe0f Operational simplicity beats architectural elegance every time\n\u2611\ufe0f Track results and optimize\n\nWhat production experience changed how you design systems?\n\n#DataVisualization #Oracle #ETL #Alteryx #PostgreSQL #SSRS #Statistics\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udcd6 https://towardsdatascience.com/i-completed-five-years-in-analytics-consulting-5-lessons-that-changed-how-i-work/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DBT #DataVisualization #Alteryx #Databricks",
-  "last_post_format": "case_study",
+  "posts_created": 383,
+  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nAnalytics experts reveal what sticks.\n\nTopic: How Far Can Classical NLP Go? From Bag-of-Words to Stacking on Spooky Author Identification\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Reporting #DBT #Dashboard #SQL #DataAnalyst #PowerBI #Airflow\n\n\u2753 What would you add to this list?\n\n#Airflow #SAPHANA #BigQuery #Reporting #BusinessIntelligence #Automation #Dashboard",
+  "last_post_format": "lessons",
   "last_post_sources": [
-    "towardsdatascience.com"
+    "towardsdatascience.com",
+    "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-29T14:58:01.531528+00:00"
+  "last_post_timestamp": "2026-06-30T07:09:45.019220+00:00"
 }
