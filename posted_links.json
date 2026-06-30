@@ -1267,22 +1267,10 @@
       "7ad46caf2f57": "2026-03-22T05:09:08.859533+00:00",
       "d60168be6ef0": "2026-03-22T05:09:08.859590+00:00"
     },
-    "last_post_id": "urn:li:share:7477619368223412225",
-    "last_posted_at_utc": "2026-06-30T07:09:45.016163+00:00",
-    "last_format": "lessons",
+    "last_post_id": "urn:li:share:7477664238744940544",
+    "last_posted_at_utc": "2026-06-30T10:08:03.277387+00:00",
+    "last_format": "case_study",
     "topic_titles": [
-      {
-        "title": "Simplified Oracle connectivity in Power BI (Preview)",
-        "date": "2026-06-16T09:10:38.140563+00:00",
-        "hash_strict": "8fb8e067de10",
-        "hash_medium": "ba25b9b93609"
-      },
-      {
-        "title": "What's New with Dynamic Tables \u2014 Faster Refresh",
-        "date": "2026-06-16T09:10:38.140673+00:00",
-        "hash_strict": "baa0a27466c0",
-        "hash_medium": "5ed2e9a2e0c1"
-      },
       {
         "title": "Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric",
         "date": "2026-06-16T11:44:22.091126+00:00",
@@ -1942,6 +1930,12 @@
         "date": "2026-06-30T07:09:45.016097+00:00",
         "hash_strict": "e5c7d8046d20",
         "hash_medium": "99be6e1f0aeb"
+      },
+      {
+        "title": "Amazon Redshift delivers faster performance for BI dashboards and real-time analytics",
+        "date": "2026-06-30T10:08:03.277270+00:00",
+        "hash_strict": "755f9db736b5",
+        "hash_medium": "09538a7a42bb"
       }
     ]
   }

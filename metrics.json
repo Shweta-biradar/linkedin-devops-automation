@@ -1,9 +1,9 @@
 {
-  "total_posts": 410,
-  "posts_today": 1,
+  "total_posts": 411,
+  "posts_today": 2,
   "last_post_date": "2026-06-30",
   "formats_used": {
-    "case_study": 64,
+    "case_study": 65,
     "deep_dive": 42,
     "lessons": 73,
     "digest": 220,
@@ -25,7 +25,7 @@
     "blog.checkpoint.com": 5,
     "www.crowdstrike.com": 12,
     "blog.qualys.com": 1,
-    "aws.amazon.com": 163,
+    "aws.amazon.com": 164,
     "www.cncf.io": 6,
     "blog.rapid7.com": 1,
     "feeds.feedburner.com": 3,
@@ -303,14 +303,6 @@
     }
   ],
   "daily_history": [
-    {
-      "date": "2026-05-31",
-      "time": "2026-05-31T09:32:39.748034+00:00",
-      "format": "case_study",
-      "sources": [
-        "aws.amazon.com"
-      ]
-    },
     {
       "date": "2026-05-31",
       "time": "2026-05-31T12:57:35.445339+00:00",
@@ -1189,14 +1181,21 @@
         "towardsdatascience.com",
         "towardsdatascience.com"
       ]
+    },
+    {
+      "date": "2026-06-30",
+      "time": "2026-06-30T10:08:03.279579+00:00",
+      "format": "case_study",
+      "sources": [
+        "aws.amazon.com"
+      ]
     }
   ],
-  "posts_created": 383,
-  "last_post_content": "\ud83d\udcda Patterns that keep repeating.\nAnalytics experts reveal what sticks.\n\nTopic: How Far Can Classical NLP Go? From Bag-of-Words to Stacking on Spooky Author Identification\n\n1\ufe0f\u20e3 Infrastructure as code prevents configuration drift.\n2\ufe0f\u20e3 Blameless culture wins. Hide mistakes = repeat mistakes.\n3\ufe0f\u20e3 Observability isn't optional. You can't fix what you can't see.\n\nThe pattern: enhances system reliability and team productivity.\n\nWhat would you add to this list?\n\n#Reporting #DBT #Dashboard #SQL #DataAnalyst #PowerBI #Airflow\n\n\u2753 What would you add to this list?\n\n#Airflow #SAPHANA #BigQuery #Reporting #BusinessIntelligence #Automation #Dashboard",
-  "last_post_format": "lessons",
+  "posts_created": 384,
+  "last_post_content": "\ud83c\udfd7\ufe0f Production patterns in focus.\nAnalytics experts highlight real-world results.\n\n\ud83d\udccc Amazon Redshift delivers faster performance for BI dashboards and real-time analytics\n\nThe situation:\n\u21b3 Today, we\u2019re excited to announce a new performance optimization in Amazon Redshift that improves the response times of low-latency SQL queries, such as those used in real-time...\n\nKey takeaway:\n\u21b3 Why it matters: practical signal for building reliable systems.\n\nAction checklist:\n\u2611\ufe0f Metrics without context are just numbers - add business meaning\n\u2611\ufe0f Cardinality explosion will kill your monitoring budget\n\u2611\ufe0f Track results and optimize\n\nWhat observability blind spots have surprised you?\n\n#PowerBI #Automation #SAPHANA #SSRS #DataAnalyst #Databricks #Airflow\n\n\u2753 Have you seen similar patterns?\n\n\ud83d\udc49 https://aws.amazon.com/blogs/big-data/amazon-redshift-delivers-faster-performance-for-bi-dashboards-and-real-time-analytics/\n\n#PowerBI #BusinessIntelligence #DataAnalytics #DataVisualization #Dashboard #ETL #SSIS",
+  "last_post_format": "case_study",
   "last_post_sources": [
-    "towardsdatascience.com",
     "aws.amazon.com"
   ],
-  "last_post_timestamp": "2026-06-30T07:09:45.019220+00:00"
+  "last_post_timestamp": "2026-06-30T10:08:03.280820+00:00"
 }
