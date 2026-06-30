@@ -1937,6 +1937,8 @@
         "hash_strict": "755f9db736b5",
         "hash_medium": "09538a7a42bb"
       }
-    ]
+    ],
+    "last_error_at_utc": "2026-06-30T13:21:50.016630+00:00",
+    "last_error_msg": "No post_id returned"
   }
 }
