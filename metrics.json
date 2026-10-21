@@ -1,7 +1,7 @@
 {
   "total_posts": 411,
   "posts_today": 0,
-  "last_post_date": "2026-10-20",
+  "last_post_date": "2026-10-21",
   "formats_used": {
     "case_study": 65,
     "deep_dive": 42,
@@ -51,11 +51,6 @@
     "www.udacity.com": 4
   },
   "errors": [
-    {
-      "date": "2026-10-04",
-      "time": "2026-10-04T10:04:17.977921+00:00",
-      "error": "No post_id returned"
-    },
     {
       "date": "2026-10-04",
       "time": "2026-10-04T12:45:41.965425+00:00",
@@ -299,6 +294,11 @@
     {
       "date": "2026-10-20",
       "time": "2026-10-20T15:46:38.622248+00:00",
+      "error": "No post_id returned"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "2026-10-21T08:51:45.763306+00:00",
       "error": "No post_id returned"
     }
   ],
